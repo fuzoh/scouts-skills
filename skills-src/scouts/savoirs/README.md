@@ -26,7 +26,11 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 
 | fichier | sert à |
 |---|---|
+| `camp-orientation-et-meteo.md` | Lire une carte nationale, s'orienter (boussole, GPS, altimètre), estimer un temps de marche, interpréter la météo et l'orage en camp, enseigner la méthode NORDA, prévenir les accidents en course d'orientation, planifier une randonnée avec des enfants. |
+| `securite-corde-et-constructions.md` | Quelle corde et quel matériel, comment la contrôler et la remplacer, quels nœuds, comment monter et contrôler tyrolienne, pont de singe et rappel ; préparer, monter, contrôler et protéger tempête les constructions de camp (sarasine, mât, tour, cuisine, latrines, tentes). |
 | `securite-domaines.md` | Seuils des domaines montagne / hiver / eau, modules SSS et J+S exigés, exigences communes aux domaines, règles de la corde, des grandes constructions et de la baignade. |
+| `securite-eau-pratique.md` | Conduire une activité à l'eau avec des enfants, surveillance, consignes, test CSA, signes de noyade, jeux, matériel, urgence ; parcours de formation eau (module J+S Eau, module de sécurité, SSS, BLS-AED), équivalences, coûts, inscription. |
+| `securite-facteur-humain.md` | Pourquoi des maîtrises expérimentées se trompent, pièges de la perception, pression du groupe ou du programme, comment décider et renoncer, communication, retours, erreurs ; devoir de protection et de diligence, responsabilité du moniteur, du coach et de l'expert J+S. |
 | `securite-randonnee.md` | Planifier une randonnée sûre, calculer le temps de marche (kme/h), définir sorties, demi-tour, non-retour et passages clés, répartir les rôles de marche. |
 | `securite.md` | Quelles activités exigent un concept de sécurité (CdS), quand il n'est pas nécessaire, quels sont les trois types de CdS et leur contenu, comment fonctionne le 3x3. |
 | `urgence-et-protection.md` | Que faire en cas d'accident (schéma ORA, annonce, numéros officiels, aide-mémoire J+S), de crise, de doute ou de soupçon d'abus ; Helpline, cellule de crise, concept de protection PSA, médias, pharmacie et médicaments. |
