@@ -129,4 +129,11 @@ Essais du 19.10.2026 avec `skills` 1.7.2 et Pi 1.3.0, depuis une copie locale du
 - Zip de `scouts` : installé. Zip de `scouts-ressources` : refusé (1 954 fichiers, maximum 1 000), puis installé avec `SKILLS_EXTRACT_MAX_FILES=2000`.
 - `pi install <dépôt>` : Pi trouve les deux skills (`/skill:scouts`, `/skill:scouts-ressources`).
 
-Non testé : l'installation depuis GitHub (`fuzoh/scouts-skills`, `pi install git:…`) et la mise à jour (`npx skills update`, `pi update`), à faire après publication du dépôt ; l'utilisation réelle des skills dans Codex et Pi.
+Depuis GitHub, après publication (19.10.2026, `skills` 1.7.2, version 0.2.0 des skills) :
+
+- `npx skills add fuzoh/scouts-skills --list` trouve les deux skills.
+- `--skill scouts -a claude-code -a codex` et `--skill scouts-ressources -a pi` : installés dans `.agents/skills/`, lien symbolique dans `.claude/skills/` ; contenu identique au dépôt.
+- `npx skills update -p` : « All project skills are up to date ».
+- Zips de la dernière release avec `-g -a claude-code` : les deux installés (`scouts-ressources` avec `SKILLS_EXTRACT_MAX_FILES=2000`).
+
+Non testé : `pi install git:…` et `pi update` depuis GitHub ; une vraie mise à jour d'une version à la suivante ; l'utilisation réelle des skills dans Codex et Pi.

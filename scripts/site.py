@@ -94,9 +94,9 @@ th, td { padding: .55rem .8rem; text-align: left; vertical-align: top; border-bo
 tr:last-child td { border-bottom: 0; }
 th { background: var(--accent-fond); font-weight: 600; }
 tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--fond) 50%, transparent); }
-code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .9em; background: var(--code-fond); padding: .1em .35em; border-radius: 5px; }
+code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .9em; background: var(--code-fond); padding: .1em .35em; border-radius: 5px; overflow-wrap: anywhere; }
 pre { overflow-x: auto; padding: 1rem 1.15rem; background: var(--code-fond); border: 1px solid var(--bord); border-radius: 10px; line-height: 1.5; }
-pre code { background: none; padding: 0; }
+pre code { background: none; padding: 0; overflow-wrap: normal; }
 blockquote { margin: 1.25rem 0; padding: .75rem 1.1rem; border-left: 4px solid var(--accent); background: var(--accent-fond); border-radius: 0 10px 10px 0; }
 footer { color: var(--doux); font-size: .875rem; padding-bottom: 2.5rem; }
 footer p { margin: .4rem 0; }
