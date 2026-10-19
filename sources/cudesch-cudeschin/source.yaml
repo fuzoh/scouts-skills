@@ -1,0 +1,88 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-cudeschin                   # <issuer>-<slug>, stable, voir METHODE.md
+title: cudeschin – manuel numérique abrégé pour les responsables
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://cudeschin.pbs.ch/#!/article/01 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://cudeschin.pbs.ch/#!/article/01
+  title: Planifier une activité
+  slug: article-01
+- url: https://cudeschin.pbs.ch/#!/article/02
+  title: Réaliser l'activité
+  slug: article-02
+- url: https://cudeschin.pbs.ch/#!/article/03
+  title: Activité dans le sport de camp/trekking (J+S)
+  slug: article-03
+- url: https://cudeschin.pbs.ch/#!/article/04
+  title: Évaluation et feedback
+  slug: article-04
+- url: https://cudeschin.pbs.ch/#!/article/05
+  title: Programme trimestriel (PT)
+  slug: article-05
+- url: https://cudeschin.pbs.ch/#!/article/06
+  title: Séance
+  slug: article-06
+- url: https://cudeschin.pbs.ch/#!/article/07
+  title: Contact avec les parents
+  slug: article-07
+- url: https://cudeschin.pbs.ch/#!/article/08
+  title: Sécurité
+  slug: article-08
+- url: https://cudeschin.pbs.ch/#!/article/09
+  title: 3x3 – activités itinérantes
+  slug: article-09
+- url: https://cudeschin.pbs.ch/#!/article/10
+  title: Agir en cas d'urgence
+  slug: article-10
+- url: https://cudeschin.pbs.ch/#!/article/11
+  title: Créer des groupes
+  slug: article-11
+- url: https://cudeschin.pbs.ch/#!/article/12
+  title: Modifier un jeu
+  slug: article-12
+- url: https://cudeschin.pbs.ch/#!/article/13
+  title: Activités de patrouille
+  slug: article-13
+- url: https://cudeschin.pbs.ch/#!/article/14
+  title: Encadrement des responsables de patrouille
+  slug: article-14
+- url: https://cudeschin.pbs.ch/#!/article/15
+  title: Technique scoute
+  slug: article-15
+- url: https://cudeschin.pbs.ch/#!/article/16
+  title: Camp équitable
+  slug: article-16
+- url: https://cudeschin.pbs.ch/#!/article/98
+  title: Collection de liens
+  slug: article-98
+- url: https://cudeschin.pbs.ch/#!/article/99
+  title: Impressum
+  slug: article-99
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 53020a9079c37ad11d784ada6291936e209f9e6c59fb6bed18097df128358e15 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme, camp, securite]     # vocabulaire dans docs/taxonomie.md
+concepts: [planification, sport-de-camp, activite-de-camp, securite, premiers-secours, evaluation, jeu, durabilite]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'SPA Vue à routes en fragment (#!/article/NN), langue choisie côté client : rendu en locale fr-CH obligatoire (convert --render, ~40 s pour 18 articles). original/ contient désormais le DOM rendu (le sha256 du yaml reste celui des coquilles vides de l''ingest). Manifeste construit à la main (build/cudeschin.yaml) : 18 articles, titres du menu français. Rendu : texte français complet sur les articles 01-16 et 99 ; les emoji ZWJ des titres perdent leur liant (👨👩👧👦). Article 98 (collection de liens) très incomplet : trafilatura écarte les listes de liens nus (seule « Autres sujets » reste) et la page source contient un conflit git non résolu (<<<<<<< HEAD … kodack/main) ; consulter la page en ligne. Quelques paragraphes réduits à un lien perdus (art. 05 « 👉 Planification des activités »). Ancres <!-- #id --> conservées (ids des titres, emoji et accents compris) mais inutilisables en citation url#ancre, le fragment portant déjà la route : citer url + titre. Les liens internes du site pointent vers /article/NN sans #! (404 serveur). Impressum (art. 99) : n° de référence 3098.02.' # remarques humaines : qualité, pièges, chapitres à ignorer

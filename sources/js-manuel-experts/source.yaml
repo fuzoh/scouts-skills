@@ -1,0 +1,38 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-manuel-experts                   # <issuer>-<slug>, stable, voir METHODE.md
+title: Manuel J+S/esa pour les experts
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: 2024, 2e édition remaniée      # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 3e819eea211650f6bb8fc7bcce8016edd056fb800ca479e17c3b1431690d9f58 # (script)
+pages: 140                              # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [expert-js]                   # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation]                     # vocabulaire dans docs/taxonomie.md
+concepts: [expert-js, modele-de-formation, methodes-d-enseignement, qualification, accompagnement, retour, objectifs-d-apprentissage, securite]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history:  # versions précédentes : {version, published, sha256, retired}
+- version: édition antérieure (≤ 2021), 136 p.
+  published: null
+  sha256: b45906856a224d004a372fe34f8e908fcd0436b99c8286b46e6396490b4796c7
+  retired: '2026-10-17'
+
+notes: 'PDF chiffré AES-256 (copie interdite) ; pymupdf lit le texte sans mot de passe. Édition 2024 ; l''édition antérieure (136 p.) est dans history. Texte de bonne qualité, une colonne logique, page_offset 0. Pertes : illustrations (seules les légendes restent), étiquettes de schémas mêlées au texte (ex. 1.6 Camps, 3.5.1), bulles de citation fragmentées, titres de chapitre souvent en texte simple et chapeaux en <u>. Signets parasites retirés (Vorwort, Einleitung, Introduction rangée sous Avant-propos) ; titres 3.4.3 « Formes d''organisation » et 3.5.1 « Perception de soi » repris du sommaire imprimé (les signets disent « Modalités d''apprentissage » et « Générer des processus... »). Chap. 4 « Bonnes pratiques : boîte à outils » (p.135) n''est qu''une page de titre sans contenu ; bibliographie p.136-140. Les nœuds parents 1.4, 3.1-3.10 n''ont pas de texte propre (le chapeau du champ d''action est dans la première sous-section).' # remarques humaines : qualité, pièges, chapitres à ignorer

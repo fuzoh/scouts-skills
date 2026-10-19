@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-aide-memoire-meteorologie        # <issuer>-<slug>, stable, voir METHODE.md
+title: Aide-mémoire J+S « Météorologie »
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/454/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/2f/2010mbmeteof.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Poster J+S : schémas, diagrammes et tableaux (nébulosité/ensoleillement, précipitations, courbes de température et de pression, vents locaux, refroidissement éolien, types de nuages) rendus en fragments de texte et chiffres sans lien ; p.1-2. Valeurs « ? » = zones à remplir du poster.'                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2010'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 7f3683fd4af796e245a32ab315decfd600856b39bb2854dfbb4d8c3bee6083e5 # (script)
+pages: 2                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, securite]                # vocabulaire dans docs/taxonomie.md
+concepts: [montagne, hiver, securite, orientation]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Aide-mémoire « Météorologie » du manuel J+S Sports de montagne, éd. 2010 (30.905.1002 f), auteur G. Kappenberger, en français. Mise en page en colonnes et schémas : l''ordre de lecture est mêlé et la terminologie ISM p.1 est un tableau à deux colonnes aplati ; numéros de téléphone Météovox/Météocall d''époque, probablement périmés. Les règles de comportement face à l''orage (foudre, distance = secondes/3) sont complètes en p.2.'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

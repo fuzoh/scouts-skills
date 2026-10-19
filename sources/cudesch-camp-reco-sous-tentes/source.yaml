@@ -1,0 +1,39 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-camp-reco-sous-tentes       # <issuer>-<slug>, stable, voir METHODE.md
+title: Rapport de reconnaissance pour un camp sous tentes (formulaire)
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/10/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/29/07_lager_reko-zelt_fr_web_form.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete
+
+version: '2018'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 356ebc2e9c721a644c673a41c57a73dd4142735300811dcbff3eda8c122f3cfa # (script)
+pages: 2                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp]                          # vocabulaire dans docs/taxonomie.md
+concepts: [camp, securite, planification, administration-de-cours]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Formulaire vierge de reconnaissance (réf. MSdS.3052.03.fr) : les rubriques sont lisibles, les champs à remplir sont soulignés (balises <u>) ou en pointillés, sans valeur. Source d''origine : Manuel Moniteur sport de camp, EFSM, 1998.'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

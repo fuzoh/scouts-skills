@@ -1,0 +1,39 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-planification-activite      # <issuer>-<slug>, stable, voir METHODE.md
+title: Planification détaillée d'une activité (modèle vide)
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/463/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/be/fr-planification_detaillee_activite_modele_vide-v20181217-appendix.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete
+
+version: '2018-12-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: ce5d4695ca022537610e016bf20e1fd1b7f2a3c87cc6ce93234942d0d321f8d1 # (script)
+pages: 1                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: exemple                          # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme]                     # vocabulaire dans docs/taxonomie.md
+concepts: [planification, activite-de-camp, camp, evaluation]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Modèle vide de planification d''activité d''une page : rubriques et colonnes lisibles ; en-têtes de tableau répétés (Col2-Col4, cellules fusionnées dupliquées). Aucun numéro de référence.'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

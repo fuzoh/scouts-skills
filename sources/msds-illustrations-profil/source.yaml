@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-illustrations-profil           # <issuer>-<slug>, stable, voir METHODE.md
+title: Illustrations du profil du scoutisme (animaux des branches, méthodes)
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: de                                # fr | de (de seulement sans équivalent fr)
+type: image                             # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/1047/illustrations-profil-du-scoutisme # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/16/illustrationen_pfadiprofil.zip # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: triaged                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: vision                      # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: dd94aed00695fb31b6c39d0007d536e197ea277d9436b0be251c4be3713c1496 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme]                     # vocabulaire dans docs/taxonomie.md
+concepts: []                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: '23 PNG, noms de fichiers en allemand (animaux des branches, méthodes, Spinne, Vogel…). En ligne sous forme de zip (detail/1047), non haché : url posée à la main.' # remarques humaines : qualité, pièges, chapitres à ignorer

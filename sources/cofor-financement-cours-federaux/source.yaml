@@ -1,0 +1,37 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cofor-financement-cours-federaux    # <issuer>-<slug>, stable, voir METHODE.md
+title: Directive sur le financement des cours fédéraux du MSdS
+issuer: cofor                           # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 301606fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/71/directive-sur-le-financement-des-cours-federaux-msds # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/47/301606fr-directive_sur_le_financement_des_cours_federaux.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+applies_from: null
+applies_until: null
+nature: prescription
+published: 2026-03-24                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 12dba018ae51d00aff7e3b328a71eb2ecec9d3c322008f45c2722de8cee173df # (script)
+pages: 8                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur, cadre-cantonal]   # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [administration]                # vocabulaire dans docs/taxonomie.md
+concepts: [financement, administration-de-cours, caf, chef-de-cours]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Texte complet ; p.1 = couverture et table des matières, numérotation imprimée 1 à 5 (§2.1 à §5.2). Directive modifiée par la MF le 24.03.2026 ; tarifs maximaux CHF au §4 (p.5-8). Fractions et exposants parfois rendus en <sup>. applies_from : non précisé, adopté le 16.12.2007, modifié par la MF le 24.03.2026 (date d''application probable).'

@@ -1,0 +1,84 @@
+name: CI
+
+# Validation sans les originaux (non versionnés) : tests, registre, limites du skill léger,
+# puis régénération de skills/ qui doit être identique à ce qui est commité.
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verifier:
+    name: Tests, validation et skills/ à jour
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+        with:
+          python-version: "3.14"
+          enable-cache: true
+
+      # --locked : uv.lock est tenu à jour par release-please (extra-files de
+      # release-please-config.json), donc le PR de release ne le désynchronise pas.
+      # Si ce job échoue ici après un bump de version : lancer `uv lock` et commiter.
+      - name: Installer les dépendances
+        run: uv sync --locked
+
+      - name: Tests
+        run: uv run pytest -q
+
+      - name: Registre des sources
+        run: uv run inventory --check
+
+      - name: Limites du skill léger
+        run: uv run light check
+
+      - name: Regénérer skills/ et les zips
+        run: |
+          uv run light index
+          uv run build all --zip
+
+      - name: Vérifier que skills/ est à jour
+        run: |
+          fail=0
+          git diff --exit-code --stat -- skills/ skills-src/ || fail=1
+          untracked="$(git status --porcelain -- skills/ skills-src/)"
+          if [ -n "$untracked" ]; then
+            echo "Fichiers modifiés ou non suivis :"
+            echo "$untracked"
+            fail=1
+          fi
+          if [ "$fail" -ne 0 ]; then
+            echo "::error title=skills/ obsolète::skills/ n'est pas à jour : lancer \`just skills\` et commiter"
+            exit 1
+          fi
+
+      - name: Zip scouts (artefact)
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: scouts.zip
+          path: dist/scouts.zip
+          archive: false
+          retention-days: 7
+          if-no-files-found: error
+
+      - name: Zip scouts-ressources (artefact)
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: scouts-ressources.zip
+          path: dist/scouts-ressources.zip
+          archive: false
+          retention-days: 7
+          if-no-files-found: error

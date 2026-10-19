@@ -1,0 +1,87 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-programme                   # <issuer>-<slug>, stable, voir METHODE.md
+title: Programme – l'essence du scoutisme
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme
+  title: Programme – l'essence du scoutisme
+  slug: fr-books-programme-lessence-du-scoutisme
+- url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme/chapter/planifier-realiser-evaluer
+  title: 'Chapitre : Planifier – réaliser – évaluer'
+  slug: fr-books-programme-lessence-du-scoutisme-chapter-planifier
+- url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme/page/introduction
+  title: Introduction
+  slug: fr-books-programme-lessence-du-scoutisme-page-introduction
+- url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme/page/planifier
+  title: Planifier
+  slug: fr-books-programme-lessence-du-scoutisme-page-planifier
+- url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme/page/realiser
+  title: Réaliser
+  slug: fr-books-programme-lessence-du-scoutisme-page-realiser
+- url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme/page/evaluer
+  title: Evaluer
+  slug: fr-books-programme-lessence-du-scoutisme-page-evaluer
+- url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme/chapter/faire-un-programme
+  title: 'Chapitre : Faire un programme'
+  slug: fr-books-programme-lessence-du-scoutisme-chapter-faire-un
+- url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme/page/le-programme-trimestriel
+  title: Le programme trimestriel
+  slug: fr-books-programme-lessence-du-scoutisme-page-le-programme
+- url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme/page/lactivite
+  title: L'activité
+  slug: fr-books-programme-lessence-du-scoutisme-page-lactivite
+- url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme/page/le-week-end
+  title: Le week-end
+  slug: fr-books-programme-lessence-du-scoutisme-page-le-week-end
+- url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme/page/seance-pour-les-nouveaux
+  title: Séance pour les nouveaux
+  slug: fr-books-programme-lessence-du-scoutisme-page-seance-pour
+- url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme/page/ceremonie-de-promesse
+  title: Cérémonie de promesse
+  slug: fr-books-programme-lessence-du-scoutisme-page-ceremonie-de
+- url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme/page/la-totemisation
+  title: La totémisation
+  slug: fr-books-programme-lessence-du-scoutisme-page-la
+- url: https://cudesch.scout.ch/fr/books/programme-lessence-du-scoutisme/page/moments-calmes
+  title: Moments calmes
+  slug: fr-books-programme-lessence-du-scoutisme-page-moments-calmes
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete                      # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 0e1edba377dfbfc42f5a886cdb34d69e8440d0db9f5017e0ca51f70214bf0cfa # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme]                     # vocabulaire dans docs/taxonomie.md
+concepts: [planification, evaluation, objectifs-d-apprentissage, methodes-scoutes, branches, cudesch, jeu, projet] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history:  # versions précédentes : {version, published, sha256, retired}
+- version: '2018'
+  published: null
+  sha256: e85a8130cb51e1eb0df25cb1a95f8af73e236552509918ea2410e283466e703d
+  retired: 2026-10-17
+  note: édition PDF pfadi.swiss 05_programm_fr_web.pdf (36 p., MSdS.3036.04.fr), https://pfadi.swiss/media/files/d9/05_programm_fr_web.pdf, remplacée par le livre du cudesch numérique
+
+notes: 'Livre BookStack du cudesch numérique (cudesch.scout.ch, MSdS, en ligne depuis janvier 2026), 1 page d''accueil + 2 chapitres + 11 pages ; manifeste écrit à la main depuis la table des matières du livre, dans l''ordre de lecture. Les pages de chapitre portent l''introduction du chapitre suivie de la liste de ses pages avec extraits (lien et premières lignes), à ignorer. Ancres bkmrk-… conservées sur chaque titre (citation `id <url>#bkmrk-…`). Pertes trafilatura : images (schémas du cycle, exemples de PT, affiches), encadrés « Matériel supplémentaire » rendus en gras sans distinction ; la page Planifier (4 800 mots) reste un seul fichier (une page web = une section). Numéros § posés par l''agent (le site n''en a pas). Édition papier 2018 (MSdS.3036.04.fr) en history.' # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

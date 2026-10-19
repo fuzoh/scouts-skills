@@ -1,0 +1,36 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-profil-du-scoutisme            # <issuer>-<slug>, stable, voir METHODE.md
+title: Profil du scoutisme – les fondements pédagogiques du Mouvement Scout de Suisse
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 212002fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/profil-scoutisme # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/ce/212002fr_pfadiprofil_webb.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                       # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Tableaux par branche à plat dans raw.md : §3.1 p.11 (âge, classe scolaire), §3.2 p.12 (aperçu des branches), objectifs par branche §4.1-4.5 p.15-19. Récupérés par `just recover` (méthode layout) : recovered/p11, p12, p15 à p19. Non tabulés : bandeau SMT transversal du schéma p.11, illustrations.'
+
+version: '2025'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: c1705a2ce2132a35b2974a6e5eee4796a35eaff46866f4588fdec4cdc4107d7c # (script)
+pages: 41                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme]                     # vocabulaire dans docs/taxonomie.md
+concepts: [profil-du-scoutisme, relations, methodes-scoutes, branches, planification]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Sans signets ; index réécrit à la main d''après le sommaire imprimé (PageIndex doublait l''introduction et sortait les 8 méthodes du chap. 5). Doubles pages dans le PDF (p.12 et p.15-20 = 2 pages imprimées) : page_offset variable, 0 pour p.1-11, -1 pour p.13-14, -7 pour p.21-40 (retenu). Pertes dans raw.md actuel : tableaux par branche (Castors à Route) de §3.1 (p.11, tranches d''âge), §3.2 Aperçu des branches (p.12) et objectifs par branche des 5 relations §4.1-4.5 (p.15-19) ; seuls le titre et le chapeau de chaque relation restent. Un convert avec la reprise ignore_graphics (scripts/convert.py actuel) récupère ces tableaux en texte : relancer convert puis split, index.md reste valable. Le reste (chap. 1, 2, 5, 6) est complet. Impressum p.40-41 et pages blanches exclus.'                               # remarques humaines : qualité, pièges, chapitres à ignorer

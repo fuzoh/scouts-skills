@@ -1,0 +1,37 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-ethique-proximite-soutien        # <issuer>-<slug>, stable, voir METHODE.md
+title: 'Un sport respectueux des valeurs éthiques : proximité et soutien dans la pratique sportive'
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://www.mobilesport.ch/aktuell/un-sport-respectueux-des-valeurs-ethiques-proximite-et-soutien-dans-la-pratique-sportive/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://www.mobilesport.ch/aktuell/un-sport-respectueux-des-valeurs-ethiques-proximite-et-soutien-dans-la-pratique-sportive/
+  title: 'Un sport respectueux des valeurs éthiques : proximité et soutien dans la pratique sportive'
+  slug: aktuell-un-sport-respectueux-des-valeurs-ethiques-proximite
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2026-09-16                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 340a907488c08556b978a306411daf3c6a0b0e5ef1eba28de8e0a2da53b9c8d1 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, expert-js]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [prevention]                    # vocabulaire dans docs/taxonomie.md
+concepts: [ethique, boussole-ethique, psa, regles-de-comportement, methodes-d-enseignement]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Article mobilesport.ch (OFSPO), page unique ; le reste du site est hors périmètre. Converti sans --render (rendu playwright testé : markdown identique, html d''original/ conservé tel qu''ingéré). Pertes trafilatura : les 7 exercices sont des articles séparés (liens, hors source) dont seuls 5 titres + accroches sur 7 restent (« Fiable ou incertain ? » et « Attentionné ou inadéquat ? » perdus), ligne « Source : » des auteurs (Schreyer, Fournier OFSPO ; Iten Swiss Olympic ; Olloz) perdue, illustrations RISC et cercle des notions de proximité absentes (images). Pas d''ancre sur les titres h2 (seule #Exercices sur la grille d''exercices) : citation par url + titre.' # remarques humaines : qualité, pièges, chapitres à ignorer

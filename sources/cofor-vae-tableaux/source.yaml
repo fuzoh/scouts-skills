@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cofor-vae-tableaux                  # <issuer>-<slug>, stable, voir METHODE.md
+title: Valoriser les acquis du scoutisme dans le monde du travail – tableaux de compétences
+issuer: cofor                           # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 312801fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: xlsx                              # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/693/tools-valorisation-des-acquis-de-lexperience # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/28/312801fr_tools_-_valorisation_des_acquis_de_lexperience.xlsx # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 5db9d136d7c071fe003b9f11a0b2ab032320e082a218bd0af204019cee380cf8 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation]                     # vocabulaire dans docs/taxonomie.md
+concepts: [valorisation-des-acquis, benevolat, evaluation]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Hors formation de cadres : valorisation des compétences scoutes pour l''emploi. Une entrée par feuille : introduction, deux tableaux complets (RU / RG-formateur), résumé, exercice. Cellules à remplir vides (NaN) ; seules les colonnes « expérience », « compétence » et « champ » portent du contenu. Bug split : chaque entrée recevait tout raw.md, 01-05 découpés à la main par feuille (rejouer `split` les écraserait).'

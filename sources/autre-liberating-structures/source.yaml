@@ -1,0 +1,37 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: autre-liberating-structures         # <issuer>-<slug>, stable, voir METHODE.md
+title: 'Liberating Structures : catalogue'
+issuer: autre                           # msds | cofor | js | cudesch | autre
+issuer_detail: Liberating Structures (Lipmanowicz et McCandless) # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: en                                # site en anglais, résumés en français
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://www.liberatingstructures.com/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://www.liberatingstructures.com/
+  title: Liberating Structures
+  slug: index
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: catalogue                   # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: efb75cb09d62864ec99e1fa572556018248a1c279516968a8f068a44682dd9f6 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur, responsable]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation]                     # vocabulaire dans docs/taxonomie.md
+concepts: [methodes-d-enseignement, animation] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'robots.txt bloque les bots IA, catalogue depuis le sitemap et la mémoire de l''agent, sans téléchargement. Site en anglais (lang: en). Seule la page d''accueil a été ingérée (robots autorise * sur /). Le sitemap liste 43 structures ; Open Space Technology est ajouté de mémoire, hors sitemap, URL non vérifiée. Les 10 structures récentes (Options Place à Talking with Pixies) n''ont qu''un titre, résumé à compléter.' # remarques humaines : qualité, pièges, chapitres à ignorer

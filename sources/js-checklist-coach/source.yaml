@@ -1,0 +1,35 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-checklist-coach                  # <issuer>-<slug>, stable, voir METHODE.md
+title: Check-list coach J+S
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+nature: recommandation
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: c2f0d6c7342f0dabdd73bd013669c9da7682253229e72a4e95e1c7732c5ec44e # (script)
+pages: 2                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [coach-js]                    # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [administration]                # vocabulaire dans docs/taxonomie.md
+concepts: [coach-js, bdns, financement, accompagnement]   # termes du GLOSSARY.md
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Formulaire PDF à cases à cocher (« » dans raw.md) ; p.1 tableau à deux colonnes (rubrique / points) aplati : les intitulés de rubrique (Annonce de l''offre, Validation, Réalisation, Clôture du CdP, Contrôle, Utilisation des subventions) sont mêlés aux cases, et « Thématiser J+S au sein du club » apparaît en double. Daté Macolin septembre 2023. raw.md régénéré.'

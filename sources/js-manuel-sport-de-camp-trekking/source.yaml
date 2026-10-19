@@ -1,0 +1,38 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-manuel-sport-de-camp-trekking    # <issuer>-<slug>, stable, voir METHODE.md
+title: Manuel Sport de camp / Trekking pour les enfants et les jeunes
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2026'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 25c95e23baeabb3f3ccf901361680d48466bfb491d67e7ec2ae75b9ff0532221 # (script)
+pages: 80                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, coach-js, expert-js] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, sport]                   # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, trekking, activite-de-camp, formes-caracteristiques, camp, securite, planification, coach-js]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'PDF chiffré AES-256 (copie interdite) ; pymupdf lit le texte sans mot de passe. extranet ILIAS J+S, version 2026. page_offset 0. Texte globalement lisible mais pertes importantes dans raw.md actuel : fiches d''activité p.67, 69, 71, 73, 75 vides (la 2e fiche de chaque forme caractéristique), infographie « Gestion de la sécurité » et procédure ORA p.46-47 en image (vide), règles de comportement p.5 (ill. 1) en image, texte partiel p.8, 24, 31, 50-52, 64 (encadrés et schémas). Un convert avec la reprise ignore_graphics (scripts/convert.py actuel) récupère les fiches et la plupart de ces pages : relancer convert puis split, index.md reste valable. Tableau 3 (degrés de développement, p.19) : les cellules d''appréciation sont en allemand (calque caché « Gering/mittel ausgeprägt »). Ordre des blocs parfois inversé (titre de page après la colonne de gauche). Signets parasites retirés (Methodische Hinweise, Spielgrundformen, « Gestion de la sécurité » en double) ; p.42-45 = « Encadrer un groupe efficacement en recherchant la sécurité » d''après le sommaire imprimé. Pages de titre de chapitre (p.13, 23, 33, 63) sans contenu.' # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions:  # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}
+- section: 03-sequences-numeriques
+  pattern: 'Nom d.utilisateur\s*:\s*\*\*[^*]+\*\*\s*\n\s*Mot\sde\spasse\s*:\s*\*\*[^*]+\*\*'
+  replace: '[identifiants retirés]'

@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-modele-de-formation            # <issuer>-<slug>, stable, voir METHODE.md
+title: Modèle de formation du Mouvement Scout de Suisse – directives générales, structure de la formation et descriptifs des cours
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 300712fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/52/modele-de-formation-du-mouvement-scout-de-suisse-valable-a-partir-du-01012027 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/a5/300712fr_modeledeformation_20260519_mit_hinweis_gultigkeit.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                       # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Tableau des niveaux d''approfondissement p.16-18 : cases à icônes et en-têtes de cours pivotés perdus dans raw.md (Col2…Col11). Récupéré par `just recover` (icônes → libellés de la légende p.16) : recovered/p16-niveaux-d-approfondissement-par-contenu-et-par.md, 28 contenus × 10 cours.'
+
+version: Version 2027                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 3b9ed59a12a9afe0109fd465139201bd5f959e1b9ac4b074b48cb657b8c734d1 # (script)
+pages: 92                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur, cadre-cantonal, expert-js] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation, organisation]       # vocabulaire dans docs/taxonomie.md
+concepts: [modele-de-formation, niveau-d-approfondissement, objectifs-d-apprentissage, cours-de-base, cours-ru, cours-panorama, coach-js, caf]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history:  # versions précédentes : {version, published, sha256, retired}
+- version: Version 2027, export PDF du 17.07.2026 (même contenu)
+  published: null
+  sha256: 14b829fc8dabd4f4c45f707c6704a12daa6af6d8ba93ff65cc3423b291242c3a
+  retired: 2026-10-17
+
+notes: 'Version 2027 valable dès le 01.01.2027 (date interne 09.04.2026). Original = export en ligne du 26.08.2026 (sha256 du site) ; l''export local du 17.07.2026, même texte, mise en page différente, est dans history. La version 2024 (valable jusqu''au 31.12.2026, detail/1077) n''est pas dans le corpus. Texte complet dans raw.md. page_offset 4 (p.5 = page imprimée 1) ; p.1-4 (couverture, impressum, table des matières) hors index. Chaque descriptif de cours commence en haut de page : une section par cours (conditions cadres, prérequis, participation, fonction future, besoins, buts, objectifs numérotés, conseils méthodologiques), sans § faute de numérotation de chapitres ; les numéros 1., 3.2… des descriptifs sont ceux des buts et objectifs, à citer en clair (« Cours de base, objectif 3.2 »). Tableau des niveaux d''approfondissement p.16-18 : cases (symboles graphiques) et en-têtes de colonnes perdus dans raw.md (Col2…Col11), reconstitué par `just recover` dans recovered/ et fusionné dans la section 10 par split. En-tête de page « Formation 09.04.2026 3007.12.fr » répété sur chaque page.' # remarques humaines : qualité, pièges, chapitres à ignorer

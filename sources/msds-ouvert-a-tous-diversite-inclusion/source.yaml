@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-ouvert-a-tous-diversite-inclusion # <issuer>-<slug>, stable, voir METHODE.md
+title: Ouvert à tou·te·s – diversité et inclusion au sein du scoutisme
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 215101fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/778/ouvert-a-toutes-diversite-et-inclusion-au-sein-du-scoutisme # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/a0/215101fr-ouvert_a_toutes_-_diversite_et_inclusion_au_sein_du_scoutisme.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed   # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2022'                           # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: c77839ff2d534a7c265c075f81ea7b84f37cdd5071382706f8a78c3d2aabc640 # (script)
+pages: 27                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [inclusion]                     # vocabulaire dans docs/taxonomie.md
+concepts: [inclusion, discrimination, langage-inclusif, ethique, camp]   # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Fiches d''information MSdS, édition 2022, réf. imprimée 2151.01.fr. Pas de signets ni de table des matières ni de pagination imprimée (page_offset 0) ; une entrée par fiche de deux pages (définition, puis « … dans le scoutisme »), toc_source agent. Texte complet (98 % des mots) ; chapeaux et colonnes de certaines pages fondus en longs paragraphes ######, césures résiduelles (« de- mandé ») ; cases à cocher de la check-list p.26-27 rendues par le glyphe « Ȝ ». Hors index : couverture p.1-2 ; p.3 (liste des thèmes, réseau de soutien) incluse dans la première entrée ; impressum p.5 dans 01.' # remarques humaines : qualité, pièges, chapitres à ignorer

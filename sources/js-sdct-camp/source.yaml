@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-sdct-camp                        # <issuer>-<slug>, stable, voir METHODE.md
+title: Sport de camp/Trekking – Camp
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 30.401.520 f                       # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                        # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2014'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 037ba13122faafa7ea688732432e45f42fce8801910e505a2a391324572ea20a # (script)
+pages: 52                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, expert-js]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp]                          # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, camp, activite-de-camp, planification, securite, coach-js, premiers-secours, durabilite]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Brochure OFSPO 2014 (n° 30.401.520 f), sans signets ; arbre réécrit d''après le sommaire imprimé (p.3), sous-sections ajoutées pour Equipe de moniteurs (p.9-11) et Programme de camp (p.18-24). page_offset 2 (page imprimée = physique − 2, vérifié p.4, 16, 50). Texte lisible et complet. Tableaux linéarisés cellule par cellule, colonnes avant / pendant / après mélangées : coach J+S / chefs de camp (p.6), répartition des tâches (p.9-10), points fixes de la journée (p.22). Encadrés latéraux parfois placés avant le titre de page (p.14, 16, 34, 36) : un découpage à la page les rattache à la section précédente ou suivante. Pictogrammes de renvoi (sécurité, documents en ligne) perdus. Contenu de 2014 : vérifier les règles J+S (SPORTdb, Voilà, expert du domaine de sécurité) contre js-manuel-sport-de-camp-trekking. Exclus : couverture, sommaire p.3, p.51 vide, impressum p.52.'

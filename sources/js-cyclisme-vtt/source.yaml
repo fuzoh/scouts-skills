@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-cyclisme-vtt                     # <issuer>-<slug>, stable, voir METHODE.md
+title: Cyclisme – VTT
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 30.436.500 f                       # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                        # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2017'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 7ab03603fd6cb96fe952a535742ca4873496f485ad836a9d77cf5791eef04da5 # (script)
+pages: 44                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [sport, securite]               # vocabulaire dans docs/taxonomie.md
+concepts: [vtt, methodes-d-enseignement, jeu, securite]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Brochure OFSPO 2017 (n° 30.436.500 f), sans signets ; index par titres numérotés, nœuds couverture et sommaire retirés. page_offset 2 (vérifié p.5, 19, 42). Une technique de pilotage par page (§3.1-3.33), chaque fiche : points clés/OEC, conseils, Acquérir / Appliquer / Créer, formes de jeu. §2 et §3 n''ont pas de page propre (renvoi aux sous-sections). Texte lisible ; plusieurs fiches en tableau markdown (p.19-25, cellule Conseils parfois dupliquée) ; flèches → perdues (« au plat  raide ») ; séquences photo réduites aux numéros 1-7 ; codes QR vers les vidéos mobilesport.ch perdus. Brochure de discipline Cyclisme, pas Sport de camp/Trekking : utile pour une activité vélo en camp. Exclus : couverture, sommaire p.3, p.4 et p.43 vides, impressum p.44.'

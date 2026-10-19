@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-sdct-eau                         # <issuer>-<slug>, stable, voir METHODE.md
+title: Sport de camp/Trekking – Eau
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 30.401.810 f                       # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                        # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: 2019, 2e édition actualisée    # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 95e15807f3527245679a6cec7638e438a01546ffa6e58a5c03b062337908e100 # (script)
+pages: 44                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, expert-js]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [securite, camp]                # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, trekking, eau, securite, methode-3x3, premiers-secours, activite-de-camp]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Brochure OFSPO 2019, 2e édition actualisée (n° 30.401.810 f), sans signets ; arbre réécrit d''après le sommaire imprimé (p.3), sous-sections ajoutées pour Planifier (p.6-11) et Technique de pagayage (p.29-32). page_offset 2 (vérifié p.5, 26, 39). Texte lisible. Tableaux linéarisés cellule par cellule, difficiles à lire : degrés de difficulté des eaux vives (p.10), hypothermie et cas d''urgence (p.41). Illustrations des techniques de pagayage et de sauvetage perdues (légendes seules). p.29 : « Gouvernail » (fin de Propulsion) est rangé avec Technique en eau vive. Exclus : couverture, sommaire p.3, p.43 vide, impressum p.44.'

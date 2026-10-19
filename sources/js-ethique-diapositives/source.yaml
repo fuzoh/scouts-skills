@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-ethique-diapositives             # <issuer>-<slug>, stable, voir METHODE.md
+title: Des activités J+S respectueuses des valeurs éthiques (diapositives pour les fédérations)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pptx                              # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 84000acb134247ae73820d20068b0b9d6b91fe1b9973d9e90f585137cc711c8f # (script)
+pages: 11                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [expert-js, formateur]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [prevention]                    # vocabulaire dans docs/taxonomie.md
+concepts: [ethique, regles-de-comportement, expert-js, psa]   # termes du GLOSSARY.md
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'pptx de 11 diapos (p.N = diapo) pour présentation aux fédérations ; texte court, images (pictogrammes, photos) perdues. Diapo 2 contient un nom de modèle « Max Mustermann » à personnaliser ; diapos 4-6 : les trois attitudes du moniteur, 7 : documents à connaître (liste numérotée 1-9 sans libellés), 8 : 34 recommandations d''action J+S.'

@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-securite-l-essentiel             # <issuer>-<slug>, stable, voir METHODE.md
+title: La sécurité dans Jeunesse+Sport – l'essentiel en bref
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/871/la-securite-dans-js-lessentiel-en-bref # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/20/sicherheit_bei_js_f.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2021'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: d8f792832176d827553f852fba1c26a27c5390826d48c61162df0a4f402e47de # (script)
+pages: 8                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, coach-js, expert-js] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [securite]                      # vocabulaire dans docs/taxonomie.md
+concepts: [securite, responsabilite-du-moniteur, expert-js, coach-js, planification]   # termes du GLOSSARY.md
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Brochure OFSPO 2021 de 8 p. : raw.md d''origine quasi vide (titres seuls) ; régénéré avec ignore_graphics, texte complet. Quelques balises parasites <mark> et ~~ au milieu de mots (p.3-5). p.6 : tableau Groupe de sports / Outils aplati (liste de liens non rattachés à leur sport). p.8 = impressum.'

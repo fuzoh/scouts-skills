@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-kids-modules-ludiques-sportifs   # <issuer>-<slug>, stable, voir METHODE.md
+title: Aide-mémoire J+S-Kids « Modules ludiques et sportifs variés »
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/458/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/58/j-s-kids_aide_memoire_des_modules_ludiques_et_sportifs_varies_f.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Croquis des formes fondamentales du mouvement p.1 (image) absent de raw.md ; sur p.1 le titre « Formes fondamentales du mouvement » est mêlé au texte d''introduction (deux colonnes) ; tableau p.3-4 : la première ligne de p.4 (Lancer, attraper) est prise pour en-tête, colonnes Idée de jeu et phase conservées.'                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2010'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: be66b465127b9638f4fd5818ffe9f9d8e0a0217e42a4b7eba9ee73f2625be553 # (script)
+pages: 4                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [sport, programme]              # vocabulaire dans docs/taxonomie.md
+concepts: [jeu, sport-des-enfants, js, sport-de-camp, activite-de-camp, planification]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Aide-mémoire J+S-Kids (mars 2010, OFSPO), en français. Titre de section p.1 entremêlé au texte (« Formes fondamentales du tu trouveras des exemples… ») : lire les deux paragraphes ensemble. Texte par ailleurs complet ; le tableau d''idées de jeux p.3-4 est lisible. Base des deux autres aide-mémoire J+S-Kids.'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

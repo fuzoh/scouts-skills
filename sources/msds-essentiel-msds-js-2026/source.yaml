@@ -1,0 +1,43 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-essentiel-msds-js-2026         # <issuer>-<slug>, stable, voir METHODE.md
+title: Informations du MSdS et de J+S pour les moniteur·rice·s (novembre 2025)
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                            # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: null                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2025-11-05                   # date du document, null si inconnue
+retrieved: 2026-10-18                   # (script) date de téléchargement
+sha256: e972a532dda1f43f988f4612a6426706268e78cd4a4d9570dc3e04fb5efa3541 # (script)
+pages: 13                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, coach-js, formateur] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, securite]                # vocabulaire dans docs/taxonomie.md
+concepts: [sapc, securite, camp, sport-de-camp, cudesch, cudeschin]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Newsletter de formation « Informations du MSdS et de J+S », novembre 2025 (édition précédant `msds-essentiel-msds-js-2027`) : contenu daté. Diapositives exportées en PDF, p.1 couverture et p.13 remerciements hors index. p.11 : identifiants d''accès à l''espace moniteur·rice·s J+S en clair dans l''original et raw.md, caviardés dans la section par `redactions`. p.12 : taille de groupe subventionnée 16+16+16, minimum 12 participant·e·s inchangé (repris dans l''édition 2027). Déposé par le mainteneur le 2026-10-18 ; url pfadi.swiss à retrouver (`ingest --match`).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions:  # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}
+- section: 07-documents-numeriques-js
+  pattern: 'Utilisateur\s*:\s*\S+\s*\n\s*Mot\sde\spasse\s*:\s*\S+'
+  replace: '[identifiants retirés]'

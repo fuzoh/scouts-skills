@@ -1,0 +1,36 @@
+---
+source: js-sdct-camp
+version: '2014'
+pages: 52
+page_offset: 2
+toc_source: agent
+title: Sport de camp/Trekking – Camp
+issuer: js
+ref: 30.401.520 f
+fidelity: complete
+extraction: text
+---
+
+- Avant le camp p.4-31 → 01-avant-le-camp.md : préparation d'un camp J+S via une check-list chronologique, de 15 mois à 1 semaine avant : évaluation, équipe, lieu, budget, programme, sécurité et matériel (p. 5)
+  - Encadrement p.6 → 02-encadrement.md : le coach J+S autorise et encadre chaque camp et répartit avec les chefs de camp leurs tâches avant, pendant et après le camp : annonce SPORTdb, contrôle du programme et de la sécurité, commandes, dossier et listes
+  - Equipe de moniteurs p.7-11 → 03-equipe-de-moniteurs.md : équipe de moniteurs d'un camp : formations à prévoir (p.7), équipe mixte pour camps mixtes, congé-jeunesse des moins de 30 ans (p.7), rôle du chef de camp et module J+S requis (p.8), répartition des tâches et remplaçants (p.8)
+    - Répartition des tâches p.9-10 → 04-repartition-des-taches.md : répartition des tâches des moniteurs de camp par domaine (direction, service médical, transport, matériel en p. 9 ; finances, cuisine, communication et responsable du jour en p. 10), avant, pendant et après le camp
+    - Règles à respecter au sein de l’équipe de moniteurs p.11 → 05-regles-equipe.md : avant le camp, les chefs de camp fixent par écrit les règles de l'équipe de moniteurs : temps libre, séances, voitures, conflits, relations amoureuses, alcool et tabac, visites, appareils électroniques, ainsi que les sanctions en cas d'infraction
+  - Formes de camp p.12-13 → 06-formes-de-camp.md : les trois formes de camp (sous toit, sous tente, itinérant) avec des idées de réalisation (p.12), les modes de déplacement en camp itinérant et leurs exigences de sécurité : complément SC/T, brevets SSS (p.13), puis les camps spéciaux
+  - Lieu du camp p.14-15 → 07-lieu-du-camp.md : recherche, reconnaissance et contrat d'un lieu de camp : répertoires (p. 14), critères de choix et délais (p. 14), contrôle des risques et zones protégées (p. 15), clauses du contrat, taxes, dégâts et résiliation (p. 15)
+  - Programme de camp p.16-24 → 08-programme-de-camp.md : fixer trois priorités de camp avec le coach J+S (p. 16), choisir dates et durée (p. 16), impliquer les participants dans le programme et les décisions via conseils de camp (p. 17)
+    - Thème du camp p.18-19 → 09-theme-du-camp.md : thème de camp comme fil rouge des activités, avec conseils et idées d'application (rituels, rôles, menus), évoque les responsabilités confiables aux participants selon l'âge (p. 18) et recommande un thème fantastique pour les moins de 12 ans (p. 19)
+    - Programme général p.20-22 → 10-programme-general.md : élaborer le programme général de camp : grille avec post-it (p. 20), points fixes quotidiens comme réveil, repas et séance des moniteurs (p. 22), adaptation à l'âge (p. 20-21), méditation et programme de remplacement par mauvais temps (p. 21)
+    - Programme détaillé et concept de sécurité p.23-24 → 11-programme-detaille-securite.md : planification détaillée des activités de camp (au moins quatre heures d'activités J+S par jour, dont au plus deux d'activités de camp, règle de 2014, p.23), l'évaluation des dangers par croquis (p.24) et le concept de sécurité général avec la liste des activités à risques accrus (p.24)
+  - Organisation du camp p.25-26 → 12-organisation-du-camp.md : annonce du camp à J+S et à Voilà, le contenu du dossier de camp (p.25), puis la commande et l'entretien du matériel de prêt et des cartes nationales, avec la responsabilité des chefs de camp (p.26)
+  - Finances du camp p.27-28 → 13-finances-du-camp.md : gestion financière d'un camp : compte bancaire de l'association, budget détaillé avec postes et réserves de 5 à 10 % (p.27), livre de caisse et conservation des quittances (p.28), décompte final soumis au réviseur (p.28)
+  - Informations du camp p.29-31 → 14-informations-du-camp.md : information des parents et participants avant le camp : invitation et formulaire d'inscription (valant contrat, p. 29), feuille médicale (p. 29), informations détaillées (p. 30), soirée d'information pour les parents (p. 31)
+- Pendant le camp p.32-46 → 15-pendant-le-camp.md : conseils pour conduire un camp J+S au quotidien : réadapter le programme selon la météo et la condition physique (p. 32), et check-list avant, pendant et après le camp (p. 33)
+  - Règles du camp p.34-35 → 16-regles-du-camp.md : édicter les règles de camp (sécurité, stupéfiants, vie communautaire, appareils électroniques, environnement) du premier au dernier jour (p.34), puis les règles des camps mixtes : intimité, douches, examens médicaux, nuit (p.35)
+  - La santé au camp p.36-38 → 17-sante-au-camp.md : santé au camp : alimentation variée et hydratation (p. 36), hygiène en cuisine et corporelle (p. 37), prévention des salmonelles (p. 36) et conduite face aux tiques, avec vaccin FSME (p. 38)
+  - Situations d’urgence p.39-41 → 18-situations-d-urgence.md : prévoir les urgences au camp : contacts, pharmacies et règles à convenir (p.39), transport du blessé et soins au malade avec appel du médecin dès 39°C (p.40), gestion de crise et information des parents (p.41)
+  - Impact environnemental du camp p.42-43 → 19-impact-environnemental.md : check-list d'impact environnemental pour camps (transports, déchets, énergie, nature, alimentation, camp sous tente) à cocher : transports publics et vélo (p. 42), tri des déchets (p. 42), produits écologiques et remise en état du terrain (p. 43)
+  - Situations particulières pendant le camp p.44-46 → 20-situations-particulieres.md : conseils aux moniteurs pour gérer les situations difficiles en camp : ennui et mal-être des enfants (p.44), journée des parents (p.45), autres cultures et énurésie (p.45), TDA/H et allergies avec consignes d'urgence (p.46)
+- Après le camp p.47-49 → 21-apres-le-camp.md : tâches de clôture à répartir avant les adieux, selon une check-list « Camp » allant du rangement du matériel et du rapport au coach J+S aux remerciements, décompte, évaluation et soirée de camp (p. 47)
+  - Evaluation du camp p.48-49 → 22-evaluation-du-camp.md : évaluer un camp 2 à 4 semaines après coup, avec tous les moniteurs (p. 48), en trois parties : impressions générales, aspects du programme (p. 49), puis « plus 3 / moins 3 » pour le camp suivant
+- Glossaire p.50 → 23-glossaire.md : glossaire du camp J+S Sport de camp/Trekking : définit les rôles (responsables, chefs de camp), structures de jeunesse, documents (programme général, feuille médicale), tranches d'âge enfants et jeunes, et sigles (SC/T, SPORTdb, Swisstopo, SSS)

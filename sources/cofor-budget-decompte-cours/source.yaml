@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cofor-budget-decompte-cours         # <issuer>-<slug>, stable, voir METHODE.md
+title: Budget et décompte de cours MSdS (modèle)
+issuer: cofor                           # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 303205fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: xlsx                              # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/70/modele-de-budget-pour-les-cours-du-msds # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/44/303205fr-budget-modele-cours_msds.xlsx # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 9ba22254aadbdfe1b563ac0cd9c8dd3f34951ed6e5152606f95c2519d53e7df1 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur]                   # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [administration]                # vocabulaire dans docs/taxonomie.md
+concepts: [financement, administration-de-cours, chef-de-cours, caf, cours-panorama]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Modèle de budget/décompte, une entrée par feuille : sept types de cours (Top, Panorama, Spectre, Gilwell, Coach, week-end, jour) + Décompte. Les feuilles de cours ne diffèrent que par le type de cours et les montants unitaires/maximaux (ex. programme CHF 40 Top, 50 Panorama) ; formules rendues par leur valeur (0), cellules vides en NaN. Basé sur la directive du 24.03.2026 (voir cofor-financement-cours-federaux). Bug split : chaque entrée recevait tout raw.md, 01-08 découpés à la main par feuille (rejouer `split` les écraserait).'

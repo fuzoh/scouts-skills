@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "release-type": "python",
+  "packages": {
+    ".": {
+      "package-name": "scouts-skills"
+    }
+  },
+  "extra-files": [
+    {
+      "type": "generic",
+      "path": "skills/scouts/SKILL.md"
+    },
+    {
+      "type": "generic",
+      "path": "skills/scouts/MANIFEST.md"
+    },
+    {
+      "type": "generic",
+      "path": "skills/scouts-ressources/SKILL.md"
+    },
+    {
+      "type": "generic",
+      "path": "skills/scouts-ressources/MANIFEST.md"
+    },
+    {
+      "type": "generic",
+      "path": "README.md"
+    },
+    {
+      "type": "toml",
+      "path": "uv.lock",
+      "jsonpath": "$.package[?(@.name.value=='scouts-skills' || @.name=='scouts-skills')].version"
+    }
+  ],
+  "include-v-in-tag": true,
+  "include-component-in-tag": false,
+  "prerelease": false,
+  "bump-minor-pre-major": true,
+  "bump-patch-for-minor-pre-major": false,
+  "pull-request-header": "Publication automatique : fusionner ce PR crée le tag, la release GitHub et joint les zips des skills.",
+  "changelog-sections": [
+    { "type": "feat", "section": "Nouveautés", "hidden": false },
+    { "type": "fix", "section": "Corrections", "hidden": false },
+    { "type": "perf", "section": "Performances", "hidden": false },
+    { "type": "revert", "section": "Retours en arrière", "hidden": false },
+    { "type": "docs", "section": "Documentation", "hidden": false },
+    { "type": "refactor", "section": "Refactorisations", "hidden": false },
+    { "type": "test", "section": "Tests", "hidden": true },
+    { "type": "build", "section": "Build", "hidden": true },
+    { "type": "ci", "section": "Intégration continue", "hidden": true },
+    { "type": "chore", "section": "Maintenance", "hidden": true },
+    { "type": "style", "section": "Style", "hidden": true }
+  ]
+}

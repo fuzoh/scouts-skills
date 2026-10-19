@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-manuel-experts-coachs            # <issuer>-<slug>, stable, voir METHODE.md
+title: Manuel J+S pour les experts coachs J+S
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 30.060.800 f                       # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2024'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 1d0243a4b5e25e113e15d8f7c03b993d1a5c66480177c2f01b82215404300250 # (script)
+pages: 80                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [expert-js, coach-js]         # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation, organisation]       # vocabulaire dans docs/taxonomie.md
+concepts: [expert-js, coach-js, modele-de-formation, methodes-d-enseignement, objectifs-d-apprentissage, accompagnement, retour, ethique] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'PDF chiffré AES-256 (copie interdite) ; pymupdf lit le texte sans mot de passe. Variante pour experts coachs du manuel des experts (js-manuel-experts), mêmes textes adaptés aux coachs, sans 1.4.4 Évaluer et qualifier ni chap. FTEM/sport. page_offset 0 (vérifié p.4, 28, 50, 76). Texte de bonne qualité, une colonne logique. Pertes : illustrations (légendes seules), étiquettes de schémas mêlées au texte (p.6 : fragments du schéma du modèle de Macolin, avec un « Lorem ipsum » résiduel du PDF), tableaux partiels (p.44, 47, 55), titres de section en texte simple, chapeaux en <u>. Signets parasites retirés (Vorwort, Einleitung, Introduction rangée sous Avant-propos). Le §2.1 porte dans le sommaire le titre « Instaurer un climat propice à l''apprentissage » mais regroupe les dix recommandations du domaine « Transmettre » (fichier 13-transmettre.md) ; le §2.2 « Encourager » regroupe aussi Innover et Se soucier de l''entourage. Nœuds 1.4, 2.1, 2.2 sans texte propre (leur chapeau est dans la première sous-section). Pages 8, 26, 78-79 vides ; impressum p.80 exclu.' # remarques humaines : qualité, pièges, chapitres à ignorer

@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cofor-guide-admin-formations-eau    # <issuer>-<slug>, stable, voir METHODE.md
+title: Eau – formations spécifiques. Guide d'administration pour les responsables de cours et les secrétariats cantonaux
+issuer: cofor                           # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 313302fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/929/guide-dadministration-pour-les-formations-specifiques-eau # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/ac/313302fr_guide_dadministration_pour_les_formations_specifiques_eau.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2025-02-27                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 96e7211b03915fef94ec67672c68869340772ba819ab6395c3d5ddff6a8de361 # (script)
+pages: 12                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [cadre-cantonal, formateur]   # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [administration, securite]      # vocabulaire dans docs/taxonomie.md
+concepts: [eau, securite, administration-de-cours, caf, expert-js, modele-de-formation]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Texte complet ; p.1 couverture, p.2 table des matières, p.9 blanche. Les « points lavande/gris » de l''annexe (p.10) renvoient à des couleurs perdues à la conversion. Guide TE FeE du 27.02.2025 ; SSS = Société suisse de sauvetage.'

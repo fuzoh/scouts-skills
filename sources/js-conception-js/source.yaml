@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-conception-js                    # <issuer>-<slug>, stable, voir METHODE.md
+title: Conception Jeunesse+Sport (version abrégée)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/34/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/6a/js_leitbild_fr.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete
+fidelity_notes: ''
+
+version: '2022'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 9f56a81f9e93461f6dcd394413e6e7609e65e52874f4e50e7a00281b012560af # (script)
+pages: 20                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [formateur, expert-js, coach-js] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [organisation, sport]           # vocabulaire dans docs/taxonomie.md
+concepts: [js, ofspo, ethique, coach-js, expert-js, securite]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Brochure de 20 p. à forte part visuelle, sans pagination imprimée (page_offset 0) ni signets : index écrit à la main. Couverture p.1 et impressum p.20 exclus. Le texte est complet mais éclaté en blocs : titres de volets coupés (« Nous offrons / Une qualité et… » p.8, 10, 12, 14, 16, 18, à lire avec p.5-6), chiffres clés en grand (80 000 experts, 50 %, 100 millions, 3500, 34 recommandations, 85 sports) séparés de leur légende, citations de témoins sans mise en forme. Photos et illustrations perdues. Contenu essentiellement de principes (valeurs, vision), peu opérationnel.'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

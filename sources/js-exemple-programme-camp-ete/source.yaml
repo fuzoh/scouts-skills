@@ -1,0 +1,35 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-exemple-programme-camp-ete       # <issuer>-<slug>, stable, voir METHODE.md
+title: Exemple de programme général pour camp d'été J+S
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+nature: exemple
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 87b850c08936148fcb235579dc09d7ba69ee38f87207ac418b72b518ebc8ca75 # (script)
+pages: 1                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, coach-js]       # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp]                          # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, camp, planification, activite-de-camp]   # termes du GLOSSARY.md
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Tableau de programme (réf. 301.01.fr, 09/2026) de 17 colonnes (jour × tranche d''âge) : les cellules fusionnées sont répétées sur chaque colonne et les heures sont dupliquées dans les lignes ; la lecture demande de repérer les activités J+S (n° et temps sportif « TS »). Les couleurs de la légende (activité J+S avec ou sans temps sportif, programme de camp) sont perdues.'

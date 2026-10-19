@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-sport-des-enfants-bases          # <issuer>-<slug>, stable, voir METHODE.md
+title: Sport des enfants J+S – bases théoriques
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 30.040.500 f                       # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: 2015, 3e éd. modifiée          # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 735abbd9df591526d49f7635a8bf717654ae44146f4bc17a8902349a1a912b9a # (script)
+pages: 56                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [sport]                         # vocabulaire dans docs/taxonomie.md
+concepts: [sport-des-enfants, psyche, physis, coordination, condition-physique, motivation, methodes-d-enseignement]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'PDF sans signets ; arbre réécrit d''après la table des matières imprimée (p.3), toc_source agent, page_offset 2 vérifié (Introduction p.5 imprimée = p.7, Bibliographie p.50 = p.52). Brochure non numérotée : pas de §. Texte de bonne qualité ; pertes : photos et figures (seules les légendes restent), encadrés 5-8 ans / 7-10 ans et pictogrammes de renvoi (« Connaissances clés », « Informations complémentaires ») parfois en ordre de blocs, puces avec indentation irrégulière. Pages blanches p.2, 4-6, 10, 12, 20, 30, 36, 54-55 ; impressum p.56 exclu. Les sous-chapitres de Rire, Apprendre et Réaliser une performance suivent tous le schéma Connaissances clés (p. paire) / Informations complémentaires (p. impaire).' # remarques humaines : qualité, pièges, chapitres à ignorer

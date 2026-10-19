@@ -1,0 +1,37 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cofor-concept-caf                   # <issuer>-<slug>, stable, voir METHODE.md
+title: Concept CàF
+issuer: cofor                           # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 308305fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/67/concept-caf # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/18/308305fr-concept_caf-20260721-cofor.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+applies_from: null
+applies_until: null
+nature: prescription
+published: 2026-07-21                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 4629b51c0656b37cac217bbf5a34135a19cc73267a14cfb0f40ac914d53f20f8 # (script)
+pages: 7                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur, cadre-cantonal]   # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation, organisation]       # vocabulaire dans docs/taxonomie.md
+concepts: [caf, accompagnement, administration-de-cours, modele-de-formation, securite, benevolat]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Texte complet, y compris p.5 « Répertoire d''idées pour le programme » (FC-CàF, objectifs 1-3 et divers, en liste à puces). Table des matières p.1 sans valeur. Défauts mineurs : puces de listes rendues par un glyphe parasite (p.3, p.7), mots coupés par césure (« can tonale »), liens du Pilote/Ancre tronqués. Document de la CoFor du 21.07.2026. applies_from : non précisé, adopté en 2006, modifié le 21.07.2026 (date d''application probable).'

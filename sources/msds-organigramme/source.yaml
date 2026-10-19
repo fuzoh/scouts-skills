@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-organigramme                   # <issuer>-<slug>, stable, voir METHODE.md
+title: Organigramme – structure d'organisation du Mouvement Scout de Suisse
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 501201fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/1081/organigramme-msds # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/15/501201fr_organigramme.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text    # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: ac2cea7ad2b7531f69ea8870688d9c5afdc816f0512566c48e1a2a140a9a4db6 # (script)
+pages: 3                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [cadre-cantonal, responsable] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [organisation]                  # vocabulaire dans docs/taxonomie.md
+concepts: [organisation-du-msds, benevolat, administration-de-cours]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Organigramme (réf. 5012.01.fr) : p.1 = couverture, p.2 = organes et instances (associations cantonales, AD, ConF, comité, maîtrise fédérale, commissions), p.3 = organes fixes fédéraux avec les titulaires. Contient des noms de personnes et noms scouts (donnée périssable : à ne pas figer dans un skill, renvoyer à l''organigramme à jour). Les liens hiérarchiques (traits) sont perdus ; raw.md liste les cases dans l''ordre de la mise en page, avec quelques blocs dupliqués (Tâche essentielle Communication, spécialistes) ; légende bénévole / employé·e / fonction spéciale illisible (symboles perdus, seul « * » = employé·e subsiste). Les cases « Membre » de la p.2 sont vides.'

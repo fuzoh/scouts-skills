@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-aide-memoire-orientation         # <issuer>-<slug>, stable, voir METHODE.md
+title: Aide-mémoire J+S « Orientation » – lecture de carte, temps de marche, profil
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/455/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/93/2010mborientierungf.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Poster J+S à mise en page graphique rendu en flux de texte mêlé : schémas, cartouches, tableaux (estimation du temps requis à pied et à skis p.2, avantages/inconvénients des cartes digitales p.2, symboles de carte p.1) désordonnés ou sans leurs valeurs ; sous-titres de la zone « Orientation » p.1 sans ordre de lecture.'                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2010'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: aaf6b059660a11de05723bfc75fc329c5da7830caca6546a51cb68d6a5347f23 # (script)
+pages: 2                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, securite]                # vocabulaire dans docs/taxonomie.md
+concepts: [orientation, montagne, securite, planification, condition-physique]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Aide-mémoire « Orientation » du manuel J+S Sports de montagne, éd. 2010, en français. Mise en page en colonnes et cartouches : l''ordre de lecture n''est pas garanti et des phrases sont coupées (« pay-/sage »). Les formules et chiffres clés (équidistance, coordonnées, écho, pouce) sont présents dans le texte ; les schémas ne le sont pas. Texte à relire sur le PDF pour les tableaux d''estimation du temps.'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

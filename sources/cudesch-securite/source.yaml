@@ -1,0 +1,159 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-securite                    # <issuer>-<slug>, stable, voir METHODE.md
+title: La sécurité – assumer des responsabilités
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites
+  title: La sécurité – assumer des responsabilités
+  slug: fr-books-la-securite-assumer-des-responsabilites
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/chapter/responsabilites-et-aspects-juridiques
+  title: 'Chapitre : Responsabilités et aspects juridiques'
+  slug: fr-books-la-securite-assumer-des-responsabilites-chapter
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/les-differentes-attentes-envers-toi-en-tant-que-responsable
+  title: Les différentes attentes envers toi en tant que responsable
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-les
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/la-responsabilite-juridique
+  title: La responsabilité juridique
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-la
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/devoir-de-diligence
+  title: Devoir de diligence
+  slug: fr-books-la-securite-assumer-des-responsabilites-page
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/qui-peut-etre-tenu-pour-responsable
+  title: Qui peut être tenu pour responsable ?
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-qui
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/les-relations-juridiques-avec-les-tiers
+  title: Les relations juridiques avec les tiers
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-les-2
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/assurances
+  title: Assurances
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-2
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/chapter/activites-a-caractere-dangereux
+  title: 'Chapitre : Activités à caractère dangereux'
+  slug: fr-books-la-securite-assumer-des-responsabilites-chapter-2
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/quelles-sont-ces-activites-a-caractere-dangereux
+  title: Quelles sont ces activités à caractère dangereux ?
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-3
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/randonnees
+  title: Randonnées
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-4
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/activites-hivernales
+  title: Activités hivernales
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-5
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/activites-aquatiques
+  title: Activités aquatiques
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-6
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/activites-de-corde
+  title: Activités de corde
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-7
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/grandes-constructions-de-pionnier
+  title: Grandes constructions de pionnier
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-8
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/chapter/autres-dangers
+  title: 'Chapitre : Autres dangers'
+  slug: fr-books-la-securite-assumer-des-responsabilites-chapter-3
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/intemperies-et-orages
+  title: Intempéries et orages
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-9
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/feu-et-incendie-de-foret
+  title: Feu et incendie de forêt
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-feu
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/substances-facilement-inflammables-et-feux-dartifice
+  title: Substances facilement inflammables et feux d’artifice
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-10
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/animaux-de-ferme-et-animaux-sauvages
+  title: Animaux de ferme et animaux sauvages
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-11
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/chapter/concepts-de-securite
+  title: 'Chapitre : Concepts de sécurité'
+  slug: fr-books-la-securite-assumer-des-responsabilites-chapter-4
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/quest-ce-quun-concept-de-securite
+  title: Qu’est-ce qu’un concept de sécurité ?
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-quest
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/concept-de-securite-specifique-aux-activites
+  title: Concept de sécurité spécifique aux activités
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-12
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/exemple-concept-de-securite-pour-un-pont-de-corde
+  title: 'Exemple : concept de sécurité pour un pont de corde'
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-13
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/exemple-concept-de-securite-grand-jeu
+  title: 'Exemple : concept de sécurité grand jeu'
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-14
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/exemple-concept-de-securite-constructions-de-camp
+  title: 'Exemple : concept de sécurité constructions de camp'
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-15
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/exemple-concept-de-securite-activite-baignade
+  title: 'Exemple : concept de sécurité activité baignade'
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-16
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/exemple-concept-de-securite-randonnee
+  title: 'Exemple : concept de sécurité randonnée'
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-17
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/concept-de-securite-pour-un-camp
+  title: Concept de sécurité pour un camp
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-18
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/exemple-de-concept-de-securite-pour-un-camp-sous-tente
+  title: Exemple de concept de sécurité pour un camp sous tente
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-19
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/chapter/realisation-et-evaluation
+  title: 'Chapitre : Réalisation et évaluation'
+  slug: fr-books-la-securite-assumer-des-responsabilites-chapter-5
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/direction-claire
+  title: Direction claire
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-20
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/la-methode-3-x-3-garder-les-dangers-a-loeil
+  title: La méthode 3 x 3 – garder les dangers à l’œil
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-la-2
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/evaluer-les-activites-a-caractere-dangereux
+  title: Évaluer les activités à caractère dangereux
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-21
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/chapter/un-accident-survient-que-faire
+  title: 'Chapitre : Un accident survient – que faire ?'
+  slug: fr-books-la-securite-assumer-des-responsabilites-chapter-un
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/agir-en-situation-durgence
+  title: Agir en situation d’urgence
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-agir
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/quand-est-ce-quun-evenement-est-il-considere-comme-une-crise
+  title: Quand est-ce qu’un événement est-il considéré ­comme une crise ?
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-quand
+- url: https://cudesch.scout.ch/fr/books/la-securite-assumer-des-responsabilites/page/contacts-avec-les-medias-en-situation-de-crise
+  title: Contacts avec les médias en situation de crise
+  slug: fr-books-la-securite-assumer-des-responsabilites-page-22
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: bafdf95fce612e972d6fe92aad434fd3400314724ab4d613881d8409b67b1578 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur, coach-js] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [securite, camp]                # vocabulaire dans docs/taxonomie.md
+concepts: [securite, autorisation-de-camp, camp, premiers-secours, montagne, hiver, eau, methode-3x3, technique-de-corde, coach-js]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history:  # versions précédentes : {version, published, sha256, retired}
+- version: '2018'
+  published: null
+  sha256: d6565e5271556e223d9f97107693f8c01d7926867a10b1465341f82258cd39d9
+  retired: 2026-10-17
+  note: édition PDF pfadi.swiss 08_sicherheit_fr_web.pdf (52 p., MSdS.3038.04.fr), https://pfadi.swiss/media/files/47/08_sicherheit_fr_web.pdf, remplacée par le livre du cudesch numérique
+
+notes: 'Livre BookStack du cudesch numérique (cudesch.scout.ch, MSdS), 1 page d''accueil + 6 chapitres + 31 pages ; manifeste dans l''ordre de lecture du livre. Les pages de chapitre portent l''introduction du chapitre suivie de la liste de ses pages avec extraits (lien et premières lignes), à ignorer ; la page d''accueil liste aussi les chapitres. Ancres bkmrk-… conservées sur les titres (citation `id <url>#bkmrk-…`). Pertes trafilatura : images (schémas des attentes, du devoir de diligence, des assurances, du feu de signalisation, aide-mémoire d''urgence J+S, diagramme de conduite en cas d''événement) ; les tableaux (responsabilité civile et pénale, assurances, activités à caractère dangereux, concepts de sécurité modèles, méthode 3 x 3) sont aplatis en lignes de texte mais complets. Les exemples de concepts de sécurité (pont de corde, grand jeu, sarasine, baignade, randonnée, camp d''été à Bergün) contiennent des noms de scout et numéros de téléphone fictifs d''exemple. Page très longue en un seul fichier : Exemple de concept de sécurité pour un camp sous tente (1 600 mots). Numéros § posés par l''agent.'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

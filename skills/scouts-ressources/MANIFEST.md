@@ -1,0 +1,188 @@
+# MANIFEST (généré par `build`, ne pas éditer)
+
+- version : 0.2.0 <!-- x-release-please-version -->
+- source : https://github.com/fuzoh/scouts-skills
+- scope : complet
+- sources : 177
+- sections : 1676
+- référentiels : 4
+
+## Sources embarquées
+
+- `autre-aide-memoire-toile-de-tente`
+- `autre-autorisation-camp-vaud@2024`
+- `autre-camp-equitable-documents`
+- `autre-canevas-ac-vierge`
+- `autre-canevas-point-de-cours-js@2025`
+- `autre-canevas-sc-vierge`
+- `autre-canevas-ua-top@2026`
+- `autre-communagir-outils-animation@2026-10-17`
+- `autre-csaj-conge-jeunesse-fiche`
+- `autre-csaj-conge-jeunesse-formulaire`
+- `autre-liberating-structures@2026-10-17`
+- `autre-water-safety-cartes@2020`
+- `cofor-administration-cours-federaux`
+- `cofor-approfondissement-castors@v1`
+- `cofor-approfondissement-eclais@v1`
+- `cofor-approfondissement-louveteaux@v1`
+- `cofor-autorisation-du-cours`
+- `cofor-budget-decompte-cours`
+- `cofor-checklist-caf`
+- `cofor-checklist-cours-base@v1`
+- `cofor-checklist-cours-ru@v1`
+- `cofor-concept-caf`
+- `cofor-evaluation-du-cours@2019`
+- `cofor-financement-cours-federaux`
+- `cofor-guide-admin-formations-eau`
+- `cofor-liste-buts-cours-base`
+- `cofor-liste-buts-cours-ru`
+- `cofor-pano-combinaison-module-js`
+- `cofor-pano-le-projet`
+- `cofor-pano-outils-litterature`
+- `cofor-pano-retour-qualifier`
+- `cofor-quala-cours-rg`
+- `cofor-vae-exercice`
+- `cofor-vae-tableaux`
+- `cudesch-branche-castors@2026-10-17`
+- `cudesch-branche-eclais@2026-10-17`
+- `cudesch-branche-louveteaux@2026-10-17`
+- `cudesch-branche-picos@2026-10-17`
+- `cudesch-branche-route@2026-10-17`
+- `cudesch-calcul-temps-de-marche`
+- `cudesch-camp-bail-place-tentes@2018`
+- `cudesch-camp-budget@2018`
+- `cudesch-camp-constructions@2018`
+- `cudesch-camp-infos-urgence@2018`
+- `cudesch-camp-liste-delais@2018`
+- `cudesch-camp-liste-equipement@2018`
+- `cudesch-camp-reco-sous-tentes@2018`
+- `cudesch-camp-reco-sous-toit@2018`
+- `cudesch-cudeschin@2026-10-17`
+- `cudesch-etre-responsable@2026-10-17`
+- `cudesch-glossaire@2018`
+- `cudesch-index@2018`
+- `cudesch-modele-bloc-ac@2018-11-29`
+- `cudesch-modele-bloc-sc@2018-11-29`
+- `cudesch-planification-activite@2018-12-17`
+- `cudesch-programme@2026-10-17`
+- `cudesch-relations-publiques@2022`
+- `cudesch-scoutisme-identite@2026-10-17`
+- `cudesch-securite@2026-10-17`
+- `cudesch-smt@2026-10-17`
+- `cudesch-table-des-matieres`
+- `js-accompagner-et-conseiller`
+- `js-activites-de-qualite-encourager@2025`
+- `js-activites-de-qualite-innover@2025`
+- `js-activites-de-qualite-transmettre`
+- `js-aide-memoire-3x3-en-route@2014`
+- `js-aide-memoire-donnees-de-base@2.2024`
+- `js-aide-memoire-meteorologie@2010`
+- `js-aide-memoire-orientation@2010`
+- `js-aide-memoire-prevention-accidents-co@2023`
+- `js-aide-memoire-prevention-accidents-sct@2025`
+- `js-aide-memoire-securite-eau@2024`
+- `js-apprentissage-dans-le-sport@2012`
+- `js-apprentissage-en-mouvement@2013`
+- `js-bases-technique-sportive-sdct`
+- `js-checklist-coach`
+- `js-checklist-sapc-coach`
+- `js-checklist-sapc-responsable-camp`
+- `js-climat-d-apprentissage@2014`
+- `js-coach-preparer-l-avenir@2013`
+- `js-coach-preserver-l-equipe@2013`
+- `js-commande-materiel-pret-sct@2021`
+- `js-communication@2012`
+- `js-conception-js@2022`
+- `js-course-d-orientation-norda@2018`
+- `js-cyclisme-vtt@2017`
+- `js-depliant-facteur-humain@2019`
+- `js-developpement-equipe-moniteurs`
+- `js-emploi-images-apprentissage@2014`
+- `js-ethique-diapositives`
+- `js-ethique-formation-de-base`
+- `js-ethique-module-chef-de-camp`
+- `js-ethique-proximite-soutien@2026-10-17`
+- `js-exemple-course-orientation-photos`
+- `js-exemple-estafette-fromage`
+- `js-exemple-grande-fete`
+- `js-exemple-programme-camp-ete`
+- `js-exemple-randonnee-nuitee`
+- `js-exemple-tournoi-de-jeux`
+- `js-facteurs-de-developpement@2021`
+- `js-faire-la-cuisine-au-camp@édition 2014`
+- `js-formes-de-tournois@2014, 4e réimpression`
+- `js-guide-boussole-ethique@01/2025`
+- `js-guide-materiel-de-pret@05.2025`
+- `js-guide-offres-sct@2023`
+- `js-guide-prestations-speciales@2022`
+- `js-intro-manuel-experts-diapos`
+- `js-kids-fete-des-jeux@2010`
+- `js-kids-modules-ludiques-sportifs@2010`
+- `js-kids-randonnee-avec-enfants@2010`
+- `js-manuel-bases@2024, 3e édition remaniée`
+- `js-manuel-cle@2016, 3e édition sans modification du contenu`
+- `js-manuel-coach@2023`
+- `js-manuel-experts@2024, 2e édition remaniée`
+- `js-manuel-experts-coachs@2024`
+- `js-manuel-sport-de-camp-trekking@2026`
+- `js-modele-charte-cours`
+- `js-modele-de-formation-macolin@2019`
+- `js-modele-prog-general-enfants-jeunes@2014`
+- `js-modele-prog-general-sport-enfants@2014`
+- `js-modele-prog-general-sport-jeunes@2014`
+- `js-physis-bases-theoriques@2015, 3e édition remaniée`
+- `js-physis-exemples-pratiques@2015, 3e édition remaniée`
+- `js-planification-dans-le-sport@2016`
+- `js-poster-regles-de-comportement`
+- `js-prevention-blessures@2021`
+- `js-psyche@2015`
+- `js-regles-comportement-exemple`
+- `js-sdct-bases@2014`
+- `js-sdct-camp@2014`
+- `js-sdct-eau@2019, 2e édition actualisée`
+- `js-sdct-hiver@2019, 5e édition actualisée`
+- `js-sdct-montagne@2014`
+- `js-securite-l-essentiel@2021`
+- `js-sequences-apprentissage-numeriques`
+- `js-sport-des-enfants-bases@2015, 3e éd. modifiée`
+- `js-sport-des-enfants-exemples@2015`
+- `js-sport-des-enfants-jouer@2014`
+- `js-sport-des-enfants-perturbations@2016`
+- `js-sport-et-handicap@2014`
+- `js-structure-formation-sdct`
+- `js-technique-de-corde`
+- `js-violence-dans-le-sport@2008`
+- `msds-ancre@Version 23`
+- `msds-assurance-tiers-conducteurs@2009`
+- `msds-autorisation-de-camp@2026`
+- `msds-caisse-de-cours@2026`
+- `msds-camps-a-l-etranger@2024`
+- `msds-checklist-camps-a-l-etranger@révisée 2024`
+- `msds-commande-hajk`
+- `msds-concept-protection-psa@2021`
+- `msds-encadrement-scoutisme@2012`
+- `msds-essentiel-msds-js-2026`
+- `msds-essentiel-msds-js-2027`
+- `msds-exigences-js-2027-camps`
+- `msds-factsheet-profil`
+- `msds-flyer-smt`
+- `msds-hering-camps@2026-10-17`
+- `msds-inclusion-diversite-associations@1ère édition 2021`
+- `msds-jeux-de-prevention`
+- `msds-le-cours@2026`
+- `msds-memento-responsable-patrouille@2021`
+- `msds-modele-de-formation@Version 2027`
+- `msds-offre-mpe-2027`
+- `msds-organigramme`
+- `msds-outil-prevention-psa@2023`
+- `msds-ouvert-a-tous-diversite-inclusion@2022`
+- `msds-ouvert-a-tous-equipe-de-cours@2022`
+- `msds-pilote@Version 13`
+- `msds-profil-du-scoutisme@2025`
+- `msds-reglement-de-camp@2020`
+- `msds-reglement-grandes-manifestations`
+- `msds-retour-qualifier-accompagner@2026`
+- `msds-thilo@2026-10-17`
+- `msds-ticket`
+- `msds-twitterbox@2024`
+- `msds-unite-d-apprentissage@2026`

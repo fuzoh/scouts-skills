@@ -1,0 +1,66 @@
+name: Erreur de contenu
+description: Le skill a donné une règle, un chiffre ou un délai faux, ou une réponse trompeuse.
+title: "[Erreur] "
+labels: ["contenu"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de signaler une erreur. Quelques lignes suffisent, tout n'est pas obligatoire.
+
+        **Ne collez jamais de données personnelles** : noms, dates de naissance, adresses, numéros de téléphone ou données de participant·e·s. Remplacez-les par « X » ou « un·e participant·e » avant d'envoyer.
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill concerné
+      options:
+        - scouts
+        - scouts-ressources
+        - Je ne sais pas
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version du skill
+      description: Demandez au skill « Quelle est ta version ? » ou ouvrez son fichier MANIFEST.md (ligne « version »).
+      placeholder: "0.2.0"
+  - type: dropdown
+    id: plateforme
+    attributes:
+      label: Plateforme utilisée
+      options:
+        - claude.ai
+        - Claude Code
+        - ChatGPT
+        - Gemini
+        - Codex
+        - Autre
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Ce que vous avez demandé
+      description: Copiez votre question telle quelle (sans données personnelles).
+    validations:
+      required: true
+  - type: textarea
+    id: reponse
+    attributes:
+      label: Ce que le skill a répondu
+      description: Copiez la réponse, ou la partie concernée.
+    validations:
+      required: true
+  - type: textarea
+    id: faux
+    attributes:
+      label: Ce qui est faux, et ce qui serait juste
+      description: Par exemple « le délai est de 3 semaines, pas de 2 ».
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source officielle, si vous la connaissez
+      description: Document, page ou lien (MSdS, J+S, cudesch…).

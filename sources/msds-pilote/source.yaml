@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-pilote                         # <issuer>-<slug>, stable, voir METHODE.md
+title: Pilote – fil conducteur pour l'administration des cours par les responsables formation ou secrétariats
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 307813fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/89/pilote-le-fil-conducteur-pour-ladministration-des-cours-du-msds # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/3a/307813fr-pilote-20260917-papillon.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: Version 13                     # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2026-09-17                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: c8d02e4540fa3aa4bb7e7f669788174aec1198c44eee0ae9811c443c01813dbb # (script)
+pages: 37                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [cadre-cantonal]              # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [administration]                # vocabulaire dans docs/taxonomie.md
+concepts: [administration-de-cours, midata, bdns, qualification, modele-de-formation]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Pagination imprimée = physique. p.1-4 (couverture, impressum, table) hors index. Captures MiData et BDNS perdues (numéros de repère isolés p.13, 16, 18, 26-32) ; la couleur qui marque les champs obligatoires du tableau p.14-15 est perdue ; tableau des préfixes d''AC (p.12) en désordre de colonnes. Sous-sections partageant une page regroupées.'                               # remarques humaines : qualité, pièges, chapitres à ignorer

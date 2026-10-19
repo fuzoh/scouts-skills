@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-activites-de-qualite-innover     # <issuer>-<slug>, stable, voir METHODE.md
+title: Des activités J+S de qualité – Innover et Se soucier de l'entourage (jeu de cartes)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2025'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: f1103b506fa7932c13580464fe7429958a65cc2bc76c25418e80c3d1d648aa6b # (script)
+pages: 36                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, expert-js]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [sport, formation]              # vocabulaire dans docs/taxonomie.md
+concepts: [evaluation, ethique, regles-de-comportement, coach-js, methodes-d-enseignement, relations]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Jeu de cartes, une carte par page, texte court. p.3 (schéma de la conception de la formation J+S) : texte presque perdu (tableau d''une ligne), p.5 et p.19 (schémas des champs d''action) : mots en vrac. Les titres des conseils pratiques sont absents ; liens jsle.ch conservés. p.16-17 et 28-29 (notes personnelles, pages blanches) et p.36 (impressum) hors index. Numérotation imprimée par carte : page_offset 0.'

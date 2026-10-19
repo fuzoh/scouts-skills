@@ -1,0 +1,37 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-exigences-js-2027-camps        # <issuer>-<slug>, stable, voir METHODE.md
+title: J+S 2027 – exigences pour les camps scouts
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/1092/apercu-exigences-js-2027 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/ea/apercu_nouvelles_exigences_js.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text    # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+applies_from: 2027-01-01
+applies_until: null
+nature: prescription
+published: 2026-09-01                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: f6bb0a22952d16f66713c9e0878cd8370b5d5b56636aca1b3afd0615dcd8975f # (script)
+pages: 1                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, coach-js]       # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, administration]          # vocabulaire dans docs/taxonomie.md
+concepts: [camp, activite-de-camp, sport-de-camp, relations, methodes-scoutes] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Infographie d''une page (TE Formation et Encadrement, septembre 2026) : texte complet dans raw.md (exigences, définitions « actif et axé sur le mouvement » et « activité sportive », exemples), mais les encadrés sont dans l''ordre de la mise en page (bulles « 8 méthodes / 5 relations » intercalées dans les puces). Couleur perdue : noir = exigence existante, violet = nouvelle exigence, on ne peut donc pas distinguer les nouveautés 2027 (les passages en surlignage <mark> de raw.md ne sont pas fiables pour cela). applies_from 2027-01-01 : déduit du titre « J+S 2027 » (document de septembre 2026) ; aucune date d''application écrite.'

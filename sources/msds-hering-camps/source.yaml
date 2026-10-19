@@ -1,0 +1,61 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-hering-camps                   # <issuer>-<slug>, stable, voir METHODE.md
+title: Sardine (hering.scout.ch) – guide des démarches administratives pour les camps scouts
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://hering.scout.ch/fr         # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://hering.scout.ch/fr
+  title: HERING
+  slug: fr
+- url: https://hering.scout.ch/fr/mzv9wh016tndwiqo4xtl8ri7
+  title: Conditions cadres pour camps - HERING
+  slug: fr-mzv9wh016tndwiqo4xtl8ri7
+- url: https://hering.scout.ch/fr/cl3dhihsmq7wzr6ia8ae7x1y
+  title: Annonce de camp au MSdS - HERING
+  slug: fr-cl3dhihsmq7wzr6ia8ae7x1y
+- url: https://hering.scout.ch/fr/xnkjxvv5w2l8liu2nuepiqp7
+  title: Commande de matériel de prêt J+S - HERING
+  slug: fr-xnkjxvv5w2l8liu2nuepiqp7
+- url: https://hering.scout.ch/fr/vtc4d0a4bh1448bz432obmln
+  title: Éléments du dossier de camp - HERING
+  slug: fr-vtc4d0a4bh1448bz432obmln
+- url: https://hering.scout.ch/fr/lx06gdyius5ahjkpliddmx3o
+  title: Inscription directe des participant·e·s - HERING
+  slug: fr-lx06gdyius5ahjkpliddmx3o
+- url: https://hering.scout.ch/fr/ifcj8q5esmu5yfkm00hm1vi7
+  title: Évaluation du programme détaillé - HERING
+  slug: fr-ifcj8q5esmu5yfkm00hm1vi7
+- url: https://hering.scout.ch/fr/cjwfa127gm6tyw7qmkumdd75
+  title: Cartes nationales - HERING
+  slug: fr-cjwfa127gm6tyw7qmkumdd75
+- url: https://hering.scout.ch/fr/yzhzxwqpks2z9ltmp2ogod4q
+  title: Clôture dans la BDNS - HERING
+  slug: fr-yzhzxwqpks2z9ltmp2ogod4q
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 2847c7fc93831226480e6a0aef1cb8baa4186a43a8bd1cec59fd1c42abab7386 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, coach-js]       # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, administration]          # vocabulaire dans docs/taxonomie.md
+concepts: [camp, coach-js, bdns, sport-de-camp, autorisation-de-camp, securite, financement, planification]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'SPA React : convert --render obligatoire (~30 s) ; original/ contient désormais le DOM rendu (le sha256 du yaml reste celui des coquilles vides de l''ingest). Pages search, calendar et impressum exclues. Une page = un chapitre lettré du menu (accueil + A à H), toutes couvertes ; les titres de web_pages (premier sous-chapitre + « - HERING ») sont faux, index.md porte les titres h1. Rendu : texte français complet pour la prose et les listes d''étapes. Pertes trafilatura : les badges de rôle de chaque sous-chapitre (div.targets : Responsable de camp / RG / Coach, qui fait quoi) sont tous perdus ; listes de liens nus perdues (« Plus d''informations », liste « matériel de prêt J+S, cartes nationales, assurances Rega » en fin de A.1, séquences d''apprentissage BDNS de l''accueil) ; images de formulaires absentes. Ancres stables présentes sur le site (id de 24 caractères sur le div parent de chaque h2, utilisées par le menu, ex. #x82yvbelkwqwn8ta4mf6mt4b = F. Autorisation de camp) mais non reprises dans raw/ par convert : citer url + titre, ou relever l''ancre dans le menu.' # remarques humaines : qualité, pièges, chapitres à ignorer

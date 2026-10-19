@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Aide pour signaler un problème (site)
+    url: https://fuzoh.github.io/scouts-skills/signaler.html
+    about: Pas à pas pour créer un compte GitHub, remplir un formulaire et savoir quoi joindre.
+  - name: Installer et utiliser les skills (site)
+    url: https://fuzoh.github.io/scouts-skills/
+    about: Installation sur Claude, ChatGPT, Gemini, Codex et exemples de demandes.

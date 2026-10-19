@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-coach-preserver-l-equipe         # <issuer>-<slug>, stable, voir METHODE.md
+title: Le coach J+S – Préserver l'équipe
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 30.060.710                         # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2013'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: af35f977ae2b1f417b364f8690d17f8bae886c5b70edab8d73e59a616b0e8233 # (script)
+pages: 32                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [coach-js]                    # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [organisation]                  # vocabulaire dans docs/taxonomie.md
+concepts: [coach-js, accompagnement, benevolat, relations, evaluation]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Brochure OFSPO 2013, série Coach J+S ; numéro de commande imprimé « 30.060.710 d » sur la version française. Signets plats (16, niveau 1) : couverture et sommaire retirés, hiérarchie reconstruite depuis le sommaire imprimé (p.3), étapes 1 à 9 regroupées par phase, toc_source agent ; page_offset 2 (p.4 = 2, p.30 = 28). P.31 blanche et impressum p.32 exclus. Texte de bonne qualité ; pertes : tableau des rôles (p.16) avec colonne « comportement » séparée des définitions, aide-mémoires d''entretien (p.21, 25, 29) où les questions sont détachées des points numérotés, sociogramme et diagramme des champs d''action (p.17) décrits en texte mais exemples graphiques perdus. Vocabulaire « société sportive » : à transposer au groupe scout.' # remarques humaines : qualité, pièges, chapitres à ignorer

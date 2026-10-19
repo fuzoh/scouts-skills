@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-facteurs-de-developpement        # <issuer>-<slug>, stable, voir METHODE.md
+title: Les facteurs de développement – l'essentiel en bref
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2021'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 9ed3e32d02447d27600371f40bf762d957974719ac1ea348576c7c6b6f7e81f9 # (script)
+pages: 15                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [expert-js, formateur]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [sport]                         # vocabulaire dans docs/taxonomie.md
+concepts: [facteurs-de-developpement, formes-caracteristiques, physis, psyche, sport-des-enfants]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: '15 p., pas de signets ni de sommaire imprimé : traité en manuel (773 lignes), un nœud par axe de développement, toc_source agent, page_offset 0. Axes qualités athlétiques et technique regroupés (p.6 partagée : explosivité et vitesse puis début de l''axe technique). Texte de bonne qualité ; schéma de l''aperçu (p.2) réduit à des étiquettes et à un tableau vide, tableau 1 (p.3) sans la colonne « Importance » (pastilles graphiques) ; bulles de témoignage tronquées ; titre de couverture absent (p.1). Impressum p.15 ignoré.'                               # remarques humaines : qualité, pièges, chapitres à ignorer

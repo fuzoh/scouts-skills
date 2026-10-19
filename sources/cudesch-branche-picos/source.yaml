@@ -1,0 +1,192 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-branche-picos               # <issuer>-<slug>, stable, voir METHODE.md
+title: La branche Picos – S'engager
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager
+  title: La branche Picos – S'engager
+  slug: fr-books-la-branche-picos-sengager
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/chapter/la-branche-picos-et-ses-participants
+  title: 'Chapitre : La branche Picos et ses participants'
+  slug: fr-books-la-branche-picos-sengager-chapter-la-branche-picos
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/le-temps-de-la-jeunesse
+  title: Le temps de la jeunesse
+  slug: fr-books-la-branche-picos-sengager-page-le-temps-de-la
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/les-jeunes-au-sein-de-la-branche-picos
+  title: Les jeunes au sein de la branche Picos
+  slug: fr-books-la-branche-picos-sengager-page-les-jeunes-au-sein
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/les-differences-entre-la-branche-picos-et-les-branches-eclais-et-route
+  title: Les différences entre la branche Picos et les branches Eclais et Route
+  slug: fr-books-la-branche-picos-sengager-page-les-differences
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/les-objectifs-de-la-branche-picos
+  title: Les objectifs de la branche Picos
+  slug: fr-books-la-branche-picos-sengager-page-les-objectifs-de-la
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/de-la-necessite-de-la-branche-picos
+  title: De la nécessité de la branche Picos
+  slug: fr-books-la-branche-picos-sengager-page-de-la-necessite-de
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/chapter/la-branche-picos-en-tant-que-branche
+  title: 'Chapitre : La branche Picos en tant que branche'
+  slug: fr-books-la-branche-picos-sengager-chapter-la-branche-picos-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/lorganisation-de-la-branche-picos
+  title: L’organisation de la branche Picos
+  slug: fr-books-la-branche-picos-sengager-page-lorganisation-de-la
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/les-differents-types-dequipes-dans-la-branche-picos
+  title: Les différents types d’Equipes dans la branche Picos
+  slug: fr-books-la-branche-picos-sengager-page-les-differents
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/lintegration-de-la-branche-picos-dans-le-groupe
+  title: L’intégration de la branche Picos dans le Groupe
+  slug: fr-books-la-branche-picos-sengager-page-lintegration-de-la
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/chapter/la-maitrise-dequipe
+  title: 'Chapitre : La maîtrise d’Equipe'
+  slug: fr-books-la-branche-picos-sengager-chapter-la-maitrise
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/le-profil-et-la-formation
+  title: Le profil et la formation
+  slug: fr-books-la-branche-picos-sengager-page-le-profil-et-la
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/les-droits-et-les-devoirs
+  title: Les droits et les devoirs
+  slug: fr-books-la-branche-picos-sengager-page-les-droits-et-les
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/la-motivation
+  title: La motivation
+  slug: fr-books-la-branche-picos-sengager-page-la-motivation
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/les-points-de-contact
+  title: Les points de contact
+  slug: fr-books-la-branche-picos-sengager-page-les-points-de
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/chapter/mener-une-equipe
+  title: 'Chapitre : Mener une Equipe'
+  slug: fr-books-la-branche-picos-sengager-chapter-mener-une-equipe
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/encadrer-et-mener
+  title: Encadrer et mener
+  slug: fr-books-la-branche-picos-sengager-page-encadrer-et-mener
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/quand-faut-il-mener-quand-faut-il-encadrer
+  title: Quand faut-il mener ? Quand faut-il encadrer ?
+  slug: fr-books-la-branche-picos-sengager-page-quand-faut-il-mener
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/etre-responsable-savoir-fixer-des-limites
+  title: 'Être responsable : savoir fixer des limites'
+  slug: fr-books-la-branche-picos-sengager-page-etre-responsable
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/lencadrement-motivation-et-encouragement
+  title: 'L’encadrement : motivation et encouragement'
+  slug: fr-books-la-branche-picos-sengager-page-lencadrement
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/les-phases-dune-equipe
+  title: Les phases d’une Equipe
+  slug: fr-books-la-branche-picos-sengager-page-les-phases-dune
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/passer-des-visions-aux-objectifs
+  title: Passer des visions aux objectifs
+  slug: fr-books-la-branche-picos-sengager-page-passer-des-visions
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/la-planification-a-long-terme
+  title: La planification à long terme
+  slug: fr-books-la-branche-picos-sengager-page-la-planification-a
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/le-contact-avec-les-parents
+  title: Le contact avec les parents
+  slug: fr-books-la-branche-picos-sengager-page-le-contact-avec-les
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/se-forger-une-opinion
+  title: Se forger une opinion
+  slug: fr-books-la-branche-picos-sengager-page-se-forger-une
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/la-prevention-et-les-roles-hommes-femmes
+  title: La prévention et les rôles hommes / femmes
+  slug: fr-books-la-branche-picos-sengager-page-la-prevention-et
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/chapter/la-vie-au-sein-de-lequipe
+  title: 'Chapitre : La vie au sein de l’Equipe'
+  slug: fr-books-la-branche-picos-sengager-chapter-la-vie-au-sein
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/lesprit-dequipe
+  title: L’esprit d’équipe
+  slug: fr-books-la-branche-picos-sengager-page-lesprit-dequipe
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/le-feedback-au-sein-de-lequipe
+  title: Le feedback au sein de l'Equipe
+  slug: fr-books-la-branche-picos-sengager-page-le-feedback-au-sein
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/le-triangle-notre-methode-de-travail
+  title: Le Triangle – notre méthode de travail
+  slug: fr-books-la-branche-picos-sengager-page-le-triangle-notre
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/bon-a-savoir-laisser-une-entreprise-se-casser-la-figure
+  title: Bon à savoir « Laisser une entreprise se casser la figure »
+  slug: fr-books-la-branche-picos-sengager-page-bon-a-savoir
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/la-methode-de-travail
+  title: La méthode de travail
+  slug: fr-books-la-branche-picos-sengager-page-la-methode-de
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/lutilisation-dun-theme
+  title: L’utilisation d’un thème
+  slug: fr-books-la-branche-picos-sengager-page-lutilisation-dun
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/chapter/les-cinq-relations-et-les-sept-methodes-dans-la-branche-picos
+  title: 'Chapitre : Les cinq relations et les sept méthodes dans la branche Picos'
+  slug: fr-books-la-branche-picos-sengager-chapter-les-cinq
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/check-list-pour-un-programme-equilibre
+  title: Check-list pour un programme équilibré
+  slug: fr-books-la-branche-picos-sengager-page-check-list-pour-un
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/exemples-par-rapport-aux-relations-et-aux-methodes
+  title: Exemples par rapport aux relations et aux méthodes
+  slug: fr-books-la-branche-picos-sengager-page-exemples-par
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/chapter/les-activites
+  title: 'Chapitre : Les activités'
+  slug: fr-books-la-branche-picos-sengager-chapter-les-activites
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/la-securite
+  title: La sécurité
+  slug: fr-books-la-branche-picos-sengager-page-la-securite
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/les-activites-spontanees
+  title: Les activités spontanées
+  slug: fr-books-la-branche-picos-sengager-page-les-activites
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/les-seances
+  title: Les séances
+  slug: fr-books-la-branche-picos-sengager-page-les-seances
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/lentreprise
+  title: L'entreprise
+  slug: fr-books-la-branche-picos-sengager-page-lentreprise
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/les-camps
+  title: Les camps
+  slug: fr-books-la-branche-picos-sengager-page-les-camps
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/les-activites-picos-en-detail
+  title: Les activités Picos en détail
+  slug: fr-books-la-branche-picos-sengager-page-les-activites-picos
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/la-technique-scoute-au-sein-de-la-branche-picos
+  title: La technique scoute au sein de la branche Picos
+  slug: fr-books-la-branche-picos-sengager-page-la-technique-scoute
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/chapter/les-difficultes-de-la-branche-picos
+  title: 'Chapitre : Les difficultés de la branche Picos'
+  slug: fr-books-la-branche-picos-sengager-chapter-les-difficultes
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/les-situations-difficiles-au-sein-de-lequipe
+  title: Les situations difficiles au sein de l'Equipe
+  slug: fr-books-la-branche-picos-sengager-page-les-situations
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/les-situations-difficiles-au-sein-de-lequipe-yew
+  title: Les situations difficiles au sein de l'Equipe
+  slug: fr-books-la-branche-picos-sengager-page-les-situations-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-picos-sengager/page/les-problemes-courants-au-sein-de-la-branche-picos
+  title: Les problèmes courants au sein de la branche Picos
+  slug: fr-books-la-branche-picos-sengager-page-les-problemes
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete                         # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 0ae29cb3a5622f35c65d5e0fdbfae27dece069c5e0e788919b09f7cfbcfb5d88 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme]                     # vocabulaire dans docs/taxonomie.md
+concepts: [branches, methodes-scoutes, relations, coach-js, planification, motivation, gestion-des-conflits, securite]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history:  # versions précédentes : {version, published, sha256, retired}
+- version: '2017'
+  published: null
+  sha256: c3eb94906933ae73ffc008b82f97f9af779897437eed4cb115e7de550fa4419f
+  retired: 2026-10-17
+  note: édition PDF pfadi.swiss cudesch_piostufenbroschuere_dfi_201711.pdf (76 p., logo 2022), https://pfadi.swiss/media/files/c2/cudesch_piostufenbroschuere_dfi_201711.pdf, remplacée par le livre du cudesch numérique
+
+notes: 'Livre BookStack du cudesch numérique (cudesch.scout.ch, MSdS, en ligne depuis janvier 2026), 1 page d''accueil + 8 chapitres + 40 pages (49 nœuds) ; index écrit par l''agent dans l''ordre de lecture de web_pages. Les pages de chapitre ne portent que l''introduction du chapitre suivie de la liste de ses pages avec extraits (lien et premières lignes), à ignorer ; plusieurs ont en tête le bruit de navigation du site. Ancres bkmrk-… conservées sur chaque titre (citation `id <url>#bkmrk-…`). Deux pages portent le même titre « Les situations difficiles au sein de l''Equipe » (§8.1 : tableaux par niveau maîtrise, picos, programme, Groupe ; §8.2, url …-yew : conduite à tenir, discussions, exclusion) ; elles se distinguent par l''url. Pertes trafilatura : images et schémas ; encadrés rendus en gras. Pages longues restées un seul fichier (une page web = une section) : Les activités Picos en détail (§7.6, 3 500 mots), Les camps (§7.5), L''esprit d''équipe (§5.1), Exemples par rapport aux relations et aux méthodes (§6.2). Numéros § posés par l''agent (le site n''en a pas).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

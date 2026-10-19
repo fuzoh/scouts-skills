@@ -1,0 +1,35 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-exemple-randonnee-nuitee         # <issuer>-<slug>, stable, voir METHODE.md
+title: Randonnée avec nuitée – exemple de dossier pour la formation
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+nature: exemple
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 41245d74f6130ee9e8f25870dfb2f6845e7b9d869b0293c3219721b321f61ce9 # (script)
+pages: 10                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur, expert-js]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, formation]               # vocabulaire dans docs/taxonomie.md
+concepts: [fiche-d-activite, sport-de-camp, trekking, securite, planification, activite-de-camp]   # termes du GLOSSARY.md
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Dossier d''exemple (réf. 302.01.fr, 09/2026) : p.1-4 fiche d''activité en tableaux ; p.5-6 itinéraire (cartes/profil perdus) ; p.7 « Tableau du temps de marche » vide (image non extraite) ; p.8-10 concept de sécurité (3x3, risques et mesures), p.4, 8, 9 converties en texte libre sans tableau pour ne pas perdre de contenu. Annexes repas, courses, horaires de train absentes du dossier. raw.md régénéré.'

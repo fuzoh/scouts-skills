@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-guide-prestations-speciales      # <issuer>-<slug>, stable, voir METHODE.md
+title: Guide concernant les prestations spéciales pour les offres de sport J+S et la formation des cadres J+S
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/36/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/71/leitfaden_spezielle_leistungen_js_f.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2022'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: e6443b6f707f77f4d7715e05b8fed5624e490c7cd1d2410cf3f66b8b1e5b7f80 # (script)
+pages: 2                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [coach-js, cadre-cantonal]    # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [administration]                # vocabulaire dans docs/taxonomie.md
+concepts: [js, ofspo, sport-de-camp, camp, coach-js, orientation]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Guide OFSPO du 03.03.2022 (2 p.), texte complet, liens conservés. Les intertitres p.2 (Médiathèque, Hébergement, Transport des personnes, Rega) sont regroupés en tête de page, puis les paragraphes suivent dans le même ordre. Informations pratiques (adresses, téléphones, rabais 50 % hébergement militaire, billets de groupe CFF 30 %) susceptibles de vieillir.'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

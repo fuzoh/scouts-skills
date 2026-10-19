@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-manuel-bases                     # <issuer>-<slug>, stable, voir METHODE.md
+title: Manuel J+S – Bases
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: 2024, 3e édition remaniée      # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 242b41c57024fd39fb47fa06423e0c0664df978dcdff4be6a32f6fd277a3c0c7 # (script)
+pages: 76                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, coach-js]       # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [sport, formation]              # vocabulaire dans docs/taxonomie.md
+concepts: [modele-de-formation, ethique, planification, methodes-d-enseignement, securite, sport-des-enfants, formes-caracteristiques, jeu]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'PDF chiffré AES-256 (copie interdite) ; pymupdf lit le texte sans mot de passe. Signets FR propres (pas d''allemand), page_offset 0 (vérifié p.4, 13, 30, 62). Arbre réécrit (toc_source: agent) : sommaire imprimé à 4 niveaux aplati à 3 (Planifier/Conseils et Prévention des blessures remontés au rang de champs d''action) ; nœuds qui partagent une page regroupés (monitrice + Charte d''éthique, Activités J+S + coachs, Innover et Se soucier de l''entourage sans enfants) ; signets erronés corrigés d''après le sommaire (formes fondamentales de mouvements p.61-68, de jeux p.69-75, et non 60/68) ; couverture, sommaire et impressum (p.76) exclus. « Prévention des blessures » (p.42-44) contient aussi la suite du champ « Encadrer un groupe » (présence, perturbations, temps de mouvement). Pages de titre de chapitre (p.11, 23, 33, 59) sans texte propre. Qualité : texte bon, une colonne logique ; illustrations perdues (p.5 règles de comportement, p.12-13 schéma du modèle de Macolin réduit à des étiquettes éparses), encadrés et citations parfois placés hors ordre de lecture ; fiches d''exercices p.61-75 en tableaux markdown corrects (icônes - 0 + = plus facile / plus difficile), parcours « Excursion en montagne » p.66-68 en tableau, colonnes éclatées p.68.'

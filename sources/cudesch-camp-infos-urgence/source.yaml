@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-camp-infos-urgence          # <issuer>-<slug>, stable, voir METHODE.md
+title: Feuille d'informations en cas d'urgence pour les participants (formulaire)
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/17/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/8a/07_lager_notfallinfos_fr_web_form.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial
+fidelity_notes: 'Cases Oui/Non et niveaux de natation p.2 rendus par des glyphes « G » parasites : le libellé de la question qui précède certaines cases (p.2, après « sait nager ») est manquant ; sélection de cases non récupérable.'
+
+version: '2018'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 977c7d82a6e07aa5b053ff476045128ce4f56559a3512132d969d9a065c9cd67 # (script)
+pages: 2                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, securite]                # vocabulaire dans docs/taxonomie.md
+concepts: [camp, securite, premiers-secours, psa, administration-de-cours]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Formulaire (réf. MSdS.3057.05.fr ; le pied de page de la source dit 3057.05, l''index cudesch cite 3057.04) : champs de saisie vides. Données sensibles (santé, coordonnées) : la feuille est vierge, rien à caviarder. Texte p.1 hors ordre de lecture (les rubriques Etat de santé et Renseignements personnels viennent après le contact d''urgence), question Rega et consentement p.2 en ordre dispersé.'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

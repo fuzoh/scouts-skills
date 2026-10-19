@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-physis-bases-theoriques          # <issuer>-<slug>, stable, voir METHODE.md
+title: Physis – bases théoriques
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: 2015, 3e édition remaniée      # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: aaf7752c9036cb9d8cff99429504fd999f361b3f77bb9eed59b544137b573850 # (script)
+pages: 52                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur, expert-js]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [sport]                         # vocabulaire dans docs/taxonomie.md
+concepts: [physis, condition-physique, coordination, echauffement, planification]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Pas de signets ; arbre réécrit depuis le sommaire imprimé (p.3), toc_source agent, page_offset 2 vérifié (p.5 = imprimée 3, p.15 = 13). Chapitres non numérotés, pas de §. Texte de bonne qualité, tableaux convertis en tableaux markdown (quelques cellules dupliquées sur plusieurs colonnes, ex. tableau 1). Ligature « fi » perdue à plusieurs endroits (« spécifque », « infuences », « réfexe »). Schémas perdus ou en étiquettes éclatées (p.23, adaptations à l''entraînement d''endurance). Le début de p.20 (entraînement de l''endurance-force, fin du chapitre force) est rangé dans 07-endurance.md (arrondi à la page). Glossaire p.40-49 : la mise en page à deux colonnes sépare les termes (avec équivalents allemand, italien, anglais) de leurs définitions, données ensuite dans le même ordre par page ; découpé en trois fichiers alphabétiques. Ignorés : couverture, sommaire, p.2 et p.51 blanches, impressum p.52.'                               # remarques humaines : qualité, pièges, chapitres à ignorer

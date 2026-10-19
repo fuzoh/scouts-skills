@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-sport-des-enfants-perturbations  # <issuer>-<slug>, stable, voir METHODE.md
+title: Sport des enfants J+S – les perturbations dans l'enseignement
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 30.040.055 f                       # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2016'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: e87d3a4a8e07b2954413784c380168ac499fce9d0b695290237c4e5c4ca45125 # (script)
+pages: 24                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [sport, programme]              # vocabulaire dans docs/taxonomie.md
+concepts: [sport-des-enfants, perturbations, methodes-d-enseignement, regles-de-comportement, securite]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'PDF sans signets ; arbre réécrit d''après le sommaire imprimé (p.3), toc_source agent, page_offset 2 (Introduction p.3 imprimée = p.5, Bibliographie p.20 = p.22). Pas de §. Texte de bonne qualité ; pertes : photos, illustrations, étiquettes du schéma de la perturbation (p.10, niveaux vert foncé à rouge) et icônes de renvoi (« p. ») isolées hors contexte. Les parents « Mieux comprendre » et « Les différents niveaux » n''ont pas de texte propre. Pages blanches p.2, 4, 23 ; impressum p.24 exclu.' # remarques humaines : qualité, pièges, chapitres à ignorer

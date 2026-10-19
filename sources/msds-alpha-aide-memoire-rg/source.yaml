@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-alpha-aide-memoire-rg          # <issuer>-<slug>, stable, voir METHODE.md
+title: Alpha – Aide-mémoire du responsable de groupe
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: converted                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: null                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2017'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2017-08-17                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: eaf10a55e73d5f8f53f0a4e49e6940ecf9eb53c7d8f62c625bf0123cb9d94c8c # (script)
+pages: 80                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, cadre-cantonal] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [organisation, administration]  # vocabulaire dans docs/taxonomie.md
+concepts: [accompagnement, planification, financement, securite, motivation, communication, gestion-des-conflits, organisation-du-msds]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Brochure de 80 p. (MSdS, Berne, édition 2017, réf. 3121.01, tirage 250), sans signets : arbre écrit à la main depuis la table des matières imprimée (p.3-4), page_offset 0 vérifié sur p.14, 36 et 70. Pages 1-2, 6, 40, 52, 58, 68, 78 vides ou illustrées dans raw.md ; impressum p.79 et 4e de couverture p.80 hors index. Regroupements de sections qui partagent une page (ex. « §2.2.3 ; 2.3 », « §3.7 ; 3.8 », « §6.3.4 ; 6.4 »). Texte propre ; les schémas (organigramme p.30, rôles du RG p.8, schéma Observer-Réfléchir-Agir) et les encadrés d’exemples sont rendus en texte dans l’ordre des blocs, parfois en désordre. Édition 2017 : les textes réglementaires, liens web, assurances et noms de structures (ComPar, QUAP, SPORTdb, Sardine) peuvent être périmés, à recouper avec cudesch.'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-sdct-bases                       # <issuer>-<slug>, stable, voir METHODE.md
+title: Sport de camp/Trekking – Bases (brochure J+S du cudesch)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 30.401.500 f                       # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/39/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/0c/2014brolstgrundlagenf2.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial
+fidelity_notes: 'Grilles et schémas à plat ou perdus : p.16 (schéma du « 3 × 3 de la sécurité », tableau illisible), p.19 (grille de questions de la méthode 3 × 3, cellules à plat), p.28-31 (noms des formes méthodologiques séparés de leurs descriptions, correspondance par ordre), p.32-33 (grille de description d''activité, en tableau mais cases vides), pictogrammes perdus.'
+
+version: '2014'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 61220827be05bb86eaadb372cef90aac7c9491afd1946197a4c0d0653c406480 # (script)
+pages: 36                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, sport]                   # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, activite-de-camp, js, methode-3x3, securite, planification, camp, trekking]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Signets pauvres (3, dont couverture, sommaire) : index réécrit à la main d''après le sommaire imprimé. page_offset +2 (page imprimée = physique − 2), vérifié p.5 (imprimée 3) et p.34 (imprimée 32). Couverture p.1-2, sommaire p.3, pages blanches p.35 et impressum p.36 exclus. Texte à deux colonnes et encadrés latéraux souvent dans l''ordre des blocs ; pictogrammes et illustrations perdus. Chapitres 05, 10 et 14 sans texte propre (renvoi vers leurs sous-sections). Brochure du cudesch, ancrée sur le SC/T J+S 2014.'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

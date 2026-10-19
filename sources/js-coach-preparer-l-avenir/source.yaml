@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-coach-preparer-l-avenir          # <issuer>-<slug>, stable, voir METHODE.md
+title: Coach J+S – Préparer l'avenir
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 30.060.700 f                       # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2013'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: b26c5713078d4c8413e2bb424d5b29789cd9da0e15dd00b42333aee3ff2908c7 # (script)
+pages: 32                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [coach-js]                    # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [organisation]                  # vocabulaire dans docs/taxonomie.md
+concepts: [coach-js, conduite-du-changement, planification, benevolat, financement, evaluation, sport-des-enfants]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Brochure OFSPO 2013 (n° 30.060.700 f), série Coach J+S, d''après Nagel et Schlesinger 2012. Sans signets : arbre réécrit depuis le sommaire imprimé (p.3), toc_source agent ; page_offset 2 (p.4 = 2, p.30 = 28). Couverture, page blanche, sommaire, p.31 blanche et impressum p.32 exclus. Texte de bonne qualité ; pertes : schéma de synthèse p.5 et modèle en cinq phases (p.15, mot isolé « Modifier ») réduits à des étiquettes, listes de contrôle en tableau (p.22, p.24) lues colonne par colonne (étapes puis résultats puis sources), illustrations perdues. « Le modèle en détail » découpé par phase (p.18-29). Vocabulaire « société sportive » : à transposer au groupe scout.'                               # remarques humaines : qualité, pièges, chapitres à ignorer

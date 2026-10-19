@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-le-cours                       # <issuer>-<slug>, stable, voir METHODE.md
+title: Le cours – concevoir, planifier, réaliser, évaluer
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2026'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 5df293697d1700b26d45e585e2181048dae70e0c524e9662fa304a5aa26f735c # (script)
+pages: 67                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur, expert-js]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation]                     # vocabulaire dans docs/taxonomie.md
+concepts: [modele-de-formation, planification, objectifs-d-apprentissage, unite-d-apprentissage, chef-de-cours, caf, qualification, evaluation] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Pas dans le catalogue Downloads au 2026-10-17 (trilogie 2026 non publiée en ligne) ; l''ancienne brochure RQE 2023 est detail/57. raw.md INCOMPLET : pymupdf4llm a perdu environ 64 % du texte (9 200 mots contre 25 300 dans le PDF ; texte sous les graphismes Word ignoré) ; index.md est prêt (pages physiques), il reste à reconvertir (ignore_graphics) puis relancer split avant de passer en indexed ; résumés d''index.md écrits sur le texte complet (pdftotext). Table des matières imprimée décalée d''une page dès 2.2.2, « Fehler! Textmarke nicht definiert » au ch. 2, marques de commentaires Word ([ba8.1]). Plages à la page près : deux sections qui se partagent une page sont regroupées dans un même nœud (titre « 2.2.7 … ; 2.2.8 … »), une section qui commence en bas de page a son début dans le fichier précédent ; un chapitre garde sa première sous-section quand elles partagent la page (« §3 … ; 3.1 … »). Pied « Page N » = page physique (page_offset 0) ; p.1-5 (couverture, impressum, table des matières) hors index. Version de travail : renvois « LIEN … » non résolus, renvois internes avec une ancienne numérotation.' # remarques humaines : qualité, pièges, chapitres à ignorer

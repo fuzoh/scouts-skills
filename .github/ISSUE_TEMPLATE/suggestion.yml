@@ -1,0 +1,39 @@
+name: Suggestion
+description: Une idée pour améliorer les skills (sujet manquant, exemple utile, meilleure formulation).
+title: "[Suggestion] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci pour votre idée. Décrivez simplement ce qui vous manque.
+
+        **Ne collez jamais de données personnelles** : noms, dates de naissance, données de participant·e·s.
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill concerné
+      options:
+        - scouts
+        - scouts-ressources
+        - Les deux
+        - Je ne sais pas
+    validations:
+      required: true
+  - type: textarea
+    id: besoin
+    attributes:
+      label: Ce que vous voudriez pouvoir faire
+      description: Une situation concrète aide beaucoup (« en préparant un camp, j'aurais voulu… »).
+    validations:
+      required: true
+  - type: textarea
+    id: idee
+    attributes:
+      label: Votre idée
+      description: Ce que le skill pourrait faire ou dire de mieux, si vous avez déjà une piste.
+  - type: input
+    id: source
+    attributes:
+      label: Ressource officielle utile, si vous en connaissez une
+      description: Lien ou titre d'un document public à intégrer.

@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: autre-water-safety-cartes           # <issuer>-<slug>, stable, voir METHODE.md
+title: Set de cartes Water Safety (BPA)
+issuer: autre                           # msds | cofor | js | cudesch | autre
+issuer_detail: BPA – Bureau de prévention des accidents (bfu) # obligatoire si issuer = autre
+ref: '4.078'                            # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/874/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/03/bfu_407801_f_water-safety-kartenset.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial
+fidelity_notes: 'Schémas et tableaux perdus ou à plat : modèle d''action de la SSS p.4 (lettres éparses), signaux de navigation p.12 (pictogrammes sans légende), grille 3 × 3 p.17 (cellules vides), tableau des risques p.23 (cases mêlées), matrice des risques p.24 (graphique perdu), schéma BLS-AED p.37 (carte 19, aucun texte), page blanche p.20.'
+
+version: '2020'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 030bdb992923dc47f9f59614605d781a58dc7fc344c9ba00b916d070d7e5feca # (script)
+pages: 40                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [securite]                      # vocabulaire dans docs/taxonomie.md
+concepts: [eau, securite, methode-3x3, premiers-secours, planification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Set de 20 cartes recto/verso en 40 pages : un thème = un groupe de pages, ordre des cartes ≠ numéro de page (numéro de carte repéré par un « 9 », « 10 »… isolé en fin de page). Sans signets ni pagination imprimée (page_offset 0). Couverture p.1, liste des cartes p.2 et page BPA p.40 exclues. Texte court en blocs, correct en lecture mais illustrations (nombreuses) perdues. La carte 19 (premiers secours BLS-AED) est une image sans texte : voir l''original.'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

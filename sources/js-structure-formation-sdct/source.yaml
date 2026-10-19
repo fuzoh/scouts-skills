@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-structure-formation-sdct         # <issuer>-<slug>, stable, voir METHODE.md
+title: Structure de la formation J+S Sport de camp/Trekking (BDNS, versions jusqu'au 31.12.2026 et dès le 1.1.2027)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://www.nds.baspo.admin.ch/publicArea/cadreEducationStructure/cadre/education-structure/8882064071822763341/structure                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                            # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Tableau à deux colonnes (jusqu''au 31.12.2026 / dès le 1.1.2027) mis à plat : l''appartenance de chaque cours à une colonne est perdue, reconstituée dans notes ; lettres S / M / I (filière) et J / E (groupe cible) détachées de leurs lignes ; onglet « Plan des cours » non capturé.'                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2026-10-18                   # date du document, null si inconnue
+retrieved: 2026-10-18                   # (script) date de téléchargement
+sha256: 7b00fd2c2eac5593a3ee2480ced1c12f428b1d1dd16ac3ec6de3850f28bdcaee # (script)
+pages: 3                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [formateur, coach-js, expert-js, cadre-cantonal] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation]                     # vocabulaire dans docs/taxonomie.md
+concepts: [js, coach-js, sport-de-camp, montagne, hiver, eau]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Impression PDF (Chrome) de la page publique BDNS « Structure de la formation » de la discipline Sport de camp/Trekking, déposée par le mainteneur le 2026-10-18 comme « offre de cours » J+S. Reconstitution des deux colonnes d''après la mise en page : jusqu''au 31.12.2026 : Cours de moniteurs/trices ; CM pour personnes avec formation péd. ; Responsable de camp ; Domaine de sécurité Montagne ; Eau ; Hiver ; Prévention ; Activités SdC/T ; Technique de cordes et constructions ; Cours d''experts ; MP expert-e-s du domaine de sécurité. Dès le 1.1.2027 : Cours introduction ; Domaine de sécurité Eau ; Domaine de sécurité Hiver ; Montagne ; Module de perfectionnement pour moniteurs SdC/T ; Durabilité ; Nature et environnement ; Diversité et inclusion ; Cours d''expert-e-s ; Module de perfectionnement pour expert-e-s. Groupe cible J = jeunes, E = enfants ; S = filière sport des jeunes (M, I non attribués sur la page). Page dynamique : à réimprimer si la structure change.'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

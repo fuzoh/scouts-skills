@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-ouvert-a-tous-equipe-de-cours  # <issuer>-<slug>, stable, voir METHODE.md
+title: Ouvert à tou·te·s – dossier de l'équipe de cours concernant la diversité et l'inclusion
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 215001fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/782/ouvert-a-toutes-dossier-de-lequipe-de-cours-concernant-la-diversite-et-linclusion # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/96/215001fr-ouvert_a_toutes_dossier_de_l_equipe_de_cours-20220715-dincl.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2022'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2022-07-15                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 58c540fc8651431260bf2a2a07daccb37b6c7a13bba6279016d81e09a5e1fa82 # (script)
+pages: 9                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur]                   # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [inclusion, formation]          # vocabulaire dans docs/taxonomie.md
+concepts: [inclusion, modele-de-formation, cours-de-base, cours-ru, methodes-d-enseignement] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Texte complet (p.1 couverture, p.2 impressum et table des matières à ignorer). Chapeaux de section rendus en titres de niveau 4 sur de longs paragraphes ; césures de fin de ligne conservées (« inclu- sion », « formati- on »). Les fiches d''informations (première partie du dossier) ne sont pas dans ce PDF.' # remarques humaines : qualité, pièges, chapitres à ignorer

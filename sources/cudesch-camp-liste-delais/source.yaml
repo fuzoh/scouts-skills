@@ -1,0 +1,39 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-camp-liste-delais           # <issuer>-<slug>, stable, voir METHODE.md
+title: Liste des délais pour l'annonce de camp (formulaire interactif)
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/6/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/28/07_lager_terminliste_fr_web_form.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete
+
+version: '2018'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: b01e969fd3fbe790ee4ce13d7951891ea3052f5b9b8740461e3cca132c61ff31 # (script)
+pages: 2                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, coach-js]       # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, administration]          # vocabulaire dans docs/taxonomie.md
+concepts: [camp, administration-de-cours, planification, autorisation-de-camp, sardine, financement]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Formulaire interactif (délais d''annonce) : tableaux p.1 bien rendus ; p.2 check-list de camp (Date, Quand, Quoi, Qui, Fait) dont les colonnes de saisie sont vides. Les champs à remplir (coach, Voilà) sont dans un tableau final p.1 à cellules fusionnées. Un astérisque indique les prestations indisponibles pour un camp non annoncé J+S. Réf. MSdS.3044.04.fr. Orthographe d''origine (« offce », « défnir »).'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

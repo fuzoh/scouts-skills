@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cofor-pano-retour-qualifier         # <issuer>-<slug>, stable, voir METHODE.md
+title: Faire un retour, qualifier et encourager – fiche d'information pour les cours Panorama
+issuer: cofor                           # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 314101fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/1074/cours-panorama-faire-un-retour-qualifier-et-encourager # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/bc/314101fr_fiche_dinformation_pour_les_cours_panorama_faire_un_retour_qualifier_et_encourager.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2026-05-06                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 8cc68beee87077c3bbc4c00538a4aa595b2bb00c4d220dc62ed791d4ee3dc05c # (script)
+pages: 5                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur]                   # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation]                     # vocabulaire dans docs/taxonomie.md
+concepts: [cours-panorama, retour, qualification, evaluation, accompagnement, modele-de-formation]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Texte complet. Complète la brochure « Faire un retour, qualifier et encourager au sein des cours de formation » (RQE) ; le chapitre 3 est une liste de questions pour les maîtrises de cours. Fiche CCP du 06.05.2026.'

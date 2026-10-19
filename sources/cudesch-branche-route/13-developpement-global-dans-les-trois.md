@@ -1,0 +1,22 @@
+---
+source: cudesch-branche-route
+version: '2026-10-17'
+title: Développement global dans les trois rôles
+url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/developpement-global-dans-les-trois-roles
+sha256: e1a61c12963872ad675fa76aef3519a2209329bdd4e8be074912054d12b39f99
+---
+
+<!-- #bkmrk-page-title -->
+# Développement global dans les trois rôles
+
+Lors du passage de l’adolescence à la vie de jeune adulte, les membres de la branche Route s’éloignent souvent de plus en plus de leur famille et veulent agir de manière autonome, se voient en concurrence avec les jeunes de leur âge et se confrontent davantage les uns avec les autres. Des groupes d’âge se forment et les jeunes adultes acceptent de nouveaux défis. Dans cette phase, ce sont surtout les activités d’équipe, des petits projets et des activités dans lesquels ils ou elles se retrouvent.
+
+Les jeunes routiers/guides veulent élargir leur horizon, acquérir de nouvelles connaissances et mener des discussions critiques. Outre leur souhait de se réaliser, vient également le besoin de s’affirmer. Cela est possible grâce aux cours de formation initiales et continues, aux projets et aux activités pour la société. Il s’agit de leur offrir l’occasion d’«inventer de nouvelles choses» et d’élaborer des contenus scouts. Les membres de la branche Route doivent toujours se voir offrir la possibilité de progresser personnellement. Les trois rôles sont le cadre du développement global du routier ou de la guide. Selon les besoins, l’expérience et les objectifs, ils ou elles peuvent s’épanouir dans les trois rôles et prendre des responsabilités et des fonctions de soutien, ainsi que vivre leur scoutisme.
+
+|  | @@ANC:bkmrk-verantwortung-als-fu-1@@ **Responsabilité comme responsable** En tant que responsables, les guides et les routiers prennent une fonction spécifique et endossent diverses responsabilités ayant trait à la direction de la branche, du groupe, de la région ou de la brigade ou bien comme membre de la direction cantonale ou de cours. La responsabilité s’entend, selon la fonction, des finances à la formation initiale et continue et à celle de ses codirigeants en passant par le contact avec les parents et l’organisation de camps/cours. Dans le cadre d’une fonction, le routier ou la guide peut acquérir ou approfondir des connaissances et des compétences très spécifiques et chercher de nouveaux défis. |
+|  |  |
+|  | @@ANC:bkmrk-unterst%C3%BCtzung-als-re@@ **Soutien comme ressource** Grâce à leur grande expérience et à leurs compétences, les guides et les routiers sont aussi perçus comme une ressource pouvant soutenir la base activement et rapidement. Ainsi, ils ou elles peuvent apporter leurs compétences par exemple dans les domaines de la logistique, de la technique, des finances, du droit, de la gestion de crise, etc. en prodiguant conseils et soutien. Cela constitue une importante plus-value pour le scoutisme. De plus, ils ou elles peuvent, comme ressource, se former de manière continue, acquérir de nouvelles compétences dans le cadre de projets et s’engager personnellement. Les apprentissages retirés de cet engagement pourront être utilisés en faveur de la société et du mouvement scout. |
+|  |  |
+|  | @@ANC:bkmrk-pfadi-erleben-als-te@@ **Vivre le scoutisme comme participant(e)** Malgré ou à cause de leur engagement, les membres de la branche Route ne doivent cependant pas oublier de vivre le scoutisme comme participant actif. Une diversité de possibilités de participer à des activités au niveau local, régional, national et international s’offre aux routiers/guides. Il s’agit ici de redevenir, l’espace d’une activité, participant et de vivre le scoutisme activement tout en prenant son rôle dans la société et dans le scoutisme au sérieux. Par exemple, cela peut s’illustrer lors d’une Veillée Route. Redevenir participant peut apporter également un regain de plaisir et de motivation. Par ailleurs, les membres de la branche Route apprennent de nouvelles compétences grâce au statut de participant·e et selon les circonstances ils pourront par la suite les utiliser dans d’autres rôles. |
+
+Les trois rôles offrent ainsi aux membres de la branche Route un socle spécifique pour mettre en œuvre des activités et des projets en fonction de leurs besoins.

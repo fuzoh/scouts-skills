@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-apprentissage-en-mouvement       # <issuer>-<slug>, stable, voir METHODE.md
+title: Apprentissage en mouvement – méthodes pour dynamiser l'enseignement théorique
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2013'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 2e9e08a4103fc92040e84cea3414afe651ee0a0d597ad4f7f85a96f05c37c4b7 # (script)
+pages: 16                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur, expert-js]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation, sport]              # vocabulaire dans docs/taxonomie.md
+concepts: [methodes-d-enseignement, apprentissage-en-mouvement, planification]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Pas de signets ; arbre d''après le sommaire imprimé (p.3), toc_source agent, page_offset 2. Tableau synoptique (p.5) en lignes à plat : colonnes F/Ri/Ti/E non alignées, cellules à recouper avec le PDF. Les 29 méthodes alphabétiques (p.10-14) restent dans un seul fichier. Coquille du PDF : la 4e méthode détaillée (Récit/Entretien, p.9) est titrée « Phase T(i) » au lieu de « Phase E ». Impressum p.16 ignoré.'                               # remarques humaines : qualité, pièges, chapitres à ignorer

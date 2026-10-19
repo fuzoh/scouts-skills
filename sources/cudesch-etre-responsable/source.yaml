@@ -1,0 +1,150 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-etre-responsable            # <issuer>-<slug>, stable, voir METHODE.md
+title: Être responsable – agir consciemment
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment
+  title: Être responsable – agir consciemment
+  slug: fr-books-etre-responsable-agir-consciemment
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/chapter/la-maitrise
+  title: 'Chapitre : La maîtrise'
+  slug: fr-books-etre-responsable-agir-consciemment-chapter-la
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/creation-de-la-maitrise
+  title: Création de la maîtrise
+  slug: fr-books-etre-responsable-agir-consciemment-page-creation
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/roles-et-fonctions
+  title: Rôles et fonctions
+  slug: fr-books-etre-responsable-agir-consciemment-page-roles-et
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/responsables-de-la-maitrise
+  title: Responsables de la maîtrise
+  slug: fr-books-etre-responsable-agir-consciemment-page
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/succession-releve
+  title: Succession (relève)
+  slug: fr-books-etre-responsable-agir-consciemment-page-succession
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/chapter/seances-de-maitrise
+  title: 'Chapitre : Séances de maîtrise'
+  slug: fr-books-etre-responsable-agir-consciemment-chapter-seances
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/avant-la-seance-de-maitrise
+  title: Avant la séance de maîtrise
+  slug: fr-books-etre-responsable-agir-consciemment-page-avant-la
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/pendant-la-seance
+  title: Pendant la séance
+  slug: fr-books-etre-responsable-agir-consciemment-page-pendant-la
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/chapter/relations-avec-les-autres-types-de-conduites
+  title: 'Chapitre : Relations avec les autres – ­ types de conduites'
+  slug: fr-books-etre-responsable-agir-consciemment-chapter
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/une-conduite-adaptee-a-la-situation
+  title: Une conduite adaptée à la situation
+  slug: fr-books-etre-responsable-agir-consciemment-page-une
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/exemples-de-situation-et-de-reaction
+  title: Exemples de situation et de réaction
+  slug: fr-books-etre-responsable-agir-consciemment-page-exemples
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/chapter/le-scoutisme-et-moi
+  title: 'Chapitre : Le scoutisme et moi'
+  slug: fr-books-etre-responsable-agir-consciemment-chapter-le
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/introduction
+  title: Introduction
+  slug: fr-books-etre-responsable-agir-consciemment-page-2
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/quai-je-appris-aux-scouts
+  title: Qu’ai-je appris aux scouts
+  slug: fr-books-etre-responsable-agir-consciemment-page-quai-je
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/certificat-dactivite-benevole-pour-ton-travail-au-sein-du-scoutisme
+  title: Certificat d’activité bénévole pour ton travail au sein du scoutisme
+  slug: fr-books-etre-responsable-agir-consciemment-page-certificat
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/chapter/le-contact-avec-les-parents
+  title: 'Chapitre : Le contact avec les parents'
+  slug: fr-books-etre-responsable-agir-consciemment-chapter-le-2
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/introduction-T4w
+  title: Introduction
+  slug: fr-books-etre-responsable-agir-consciemment-page-3
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/style-de-contact-avec-les-parents
+  title: Style de contact avec les parents
+  slug: fr-books-etre-responsable-agir-consciemment-page-style-de
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/chapter/gestion-de-lunite
+  title: 'Chapitre : Gestion de l’unité'
+  slug: fr-books-etre-responsable-agir-consciemment-chapter-gestion
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/organisation-de-lunite
+  title: Organisation de l’unité
+  slug: fr-books-etre-responsable-agir-consciemment-page-4
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/traditions
+  title: Traditions
+  slug: fr-books-etre-responsable-agir-consciemment-page-traditions
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/administration-de-lunite
+  title: Administration de l’unité
+  slug: fr-books-etre-responsable-agir-consciemment-page-5
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/chapter/filles-et-garcons
+  title: 'Chapitre : Filles et garçons'
+  slug: fr-books-etre-responsable-agir-consciemment-chapter-filles
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/egaux-et-equitables
+  title: Égaux et équitables
+  slug: fr-books-etre-responsable-agir-consciemment-page-egaux-et
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/chapter/promotion-de-la-sante-et-prevention
+  title: 'Chapitre : Promotion de la santé et prévention'
+  slug: fr-books-etre-responsable-agir-consciemment-chapter-2
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/de-quoi-sagit-il
+  title: De quoi s’agit-il?
+  slug: fr-books-etre-responsable-agir-consciemment-page-de-quoi
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/prevention-des-dependances
+  title: Prévention des dépendances
+  slug: fr-books-etre-responsable-agir-consciemment-page-prevention
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/la-prevention-de-la-violence
+  title: La prévention de la violence
+  slug: fr-books-etre-responsable-agir-consciemment-page-la
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/la-prevention-des-abus-sexuels
+  title: La prévention des abus sexuels
+  slug: fr-books-etre-responsable-agir-consciemment-page-la-2
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/chapter/enfants-et-jeunes-a-comportement-difficile
+  title: 'Chapitre : Enfants et jeunes à comportement difficile'
+  slug: fr-books-etre-responsable-agir-consciemment-chapter-enfants
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/comportement-general
+  title: Comportement général
+  slug: fr-books-etre-responsable-agir-consciemment-page-6
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/quest-ce-que-le-tdah
+  title: Qu’est-ce que le TDAH ?
+  slug: fr-books-etre-responsable-agir-consciemment-page-quest-ce
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/chercher-de-laide
+  title: Chercher de l'aide
+  slug: fr-books-etre-responsable-agir-consciemment-page-chercher
+- url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/exemples
+  title: Exemples
+  slug: fr-books-etre-responsable-agir-consciemment-page-exemples-2
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 00136c0e3c7da86d8bf94115ed0a639bfe7adc0f5f7953fd49ea2a2df53347f9 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme, prevention, organisation] # vocabulaire dans docs/taxonomie.md
+concepts: [responsable-de-patrouille, communication, gestion-des-conflits, benevolat, motivation, violence, psa, regles-de-comportement, inclusion, cudesch]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history:  # versions précédentes : {version, published, sha256, retired}
+- version: '2018'
+  published: null
+  sha256: c030660ea2d6d2dce40196ef285e25ff660740c49ba1fd1c45afa10fff36084b
+  retired: 2026-10-17
+  note: édition PDF pfadi.swiss 04_leiten_fr_web.pdf (40 p., MSdS.3035.04.fr), https://pfadi.swiss/media/files/55/04_leiten_fr_web.pdf, remplacée par le livre du cudesch numérique
+
+notes: 'Livre BookStack du cudesch numérique (cudesch.scout.ch, MSdS), 1 page d''accueil + 9 chapitres + 25 pages ; manifeste dans l''ordre de lecture du livre. Les pages de chapitre portent l''introduction du chapitre suivie de la liste de ses pages avec extraits (lien et premières lignes), à ignorer. Chapitre §7 Filles et garçons : la page convertie ne contient que du bruit de navigation du site (menu, liens, « Passer au contenu principal ») sans titre ni introduction, sans valeur ; le contenu est dans §7.1. Chapitres §5 (Le contact avec les parents) : extraits tronqués seulement. Ancres bkmrk-… conservées sur les titres (citation `id <url>#bkmrk-…`). Pertes trafilatura : images (carte des méthodes de conduite, schéma des exemples de comportement), tableaux aplatis en texte mais complets (facteurs de conduite, situations et réactions, Que se passe-t-il / Que faire). Pages longues restant un seul fichier : Exemples de comportement difficile (1 560 mots), La prévention de la violence (1 440), Responsables de la maîtrise (1 460). Numéros § posés par l''agent.'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

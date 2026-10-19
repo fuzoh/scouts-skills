@@ -1,0 +1,37 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cofor-administration-cours-federaux # <issuer>-<slug>, stable, voir METHODE.md
+title: Administration des cours fédéraux
+issuer: cofor                           # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 310606fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/69/administration-des-cours-federaux # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/32/310606fr-administration_des_cours_federaux-v20240530-akom_aurea.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+applies_from: null
+applies_until: null
+nature: prescription
+published: 2024-05-30                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 0e70fee82f493313c5b6fc91b77afa01ada8e9babf86855f77a639f7b249de6a # (script)
+pages: 16                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur]                   # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [administration]                # vocabulaire dans docs/taxonomie.md
+concepts: [administration-de-cours, caf, chef-de-cours, financement, qualification, modele-de-formation, cours-panorama]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Document du 30.05.2024 (réf. 3106.06.fr), sans numéro de version. Pagination imprimée = physique. Table des matières (p.2) hors index. Texte propre ; illustrations Google Workspace de l''annexe (p.14-16) perdues, légendes conservées. 07-organisation.md commence par la fin de §1.16 (traductions). applies_from : non précisé, date du document (30.05.2024) probable.'                               # remarques humaines : qualité, pièges, chapitres à ignorer

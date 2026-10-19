@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-kids-fete-des-jeux               # <issuer>-<slug>, stable, voir METHODE.md
+title: Aide-mémoire J+S-Kids « La fête des jeux »
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/457/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/97/j-s-kids_aide_memoire_la_fete_des_jeux_f.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Croquis des formes fondamentales du mouvement p.1 (image) absent de raw.md ; le texte renvoie à ce croquis.'                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2010'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 11baa218756a3c6e9896d0e412019fb9fdd357c0cdfed2f953922e1f1b615ecf # (script)
+pages: 3                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [sport, programme]              # vocabulaire dans docs/taxonomie.md
+concepts: [jeu, sport-des-enfants, js, sport-de-camp, activite-de-camp, planification]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Aide-mémoire J+S-Kids (mars 2010, OFSPO, auteurs Kieffer/Weber/Anderegg), en français, une colonne, texte propre. Complément à la brochure Sport de camp/trekking ; renvoie aux aide-mémoire « Modules ludiques et sportifs variés » et « Randonnée avec des enfants » et au « Top 100 des jeux ». Règle : en camp J+S-Kids, fête des jeux à la place du tournoi de jeux. Version 2010, brochure possiblement ancienne.'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

@@ -1,0 +1,49 @@
+---
+source: js-manuel-bases
+version: 2024, 3e édition remaniée
+pages: 76
+page_offset: 0
+toc_source: agent
+title: Manuel J+S – Bases
+issuer: js
+fidelity: complete
+extraction: text
+---
+
+- Avant-propos p.4-5 → 01-avant-propos.md : adresse aux futurs moniteurs : transmettre sa passion du sport, rôle de modèle, Charte d'éthique et règles de comportement de la formation J+S (ill. 1, p.5)
+- Introduction p.6 → 02-introduction.md : présentation du manuel J+S Bases, condensé du cours de moniteurs, structuré en quatre chapitres (engagement, comprendre le sport, enseigner le sport, bonnes pratiques) avec cinq personnages témoins
+- Séquences d’apprentissage numériques et autres supports p.7 → 03-sequences-d-apprentissage.md : séquences d'apprentissage numériques (20-30 min) qui complètent le manuel : séquences générales et propres à chaque sport sur tool.jeunesseetsport.ch, manuel numérique
+- J+S – Le programme d’encouragement du sport de la Confédération p.8-10 → 04-programme-js.md : programme J+S : effets recherchés (tableau 1 : sport à vie, personnalité, bénéfices sociaux, santé), chiffres clés, pilotage par l'OFSPO avec cantons et fédérations ; conception J+S comme guide
+  - Ensemble pour un sport sûr, loyal, propre et fondé sur des valeurs p.9-10 → 05-sport-sur-loyal-propre.md : valeurs d'un sport sûr, loyal, propre et fondé sur des valeurs : Charte d'éthique, prévention, campagne « cool and clean », liens d'approfondissement
+- S’engager comme monitrice ou moniteur J+S p.11-22 → 06-s-engager-comme-moniteur.md : page de titre du chapitre ; contenu dans les sous-sections : conception de la formation, modèle de Macolin, rôle du moniteur et Charte d'éthique, enfants et jeunes, activités J+S et camps
+  - Conception de la formation J+S p.12-13 → 07-conception-de-la-formation.md : conception de la formation J+S centrée sur les jeunes : le quoi et le comment, quatre domaines d'action (Transmettre, Encourager, Innover, Se soucier de l'entourage), savoir, savoir-faire, savoir-être
+    - Le modèle de formation de Macolin p.13 → 08-modele-de-formation-macolin.md : modèle de formation de Macolin, philosophie commune aux formations de l'OFSPO (J+S, esa, formation des entraîneurs, HEFSM), schéma des acteurs et renvoi à l'approfondissement en ligne
+  - La monitrice et le moniteur J+S ; Charte d’éthique – Neuf principes pour le sport suisse p.14-15 → 09-moniteur-et-charte-d-ethique.md : neuf principes de la Charte d'éthique du sport suisse et obligations du moniteur J+S : contrôle des présences, planification, formation continue tous les deux ans, BDNS
+  - Enfants et jeunes p.16-17 → 10-enfants-et-jeunes.md : particularités des enfants et des jeunes : charge et contenus adaptés au développement, quatre degrés d'âge (tableau 3) et motivations propres à chacun
+  - Activités J+S ; Les coachs J+S, interlocuteurs des moniteurs J+S p.18-22 → 11-activites-js-et-coachs.md : activités J+S (cours, camps, durée minimale, groupes d'âge) et rôle des coachs J+S, interlocuteurs des moniteurs pour l'offre, la formation et la BDNS
+    - Le charme des camps et autres événements p.20-22 → 12-charme-des-camps.md : camps J+S et événements comme occasions d'apprentissage et de cohésion ; outils de planification, check-lists et séquence d'apprentissage « Le charme des camps »
+- Comprendre le sport p.23-32 → 13-comprendre-le-sport.md : page de titre du chapitre ; contenu dans les sous-sections : FTEM, formes caractéristiques, formes d'entraînement, formes fondamentales, facteurs de développement
+  - FTEM Suisse p.24-25 → 14-ftem-suisse.md : FTEM Suisse (concept cadre de Swiss Olympic) : phases et domaines clés, en particulier « Foundation » au cœur de la formation de base J+S, sport populaire et de performance
+  - L’essentiel en bref : enseigner, mais quoi ? p.26 → 15-enseigner-mais-quoi.md : l'essentiel sur le « quoi » enseigner : formes caractéristiques de chaque sport, formes d'entraînement interdisciplinaires ou propres au sport selon FTEM, cinq axes de facteurs de développement
+  - Formes caractéristiques p.27 → 16-formes-caracteristiques.md : formes caractéristiques, modèles de mouvements types définis par chaque sport, base de la planification de l'entraînement J+S, sélection limitée en formation de base
+  - Formes d’entraînement p.28-31 → 17-formes-d-entrainement.md : formes d'entraînement interdisciplinaires (formes fondamentales) et propres au sport (ciblant une forme caractéristique), adaptation et introduction selon les phases FTEM
+    - Formes fondamentales de mouvements et de jeux p.30-31 → 18-formes-fondamentales.md : formes fondamentales de mouvements (courir, sauter, lancer, glisser…) et de jeux (réaction, poursuite, passes…) comme base des entraînements « Foundation », intérêt moteur et motivationnel (ill. 10)
+  - Facteurs de développement p.32 → 19-facteurs-de-developpement.md : seize facteurs de développement en cinq axes (qualités athlétiques, technique, tactique, coopération, mental), influence selon la forme caractéristique (exemple du football)
+- Enseigner le sport p.33-58 → 20-enseigner-le-sport.md : page de titre du chapitre ; contenu dans les sous-sections : domaines d'action Transmettre, Encourager, Innover, Se soucier de l'entourage
+  - L’essentiel en bref : enseigner, mais comment ? p.34 → 21-enseigner-mais-comment.md : l'essentiel sur le « comment » enseigner : recommandations d'action regroupées en dix champs issus des quatre domaines d'action, accent sur Transmettre et Encourager
+  - Transmettre p.35-47 → 22-transmettre.md : domaine d'action « Transmettre » : diriger entraînements et activités, quatre champs d'action et leurs recommandations (ill. 12), liens vers les approfondissements en ligne
+    - Instaurer un climat propice à l’apprentissage p.36-37 → 23-climat-d-apprentissage.md : instaurer un climat propice à l'apprentissage : plaisir, respect et équité, tolérance à l'erreur, sentiment d'appartenance (saluer chacun, impliquer, recueillir l'avis)
+    - Définir des objectifs d’apprentissage prioritaires et donner une structure ; Planifier des activités J+S de manière ciblée p.38-39 → 24-objectifs-et-planification.md : objectifs d'apprentissage prioritaires (SMART, bilan avec le groupe) et cycle de planification J+S (analyse, objectifs, planification, mise en œuvre, évaluation) avec questions types, planification écrite
+    - Conseils pour concevoir l’entraînement p.40 → 25-concevoir-l-entrainement.md : conseils pour concevoir une leçon : introduction, partie principale, retour au calme, alternance concentration et dynamisme, contenus importants au début, rituels et jeux de transition
+    - Encadrer un groupe efficacement en recherchant la sécurité p.41 → 26-encadrer-un-groupe-securite.md : encadrer un groupe en sécurité : planifier, anticiper, observer, règles claires et sanctions ; tableau de questions de sécurité sur la planification, le lieu et l'activité
+    - Prévention des blessures p.42-44 → 27-prevention-des-blessures.md : prévention des blessures (échauffement, effort adapté, premiers secours, aide-mémoire BPA), puis suite du champ d'action : encadrer en étant présent, gérer les perturbations, maximiser le temps de mouvement
+    - Donner des tâches attrayantes et des feed-back p.45-47 → 28-taches-et-feed-back.md : tâches attrayantes et feed-back : instructions correctes, faciliter ou complexifier (tableau 7), expériences gratifiantes, règles de feed-back (tableau 8), formes d'organisation, méthodes globale, analytique, combinée
+  - Encourager p.48-53 → 29-encourager.md : domaine d'action « Encourager » : soutenir le développement personnel des enfants et des jeunes et consolider l'équipe, deux champs d'action et leurs recommandations (ill. 19)
+    - Soutenir le développement personnel p.49-50 → 30-developpement-personnel.md : soutenir le développement personnel : estime de soi, perception de soi, autorégulation (stratégies « Si…, alors ») et santé (« cool and clean »), conseils pratiques
+    - Structurer les relations et consolider l’équipe p.51-53 → 31-relations-et-equipe.md : structurer les relations et consolider l'équipe : respect et loyauté, esprit d'équipe, responsabilités, gestion des conflits, diversité ; rituels de salutation et de réconciliation, plan des tâches
+  - Innover : développer continuellement ses compétences ; développer ses propres activités p.54-55 → 32-innover.md : domaine d'action « Innover » : réfléchir sur soi, se fixer des objectifs, analyser ses activités, suivre l'évolution de son sport et se former en continu
+  - Se soucier de l’entourage : s’impliquer activement dans le club ; impliquer des personnes et des organisations clés p.56-58 → 33-se-soucier-de-l-entourage.md : domaine d'action « Se soucier de l'entourage » : incarner les valeurs dans le club, signaler les manquements à Swiss Sport Integrity, aider aux manifestations, réseau et parents
+- Bonnes pratiques p.59-75 → 34-bonnes-pratiques.md : page de titre du chapitre ; contenu dans les sous-sections : indications méthodologiques, fiches de formes fondamentales de mouvements et de jeux
+  - Indications méthodologiques p.60 → 35-indications-methodologiques.md : mode d'emploi des fiches d'exercices : formes fondamentales dans divers environnements (ill. 24), polyvalence, répétition et variation, légende des fiches, renvoi à mobilesport.ch
+  - Formes fondamentales de mouvements p.61-68 → 36-formes-fondamentales-de-mouvements.md : fiches d'exercices par forme fondamentale de mouvement (courir, sauter, équilibre, rouler, grimper, lancer, lutter, glisser) avec variantes plus facile/plus difficile, accent, matériel ; parcours « Excursion en montagne » (p.66-68)
+  - Formes fondamentales de jeux p.69-75 → 37-formes-fondamentales-de-jeux.md : fiches de jeux par forme fondamentale (jeux libres, de réaction, d'estafettes, de poursuite, de lutte, de lancer, de passes, de tir au but, de renvoi) avec variantes, accent et matériel

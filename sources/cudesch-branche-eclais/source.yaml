@@ -1,0 +1,210 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-branche-eclais              # <issuer>-<slug>, stable, voir METHODE.md
+title: La branche Eclais – Toujours prêt
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret
+  title: La branche Eclais – Toujours prêt
+  slug: fr-books-la-branche-eclais-toujours-pret
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/chapter/introduction
+  title: 'Chapitre : Introduction'
+  slug: fr-books-la-branche-eclais-toujours-pret-chapter
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/introduction
+  title: Introduction
+  slug: fr-books-la-branche-eclais-toujours-pret-page-introduction
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/vue-densemble-des-liens-entre-les-fondements-et-les-activites-specifiques
+  title: Vue d’ensemble des liens entre les fondements et les activités spécifiques
+  slug: fr-books-la-branche-eclais-toujours-pret-page-vue-densemble
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/chapter/interagir-avec-les-jeunes-de-la-branche-eclais
+  title: 'Chapitre : Interagir avec les jeunes de la branche Eclais'
+  slug: fr-books-la-branche-eclais-toujours-pret-chapter-interagir
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/les-besoins-des-jeunes-de-la-branche-eclais
+  title: Les besoins des jeunes de la branche Eclais
+  slug: fr-books-la-branche-eclais-toujours-pret-page-les-besoins
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/la-personnalite-des-responsables
+  title: La personnalité des responsables
+  slug: fr-books-la-branche-eclais-toujours-pret-page-la
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/la-collaboration-entre-les-genres
+  title: La collaboration entre les genres
+  slug: fr-books-la-branche-eclais-toujours-pret-page-la-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/chapter/les-relations-et-les-methodes
+  title: 'Chapitre : Les relations et les méthodes'
+  slug: fr-books-la-branche-eclais-toujours-pret-chapter-les
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/les-cinq-relations-dans-la-branche-eclais
+  title: Les cinq relations dans la branche Eclais
+  slug: fr-books-la-branche-eclais-toujours-pret-page-les-cinq
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/les-sept-methodes-dans-la-branche-eclais
+  title: Les sept méthodes dans la branche Eclais
+  slug: fr-books-la-branche-eclais-toujours-pret-page-les-sept
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/les-relations-et-les-methodes-dans-le-programme-trimestriel-et-dans-le-programme-de-camp
+  title: Les relations et les méthodes dans le programme trimestriel et dans le programme de camp
+  slug: fr-books-la-branche-eclais-toujours-pret-page-les-relations
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/chapter/lorganisation-de-la-branche-eclais
+  title: 'Chapitre : L’organisation de la branche Eclais'
+  slug: fr-books-la-branche-eclais-toujours-pret-chapter-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/la-branche
+  title: La branche
+  slug: fr-books-la-branche-eclais-toujours-pret-page-la-branche
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/la-maitrise
+  title: La maîtrise
+  slug: fr-books-la-branche-eclais-toujours-pret-page-la-maitrise
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/la-patrouille
+  title: La patrouille
+  slug: fr-books-la-branche-eclais-toujours-pret-page-la-patrouille
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/les-responsables-de-patrouille-et-leur-encadrement
+  title: Les responsables de patrouille et leur encadrement
+  slug: fr-books-la-branche-eclais-toujours-pret-page-les
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/chapter/le-programme-de-la-branche-eclais
+  title: 'Chapitre : Le programme de la branche Eclais'
+  slug: fr-books-la-branche-eclais-toujours-pret-chapter-le
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/le-programme-trimestriel
+  title: Le programme trimestriel
+  slug: fr-books-la-branche-eclais-toujours-pret-page-le-programme
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/les-specificites-de-la-branche-eclais
+  title: Les spécificités de la branche Eclais
+  slug: fr-books-la-branche-eclais-toujours-pret-page-les-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/la-particularite-des-activites-en-patrouille
+  title: La particularité des activités en patrouille
+  slug: fr-books-la-branche-eclais-toujours-pret-page-la-3
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/des-idees-dactivites-pour-la-branche-eclais
+  title: Des idées d’activités pour la branche Eclais
+  slug: fr-books-la-branche-eclais-toujours-pret-page-des-idees
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/laventure-scoute-au-niveau-international-pour-les-eclais
+  title: L’aventure scoute au niveau international pour les éclais
+  slug: fr-books-la-branche-eclais-toujours-pret-page-laventure
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/chapter/lapprentissage-par-le-projet-a-laide-de-la-methode-du-projet
+  title: 'Chapitre : L’apprentissage par le projet à l’aide de la méthode du projet'
+  slug: fr-books-la-branche-eclais-toujours-pret-chapter-3
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/une-prise-de-responsabilites-au-quotidien
+  title: Une prise de responsabilités au quotidien
+  slug: fr-books-la-branche-eclais-toujours-pret-page-une-prise-de
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/un-systeme-de-codecision
+  title: Un système de codécision
+  slug: fr-books-la-branche-eclais-toujours-pret-page-un-systeme-de
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/la-methode-du-projet
+  title: La méthode du projet
+  slug: fr-books-la-branche-eclais-toujours-pret-page-la-methode-du
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/chapter/soigner-et-remettre-en-question-les-rituels-et-traditions
+  title: 'Chapitre : Soigner et remettre en question les rituels et traditions'
+  slug: fr-books-la-branche-eclais-toujours-pret-chapter-soigner-et
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/la-remise-en-question-des-rituels-et-des-traditions
+  title: La remise en question des rituels et des traditions
+  slug: fr-books-la-branche-eclais-toujours-pret-page-la-remise-en
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/la-totemisation
+  title: La totémisation
+  slug: fr-books-la-branche-eclais-toujours-pret-page-la-4
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/le-passage
+  title: Le passage
+  slug: fr-books-la-branche-eclais-toujours-pret-page-le-passage
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/le-feu-de-camp
+  title: Le feu de camp
+  slug: fr-books-la-branche-eclais-toujours-pret-page-le-feu-de-camp
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/dautres-rituels-et-traditions
+  title: D’autres rituels et traditions
+  slug: fr-books-la-branche-eclais-toujours-pret-page-dautres
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/chapter/la-loi-et-la-promesse-dans-le-quotidien-scout
+  title: 'Chapitre : La Loi et la Promesse dans le quotidien scout'
+  slug: fr-books-la-branche-eclais-toujours-pret-chapter-la-loi-et
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/la-loi-scoute
+  title: La Loi scoute
+  slug: fr-books-la-branche-eclais-toujours-pret-page-la-loi-scoute
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/le-premier-engagement-et-la-promesse
+  title: Le premier engagement et la Promesse
+  slug: fr-books-la-branche-eclais-toujours-pret-page-le-premier
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/la-ceremonie-de-la-promesse
+  title: La cérémonie de la Promesse
+  slug: fr-books-la-branche-eclais-toujours-pret-page-la-ceremonie
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/chapter/lanimation-spirituelle-as
+  title: 'Chapitre : L’animation spirituelle (AS)'
+  slug: fr-books-la-branche-eclais-toujours-pret-chapter-lanimation
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/la-planification-de-las
+  title: La planification de l’AS
+  slug: fr-books-la-branche-eclais-toujours-pret-page-la-5
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/quelques-exemples-das
+  title: Quelques exemples d’AS
+  slug: fr-books-la-branche-eclais-toujours-pret-page-quelques
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/chapter/la-progression-personnelle-a-laide-des-steps-et-des-specialites
+  title: 'Chapitre : La progression personnelle à l’aide des Steps et des spécialités'
+  slug: fr-books-la-branche-eclais-toujours-pret-chapter-la
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/la-difference-entre-les-steps-et-les-specialites
+  title: La différence entre les Steps et les spécialités
+  slug: fr-books-la-branche-eclais-toujours-pret-page-la-difference
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/les-steps
+  title: Les Steps
+  slug: fr-books-la-branche-eclais-toujours-pret-page-les-steps
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/les-specialites
+  title: Les spécialités
+  slug: fr-books-la-branche-eclais-toujours-pret-page-les-3
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/chapter/transmettre-la-technique-scoute-de-maniere-instructive-et-passionnante
+  title: 'Chapitre : Transmettre la technique scoute de manière instructive et passionnante'
+  slug: fr-books-la-branche-eclais-toujours-pret-chapter-4
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/transmettre-des-connaissances
+  title: Transmettre des connaissances
+  slug: fr-books-la-branche-eclais-toujours-pret-page-transmettre
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/faire-le-lien-avec-le-theme
+  title: Faire le lien avec le thème
+  slug: fr-books-la-branche-eclais-toujours-pret-page-faire-le-lien
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/les-aspects-lies-a-la-securite
+  title: Les aspects liés à la sécurité
+  slug: fr-books-la-branche-eclais-toujours-pret-page-les-aspects
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/chapter/la-construction-de-camp-avec-tous-les-eclais
+  title: 'Chapitre : La construction de camp avec tous les éclais'
+  slug: fr-books-la-branche-eclais-toujours-pret-chapter-la-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/preparer-les-constructions-de-camp
+  title: Préparer les constructions de camp
+  slug: fr-books-la-branche-eclais-toujours-pret-page-preparer-les
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/les-differentes-constructions
+  title: Les différentes constructions
+  slug: fr-books-la-branche-eclais-toujours-pret-page-les-4
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/chapter/un-scoutisme-respectueux-de-lenvironnement
+  title: 'Chapitre : Un scoutisme respectueux de l’environnement'
+  slug: fr-books-la-branche-eclais-toujours-pret-chapter-un
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/lenvironnement-dans-le-quotidien-scout
+  title: L’environnement dans le quotidien scout
+  slug: fr-books-la-branche-eclais-toujours-pret-page
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/des-projets-avec-la-branche-eclais
+  title: Des projets avec la branche Eclais
+  slug: fr-books-la-branche-eclais-toujours-pret-page-des-projets
+- url: https://cudesch.scout.ch/fr/books/la-branche-eclais-toujours-pret/page/references-bibliographiques
+  title: Références bibliographiques
+  slug: fr-books-la-branche-eclais-toujours-pret-page-references
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'tableau de §1.2 (vue d''ensemble des liens entre fondements et activités) mal restitué : cellules de l''en-tête et de la première colonne (relation ou méthode) vides, contenu des cases présent mais sans leur intitulé ; la page d''introduction §1.1 renvoie à ce tableau.'                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: ed6ccbb5c485d30e5552d43df3cccc21847d6143c24ea58ca6ee1dd9b2eb9a96 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme]                     # vocabulaire dans docs/taxonomie.md
+concepts: [branches, relations, methodes-scoutes, projet, responsable-de-patrouille, durabilite, planification, profil-du-scoutisme]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history:  # versions précédentes : {version, published, sha256, retired}
+- version: '2024'
+  published: null
+  sha256: 3479d8fdb667542bcd03a30f1dff79e5c2818472847945d862779e20d9be86db
+  retired: 2026-10-17
+  note: édition PDF pfadi.swiss pfadistufenbroschuere_2024_web_fr.pdf (80 p.), https://pfadi.swiss/media/files/96/pfadistufenbroschuere_2024_web_fr.pdf, remplacée par le livre du cudesch numérique
+
+notes: 'Livre BookStack du cudesch numérique (cudesch.scout.ch, MSdS), brochure de la branche Eclais (12 à 15 ans environ), 1 page d''accueil + 13 chapitres + 41 pages ; ordre de lecture du livre. Les pages de chapitre portent l''introduction du chapitre suivie de la liste de ses pages avec extraits (lien et premières lignes), à ignorer. Ancres bkmrk-… conservées sur chaque titre (citation `id <url>#bkmrk-…`). Pertes trafilatura : images (schémas, exemples de constructions), et le tableau de §1.2 (voir fidelity_notes ; texte des cases partiellement en allemand, repris de l''édition alémanique). Les renvois de chapitre dans le texte (« chapitre 4.4 ») suivent la numérotation imprimée de la brochure, qui diffère de la numérotation § posée ici par l''agent (le site n''en a pas). Pages les plus longues : §4.4 Les responsables de patrouille et leur encadrement et §5.3 La particularité des activités en patrouille (2 050 à 2 250 mots, ce dernier avec un tableau de sécurité exemple), un fichier chacune.'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

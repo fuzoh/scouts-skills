@@ -1,0 +1,39 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-camp-bail-place-tentes      # <issuer>-<slug>, stable, voir METHODE.md
+title: Bail à loyer pour une place de camp sous tentes (modèle)
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/11/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/fe/07_lager_mietvertrag_fr_web_form.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete
+
+version: '2018'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: c840bc7f7066cd852cbdbbf97c266559cebd67a52e0a82f83e5ca9ef08a46848 # (script)
+pages: 2                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, administration]          # vocabulaire dans docs/taxonomie.md
+concepts: [camp, autorisation-de-camp, administration-de-cours, financement]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Modèle de contrat (réf. MSdS.3053.03.fr) : texte et clauses lisibles, lignes à remplir en traits bas. Cases à choix perdues : « Il est autorisé Il est interdit » (2.4) et « ramassé / obtenu moyennant finance » (2.3) fusionnent les options sans cases. Rubriques 5 (autres dispositions) et 6 (croquis) sans espace rendu. Source d''origine : Manuel Moniteur sport de camp, EFSM, 1998.'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

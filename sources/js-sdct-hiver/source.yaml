@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-sdct-hiver                       # <issuer>-<slug>, stable, voir METHODE.md
+title: Sport de camp/Trekking – Hiver
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 30.401.800 f                       # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                        # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: 2019, 5e édition actualisée    # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 66070172008c2232645603e66d17f21af092bcdacf13ce7d7b353432491e1233 # (script)
+pages: 32                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, expert-js]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [securite, camp]                # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, trekking, hiver, securite, methode-3x3, premiers-secours, activite-de-camp]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Brochure OFSPO 2019, 5e édition actualisée (n° 30.401.800 f), sans signets ; arbre réécrit d''après le sommaire imprimé (p.3), sous-sections ajoutées pour l''excursion (bulletin d''avalanches p.15, méthode 3 × 3 p.16, facteur humain p.17) ; les cinq règles fondamentales restent dans le nœud parent (p.12-14). page_offset 2 (vérifié p.5, 23, 29). Texte lisible. Tableau du refroidissement éolien (p.27) mal aligné (ligne d''en-tête des températures tronquée) ; tableaux hypothermie (p.27) et gelures (p.28) linéarisés cellule par cellule ; check-list d''équipement (p.26) en liste plate. Schémas de construction d''abris (p.5-8) perdus. Exclus : couverture, sommaire p.3, p.31 vide, impressum p.32.'

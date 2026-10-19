@@ -1,0 +1,150 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-smt                         # <issuer>-<slug>, stable, voir METHODE.md
+title: SMT – Scout·e·s Malgré Tout
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout
+  title: SMT – Scout·e·s Malgré Tout
+  slug: fr-books-smt-scoutes-malgre-tout
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/chapter/organisation-des-smt
+  title: 'Chapitre : Organisation des SMT'
+  slug: fr-books-smt-scoutes-malgre-tout-chapter-organisation-des
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/differents-modeles-de-smt
+  title: Différents modèles de SMT
+  slug: fr-books-smt-scoutes-malgre-tout-page-differents-modeles-de
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/creation-dun-nouveau-groupe-ou-dune-nouvelle-unite
+  title: Création d’un nouveau groupe ou d’une nouvelle unité
+  slug: fr-books-smt-scoutes-malgre-tout-page-creation-dun-nouveau
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/conditions-prealables-pour-les-participantes
+  title: Conditions préalables pour les participant·e·s
+  slug: fr-books-smt-scoutes-malgre-tout-page-conditions-prealables
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/chapter/etre-responsable-chez-les-smt
+  title: 'Chapitre : Être responsable chez les SMT'
+  slug: fr-books-smt-scoutes-malgre-tout-chapter-etre-responsable
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/responsables
+  title: Responsables
+  slug: fr-books-smt-scoutes-malgre-tout-page-responsables
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/formation-et-formation-continue
+  title: Formation et formation continue
+  slug: fr-books-smt-scoutes-malgre-tout-page-formation-et
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/encadrement-des-parents
+  title: Encadrement des parents
+  slug: fr-books-smt-scoutes-malgre-tout-page-encadrement-des
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/droits-et-devoirs
+  title: Droits et devoirs
+  slug: fr-books-smt-scoutes-malgre-tout-page-droits-et-devoirs
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/chapter/programme
+  title: 'Chapitre : Programme'
+  slug: fr-books-smt-scoutes-malgre-tout-chapter-programme
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/profil-du-scoutisme
+  title: Profil du scoutisme
+  slug: fr-books-smt-scoutes-malgre-tout-page-profil-du-scoutisme
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/planifier-le-programme
+  title: Planifier le programme
+  slug: fr-books-smt-scoutes-malgre-tout-page-planifier-le-programme
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/camp
+  title: Camp
+  slug: fr-books-smt-scoutes-malgre-tout-page-camp
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/chapter/securite-et-prevention
+  title: 'Chapitre : Sécurité et prévention'
+  slug: fr-books-smt-scoutes-malgre-tout-chapter-securite-et
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/generalites
+  title: Généralités
+  slug: fr-books-smt-scoutes-malgre-tout-page-generalites
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/medicaments
+  title: Médicaments
+  slug: fr-books-smt-scoutes-malgre-tout-page-medicaments
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/hygiene-et-soins
+  title: Hygiène et soins
+  slug: fr-books-smt-scoutes-malgre-tout-page-hygiene-et-soins
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/proximite-et-distance
+  title: Proximité et distance
+  slug: fr-books-smt-scoutes-malgre-tout-page-proximite-et-distance
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/chapter/aides-pratiques-chez-les-smt
+  title: 'Chapitre : Aides pratiques chez les SMT'
+  slug: fr-books-smt-scoutes-malgre-tout-chapter-aides-pratiques
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/outils
+  title: Outils
+  slug: fr-books-smt-scoutes-malgre-tout-page-outils
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/conseils-pour-lanimation-chez-les-smt
+  title: Conseils pour l’animation chez les SMT
+  slug: fr-books-smt-scoutes-malgre-tout-page-conseils-pour
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/chapter/deficiences-frequentes
+  title: 'Chapitre : Déficiences fréquentes'
+  slug: fr-books-smt-scoutes-malgre-tout-chapter-deficiences
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/troubles-du-spectre-autistique-tsa
+  title: Troubles du spectre autistique (TSA)
+  slug: fr-books-smt-scoutes-malgre-tout-page-troubles-du-spectre
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/epilepsie
+  title: Épilepsie
+  slug: fr-books-smt-scoutes-malgre-tout-page-epilepsie
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/tdah-tda
+  title: TDAH / TDA
+  slug: fr-books-smt-scoutes-malgre-tout-page-tdah-tda
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/deficience-cognitive-syndrome-de-down-trisomie-21
+  title: Déficience cognitive – Syndrome de Down / Trisomie 21
+  slug: fr-books-smt-scoutes-malgre-tout-page-deficience-cognitive
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/trouble-de-lapprentissage
+  title: Trouble de l’apprentissage
+  slug: fr-books-smt-scoutes-malgre-tout-page-trouble-de
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/infirmite-motrice-cerebrale
+  title: Infirmité motrice cérébrale
+  slug: fr-books-smt-scoutes-malgre-tout-page-infirmite-motrice
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/dystrophie-musculaire
+  title: Dystrophie musculaire
+  slug: fr-books-smt-scoutes-malgre-tout-page-dystrophie-musculaire
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/deficience-auditive
+  title: Déficience auditive
+  slug: fr-books-smt-scoutes-malgre-tout-page-deficience-auditive
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/deficience-visuelle
+  title: Déficience visuelle
+  slug: fr-books-smt-scoutes-malgre-tout-page-deficience-visuelle
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/deficience-de-la-parole-et-du-langage
+  title: Déficience de la parole et du langage
+  slug: fr-books-smt-scoutes-malgre-tout-page-deficience-de-la
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/informations-complementaires
+  title: Informations complémentaires
+  slug: fr-books-smt-scoutes-malgre-tout-page-informations
+- url: https://cudesch.scout.ch/fr/books/smt-scoutes-malgre-tout/page/bibliographie
+  title: Bibliographie
+  slug: fr-books-smt-scoutes-malgre-tout-page-bibliographie
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete                         # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: bc9da66b51599347b3754b8237b31925d3701a713bc364320d6ef1a2737ca63c # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme, inclusion]          # vocabulaire dans docs/taxonomie.md
+concepts: [smt, inclusion, branches, securite, psa, premiers-secours, communication, camp]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history:  # versions précédentes : {version, published, sha256, retired}
+- version: '2024'
+  published: null
+  sha256: a580788cc3acdf5ff849124ebaa2b145c5df45611ec552fb223594d1eb94f22a
+  retired: 2026-10-17
+  note: édition PDF pfadi.swiss 215901fr_smt_-_scoutes_malgre_tout_web.pdf (36 p.), https://pfadi.swiss/media/files/84/215901fr_smt_-_scoutes_malgre_tout_web.pdf, remplacée par le livre du cudesch numérique
+
+notes: 'Livre BookStack du cudesch numérique (cudesch.scout.ch, MSdS, en ligne depuis janvier 2026), 1 page d''accueil + 6 chapitres + 28 pages (35 nœuds) ; index écrit par l''agent dans l''ordre de lecture de web_pages. Le chapitre 6 (Déficiences fréquentes) compte 12 pages : dix fiches par type de déficience (TSA, épilepsie, TDAH, trisomie 21, troubles de l''apprentissage, IMC, dystrophie musculaire, déficiences auditive, visuelle, de la parole), puis informations complémentaires et bibliographie. Les pages de chapitre ne portent que l''introduction suivie de la liste de ses pages avec extraits, à ignorer ; certaines sont en allemand dans le brut (première phrase de §1.1 non traduite sur le site : « Die PTA ist schweizweit… »). Ancres bkmrk-… conservées sur les titres, dont des ancres allemandes (bkmrk-separativ…). Pertes : marqueur @@ANC:bkmrk-page-title@@ non résolu en tête de §5.2 et §6.12, bruit de navigation en tête de §6.12 ; images, pictogrammes et cartes de communication non reproduits. Numéros § posés par l''agent (le site n''en a pas).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

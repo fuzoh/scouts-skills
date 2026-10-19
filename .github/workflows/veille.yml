@@ -1,0 +1,67 @@
+# Veille mensuelle des sources : compare le registre aux URL publiées (scripts/check_urls.py)
+# et tient UNE issue récapitulative (label `veille`). Ne modifie jamais le dépôt : la
+# ré-ingestion reste locale (DECISIONS D11).
+name: veille
+
+on:
+  schedule:
+    - cron: "17 4 1 * *" # le 1er du mois, 04:17 UTC (heure creuse)
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: read
+      issues: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+        with:
+          python-version: "3.14"
+          enable-cache: true
+
+      - name: Installer les dépendances
+        run: uv sync
+
+      - name: Vérifier les URL du registre
+        run: uv run check-urls --out veille.md
+
+      - name: Mettre à jour l'issue récapitulative
+        run: |
+          set -euo pipefail
+
+          # Compteurs lus dans le tableau du rapport (| Catégorie | N |).
+          compte() { awk -F'|' -v c="$1" '$2 ~ "^ "c" $" { gsub(/ /, "", $3); print $3 }' veille.md; }
+          changes=$(compte "Changés")
+          morts=$(compte "Morts")
+          redirects=$(compte "Redirigés")
+          jour=$(date -u +%F)
+
+          # Le label doit exister avant `gh issue create` (sans effet s'il existe déjà).
+          gh label create veille --description "Veille des sources officielles" --color 1d76db 2>/dev/null || true
+
+          numero=$(gh issue list --label veille --state open --json number --jq '.[0].number // empty')
+
+          if [ -n "$numero" ]; then
+            # Pas de fermeture automatique : même un rapport sans changement met l'issue à jour.
+            gh issue edit "$numero" --body-file veille.md
+            gh issue comment "$numero" --body "Veille du $jour : $changes changés, $morts morts, $redirects redirigés"
+          elif [ "$changes" != "0" ] || [ "$morts" != "0" ] || [ "$redirects" != "0" ]; then
+            gh issue create --title "Veille des sources" --label veille --body-file veille.md
+          else
+            echo "Veille du $jour : rien à signaler, aucune issue ouverte."
+          fi

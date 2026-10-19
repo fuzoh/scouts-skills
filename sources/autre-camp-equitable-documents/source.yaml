@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: autre-camp-equitable-documents      # <issuer>-<slug>, stable, voir METHODE.md
+title: Camp équitable – documents pour les responsables de camps (aperçu)
+issuer: autre                           # msds | cofor | js | cudesch | autre
+issuer_detail: camp-equitable.ch / faires-lager.ch # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/781/document-dapercu-documents-pur-les-responsables-de-camps-camp-equitable # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/86/camp_equitable_apercu_documents.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 853ecb1b9f570d5e0ee24b7b5a75cc2d2fe8e87079aee826f3b9f59ebede3f6d # (script)
+pages: 4                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp]                          # vocabulaire dans docs/taxonomie.md
+concepts: [camp, durabilite, activite-de-camp] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Liste de liens vers les guides camp-equitable.ch / faires-lager.ch, sans contenu pédagogique propre (traité comme document court, pas comme catalogue). p.1 (couverture) et p.4 sans texte ; les URL longues sont coupées sur plusieurs lignes.' # remarques humaines : qualité, pièges, chapitres à ignorer

@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-bases-technique-sportive-sdct    # <issuer>-<slug>, stable, voir METHODE.md
+title: Bases de la technique sportive SdC/T – pour les moniteurs·trices Sport de camp / Trekking
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 100.01.fr                          # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 2e698a7a326d7d17e3d9a8b94e5b56d2876031331371c2bb89f311b9252ebdb3 # (script)
+pages: 2                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, expert-js]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [sport, camp]                   # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, trekking, technique-de-corde, premiers-secours, camp]   # termes du GLOSSARY.md
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Document de 2 p. (09/2026, réf. 100.01.fr). raw.md régénéré pour récupérer le texte des encadrés ; p.1 sur deux colonnes dont l''ordre de lecture est parfois mêlé (paragraphes des deux formes caractéristiques côte à côte) ; p.2 liste par thèmes (cordes, premiers secours, lecture de carte) lisible.'

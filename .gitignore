@@ -1,0 +1,15 @@
+# Originaux des sources : copie locale du mainteneur, jamais versionnés (registre : url, file_url, sha256)
+sources/*/original/
+# Jeu d'essai sur dossiers réels et boîte d'entrée : local seulement
+pilote/cas/
+pilote/sorties/
+documents/
+
+build/
+dist/
+.venv/
+.venv-bench/
+.venv-pageindex/
+__pycache__/
+.pytest_cache/
+*.egg-info/

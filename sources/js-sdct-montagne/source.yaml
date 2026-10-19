@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-sdct-montagne                    # <issuer>-<slug>, stable, voir METHODE.md
+title: Sport de camp/Trekking – Montagne
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 30.401.530 f                       # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                        # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2014'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: d2abb159b250878a9e3c5bcf05686734c8f0275bb93cfa1bc24f83134d9b7120 # (script)
+pages: 56                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, expert-js]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [securite, camp]                # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, trekking, montagne, securite, methode-3x3, premiers-secours, orientation, activite-de-camp]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Brochure OFSPO 2014 (n° 30.401.530 f), sans signets ; arbre réécrit d''après le sommaire imprimé (p.3). page_offset 2 (vérifié p.4, 19, 53). NORDA et Exercices d''orientation partagent la p.32 : regroupés en un nœud (p.31-32). Texte lisible. Tableaux linéarisés : échelle CAS T1-T6 (p.11-13, en-têtes de colonnes séparés des valeurs), calcul du temps de marche (p.16), comparaison des réchauds (p.42). Encadrés latéraux parfois avant le titre de page (p.14, 17). Contenu de 2014 : la règle actuelle sur les concepts de sécurité est dans js-manuel-sport-de-camp-trekking. Exclus : couverture, sommaire p.3, p.55 vide, impressum p.56.'

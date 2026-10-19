@@ -1,0 +1,135 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-branche-route               # <issuer>-<slug>, stable, voir METHODE.md
+title: La branche Route – Servir
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://cudesch.scout.ch/fr/books/la-branche-route-servir # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir
+  title: La branche Route – Servir
+  slug: fr-books-la-branche-route-servir
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/chapter/preambule
+  title: 'Chapitre : Préambule'
+  slug: fr-books-la-branche-route-servir-chapter-preambule
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/preambule
+  title: Préambule
+  slug: fr-books-la-branche-route-servir-page-preambule
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/chapter/scout-un-jour-scout-toujours
+  title: 'Chapitre : Scout un jour, scout toujours ?'
+  slug: fr-books-la-branche-route-servir-chapter-scout-un-jour
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/scout-un-jour-scout-toujours
+  title: Scout un jour, scout toujours ?
+  slug: fr-books-la-branche-route-servir-page-scout-un-jour-scout
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/chapter/vision
+  title: 'Chapitre : Vision'
+  slug: fr-books-la-branche-route-servir-chapter-vision
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/vision
+  title: Vision
+  slug: fr-books-la-branche-route-servir-page-vision
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/chapter/les-trois-roles-du-routier
+  title: 'Chapitre : Les trois rôles du routier'
+  slug: fr-books-la-branche-route-servir-chapter-les-trois-roles-du
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/les-trois-roles-du-routier
+  title: Les trois rôles du routier
+  slug: fr-books-la-branche-route-servir-page-les-trois-roles-du
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/le-routier-comme-responsable
+  title: Le routier comme responsable
+  slug: fr-books-la-branche-route-servir-page-le-routier-comme
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/le-routier-comme-ressource
+  title: Le routier comme ressource
+  slug: fr-books-la-branche-route-servir-page-le-routier-comme-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/le-routier-comme-participant
+  title: Le routier comme participant
+  slug: fr-books-la-branche-route-servir-page-le-routier-comme-3
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/developpement-global-dans-les-trois-roles
+  title: Développement global dans les trois rôles
+  slug: fr-books-la-branche-route-servir-page-developpement-global
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/chapter/la-branche-route
+  title: 'Chapitre : La branche Route'
+  slug: fr-books-la-branche-route-servir-chapter-la-branche-route
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/la-branche-route
+  title: La branche Route
+  slug: fr-books-la-branche-route-servir-page-la-branche-route
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/valeurs-et-engagement
+  title: Valeurs et engagement
+  slug: fr-books-la-branche-route-servir-page-valeurs-et-engagement
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/au-cours-du-temps
+  title: Au cours du temps
+  slug: fr-books-la-branche-route-servir-page-au-cours-du-temps
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/forme-dorganisation
+  title: Forme d’organisation
+  slug: fr-books-la-branche-route-servir-page-forme-dorganisation
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/devise
+  title: Devise
+  slug: fr-books-la-branche-route-servir-page-devise
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/activites
+  title: Activités
+  slug: fr-books-la-branche-route-servir-page-activites
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/associations-danciens
+  title: Associations d’anciens
+  slug: fr-books-la-branche-route-servir-page-associations-danciens
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/chapter/relations-et-methodes
+  title: 'Chapitre : Relations et méthodes'
+  slug: fr-books-la-branche-route-servir-chapter-relations-et
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/les-cinq-relations
+  title: Les cinq relations
+  slug: fr-books-la-branche-route-servir-page-les-cinq-relations
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/les-sept-methodes
+  title: Les sept méthodes
+  slug: fr-books-la-branche-route-servir-page-les-sept-methodes
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/chapter/formation
+  title: 'Chapitre : Formation'
+  slug: fr-books-la-branche-route-servir-chapter-formation
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/formation
+  title: Formation
+  slug: fr-books-la-branche-route-servir-page-formation
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/chapter/encadrement
+  title: 'Chapitre : Encadrement'
+  slug: fr-books-la-branche-route-servir-chapter-encadrement
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/encadrement
+  title: Encadrement
+  slug: fr-books-la-branche-route-servir-page-encadrement
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/chapter/perspectives
+  title: 'Chapitre : Perspectives'
+  slug: fr-books-la-branche-route-servir-chapter-perspectives
+- url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/perspectives
+  title: Perspectives
+  slug: fr-books-la-branche-route-servir-page-perspectives
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete                         # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: b6377d0b408a63fe5ffb37bf5ac2c5acb995cf8fd48c6d507e182f4e4de0a5c0 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme]                     # vocabulaire dans docs/taxonomie.md
+concepts: [branches, methodes-scoutes, relations, profil-du-scoutisme, cours-panorama, coach-js, benevolat]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history:  # versions précédentes : {version, published, sha256, retired}
+- version: '2022'
+  published: null
+  sha256: 008a65a86d6a7e6dfab90b18942bfc053a230be019662bfd4c6fe484e0d7b0af
+  retired: 2026-10-17
+  note: édition PDF pfadi.swiss cudesch_roverstufenbroschuere_f_neues_logo.pdf (32 p.), https://pfadi.swiss/media/files/b6/cudesch_roverstufenbroschuere_f_neues_logo.pdf, remplacée par le livre du cudesch numérique
+
+notes: 'Livre BookStack du cudesch numérique (cudesch.scout.ch, MSdS, en ligne depuis janvier 2026), 1 page d''accueil + 9 chapitres + 20 pages (30 nœuds) ; index écrit par l''agent dans l''ordre de lecture de web_pages. Chaque chapitre ne compte que 1 à 7 pages ; les chapitres Préambule, Scout un jour scout toujours, Vision, Formation, Encadrement et Perspectives ont une seule page du même titre que le chapitre. Les pages de chapitre ne portent que l''introduction du chapitre (souvent tronquée à « … ») avec la liste de ses pages ; plusieurs ont en tête le bruit de navigation du site et aucun titre `# ` (titre repris de web_pages). Ancres bkmrk-… conservées sur les titres. Pertes : les tableaux d''engagements (Au cours du temps, §5.3) et d''exemples des cinq relations (§6.1), ainsi que les schémas, sont des images ; marqueurs @@ANC:bkmrk-…@@ non résolus dans les cellules de tableaux (Développement global, Les sept méthodes, Vision) et titre de page non rendu en `# ` sur certains chapitres. Numéros § posés par l''agent (le site n''en a pas).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

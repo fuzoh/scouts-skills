@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-physis-exemples-pratiques        # <issuer>-<slug>, stable, voir METHODE.md
+title: Physis – exemples pratiques
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: 2015, 3e édition remaniée      # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 2d1a628637ff166851b9f0f714a73ad47d8606b8397c3e841af3917fe0231a09 # (script)
+pages: 100                              # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [sport]                         # vocabulaire dans docs/taxonomie.md
+concepts: [physis, condition-physique, coordination, echauffement, jeu, sport-des-enfants, planification]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Signets inutilisables (deux « Page vierge ») ; arbre réécrit depuis le sommaire imprimé (p.3), toc_source agent, page_offset 2 vérifié (p.4 = imprimée 2, p.6 = 4). Chapitres non numérotés, pas de §. Chaque titre de section commence en haut de page. Fiches d''exercices bien lisibles (titre, tranches d''âge –10 / 10–14 / 15–20 / 20+ en gras, « Comment ? », « Pourquoi ? », « Variante ») ; photos perdues. Les tableaux « Structure de l''entraînement » (séances types par sport en colonnes) sont aplatis : colonnes entremêlées ligne par ligne, à relire contre le PDF. Ligature « fi » parfois coupée (« Offi ce »). Nœuds parents sans texte propre : 03, 07, 15, 27. Ignorés : couverture, sommaire, p.2 et p.99 blanches, impressum p.100.'                               # remarques humaines : qualité, pièges, chapitres à ignorer

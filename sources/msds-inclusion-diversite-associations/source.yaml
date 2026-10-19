@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-inclusion-diversite-associations # <issuer>-<slug>, stable, voir METHODE.md
+title: Inclusion et diversité dans les associations de jeunesse (support du module J+S, MSdS / jubla / UCS / CSAJ)
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/activites-scoutes/diversite-inclusion # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/b2/lehrmittel_inklusion_und_vielfalt_web_einzelseiten_fr.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed   # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: 1ère édition 2021              # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 0b558a294d55ecbad6da9a59392f06b8e6840881c7322b92fd6d8fe2b32503c2 # (script)
+pages: 64                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [inclusion, formation]          # vocabulaire dans docs/taxonomie.md
+concepts: [inclusion, discrimination, langage-inclusif, projet, planification, evaluation, ethique]   # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Coédition MSdS / jubla / UCS avec le CSAJ, support du module J+S Inclusion et diversité ; issuer msds par convention. Pas de signets, pas de table des matières ni de pagination imprimée (page_offset 0) ; arbre réécrit depuis les titres numérotés, toc_source agent. Guide de l''inclusion (§3.2) découpé par étapes (non numérotées dans le PDF, titres « Étape N » repris). Plages arrondies à la page : fin de 4.2 dans 18 (regroupé avec 4.3), début de p.58 = fin de 7.2.2 dans 28-prevention. Pages blanches p.2, 4, 8, 12, 32, 40, 48, 50, 54 ; remerciements p.61 et impressum p.64 hors index. Texte presque complet (96 %), césures de fin de ligne non recollées (« in clusion »), encadrés de questions de réflexion et conseils conservés, illustrations perdues ; p.38 un peu lacunaire (84 %).' # remarques humaines : qualité, pièges, chapitres à ignorer

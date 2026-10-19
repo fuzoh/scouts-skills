@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-concept-protection-psa         # <issuer>-<slug>, stable, voir METHODE.md
+title: Concept de protection – prévention des abus sexuels (prise de position du MSdS)
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 107301fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/148/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/78/107301fr_concept_de_protection_prevention_des_abus_sexuels_anderungen_ssi.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2021'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2021-09-19                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: bcd99843e0a59e1bbdaa073af664b856497f203e9094f5bcf4f3f1a59bfccaca # (script)
+pages: 13                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: 2021-09-19                # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: prescription                    # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur, cadre-cantonal] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [prevention]                    # vocabulaire dans docs/taxonomie.md
+concepts: [psa, violence, regles-de-comportement, ethique, securite]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Texte complet (13 p.) ; seules les césures de fin de ligne sont absentes de raw.md (aucun mot manquant, vérifié contre le PDF). Chapitres non numérotés : § omis, pagination imprimée = physique. Sections regroupées à la page : gestion des plaintes et des risques p.6-7 (la gestion de crise commence en bas de p.7 et est traitée p.8), gestion du personnel p.9-11. Les chapitres signalent les potentiels de développement par une case colorée (p.4) ; ils sont repris dans l''annexe p.12-13. Note 5 p.11 : phrase sur Swiss Sport Integrity ajoutée le 30.10.2023. Adopté par le Comité le 19.09.2021, réf. 1073.01.fr ; applies_from = date d''adoption (pas de date d''entrée en vigueur distincte).'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

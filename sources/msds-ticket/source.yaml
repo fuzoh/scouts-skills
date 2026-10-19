@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-ticket                         # <issuer>-<slug>, stable, voir METHODE.md
+title: Ticket – fil conducteur pour l'inscription aux cours
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 307910fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/54/le-ticket-le-fil-conducteur-pour-linscription-des-participants # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/89/307910fr-ticket-20260829-papillon.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2026-08-29                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 4dc5f11dcef74617ace8beeb8f364c88a15955216a4f487d2b559456e4d8e551 # (script)
+pages: 5                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, cadre-cantonal] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [administration]                # vocabulaire dans docs/taxonomie.md
+concepts: [administration-de-cours, cours-de-base, cours-ru, expert-js, coach-js, modele-de-formation] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Texte complet. Le tableau des reconnaissances J+S (p.4-5) est un tableau Markdown dont la ligne d''en-tête n''est pas répétée en p.5 ; la légende « part / éq » (participant / équipe de cours) est dans l''en-tête de p.4. Liens MiData conservés en Markdown.' # remarques humaines : qualité, pièges, chapitres à ignorer

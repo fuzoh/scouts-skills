@@ -1,0 +1,64 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-thilo                          # <issuer>-<slug>, stable, voir METHODE.md
+title: Thilo – Manuel scout de Suisse (thilo.scouts.ch, branche Éclais)
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 2024.03.fr                         # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://thilo.scouts.ch/fr         # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://thilo.scouts.ch/fr
+  title: Thilo
+  slug: fr
+- url: https://thilo.scouts.ch/fr/le-scoutisme
+  title: Le scoutisme
+  slug: fr-le-scoutisme
+- url: https://thilo.scouts.ch/fr/orientation
+  title: Orientation
+  slug: fr-orientation
+- url: https://thilo.scouts.ch/fr/technique-de-cordes-et-constructions
+  title: Technique de cordes et constructions
+  slug: fr-technique-de-cordes-et-constructions
+- url: https://thilo.scouts.ch/fr/premiers-secours
+  title: Premiers secours
+  slug: fr-premiers-secours
+- url: https://thilo.scouts.ch/fr/transmettre
+  title: Transmettre
+  slug: fr-transmettre
+- url: https://thilo.scouts.ch/fr/etre-en-plein-air
+  title: Être en plein air
+  slug: fr-etre-en-plein-air
+- url: https://thilo.scouts.ch/fr/nature
+  title: Nature
+  slug: fr-nature
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: null                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2024-01-01                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: bf0c6a844bdf3f458c00de924a7fcd8deaa11c1179a48b34c4e9aa56f2e56310 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme, camp, securite]     # vocabulaire dans docs/taxonomie.md
+concepts: [branches, methodes-scoutes, securite, camp, orientation, premiers-secours, technique-de-corde, eau]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: "Site statique Astro : conversion sans --render, texte complet sur les 8 pages ; la page d'accueil n'a que l'intro et un message de nouvelle version, la navigation est perdue. Images, illustrations, schémas (nœuds, symboles de carte, premiers secours, plantes, animaux) et cartes swisstopo non converties : seul le texte et les légendes restent. Tableaux simples convertis (échelles, pièces de monnaie), vérifier les autres. Une entrée par page (sections en ancres <!-- #ancre --> dans le md), citer id <url>#ancre. Éclais = branche cible."                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

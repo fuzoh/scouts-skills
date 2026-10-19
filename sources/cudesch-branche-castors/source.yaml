@@ -1,0 +1,117 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-branche-castors             # <issuer>-<slug>, stable, voir METHODE.md
+title: La branche Castors – Toujours joyeux !
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux
+  title: La branche Castors – Toujours joyeux !
+  slug: fr-books-la-branche-castors-toujours-joyeux
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/chapter/introduction
+  title: 'Chapitre : Introduction'
+  slug: fr-books-la-branche-castors-toujours-joyeux-chapter
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/quest-ce-que-la-branche-castors
+  title: Qu'est-ce que la branche Castors?
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-quest-ce
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/bref-historique-de-la-branche-castors
+  title: Bref historique de la branche Castors
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-bref
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/chapter/personnes-de-la-branche-castors
+  title: 'Chapitre : Personnes de la branche Castors'
+  slug: fr-books-la-branche-castors-toujours-joyeux-chapter-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/enfants
+  title: Enfants
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-enfants
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/responsables
+  title: Responsables
+  slug: fr-books-la-branche-castors-toujours-joyeux-page
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/chapter/programme-de-la-branche-castors
+  title: 'Chapitre : Programme de la branche Castors'
+  slug: fr-books-la-branche-castors-toujours-joyeux-chapter-3
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/programme-trimestriel-pt-programme-semestriel-ps-programme-annuel-pa
+  title: Programme trimestriel ( PT ) / Programme semestriel ( PS ) /Programme annuel ( PA )
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-programme
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/histoire-cadre
+  title: Histoire-cadre
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-histoire
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/relations
+  title: Relations
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-relations
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/methodes
+  title: Méthodes
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-methodes
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/chapter/activites-de-la-branche-castors
+  title: 'Chapitre : Activités de la branche Castors'
+  slug: fr-books-la-branche-castors-toujours-joyeux-chapter-4
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/activites-du-samedi
+  title: Activités du samedi
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-activites
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/activites-speciales
+  title: Activités spéciales
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-activites-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/chapter/aspects-organisationels-de-la-branche-castors
+  title: 'Chapitre : Aspects organisationels de la branche Castors'
+  slug: fr-books-la-branche-castors-toujours-joyeux-chapter-aspects
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/creation-de-la-branche-castor
+  title: Création de la branche Castor
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-creation
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/etre-responsable
+  title: Être responsable
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-etre
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/securite-droits-et-devoirs
+  title: Sécurité, droits et devoirs
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-securite
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/prevention-et-intervention
+  title: Prévention et intervention
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-prevention
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/integration
+  title: Intégration
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-integration
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/communication
+  title: Communication
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/chapter/bibliographie
+  title: 'Chapitre : Bibliographie'
+  slug: fr-books-la-branche-castors-toujours-joyeux-chapter-5
+- url: https://cudesch.scout.ch/fr/books/la-branche-castors-toujours-joyeux/page/bibliographie
+  title: Bibliographie
+  slug: fr-books-la-branche-castors-toujours-joyeux-page-3
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 4404667bdf2240da2b9d5e9c504f53be7485814e789af590ca9c7a558979bbee # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme]                     # vocabulaire dans docs/taxonomie.md
+concepts: [branches, relations, methodes-scoutes, planification, jeu, psa, securite, communication]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history:  # versions précédentes : {version, published, sha256, retired}
+- version: '2024'
+  published: null
+  sha256: d41ad68540855f80e3eb04b85520b56daa0b60f113c46b2b763b0745a2a412a7
+  retired: 2026-10-17
+  note: édition PDF pfadi.swiss 215801fr_la_branche_castors_-_toujours_joyeux.pdf (44 p.), https://pfadi.swiss/media/files/06/215801fr_la_branche_castors_-_toujours_joyeux.pdf, remplacée par le livre du cudesch numérique
+
+notes: 'Livre BookStack du cudesch numérique (cudesch.scout.ch, MSdS), brochure de la branche Castors (5 à 7 ans), 1 page d''accueil + 6 chapitres + 17 pages ; ordre de lecture du livre. Les pages de chapitre portent l''introduction du chapitre suivie de la liste de ses pages avec extraits (lien et premières lignes), à ignorer. Ancres bkmrk-… conservées sur chaque titre (citation `id <url>#bkmrk-…`). Pertes trafilatura : images (illustrations, mascotte, schémas). Le chapitre Bibliographie et sa page homonyme sont deux nœuds distincts. Pages courtes (< 400 mots) pour la plupart, aucune page très longue. Numéros § posés par l''agent (le site n''en a pas).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

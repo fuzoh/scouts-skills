@@ -1,0 +1,2 @@
+# Originaux des sources : octets exacts, jamais de conversion de fins de ligne (le sha256 du registre en dépend)
+sources/*/original/** -text

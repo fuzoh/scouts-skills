@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-activites-de-qualite-transmettre # <issuer>-<slug>, stable, voir METHODE.md
+title: Des activités J+S de qualité – Transmettre (jeu de cartes)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 0a0fca59bd611939ee7fdf0a0cc2d559906281d53cea7dd01d2c2a7d77f2abbb # (script)
+pages: 44                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, expert-js]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [sport, formation]              # vocabulaire dans docs/taxonomie.md
+concepts: [methodes-d-enseignement, securite, objectifs-d-apprentissage, retour, evaluation, coach-js, expert-js, planification]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Jeu de cartes, une carte par page, texte court. Schémas de termes clés p.8 et p.10 convertis en tableaux tronqués (texte en partie perdu), p.6, p.12, p.17, p.19, p.43 : termes clés en vrac, légendes de schémas mélangées au texte. Les titres des conseils pratiques sont absents. Pas d''impressum ni d''édition dans le PDF (version vide). Numérotation imprimée par carte : page_offset 0.'

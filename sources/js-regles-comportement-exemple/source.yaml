@@ -1,0 +1,35 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-regles-comportement-exemple      # <issuer>-<slug>, stable, voir METHODE.md
+title: Exemple de mise en œuvre des règles de comportement – charte du cours ou du module et application de mesures
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+nature: exemple
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 4f4b6ba117c4d57a8f9095787609c2aa10aec258206ad571f18da51e6531e55d # (script)
+pages: 2                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [expert-js]                   # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [prevention, formation]         # vocabulaire dans docs/taxonomie.md
+concepts: [regles-de-comportement, charte-de-cours, ethique, expert-js, chef-de-cours]   # termes du GLOSSARY.md
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Édition 02/2026. Le raw.md d''origine (152 octets) avait perdu tout le texte (zones de texte sur graphiques) ; raw.md régénéré avec ignore_graphics. Le schéma de la procédure p.2 (signalement, mesures, procès-verbal, rapport) est rendu en texte libre sans flèches ; l''ordre de lecture peut mêler les branches « mesure acceptée » et « démarches supplémentaires ».'

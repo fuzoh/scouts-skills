@@ -1,0 +1,32 @@
+# Éthique dans le sport
+
+Valeurs et charte d'éthique de Swiss Olympic et de l'OFSPO, base de la conduite des moniteur·trice·s J+S.
+
+## Sources
+
+Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour choisir la section.
+
+- `js-activites-de-qualite-encourager@2025` — Des activités J+S de qualité – Encourager (jeu de cartes) (8 sections, [index](../../sources/js-activites-de-qualite-encourager/index.md))
+- `js-activites-de-qualite-innover@2025` — Des activités J+S de qualité – Innover et Se soucier de l'entourage (jeu de cartes) (10 sections, [index](../../sources/js-activites-de-qualite-innover/index.md))
+- `js-conception-js@2022` — Conception Jeunesse+Sport (version abrégée) (8 sections, [index](../../sources/js-conception-js/index.md))
+- `js-developpement-equipe-moniteurs` — Encourager un développement de l'équipe des moniteurs fondé sur des valeurs (1 section, [index](../../sources/js-developpement-equipe-moniteurs/index.md))
+- `js-ethique-diapositives` — Des activités J+S respectueuses des valeurs éthiques (diapositives pour les fédérations) (1 section, [index](../../sources/js-ethique-diapositives/index.md))
+- `js-ethique-formation-de-base` — Bloc de cours Valeurs et éthique – formation de moniteur·rice J+S (pour expert·e·s) (1 section, [index](../../sources/js-ethique-formation-de-base/index.md))
+- `js-ethique-module-chef-de-camp` — Bloc de cours Valeurs et éthique – module Chef·fe de camp (pour expert·e·s) (1 section, [index](../../sources/js-ethique-module-chef-de-camp/index.md))
+- `js-ethique-proximite-soutien@2026-10-17` — Un sport respectueux des valeurs éthiques : proximité et soutien dans la pratique sportive (1 section, [index](../../sources/js-ethique-proximite-soutien/index.md))
+- `js-guide-boussole-ethique@01/2025` — Éthique dans le sport – guide méthodique de développement des compétences éthiques avec la boussole éthique de Swiss Olympic (1 section, [index](../../sources/js-guide-boussole-ethique/index.md))
+- `js-manuel-bases@2024, 3e édition remaniée` — Manuel J+S – Bases (37 sections, [index](../../sources/js-manuel-bases/index.md))
+- `js-manuel-coach@2023` — Manuel des coachs J+S (15 sections, [index](../../sources/js-manuel-coach/index.md))
+- `js-manuel-experts-coachs@2024` — Manuel J+S pour les experts coachs J+S (32 sections, [index](../../sources/js-manuel-experts-coachs/index.md))
+- `js-modele-charte-cours` — Charte du cours ou du module (modèle) (1 section, [index](../../sources/js-modele-charte-cours/index.md))
+- `js-modele-de-formation-macolin@2019` — Le modèle de formation de Macolin (9 sections, [index](../../sources/js-modele-de-formation-macolin/index.md))
+- `js-poster-regles-de-comportement` — Règles de comportement dans la formation de base et continue (poster) (1 section, [index](../../sources/js-poster-regles-de-comportement/index.md))
+- `js-regles-comportement-exemple` — Exemple de mise en œuvre des règles de comportement – charte du cours ou du module et application de mesures (1 section, [index](../../sources/js-regles-comportement-exemple/index.md))
+- `js-violence-dans-le-sport@2008` — La violence dans le sport (13 sections, [index](../../sources/js-violence-dans-le-sport/index.md))
+- `msds-concept-protection-psa@2021` — Concept de protection – prévention des abus sexuels (prise de position du MSdS) (6 sections, [index](../../sources/msds-concept-protection-psa/index.md))
+- `msds-inclusion-diversite-associations@1ère édition 2021` — Inclusion et diversité dans les associations de jeunesse (support du module J+S, MSdS / jubla / UCS / CSAJ) (30 sections, [index](../../sources/msds-inclusion-diversite-associations/index.md))
+- `msds-ouvert-a-tous-diversite-inclusion@2022` — Ouvert à tou·te·s – diversité et inclusion au sein du scoutisme (12 sections, [index](../../sources/msds-ouvert-a-tous-diversite-inclusion/index.md))
+
+## Concepts liés
+
+[regles-de-comportement](regles-de-comportement.md), [methodes-d-enseignement](methodes-d-enseignement.md), [expert-js](expert-js.md), [coach-js](coach-js.md), [psa](psa.md), [boussole-ethique](boussole-ethique.md), [modele-de-formation](modele-de-formation.md), [inclusion](inclusion.md)

@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-memento-responsable-patrouille # <issuer>-<slug>, stable, voir METHODE.md
+title: Étincelle – mémento pour les responsables de patrouille
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 214501fr   # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/700/etincelle-memento-pour-les-responsables-de-patrouille # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/46/pbs_202003_leitpfadihilfsmittel_funkae_a5_draft10_final_web_fr_es.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed   # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2021'                           # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2020-03-01                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: b85831bd9ae2bf4975799266cf135c3dd5da50a7a17ccaba60c3e30624f64943 # (script)
+pages: 24                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme]                     # vocabulaire dans docs/taxonomie.md
+concepts: [responsable-de-patrouille, branches, planification, jeu, securite, premiers-secours, methodes-scoutes]   # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Mémento « Étincelle » pour responsables de patrouille (branche Éclais), édition 2021, réf. imprimée 2145.01.fr. Pas de signets ; index réécrit depuis la table des matières p.3 ; pied de page = page physique (page_offset 0). Hors index : couverture p.1, page « À remplir » p.2, table des matières p.3. Texte complet (97 % des mots) mais tableau Quand/Quoi p.11 aux colonnes mélangées (échéances séparées des tâches), pages à remplir vides (petits jeux p.18, contacts p.21), grille de mots croisés p.22 perdue (seuls les chiffres restent), illustrations perdues. Impressum p.23 dans 10-contacts-devinettes.md.' # remarques humaines : qualité, pièges, chapitres à ignorer

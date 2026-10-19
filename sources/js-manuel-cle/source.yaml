@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-manuel-cle                       # <issuer>-<slug>, stable, voir METHODE.md
+title: Manuel clé Jeunesse+Sport
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: 2016, 3e édition sans modification du contenu # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: d42d624926fa99fc9353146cfa8613d59064edd7b1c48bdbdff5de4a6a11a3fb # (script)
+pages: 44                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [expert-js, formateur]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [sport, formation]              # vocabulaire dans docs/taxonomie.md
+concepts: [methodes-d-enseignement, retour, physis, psyche, sport-des-enfants, planification]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Édition 2016 sans modification de contenu (contenu 2008) : modèle d''enseignement antérieur au modèle de formation de Macolin, utile comme fond théorique (concepts pédagogique, de motricité sportive, méthodologique). Sans signets : arbre réécrit depuis le sommaire imprimé (p.2), titres localisés par recherche dans le PDF ; titres non numérotés, pas de §. page_offset 2 (imprimé 1 = p.3, vérifié p.11 et p.41). Retirés : couverture p.1, sommaire p.2, listes des graphiques et tableaux p.42, impressum p.44. Texte de bonne qualité sauf tableaux (stades de développement p.14-15, modèles et tableaux du concept méthodologique) lus colonne par colonne, cellules mêlées ; graphiques perdus (seules les légendes restent) ; citations en exergue converties en titres ## en italique. Le nœud « La philosophie de la formation » n''a pas de texte propre (titre de chapitre dans 04).' # remarques humaines : qualité, pièges, chapitres à ignorer

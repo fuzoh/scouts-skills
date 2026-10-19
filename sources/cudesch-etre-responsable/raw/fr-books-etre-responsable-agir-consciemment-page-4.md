@@ -1,0 +1,22 @@
+---
+url: https://cudesch.scout.ch/fr/books/etre-responsable-agir-consciemment/page/organisation-de-lunite
+retrieved: 2026-10-17
+sha256: 08b2e9d06c0ddf4a9f5711922ebecf7d998acdef433327676098b85c393a73e5
+---
+
+<!-- #bkmrk-page-title -->
+# Organisation de l’unité
+
+Une unité change constamment. Il y a des arrivées et des départs, les enfants et les jeunes grandissent et leurs besoins changent. Ce sont surtout lors des passages de la branche Louveteaux à la branche Eclais et de la branche Eclais à la branche Picos que l’effectif d’une unité peut considérablement augmenter ou diminuer. Il faut souvent trou- ver de nouveaux sizeniers ou responsables de patrouille après une « montée » et par- fois également redistribuer les participants dans de nouvelles sizaines ou patrouilles.
+
+Idéalement, une unité Louveteaux ou Eclais a entre quinze et vingt-cinq membres actifs, participant régulièrement aux activités et répartis en trois ou quatre sizaines ou patrouilles. Bien entendu, le nombre de membres varie constamment et peut tomber parfois, pour de courtes périodes, en dessous de quinze ou dépasser les vingt-cinq. Toutefois, si la taille de l’unité change de façon durable, il faut penser à la réorganiser. Lors de ces changements, les maîtrises de groupe et de branche doivent participer aux décisions. Le coach peut vous aider lors de tels changements.
+
+**Garde toujours à l’esprit les points suivants concernant ton unité :**
+
+- Qui sera nommé(e) responsable de sizaine ou de patrouille ? Que faire avec les autres enfants ou jeunes du même âge ? Quelles autres tâches leur attribuer (p. ex. responsabilité pour le journal de meute ou pour le matériel de patrouille) ?
+- Est-ce que certains membres ou tout le groupe a besoin de nouveaux défis ? Où en sont-ils dans leur progression personnelle ? Planifie quelles étapes tes partici- pants pourront passer durant l’année prochaine et quelles spécialités ils pourront faire. Quelques membres pourront éventuellement passer leur brevet d’expert.
+- Qui pourra participer quel cours de formation lors des prochaines années ? Afin d’assurer la relève de la Maîtrise, il est important que les responsables de pat- rouille, les Picos et les responsables participent à des cours. Réfléchis au moyen de les motiver à participer à un cours. Souvent, les responsables rentrent de ces cours avec beaucoup de motivation pour le scoutisme. C’est pour cela qu’il est important qu’à l’issue du cours tu aies un nouveau défi, à leur présenter.
+- Est-ce que la relève est assurée ? Dans l’idéal, il faudrait que tous les âges soient représentés dans la même proportion. Autant une tranche d’âge très forte qu’une tranche d’âge très faible peut poser des problèmes (p. ex. plus tard, lorsque tous souhaitent devenir responsables de patrouille ou picos en même temps).
+- Est-ce qu’une sizaine ou patrouille est trop grande ? S’il te semble probable qu’il y aura assez de membres dans les années à venir pour une nouvelle sizaine ou patrouille, cela vaut la peine d’en fonder une nouvelle. Dans ce cas, le mieux est de répartir tous le monde dans de nouvelles sizaines/patrouille de taille et de « force » égale et de veiller à ce que tous les âges soient représentés de la même manière. Toutefois, cela ne vaut souvent pas la peine de procéder à une réorganisation complète de toutes les sizaines et patrouilles si tu as simplement une seule sizai- ne ou patrouille de grande taille parce que beaucoup d’enfants ont le même âge.
+- Est-ce qu’une sizaine ou patrouille est devenue trop petite à force de manquer de relève ? Les activités sont souvent bien moins amusantes lorsque le groupe est trop petit. Si l’on ne voit pas d’amélioration en vue, cela vaut la peine de réduire le nombre de sizaines ou de patrouilles. Si l’unité finit par être composée unique- ment d’une seule sizaine ou patrouille, il faut envisager de fusionner avec une autre unité.
+- Est-ce qu’une unité est trop grande ou trop petite ? Ce qui est valable pour les sizaines et patrouilles est également valable pour l’unité. Réfléchis longuement avant de procéder à la fondation d’une nouvelle unité ou à la dissolution d’une uni- té riche en traditions ! Cela ne vaut toutefois pas la peine de garder une unité sans avenir : par exemple si tu ne peux compter sur une relève à long terme ou si cela fait bien longtemps que « ça péclote ». Une unité suffisamment grande permet des activités plus intéressantes et de meilleure qualité.

@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-index                       # <issuer>-<slug>, stable, voir METHODE.md
+title: cudesch – index des brochures, thèmes et références officielles (2018)
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/441/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/63/00c_inhaltsverz_fr_web.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial
+fidelity_notes: 'Colonne « Thèmes » (icônes) absente de raw.md p.1-5 ; la référence est lue en fin de ligne, le rattachement ligne-brochure est par proximité ; référence et type manquants pour Technique de corde (p.5).'
+
+version: '2018'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 27c43f60c9b501036b4202ce1fd57beb09e1e891d18915c444f2f320a95c598c # (script)
+pages: 5                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme]                     # vocabulaire dans docs/taxonomie.md
+concepts: [cudesch, branches, relations, methodes-scoutes, securite, camp, trekking, jeu]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Index de la collection cudesch (2018) : liste, par brochure thématique, le plan des chapitres, les documents annexes (type, présence sur le web, référence officielle MSdS.xxxx.xx.fr ou J+S). Texte propre mais mise en page en colonnes aplatie : les références des brochures se retrouvent sous leur plan, sans icône de thème. Titres de section parfois sans référence (Branches, Documentation de cours, Documents supplémentaires). Version 2018, références antérieures au modèle 2027.'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

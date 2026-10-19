@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-activites-de-qualite-encourager  # <issuer>-<slug>, stable, voir METHODE.md
+title: Des activités J+S de qualité – Encourager (jeu de cartes)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: '2025'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 3184cb115c039f4dc1aca6e61790f93dcab541ddc709b1258e9ffb1e2213cfa5 # (script)
+pages: 34                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, expert-js]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [sport, formation]              # vocabulaire dans docs/taxonomie.md
+concepts: [ethique, inclusion, regles-de-comportement, psyche, relations, jeu, methodes-d-enseignement]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Jeu de cartes, une carte par page, texte court. Texte complet, mais les titres des conseils pratiques (en-têtes de cartes, ex. « Exclusion et harcèlement moral », « Forme de jeu cool and clean ») sont détachés du texte ou absents, et les termes clés (p.5, p.7) sont en vrac sans lien entre eux. p.16-17 et 28-29 (notes personnelles, pages blanches) et p.34 (impressum, logos de fédérations) hors index. Numérotation imprimée par carte (recto+verso) : pas de décalage constant avec la page physique, page_offset 0.'

@@ -1,0 +1,216 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-branche-louveteaux          # <issuer>-<slug>, stable, voir METHODE.md
+title: La branche Louveteaux – de notre mieux
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux
+  title: La branche Louveteaux – de notre mieux
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/chapter/introduction
+  title: 'Chapitre : Introduction'
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-chapter
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/outils-pour-la-branche-louveteaux
+  title: Outils pour la branche Louveteaux
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-outils
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/chapter/les-jeunes-de-la-branche-louveteaux
+  title: 'Chapitre : Les jeunes de la branche Louveteaux'
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-chapter-les
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/besoins-des-enfants-en-age-de-la-branche-louveteaux
+  title: Besoins des enfants en âge de la branche Louveteaux
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-besoins
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/garcons-et-filles-mixte-ou-separes
+  title: Garçons et filles – mixte ou séparés ?
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-garcons
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/chapter/organisation-de-la-branche-louveteaux
+  title: 'Chapitre : Organisation de la branche Louveteaux'
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-chapter-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/organisation
+  title: Organisation
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/chapter/les-cinq-relations-dans-la-branches-louveteaux
+  title: 'Chapitre : Les cinq relations dans la branches Louveteaux'
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-chapter-les-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/les-cinq-relations-dans-la-branche-louveteaux
+  title: Les cinq relations dans la branche Louveteaux
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-les-cinq
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/chapter/la-symbolique-de-la-branche-louveteaux
+  title: 'Chapitre : La symbolique de la branche Louveteaux'
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-chapter-la
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/la-symbolique-comme-base-de-la-methodologie-de-la-branche-louveteaux
+  title: La symbolique comme base de la méthodologie de la branche Louveteaux
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-la
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/les-territoires-de-la-jungle-et-les-cinq-relations-dans-la-branche-louveteaux
+  title: Les territoires de la jungle et les cinq relations dans la branche Louveteaux
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-les
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/le-livre-de-la-jungle-en-toile-de-fond
+  title: Le Livre de la jungle en toile de fond
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-le-livre
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/lexique-du-livre-de-la-jungle
+  title: Lexique du Livre de la jungle
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-lexique
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/chapter/progression-personnelle
+  title: 'Chapitre : Progression personnelle'
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-chapter-3
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/etapes-de-progression
+  title: Etapes de progression
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-etapes
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/specialites
+  title: Spécialités
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/systeme-devaluation-et-remise-des-insignes
+  title: Système d’évaluation et remise des insignes
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-systeme
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/chapter/loi-et-promesse
+  title: 'Chapitre : Loi et promesse'
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-chapter-loi
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/loi-des-louveteaux
+  title: Loi des louveteaux
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-loi-des
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/promesse
+  title: Promesse
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-promesse
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/devise
+  title: Devise
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-devise
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/maitres-mots-maximes-de-baloo-et-phrases-de-la-jungle
+  title: Maîtres-mots, maximes de Baloo et phrases de la jungle
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-maitres
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/chapter/vie-en-petit-groupe
+  title: 'Chapitre : Vie en petit groupe'
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-chapter-vie
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/vie-en-petit-groupe
+  title: Vie en petit groupe
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-vie-en
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/chapter/rituels-et-traditions
+  title: 'Chapitre : Rituels et traditions'
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-chapter-4
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/salut-des-louveteaux
+  title: Salut des louveteaux
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-salut
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/debut-et-fin-de-chasse
+  title: Début et fin de chasse
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-debut-et
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/rocher-du-conseil
+  title: Rocher du conseil
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-rocher
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/noms-de-jungle
+  title: Noms de jungle
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-noms-de
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/conseil-de-meute-et-conseil-dakela
+  title: Conseil de meute et conseil d'Akela
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-conseil
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/passage-et-course-du-printemps
+  title: Passage et course du printemps
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-passage
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/traditions-de-meute-activites-traditionnelles
+  title: Traditions de meute, activités traditionnelles
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-3
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/danse-de-la-jungle
+  title: Danse de la jungle
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-danse-de
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/animations-spirituelles
+  title: Animations spirituelles
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-4
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/tenue-scoute
+  title: Tenue scoute
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-tenue
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/chapter/vie-en-plein-air
+  title: 'Chapitre : Vie en plein air'
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-chapter-vie-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/veillee
+  title: Veillée
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-veillee
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/activites-dans-la-nature
+  title: Activités dans la nature
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-5
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/porotection-de-lenvironnement
+  title: Porotection de l'environnement
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-6
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/chapter/jeu
+  title: 'Chapitre : Jeu'
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-chapter-jeu
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/organiser-et-animer-des-jeux
+  title: Organiser et animer des jeux
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-7
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/course-dorientation-et-jeux-de-piste
+  title: Course d'orientation et jeux de piste
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-course
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/idees-de-jeux-et-jeux-bouche-trou
+  title: Idées de jeux et jeux "bouche-trou"
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-idees-de
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/chapter/apprentissage-par-le-projet
+  title: 'Chapitre : Apprentissage par le projet'
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-chapter-5
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/laventure
+  title: L'aventure
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-laventure
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/chapter/techniques-scoutes
+  title: 'Chapitre : Techniques scoutes'
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-chapter-6
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/techniques-scoutes
+  title: Techniques scoutes
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-8
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/chapter/chants-louveteaux
+  title: 'Chapitre : Chants louveteaux'
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-chapter-7
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/edit-de-la-jungle
+  title: Edit de la jungle
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-edit-de
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/les-petits-loups
+  title: Les petits loups
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-les-2
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/nous-qui-avons-un-beau-pays
+  title: Nous qui avons un beau pays
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-nous-qui
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/rassemblement-des-sizaines
+  title: Rassemblement des sizaines
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-9
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/fleur-rouge
+  title: Fleur rouge
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-fleur
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/petit-frere
+  title: Petit frère
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-petit
+- url: https://cudesch.scout.ch/fr/books/la-branche-louveteaux-de-notre-mieux/page/chant-de-promesse
+  title: Chant de promesse
+  slug: fr-books-la-branche-louveteaux-de-notre-mieux-page-chant-de
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: ff4b2edacb66e1958ec9fe27f67ad61e021c60757433ce424c779f37eaef2d54 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme]                     # vocabulaire dans docs/taxonomie.md
+concepts: [branches, relations, methodes-scoutes, jeu, animation, durabilite, planification, profil-du-scoutisme]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history:  # versions précédentes : {version, published, sha256, retired}
+- version: '2023'
+  published: null
+  sha256: 32b369cacefa9cfb9f4619a17de58e779ca033dd583ff607bcc29f1d5af1f975
+  retired: 2026-10-17
+  note: édition PDF pfadi.swiss 213102fr_la_branche_louveteaux_web_2023.pdf (29 p.), https://pfadi.swiss/media/files/85/213102fr_la_branche_louveteaux_web_2023.pdf, remplacée par le livre du cudesch numérique
+
+notes: 'Livre BookStack du cudesch numérique (cudesch.scout.ch, MSdS), brochure de la branche Louveteaux (univers du Livre de la jungle), 1 page d''accueil + 14 chapitres + 42 pages ; ordre de lecture du livre. Les pages de chapitre portent l''introduction du chapitre suivie de la liste de ses pages avec extraits (lien et premières lignes), à ignorer. Ancres bkmrk-… conservées sur chaque titre (citation `id <url>#bkmrk-…`). Pertes trafilatura : images (illustrations, partitions et notes des chants, schémas). Particularités : §5.4 Lexique du Livre de la jungle est un tableau de vocabulaire ; §14 Chants louveteaux (7 chants) ne contient que les paroles, sans la musique ; §5.3 Le Livre de la jungle en toile de fond est la page la plus longue (2 900 mots) et reste un seul fichier. Le titre de §10.3 (Porotection) reprend la coquille du site. Numéros § posés par l''agent (le site n''en a pas).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

@@ -1,0 +1,53 @@
+---
+source: js-poster-regles-de-comportement
+version: ''
+title: Règles de comportement dans la formation de base et continue (poster)
+pages: '1'
+---
+
+<!-- p.1 -->
+
+
+# **RÈGLES DE COMPORTEMENT**
+## **DANS LA FORMATION DE BASE ET CONTINUE**
+
+**RESPECTER TOUs**
+**LES PARTICIPANTS**
+
+**RÉFLÉCHIR AU PROCESSUS**
+
+**D’APPRENTISSAGE,**
+**PROMOUVOIR LE DÉVELOPPEMENT**
+
+**DONNER L’EXEMPLE EN**
+**MATIèRE DE PRÉVENTION**
+
+**DES ADDICTIONS ET**
+
+**DU DOPAGE**
+
+**PRENDRE SES RESPONSABILITÉS ET**
+
+**PARTAGER DES RESPONSABILITÉS**
+
+**INCARNER LES VALEURS**
+
+**DU SPORT**
+
+**ÊTRE OUVERT À LA NOUVEAUTé,**
+
+**À LA DIFFÉRENCE**
+
+**ET AUX AUTRES**
+
+OFSPO
+2532 Macolin
+
+**AGIR ET COMMUNIQUER**
+**DE MANIÈRE NON VIOLENTE**
+
+**RESPECTER LE MATÉRIEL,**
+
+**LES INFRASTRUCTURES**
+
+**ET LA NATURE**

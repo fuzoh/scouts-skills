@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-profil-tableaux-relations      # <issuer>-<slug>, stable, voir METHODE.md
+title: Profil du scoutisme v25 – tableaux des relations par branche
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/1051/profil-du-scoutisme_v25_les-relations # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/06/profil_du_scoutisme_v25_les_relations.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: converted                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                       # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Grilles aspect × branche p.1-5 détruites à la conversion (cellules listées sans ordre ligne × colonne). Récupérées par `just recover` (méthode layout) : recovered/p01 à p05, une relation par fichier, 5 branches en colonnes.' # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2025'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 8ab5a1ab525461d8c845e4783217abc6b93978db53e58108d331d9211c98ace9 # (script)
+pages: 5                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme]                     # vocabulaire dans docs/taxonomie.md
+concepts: [profil-du-scoutisme, relations, branches] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Extrait du Profil du scoutisme v25 : cinq tableaux relation × branche (une relation par page, 5 p.) ; doublon partiel de msds-profil-du-scoutisme, utile comme vue compacte. convert récupère maintenant tout le texte (objectifs et nom des rubriques) mais la grille est détruite : les cellules sont listées par blocs sans ordre ligne × colonne, la branche et la rubrique d''une cellule ne sont pas déductibles de raw.md. Grilles récupérées par `just recover` (layout, recovered/p01-p05), fusionnées par split dans une section par relation ; extraction repassée de vision à text.' # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: null                        # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

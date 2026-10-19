@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: autre-canevas-ua-top                # <issuer>-<slug>, stable, voir METHODE.md
+title: Canevas vierge d'unité d'apprentissage (cours Top, PATExE)
+issuer: autre                           # msds | cofor | js | cudesch | autre
+issuer_detail: équipe de cours Top (maîtrise de cours expert·e J+S), canevas maison du mainteneur # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: docx                              # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: null                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2026-08-15                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: bcbc569f5e0dd276cd93cae6f7ecb94d16ddd99450ccc76da03c4b068661e3d9 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: exemple                         # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [formateur, expert-js]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation]                     # vocabulaire dans docs/taxonomie.md
+concepts: [unite-d-apprentissage, objectifs-d-apprentissage, methodes-d-enseignement, planification, patexe]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Canevas d’unité d’apprentissage : en-tête, préparation/logistique, puis quatre blocs de partie identiques (timing, titre, PATExE, qui, méthode, références, déroulement), à dupliquer selon le besoin. Pas de rubrique d’évaluation, contrairement au canevas de point de cours. Conversion docx : les cases ☐ sont conservées en texte ; logos, en-têtes de page, couleurs et mise en page en tableaux (cellules fusionnées, lignes vides) sont perdus ; tous les champs sont vides, le texte utile est la liste des rubriques.'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

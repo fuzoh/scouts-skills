@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-modele-prog-general-sport-jeunes # <issuer>-<slug>, stable, voir METHODE.md
+title: Modèle du programme général SC/T – sport des jeunes
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/31/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/5e/grobprogramm_lager_jugendsport_f.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Grille horaire p.1 : couleurs de légende (SC, AC Sport des jeunes, Repas, Blocs « Voilà », Autres blocs) perdues, cellules fusionnées répétées, colonne parasite « Col8 » (jeudi 22 juillet dupliqué).'                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2014'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 9bb38e260f6df0e0a22574e8ed279fd045b59a981cf05298f9d1e67664f84f3f # (script)
+pages: 1                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: exemple                          # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, coach-js]       # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp]                          # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, activite-de-camp, camp, planification, js, jeu]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Exemple de programme général de camp sous tente (juillet 2013, Alten), 1 p. issue du manuel J+S Sport de camp/Trekking 30.401.561 f, éd. 2014. Grille aplatie : blocs sur plusieurs créneaux répétés, colonne Col8 en doublon du jeudi, légende en dernière colonne. Code des blocs = jour.numéro ; SC = sport de camp, AC = activité de camp. Exemple, pas de prescription.'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

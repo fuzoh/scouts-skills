@@ -1,0 +1,37 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cofor-approfondissement-louveteaux  # <issuer>-<slug>, stable, voir METHODE.md
+title: Check-list approfondissement branche Louveteaux – activités SdC/T
+issuer: cofor                           # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 314501fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/1088/check-list-approfondissement-branche-louveteaux-activites-sdct # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/5a/314501fr-approfondissement_branche_louveteaux-v1-20260915-cofor.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: v1                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+applies_from: 2027-01-01
+applies_until: null
+nature: prescription
+published: 2026-09-15                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 0b2941d72fbcad2bfdd0b0a3790b18fa056f4a5f264ea2b9eea20ad29275f386 # (script)
+pages: 3                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur, expert-js]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation]                     # vocabulaire dans docs/taxonomie.md
+concepts: [unite-d-apprentissage, caf, niveau-d-approfondissement, modele-de-formation, branches, methodes-scoutes, relations]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Formulaire PDF (AcroForm) : la colonne « Niveau » (vivre / mémoriser-comprendre / appliquer-analyser / évaluer-créer) est rendue par des cases cochées, perdues à la conversion, de même que les champs de saisie (CàF, n° d''UA, justification finale) ; les tableaux de raw.md gardent contenu et objectif (MSdS x.y, J+S x.y). Les trois premiers tableaux (p.2) sont complets ; « Autres contenus » (p.3) perd sa structure de tableau (titres en gras collés, objectif J+S 1.3 sur la dernière ligne) ; lignes vides `||||||` dans les tableaux. Même structure que cofor-checklist-cours-base, adaptée à la branche Louveteaux ; p.1 = mode d''emploi, p.2-3 = contenus par domaine. applies_from 2027-01-01 : déduit, la check-list dérive du modèle de formation 2027 (msds-modele-de-formation, valable dès le 01.01.2027) ; le document ne porte pas de date d''application propre.'

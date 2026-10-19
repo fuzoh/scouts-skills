@@ -1,0 +1,36 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cofor-checklist-cours-base          # <issuer>-<slug>, stable, voir METHODE.md
+title: Check-list cours de base – cours de moniteur·rice J+S
+issuer: cofor                           # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 314201fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/1085/check-list-cours-de-base-cours-de-moniteurrice-js # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/1e/314201fr-checklist_cours_base-v1-20260915-cofor.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                       # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Colonne « Niveau » p.2-4 (icônes) vide dans raw.md, premier tableau p.2 mal rendu. Récupéré par `just recover` (légende p.1) : recovered/p02-contenus-de-formation-niveaux-d-approfondissement.md, 39 lignes rubrique × contenu × niveau × objectifs ; colonnes de formulaire vides (CàF, n° d''UA) non reprises.'
+
+version: v1                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2026-09-15                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: f02b452055bcebcd07ea4a10e31f76654a53a1921325a5df9a8d978de4928d86 # (script)
+pages: 4                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur, expert-js]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation]                     # vocabulaire dans docs/taxonomie.md
+concepts: [cours-de-base, caf, unite-d-apprentissage, modele-de-formation, niveau-d-approfondissement] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Formulaire PDF (AcroForm) : la colonne « Niveau » (vivre / mémoriser-comprendre / appliquer-analyser / évaluer-créer) est rendue par des icônes, perdues à la conversion (colonne « Niveau » vide dans raw.md, ainsi que CàF et n° d''UA) et reconstituée par `just recover` dans recovered/ (fusionnée dans 01-contenu par split) ; les tableaux gardent contenu et objectif (MSdS x.y, J+S x.y). Le premier tableau de p.2 (Fondements) est mal rendu : en-tête dupliqué dans une cellule fusionnée, colonnes Col2-Col5 parasites, première ligne (MSdS 1.1) répétée ; lignes vides `||||||` nombreuses. Adaptée au modèle de formation 2027 ; p.1 = objectifs et mode d''emploi, p.2-4 = contenus par domaine.'

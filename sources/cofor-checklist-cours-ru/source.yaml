@@ -1,0 +1,37 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cofor-checklist-cours-ru            # <issuer>-<slug>, stable, voir METHODE.md
+title: Check-list cours de responsable d'unité – responsable de camp et activités SC/T
+issuer: cofor                           # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 314301fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/1086/check-list-cours-de-responsable-dunite-responsable-de-camp-et-activites-sct # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/20/314301fr-checklist_cours_ru-v1-20260826-cofor.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: v1                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+applies_from: 2027-01-01
+applies_until: null
+nature: prescription
+published: 2026-08-26                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 2d1b844bcdd0b24fd6957fc67edeeae88c9d87e144443748b999b45975df32ff # (script)
+pages: 4                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [formateur, expert-js]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation]                     # vocabulaire dans docs/taxonomie.md
+concepts: [cours-ru, caf, unite-d-apprentissage, modele-de-formation, niveau-d-approfondissement]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Formulaire PDF (AcroForm) : la colonne « Niveau » (vivre / mémoriser-comprendre / appliquer-analyser / évaluer-créer) est rendue par des cases cochées, perdues à la conversion (colonne « Niveau » toujours vide dans raw.md, ainsi que CàF et n° d''UA) ; les tableaux gardent contenu et objectif (MSdS x.y, J+S x.y, J+S (A) x.y), lignes vides `||||||` nombreuses. Même structure que cofor-checklist-cours-base (modèle de formation 2027) ; p.1 = mode d''emploi, p.2-4 = contenus par domaine. applies_from 2027-01-01 : déduit, la check-list dérive du modèle de formation 2027 (msds-modele-de-formation, valable dès le 01.01.2027) ; le document ne porte pas de date d''application propre.'

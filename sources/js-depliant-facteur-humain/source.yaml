@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-depliant-facteur-humain          # <issuer>-<slug>, stable, voir METHODE.md
+title: Facteur humain – activités de plein air en sécurité (dépliant J+S)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/453/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/10/jes_faktor_mensch_leporello_f_web.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial
+fidelity_notes: 'Schémas à plat : carré de la communication p.4 (quatre côtés mêlés au dialogue d''exemple), modèle GLOBE p.10, figures de l''équipe performante p.16-19 (facteurs Sécurité, Environnement, Interaction, Groupe en blocs séparés), icônes Notes/Exercices/Conseils perdues (rubriques non distinguées).'
+
+version: '2019'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 7869afa452ddb266ff052de27c1496dc26a3795a292a494e17032934ce35fefb # (script)
+pages: 20                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [securite]                      # vocabulaire dans docs/taxonomie.md
+concepts: [securite, communication, methode-3x3, psyche, motivation, js]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Dépliant leporello : pages = volets, texte en blocs sans ordre de lecture sûr ; les rubriques Notes, Exercices et Conseils (distinguées par icônes) se suivent sans repère. Signets du PDF repris (huit thèmes) : un thème = une paire de volets ; couverture p.1 et volet blanc p.3 exclus, impressum fondu dans p.20. Pas de pagination imprimée (page_offset 0). Illustrations de Christoph Frei perdues.'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

@@ -1,0 +1,34 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: autre-aide-memoire-toile-de-tente   # <issuer>-<slug>, stable, voir METHODE.md
+title: Aide-mémoire pour l'utilisation des toiles de tente 64 et J+S
+issuer: autre                           # msds | cofor | js | cudesch | autre
+issuer_detail: Armée suisse, Base logistique de l'armée (BLA SYMAT) # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2016-09-01                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: d57531de9148a7c43e951dd0a72de5a8523e6418976b42389c7cc5f4d214e597 # (script)
+pages: 2                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp]                          # vocabulaire dans docs/taxonomie.md
+concepts: [camp, securite, activite-de-camp] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Émis par l''armée (BLA SYMAT), 2016 ; pertinent pour les constructions de tentes J+S. Texte complet ; les pieds de page imprimés (1/3, 2/2) ne correspondent pas aux 2 pages du PDF.' # remarques humaines : qualité, pièges, chapitres à ignorer

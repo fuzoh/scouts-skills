@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-aide-memoire-prevention-accidents-co # <issuer>-<slug>, stable, voir METHODE.md
+title: Prévention des accidents en course d'orientation (aide-mémoire J+S)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/872/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/5e/mb_f_orientierungslauf.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Une seule page à deux colonnes : les puces sont entrelacées et des phrases sont coupées entre les colonnes (ex. « marquent les endroits dangereux sur la carte et éventuelle… ment dans le terrain », « protégés contre les… tiques »). Texte présent mais l''ordre et le rattachement des puces aux rubriques (Sécurité générale, Mesures de prévention, Sécurité personnelle, Sport des enfants, CO en ville) sont à vérifier sur le PDF p.1.'                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2023'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: bb650f44f114b4c53cce470483b4521b63dae5d2f52e510a5873e35852ca1535 # (script)
+pages: 1                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [securite, sport]               # vocabulaire dans docs/taxonomie.md
+concepts: [securite, orientation, sport-des-enfants, echauffement, js]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Aide-mémoire J+S Prévention des accidents en course d''orientation (OFSPO/SJA 30.461.110 f, édition 12/2022 ; version posée 2023), en français. Colonnes mêlées, voir fidelity_notes. Pas de nature posée (rubrique non évaluée).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

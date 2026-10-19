@@ -1,0 +1,43 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: autre-canevas-sc-vierge             # <issuer>-<slug>, stable, voir METHODE.md
+title: Canevas vierge de sport de camp (SC), modèle de groupe dérivé du modèle J+S
+issuer: autre                           # msds | cofor | js | cudesch | autre
+issuer_detail: groupes scouts romands (camp d'été commun), dérivé du modèle SC J+S/cudesch de 2015 # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: docx                              # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: null                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 0083a27070b0fcde7c78e1e42fd8e8e6b239206834d3dc157b94768adb14638d # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: exemple                         # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable]                 # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp]                          # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, securite, camp, planification, fiche-d-activite]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Formulaire vierge de sport de camp (modèle de groupe, mention « Camp d’été 2020 » à remplacer) : trois domaines à cocher (activités itinérantes, sports, jeux). Pas de pied de page dans raw.md : le lien vers le modèle J+S/cudesch n’y figure pas (il est présent seulement dans le canevas AC jumeau, autre-canevas-ac-vierge). Conversion docx : les cases ☐ sont conservées en texte ; logos, en-têtes de page, couleurs et mise en page en tableaux (cellules fusionnées, lignes vides) sont perdus ; tous les champs sont vides, le texte utile est la liste des rubriques.'
+redactions:  # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}
+- section: 01-contenu
+  pattern: 'Camp d.été 2020 - [^*|\n]+'
+  replace: 'Camp d’été 20XX - [groupes]'

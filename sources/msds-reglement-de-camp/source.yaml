@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-reglement-de-camp              # <issuer>-<slug>, stable, voir METHODE.md
+title: Règlement concernant la préparation et la réalisation de camps
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 208505fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/7/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/ee/208505fr-reglement_concernant_la_preparation_et_la_realisation_de_camps-20201107-coenc_neues_cd.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2020'                         # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2020-11-08                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: b4bd470ad5a12b063edaf91715cd4c9259c60033102e3985eeaee8b80c4549b6 # (script)
+pages: 5                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: 2021-01-01                # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: prescription                    # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, coach-js, cadre-cantonal] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, securite, administration] # vocabulaire dans docs/taxonomie.md
+concepts: [autorisation-de-camp, camp, securite, branches, coach-js, sport-de-camp, midata]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Texte complet et propre (5 p., sans tableau). Défauts : points médians inclusifs rendus par « <sup>.</sup> » dans tout le texte, césures (« pres-criptions »), notes de bas de page 1 et 2 insérées au milieu des phrases (p.1-2), coquille « responsablde ». Pas de numérotation de chapitres : § omis. Entrée en vigueur lue p.5 : 1.1.2021 (adopté par l''AD le 8.11.2020, remplace 2085.04 du 11.11.2018) ; applies_from corrigé de 2020-11-08 à 2021-01-01. Renvoie au Guide des démarches administratives pour les délais.'
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

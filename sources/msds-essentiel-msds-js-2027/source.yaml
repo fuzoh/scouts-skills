@@ -1,0 +1,38 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-essentiel-msds-js-2027         # <issuer>-<slug>, stable, voir METHODE.md
+title: L'essentiel du MSdS et de J+S pour les moniteur·rice·s (octobre 2026)
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/1095/informations-du-msds-et-de-js-2027-pdf # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/24/2027_neuigkeiten_von_pbs_und_js_fr.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2026-10-01                   # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 14e8c56f585341e01f67f6073b093ca2fab83acb0d0c3ee2e8096aa55dbdafc9 # (script)
+pages: 18                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [responsable, coach-js, formateur] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation, camp]               # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, trekking, formes-caracteristiques, activite-de-camp, camp, securite, profil-du-scoutisme, durabilite]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Newsletter de formation, octobre 2026 : conception J+S SdC/T 2027 et nouveautés ; contenu daté, à revoir à chaque numéro. Diapositives exportées en PDF : signets « Folie N » (allemand) remplacés par un arbre thématique, couverture (p.1) hors index. raw.md perd la première ligne de plusieurs zones de texte : titres p.4, p.8, p.11, phrase d''ouverture p.4 et p.8, et sur p.6 « Chaque journée de camp comprend au moins quatre heures d''activités J+S » (ne reste que la fin) ; vérifier ces diapos dans le PDF. p.15 = titre et lien vidéo seuls. p.4 : [identifiants retirés] (accès à l''espace moniteur·rice·s J+S en clair dans l''original et raw.md, caviardés dans la section par `redactions`).' # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions:  # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}
+- section: 01-conception-formation-sdct
+  pattern: 'Nom d.utilisateur\s*:\s*\S+\s*\n\s*Mot\sde\spasse\s*:\s*\S+'
+  replace: '[identifiants retirés]'

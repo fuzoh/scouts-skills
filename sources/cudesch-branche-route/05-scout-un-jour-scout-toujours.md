@@ -1,0 +1,25 @@
+---
+source: cudesch-branche-route
+version: '2026-10-17'
+title: Scout un jour, scout toujours ?
+url: https://cudesch.scout.ch/fr/books/la-branche-route-servir/page/scout-un-jour-scout-toujours
+sha256: 470bb504919eab426fd6fb1fa8d022ce7af9433db82272e44bec7970becadbe8
+---
+
+<!-- #bkmrk-page-title -->
+# Scout un jour, scout toujours ?
+
+Scout un jour, scout toujours : une expression très vraie. Le scoutisme nous accompagne toute notre vie. Après avoir été responsables de nombreuses années, beaucoup s’identifient et s’engagent dans le mouvement scout par la suite comme membres de la branche Route. Le parcours scout permet souvent de nouer des amitiés durables et qui peuvent continuer à être activement entretenues. Cette brochure commence par une histoire. Celle-ci nous offre un cadre pour les chapitres suivants et favorise notre compréhension des possibilités diverses dans lesquelles on peut s’engager dans le scoutisme et vivre l’idéal scout. Les quatre personnages de l’histoire et les symboles attribués à chacun des trois rôles du routier ou de la guide nous accompagnent jusqu’au terme de cette brochure et doivent aider les lecteurs et lectrices à s’y retrouver.
+
+<!-- #bkmrk-am-lagerfeuer -->
+## **Au feu de camp**
+
+La région scoute «des trois Lacs» organise ce week-end sa traditionnelle Veillée Route. Comme chaque année, un nombre important de routiers/guides plus ou moins actifs y prennent part. [La Veillée Route](https://cudesch.scout.ch/fr/link/179#bkmrk-die-roverwache) bat son plein alors que Wombat, Hirondelle, Saïmiri et Casoar se réunissent autour du feu de camp et se racontent leurs expériences en tant que membres de la branche Route...
+
+|  | **Husky, 17j.:** «Je viens de passer des picos aux routiers. C’est ma première Veillée Route. Honnêtement, je ne me sens pas du tout encore routier. Cependant, je viens juste de m’engager comme responsable dans une troupe d’éclaireurs. Une fois par an, nous faisons une réunion de groupe avec tous les responsables et je veux absolument participer l’année prochaine à la Fête Folk Scout (FFS) et au Roverway. S’ils me le demandent, je suis prêt à filer un coup de main en tant qu’aide à mes amis de la branche Louveteaux pour leur camp d’automne, car nous n’avons pas de camp éclais à ce moment-là.» |
+
+| **Roxy, 23j.:** «Mais bien sûr que tu es un vrai routier, Wombat. Je suis à la branche Route depuis plusieurs années et je reviens tous les ans avec plaisir à notre traditionnelle Veillée Route. J’ai intégré le clan‹Chêne› peu après être passée de la branche Picos à celle des routiers/guides. En tant que membres de la branche Route au sein d’un clan, nous nous tenons toujours disponibles pour notre groupe au cas où il a besoin d’aide pour un événement. Et surtout, nous nous réunissons environ une fois par mois à l’occasion d’une activité route passionnante. Nous allons ensemble au cinéma, nous faisons du kart ou de l’escalade. Cet été, nous sommes allés en Suède avec tout notre clan pour une semaine de canoë et l’année dernière, notre clan a participé au Glaive routier. C’était inoubliable! De plus, notre clan aide tous les ans à servir la soupe à Noël et par ce biais il contribue de manière importante au bien-être de la société.» |  |
+
+|  | **Flip, 35j.:** «C’est cool. J’avais raccroché mon tablier de responsable active il y a quelques années déjà. Ma seule relation au scoutisme consistait, pendant plusieurs années, à aider de temps en temps à organiser le camp d’été ou à transporter le matériel. Un soir au restaurant, pendant un repas entre routiers/guides, le responsable de groupe m’a demandé si je ne serais pas intéressée par le cours Gilwell. Ce cours m’a donné envie de m’engager sur le thème des ‹réfugiés › au niveau de mon canton. Je réfléchis désormais à suivre le cours Spectre et je m’engagerai certainement à l’avenir aussi dans d’autres groupes de projets au niveau cantonal et national.» |
+
+| **Polo, 65j.:** «Vous m’avez tout l’air de bons routiers et guides. Et, bien que vos vies au sein de la Branche Route vous paraissent aujourd’hui très différentes, elles sont toutes de beaux exemples. Les membres de la branche Route ont différents rôles qu’ils peuvent endosser durant leur parcours. Ce n’était pas différent de mon temps : À 17 ans, je suis devenu responsable de la branche Louveteaux, qui à l’époque était encore considérée comme la première branche, et j’ai surtout rempli le rôle de responsable. À cette époque, j’ai suivi plusieurs cours en tant que participant. Plus tard, j’ai fondé le clan ‹Narval› avec quelques autres membres de la branche Route et nous continuons à nous voir tous les mardis soir pour jouer au jass. Même si cela n’a plus grand-chose à voir avec le scoutisme, c’est quand même une façon d’être participant. L’année dernière, notre groupe a fêté ses 100 ans. Le clan ‹Narval› était bien sûr présent pour tenir le stand barbecue pendant la fête. Ainsi, nous avons été une ressource bien utile pour notre groupe. De plus, je suis membre depuis peu des Silver Scouts pour élargir mon réseau scout et échanger avec des scouts venant de toute la Suisse.» |  |

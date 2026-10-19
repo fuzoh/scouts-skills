@@ -1,0 +1,120 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cudesch-scoutisme-identite          # <issuer>-<slug>, stable, voir METHODE.md
+title: Le Scoutisme – notre identité
+issuer: cudesch                         # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite
+  title: Le Scoutisme – notre identité
+  slug: fr-books-le-scoutisme-notre-identite
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/chapter/le-mouvement-scout
+  title: 'Chapitre : Le Mouvement scout'
+  slug: fr-books-le-scoutisme-notre-identite-chapter-le-mouvement
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/le-mouvement-scout
+  title: Le Mouvement scout
+  slug: fr-books-le-scoutisme-notre-identite-page-le-mouvement-scout
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/les-buts-du-mouvement-scout
+  title: Les buts du Mouvement scout
+  slug: fr-books-le-scoutisme-notre-identite-page-les-buts-du
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/la-loi-et-la-promesse
+  title: La Loi et la Promesse
+  slug: fr-books-le-scoutisme-notre-identite-page-la-loi-et-la
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/organisation
+  title: Organisation
+  slug: fr-books-le-scoutisme-notre-identite-page-organisation
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/les-camps-internationaux
+  title: Les camps internationaux
+  slug: fr-books-le-scoutisme-notre-identite-page-les-camps
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/partenariats
+  title: Partenariats
+  slug: fr-books-le-scoutisme-notre-identite-page-partenariats
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/centres-scouts
+  title: Centres scouts
+  slug: fr-books-le-scoutisme-notre-identite-page-centres-scouts
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/chapter/les-fondements-du-scoutisme
+  title: 'Chapitre : Les fondements du scoutisme'
+  slug: fr-books-le-scoutisme-notre-identite-chapter-les-fondements
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/les-fondements-du-scoutisme
+  title: Les fondements du scoutisme
+  slug: fr-books-le-scoutisme-notre-identite-page-les-fondements-du
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/les-relations
+  title: Les relations
+  slug: fr-books-le-scoutisme-notre-identite-page-les-relations
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/les-methodes
+  title: Les méthodes
+  slug: fr-books-le-scoutisme-notre-identite-page-les-methodes
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/les-activites
+  title: Les activités
+  slug: fr-books-le-scoutisme-notre-identite-page-les-activites
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/chapter/la-mise-en-oeuvre-le-modele-des-branches
+  title: 'Chapitre : La mise en œuvre : le modèle des branches'
+  slug: fr-books-le-scoutisme-notre-identite-chapter-la-mise-en
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/la-mise-en-oeuvre-le-modele-des-branches
+  title: 'La mise en œuvre : le modèle des branches'
+  slug: fr-books-le-scoutisme-notre-identite-page-la-mise-en-oeuvre
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/toujours-joyeux-la-branche-castors
+  title: Toujours joyeux – la branche Castors
+  slug: fr-books-le-scoutisme-notre-identite-page-toujours-joyeux
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/de-notre-mieux-la-branche-louveteaux
+  title: De notre mieux – la branche Louveteaux
+  slug: fr-books-le-scoutisme-notre-identite-page-de-notre-mieux-la
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/toujours-prets-la-branche-eclais
+  title: Toujours prêts – la branche Eclais
+  slug: fr-books-le-scoutisme-notre-identite-page-toujours-prets-la
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/sengager-la-branche-picos
+  title: S’engager – la branche Picos
+  slug: fr-books-le-scoutisme-notre-identite-page-sengager-la
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/servir-la-branche-route
+  title: Servir – la branche Route
+  slug: fr-books-le-scoutisme-notre-identite-page-servir-la-branche
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/ouverture-interculturelle
+  title: Ouverture interculturelle
+  slug: fr-books-le-scoutisme-notre-identite-page-ouverture
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/scout-malgre-tout-smt
+  title: Scout malgré tout (SMT)
+  slug: fr-books-le-scoutisme-notre-identite-page-scout-malgre-tout
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/formation
+  title: Formation
+  slug: fr-books-le-scoutisme-notre-identite-page-formation
+- url: https://cudesch.scout.ch/fr/books/le-scoutisme-notre-identite/page/encadrement
+  title: Encadrement
+  slug: fr-books-le-scoutisme-notre-identite-page-encadrement
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: d89155514412b322bb48b7343dac02a108482cfc3add33a62070479ece1ce4cf # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme, organisation]       # vocabulaire dans docs/taxonomie.md
+concepts: [profil-du-scoutisme, branches, relations, methodes-scoutes, smt, cudesch, organisation-du-msds, inclusion]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history:  # versions précédentes : {version, published, sha256, retired}
+- version: '2018'
+  published: null
+  sha256: 25be8d1e74ccce8398f701d976546991df4e76849db21139d4ddcba0b60bd39c
+  retired: 2026-10-17
+  note: édition PDF pfadi.swiss 01_pfadi_fr_web.pdf (28 p., MSdS.3033.04.fr), https://pfadi.swiss/media/files/fc/01_pfadi_fr_web.pdf, remplacée par le livre du cudesch numérique
+
+notes: 'Livre BookStack du cudesch numérique (cudesch.scout.ch, MSdS), 1 page d''accueil + 3 chapitres + 21 pages ; manifeste dans l''ordre de lecture du livre. Les pages de chapitre ne portent que la liste de leurs pages avec extraits (lien et premières lignes), à ignorer ; la page d''accueil ajoute la liste des chapitres et pages. Ancres bkmrk-… conservées sur les titres (citation `id <url>#bkmrk-…`). Pertes trafilatura : images seulement ; les tableaux des pages Les relations et Les méthodes sont aplatis en lignes de texte mais complets. Pages sans titre ## (Le Mouvement scout, Organisation, Partenariats…) : texte continu. Numéros § posés par l''agent (le site n''en a pas). Contenu daté de 2018 (ex. 25 groupes SMT, état 2018).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

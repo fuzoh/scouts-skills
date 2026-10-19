@@ -1,0 +1,43 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: autre-communagir-outils-animation   # <issuer>-<slug>, stable, voir METHODE.md
+title: 'Communagir : outils d''animation'
+issuer: autre                           # msds | cofor | js | cudesch | autre
+issuer_detail: Communagir (Québec)      # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://communagir.org/outils-animation/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://communagir.org/outils-animation/
+  title: 'Communagir : outils d''animation'
+  slug: outils-animation
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: catalogue                   # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: null                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: null                    # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-17'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: 4f27449632ee7856b4c2938c01ab71cff22a740e7b9f35e9227dfa34e5244d9c # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [formateur, responsable]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation]                     # vocabulaire dans docs/taxonomie.md
+concepts: [methodes-d-enseignement, animation] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Catalogue de 78 fiches d''outils d''animation lues dans le sitemap (outils-animation-sitemap1.xml) ; titre = h1, ligne = meta description (5 écrites à la main : Gantt collectif, cartographie des parties prenantes, rêve ou catastrophe, quoi et alors, notre mise collective). Contexte québécois, plusieurs outils sont des adaptations de Liberating Structures. sha256 du registre réaligné le 2026-10-17 sur le fichier commité (b07e8c0c… → 4f274496…) : l''original téléchargé avait des fins de ligne CRLF, normalisées en LF par git (core.autocrlf=input) au commit a28ee4c, le fichier aux octets d''origine n''existe plus ; `.gitattributes` protège désormais `sources/*/original/**`.' # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: null                        # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

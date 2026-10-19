@@ -1,0 +1,37 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-poster-regles-de-comportement    # <issuer>-<slug>, stable, voir METHODE.md
+title: Règles de comportement dans la formation de base et continue (poster)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de (de seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text    # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+applies_from: null
+applies_until: null
+nature: prescription
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-17                   # (script) date de téléchargement
+sha256: f8bcb5a97c571a4932f86a1a23dcfeba7e068bd08f0e62d14f1deb1aeb1b03ea # (script)
+pages: 1                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+
+audience: [expert-js, formateur]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [prevention]                    # vocabulaire dans docs/taxonomie.md
+concepts: [regles-de-comportement, ethique, charte-de-cours, expert-js]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Poster graphique (OFSPO, Macolin) : le texte des huit règles est complet dans raw.md, mais dans l''ordre de lecture de la mise en page (pas celui du poster) ; casse fautive par endroits (« TOUs », « MATIèRE »). Pictogrammes et disposition en grille perdus. Même contenu que la charte (js-modele-charte-cours). Aucune date dans le document : applies_from inconnu.'

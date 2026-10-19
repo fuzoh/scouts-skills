@@ -1,0 +1,41 @@
+---
+source: js-manuel-cle
+version: 2016, 3e édition sans modification du contenu
+pages: 44
+page_offset: 2
+toc_source: agent
+title: Manuel clé Jeunesse+Sport
+issuer: js
+fidelity: complete
+extraction: text
+---
+
+- Avant-propos ; Bref rappel historique p.3 → 01-avant-propos.md : avant-propos du recteur de la HEFSM sur le but du manuel pour les moniteurs, puis bref historique des éditions (1998, 2000, révision 2008)
+- Introduction : des concepts clés au manuel clé Jeunesse+Sport p.4-5 → 02-introduction.md : origine dans les « concepts clés pour l'enseignement et l'entraînement », objectif et structure tripartite du manuel (pédagogique, motricité sportive, méthodologique), modèle clé en couches, questions pour quoi, quoi, comment
+- La philosophie de la formation Jeunesse+Sport p.6-9 → 03-philosophie-de-la-formation.md : renvoi aux sous-sections : conception de l'être humain, compétence d'action, compréhension des rôles, personnalité du moniteur
+  - Conception de l’être humain p.6 → 04-conception-de-l-etre-humain.md : conception J+S de l'être humain : apprenants et enseignants au centre, valeurs humanistes (respect, acceptation, fair-play), viser le développement personnel au-delà des connaissances
+  - La compétence d’action et ses composantes p.7 → 05-competence-d-action.md : compétence d'action et ses quatre composantes (personnelle, sociale, méthodologique, professionnelle), qui fondent ensemble la crédibilité de l'enseignant
+  - A propos de la compréhension des différents rôles entre partenaires de la formation p.8 → 06-comprehension-des-roles.md : rôles des partenaires de la formation J+S (moniteur, expert, coach, chef de discipline) distincts de la personne : une qualification ou une critique vaut pour le rôle exercé, pas pour la personne
+  - La personnalité du moniteur p.9 → 07-personnalite-du-moniteur.md : personnalité du moniteur comme modèle : incarner les valeurs J+S par son savoir-faire et son comportement pour former des sportifs autonomes, loyaux et responsables
+- Le modèle d’enseignement et ses trois concepts clés p.10 → 08-modele-d-enseignement.md : modèle d'enseignement J+S (graphique) : dialogue permanent entre apprenants et enseignants, articulé autour des trois concepts clés pédagogique, de motricité sportive et méthodologique
+- Le concept pédagogique p.11-17 → 09-concept-pedagogique.md : introduction au concept pédagogique : l'apprenant au centre, dialogue fondé sur respect, loyauté et acceptation pour un climat propice à l'apprentissage et au développement de la personnalité
+  - Le processus d’apprentissage p.12 → 10-processus-d-apprentissage.md : processus d'apprentissage : percevoir, traiter et réaliser les informations, feed-back externe et interne, représentation mentale du mouvement et métaphores
+  - Les apprenants dans Jeunesse+Sport p.13-15 → 11-apprenants.md : apprenants dans J+S : besoin de mouvement des enfants et adolescents, développement biologique, tableau des stades (âges scolaires, puberté, adolescence) et conséquences pour la pratique selon l'âge
+  - Le processus d’enseignement p.16 → 12-processus-d-enseignement.md : processus d'enseignement en cycle observer, évaluer, conseiller : critères de référence et formes de feed-back
+  - Les enseignants dans Jeunesse+Sport ; Apprendre et enseigner par le dialogue p.17 → 13-enseignants-et-dialogue.md : rôle des enseignants J+S (experts comme chefs de cours et de classe) et dialogue apprenants-enseignants comme condition d'un enseignement réussi
+- Le concept de motricité sportive p.18-31 → 14-concept-de-motricite-sportive.md : introduction au concept de motricité sportive : modèle de performance à quatre composantes (énergie et régulation, physis et psyché) et timing optimal ; l'entraînement développe chacune selon la discipline
+  - Energie physique : le potentiel de condition physique p.20 → 15-energie-physique.md : potentiel de condition physique : définitions de la force, de l'endurance, de la vitesse, de la souplesse et de leurs formes combinées (endurance-force, force-vitesse…)
+  - Régulation physique : la capacité de coordination p.21 → 16-regulation-physique.md : capacité de coordination et ses cinq qualités : orientation, différenciation, équilibre, rythme, réaction
+  - Energie psychique : le potentiel émotionnel p.22-23 → 17-energie-psychique.md : potentiel émotionnel : motivation, confiance en soi, attribution des causes de la réussite ; leviers pour le moniteur (objectifs réalistes, feed-back positif, droit à l'erreur, règles, cohésion)
+  - Régulation psychique : la capacité tactico-mentale p.24-26 → 18-regulation-psychique.md : capacité tactico-mentale : concentration, processus cognitifs de base (percevoir, traiter), subsidiaires (canaliser la psyché, volonté, anticipation, communication) et complexes (tactique, stratégie)
+  - Autres paramètres ayant une influence sur la performance sportive p.27 → 19-autres-parametres.md : paramètres externes de la performance : personnels (talent, santé, entourage), situatifs (météo, infrastructures, adversaires) et normatifs (règles, matériel), à intégrer dans la planification
+  - Conception de l’enseignement et de l’entraînement : aspects relatifs au contenu p.28-31 → 20-aspects-relatifs-au-contenu.md : aspects de contenu de l'entraînement : principes généraux (charge, récupération, surcompensation, cyclisation), entraînement adapté à l'âge de la condition physique, de la coordination et de la psyché (visualisation, monologue intérieur, respiration)
+- Le concept méthodologique p.32-40 → 21-concept-methodologique.md : introduction au concept méthodologique : comment conduire le dialogue enseignants-apprenants vers le meilleur résultat, modèle méthodologique (graphique)
+  - La biographie d’apprentissage individuelle p.33-34 → 22-biographie-d-apprentissage.md : biographie d'apprentissage individuelle : progression entre sécurité et créativité selon les dimensions quantitative (complexité des mouvements) et qualitative (qualité d'exécution)
+  - Les trois groupes d’apprenants p.35 → 23-trois-groupes-d-apprenants.md : trois groupes d'apprenants (débutants, avancés, chevronnés) et conséquences méthodologiques pour l'entraînement et le feed-back
+  - Les trois degrés d’apprentissage p.36 → 24-trois-degres-d-apprentissage.md : trois degrés d'apprentissage (acquérir et stabiliser, appliquer et varier, créer et compléter) : perception corporelle, représentation du mouvement, qualité de coordination
+  - Les trois degrés d’enseignement p.37 → 25-trois-degres-d-enseignement.md : trois degrés d'enseignement : développer les bases par des conditions facilitées, varier les paramètres du mouvement et du cadre, favoriser la créativité par des défis
+  - Accents méthodologiques dans les divers types de leçons p.38 → 26-accents-methodologiques.md : accents méthodologiques par type de leçon (acquisition, application, création) : formes d'enseignement, rapport quantité-qualité, organisation
+  - Conception de l’enseignement et de l’entraînement : aspects méthodologiques p.39-40 → 27-aspects-methodologiques.md : planifier une leçon (pour quoi, quoi, comment), apprentissage ouvert ou structuré, méthodes globale, fractionnée et combinée, formes d'organisation (individuel, groupes, stations, rotation, atelier)
+- Regard sur l’avenir : du manuel clé Jeunesse+Sport aux manuels spécifiques p.41 → 28-regard-sur-l-avenir.md : regard sur l'avenir : du manuel clé, base commune à toutes les disciplines, aux manuels spécifiques adaptés au profil d'exigences de chaque sport ; remerciements
+- Bibliographie thématique p.43 → 29-bibliographie.md : bibliographie thématique en français, allemand et anglais : entraînement, conception J+S, psychologie du sport, motivation, didactique

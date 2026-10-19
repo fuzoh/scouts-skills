@@ -1,0 +1,57 @@
+name: Problème d'installation
+description: Impossible d'installer le skill, ou il n'apparaît pas après l'installation.
+title: "[Installation] "
+labels: ["installation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Désolé pour le souci. Dites-nous ce que vous avez essayé et ce qui s'est passé.
+
+        **Ne collez jamais de données personnelles** : si votre message d'erreur contient un nom, un chemin avec votre nom ou une adresse e-mail, remplacez-les par « X ».
+  - type: dropdown
+    id: plateforme
+    attributes:
+      label: Plateforme
+      options:
+        - claude.ai
+        - Claude Code
+        - ChatGPT
+        - Gemini
+        - Codex
+        - Autre
+    validations:
+      required: true
+  - type: dropdown
+    id: methode
+    attributes:
+      label: Méthode d'installation
+      options:
+        - npx skills
+        - Fichier zip
+        - Copie des dossiers
+        - Autre
+    validations:
+      required: true
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill concerné
+      options:
+        - scouts
+        - scouts-ressources
+        - Les deux
+    validations:
+      required: true
+  - type: textarea
+    id: erreur
+    attributes:
+      label: Message d'erreur
+      description: Copiez le message exact, ou décrivez ce que vous voyez (une capture d'écran peut être glissée ici).
+    validations:
+      required: true
+  - type: textarea
+    id: essai
+    attributes:
+      label: Ce que vous avez essayé
+      description: Les étapes suivies, dans l'ordre.
