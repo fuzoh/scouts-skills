@@ -1,6 +1,6 @@
 # Briefing : premiers référentiels (brouillons)
 
-Rédigé le 2026-10-18 pour les sous-agents qui écrivent `referentiels/<slug>.md`. Contexte : DECISIONS « Organisation des skills » (2026-10-17) et « Terrain : réponses du mainteneur » ; METHODE § Skills. Les référentiels sont des **brouillons** tant que le tour 4 du grill et `docs/skills-design.md` ne sont pas faits ; ils seront validés par `check` plus tard.
+Rédigé le 2026-10-18 pour les sous-agents qui écrivent `referentiels/<slug>.md`. Contexte : `DECISIONS.md` (sections Skills et Arbitrages de contenu) ; METHODE § Skills. Les référentiels sont des **brouillons** tant que le tour 4 du grill et `docs/skills-design.md` ne sont pas faits ; ils seront validés par `check` plus tard.
 
 ## Ce qu'est un référentiel
 
