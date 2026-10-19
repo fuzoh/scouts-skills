@@ -3,7 +3,7 @@ titre: "Formation continue et cours particuliers : approfondissements de branche
 theme: formation
 sert_a: "Approfondissements de branche (Castors à SMT), modules, module de sécurité, formation liée à une fonction, Spectre, conseils de parents, aumônier"
 derive_de: [msds-modele-de-formation (version 2027), "concepts: modele-de-formation, niveau-d-approfondissement, objectifs-d-apprentissage, cours-de-base, cours-ru, cours-panorama, caf, expert-js"]
-statut: brouillon
+statut: valide
 ---
 
 Descriptifs du modèle de formation 2027 (en vigueur dès le 01.01.2027). Buts fixes, tous traités; objectifs à prioriser selon la durée; la maîtrise peut en ajouter. Citer en clair : « cours de base, objectif 3.2 ». Objectifs : « les participants… » sous-entendu. Niveaux : V vivre, C mémoriser/comprendre, A appliquer/analyser, E évaluer/créer; contenu absent = pas de niveau fixé. Vue d'ensemble et rôles : `formation.md`.

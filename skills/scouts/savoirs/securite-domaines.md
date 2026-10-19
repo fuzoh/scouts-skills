@@ -2,7 +2,7 @@
 titre: Domaines de sécurité J+S, eau, corde, constructions et baignade
 theme: securite
 sert_a: "Seuils montagne, hiver, eau, modules SSS et J+S exigés, exigences communes, règles de corde, grandes constructions, baignade"
-derive_de: [cudesch-securite, js-aide-memoire-prevention-accidents-sct, js-sdct-montagne, js-sdct-hiver, js-sdct-eau, "concepts: montagne, eau, hiver, securite"]
+derive_de: [cudesch-securite, js-aide-memoire-prevention-accidents-sct, js-sdct-montagne, js-sdct-hiver, js-sdct-eau, js-aide-memoire-securite-eau, "concepts: montagne, eau, hiver, securite"]
 statut: valide
 ---
 
@@ -38,7 +38,8 @@ Ils relèvent du sport de camp / trekking. Les exigences valent pour les activit
 |---|---|
 | Lac | une personne avec le module SSS lac par tranche de 12 participants ; une personne par camp avec cours de base CPR ou BLS-AED (sauf baignade sous un maître-nageur) |
 | Rivière | une personne avec le module SSS rivière par tranche de 12 participants ; une personne par camp avec cours de base CPR ou BLS-AED |
-| Piscine | pas de module SSS cité ; la responsabilité reste à la maîtrise ; certaines piscines exigent un brevet de base pool SSS pour les groupes |
+| Piscine surveillée (maître-nageur) | baignade : module J+S Eau SdC/T ou brevet Base Pool SSS (aide-mémoire J+S Sécurité Eau 2024) ; la responsabilité reste à la maîtrise |
+| Piscine non surveillée | module J+S Eau SdC/T ou brevet Plus Pool SSS (aide-mémoire 2024) |
 
 Ces exigences valent en camp ou un samedi après-midi, avec ou sans J+S. Construire un barrage dans un ruisseau ne demande pas de formation ; doute : RG ou coach.
 

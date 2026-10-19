@@ -3,7 +3,7 @@ titre: "Tournois, fête des jeux, modules ludiques et sportifs, idées de jeux p
 theme: sport
 sert_a: "Formes de tournoi, nombre d'équipes, équité, fête des jeux, module ludique 5-10 ans, jeux par mouvement, milieu (forêt, eau, neige), jeux calmes"
 derive_de: [js-formes-de-tournois, js-kids-fete-des-jeux, js-kids-modules-ludiques-sportifs, js-sport-des-enfants-exemples, "concepts: tournoi, jeu, sport-des-enfants"]
-statut: brouillon
+statut: valide
 ---
 
 ## Tournoi ou fête des jeux : choisir d'abord

@@ -3,7 +3,7 @@ titre: Sécurité à l'eau sur le terrain, consignes, surveillance, jeux d'eau, 
 theme: securite
 sert_a: "Activité à l'eau avec enfants, surveillance, test CSA, noyade, jeux, urgence, module J+S Eau, module de sécurité, SSS, BLS-AED, équivalences, coûts"
 derive_de: [autre-water-safety-cartes, js-aide-memoire-securite-eau, cofor-guide-admin-formations-eau, js-sdct-eau, "concepts: eau, securite"]
-statut: brouillon
+statut: valide
 ---
 
 Seuils, modules exigés par activité, gilets et maximes de la SSS : (securite-domaines), qui prime. Arbitrage de référence : l'équipement suit l'aide-mémoire J+S 10/2025, un gilet à bord ne remplace pas le port prescrit. Ici : le savoir-faire.
@@ -104,7 +104,7 @@ Les seuils et exigences par activité sont dans (securite-domaines) ; ici le par
 | Module BLS-AED | réanimation et défibrillateur ; recommandé pour toute activité en eaux non surveillées ; non combinable directement avec un module J+S, mais rattachable ou à faire la veille |
 | Cours SSS seuls (Base Pool, Plus Pool, Lac, Rivière et rappels) | alternative aux modules J+S ; ne renouvelle pas la reconnaissance J+S |
 
-Piscine : l'aide-mémoire J+S « Sécurité Eau » (2024) nomme le module J+S Eau SdC/T ou le brevet Base Pool pour surveiller une baignade, et le module J+S Eau ou le brevet Plus Pool pour une piscine non surveillée. (securite-domaines) ne cite aucun module SSS pour la piscine : en cas de doute, demander au coach quelle formation il attend.
+Piscine : l'aide-mémoire J+S « Sécurité Eau » (2024) fait foi : module J+S Eau SdC/T ou brevet Base Pool pour surveiller une baignade en piscine surveillée, module J+S Eau ou brevet Plus Pool pour une piscine non surveillée (securite-domaines).
 
 La désignation du cours dit quels modules SSS sont inclus (ex. « module Eau (y compris brevet base pool, module Lac) »). L'obligation de formation continue de la SSS ne vaut pas pour J+S ni pour les associations de jeunesse, mais il est recommandé de se perfectionner : le moniteur adapte l'activité à ses compétences avec le 3x3 et tient ses connaissances à jour.
 

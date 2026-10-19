@@ -3,7 +3,7 @@ titre: "Concevoir le programme d'une unité : thème, fil rouge, évaluation, we
 theme: programme
 sert_a: "Thème, fil rouge, courbe de suspense, équilibre du programme, week-end, séance pour nouveaux, promesse, totémisation, moment calme, évaluation"
 derive_de: [cudesch-programme, cudesch-branche-eclais]
-statut: brouillon
+statut: valide
 ---
 
 La planification en trois niveaux (programme trimestriel, activité, séance) et les relations et méthodes sont dans (profil-et-pedagogie). Ce fichier complète : méthode de travail de la maîtrise, thème et fil rouge, contrôle de qualité, évaluation, formats particuliers (week-end, nouveaux, cérémonies). Source : cudesch Programme – l'essence du scoutisme.

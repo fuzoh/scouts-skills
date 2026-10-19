@@ -3,7 +3,7 @@ titre: Check-lists cofor des cours de base, RU et approfondissements de branche,
 theme: formation
 sert_a: "Check-lists cofor, cours de base, cours RU, approfondissements Castors, Louveteaux, Éclais, durées minimales J+S, buts personnels"
 derive_de: [cofor-checklist-cours-base, cofor-checklist-cours-ru, cofor-approfondissement-castors, cofor-approfondissement-louveteaux, cofor-approfondissement-eclais, cofor-liste-buts-cours-base, cofor-liste-buts-cours-ru, "concepts: cours-de-base, cours-ru, niveau-d-approfondissement"]
-statut: brouillon
+statut: valide
 ---
 
 ## Date et statut

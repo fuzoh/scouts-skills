@@ -3,7 +3,7 @@ titre: "Diversité et inclusion dans l'unité et en cours, obstacles, accueil, l
 theme: prevention
 sert_a: "Inclusion, discrimination, obstacles, accueil, finances, langage inclusif, genre, trans, inter, racisme, migration, asile, religion, check-list, guide 11 étapes"
 derive_de: [msds-ouvert-a-tous-diversite-inclusion, msds-inclusion-diversite-associations, msds-ouvert-a-tous-equipe-de-cours, "concepts: inclusion, diversite"]
-statut: brouillon
+statut: valide
 ---
 
 ## Notions de base

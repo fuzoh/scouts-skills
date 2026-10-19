@@ -3,7 +3,7 @@ titre: Camp à l'étranger, démarches, documents, assurances, J+S et check-list
 theme: camp
 sert_a: "Camp à l'étranger, documents de voyage, DFAE, MiData, matériel de prêt, assurances, Rega, annulation, transport, urgence, check-list par échéance"
 derive_de: [msds-camps-a-l-etranger, msds-checklist-camps-a-l-etranger, "concepts: camp, financement"]
-statut: brouillon
+statut: valide
 ---
 
 ## Ce qui change par rapport à un camp en Suisse

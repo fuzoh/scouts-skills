@@ -3,7 +3,7 @@ titre: Orientation, lecture de carte, météo en camp, course d'orientation et r
 theme: securite
 sert_a: "Carte nationale, boussole, GPS, altimètre, temps de marche, météo, orage, méthode NORDA, course d'orientation, randonnée avec enfants"
 derive_de: [js-aide-memoire-orientation, js-aide-memoire-meteorologie, js-aide-memoire-prevention-accidents-co, js-course-d-orientation-norda, js-kids-randonnee-avec-enfants, "concepts: orientation, trekking"]
-statut: brouillon
+statut: valide
 ---
 
 ## Lire la carte nationale

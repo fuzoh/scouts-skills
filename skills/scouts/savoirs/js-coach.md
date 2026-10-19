@@ -3,7 +3,7 @@ titre: "Travail du coach J+S : année type, offre et BDNS, données de base, pr�
 theme: js
 sert_a: "Coach J+S, offre, BDNS, données de base, contrôle des activités, présences, clôture, subventions, cartes, prestations spéciales, SAPC, check-lists"
 derive_de: [js-manuel-coach, js-checklist-coach, js-checklist-sapc-coach, js-checklist-sapc-responsable-camp, js-aide-memoire-donnees-de-base, js-guide-prestations-speciales, msds-essentiel-msds-js-2027, "concepts: coach-js, sapc"]
-statut: brouillon
+statut: valide
 ---
 
 Ce savoir décrit le travail administratif et de conseil. Ce que le coach décide ou signe en camp scout (annonce MSdS, autorisation avec le RG) : (js-roles) et (camp-administration). Règles de camp selon la date : (js-2026-2027). Le manuel des coachs (2023) et les check-lists s'adressent à tous les sports et à des clubs ; pour un groupe scout, lire « comité » comme maîtrise de groupe ou comité de groupe.

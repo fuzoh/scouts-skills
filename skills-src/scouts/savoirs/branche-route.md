@@ -3,7 +3,7 @@ titre: Branche Route, rôles, clan, projets et veillée
 theme: programme
 sert_a: "Route dès 17 ans, trois rôles, clan, clan de projet, projet, expédition, veillée Route, service, encadrement, formation, pièges"
 derive_de: [cudesch-branche-route, msds-profil-du-scoutisme, msds-profil-tableaux-relations, "concepts: profil-du-scoutisme, relations, methodes-scoutes"]
-statut: brouillon
+statut: valide
 ---
 
 ## Divergences à connaître

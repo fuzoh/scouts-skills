@@ -3,7 +3,7 @@ titre: "Faire vivre une maîtrise : relève, accueil, tâches, motivation, confl
 theme: groupe
 sert_a: "Recruter, relève, accueillir les nouveaux, déléguer, motiver, remercier, séance d'équipe, conflit, départs, évolution du groupe, valeurs"
 derive_de: [js-coach-preserver-l-equipe, js-coach-preparer-l-avenir, js-developpement-equipe-moniteurs, msds-alpha-aide-memoire-rg, "concepts: coach-js"]
-statut: brouillon
+statut: valide
 ---
 
 Les brochures « Préserver l'équipe » et « Préparer l'avenir » (J+S, 2013) sont écrites pour des sociétés sportives. Ce savoir en garde ce qui vaut pour une maîtrise scoute et le complète avec l'aide-mémoire du RG (MSdS). Rôles du RG et du coach : (groupe-encadrement).

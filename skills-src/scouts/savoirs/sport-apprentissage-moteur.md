@@ -3,7 +3,7 @@ titre: Apprentissage moteur, facteurs de développement, progression sportive et
 theme: sport
 sert_a: "Apprentissage moteur (acquérir, appliquer, créer), consignes, démonstration, variation, global ou analytique, âge, progression, bases techniques SdC/T"
 derive_de: [js-apprentissage-dans-le-sport, js-facteurs-de-developpement, js-planification-dans-le-sport, js-bases-technique-sportive-sdct, js-manuel-bases, js-manuel-cle, "concepts: apprentissage-moteur, facteurs-de-developpement, planification, methodes-d-enseignement"]
-statut: brouillon
+statut: valide
 ---
 
 ## Ce qui fait apprendre un mouvement

@@ -3,7 +3,7 @@ titre: Lieu de camp, recherche, reconnaissance, contrat de location et autorisat
 theme: camp
 sert_a: "Place de camp, maison, réservation, reconnaissance, contrat, bail, propriétaire, commune, forestier, canton, Tessin, Vaud, Lucerne, Saint-Gall, Thurgovie"
 derive_de: [js-sdct-camp, cudesch-camp-reco-sous-tentes, cudesch-camp-reco-sous-toit, cudesch-camp-bail-place-tentes, autre-autorisation-camp-vaud, msds-hering-camps, "concepts: camp"]
-statut: brouillon
+statut: valide
 ---
 
 ## Chercher un lieu

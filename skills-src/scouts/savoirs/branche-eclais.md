@@ -3,7 +3,7 @@ titre: "Branche Éclais, jeunes de 11 à 15 ans, patrouille et troupe, Steps, to
 theme: programme
 sert_a: "Éclais 11-15 ans, troupe, patrouille, RP, Steps, spécialités, promesse, totémisation, méthode du projet, nuits de patrouille, constructions, camp"
 derive_de: [cudesch-branche-eclais, msds-profil-tableaux-relations, msds-profil-du-scoutisme, "concepts: branches, relations, methodes-scoutes"]
-statut: brouillon
+statut: valide
 ---
 
 ## L'âge et ses besoins

@@ -3,7 +3,7 @@ titre: Modèles et exemples officiels de programme général, d'activités et de
 theme: camp
 sert_a: "Modèles de programme général J+S, exemples d'activités (CO photos, estafette, grande fête, tournoi, randonnée), fiche d'activité, modèle 2026 AC/SC en 2027"
 derive_de: [js-modele-prog-general-enfants-jeunes, js-modele-prog-general-sport-enfants, js-modele-prog-general-sport-jeunes, js-exemple-programme-camp-ete, js-exemple-course-orientation-photos, js-exemple-estafette-fromage, js-exemple-grande-fete, js-exemple-tournoi-de-jeux, js-exemple-randonnee-nuitee, cudesch-modele-bloc-ac, cudesch-modele-bloc-sc, cudesch-planification-activite, "concepts: sport-de-camp, activite-de-camp, fiche-d-activite, tournoi"]
-statut: brouillon
+statut: valide
 ---
 
 ## Statut des documents
@@ -66,7 +66,7 @@ Les trois modèles de 2014 et les blocs vides du cudesch appartiennent au jeu 20
 | Pas de numéro J+S exigé | Numéro clair pour chaque bloc J+S |
 | Activité itinérante : type de SC « être en route » | Au moins une activité itinérante dans l'offre J+S (forme caractéristique 2) |
 
-Les exemples de 09/2026 appliquent déjà le vocabulaire 2027 : ce sont eux qu'il faut copier pour la forme. Attention à la ligne « temps sportif » du programme d'été : elle indique 0 min pour les 7–12 ans les deux premiers jours (voyage, arrivée, montage), donc moins que les 2 h sportives par journée de camp que demandent les exigences 2027. Ne pas en déduire qu'un jour sans temps sportif est conforme ; viser 2 h sportives chaque journée de camp et, pour les jours d'arrivée et de départ, vérifier auprès du coach. Les modèles de 2014 servent surtout à voir comment un thème structure huit jours.
+Les exemples de 09/2026 appliquent déjà le vocabulaire 2027 : ce sont eux qu'il faut copier pour la forme. La ligne « temps sportif » du programme d'été indique 0 min pour les 7–12 ans les deux premiers jours (voyage, arrivée, montage). C'est admis pour le jour d'arrivée : les jours d'arrivée et de départ comptent ensemble pour une journée de camp, et c'est leur total qui doit respecter les exigences J+S (4 h d'activités J+S, dont 2 h sportives en 2027). Les autres journées de camp tiennent chacune ces exigences. Les modèles de 2014 servent surtout à voir comment un thème structure huit jours.
 
 ## Fiche d'activité des exemples 2027
 

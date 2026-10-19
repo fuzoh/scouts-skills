@@ -3,7 +3,7 @@ titre: "Volet psychique du sport : motivation, confiance, concentration, émotio
 theme: sport
 sert_a: "Motivation, confiance en soi, concentration, émotions, peur de l'échec, pression, esprit de groupe, monologue, respiration, visualisation"
 derive_de: [js-psyche, js-manuel-cle, js-manuel-bases, "concepts: psyche, motivation, retour, climat-d-apprentissage"]
-statut: brouillon
+statut: valide
 ---
 
 ## Principe

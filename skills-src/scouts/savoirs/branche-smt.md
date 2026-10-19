@@ -3,7 +3,7 @@ titre: Branche SMT (Scout·e·s Malgré Tout), modèles, programme, camp, soins 
 theme: programme
 sert_a: "SMT, modèles séparatif, intégratif, inclusif, créer un groupe, responsables, modèle 6+1, camps, médicaments, hygiène, sexualité, déficiences"
 derive_de: [cudesch-smt, msds-flyer-smt, msds-profil-du-scoutisme, msds-profil-tableaux-relations, "concepts: profil-du-scoutisme, relations, methodes-scoutes"]
-statut: brouillon
+statut: valide
 ---
 
 ## Ce que sont les SMT

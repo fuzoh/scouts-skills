@@ -3,7 +3,7 @@ titre: "Relations publiques d'un groupe scout : image, parents, commune, médias
 theme: groupe
 sert_a: "Image du groupe, parents, commune, site, e-mails, réseaux sociaux, presse locale, activité de découverte, recruter, accord photos, données personnelles"
 derive_de: [cudesch-relations-publiques, msds-alpha-aide-memoire-rg]
-statut: brouillon
+statut: valide
 ---
 
 Source : la brochure « Relations publiques dans le scoutisme » du cudesch (2022), pour les responsables de groupe et de camp et les responsables de la communication. Elle donne des conseils, non des prescriptions, sauf pour le droit à l'image, les droits d'auteur et la protection des données, qui relèvent de la loi. Pour une crise, voir (urgence-et-protection).
@@ -109,7 +109,7 @@ En crise : ne donner aucune information et renvoyer la presse à la cellule de c
 - Mettre dans la déclaration d'adhésion une case de consentement à la publication de photos sur le site, les réseaux sociaux, la revue et la presse locale, révocable à tout moment sans motif.
 - Cette autorisation générale ne suffit pas pour une personne seule (flyer, journal, site) : demander un accord particulier.
 - Photo de groupe : si des personnes sont identifiables, chacune doit avoir consenti, et l'autorisation générale ne suffit pas. Si personne n'est clairement identifiable (dos, très petit en arrière-plan), l'autorisation générale suffit.
-- Moins de 16 ans : accord des représentants légaux. Dès 16 ans il n'est « normalement plus nécessaire » selon la brochure, qui recommande de le demander quand même ; ce seuil de 16 ans n'est pas confirmé par une autre source `[non vérifié]` : par prudence, demander l'accord des représentants légaux aussi dès 16 ans.
+- Moins de 16 ans : accord des représentants légaux. Dès 16 ans il n'est « normalement plus nécessaire » ; la brochure recommande de le demander quand même.
 - Retrait de l'accord : supprimer la publication déjà parue, si possible.
 - Photos pour la presse : accord des personnes, pas de portraits ni de mise en avant d'un individu, reconnaître des scouts à leur foulard ou chemise.
 
@@ -120,7 +120,7 @@ Qui prend une photo, crée un logo ou écrit un texte en est l'auteur : sans son
 ## Protection des données
 
 - Récolter le moins de données personnelles possible, en publier encore moins. Nom (totem compris), adresse, téléphone, e-mail et date de naissance servent à l'administration du groupe seulement. Une autre utilisation (publicité, newsletter, transmission à un tiers) suppose d'informer la personne et de lui laisser le droit de refus. Elle peut demander l'effacement de ses données.
-- Données sensibles (santé, religion, biométrie) : à récolter seulement si nécessaire, à ne transmettre qu'avec accord écrit explicite ; consentement du représentant légal pour les moins de 16 ans (même seuil de la brochure, `[non vérifié]`).
+- Données sensibles (santé, religion, biométrie) : à récolter seulement si nécessaire, à ne transmettre qu'avec accord écrit explicite ; consentement du représentant légal pour les moins de 16 ans.
 - Déclaration de protection des données : responsable du groupe avec adresse et e-mail ; usage (administration, newsletter) ; destinataires (réseaux sociaux, médias) ; pays de destination en cas de transfert, un cloud à l'étranger comptant comme tel (hors UE, déconseillé). La remettre avec la déclaration d'adhésion (case « j'ai lu ») et l'appliquer au site (cookies, outils de suivi, formulaire de contact, newsletter).
 - Mesures : ne pas laisser traîner les listes, pas de stockage permanent sur des appareils privés, accès restreints, archiver ou supprimer ce qui n'est plus utile.
 - La responsable peut être amendée en cas de manquement, selon la loi sur la protection des données citée par la brochure (2022).

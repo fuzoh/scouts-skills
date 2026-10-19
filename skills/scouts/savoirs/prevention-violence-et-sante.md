@@ -3,7 +3,7 @@ titre: "Violence entre jeunes, harcèlement, santé psychique en camp (Twitterbo
 theme: prevention
 sert_a: "Violence, exclusion, agression, insulte raciste, Twitterbox, obligation de signaler, valeurs, charte d'équipe, règles de comportement"
 derive_de: [js-violence-dans-le-sport, msds-twitterbox, js-ethique-diapositives, js-ethique-formation-de-base, js-ethique-module-chef-de-camp, "concepts: psa, ethique, regles-de-comportement"]
-statut: brouillon
+statut: valide
 ---
 
 ## Violence entre jeunes : formes et frontière

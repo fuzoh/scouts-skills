@@ -37,7 +37,7 @@
 - Protection, accident, crise : les humains d'abord, l'information ensuite.
 - Canevas = modèle vierge ingéré, format reconnu, jamais exigé. La trame du référentiel est la sortie de *concevoir*.
 - Un non-négociable ne repose pas sur le cudesch seul, sauf dans `concept-de-securite`.
-- `skills-src/scouts/` est `valide`, sauf `savoirs/formation-cours-*.md` et les quarante et un savoirs ajoutés avec le plafond de 85 fichiers, en `brouillon` jusqu'à relecture. `referentiels/*.md` restent `relu` : les numéros ne sont pas figés.
+- `skills-src/scouts/` est `valide`. `referentiels/*.md` restent `relu` : les numéros ne sont pas figés.
 - Pack aplati `camp` / `formation` : après un pilote évalué.
 
 ## Dates d'application
@@ -58,6 +58,9 @@ Ces choix tiennent même s'ils sont plus prudents, ou moins stricts, qu'une sour
 
 - Marche : fourchettes avec et sans charge du manuel montagne 2014. Planifier depuis le bas de la fourchette adaptée, puis ajuster au groupe et au terrain. Pauses et marge en plus. `[non officiel]`, pas une vitesse réglementaire.
 - Eau : équipement de l'aide-mémoire J+S 10/2025, distinct pour le lac, le lac au-delà de 300 m et les embarcations en rivière. Un gilet à bord ne remplace pas le port prescrit. L'exception CPR/BLS vaut pour la baignade en lac sous maître-nageur. Module SSS par tranche de 12, y compris en rivière.
+- Piscine : l'aide-mémoire J+S Sécurité Eau 2024 fait foi. Baignade en piscine surveillée : module J+S Eau SdC/T ou brevet Base Pool ; piscine non surveillée : module J+S Eau ou brevet Plus Pool.
+- Jours d'arrivée et de départ : comptent ensemble pour une journée de camp, en 2026 comme en 2027. C'est leur total qui respecte les exigences d'une journée (2027 : 4 h d'activités J+S dont 2 h sportives).
+- Délais retenus quand les sources divergent : commande de cartes 5 semaines avant (3, 4 ou 5 selon la source), clôture d'un cours dans le Pilote 3 semaines (30 jours ailleurs). Règles de comportement J+S : 8.
 - Trois concepts de sécurité : global, activité à caractère dangereux, randonnée. Toute randonnée en a un, succinct hors domaine de sécurité.
 - Constructions : un concept global suffit en règle générale. Une petite construction (lavabo) n'en exige pas. Montage, usage et tempête vont dans ce concept global.
 - La matrice des risques est un outil. Un concept global sans matrice est conforme s'il nomme des risques concrets (lieu, saison, groupe), une mesure chacun, et une réaction d'urgence que tout responsable peut appliquer. 3x3 recommandé en randonnée, matrice pour la tyrolienne et l'eau. Corde : personne expérimentée, pas un expert J+S exigé. Gravité : vocabulaire libre, cohérence interne exigée.

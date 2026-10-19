@@ -3,7 +3,7 @@ titre: "Accueillir un enfant ou un jeune en situation de handicap, adapter une a
 theme: prevention
 sert_a: "Handicap, séparation, intégration, inclusion, adapter jeux et consignes, types de handicap, sécurité, parents, encadrement, réseau d'aide"
 derive_de: [js-sport-et-handicap, "concepts: inclusion, handicap"]
-statut: brouillon
+statut: valide
 ---
 
 ## Cadre

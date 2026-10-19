@@ -3,7 +3,7 @@ titre: "Vélo et VTT en camp : technique de base, progression d'apprentissage, j
 theme: sport
 sert_a: "VTT, positions, freinage, virages, pentes, passage à pied, réglages, jeux à vélo, temps de sortie ; hors source : circulation, matériel, conduite de groupe"
 derive_de: [js-cyclisme-vtt, cudesch-calcul-temps-de-marche, "concepts: sport-de-camp"]
-statut: brouillon
+statut: valide
 ---
 
 ## Ce que ce savoir couvre, et ce qu'il ne couvre pas

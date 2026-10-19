@@ -3,7 +3,7 @@ titre: Condition physique en camp (endurance, force, mobilité, coordination), p
 theme: sport
 sert_a: "Endurance, force, mobilité, coordination, doser, prévenir les blessures, plaie, entorse, fracture, qui annoncer"
 derive_de: [js-physis-exemples-pratiques, js-prevention-blessures, js-manuel-bases, js-facteurs-de-developpement, "concepts: physis, condition-physique, coordination, premiers-secours, sport-des-enfants"]
-statut: brouillon
+statut: valide
 ---
 
 ## Condition physique : repères pour le camp

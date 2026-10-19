@@ -3,7 +3,7 @@ titre: Matériel de prêt J+S, toiles de tente 64 et J+S, liste d'équipement de
 theme: camp
 sert_a: "Matériel de prêt J+S, commande, délais, frais, livraison, retour, toiles de tente (monter, sécher, rendre), liste d'équipement des participants"
 derive_de: [js-guide-materiel-de-pret, js-commande-materiel-pret-sct, autre-aide-memoire-toile-de-tente, cudesch-camp-liste-equipement, msds-hering-camps, msds-essentiel-msds-js-2027, "concepts: camp"]
-statut: brouillon
+statut: valide
 ---
 
 ## Matériel de prêt J+S : qui y a droit

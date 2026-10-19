@@ -3,7 +3,7 @@ titre: "Perturbations dans l'enseignement : causes, prévention, réactions grad
 theme: sport
 sert_a: "Activité qui déraille, cause d'une perturbation, prévenir, réaction proportionnée, règles et conséquences, violence, météo, accident, enfants difficiles"
 derive_de: [js-sport-des-enfants-perturbations, "concepts: climat-d-apprentissage, regles-de-comportement"]
-statut: brouillon
+statut: valide
 ---
 
 ## Principe

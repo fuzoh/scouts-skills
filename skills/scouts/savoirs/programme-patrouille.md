@@ -3,7 +3,7 @@ titre: "Système de patrouille et responsable de patrouille (RP) : rôle, encadr
 theme: programme
 sert_a: "Patrouille Éclais, RP, RP adjoint, choisir et encadrer un RP, moments, activités, balades, nuits en patrouille, conseil de patrouille"
 derive_de: [msds-memento-responsable-patrouille, cudesch-branche-eclais, cudesch-glossaire]
-statut: brouillon
+statut: valide
 ---
 
 Le mémento Étincelle (2021) s'adresse au RP lui-même ; le cudesch de la branche Éclais s'adresse à la maîtrise de troupe qui l'encadre. Ce fichier traite les deux points de vue. Le cours de RP (conditions, objectifs) est dans (formation-cours-base). Le manuel Thilo ne traite pas le système de patrouille.

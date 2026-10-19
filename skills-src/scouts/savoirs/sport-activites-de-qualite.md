@@ -3,7 +3,7 @@ titre: "Des activités J+S de qualité : idées clés des jeux de cartes Transme
 theme: sport
 sert_a: "Quatre domaines J+S de qualité : climat, objectifs et structure, encadrement et sécurité, tâches et feedback ; compétences psychosociales, parents, éthique"
 derive_de: [js-activites-de-qualite-transmettre, js-activites-de-qualite-encourager, js-activites-de-qualite-innover, "concepts: climat-d-apprentissage, feedback, ethique"]
-statut: brouillon
+statut: valide
 ---
 
 ## Les quatre domaines d'action

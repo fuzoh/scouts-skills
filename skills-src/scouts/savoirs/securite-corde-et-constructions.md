@@ -3,7 +3,7 @@ titre: Technique de corde et constructions de camp, matériel, nœuds, tyrolienn
 theme: securite
 sert_a: "Corde, contrôle, nœuds, tyrolienne, pont de singe, rappel ; constructions de camp (sarasine, mât, tour, cuisine, latrines, tentes), tempête"
 derive_de: [js-technique-de-corde, cudesch-camp-constructions, cudesch-securite, msds-thilo, "concepts: technique-de-corde, securite"]
-statut: brouillon
+statut: valide
 ---
 
 Qui peut faire quoi, quand un concept de sécurité est exigé et les cinq principes de la corde : (securite-domaines) et (securite), qui priment. Rappel d'arbitrage : un concept global suffit en règle générale pour les constructions, une petite construction (lavabo) n'en exige pas ; pour la corde, une personne expérimentée suffit, pas un expert J+S. Ici : le savoir-faire.

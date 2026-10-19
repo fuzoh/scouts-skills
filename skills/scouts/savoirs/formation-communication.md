@@ -3,7 +3,7 @@ titre: "Communication du formateur et du responsable : modèles, écoute, messag
 theme: formation
 sert_a: "Quatre becs et quatre oreilles, axiomes, consigne, écoute, message je, animer une séance, perturbations, conflit, parler en public, non verbal"
 derive_de: [js-communication, "concepts: communication, feedback, gestion-des-conflits"]
-statut: brouillon
+statut: valide
 ---
 
 ## Source et portée

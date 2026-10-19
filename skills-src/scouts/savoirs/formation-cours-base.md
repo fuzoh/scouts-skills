@@ -3,7 +3,7 @@ titre: "Cours de la filière de base : RP, Picos, Futura, connaissances SdC/T, c
 theme: formation
 sert_a: "Cours RP, Picos, Futura, SdC/T, cours de base, cours RU : conditions, buts, objectifs numérotés, niveaux d'approfondissement"
 derive_de: [msds-modele-de-formation (version 2027), "concepts: modele-de-formation, niveau-d-approfondissement, objectifs-d-apprentissage, cours-de-base, cours-ru, caf, expert-js"]
-statut: brouillon
+statut: valide
 ---
 
 Descriptifs du modèle de formation 2027 (dès le 01.01.2027). Buts fixes, tous traités ; objectifs à prioriser selon la durée ; la maîtrise peut en ajouter. Citer en clair : « cours de base, objectif 3.2 ». Objectifs : « les participants… » sous-entendu. Niveaux : V vivre, C mémoriser/comprendre, A appliquer/analyser, E évaluer/créer ; contenu absent = pas de niveau fixé. Vue d'ensemble et rôles : `formation.md`.

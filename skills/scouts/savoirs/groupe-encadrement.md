@@ -3,7 +3,7 @@ titre: "Encadrement d'un groupe scout, réseau d'encadrement, rôles du coach et
 theme: groupe
 sert_a: "Épauler un groupe, RG, coach, ComPar, comité des parents, anciens, aumônier, région, association cantonale, contrôle du coach, crise, reprise d'un groupe"
 derive_de: [msds-encadrement-scoutisme, msds-alpha-aide-memoire-rg, "concepts: coach-js"]
-statut: brouillon
+statut: valide
 ---
 
 ## Principe : conseiller, pas gérer

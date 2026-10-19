@@ -3,7 +3,7 @@ titre: Cuisine de camp, menus, quantités, hygiène, conservation, équipe cuisi
 theme: camp
 sert_a: "Menus, achats, quantités par personne, hygiène, températures, conservation, équipe cuisine, enfants, intoxications, allergies, restes"
 derive_de: [js-faire-la-cuisine-au-camp, js-sdct-camp, msds-hering-camps, msds-thilo, autre-camp-equitable-documents, "concepts: cuisine, hygiene"]
-statut: brouillon
+statut: valide
 ---
 
 ## Avant le camp : plan des menus

@@ -3,7 +3,7 @@ titre: Facteur humain en plein air, pièges de décision, renoncer, et responsab
 theme: securite
 sert_a: "Erreurs de maîtrises expérimentées, perception, pression du groupe, décider et renoncer, devoir de protection et de diligence, responsabilité"
 derive_de: [js-depliant-facteur-humain, js-securite-l-essentiel, cudesch-securite, "concepts: securite, methode-3x3, responsabilite-du-moniteur"]
-statut: brouillon
+statut: valide
 ---
 
 Complète (securite) et (securite-domaines) : ici le côté humain de la décision, pas la liste des activités ni des modules. Après un accident : (urgence-et-protection).
