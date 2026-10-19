@@ -43,7 +43,7 @@ skills-src/<nom>/      sources d'écriture d'un skill au format agentskills.io, 
   SKILL.md
   references/          méthode par verbe (corriger, concevoir, chercher, guide), reglages.md, documents.md
 skills/<nom>/          packs générés par `just skills` et commités (installables par `npx skills add`) ; jamais édités à la main, la CI refuse un écart avec le build
-pilote/                grille de tests manuels ; jeu d'essai sur dossiers réels anonymisés dans pilote/cas/<code>/, local, jamais versionné ; jamais une source
+pilote/                archive de l'ancienne grille ; jeu d'essai sur dossiers réels anonymisés dans pilote/cas/<code>/, local, jamais versionné ; jamais une source. La bêta remplace le pilote scripté
 scripts/               package uv (CLI typer) : ingest, discover, convert, index, split, recover, inventory, concepts, referentiels, build
 build/, dist/          sorties locales et zips des packs (git-ignorés ; zips publiés en assets de release)
 docs/                  documentation longue du dépôt ; docs/lexique-terrain.md = vocabulaire déduit de dossiers réels, [non officiel], jamais une source (les notes de terrain restent hors dépôt)

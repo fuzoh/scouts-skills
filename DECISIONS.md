@@ -37,8 +37,9 @@
 - Protection, accident, crise : les humains d'abord, l'information ensuite.
 - Canevas = modèle vierge ingéré, format reconnu, jamais exigé. La trame du référentiel est la sortie de *concevoir*.
 - Un non-négociable ne repose pas sur le cudesch seul, sauf dans `concept-de-securite`.
-- `skills-src/scouts/` est `valide`. `referentiels/*.md` restent `relu` : les numéros ne sont pas figés.
-- Pack aplati `camp` / `formation` : après un pilote évalué.
+- Phase bêta. Skills publiés, testés sur les IA cibles, utilisés par de vrais testeurs. Les retours se traitent au fil de l'eau. Pas de pilote scripté, pas de grille à rejouer à chaque version.
+- `skills-src/scouts/` et `referentiels/*.md` sont `valide`. Numéros gelés : un critère retiré laisse un trou, un nouveau prend le numéro suivant.
+- Pack aplati `camp` / `formation` et migration des anciens prompts : seulement si un retour bêta le demande.
 
 ## Dates d'application
 
@@ -107,4 +108,4 @@ Choix non rouverts. Les commandes sont dans `METHODE.md`.
 - Sources web à la place des PDF, cudesch numérique inclus.
 - Fiches `tool.jeunesseetsport.ch`.
 - OCR.
-- Pack aplati pour Claude Project et custom GPT, après un pilote évalué.
+- Pack aplati pour Claude Project et custom GPT, seulement si un retour bêta le demande.

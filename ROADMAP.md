@@ -40,7 +40,7 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] Catalogues `autre-communagir-outils-animation` (78) et `autre-liberating-structures` (43)
 - [x] Glossaire : ⚠ remplacés par des sources vérifiées, colonne `slug`, nouveaux termes
 - [x] `just concepts` : `docs/concepts/<slug>.md` générés (index inversé source ↔ concept)
-- [ ] `verified` : relecture humaine d'un index et d'une section par source (aucune encore)
+- [x] `verified` : aucune source encore ; reporté dans Plus tard (relecture des tableaux, cases et prescriptions citées par les N)
 
 ## Phase 3b — Garanties et fidélité  (arbitrages du 2026-10-17, voir `DECISIONS.md`)
 - [x] `_template.yaml` : `applies_from`, `applies_until`, `nature` (optionnels), `fidelity: complete | partial` + motif ; `inventory` valide
@@ -67,19 +67,17 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] Relecture des quatre référentiels par le mainteneur (2026-10-18, quatre entrées DECISIONS) : `ua` N3 gardé + N4 cohérence objectifs/déroulement, GAG sourcé (J+S), IFV abandonné ; `concept-de-securite` N15 gardé, N5 allégé, N16 cellule de crise, toute randonnée a un CdS ; `programme-camp` délais 7/6 semaines confirmés par le calendrier de la Sardine en ligne, quota 2027 sourcé (`msds-essentiel-msds-js-2027`), vocabulaire (camp mixte, PF, AS ⊂ AA) ; `activite-js` N7 gardé, N14-N15 ajoutés, nuances du mainteneur étiquetées
 - [x] Dépôt du mainteneur ingéré (2026-10-18, 186 sources) : `msds-essentiel-msds-js-2026` (newsletter nov. 2025 : 16+16+16, SAPC, sécurité ; identifiants caviardés p.11) et `js-structure-formation-sdct` (page BDNS « Structure de la formation » SdC/T, colonnes 2026 / 2027 reconstituées dans notes, `fidelity: partial`) ; la newsletter 2027 déposée était déjà au registre (même sha256)
 - [x] QC-07 reformulé (exercice de cours) et CU-18 (« E » = R) tranchés en R : revue close, O 106 / G 51 / R 20
-- [ ] **À ingérer quand ils existeront** : autorisation de camp 2027 (pas encore publiée selon le mainteneur), guide des offres OFSPO 2027 ; puis revérifier les critères fondés sur les check-lists 2026 et le quota 36 / +1 par 12. `js-structure-formation-sdct` servira au futur référentiel des cours (Cours introduction, Responsable de camp, modules 2027)
+- [x] Autorisation de camp 2027, guide des offres 2027 et référentiel des cours : reportés dans À faire (quand les documents existeront). `js-structure-formation-sdct` servira au référentiel des cours
 - [x] Jeu d'essai : candidats copiés en texte extrait et anonymisé dans `pilote/cas/` ; `documents/` archivé hors dépôt
 - [x] Tour 4 du grill (2026-10-18, Q20-Q37) : format définitif des référentiels, `reglages.md`, grade de preuve du cudesch et affectations par référentiel, canevas = formats reconnus ; consigné dans DECISIONS et `docs/briefing-phase4-grill.md`
 - [x] `docs/skills-design.md` : organisation, format des référentiels, réglages, `SKILL.md` de `scout` (plan), méthode de retour, `check`, cycle de vie, pilote
 - [x] Quatre référentiels passés en `statut: relu` au format définitif (sections, portées, marques courtes, `parametres` typés, ajouts cudesch) ; `skills/scout/references/reglages.md` écrit
 - [x] `SKILL.md` de `scout` (98 lignes) et squelettes `references/corriger.md`, `concevoir.md`, `chercher.md` ; `reglages.md` aligné (date du cours bloquante pour `ua`)
 - [x] `check` étendu aux référentiels (`scripts/referentiels.py`, 24 tests) ; `build claude-code [--scope] [--zip]` + `just install` (`scripts/build.py`, 14 tests) ; premier pack 177 sources / 1 676 sections / 8,7 Mo, zip 4 Mo ; skill `scout` installé et détecté
-- [x] Relecture agent des quatre référentiels (tous les N recoupés avec les sources) : corrections sûres appliquées ; toujours `relu`
+- [x] Relecture agent des quatre référentiels (tous les N recoupés avec les sources) : corrections sûres appliquées ; alors `relu`, depuis passés `valide`
 - [x] Mainteneur (2026-10-18) : `activite-js` N15 → Q17 ; `concept-de-securite` N8 constructions aligné sur `cudesch-securite#10` ; `ua` N3-N4 (brochures) gardés par décision antérieure
-- [ ] Mainteneur : tests manuels du skill sur claude.ai et Gemini avec `build/claude-code/scouts-ressources.zip`, grille `pilote/tests-manuels.md`, résultats dans son tableau final
-- [ ] Pilote : `scouts` + `activite-js`, `ua`, `programme-camp` ; `pilote/` (cas, attendus, rapport), 12-15 cas, contre-épreuve, comparé aux anciens prompts
-- [ ] Migrer les 3 anciens prompts (correcteur UA, AC, SC ; corriger « aussi d'une AC » dans le prompt SC) vers `skills/`
-- [ ] `scripts/build.py` : packs aplatis Claude Project / GPT (`camp`, `formation`) après le pilote ; `--check-limits`
+- [x] (2026-10-19) Quatre référentiels passés `valide`, numéros gelés
+- [x] Tests manuels, pilote scripté, migration des anciens prompts et packs aplatis : écartés. Bêta avec de vrais testeurs ; retours au fil de l'eau (`DECISIONS.md`)
 
 ## Phase 4b — `scouts` (ex `scout-light` ; 2026-10-18, briefing `docs/briefing-scout-light.md`)
 - [x] `skills/scout-light/` : SKILL.md, references (glossaire ×2, réglages, corriger, concevoir), 4 référentiels en dossiers (activite-js 4, concept-de-securite 4, programme-camp 5, ua 3 fichiers), savoirs (camp ×2, J+S ×3, sécurité ×4, protection, formation ×3, profil / branches / pédagogie), `savoirs/README.md`
@@ -93,8 +91,8 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] (2026-10-19) Plafond de travail porté à 85 fichiers : 41 savoirs ajoutés (`brouillon`), rédigés par douze sous-agents sonnet puis relus en trois passes croisées contre les sources : vie de camp (lieu, matériel, cuisine, budget, étranger, modèles), sécurité pratique (facteur humain, eau, corde et constructions, orientation et météo), identité, programme et une fiche par branche, jeux et pédagogie sportive, prévention et inclusion, groupe, maîtrise et coach J+S, méthodes et administration de formation. Index des savoirs groupé par `theme`, `sert_a` ≤ 160 car. (README ~3 100 tokens) ; `documents.md`, `guide.md`, glossaire étendus. 83 fichiers dans la source
 - [x] (2026-10-19) Mainteneur : 41 nouveaux savoirs passés `valide`. Arbitrages (`DECISIONS.md`) : piscine selon l'aide-mémoire eau 2024 (Base Pool / Plus Pool) ; jours d'arrivée et de départ comptés ensemble, leur total respecte les exigences d'une journée ; cartes 5 semaines, Pilote 3 semaines, 8 règles de comportement ; seuil de 16 ans, « comité » / « conseil » de parents et module de perfectionnement validés tels quels
 - [x] (2026-10-19) SAPC : comptent dans les 4 h et dans les 2 h sportives de 2027 (mainteneur)
-- [ ] Mainteneur : tester `scouts.zip` à 84 fichiers sur claude.ai et Gemini
-- [ ] Routine : re-dériver un dossier de `scouts/referentiels/` quand `relu_le` de son référentiel `referentiels/` change
+- [x] (2026-10-19) Tests des IA cibles clos : skills publiés et en bêta. Plus de grille à rejouer
+- [x] Routine de re-dérivation : reportée dans À faire (hygiène)
 
 ## Phase 6 — Publication  (grill du 2026-10-19, briefing : `docs/briefing-publication.md`)
 - [x] Recherche (install agents et web, release-please, CI, Pages) et grill : décisions D1-D12 consignées
@@ -106,50 +104,37 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] README, LICENSE (MIT), LICENSE-CONTENT (CC BY-SA 4.0), CONTRIBUTING, formulaires d'issue, modèle de PR
 - [x] Check de publication (briefing §3.7) sur un clone neuf sans originaux ; réglages post-push dans `docs/publication-reglages.md`
 - [x] (2026-10-19) Dépôt `fuzoh/scouts-skills` créé, `main` et `v0.2.0` poussés, réglages appliqués (secret, Pages, PR des workflows, étiquettes), release `v0.2.0` avec zips
-- [ ] Après le push : vérifier le jsonpath `uv.lock` de release-please (PR de release verte), le job `upload`, le déploiement Pages, l'issue de veille
+- [x] (2026-10-19) Releases publiées jusqu'à `v0.6.0` ; contrôles post-push retirés de la liste
 - [x] Choix faits sans le mainteneur, validés : Mistral/Copilot en mention courte, veille silencieuse, titulaire des licences `fuzoh`, sigle de l'association cantonale retiré
 - [x] Tests web du mainteneur : `scouts` ok sur claude.ai et Gemini (Customize > Skills, import du zip) ; `scouts-ressources` trop lourd pour claude.ai et Gemini, ok sur ChatGPT ; site mis à jour
 - [x] Site testé en ligne (agent-browser : 14 pages, mobile, mode sombre) ; débordement mobile corrigé ; mise en page 1280 px, violet MSdS, version et date dans l'en-tête
 - [x] `npx skills add fuzoh/scouts-skills` (projet, `-g`, zips de release) et `npx skills update` testés depuis GitHub
 - [x] (2026-10-19) Installation par prompt (« Installe-moi les skills scouts dans le projet actuel, suis : https://github.com/fuzoh/scouts-skills ») : instructions pour l'agent dans le README (`npx skills add … --skill scouts -a <agent> -y`, projet courant, `scouts-ressources` sur demande), prompt proposé sur la page « Installer avec un agent » ; commande non interactive testée (`skills` 1.7.2, `-a claude-code -y`), le prompt lui-même non testé dans un agent
-- [ ] Tests « non testé » du site : `pi install git:…`, `scouts` sur ChatGPT, une vraie mise à jour d'une version à la suivante ; limite de 200 caractères de `description` annoncée par l'aide claude.ai (660 acceptés jusqu'ici ; `light check` avertit)
-- [ ] Veille, premier passage complet (2026-10-19) : 40 `url` `pfadi.swiss/.../downloads/detail/N/` en 404 (l'URL avec slug fonctionne, fichiers ok) à corriger dans le registre ; `msds-illustrations-profil` : zip distant changé, à réingérer en local
-- [ ] Plus tard (`DECISIONS.md`, section Plus tard) : marketplace de plugins Claude Code ; sources web plutôt que PDF
+- [x] Phases de test restantes (site, `pi install`, ChatGPT, mise à jour de version) : retirées. Bêta en cours
+- [x] Correctifs d'URL de la veille : reportés dans À faire (hygiène)
 
-## Phase 5 — Maintenance
-- [ ] `scripts/check_urls.py` : détection `stale`
-- [ ] Routine de mise à jour documentée
+## À faire
+
+Bêta en cours. Les retours des testeurs se traitent au fil de l'eau, sans grille à rejouer.
+
+### Hygiène
+- [ ] Corriger dans le registre les 40 `url` `pfadi.swiss/.../downloads/detail/N/` en 404 (prendre l'URL avec slug ; les fichiers sont bons)
+- [ ] Réingérer `msds-illustrations-profil` : le zip distant a changé (original local requis)
+- [ ] `scripts/check_urls.py` : détection `stale` (aujourd'hui posé à la main après lecture de l'issue de veille)
+- [ ] Routine de mise à jour documentée : issue de veille → `ingest --new-version` → reconvertir, réindexer, `split` → `just skills`
+- [ ] Re-dériver `skills-src/scouts/referentiels/<slug>/` quand `relu_le` du référentiel racine change
+
+### Quand les documents existeront
+- [ ] Autorisation de camp 2027 et guide des offres OFSPO 2027 ; puis revérifier les critères fondés sur les check-lists 2026 et le quota 36 / +1 par 12
+- [ ] Référentiel des cours (Cours introduction, Responsable de camp, modules 2027) à partir de `js-structure-formation-sdct` : fusionner d'abord, plafond de 85 fichiers dans `scouts`
+
+### Plus tard
+- `verified` : relecture humaine des tableaux, cases et prescriptions, en priorité sur les sources citées par les N. Aucune source encore
+- Marketplace de plugins Claude Code ; sources web plutôt que PDF ; fiches `tool.jeunesseetsport.ch` ; OCR des sources `vision`
+- Packs aplatis `camp` / `formation` et migration des anciens prompts : seulement si un retour bêta le demande
 
 ## Prochaine action
-Relire les 41 savoirs ajoutés le 2026-10-19 (Phase 4b) et trancher leurs points ouverts, puis les passer `valide` ; retester `scouts.zip` (83 fichiers + MANIFEST) sur Gemini et claude.ai. Ensuite : relire `formation-cours-*.md` ; corriger dans le registre les 40 `url` `pfadi.swiss/.../downloads/detail/N/` en 404 et réingérer `msds-illustrations-profil` ; tester `pi install git:github.com/fuzoh/scouts-skills` ; essayer le prompt d'installation du README dans Claude Code et Codex ; tests manuels 8.1–8.12.
-
-Ancien état (2026-10-19, avant l'ajout de savoirs) : Relire `skills-src/scouts/savoirs/formation-cours-*.md` (numéros d'objectifs, verbes, niveaux) puis les passer `valide`. Ensuite : corriger dans le registre les 40 `url` `pfadi.swiss/.../downloads/detail/N/` en 404 (prendre l'URL avec slug) et réingérer `msds-illustrations-profil` ; tester `pi install git:github.com/fuzoh/scouts-skills` ; tests manuels 8.1–8.12.
-
-Ancien état (2026-10-19, avant le push) : Le mainteneur relit le site (`uv run site --out build/site`, puis ouvrir `build/site/index.html`), commite l'arbre en un seul commit initial (historique réécrit, 2026-10-19) et pose le tag `v0.2.0`. Ensuite : créer `fuzoh/scouts-skills`, pousser `main` et `v0.2.0`, appliquer `docs/publication-reglages.md` (dont la release `v0.2.0`), vérifier la PR de release-please, corriger les URL de la veille. Tests manuels 8.1–8.12 toujours à faire.
-
-Ancien état (2026-10-19, avant la réécriture de l'historique) : Le mainteneur relit le site (`uv run site --out build/site`, puis ouvrir `build/site/index.html`) et commite ses corrections. Avant le push, décider si l'historique local (17 commits) est publié tel quel : il contient encore le sigle de l'association cantonale et l'ancien titulaire de `LICENSE` ; le dépôt n'étant pas poussé, on peut le réécrire (un seul commit initial, tag `v0.1.1` reposé). Ensuite : créer `fuzoh/scouts-skills`, pousser `main` et `v0.1.1`, appliquer `docs/publication-reglages.md`, vérifier la PR de release-please, corriger les URL de la veille. Tests manuels 8.1–8.12 toujours à faire.
-
-Ancien état (2026-10-19, avant la relecture du site) : Le mainteneur relit le dépôt local (site : `uv run site --out build/site`, puis `build/site/index.html`), crée le dépôt GitHub `fuzoh/scouts-skills`, pousse `main` et `v0.1.1`, puis applique `docs/publication-reglages.md`. Ensuite : premier PR de release-please à vérifier, corrections d'URL de la veille. Tests manuels 8.1–8.12 toujours à faire (ci-dessous).
-
-Ancien état (2026-10-19, avant la mise en œuvre) : Phase 6 : lancer l'agent de conception sur `docs/briefing-publication.md` (commencer par §3.1, trancher les questions ouvertes §4 au fil de l'eau). Ne pas créer le dépôt GitHub ni pousser. En parallèle, tests manuels 8.1–8.12 de `v0.1.1` (ci-dessous).
-
-Ancien état (2026-10-19, avant la Phase 6) : Tester les deux packs corrigés de `v0.1.1` (`build/claude-code/scouts.zip` et `scouts-ressources.zip`) avec les cas 8.1–8.12 de `pilote/tests-manuels.md`, puis distribuer aux collègues. Cette version corrective intègre la revue de contenu postérieure à `v0.1.0`. Recueillir les retours dans `pilote/retours-en-vrac.md` en notant la version. Toujours en attente de l'autorisation de camp 2027 et du guide des offres 2027 ; délais précis de clôture BDNS du camp et des comptes à revérifier dans le calendrier Sardine avant de les chiffrer.
-
-Ancien état (2026-10-18, avant v0.1.0) : Le mainteneur refait un tour de tests avec `build/claude-code/scouts.zip` (principal) et `scouts-ressources.zip` sur claude.ai et Gemini, grille `pilote/tests-manuels.md` (règles communes en tête : pas de ligne de plan, jeu 2027 par défaut, une seule valeur, « Pour aller plus loin » ; reconstruire : `just zips`). Points à vérifier en priorité : la ligne de plan a bien disparu, le défaut 2027, la réponse « 4 semaines » pour le dossier de camp, le verbe guider, la qualification présentée d'abord comme outil pédagogique. Au retour : nouveaux retours dans `pilote/retours-en-vrac.md` ou ✗ / ~ dans la grille, corrections, puis décider si le pilote scripté (`docs/skills-design.md` § 8) reste utile. Toujours en attente de l'autorisation de camp 2027 et du guide des offres 2027.
-
-Ancien état (2026-10-18 soir, avant les retours) : le mainteneur teste les deux skills (`scout.zip`, `scout-light.zip`), 45 tests.
-
-Ancien état (2026-10-18 après-midi) : pilote scripté (attendus pour 12-15 cas de `pilote/cas/`, camps 2026 et 2027 redatés depuis P3 et P7, contre-épreuve, rapport) ; mis en pause, le mainteneur préférant tester lui-même.
-
-Ancien état (2026-10-18 midi) : `check` étendu aux référentiels, puis `SKILL.md` de `scout`, puis `build claude-code` + `just install` ; relire les quatre référentiels avant `valide`.
-
-Ancien état (2026-10-18 soir) : tour 4 du grill à faire (sources cudesch par référentiel, `reglages.md`, format définitif).
-
-Ancien état (2026-10-18 matin) : le mainteneur annote les deux documents de revue et répond aux questions de `securite.md` §6 et `canevas-cantonaux.md` §7.
-
-Ancien état (2026-10-17, premier tour terrain) : relire `docs/terrain/` et trancher les questions ouvertes ; décider du sort des dossiers réels (non commités, texte extrait dans `build/terrain/`, rejouable par `uv run python -I scripts/terrain.py`). Liste du kit administratif 2018 désormais dans `docs/revue-kit-administratif-2018.md`.
-
-Ancien état : Grill Phase 4 : tours 1 à 3 répondus et consignés (`docs/briefing-phase4-grill.md`, section « État du grill et reprise »). **Bloqué sur le mainteneur** : dépôt des canevas réels (vides et remplis) dans `documents/`, documents du jeu d'essai dans `documents/pilote/`, fichiers des anciens Gems s'il y en a, relecture de la liste d'ingestion Q8. Reprendre par le tour 4 (analyse des canevas, sources cudesch des référentiels, `reglages.md`), puis `docs/skills-design.md`, puis l'ordre des travaux Q19. En parallèle : agent Herdr `cudesch` (branche `cudesch`, worktree `~/.herdr/worktrees/skills-scoutisme/cudesch`) toujours en cours ; fusionner sa branche quand `docs/cudesch-rapport.md` existe, puis répondre à Q9.
+Hygiène du registre : corriger les 40 URL `pfadi.swiss` en 404, puis réingérer `msds-illustrations-profil`.
 
 ## Points à arbitrer (remontés par les agents de Phase 3 ; tranchés le 2026-10-17 → Phase 3b, sauf mention)
 - ✅ (caviardage sections + notes) **Identifiants en clair dans deux sources** : `js-intro-manuel-experts-diapos` (diapo 20) et `msds-essentiel-msds-js-2027` (p.4) contiennent un identifiant et un mot de passe d'accès à l'espace J+S, présents dans l'original, `raw.md` et la section. À ne jamais reprendre dans un skill ; décider s'il faut caviarder les sections (le `raw.md` n'est jamais édité à la main).
@@ -161,6 +146,7 @@ Ancien état : Grill Phase 4 : tours 1 à 3 répondus et consignés (`docs/brief
 - `msds-le-cours` et la trilogie sont des versions de travail (renvois « LIEN » non résolus, marques Word) : surveiller une version finale sur pfadi.swiss.
 
 ## Journal
+- 2026-10-19 (bêta) : skills publiés et testés sur les IA cibles ; pilote scripté et phases de test retirés. Quatre référentiels passés `valide`, numéros gelés. À faire = hygiène du registre, puis documents 2027 quand ils existeront. Retours bêta au fil de l'eau.
 - 2026-10-19 (installation par prompt) : README et page « Installer avec un agent » permettent de faire installer les skills par l'agent à partir de l'URL du dépôt.
 - 2026-10-19 (savoirs) : 41 savoirs ajoutés à `scouts` sur les sources encore inexploitées (douze sous-agents rédacteurs, trois relecteurs, un pour l'index) ; `light` groupe l'index par `theme` ; neuf commits par thème.
 - 2026-10-19 (limites) : limites des skills web revérifiées en source primaire (Claude, Gemini, OpenAI API) à partir d'un rapport tiers ; `light check` réécrit (plateformes + budget de tokens) ; plafond de fichiers ramené à 100 après essais d'un skill de test (Gemini : 100 passe, 150 et 200 échouent).

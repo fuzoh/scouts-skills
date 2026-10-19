@@ -14,7 +14,7 @@ parametres:
 canevas: [js-exemple-programme-camp-ete, js-modele-prog-general-sport-jeunes, js-modele-prog-general-sport-enfants, js-modele-prog-general-enfants-jeunes]
 sources: [msds-hering-camps, msds-essentiel-msds-js-2027, msds-essentiel-msds-js-2026, js-sdct-camp, msds-reglement-de-camp, msds-autorisation-de-camp, msds-exigences-js-2027-camps, js-guide-offres-sct, js-manuel-sport-de-camp-trekking, js-exemple-programme-camp-ete, js-modele-prog-general-sport-jeunes, js-modele-prog-general-sport-enfants, js-modele-prog-general-enfants-jeunes, cudesch-camp-liste-delais, cudesch-camp-budget, cudesch-camp-reco-sous-tentes, cudesch-camp-reco-sous-toit, cudesch-camp-bail-place-tentes, cudesch-camp-liste-equipement, cudesch-camp-infos-urgence, cudesch-securite, cudesch-cudeschin, cudesch-programme, cudesch-etre-responsable, cudesch-branche-castors, cudesch-branche-louveteaux, cudesch-branche-eclais, cudesch-branche-picos, cudesch-branche-route]
 inclut: [activite-js, concept-de-securite]
-statut: relu
+statut: valide
 relu_le: 2026-10-18
 ---
 Livrable principal : le programme de camp, c'est-à-dire le picasso (grille jour × heure) et les fiches de blocs qui le détaillent. Les autres livrables de camp sont en annexe, sans développement. La fiche d'une activité (modèles de bloc AC et SC compris) se corrige avec `activite-js` ; le concept de sécurité avec `concept-de-securite`. Le « programme général » officiel est la vue d'ensemble ; le « programme détaillé » est le dossier qui le complète ; le picasso tient lieu de programme général (terrain).

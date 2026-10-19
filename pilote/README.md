@@ -1,10 +1,10 @@
 # Pilote
 
-Évaluation des skills `scouts` et `scouts-ressources` et de leurs référentiels.
+Archive. Les skills sont en bêta : publiés, testés sur les IA cibles, utilisés par de vrais testeurs. Pas de grille à rejouer à chaque version. Les retours se traitent au fil de l'eau.
 
 ## Dans le dépôt
 
-- `tests-manuels.md` : grille de tests manuels, cas fictifs, à rejouer sur chaque version (claude.ai, Gemini, Claude Code).
+- `tests-manuels.md` : ancienne grille de cas fictifs. N'est plus un passage obligé.
 
 ## Hors dépôt
 

@@ -8,7 +8,7 @@ Référence de conception issue du grill Phase 4 (`docs/briefing-phase4-grill.md
 - **Référentiels** `referentiels/<slug>.md`, un par livrable, données de premier rang, lus par le skill. Pilote : `activite-js`, `ua`, `programme-camp` ; `concept-de-securite` est composé par `inclut:`.
 - **Échelle de bascule** avant tout skill dédié : référentiel → référentiel avec procédure → non-négociables recopiés dans `SKILL.md` → skill dédié. Repli si le pilote échoue : découpage par livrable (proposition A), référentiels conservés.
 - **Canevas** : le mot désigne les modèles vierges ingérés (`nature: exemple`), jamais les référentiels.
-- **Packs** : zip agentskills.io avec corpus pour Claude Code, claude.ai, Gemini, ChatGPT ; pack aplati par domaine `camp` / `formation` pour Claude Project et custom GPT, après le pilote. Le build n'embarque jamais `raw.md` ni les originaux.
+- **Packs** : zip agentskills.io avec corpus pour Claude Code, claude.ai, Gemini, ChatGPT. Pack aplati par domaine `camp` / `formation` pour Claude Project et custom GPT : seulement si un retour bêta le demande. Le build n'embarque jamais `raw.md` ni les originaux.
 
 ## 2. Format d'un référentiel
 
@@ -117,17 +117,17 @@ Nom `scouts-ressources`, description ≤ 1024 caractères (proposition C), corps
 
 ## 7. Cycle de vie d'un référentiel
 
-`brouillon` (rédigé) → `relu` (relecture du mainteneur intégrée, format conforme) → `valide` (`check` vert, numéros gelés, cité par le pilote). Une source citée qui change de version repasse le référentiel en `relu` jusqu'à revérification des critères concernés.
+`brouillon` (rédigé) → `relu` (relecture du mainteneur intégrée, format conforme) → `valide` (`check` vert, numéros gelés, publié). Une source citée qui change de version repasse le référentiel en `relu` jusqu'à revérification des critères concernés.
 
-## 8. Pilote
+## 8. Validation
 
-`scout` + `activite-js`, `ua`, `programme-camp`. Jeu d'essai dans `pilote/` (`cas/`, `attendus.yaml`, `rapport.md`) : 12-15 documents dont un camp 2026 et un camp 2027, 5 prompts mixtes, 3 questions de théorie dont un neuromythe ; contre-épreuve par retrait d'un ou deux non-négociables ; mesures : rappel des non-négociables retirés, citations vérifiables par script, zéro règle inventée, longueur par niveau, stabilité sur trois passages, comparaison aux anciens prompts. Cas joués en Claude Code ; cinq rejoués par le mainteneur sur claude.ai et Gemini.
+Pas de pilote scripté. Les skills sont en bêta : publiés, testés sur les IA cibles, utilisés par de vrais testeurs. Les retours se traitent au fil de l'eau. `pilote/tests-manuels.md` n'est plus une grille à rejouer. `pilote/cas/` reste un jeu local du mainteneur, jamais une source, jamais commité.
 
 ## 9. Ordre des travaux (Q19)
 
-1. `check` étendu aux référentiels ; 2. `build claude-code` + `just install` ; 3. zips claude.ai et Gemini ; 4. pilote évalué ; 5. pack aplati `camp` pour GPT et Claude Project.
+1. `check` étendu aux référentiels ; 2. `build claude-code` + `just install` ; 3. zips claude.ai et Gemini ; 4. bêta avec de vrais testeurs (le pilote scripté est écarté) ; 5. pack aplati `camp` / `formation` seulement si un retour bêta le demande.
 
 ## 10. `scouts` (ex `scout-light`)
 
-Skill principal, même méthode que `scouts-ressources` sans corpus (`DECISIONS.md`, briefing `docs/briefing-scout-light.md`). Arborescence : `SKILL.md` ; `references/` (glossaire en deux fichiers, réglages, corriger, concevoir, `guide.md` pour le verbe guider : parcours par rôle, thèmes, lectures, exemples de demandes ; `documents.md` : catalogue des documents officiels avec titre, usage et accès, pour « Pour aller plus loin ») ; `referentiels/<slug>/01-regles.md, 02-qualite.md, …` (frontmatter sur le premier fichier : `slug`, `titre`, `signaux`, `parametres`, `inclut`, `derive_de: {slug, relu_le}`, `statut`) ; `savoirs/<sujet>.md` (frontmatter `titre`, `theme`, `sert_a` ≤ 160 car., `derive_de`, `statut`) avec `savoirs/README.md` en index généré, groupé par `theme` (vocabulaire fermé de `scripts/light.py`). Règles : aucune citation `id#NN-slug`, `corpus/` ni `p.N` ; provenance en clair ; limites des applis web (100 fichiers dans le pack, 50 Mo, 25 Mo par fichier, pas de .docx/.xlsx, un seul SKILL.md, `name` agentskills, `description` ≤ 1 024 car.) et 5 000 tokens estimés (`caractères / 3,5`) par fichier, SKILL.md sous 500 lignes ; ordre des sections et suite N1..Nk vérifiés sur la concaténation du dossier (`scripts/light.py`). Cycle de vie : les fichiers de `scouts` sont `valide` (`savoirs/formation-cours-*.md` et les savoirs ajoutés le 2026-10-19 restent `brouillon` jusqu'à relecture) ; les `referentiels/*.md` racine restent `relu` tant que les numéros ne sont pas figés. Un dossier de `scouts` se re-dérive quand `relu_le` du référentiel racine change.
+Skill principal, même méthode que `scouts-ressources` sans corpus (`DECISIONS.md`, briefing `docs/briefing-scout-light.md`). Arborescence : `SKILL.md` ; `references/` (glossaire en deux fichiers, réglages, corriger, concevoir, `guide.md` pour le verbe guider : parcours par rôle, thèmes, lectures, exemples de demandes ; `documents.md` : catalogue des documents officiels avec titre, usage et accès, pour « Pour aller plus loin ») ; `referentiels/<slug>/01-regles.md, 02-qualite.md, …` (frontmatter sur le premier fichier : `slug`, `titre`, `signaux`, `parametres`, `inclut`, `derive_de: {slug, relu_le}`, `statut`) ; `savoirs/<sujet>.md` (frontmatter `titre`, `theme`, `sert_a` ≤ 160 car., `derive_de`, `statut`) avec `savoirs/README.md` en index généré, groupé par `theme` (vocabulaire fermé de `scripts/light.py`). Règles : aucune citation `id#NN-slug`, `corpus/` ni `p.N` ; provenance en clair ; limites des applis web (100 fichiers dans le pack, 50 Mo, 25 Mo par fichier, pas de .docx/.xlsx, un seul SKILL.md, `name` agentskills, `description` ≤ 1 024 car.) et 5 000 tokens estimés (`caractères / 3,5`) par fichier, SKILL.md sous 500 lignes ; ordre des sections et suite N1..Nk vérifiés sur la concaténation du dossier (`scripts/light.py`). Cycle de vie : les fichiers de `scouts` et les `referentiels/*.md` racine sont `valide`, numéros gelés. Un dossier de `scouts` se re-dérive quand `relu_le` du référentiel racine change.
 

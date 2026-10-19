@@ -12,7 +12,7 @@ parametres:
 canevas: [autre-canevas-ua-top, autre-canevas-point-de-cours-js]
 sources: [msds-unite-d-apprentissage, msds-ancre, cofor-administration-cours-federaux, msds-le-cours, msds-modele-de-formation, cofor-checklist-cours-base, js-sdct-bases, cudesch-glossaire, cofor-liste-buts-cours-ru, msds-retour-qualifier-accompagner, autre-canevas-ua-top, autre-canevas-point-de-cours-js, cofor-pano-retour-qualifier]
 inclut: []
-statut: relu
+statut: valide
 relu_le: 2026-10-18
 ---
 

@@ -13,7 +13,7 @@ parametres:
 canevas: [cudesch-modele-bloc-ac, cudesch-modele-bloc-sc, autre-canevas-ac-vierge, autre-canevas-sc-vierge, cudesch-planification-activite]
 sources: [msds-hering-camps, cudesch-securite, js-sdct-camp, msds-autorisation-de-camp, cudesch-cudeschin, msds-exigences-js-2027-camps, js-manuel-sport-de-camp-trekking, msds-le-cours, js-sdct-montagne, cudesch-calcul-temps-de-marche, js-aide-memoire-3x3-en-route, cudesch-programme, cudesch-planification-activite, cudesch-modele-bloc-ac, cudesch-modele-bloc-sc, autre-canevas-ac-vierge, autre-canevas-sc-vierge]
 inclut: [concept-de-securite]   # la sécurité d'une randonnée (CdS, 3x3, matrice) et les activités des domaines de sécurité relèvent de concept-de-securite ; ici seulement ce que la fiche doit contenir
-statut: relu
+statut: valide
 relu_le: 2026-10-18
 ---
 Périmètre : la fiche d'une activité du programme détaillé d'un camp. Les activités non déclarées J+S (AA = AdA = VC ; une AS est un type d'AA) (mainteneur) sont relues avec les N communs (N1 à N5) et les Q de forme, sans critères J+S (voir Pièges) ; qu'elles soient écrites comme toute activité est officiel (`msds-hering-camps#05-d-programme-detaille`) (revue RL-11). Le référentiel exige la date du camp : sans elle, demander avant de juger (voir « Selon la date »).

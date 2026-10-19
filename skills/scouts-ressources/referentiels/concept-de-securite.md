@@ -13,7 +13,7 @@ parametres:
 canevas: []  # aucun canevas officiel de CdS ; exemple de CdS de randonnée : cudesch-securite#28, fiche d'activité : cudesch-modele-bloc-ac, cudesch-modele-bloc-sc
 sources: [msds-exigences-js-2027-camps, autre-canevas-ac-vierge, cudesch-camp-infos-urgence, cudesch-camp-reco-sous-tentes, cudesch-camp-reco-sous-toit, cudesch-cudeschin, cudesch-securite, js-aide-memoire-3x3-en-route, js-aide-memoire-prevention-accidents-sct, js-manuel-sport-de-camp-trekking, js-sdct-camp, js-sdct-eau, js-sdct-hiver, js-sdct-montagne, msds-autorisation-de-camp, msds-hering-camps, msds-reglement-de-camp, msds-thilo]
 inclut: []
-statut: relu
+statut: valide
 relu_le: 2026-10-18
 ---
 
