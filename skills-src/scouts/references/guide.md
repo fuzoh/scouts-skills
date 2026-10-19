@@ -11,17 +11,17 @@ Déduire du prompt, ou demander en une seule question : son rôle (responsable d
 Chaque parcours : thèmes à explorer, lectures (titres de `documents.md`), puis exemples de demandes à formuler ici.
 
 **Responsable d'unité (activités du samedi, premiers camps)**
-- Thèmes : le Profil du scoutisme (cinq relations, huit méthodes), la branche de ses enfants (âges, besoins, forme de groupe), planifier une activité ou un programme trimestriel, la sécurité au quotidien (activités à caractère dangereux, 3x3), la protection des enfants.
+- Thèmes : le Profil du scoutisme (cinq relations, huit méthodes), la branche de ses enfants (âges, besoins, cadre symbolique, progression), planifier une activité ou un programme trimestriel, jeux et gestion d'un groupe agité, la sécurité au quotidien (activités à caractère dangereux, 3x3), la prévention des abus et l'inclusion.
 - Lectures : Profil du scoutisme ; cudesch de sa branche ; cudesch, La sécurité ; cudeschin.
-- Demandes : « Explique-moi les huit méthodes scoutes avec un exemple pour des louveteaux » ; « Prépare une activité J+S de 90 minutes sur le thème de la forêt pour 20 éclais » ; « Quelles activités exigent un concept de sécurité ? »
+- Demandes : « Explique-moi les huit méthodes scoutes avec un exemple pour des louveteaux » ; « Prépare une activité J+S de 90 minutes sur le thème de la forêt pour 20 éclais » ; « Quelles activités exigent un concept de sécurité ? » ; « Mes louveteaux n'écoutent plus pendant les jeux, que faire ? »
 
 **Responsable de camp**
-- Thèmes : le calendrier administratif d'un camp (annonce, dossier, autorisation, clôture), le programme général et le dossier de camp, les activités J+S 2027 (part sportive, formes caractéristiques, périodes), le concept de sécurité global et par activité, la randonnée (temps de marche, points clés).
+- Thèmes : le calendrier administratif d'un camp (annonce, dossier, autorisation, clôture), le lieu, le matériel de prêt, la cuisine et le budget, le programme général et le dossier de camp, les activités J+S 2027 (part sportive, formes caractéristiques, périodes), le concept de sécurité global et par activité, la randonnée (temps de marche, points clés).
 - Lectures : Sardine ; Règlement de camp ; J+S 2027, exigences pour les camps scouts ; cudesch, La sécurité.
 - Demandes : « Fais-moi le calendrier des démarches pour un camp du 10 au 17 juillet 2027 » ; « Relis ce picasso » ; « Rédige le concept de sécurité de cette randonnée ».
 
 **Responsable de groupe (RG)**
-- Thèmes : son rôle dans l'autorisation de camp avec le coach, ce qu'il reçoit et quand, la conformité du programme à la branche, la cellule de crise et la Helpline.
+- Thèmes : son rôle dans l'autorisation de camp avec le coach, ce qu'il reçoit et quand, faire vivre la maîtrise (relève, recrutement, conflits), l'encadrement du groupe et les relations publiques, la cellule de crise et la Helpline.
 - Lectures : Alpha ; Sardine ; Règlement de camp ; Concept de protection PSA.
 - Demandes : « Que dois-je vérifier avant de signer l'autorisation de camp ? » ; « Quels délais le responsable de camp me doit-il ? »
 
@@ -31,7 +31,7 @@ Chaque parcours : thèmes à explorer, lectures (titres de `documents.md`), puis
 - Demandes : « Rédige une UA de 60 minutes sur le 3x3 pour un cours de base » ; « Relis cette UA, cours RU, branche Éclais » ; « Comment organiser la qualification de mon cours, séquencée ou en continu ? »
 
 **Coach J+S**
-- Thèmes : l'offre J+S et la BDNS, les exigences 2027 d'un camp (participants, encadrement, activités, offre), lire et évaluer un programme et un concept de sécurité, les domaines de sécurité et l'expert à consulter, la clôture et les présences.
+- Thèmes : les tâches du coach au fil de l'année (offre, BDNS, présences, SAPC), les exigences 2027 d'un camp (participants, encadrement, activités, offre), lire et évaluer un programme et un concept de sécurité, les domaines de sécurité et l'expert à consulter, la clôture et les présences.
 - Lectures : J+S 2027, exigences pour les camps scouts ; Manuel Sport de camp / Trekking (édition d'octobre 2026, règles 2027) ; Guide pour la réalisation d'offres J+S ; Sardine.
 - Demandes : « Ce programme de camp respecte-t-il les exigences J+S 2027 ? » ; « Combien de moniteurs pour 45 participants ? » ; « Qu'est-ce qui change pour moi au 01.01.2027 ? »
 

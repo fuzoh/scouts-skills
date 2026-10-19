@@ -42,7 +42,7 @@ Puis la méthode du verbe ; `references/documents.md` pour « Pour aller plus lo
 | `programme-camp` | picasso, programme général ou détaillé, dossier de camp | date du camp | `activite-js`, `concept-de-securite` |
 | `concept-de-securite` | CdS, matrice des risques, 3x3, activité à caractère dangereux, baignade | type (global, activité, randonnée), date du camp | aucun |
 
-Savoirs : index `savoirs/README.md` (colonne « sert à ») : camp, J+S 2026 et 2027, sécurité, protection, formation et qualification, Profil et branches. UA, programme de cours ou question sur un cours : charger aussi le descriptif du cours visé (`savoirs/formation-cours-*.md` : buts, objectifs numérotés, niveaux d'approfondissement).
+Savoirs : index `savoirs/README.md`, par rubrique (camp, J+S, sécurité, Profil et branches, jeux et sport, prévention et inclusion, groupe et maîtrise, formation) ; lire la rubrique, puis seulement le ou les fichiers dont la colonne « sert à » répond. Une branche : `branches.md` et `branche-<nom>.md`. UA, programme de cours ou question sur un cours : charger aussi le descriptif du cours visé (`savoirs/formation-cours-*.md` : buts, objectifs numérotés, niveaux d'approfondissement).
 
 Deux référentiels possibles sans livrable qui tranche : demander lequel. `inclut:` : charger le référentiel inclus seulement si la pièce est jointe ou demandée, sinon nommer l'exigence sans la juger. Livrable sans référentiel : le dire, répondre depuis `savoirs/`, aucun tableau N inventé.
 

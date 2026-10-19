@@ -11,6 +11,10 @@ Suite de `glossaire.md` : termes moins fréquents dans un document de camp ou de
 - **Financement des cours** — cours dès le cours de base subventionnés par l'OFAS pour les personnes de 30 ans ou moins l'année du cours.
 - **Grande manifestation** — manifestation scoute nationale d'au moins 100 participants, soumise à autorisation de la maîtrise fédérale.
 - **Modèle de formation MSdS** — document cadre : vue d'ensemble des cours, dispositions générales, descriptions de cours (conditions, buts, objectifs).
+- **CSAJ, congé jeunesse** — le Conseil suisse des activités de jeunesse diffuse l'attestation du congé jeunesse (art. 329e CO), jusqu'à 5 jours par an pour une activité de jeunesse bénévole.
+- **CLA-T** — centre logistique de l'armée à Thoune : prépare et livre le matériel de prêt J+S.
+- **ComPar** — comité des parents d'un groupe ; distinct du comité de groupe.
+- **CdP** — contrôle des présences d'une offre J+S dans la BDNS, à boucler avant la clôture.
 - **VAE** — valorisation des acquis de l'expérience : tableaux reliant expériences scoutes (RU, RG, formateur) et compétences attestables hors du scoutisme.
 
 ## Camp et sport
@@ -24,6 +28,11 @@ Suite de `glossaire.md` : termes moins fréquents dans un document de camp ou de
 - **Profil du scoutisme** — brochure des fondements pédagogiques du MSdS : branches, relations, méthodes.
 - **Relations scoutes** — cinq domaines de développement global : personnalité, corps, spirituel, autres, environnement.
 - **Méthodes scoutes** — huit outils pédagogiques qui construisent les programmes et soutiennent les relations.
+- **CSA** — contrôle de sécurité aquatique : test exigé pour se baigner en eau profonde en groupe.
+- **SSS** — Société suisse de sauvetage : brevets et modules (pool, lac, rivière) exigés selon l'activité aquatique.
+- **NORDA** — démarche de lecture de carte pour débutants en course d'orientation (brochure J+S).
+- **AAC** — acquérir, appliquer, créer : trois degrés d'apprentissage d'un mouvement (J+S) ; à ne pas confondre avec GAG.
+- **Modèle 6+1** — grille OFSPO pour adapter une activité à des personnes en situation de handicap.
 - **Inclusion** — les organisations lèvent les barrières, la personne n'a pas à s'adapter ; va au-delà de l'intégration.
 
 ## Cadres et éthique
@@ -31,6 +40,8 @@ Suite de `glossaire.md` : termes moins fréquents dans un document de camp ou de
 - **Éthique dans le sport** — valeurs et charte de Swiss Olympic et de l'OFSPO, base de la conduite des moniteurs J+S.
 - **Boussole éthique** — outil de Swiss Olympic pour classer des situations (dont la zone grise) et choisir l'attitude.
 - **Règles de comportement** — huit règles J+S pour la formation de base et continue (respect, non-violence, exemplarité, prévention addictions et dopage).
+- **RISC** — grille J+S pour juger un contact physique : rôle, information, sens de l'autodétermination, communication.
+- **Twitterbox** — boîte aux lettres de camp, anonyme, pour la participation et la santé psychique des participants.
 - **Charte de cours** — charte issue de la discussion cadres-participants, fondée sur les règles de comportement et signée ensemble.
 - **Climat d'apprentissage** — au cœur du modèle d'enseignement J+S : autodétermination, motivation, relations, environnement.
 - **Physis** — dimension physique de la performance : prédispositions, appareil locomoteur, énergie, échauffement.
@@ -47,4 +58,15 @@ Suite de `glossaire.md` : termes moins fréquents dans un document de camp ou de
 - **Exigences minimales** — conditions déduites des objectifs de formation pour une qualification positive, chacune avec 2 à 4 indicateurs observables.
 - **Accompagnement** — suivi et conseil des apprenants, y compris mesures de formation continue proposées en fin de cours.
 - **Apprentissage en mouvement (FRTE)** — méthodes pour cours théoriques d'adultes en quatre phases : formulation, recherche, traitement, entraînement.
+- **MPE** — module de perfectionnement expert J+S SdC/T, offre annuelle.
+- **QUALA** — petit manuel cofor pour planifier et réaliser un cours RG.
 - **Séquences d'apprentissage numériques (SA)** — séquences numériques J+S utilisables avant, pendant et après le cours.
+
+## Branches et vie d'unité
+
+- **RPA** — responsable de patrouille adjoint : seconde et supplée le RP.
+- **Sizaine** — petit groupe fixe de louveteaux d'âges mélangés, mené par un sizenier ou une sizenière.
+- **Steps** — trois étapes de progression des Éclais : être présent, participer, prendre des responsabilités ; distinctes des spécialités.
+- **Totémisation** — rituel d'attribution d'un totem ; déconseillée chez les Castors.
+- **Triangle** — méthode de planification des Picos en trois phases : développement, mise en œuvre, rétrospective.
+- **Entreprise** — chez les Picos, toute activité préparée et menée par l'équipe, du coin aménagé au camp.

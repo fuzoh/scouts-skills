@@ -13,6 +13,11 @@ Catalogue pour « Pour aller plus loin » et `guide.md` : titre, usage, accès. 
 | L'essentiel du MSdS et de J+S pour les moniteurs (newsletter octobre 2026) (2027) | Rappel annuel : participants, subventions, sécurité, nouveautés 2027 | pfadi.swiss, téléchargements |
 | Guide pour la réalisation d'offres J+S Sport de camp/Trekking (2023) | Offre J+S, encadrement, décompte ; chiffres à confirmer pour 2027 | pfadi.swiss, téléchargements |
 | Alpha, aide-mémoire du responsable de groupe | Rôle du RG : groupe, maîtrise, camps, autorisation | pfadi.swiss, téléchargements |
+| Rapports de reconnaissance sous tentes et sous toit, bail pour place de camp, liste d'équipement (cudesch) | Choisir et réserver un lieu de camp, équiper les participants | pfadi.swiss, téléchargements |
+| Guide concernant le matériel de prêt J+S (OFSPO, 2025) | Commande dans la BDNS, délais, livraison et retour du matériel | pfadi.swiss, téléchargements |
+| Faire la cuisine au camp (aide-mémoire J+S) et Budget de camp (modèle cudesch) | Menus, quantités, hygiène ; postes du budget | pfadi.swiss, téléchargements |
+| Camps à l'étranger (brochure MSdS) et check-list camps à l'étranger | Délais dès 18 mois avant, assurances, MiData, matériel J+S, contacts locaux | pfadi.swiss, téléchargements |
+| Fiche et attestation de congé jeunesse (CSAJ, art. 329e CO) | Demander un congé à l'employeur pour encadrer un camp | pfadi.swiss, téléchargements |
 
 ## Activités J+S et programme
 
@@ -23,6 +28,11 @@ Catalogue pour « Pour aller plus loin » et `guide.md` : titre, usage, accès. 
 | Sport de camp/Trekking, Camp (brochure J+S, 2014) (2026) | Ancien système AC / SC, programme de camp J+S jusqu'à fin 2026 | Extranet J+S |
 | cudeschin (manuel numérique abrégé) | Planifier, réaliser, évaluer une activité, une séance, un programme ; repères J+S | cudeschin.pbs.ch |
 | Sport des enfants J+S, bases théoriques et Jouer | Conduite d'un jeu, intensité, échauffement, feedback, climat d'apprentissage | Extranet J+S |
+| Sport de camp/Trekking, exemples d'activités et de programme général de camp d'été (J+S, 09/2026) (2027) | Fiches d'activité complètes, dossier de randonnée avec nuitée, grille de programme | Extranet J+S |
+| Sport des enfants J+S, les perturbations dans l'enseignement | Prévenir et gérer un groupe qui déraille, enfants difficiles | Extranet J+S |
+| Formes de tournois (J+S) ; J+S-Kids, La fête des jeux | Choisir et dérouler un tournoi ou une fête des jeux | Extranet J+S ; pfadi.swiss, téléchargements |
+| Des activités J+S de qualité, jeux de cartes (Transmettre, Encourager, Innover) | Préparer ou évaluer une activité | Extranet J+S |
+| Physis, exemples pratiques ; Psyché ; L'apprentissage dans le sport (J+S) | Condition physique par jeux, motivation et confiance, apprentissage d'un mouvement | Extranet J+S |
 
 ## Sécurité et protection
 
@@ -35,6 +45,12 @@ Catalogue pour « Pour aller plus loin » et `guide.md` : titre, usage, accès. 
 | Aide-mémoire 3 × 3 activités itinérantes (J+S) | Appliquer le 3x3 à une randonnée | pfadi.swiss, téléchargements |
 | Calcul de temps de marche (modèle Excel du cudesch) | Temps de marche en kilomètres-effort | pfadi.swiss, téléchargements |
 | Concept de protection, prévention des abus sexuels (MSdS, 2021) | Dispositif PSA, Helpline, conduite en cas de soupçon | pfadi.swiss, téléchargements |
+| Outil pour la prévention des abus sexuels dans le scoutisme et collection jeux de prévention (MSdS) | Situations à risque au quotidien, sept points de prévention, jeux pour apprendre à dire non | pfadi.swiss, téléchargements |
+| Twitterbox, document explicatif (MSdS) | Participation et santé psychique en camp | pfadi.swiss, téléchargements |
+| Facteur humain, activités de plein air en sécurité (dépliant J+S) | Pièges de décision, renoncer, dynamique de groupe | pfadi.swiss, téléchargements |
+| Aide-mémoire Sécurité Eau (J+S) et cartes Water Safety (BPA) | Surveillance et conduite d'une activité au bord de l'eau | pfadi.swiss, téléchargements |
+| Aide-mémoire Technique de corde (J+S) et indications pour les constructions de camp (cudesch) | Tyrolienne, pont de singe, contrôles ; constructions de camp | pfadi.swiss, téléchargements |
+| Aide-mémoire J+S Orientation et Météorologie ; Course d'orientation NORDA | Lecture de carte, boussole, météo et orage, CO avec des enfants | pfadi.swiss, téléchargements |
 
 ## Formation et cours
 
@@ -50,6 +66,13 @@ Catalogue pour « Pour aller plus loin » et `guide.md` : titre, usage, accès. 
 | Structure de la formation J+S SdC/T (BDNS) | Cours J+S : cours d'introduction, responsable de camp, modules 2027 | nds.baspo.admin.ch |
 | Le modèle de formation de Macolin (J+S, 2019) | Fondements pédagogiques de la formation J+S | Extranet J+S |
 | Règles de comportement dans la formation J+S (poster) et Charte du cours (modèle) | Charte signée au début d'un cours | Extranet J+S |
+| Communication, modèles et applications (J+S) | Écoute, messages je, conflit, parole en public | Extranet J+S |
+| Apprentissage en mouvement ; L'emploi d'images dans l'apprentissage (J+S) | Animer la théorie d'une UA | Extranet J+S |
+| Check-lists cofor : cours de base, cours de RU, approfondissements de branche | Contenus à couvrir, durées minimales, confirmation du CàF | pfadi.swiss, téléchargements |
+| Pilote ; Ticket ; directive sur le financement des cours fédéraux ; budget et décompte de cours | Administration et finances d'un cours, inscription | pfadi.swiss, téléchargements |
+| Le projet au Pano, mémento de combinaison avec un module J+S ; QUALA (cours RG) | Spécificités des cours Panorama et RG | pfadi.swiss, téléchargements |
+| Manuel J+S pour les experts ; Accompagner et conseiller lors d'une activité J+S | Rôle et posture de l'expert J+S | Extranet J+S |
+| Valoriser les acquis du scoutisme dans le monde du travail (cofor) | Décrire ses compétences scoutes dans un CV ou un entretien | pfadi.swiss, téléchargements |
 
 ## Profil, branches et méthodes
 
@@ -60,5 +83,19 @@ Catalogue pour « Pour aller plus loin » et `guide.md` : titre, usage, accès. 
 | Thilo, manuel scout de Suisse (branche Éclais) | Techniques scoutes et connaissances de base des éclais | thilo.scouts.ch/fr |
 | cudesch, glossaire des dénominations scoutes (édition 2018) | Vocabulaire de l'édition 2018 ; vérifier les termes actuels dans le Profil et le modèle de formation | pfadi.swiss, téléchargements |
 | Éthique dans le sport, boussole éthique (Swiss Olympic / J+S, 2025) | Dilemmes éthiques, climat d'équipe, règles de comportement | Extranet J+S |
+| cudesch, Programme : l'essence du scoutisme | Thème, fil rouge, évaluation, promesse, cérémonies | cudesch.scout.ch/fr |
+| cudesch, Le Scoutisme : notre identité ; organigramme du MSdS | Histoire, loi et promesse, organisation du MSdS | cudesch.scout.ch/fr ; pfadi.swiss, téléchargements |
+| Étincelle, mémento pour les responsables de patrouille (MSdS) | Rôle du RP, activité de patrouille | pfadi.swiss, téléchargements |
+| cudesch, SMT : Scout·e·s Malgré Tout ; flyer SMT | Créer et mener un groupe SMT | cudesch.scout.ch/fr ; pfadi.swiss, téléchargements |
+| Ouvert à tou·te·s, diversité et inclusion (MSdS) ; Sport et handicap (J+S) | Accueil de tous, adapter une activité | pfadi.swiss, téléchargements ; Extranet J+S |
+
+## Groupe, maîtrise et coach
+
+| Document | Sert à | Où |
+|---|---|---|
+| L'encadrement au sein du scoutisme (MSdS) | Comité des parents, coach, conseillers : qui épaule le groupe | pfadi.swiss, téléchargements |
+| Coach J+S : Préserver l'équipe ; Préparer l'avenir (J+S) | Faire vivre une maîtrise, relève et recrutement | Extranet J+S |
+| Manuel des coachs J+S et check-list coach ; check-lists SAPC | Tâches du coach au fil de l'année, BDNS, présences, SAPC | Extranet J+S |
+| cudesch, Relations publiques dans le scoutisme | Communication du groupe, médias locaux, droit à l'image | pfadi.swiss, téléchargements |
 
 « pfadi.swiss, téléchargements » = espace Publications et téléchargements de pfadi.swiss/fr, recherche par titre. « Extranet J+S » = documents remis en cours J+S, aussi sur jeunesseetsport.ch.
