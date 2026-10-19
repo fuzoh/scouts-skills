@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/fuzoh/scouts-skills/compare/v0.3.0...v0.3.1) (2026-10-19)
+
+
+### Corrections
+
+* **site:** menu sans décalage, installation web en premier ([5edd76f](https://github.com/fuzoh/scouts-skills/commit/5edd76f774b3d501b3f8b0e4c89de1271cca06ad))
+
 ## [0.3.0](https://github.com/fuzoh/scouts-skills/compare/v0.2.0...v0.3.0) (2026-10-19)
 
 

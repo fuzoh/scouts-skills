@@ -2,7 +2,7 @@
 
 Deux skills d'assistant IA pour les responsables, formateur·ices, coachs et experts J+S du scoutisme suisse. Ils s'appuient sur les ressources officielles : MSdS, commission formation, Jeunesse+Sport et cudesch. Tout est en français.
 
-Version actuelle : 0.3.0 <!-- x-release-please-version -->
+Version actuelle : 0.3.1 <!-- x-release-please-version -->
 
 - **`scouts`** (principal) : répond à une question de règle, de délai ou de chiffre, explique une notion, corrige ou conçoit un document (activité J+S, unité d'apprentissage, programme de camp, concept de sécurité) et guide qui débute. Léger, sans corpus.
 - **`scouts-ressources`** : la même méthode, avec le corpus officiel embarqué. Il cite le texte exact, section par section. Pour qui veut la source.
