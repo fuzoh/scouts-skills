@@ -149,3 +149,17 @@ def test_page_des_versions(toy: Path, tmp_path: Path):
     assert "Changelog" not in page
     assert '<a href="https://exemple.ch/compare">0.3.0</a>' in page
     assert "<strong>skills:</strong> nouvelle règle" in page
+
+
+def test_version_et_date_dans_l_en_tete(toy: Path, tmp_path: Path):
+    out = tmp_path / "out"
+    site.build_site(out)
+    assert '<span class="version" title="Version 1.2.3">v1.2.3</span>' in _html(out, "index")
+    (toy / "CHANGELOG.md").write_text(
+        "# Changelog\n\n## [1.2.3](https://exemple.ch/compare) (2026-11-02)\n\n"
+        "## 1.2.2 (2026-10-01)\n", encoding="utf-8")
+    site.build_site(out)
+    index = _html(out, "index")
+    assert "v1.2.3 · 02.11.2026" in index and "publiée le 02.11.2026" in index
+    assert site.release_date(toy / "CHANGELOG.md", "1.2.2") == "01.10.2026"
+    assert site.release_date(toy / "CHANGELOG.md", "9.9.9") == ""

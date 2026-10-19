@@ -53,60 +53,64 @@ HREF_RE = re.compile(r'href="([^"]*)"')
 CSS = """\
 :root {
   color-scheme: light dark;
-  --fond: #f4f6f3; --carte: #ffffff; --texte: #1d2521; --doux: #5b675f; --bord: #dde3dc;
-  --accent: #1f6b46; --accent-fond: #e5f1ea; --code-fond: #eef2ee; --ombre: 0 1px 3px rgb(0 0 0 / .06), 0 8px 24px rgb(0 0 0 / .05);
+  /* violet du MSdS (pfadi.swiss : --color-violet-lighter #6e1347, --color-red #521d3a, --color-violet #af486d) */
+  --fond: #f8f7f6; --carte: #ffffff; --texte: #201f20; --doux: #6a6064; --bord: #e2dcdf;
+  --accent: #6e1347; --accent-fort: #521d3a; --accent-clair: #af486d; --accent-fond: #f5e9ef; --code-fond: #f3eef1;
+  --ombre: 0 1px 2px rgb(32 31 32 / .06); --rayon: 3px;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --fond: #121714; --carte: #1a211d; --texte: #e3e9e4; --doux: #9daaa1; --bord: #2c3630;
-    --accent: #6fcf9a; --accent-fond: #1f3127; --code-fond: #232c27; --ombre: none;
+    --fond: #161214; --carte: #1f191c; --texte: #ece6e9; --doux: #ab9fa5; --bord: #3a2f35;
+    --accent: #e3a3c0; --accent-fort: #f0c4d8; --accent-clair: #c76a92; --accent-fond: #3a2230; --code-fond: #2a2226; --ombre: none;
   }
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--fond); color: var(--texte); font: 1.0625rem/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 a { color: var(--accent); text-underline-offset: .2em; text-decoration-thickness: 1px; }
-a:hover { text-decoration-thickness: 2px; }
-:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+a:hover { color: var(--accent-fort); text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid var(--accent-clair); outline-offset: 2px; border-radius: var(--rayon); }
 .saut { position: absolute; left: -999px; }
 .saut:focus { position: static; display: block; padding: .5rem 1rem; background: var(--carte); }
-.cadre { max-width: 52rem; margin: 0 auto; padding: 0 1.25rem; }
-header { background: var(--carte); border-bottom: 1px solid var(--bord); }
+.cadre { max-width: 1280px; margin: 0 auto; padding: 0 1.5rem; }
+header { background: var(--carte); border-top: 4px solid var(--accent); border-bottom: 1px solid var(--bord); }
 header .cadre { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1.5rem; padding-block: .9rem; }
 .marque { margin: 0; font-weight: 700; font-size: 1.1rem; }
 .marque a { color: var(--texte); text-decoration: none; }
-.marque span { display: block; font-weight: 400; font-size: .85rem; color: var(--doux); }
-header nav ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .3rem; }
-header nav a { display: block; padding: .3rem .75rem; border-radius: 999px; color: var(--texte); text-decoration: none; font-size: .95rem; }
-header nav a:hover { background: var(--accent-fond); }
+.marque .version { margin-left: .5rem; padding: .05rem .45rem; border: 1px solid var(--bord); border-radius: var(--rayon); background: var(--accent-fond); color: var(--accent); font-size: .8rem; font-weight: 600; white-space: nowrap; vertical-align: .1em; }
+.marque .sous-titre { display: block; font-weight: 400; font-size: .85rem; color: var(--doux); }
+header nav ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .2rem; }
+header nav a { display: block; padding: .3rem .7rem; border-radius: var(--rayon); color: var(--texte); text-decoration: none; font-size: .95rem; }
+header nav a:hover { background: var(--accent-fond); color: var(--accent); }
 header nav a[aria-current="page"] { background: var(--accent); color: var(--carte); font-weight: 600; }
-main { max-width: calc(52rem - 2.5rem); background: var(--carte); margin: 2rem auto; padding: 2rem 2.5rem 2.5rem; border: 1px solid var(--bord); border-radius: 14px; box-shadow: var(--ombre); }
+main { max-width: calc(1280px - 3rem); background: var(--carte); margin: 1.5rem auto; padding: 2rem 2.5rem 2.5rem; border: 1px solid var(--bord); border-radius: var(--rayon); box-shadow: var(--ombre); }
 .page-index main > h1 { font-size: 2.4rem; }
 .page-index main > h1 + p { font-size: 1.2rem; color: var(--doux); }
 h1, h2, h3 { line-height: 1.25; }
-h1 { font-size: 2rem; margin: 0 0 1.25rem; letter-spacing: -.01em; }
+h1 { font-size: 2rem; margin: 0 0 1.25rem; letter-spacing: -.01em; color: var(--accent-fort); }
 h2 { font-size: 1.4rem; margin: 2.25rem 0 .75rem; padding-top: 1.25rem; border-top: 1px solid var(--bord); }
 h3 { font-size: 1.1rem; margin: 1.75rem 0 .5rem; }
 li { margin: .3rem 0; }
-li::marker { color: var(--accent); }
+li::marker { color: var(--accent-clair); }
 strong { font-weight: 650; }
-table { border-collapse: separate; border-spacing: 0; display: block; width: fit-content; max-width: 100%; overflow-x: auto; margin: 1.25rem 0; border: 1px solid var(--bord); border-radius: 10px; font-size: .95rem; }
+table { border-collapse: separate; border-spacing: 0; display: block; width: fit-content; max-width: 100%; overflow-x: auto; margin: 1.25rem 0; border: 1px solid var(--bord); border-radius: var(--rayon); font-size: .95rem; }
 th, td { padding: .55rem .8rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--bord); }
 tr:last-child td { border-bottom: 0; }
 th { background: var(--accent-fond); font-weight: 600; }
 tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--fond) 50%, transparent); }
-code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .9em; background: var(--code-fond); padding: .1em .35em; border-radius: 5px; overflow-wrap: anywhere; }
-pre { overflow-x: auto; padding: 1rem 1.15rem; background: var(--code-fond); border: 1px solid var(--bord); border-radius: 10px; line-height: 1.5; }
+code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .9em; background: var(--code-fond); padding: .1em .35em; border-radius: 2px; overflow-wrap: anywhere; }
+pre { overflow-x: auto; padding: 1rem 1.15rem; background: var(--code-fond); border: 1px solid var(--bord); border-radius: var(--rayon); line-height: 1.5; }
 pre code { background: none; padding: 0; overflow-wrap: normal; }
-blockquote { margin: 1.25rem 0; padding: .75rem 1.1rem; border-left: 4px solid var(--accent); background: var(--accent-fond); border-radius: 0 10px 10px 0; }
+blockquote { margin: 1.25rem 0; padding: .75rem 1.1rem; border-left: 4px solid var(--accent); background: var(--accent-fond); border-radius: 0 var(--rayon) var(--rayon) 0; }
 footer { color: var(--doux); font-size: .875rem; padding-bottom: 2.5rem; }
 footer p { margin: .4rem 0; }
 footer a { color: inherit; }
-@media (max-width: 52rem) { main { margin-inline: 1.25rem; } }
+@media (max-width: 1280px) { main { margin-inline: 1.5rem; } }
 @media (max-width: 40rem) {
-  main { margin: 0; border-radius: 0; border-inline: 0; padding: 1.5rem 1.25rem 2rem; }
+  .cadre { padding: 0 1.25rem; }
+  main { margin: 0; border-inline: 0; padding: 1.5rem 1.25rem 2rem; }
   .page-index main > h1 { font-size: 1.9rem; }
   h1 { font-size: 1.65rem; }
-  header nav a { padding: .2rem .6rem; font-size: .9rem; }
+  header nav a { padding: .2rem .55rem; font-size: .9rem; }
 }
 """
 
@@ -125,7 +129,7 @@ GABARIT = """\
 <a class="saut" href="#contenu">Aller au contenu</a>
 <header>
 <div class="cadre">
-<p class="marque"><a href="index.html">{site}</a><span>Assistants du scoutisme suisse</span></p>
+<p class="marque"><a href="index.html">{site}</a>{version_badge}<span class="sous-titre">Assistants du scoutisme suisse</span></p>
 <nav aria-label="Menu principal">
 <ul>
 {menu}
@@ -245,8 +249,18 @@ def render_menu(pages: list[Page], current: str) -> str:
     return "\n".join(items)
 
 
-def render_page(page: Page, pages: list[Page], body_html: str, version: str) -> str:
+def render_version_badge(version: str, published: str) -> str:
+    """Pastille d'en-tête : `v0.2.0 · 19.10.2026` (date omise si inconnue)."""
+    if not version:
+        return ""
+    label = f"v{version}" + (f" · {published}" if published else "")
+    title = f"Version {version}" + (f", publiée le {published}" if published else "")
+    return f' <span class="version" title="{html.escape(title, quote=True)}">{html.escape(label)}</span>'
+
+
+def render_page(page: Page, pages: list[Page], body_html: str, version: str, published: str = "") -> str:
     return GABARIT.format(
+        version_badge=render_version_badge(version, published),
         title=html.escape(page.title),
         name=page.name,
         site=SITE_NAME,
@@ -378,6 +392,15 @@ def render_sources(sources: list[dict[str, Any]], env: dict[str, Any] | None = N
 # Page des versions
 # --------------------------------------------------------------------------- #
 
+def release_date(path: Path, version: str) -> str:
+    """Date `JJ.MM.AAAA` de l'entrée `## [version](…) (AAAA-MM-JJ)` de `CHANGELOG.md`, "" si absente."""
+    if not path.is_file() or not version:
+        return ""
+    pattern = rf"^## \[?{re.escape(version)}\]?(?:\([^)]*\))? \((\d{{4}}-\d{{2}}-\d{{2}})\)"
+    m = re.search(pattern, path.read_text(encoding="utf-8"), re.MULTILINE)
+    return _date_fr(m.group(1)) if m else ""
+
+
 def render_changelog(path: Path, env: dict[str, Any] | None = None) -> str:
     """HTML de `CHANGELOG.md` sans son titre `# …` ; message d'attente s'il n'existe pas."""
     if not path.is_file():
@@ -398,6 +421,7 @@ def build_site(out: Path) -> list[Path]:
         if required not in names:
             raise SiteError(f"page `site/{required}.md` manquante")
     version = reg.project_version()
+    published = release_date(reg.ROOT / "CHANGELOG.md", version)
     out.mkdir(parents=True, exist_ok=True)
     written: list[Path] = []
     for page in pages:
@@ -408,7 +432,7 @@ def build_site(out: Path) -> list[Path]:
         elif page.name == CHANGELOG_PAGE:
             body += render_changelog(reg.ROOT / "CHANGELOG.md", env)
         path = out / f"{page.name}.html"
-        path.write_text(render_page(page, pages, body, version), encoding="utf-8")
+        path.write_text(render_page(page, pages, body, version, published), encoding="utf-8")
         written.append(path)
     return written
 
