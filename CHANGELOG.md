@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.6.0](https://github.com/fuzoh/scouts-skills/compare/v0.5.0...v0.6.0) (2026-10-19)
+
+
+### Nouveautés
+
+* **site:** installation des skills par un agent depuis un prompt ([e522b91](https://github.com/fuzoh/scouts-skills/commit/e522b91fdd2854761cd1b6b281953aaf7f9104b0))
+
+
+### Documentation
+
+* roadmap après l'installation par prompt ([a0ebc57](https://github.com/fuzoh/scouts-skills/commit/a0ebc57a85c1eaff0467c571b0620734d654e7cb))
+
 ## [0.5.0](https://github.com/fuzoh/scouts-skills/compare/v0.4.0...v0.5.0) (2026-10-19)
 
 
