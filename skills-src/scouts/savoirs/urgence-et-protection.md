@@ -1,7 +1,7 @@
 ---
-titre: Protection, abus, crise, médias et premiers secours
-sert_a: Que faire en cas de crise, de doute ou de soupçon d'abus ; ce que prévoit le concept de protection PSA du MSdS ; qui parle aux médias ; pharmacie et médicaments.
-derive_de: [msds-concept-protection-psa, cudesch-etre-responsable, cudesch-securite, cudesch-cudeschin, js-sdct-hiver, "concepts: psa, premiers-secours"]
+titre: Urgence, crise, protection et premiers secours
+sert_a: Que faire en cas d'accident (schéma ORA, annonce, numéros officiels, aide-mémoire J+S), de crise, de doute ou de soupçon d'abus ; Helpline, cellule de crise, concept de protection PSA, médias, pharmacie et médicaments.
+derive_de: [msds-concept-protection-psa, cudesch-etre-responsable, cudesch-securite, cudesch-cudeschin, msds-thilo, js-sdct-hiver, "concepts: psa, premiers-secours, securite"]
 statut: valide
 ---
 
@@ -9,15 +9,58 @@ statut: valide
 
 | Situation | Réflexe |
 |---|---|
-| Urgence vitale ou accident | numéros de secours (112, 117, 118, 144, 145, 1414), puis informer RG et coach |
-| Crise ou doute | Helpline scoute 0800 22 36 39 (étranger : +41 58 058 88 99), qui active la cellule de crise |
+| Urgence vitale ou accident | numéros officiels (ci-dessous), puis informer RG et coach |
+| Crise ou doute | Helpline scoute, qui active la cellule de crise |
 | Soupçon d'abus | Helpline et professionnel, jamais d'enquête soi-même |
 
-Numéros complets : securite-urgence. Aucune autre démarche (média, administration, assurance) ne passe avant la personne concernée.
+Aucune autre démarche (média, administration, assurance) ne passe avant la personne concernée.
+
+## Schéma ORA, le « feu de signalisation » (cudeschin)
+
+- Observer : garder son calme, vue d'ensemble ; que s'est-il passé, qui est impliqué, qui est concerné.
+- Réfléchir : autres dangers pour la victime, les aidants, d'autres personnes ?
+- Agir : se protéger soi-même ; alarmer ; sécuriser le lieu (éviter d'autres accidents) ; donner les premiers soins.
+
+Quelqu'un de la maîtrise encadre au loin les participants non concernés. Un membre prend la conduite, délègue et coordonne sans s'impliquer dans les secours (cudesch Sécurité). Une fois la situation sous contrôle, informer cellule de crise, RG, coach. Le schéma est une ligne directrice : agir selon la situation.
+
+## Schéma d'annonce
+
+| Question | Contenu |
+|---|---|
+| Où ? | lieu de l'accident |
+| Qui ? | nom et numéro de téléphone |
+| Quoi ? | genre d'accident |
+| Quand ? | moment de l'accident |
+| Combien ? | nombre de personnes, genre de blessures |
+| Autres ? | blessé coincé, essence qui coule, passage à niveau... |
+
+Quelqu'un indique le chemin aux secours si possible. La centrale reste en ligne jusqu'à leur arrivée.
+
+## Numéros officiels
+
+| Service | Numéro |
+|---|---|
+| Urgences (ambulance) | 144 |
+| Urgences internationales | 112 |
+| Rega | 1414 (de l'étranger : +41 333 333 333) |
+| Police | 117 |
+| Pompiers | 118 |
+| Infos poisons, consultations d'urgence (Tox Info Suisse) | 145 |
+| Helpline scoute | 0800 22 36 39 (de l'étranger : +41 58 058 88 99) |
+
+Hiver : n'hésiter pas à appeler la Rega, mieux vaut une fois de trop que pas assez (brochure Hiver, qui cite pour le Valais le 144). Le réseau mobile n'est pas fiable : connaître le téléphone fixe le plus proche.
+
+## Transport et maladie
+
+Soins urgents : appeler l'ambulance plutôt que conduire sous stress. Pour une maladie (fièvre, gastro), décider avec bon sens jusqu'où la maîtrise gère ; conseil médical en cas de doute.
+
+## Aide-mémoire J+S en cas d'urgence
+
+À emporter pour toute activité dangereuse ; gratuit auprès de l'office cantonal J+S. Trois parties : ordre d'alerte (remis à ceux qui organisent les secours), procès-verbal du patient (reste auprès de lui, transmis aux secours), aide-mémoires pour les sauveteurs. Une partie se remplit à l'avance.
 
 ## Quand un événement est une crise (cudesch Sécurité)
 
-Le MSdS place le seuil bas : la crise est tout événement où les responsables sont dépassés et ont besoin de conseil ou de soutien, en particulier :
+Seuil bas : tout événement où les responsables sont dépassés et ont besoin de conseil ou de soutien, en particulier :
 - accidents graves et catastrophes naturelles (blessés graves, inondations, avalanches, incendies) ;
 - actes punissables ;
 - agressions sexuelles ;
@@ -29,7 +72,7 @@ Dès que police ou secours sont intervenus, la cellule de crise doit être infor
 
 ## Cellule de crise et Helpline
 
-Chaque association cantonale et le MSdS ont une cellule de crise, formée de scouts expérimentés et de professionnels, disponible 24 heures sur 24 pour soutenir les responsables : suite des opérations, communication interne et externe, encadrement psychologique du groupe. L'alarme passe par la Helpline scoute, gérée par une entreprise professionnelle, joignable en permanence : elle recueille les données, peut alerter ambulance, pompiers et police, et contacte la cellule de crise, qui rappelle ensuite les personnes qui ont donné l'alarme.
+Chaque association cantonale et le MSdS ont une cellule de crise (scouts expérimentés et professionnels), disponible 24 h sur 24 : suite des opérations, communication interne et externe, encadrement psychologique du groupe. L'alarme passe par la Helpline scoute, gérée par une entreprise professionnelle, joignable en permanence : elle recueille les données, peut alerter ambulance, pompiers et police, et contacte la cellule de crise, qui rappelle ensuite les personnes qui ont donné l'alarme.
 
 ## Contacts avec les médias
 

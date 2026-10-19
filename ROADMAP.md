@@ -87,6 +87,8 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] Premiers retours du mainteneur (`pilote/retours-en-vrac.md`) intégrés : renommage `scouts` / `scouts-ressources`, cadrage silencieux (plus de ligne de plan), jeu 2027 par défaut, réponse univoque (dossier de camp : 4 semaines), pas de provenance entre parenthèses ni de mention du skill, « Pour aller plus loin », verbe guider (`references/guide.md`), catalogue `references/documents.md`, savoir `formation-rqa.md` (qualification comme outil pédagogique) ; les mêmes règles de posture appliquées à `scouts-ressources` ; `just zips`, `just install`, `just install-ressources`
 - [x] (2026-10-18 : tout relu, 21 fichiers passés `valide`, tag `v0.1.0`) Mainteneur : second tour de tests de `scouts.zip` (grille `pilote/tests-manuels.md` mise à jour : 0.1, 0.2, 0.4, 0.5, 2.1, 2.2, 3.1, 4.4) ; relire les `brouillon` (points signalés par les agents : RG / responsable de camp, âges J+S 5-20 ans, quota 36/+12 pour 2027, délais Sardine non ingérés, facteurs kme) et le nouveau `formation-rqa.md`
 - [x] Revue de contenu post-v0.1.0 intégrée (2026-10-18) : marche prudente avec/sans bagages, gilets et exception CPR, numéros d'urgence, jeux 2026/2027, délais, formation et glossaires corrigés ; points incertains arbitrés dans `DECISIONS.md`. Dérivés alignés, inventaire/index régénérés, 102 tests réussis, deux packs reconstruits. Douze cas manuels de non-régression ajoutés, pas encore exécutés.
+- [x] (2026-10-19) Buts, objectifs numérotés, conditions et niveaux d'approfondissement de tous les cours du modèle de formation 2027 : `savoirs/formation-cours-{base,continue,cadres}.md` (`brouillon`), à nombre de fichiers constant (42) ; plafond 1 200 mots, 2 500 pour ces trois fichiers ; fusions camp, urgence + protection, activite-js 4 → 3 (DECISIONS « Buts et objectifs des cours »)
+- [ ] Mainteneur : relire les trois `formation-cours-*.md` contre le modèle de formation et les passer `valide`
 - [ ] Routine : re-dériver un dossier de `scouts/referentiels/` quand `relu_le` de son référentiel `referentiels/` change
 
 ## Phase 6 — Publication  (grill du 2026-10-19, briefing : `docs/briefing-publication.md`)
@@ -113,7 +115,7 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [ ] Routine de mise à jour documentée
 
 ## Prochaine action
-Corriger dans le registre les 40 `url` `pfadi.swiss/.../downloads/detail/N/` en 404 (prendre l'URL avec slug) et réingérer `msds-illustrations-profil` ; tester `pi install git:github.com/fuzoh/scouts-skills` ; tests manuels 8.1–8.12.
+Relire `skills-src/scouts/savoirs/formation-cours-*.md` (numéros d'objectifs, verbes, niveaux) puis les passer `valide`. Ensuite : corriger dans le registre les 40 `url` `pfadi.swiss/.../downloads/detail/N/` en 404 (prendre l'URL avec slug) et réingérer `msds-illustrations-profil` ; tester `pi install git:github.com/fuzoh/scouts-skills` ; tests manuels 8.1–8.12.
 
 Ancien état (2026-10-19, avant le push) : Le mainteneur relit le site (`uv run site --out build/site`, puis ouvrir `build/site/index.html`), commite l'arbre en un seul commit initial (historique réécrit, 2026-10-19) et pose le tag `v0.2.0`. Ensuite : créer `fuzoh/scouts-skills`, pousser `main` et `v0.2.0`, appliquer `docs/publication-reglages.md` (dont la release `v0.2.0`), vérifier la PR de release-please, corriger les URL de la veille. Tests manuels 8.1–8.12 toujours à faire.
 
@@ -151,6 +153,7 @@ Ancien état : Grill Phase 4 : tours 1 à 3 répondus et consignés (`docs/brief
 - `msds-le-cours` et la trilogie sont des versions de travail (renvois « LIEN » non résolus, marques Word) : surveiller une version finale sur pfadi.swiss.
 
 ## Journal
+- 2026-10-19 (formation) : buts et objectifs des cours ajoutés à `scouts` en trois savoirs rédigés par sous-agents sonnet ; fusions pour garder 42 fichiers ; plafond `light` 1 200 / 2 500 mots.
 - 2026-10-19 (après push) : dépôt publié, release `v0.2.0` ; installation `npx skills` et site testés ; style du site (1280 px, violet MSdS, angles carrés, version et date en en-tête) ; nouvelle version par release-please.
 - 2026-10-19 (avant push) : tour de relecture ; e-mail personnel d'un contact caviardé (`msds-assurance-tiers-conducteurs`) ; chemins locaux retirés ; page « Mettre à jour » et page « Nouveautés » générée depuis `CHANGELOG.md` ; version 0.2.0 ; historique à réécrire en un commit (laissé indexé pour le mainteneur).
 - 2026-10-19 (reprise) : lien de `pilote/tests-manuels.md` corrigé ; choix faits sans le mainteneur validés ; licences au nom de `fuzoh` ; sigle de l'association cantonale retiré des fichiers versionnés ; résultats des tests web reportés sur le site (`scouts-ressources` : ChatGPT seulement). Rien de poussé.

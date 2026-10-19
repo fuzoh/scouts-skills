@@ -1,6 +1,6 @@
 ---
 titre: Modèle de formation du MSdS, cours et rôles
-sert_a: Répondre aux questions sur l'échelle des cours scouts (durée, âge minimal, préalables, liaison J+S) et sur les rôles de la direction de cours, de la maîtrise, du formateur, du CàF et de l'expert J+S.
+sert_a: Répondre aux questions sur le modèle de formation (buts et objectifs, journée de formation, cours combinés), l'échelle des cours scouts (durée, âge minimal, préalables, liaison J+S) et les rôles de la direction de cours, de la maîtrise, du formateur, du CàF et de l'expert J+S ; renvoie aux descriptifs de chaque cours.
 derive_de: [msds-modele-de-formation (version 2027), cofor-concept-caf, msds-ancre, js-modele-de-formation-macolin, concepts modele-de-formation, caf, chef-de-cours, cours-de-base, cours-ru, cours-panorama, cours-rg, expert-js]
 statut: valide
 ---
@@ -11,6 +11,8 @@ Le modèle de formation 2027 s'applique dès le 01.01.2027 : dispositions géné
 
 - Les **buts de cours** sont fixes, tous traités dans le programme, mais on peut leur donner un poids différent ; on peut en ajouter.
 - Les **objectifs de formation** concrétisent chaque but ; moins contraignants, on peut en prioriser. Mieux vaut un choix approfondi qu'un survol de tous.
+Descriptif de chaque cours (conditions, buts, objectifs numérotés, niveaux d'approfondissement) : `formation-cours-base.md` (RP, Picos, Futura, connaissances SdC/T, base, RU), `formation-cours-continue.md` (approfondissements de branche, modules, module de sécurité, Spectre, conseils de parents, aumônier), `formation-cours-cadres.md` (Panorama, Gilwell, RG, préparatoire, coach, Top, CàF, perfectionnements).
+
 - Une **journée de formation** compte au minimum 4 h (demi-journée : 2 h). Pour un cours lié à J+S : 6 h (3 h), conformément à J+S.
 
 ## Échelle des cours (durées en jours de formation)

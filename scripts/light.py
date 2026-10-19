@@ -3,8 +3,8 @@
   light check [--root DIR] [--max-files N] [--table]
   light index [--root DIR]        # régénère savoirs/README.md
 
-Règles : 200 fichiers au plus, 1 000 mots au plus par `.md` (`len(text.split())`,
-comme `wc -w`), aucune citation de corpus, SKILL.md valide, référentiels et
+Règles : 200 fichiers au plus, 1 200 mots au plus par `.md` (`len(text.split())`,
+comme `wc -w` ; 2 500 pour les descriptifs de cours `savoirs/formation-cours-*.md`), aucune citation de corpus, SKILL.md valide, référentiels et
 savoirs avec leur frontmatter et leurs sections. Un référentiel est un dossier
 `referentiels/<slug>/` de fichiers `NN-*.md` (frontmatter sur le premier ; sections et suite N
 vérifiées sur la concaténation) ou, par compatibilité, un fichier `referentiels/<slug>.md`. Code 1 si erreur.
@@ -13,6 +13,7 @@ vérifiées sur la concaténation) ou, par compatibilité, un fichier `referenti
 from __future__ import annotations
 
 import re
+from fnmatch import fnmatch
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -24,7 +25,10 @@ from scripts import registry as reg
 app = typer.Typer(add_completion=False, help=__doc__)
 
 MAX_FILES = 200
-MAX_WORDS = 1_000
+MAX_WORDS = 1_200
+# Exceptions : motif de chemin relatif → plafond. Descriptifs de cours du modèle de formation
+# (buts et objectifs numérotés), qu'on ne coupe pas sans multiplier les fichiers.
+WORD_EXCEPTIONS = {"savoirs/formation-cours-*.md": 2_500}
 MAX_DESCRIPTION = 1_024
 SKILL_NAME = "scouts"
 SECTIONS = ("Non-négociables", "Selon la date", "Critères de qualité", "Pièges", "Trame de conception")
@@ -53,6 +57,11 @@ class Report:
             return ("-", 0)
         name = max(self.per_file, key=lambda k: self.per_file[k])
         return name, self.per_file[name]
+
+
+def max_words(rel: str) -> int:
+    """Plafond de mots d'un fichier, `rel` relatif à la racine du skill."""
+    return next((cap for pat, cap in WORD_EXCEPTIONS.items() if fnmatch(rel, pat)), MAX_WORDS)
 
 
 def default_root() -> Path:
@@ -151,8 +160,9 @@ def check(root: Path, max_files: int = MAX_FILES) -> Report:
         n = len(text.split())
         rep.per_file[rel] = n
         rep.words += n
-        if n > MAX_WORDS:
-            rep.errors.append(f"{rel} : {n} mots (max {MAX_WORDS})")
+        cap = max_words(rel)
+        if n > cap:
+            rep.errors.append(f"{rel} : {n} mots (max {cap})")
         for rx, label in CITATION_PATTERNS:
             for m in rx.finditer(text):
                 line = text.count("\n", 0, m.start()) + 1

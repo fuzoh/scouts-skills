@@ -1,4 +1,4 @@
-# activite-js (suite 2/4)
+# activite-js (suite 2/3)
 
 ## Critères de qualité
 Q1. Les objectifs d'apprentissage sont prioritaires, peu nombreux, atteignables par tout le groupe tout en restant un défi (différenciés si besoin) (manuel Sport de camp / Trekking).

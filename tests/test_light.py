@@ -71,10 +71,21 @@ def test_trop_de_fichiers(skel: Path):
 
 
 def test_trop_de_mots(skel: Path):
-    (skel / "references" / "reglages.md").write_text("mot " * 1001, encoding="utf-8")
-    assert any("1001 mots" in e for e in light.check(skel).errors)
-    (skel / "references" / "reglages.md").write_text("mot " * 1000, encoding="utf-8")
+    (skel / "references" / "reglages.md").write_text("mot " * 1201, encoding="utf-8")
+    assert any("1201 mots (max 1200)" in e for e in light.check(skel).errors)
+    (skel / "references" / "reglages.md").write_text("mot " * 1200, encoding="utf-8")
     assert light.check(skel).errors == []
+
+
+def test_plafond_des_descriptifs_de_cours(skel: Path):
+    front = SAVOIR.split("\n---\n")[0] + "\n---\n"
+    p = skel / "savoirs" / "formation-cours-base.md"
+    p.write_text(front + "mot " * (2500 - len(front.split())), encoding="utf-8")
+    assert light.check(skel).errors == []
+    p.write_text(front + "mot " * (2501 - len(front.split())), encoding="utf-8")
+    assert any("2501 mots (max 2500)" in e for e in light.check(skel).errors)
+    (skel / "savoirs" / "formation.md").write_text(front + "mot " * 1300, encoding="utf-8")
+    assert any("formation.md" in e and "(max 1200)" in e for e in light.check(skel).errors)
 
 
 @pytest.mark.parametrize("bad", ["`msds-x#03-abc`", "voir corpus/x", "voir p.12"])

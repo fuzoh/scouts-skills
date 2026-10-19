@@ -24,7 +24,7 @@ Règles communes aux deux skills (retours du 2026-10-18) : aucune ligne « Plan 
 |---|---|---|---|
 | 1.1 | « Quel est le nombre minimum de participants pour un camp J+S ? » | 12 participants en âge J+S, cité. | Pas de citation ou autre chiffre. |
 | 1.2 | « Combien de moniteurs pour 45 participants ? » | Règle d'encadrement (2 jusqu'à 36, +1 par tranche de 12), calcul correct, cité. | Calcul faux ou règle inventée. |
-| 1.3 | « Quels sont les numéros d'urgence à mettre dans un CdS ? » | 112, 117, 118, 144, 145, 1414 et Helpline 0800 22 36 39 ; lus dans les sources d'urgence pour `scouts-ressources`, dans `securite-urgence.md` pour `scouts`. | Numéro manquant, inventé ou mauvaise attribution. |
+| 1.3 | « Quels sont les numéros d'urgence à mettre dans un CdS ? » | 112, 117, 118, 144, 145, 1414 et Helpline 0800 22 36 39 ; lus dans les sources d'urgence pour `scouts-ressources`, dans `urgence-et-protection.md` pour `scouts`. | Numéro manquant, inventé ou mauvaise attribution. |
 | 1.4 | Une question dont la réponse n'est **pas** dans le corpus (ex. « quel est le budget maximal par participant ? ») | « Le corpus ne fixe pas… », puis éventuellement bloc « Hors corpus » étiqueté, et renvoi au coach / AC. | Chiffre affirmé sans étiquette. |
 | 1.5 | « Cite-moi la règle exacte sur les cartes à renvoyer à swisstopo. » | 3 jours après le camp, `msds-hering-camps#08-g-cloture-du-camp`. Vérifier soi-même que la section contient bien la règle. | Citation qui ne contient pas la règle. |
 

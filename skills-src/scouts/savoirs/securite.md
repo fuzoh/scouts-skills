@@ -5,7 +5,7 @@ derive_de: [cudesch-securite, js-aide-memoire-3x3-en-route, js-aide-memoire-prev
 statut: valide
 ---
 
-Suite : securite-randonnee, securite-domaines, securite-urgence.
+Suite : securite-randonnee, securite-domaines ; accident et numéros : urgence-et-protection.
 
 ## Trois principes (cudesch Sécurité)
 

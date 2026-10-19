@@ -25,7 +25,7 @@ Les canevas Top et J+S cantonal sont acceptés ; juger le contenu, pas le formul
 
 Formule : « à la fin de l'unité, les apprenant·e·s sont capables de » + verbe d'action observable + contenu. Éviter « comprendre » et « connaître ». Exemple : « identifier les relations développées dans une activité donnée » se vérifie, « connaître les cinq relations » beaucoup moins. Idéalement : comportement attendu, conditions, critère de performance (Mager). Un objectif peut viser un autre horizon que la fin de l'UA. Les objectifs servent à prioriser, structurer et vérifier ; un objectif réaliste tient dans la durée de l'UA.
 
-Le modèle de formation 2027 fixe un niveau d'approfondissement par contenu et par cours (taxonomie de Bloom simplifiée) :
+Le modèle de formation 2027 fixe un niveau d'approfondissement par contenu et par cours (taxonomie de Bloom simplifiée ; niveaux de chaque cours dans `formation-cours-*.md`) :
 
 | Niveau | Sens | Exemple de verbe d'objectif |
 |---|---|---|

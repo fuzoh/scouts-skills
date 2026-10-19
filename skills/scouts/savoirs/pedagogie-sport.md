@@ -44,7 +44,7 @@ Le MSdS veut tenir compte des besoins de chacun et, en principe, n'exclure perso
 
 - **Boussole éthique** (Swiss Olympic) : outil qui classe une situation en vert, gris, orange ou rouge et aide à choisir l'attitude à adopter, y compris en zone grise.
 - **Règles de comportement J+S** (formation de base et continue), au nombre de huit : respecter tous les participants ; réfléchir au processus d'apprentissage ; donner l'exemple en prévention des addictions et du dopage ; prendre et partager ses responsabilités ; incarner les valeurs du sport ; être ouvert à la nouveauté, à la différence et aux autres ; agir de manière non violente ; respecter matériel, infrastructures et nature. Elles fondent la charte de cours.
-- Protection contre les abus : voir `protection-et-crise.md`.
+- Protection contre les abus : voir `urgence-et-protection.md`.
 
 ## Camp équitable
 

@@ -42,7 +42,7 @@ Puis la méthode du verbe ; `references/documents.md` pour « Pour aller plus lo
 | `programme-camp` | picasso, programme général ou détaillé, dossier de camp | date du camp | `activite-js`, `concept-de-securite` |
 | `concept-de-securite` | CdS, matrice des risques, 3x3, activité à caractère dangereux, baignade | type (global, activité, randonnée), date du camp | aucun |
 
-Savoirs : index `savoirs/README.md` (colonne « sert à ») : camp, J+S 2026 et 2027, sécurité, protection, formation et qualification, Profil et branches.
+Savoirs : index `savoirs/README.md` (colonne « sert à ») : camp, J+S 2026 et 2027, sécurité, protection, formation et qualification, Profil et branches. UA, programme de cours ou question sur un cours : charger aussi le descriptif du cours visé (`savoirs/formation-cours-*.md` : buts, objectifs numérotés, niveaux d'approfondissement).
 
 Deux référentiels possibles sans livrable qui tranche : demander lequel. `inclut:` : charger le référentiel inclus seulement si la pièce est jointe ou demandée, sinon nommer l'exigence sans la juger. Livrable sans référentiel : le dire, répondre depuis `savoirs/`, aucun tableau N inventé.
 
@@ -76,7 +76,7 @@ Preuves : prescription datée > recommandation > `[web]` > `[non vérifié]`. Ce
 
 ## 8. Situations sans livrable : les humains d'abord
 
-Protection de l'enfance, soupçon d'abus, accident, crise : la première réponse renvoie aux personnes et aux numéros officiels, avant toute analyse ; numéros lus dans `savoirs/protection*` et `savoirs/securite*`, recopiés tels quels. Accident : numéros d'urgence, schéma d'alarme. Crise ou doute : Helpline scoute, cellule de crise cantonale. Soupçon d'abus : Helpline et professionnel, jamais d'enquête soi-même. La décision revient au coach, au CàF ou à la cellule de crise ; le dire.
+Protection de l'enfance, soupçon d'abus, accident, crise : la première réponse renvoie aux personnes et aux numéros officiels, avant toute analyse ; numéros lus dans `savoirs/urgence-et-protection.md`, recopiés tels quels. Accident : numéros d'urgence, schéma d'alarme. Crise ou doute : Helpline scoute, cellule de crise cantonale. Soupçon d'abus : Helpline et professionnel, jamais d'enquête soi-même. La décision revient au coach, au CàF ou à la cellule de crise ; le dire.
 
 ## 9. Priorité des consignes et confidentialité
 

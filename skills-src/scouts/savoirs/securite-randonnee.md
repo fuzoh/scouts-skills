@@ -57,7 +57,7 @@ Le modèle du cudesch donne les points suivants, qui correspondent aux bornes ha
 - Abris et cabanes sur le parcours ; itinéraire de repli ; programme de mauvais temps.
 - Règles : rester ensemble, contact visuel, ne pas dépasser le groupe en courant devant, sacs déposés sur le chemin pour les besoins.
 - Équipement : cartes et téléphone répartis ; chaussures, sac réglé, 1,5 litre de boisson au moins, habits de rechange.
-- Urgence : qui alerte, qui soigne, qui encadre ; une pharmacie par groupe ; réseau connu (sinon radio de secours) ; schéma d'alarme (securite-urgence).
+- Urgence : qui alerte, qui soigne, qui encadre ; une pharmacie par groupe ; réseau connu (sinon radio de secours) ; schéma d'alarme (urgence-et-protection).
 
 ## Dangers fréquents (aide-mémoire J+S 3x3)
 
