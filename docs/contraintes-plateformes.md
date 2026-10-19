@@ -1,6 +1,6 @@
 # Contraintes des plateformes pour distribuer un skill SKILL.md
 
-Recherche du 2026-10-17 (date de consultation de toutes les URLs ci-dessous). Format maître : SKILL.md selon agentskills.io.
+Recherche du 2026-10-17, limites des skills web revérifiées le 2026-10-19 (section « Limites appliquées par `light check` »). Format maître : SKILL.md selon agentskills.io.
 Légende : [P] source primaire (doc éditeur), [T] tierce (blog, forum), [NV] non vérifié.
 
 ## Tableau comparatif
@@ -8,13 +8,13 @@ Légende : [P] source primaire (doc éditeur), [T] tierce (blog, forum), [NV] no
 | Plateforme | Skills natifs ? | Instructions max | Fichiers (nombre / taille / formats) | Retrieval | Invocation entre skills | Notes |
 |---|---|---|---|---|---|---|
 | agentskills.io (spec) | Définit le format | description 1024 car. ; corps < 500 lignes / < 5000 tokens (recommandé) | `scripts/`, `references/`, `assets/`, libre ; pas de limite | Aucun : lecture à la demande | Aucun mécanisme dans la spec | `name` = nom du dossier |
-| Claude.ai (web/app) | Oui, zip uploadé (Customize > Skills) | description 1024 car. | zip : taille max non chiffrée [NV] | Fichiers lus dans un bac à sable | Non documenté | Code execution requis ; individuel ; pas de sync API |
+| Claude.ai (web/app) | Oui, zip uploadé (Customize > Skills) | name 64 car. ; description 200 car. annoncés [P], 660 acceptés en essai | zip : taille non chiffrée ; échec au-delà de 200 fichiers (essai du mainteneur) | Fichiers lus dans un bac à sable | Non documenté | Code execution requis ; individuel ; pas de sync API |
 | Claude Project | Non (connaissances) | ~8000 car. [T, NV] | illimité en nombre ; 30 Mo/fichier ; PDF, DOCX, CSV, TXT, HTML, ODT, RTF, EPUB, JSON, XLSX | RAG auto à l'approche de la fenêtre, capacité x10 max (payant) | Sans objet | Total borné par la fenêtre de contexte hors RAG |
 | Claude Code | Oui, dossiers | description + when_to_use tronqués à 1536 car. | libre | Lecture fichiers | Pas de doc ; `context: fork`, `skills:` des sous-agents, empilement | `~/.claude/skills`, `.claude/skills`, plugins |
 | ChatGPT custom GPT | Non (aucune preuve) | 8000 car. [T] | 20 fichiers, 512 Mo, 2 M tokens/fichier texte [T] | RAG [NV détail] | Sans objet | help.openai.com inaccessible (403) |
-| ChatGPT skills / Codex | Oui (appli desktop ; web/mobile via plugins) | liste des skills : 2 % du contexte ou 8000 car. | libre ; pas de limite documentée | Lecture fichiers | `@skill` (utilisateur) ; non documenté entre skills | `.agents/skills` ; `agents/openai.yaml` optionnel |
+| ChatGPT skills / Codex | Oui (appli desktop ; web/mobile via plugins) | liste des skills : 2 % du contexte ou 8000 car. ; frontmatter selon agentskills | API : zip 50 Mo, 500 fichiers, 25 Mo par fichier décompressé, un seul SKILL.md, un dossier racine [P] | Lecture fichiers | `@skill` (utilisateur) ; non documenté entre skills | `.agents/skills` ; `agents/openai.yaml` optionnel |
 | Gemini Gems | Remplacés par des skills dès nov. 2026 (comptes perso) | non trouvé [NV] | 10 fichiers, 100 Mo [T] | non trouvé [NV] | Sans objet | Migration automatique Gem vers skill |
-| Gemini app (skills) | Oui, SKILL.md / zip / dossier | non chiffré | 100 skills actifs max ; taille non chiffrée | Lecture fichiers [NV] | Non documenté | Upload : web et Mac seulement |
+| Gemini app (skills) | Oui, SKILL.md / zip / dossier | non chiffré | 100 skills actifs ; 100 Mo au total ; texte, PDF, images ; .docx, .doc, .xlsx refusés ; scripts sans réseau [P] | Lecture fichiers [NV] | Non documenté | Upload : web et Mac seulement |
 | Cursor / Copilot / OpenCode / Gemini CLI | Oui, dossiers | description 1024 (OpenCode) | libre | Lecture fichiers | OpenCode : outil `skill` ; Gemini CLI : `activate_skill` | Tous lisent `.agents/skills/` |
 
 ## 1. Spécification agentskills.io
@@ -74,7 +74,7 @@ Légende : [P] source primaire (doc éditeur), [T] tierce (blog, forum), [NV] no
 ## Conséquences pour un `build` qui génère un pack par plateforme depuis SKILL.md
 
 1. Frontmatter minimal commun : `name` (= dossier, 64 car., sans "claude"/"anthropic") et `description` (< 1024 car., sans balises XML, 3e personne, mots-clés d'activation en tête).
-2. Claude.ai, Gemini, ChatGPT (skills) : générer un zip avec le dossier du skill comme racine ; vérifier le nom du dossier ; mesurer la taille (aucun plafond officiel connu, viser quelques Mo).
+2. Claude.ai, Gemini, ChatGPT (skills) : générer un zip avec le dossier du skill comme racine ; vérifier le nom du dossier ; tenir sous la limite la plus basse (section suivante).
 3. Claude Code, Cursor, Copilot, OpenCode, Codex : copier le dossier, une fois dans `.agents/skills/` (convention commune) ; ne pas utiliser les champs propres à Claude Code dans le maître, les isoler dans `metadata`.
 4. Références inter-skills : ne pas compter sur un appel natif ; aplatir en citant l'autre skill par `name` avec un repli textuel ("si indisponible, lire references/..."), ou embarquer le contenu nécessaire dans le pack.
 5. Garder `references/` à un niveau de profondeur, chaque fichier avec table des matières s'il dépasse 100 lignes, chemins relatifs avec `/`.
@@ -84,6 +84,24 @@ Légende : [P] source primaire (doc éditeur), [T] tierce (blog, forum), [NV] no
 9. Respecter le budget de liste : descriptions courtes (Claude Code 1536 car. cumulés avec `when_to_use`, Codex 2 % du contexte), SKILL.md sous 500 lignes, mettre l'essentiel en tête (compaction à 5000 tokens).
 10. Interdire dans les `scripts/` tout besoin réseau ou installation de paquets (API sans réseau, Gemini Enterprise Python/Bash seulement) ; les skills du dépôt référencent les sources par `id`, donc le build doit résoudre ces `id` en chemins de `references/` dans chaque pack.
 
+## Limites appliquées par `light check` (2026-10-19)
+
+`scouts` doit marcher sur les trois applis web ; `scouts-ressources` vise les agents en ligne de commande et les IDE, sans contrôle de taille. Pour `scouts`, la limite la plus basse de chaque plateforme :
+
+| Règle | Valeur | Origine |
+|---|---|---|
+| Fichiers dans le pack | 200 (199 dans la source, le build ajoute MANIFEST.md) | claude.ai échoue au-delà (essai du mainteneur) ; OpenAI API 500 [P] |
+| Taille totale | 50 Mo | OpenAI API, zip [P] ; Gemini 100 Mo [P] |
+| Taille par fichier | 25 Mo | OpenAI API, décompressé [P] ; claude.ai 30 Mo en exécution de code [T] |
+| Formats | pas de .docx, .doc, .xlsx, .xls | Gemini [P] |
+| SKILL.md | un seul, à la racine ; sous 500 lignes | OpenAI API [P] ; agentskills (recommandé) [P] |
+| `name` | minuscules, chiffres, tirets, ≤ 64 car., = nom du dossier | agentskills, claude.ai, Gemini [P] |
+| `description` | ≤ 1 024 car. ; avertissement au-delà de 200 | agentskills [P] ; aide claude.ai 200 [P], non appliqué en essai, à retester |
+| Scripts | aucun appel réseau | Gemini [P] |
+| Budget de lecture | 5 000 tokens estimés par `.md` (`ceil(caractères / 3,5)`) | choix de performance : recommandation agentskills pour SKILL.md étendue à tout fichier, qui se lit en entier |
+
+Sources consultées le 2026-10-19 : https://support.claude.com/en/articles/12512198-how-to-create-custom-skills [P], https://support.google.com/gemini?p=b_ws_skills [P], https://support.google.com/gemini/answer/18560919 [P], https://developers.openai.com/api/docs/guides/tools-skills [P]. Écartés du contrôle : limites des Custom GPT, Projects, Gems et du chat (fichiers de connaissances, pas des skills) ; Grok, sans import de SKILL.md [T]. Un rapport tiers fourni par le mainteneur (2026-10-19) a servi de piste ; seuls les chiffres revérifiés ci-dessus sont appliqués.
+
 ## Non vérifié
 
-Taille max du zip Claude.ai ; limite de longueur des instructions de projet Claude ; limites officielles des custom GPT (help.openai.com bloqué) ; plans ChatGPT éligibles aux skills ; limites d'instructions et de fichiers des Gems ; usage de skills dans un Project Claude ; retrieval exact des GPT.
+Taille max du zip Claude.ai ; application réelle des 200 car. de `description` sur claude.ai ; limites des skills dans l'interface ChatGPT (hors API) ; limite de longueur des instructions de projet Claude ; limites officielles des custom GPT (help.openai.com bloqué) ; plans ChatGPT éligibles aux skills ; limites d'instructions et de fichiers des Gems ; usage de skills dans un Project Claude ; retrieval exact des GPT.

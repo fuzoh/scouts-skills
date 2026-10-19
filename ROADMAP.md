@@ -88,6 +88,7 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] (2026-10-18 : tout relu, 21 fichiers passés `valide`, tag `v0.1.0`) Mainteneur : second tour de tests de `scouts.zip` (grille `pilote/tests-manuels.md` mise à jour : 0.1, 0.2, 0.4, 0.5, 2.1, 2.2, 3.1, 4.4) ; relire les `brouillon` (points signalés par les agents : RG / responsable de camp, âges J+S 5-20 ans, quota 36/+12 pour 2027, délais Sardine non ingérés, facteurs kme) et le nouveau `formation-rqa.md`
 - [x] Revue de contenu post-v0.1.0 intégrée (2026-10-18) : marche prudente avec/sans bagages, gilets et exception CPR, numéros d'urgence, jeux 2026/2027, délais, formation et glossaires corrigés ; points incertains arbitrés dans `DECISIONS.md`. Dérivés alignés, inventaire/index régénérés, 102 tests réussis, deux packs reconstruits. Douze cas manuels de non-régression ajoutés, pas encore exécutés.
 - [x] (2026-10-19) Buts, objectifs numérotés, conditions et niveaux d'approfondissement de tous les cours du modèle de formation 2027 : `savoirs/formation-cours-{base,continue,cadres}.md` (`brouillon`), à nombre de fichiers constant (42) ; plafond 1 200 mots, 2 500 pour ces trois fichiers ; fusions camp, urgence + protection, activite-js 4 → 3 (`DECISIONS.md`, section Skills)
+- [x] (2026-10-19) `light check` aligné sur les applis web : limite la plus basse de claude.ai, ChatGPT et Gemini (200 fichiers dans le pack, 50 Mo, 25 Mo par fichier, pas de .docx/.xlsx, `name` agentskills, `description` ≤ 1 024 avec avertissement > 200) ; budget unique de 5 000 tokens estimés par fichier à la place de 1 200 / 2 500 mots ; `scouts-ressources` sans contrôle de taille (`docs/contraintes-plateformes.md`)
 - [ ] Mainteneur : relire les trois `formation-cours-*.md` contre le modèle de formation et les passer `valide`
 - [ ] Routine : re-dériver un dossier de `scouts/referentiels/` quand `relu_le` de son référentiel `referentiels/` change
 
@@ -106,7 +107,7 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] Tests web du mainteneur : `scouts` ok sur claude.ai et Gemini (Customize > Skills, import du zip) ; `scouts-ressources` trop lourd pour claude.ai et Gemini, ok sur ChatGPT ; site mis à jour
 - [x] Site testé en ligne (agent-browser : 14 pages, mobile, mode sombre) ; débordement mobile corrigé ; mise en page 1280 px, violet MSdS, version et date dans l'en-tête
 - [x] `npx skills add fuzoh/scouts-skills` (projet, `-g`, zips de release) et `npx skills update` testés depuis GitHub
-- [ ] Tests « non testé » du site : `pi install git:…`, `scouts` sur ChatGPT, une vraie mise à jour d'une version à la suivante ; limite de 200 caractères de `description` annoncée par l'aide claude.ai (zips acceptés jusqu'ici)
+- [ ] Tests « non testé » du site : `pi install git:…`, `scouts` sur ChatGPT, une vraie mise à jour d'une version à la suivante ; limite de 200 caractères de `description` annoncée par l'aide claude.ai (660 acceptés jusqu'ici ; `light check` avertit)
 - [ ] Veille, premier passage complet (2026-10-19) : 40 `url` `pfadi.swiss/.../downloads/detail/N/` en 404 (l'URL avec slug fonctionne, fichiers ok) à corriger dans le registre ; `msds-illustrations-profil` : zip distant changé, à réingérer en local
 - [ ] Plus tard (`DECISIONS.md`, section Plus tard) : marketplace de plugins Claude Code ; sources web plutôt que PDF
 
@@ -153,6 +154,7 @@ Ancien état : Grill Phase 4 : tours 1 à 3 répondus et consignés (`docs/brief
 - `msds-le-cours` et la trilogie sont des versions de travail (renvois « LIEN » non résolus, marques Word) : surveiller une version finale sur pfadi.swiss.
 
 ## Journal
+- 2026-10-19 (limites) : limites des skills web revérifiées en source primaire (Claude, Gemini, OpenAI API) à partir d'un rapport tiers ; `light check` réécrit (plateformes + budget de tokens) ; 200 fichiers maintenus (échec constaté sur claude.ai au-delà).
 - 2026-10-19 (formation) : buts et objectifs des cours ajoutés à `scouts` en trois savoirs rédigés par sous-agents sonnet ; fusions pour garder 42 fichiers ; plafond `light` 1 200 / 2 500 mots.
 - 2026-10-19 (suite) : `DECISIONS.md` replié sur l'état courant (plus d'historique ni de date de journal). `AGENTS.md` et `METHODE.md` : une décision changée se réécrit sur place.
 - 2026-10-19 (après push) : dépôt publié, release `v0.2.0` ; installation `npx skills` et site testés ; style du site (1280 px, violet MSdS, angles carrés, version et date en en-tête) ; nouvelle version par release-please.

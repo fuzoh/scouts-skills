@@ -15,7 +15,7 @@
 - Version des packs injectée par `build` depuis `pyproject.toml` (release-please). Avant 1.0, un `feat` bump une mineure.
 - Le site se déploie sur un tag `v*` et affiche cette version, sa date et le CHANGELOG. Une correction de site part avec la release suivante (`fix(site)`), ou par lancement manuel du workflow sur le dernier tag. L'environnement `github-pages` accepte `main` et les tags `v*`. La CI construit les packs à chaque push.
 - Retours par formulaires d'issue. Veille mensuelle : une issue s'il y a un changement, aucune si tout est ok. Pas de PR de veille.
-- Mistral et Copilot : une mention sur le site, sans mode d'emploi. Pack web par défaut : `scouts`. `scouts-ressources` : ChatGPT. Trop lourd pour claude.ai et les compétences Gemini.
+- Mistral et Copilot : une mention sur le site, sans mode d'emploi. Pack web par défaut : `scouts`. `scouts-ressources` : ChatGPT. Trop lourd pour claude.ai et les compétences Gemini. Destiné aux agents en ligne de commande et aux IDE : aucun contrôle de taille.
 - Pas de champ `rights`. Les textes officiels ne sont pas anonymisés. Aucune personne, aucun groupe, aucun lieu ni aucune année de camp réel dans un fichier versionné.
 - Hors dépôt public : `docs/terrain/` (sauf `docs/lexique-terrain.md`), `ancien skills/`, `docs/propositions/` (sauf `docs/contraintes-plateformes.md`), `idées.md`, `GOALS.md`, `pilote/retours-en-vrac.md`, `docs/briefing-terrain.md`.
 
@@ -24,7 +24,7 @@
 - Deux skills, même méthode : `scouts` (principal, sans corpus) et `scouts-ressources` (corpus, citations `id#NN-slug`).
 - Verbes : chercher, expliquer, corriger, concevoir. `scouts` ajoute guider. Le livrable commande le routage, pas le public.
 - Un skill dédié n'apparaît qu'après échec de l'échelle référentiel → référentiel avec procédure → non-négociables dans `SKILL.md`. Repli : un skill par livrable, référentiels conservés.
-- `scouts` : dossiers courts, savoirs par thème, 200 fichiers, 1 200 mots (2 500 pour `savoirs/formation-cours-*.md`, `WORD_EXCEPTIONS` dans `scripts/light.py`). Dérivé de `referentiels/` : toute modification s'y reporte. Provenance en clair, sans `id#NN-slug` ni page.
+- `scouts` : dossiers courts, savoirs par thème. Doit s'installer par zip sur claude.ai, ChatGPT et Gemini : `light check` applique la limite la plus basse de chaque plateforme (200 fichiers dans le pack, claude.ai échouant au-delà ; 50 Mo ; 25 Mo par fichier ; pas de .docx/.xlsx ; `description` ≤ 1 024 car., avertissement au-delà des 200 de l'aide claude.ai, accepté à ce jour). Budget de lecture : 5 000 tokens estimés par fichier, sans exception, SKILL.md sous 500 lignes. Dérivé de `referentiels/` : toute modification s'y reporte. Provenance en clair, sans `id#NN-slug` ni page.
 - Nombre de fichiers de `scouts` constant (42, choix du mainteneur) : un savoir nouveau se paie par une fusion sans perte de contenu, jamais par un fichier de plus.
 - Buts et objectifs des cours du modèle de formation 2027 : trois savoirs `formation-cours-{base,continue,cadres}.md`, un par niveau, chargés par `SKILL.md` § 3 pour une UA ou un programme de cours. Par cours : conditions cadres, buts, objectifs numérotés avec le verbe d'origine, niveaux d'approfondissement. Besoins et conseils méthodologiques exclus. Écarté : objectifs en mots-clés sous 1 000 mots, un fichier par cours.
 - Le contenu d'abord, au plus une phrase d'hypothèse. Paramètres déduits. Une question seulement si la réponse serait fausse sans elle.
