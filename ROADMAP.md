@@ -98,12 +98,13 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] Site (`uv run site`, 14 pages, sources générées depuis le registre, versions depuis `CHANGELOG.md`, page « Mettre à jour »)
 - [x] README, LICENSE (MIT), LICENSE-CONTENT (CC BY-SA 4.0), CONTRIBUTING, formulaires d'issue, modèle de PR
 - [x] Check de publication (briefing §3.7) sur un clone neuf sans originaux ; réglages post-push dans `docs/publication-reglages.md`
-- [ ] Mainteneur : créer `fuzoh/scouts-skills`, pousser `main` et le tag `v0.2.0`, puis suivre `docs/publication-reglages.md`
+- [x] (2026-10-19) Dépôt `fuzoh/scouts-skills` créé, `main` et `v0.2.0` poussés, réglages appliqués (secret, Pages, PR des workflows, étiquettes), release `v0.2.0` avec zips
 - [ ] Après le push : vérifier le jsonpath `uv.lock` de release-please (PR de release verte), le job `upload`, le déploiement Pages, l'issue de veille
 - [x] Choix faits sans le mainteneur, validés (DECISIONS 2026-10-19 « Choix validés ») : Mistral/Copilot en mention courte, veille silencieuse, titulaire des licences `fuzoh`, sigle de l'association cantonale retiré
 - [x] Tests web du mainteneur : `scouts` ok sur claude.ai et Gemini (Customize > Skills, import du zip) ; `scouts-ressources` trop lourd pour claude.ai et Gemini, ok sur ChatGPT ; site mis à jour
-- [ ] Mainteneur : relire le site (`uv run site --out build/site`, puis `build/site/index.html`) et commiter ses corrections
-- [ ] Tests « non testé » du site : install depuis GitHub (`npx skills add fuzoh/scouts-skills`, `pi install git:…`), `scouts` sur ChatGPT ; limite de 200 caractères de `description` annoncée par l'aide claude.ai (zips acceptés jusqu'ici)
+- [x] Site testé en ligne (agent-browser : 14 pages, mobile, mode sombre) ; débordement mobile corrigé ; mise en page 1280 px, violet MSdS, version et date dans l'en-tête
+- [x] `npx skills add fuzoh/scouts-skills` (projet, `-g`, zips de release) et `npx skills update` testés depuis GitHub
+- [ ] Tests « non testé » du site : `pi install git:…`, `scouts` sur ChatGPT, une vraie mise à jour d'une version à la suivante ; limite de 200 caractères de `description` annoncée par l'aide claude.ai (zips acceptés jusqu'ici)
 - [ ] Veille, premier passage complet (2026-10-19) : 40 `url` `pfadi.swiss/.../downloads/detail/N/` en 404 (l'URL avec slug fonctionne, fichiers ok) à corriger dans le registre ; `msds-illustrations-profil` : zip distant changé, à réingérer en local
 - [ ] Plus tard (DECISIONS « questions ouvertes tranchées ») : marketplace de plugins Claude Code ; sources web plutôt que PDF
 
@@ -112,7 +113,9 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [ ] Routine de mise à jour documentée
 
 ## Prochaine action
-Le mainteneur relit le site (`uv run site --out build/site`, puis ouvrir `build/site/index.html`), commite l'arbre en un seul commit initial (historique réécrit, 2026-10-19) et pose le tag `v0.2.0`. Ensuite : créer `fuzoh/scouts-skills`, pousser `main` et `v0.2.0`, appliquer `docs/publication-reglages.md` (dont la release `v0.2.0`), vérifier la PR de release-please, corriger les URL de la veille. Tests manuels 8.1–8.12 toujours à faire.
+Corriger dans le registre les 40 `url` `pfadi.swiss/.../downloads/detail/N/` en 404 (prendre l'URL avec slug) et réingérer `msds-illustrations-profil` ; tester `pi install git:github.com/fuzoh/scouts-skills` ; tests manuels 8.1–8.12.
+
+Ancien état (2026-10-19, avant le push) : Le mainteneur relit le site (`uv run site --out build/site`, puis ouvrir `build/site/index.html`), commite l'arbre en un seul commit initial (historique réécrit, 2026-10-19) et pose le tag `v0.2.0`. Ensuite : créer `fuzoh/scouts-skills`, pousser `main` et `v0.2.0`, appliquer `docs/publication-reglages.md` (dont la release `v0.2.0`), vérifier la PR de release-please, corriger les URL de la veille. Tests manuels 8.1–8.12 toujours à faire.
 
 Ancien état (2026-10-19, avant la réécriture de l'historique) : Le mainteneur relit le site (`uv run site --out build/site`, puis ouvrir `build/site/index.html`) et commite ses corrections. Avant le push, décider si l'historique local (17 commits) est publié tel quel : il contient encore le sigle de l'association cantonale et l'ancien titulaire de `LICENSE` ; le dépôt n'étant pas poussé, on peut le réécrire (un seul commit initial, tag `v0.1.1` reposé). Ensuite : créer `fuzoh/scouts-skills`, pousser `main` et `v0.1.1`, appliquer `docs/publication-reglages.md`, vérifier la PR de release-please, corriger les URL de la veille. Tests manuels 8.1–8.12 toujours à faire.
 
@@ -148,6 +151,7 @@ Ancien état : Grill Phase 4 : tours 1 à 3 répondus et consignés (`docs/brief
 - `msds-le-cours` et la trilogie sont des versions de travail (renvois « LIEN » non résolus, marques Word) : surveiller une version finale sur pfadi.swiss.
 
 ## Journal
+- 2026-10-19 (après push) : dépôt publié, release `v0.2.0` ; installation `npx skills` et site testés ; style du site (1280 px, violet MSdS, angles carrés, version et date en en-tête) ; nouvelle version par release-please.
 - 2026-10-19 (avant push) : tour de relecture ; e-mail personnel d'un contact caviardé (`msds-assurance-tiers-conducteurs`) ; chemins locaux retirés ; page « Mettre à jour » et page « Nouveautés » générée depuis `CHANGELOG.md` ; version 0.2.0 ; historique à réécrire en un commit (laissé indexé pour le mainteneur).
 - 2026-10-19 (reprise) : lien de `pilote/tests-manuels.md` corrigé ; choix faits sans le mainteneur validés ; licences au nom de `fuzoh` ; sigle de l'association cantonale retiré des fichiers versionnés ; résultats des tests web reportés sur le site (`scouts-ressources` : ChatGPT seulement). Rien de poussé.
 - 2026-10-19 (publication) : dépôt public neuf préparé (assainissement, `skills-src/` → `skills/`, build déterministe, CI, release-please, Pages, veille, site, licences, formulaires) ; trois sous-agents en worktrees (workflows, veille, site) ; questions ouvertes tranchées (DECISIONS) ; check §3.7 vert sur clone neuf. Rien de poussé.
