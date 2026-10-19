@@ -73,7 +73,7 @@ install-ressources:
 check-urls *args:
     uv run check-urls "$@"
 
-# limites de scouts (200 fichiers, 1 000 mots, pas de citation) : just light-check --table
+# limites de scouts (applis web : 200 fichiers, 50 Mo, pas de .docx ; 5 000 tokens par fichier ; pas de citation) : just light-check --table
 light-check *args:
     uv run light check "$@"
 

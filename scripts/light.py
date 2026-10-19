@@ -3,17 +3,26 @@
   light check [--root DIR] [--max-files N] [--table]
   light index [--root DIR]        # régénère savoirs/README.md
 
-Règles : 200 fichiers au plus, 1 200 mots au plus par `.md` (`len(text.split())`,
-comme `wc -w` ; 2 500 pour les descriptifs de cours `savoirs/formation-cours-*.md`), aucune citation de corpus, SKILL.md valide, référentiels et
-savoirs avec leur frontmatter et leurs sections. Un référentiel est un dossier
+`scouts` doit s'installer par zip sur les applis web (claude.ai, ChatGPT, Gemini). Limites dures,
+la plus basse des plateformes (`docs/contraintes-plateformes.md`) : 200 fichiers dans le pack
+(claude.ai échoue au-delà ; le build ajoute MANIFEST.md, d'où 199 dans la source), 50 Mo au total
+et 25 Mo par fichier (OpenAI), aucun format binaire bureautique (.docx, .doc, .xlsx, .xls : refusés
+par Gemini), un seul SKILL.md, `name` au format agentskills (minuscules, tirets, ≤ 64 car., = nom
+du dossier), `description` ≤ 1 024 car. (avertissement au-delà des 200 annoncés par l'aide
+claude.ai, non appliqués à ce jour), aucun appel réseau dans `scripts/` (Gemini).
+
+Budget de lecture (choix de performance, pas une limite de plateforme) : 5 000 tokens estimés par
+`.md` (`ceil(caractères / 3,5)`, recommandation agentskills pour SKILL.md étendue à chaque fichier,
+puisqu'un fichier se lit en entier), SKILL.md sous 500 lignes. Aussi : aucune citation de corpus,
+référentiels et savoirs avec leur frontmatter et leurs sections. Un référentiel est un dossier
 `referentiels/<slug>/` de fichiers `NN-*.md` (frontmatter sur le premier ; sections et suite N
 vérifiées sur la concaténation) ou, par compatibilité, un fichier `referentiels/<slug>.md`. Code 1 si erreur.
 """
 
 from __future__ import annotations
 
+import math
 import re
-from fnmatch import fnmatch
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -24,12 +33,19 @@ from scripts import registry as reg
 
 app = typer.Typer(add_completion=False, help=__doc__)
 
-MAX_FILES = 200
-MAX_WORDS = 1_200
-# Exceptions : motif de chemin relatif → plafond. Descriptifs de cours du modèle de formation
-# (buts et objectifs numérotés), qu'on ne coupe pas sans multiplier les fichiers.
-WORD_EXCEPTIONS = {"savoirs/formation-cours-*.md": 2_500}
-MAX_DESCRIPTION = 1_024
+MAX_FILES = 200            # pack installé sur claude.ai (échec au-delà, constaté)
+PACK_EXTRA_FILES = 1       # MANIFEST.md ajouté par le build
+MAX_FILE_BYTES = 25 * 1024 * 1024   # OpenAI : fichier décompressé
+MAX_TOTAL_BYTES = 50 * 1024 * 1024  # OpenAI : zip ; Gemini : 100 Mo
+MAX_TOKENS = 5_000         # budget de lecture par fichier .md (estimation)
+CHARS_PER_TOKEN = 3.5      # français, prudent
+MAX_SKILL_LINES = 500      # agentskills : SKILL.md
+MAX_DESCRIPTION = 1_024    # agentskills
+WARN_DESCRIPTION = 200     # aide claude.ai, non appliqué à ce jour
+MAX_NAME = 64
+NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
+BINARY_EXT = (".docx", ".doc", ".xlsx", ".xls")
+NETWORK_RE = re.compile(r"\b(requests|urllib|httpx|aiohttp|socket|fetch\(|axios|curl|wget)\b")
 SKILL_NAME = "scouts"
 SECTIONS = ("Non-négociables", "Selon la date", "Critères de qualité", "Pièges", "Trame de conception")
 REF_KEYS = ("slug", "derive_de", "statut")
@@ -47,9 +63,11 @@ N_RE = re.compile(r"^\s*(?:[-*]\s*)?\**N(\d+)\b", re.MULTILINE)
 @dataclass
 class Report:
     errors: list[str] = field(default_factory=list)
+    warnings: list[str] = field(default_factory=list)
     files: int = 0
     words: int = 0
-    per_file: dict[str, int] = field(default_factory=dict)
+    bytes: int = 0
+    per_file: dict[str, int] = field(default_factory=dict)  # tokens estimés
 
     @property
     def max_file(self) -> tuple[str, int]:
@@ -59,9 +77,9 @@ class Report:
         return name, self.per_file[name]
 
 
-def max_words(rel: str) -> int:
-    """Plafond de mots d'un fichier, `rel` relatif à la racine du skill."""
-    return next((cap for pat, cap in WORD_EXCEPTIONS.items() if fnmatch(rel, pat)), MAX_WORDS)
+def estimate_tokens(text: str) -> int:
+    """Tokens estimés : `ceil(caractères / 3,5)`, sans tokeniseur (aucun n'est celui de toutes les plateformes)."""
+    return math.ceil(len(text) / CHARS_PER_TOKEN)
 
 
 def default_root() -> Path:
@@ -89,19 +107,29 @@ def _check_keys(rel: str, front: dict | None, keys: tuple[str, ...], errors: lis
     return True
 
 
-def _check_skill(root: Path, errors: list[str]) -> None:
+def _check_skill(root: Path, rep: Report) -> None:
+    errors = rep.errors
     p = root / "SKILL.md"
     if not p.is_file():
         errors.append("SKILL.md : absent")
         return
-    front, _ = parse_front(p.read_text(encoding="utf-8"))
+    text = p.read_text(encoding="utf-8")
+    if (n := len(text.splitlines())) > MAX_SKILL_LINES:
+        errors.append(f"SKILL.md : {n} lignes (max {MAX_SKILL_LINES})")
+    front, _ = parse_front(text)
     if not _check_keys("SKILL.md", front, ("name", "description"), errors) or front is None:
         return
-    if front.get("name") != SKILL_NAME:
+    name = str(front.get("name") or "")
+    if name != SKILL_NAME:
         errors.append(f"SKILL.md : `name` doit valoir `{SKILL_NAME}` (trouvé `{front.get('name')}`)")
+    elif len(name) > MAX_NAME or not NAME_RE.match(name):
+        errors.append(f"SKILL.md : `name` `{name}` hors format agentskills (minuscules, chiffres, tirets, ≤ {MAX_NAME})")
     desc = str(front.get("description") or "")
     if len(desc) > MAX_DESCRIPTION:
         errors.append(f"SKILL.md : `description` fait {len(desc)} caractères (max {MAX_DESCRIPTION})")
+    elif len(desc) > WARN_DESCRIPTION:
+        rep.warnings.append(f"SKILL.md : `description` fait {len(desc)} caractères "
+                            f"(l'aide claude.ai annonce {WARN_DESCRIPTION} ; accepté à ce jour, à retester)")
 
 
 def referentiel_parts(root: Path) -> list[tuple[str, list[Path]]]:
@@ -144,30 +172,47 @@ def _check_referentiel(slug: str, files: list[Path], root: Path, errors: list[st
 
 
 def check(root: Path, max_files: int = MAX_FILES) -> Report:
+    """`max_files` = plafond du pack ; la source en a `PACK_EXTRA_FILES` de moins."""
     rep = Report()
     if not root.is_dir():
         rep.errors.append(f"{root} : dossier absent")
         return rep
     files = sorted(f for f in root.rglob("*") if f.is_file())
     rep.files = len(files)
-    if len(files) > max_files:
-        rep.errors.append(f"{len(files)} fichiers (max {max_files})")
+    if len(files) + PACK_EXTRA_FILES > max_files:
+        rep.errors.append(f"{len(files)} fichiers (max {max_files - PACK_EXTRA_FILES} : "
+                          f"le pack en ajoute {PACK_EXTRA_FILES}, plafond {max_files})")
+    skill_md = [f for f in files if f.name.lower() == "skill.md"]
+    if len(skill_md) > 1:
+        rep.errors.append(f"{len(skill_md)} fichiers SKILL.md (un seul admis) : "
+                          + ", ".join(f.relative_to(root).as_posix() for f in skill_md))
     for f in files:
         rel = f.relative_to(root).as_posix()
+        size = f.stat().st_size
+        rep.bytes += size
+        if size > MAX_FILE_BYTES:
+            rep.errors.append(f"{rel} : {size / 1e6:.1f} Mo (max {MAX_FILE_BYTES // 2**20} Mo)")
+        if f.suffix.lower() in BINARY_EXT:
+            rep.errors.append(f"{rel} : format {f.suffix} refusé par Gemini (convertir en .md ou .csv)")
+        if rel.startswith("scripts/") and f.suffix not in (".md",):
+            m = NETWORK_RE.search(f.read_text(encoding="utf-8", errors="ignore"))
+            if m:
+                rep.errors.append(f"{rel} : appel réseau (`{m.group(0)}`) impossible sur Gemini")
         if f.suffix != ".md":
             continue
         text = f.read_text(encoding="utf-8")
-        n = len(text.split())
-        rep.per_file[rel] = n
-        rep.words += n
-        cap = max_words(rel)
-        if n > cap:
-            rep.errors.append(f"{rel} : {n} mots (max {cap})")
+        rep.words += len(text.split())
+        tokens = estimate_tokens(text)
+        rep.per_file[rel] = tokens
+        if tokens > MAX_TOKENS:
+            rep.errors.append(f"{rel} : ~{tokens} tokens (max {MAX_TOKENS})")
         for rx, label in CITATION_PATTERNS:
             for m in rx.finditer(text):
                 line = text.count("\n", 0, m.start()) + 1
                 rep.errors.append(f"{rel}:{line} : {label} interdit(e) (`{m.group(0)}`)")
-    _check_skill(root, rep.errors)
+    if rep.bytes > MAX_TOTAL_BYTES:
+        rep.errors.append(f"{rep.bytes / 1e6:.1f} Mo au total (max {MAX_TOTAL_BYTES // 2**20} Mo)")
+    _check_skill(root, rep)
     for slug, parts in referentiel_parts(root):
         _check_referentiel(slug, parts, root, rep.errors)
     for f in sorted((root / "savoirs").glob("*.md")):
@@ -187,20 +232,23 @@ def _main() -> None:
 @app.command("check")
 def check_cmd(
     root: Path = typer.Option(None, "--root", help="Défaut skills-src/scouts."),
-    max_files: int = typer.Option(MAX_FILES, "--max-files", help="Plafond de fichiers."),
-    table: bool = typer.Option(False, "--table", help="Affiche le tableau fichier → mots."),
+    max_files: int = typer.Option(MAX_FILES, "--max-files", help="Plafond de fichiers du pack."),
+    table: bool = typer.Option(False, "--table", help="Affiche le tableau fichier → tokens estimés."),
 ) -> None:
-    """Vérifie fichiers, mots, citations et formats de scouts."""
+    """Vérifie limites des plateformes web, budget de lecture, citations et formats de scouts."""
     rep = check(root or default_root(), max_files)
     if table:
         for name, n in sorted(rep.per_file.items()):
             typer.echo(f"{n:>6}  {name}")
+    for w in rep.warnings:
+        typer.echo(f"! {w}", err=True)
     if rep.errors:
         for e in rep.errors:
             typer.echo(f"- {e}", err=True)
         raise typer.Exit(1)
     name, n = rep.max_file
-    typer.echo(f"✓ scouts : {rep.files} fichiers, {rep.words} mots, max {n} mots ({name})")
+    typer.echo(f"✓ scouts : {rep.files} fichiers, {rep.bytes / 1e3:.0f} Ko, {rep.words} mots, "
+               f"max ~{n} tokens ({name})")
 
 
 def build_index(root: Path) -> str:

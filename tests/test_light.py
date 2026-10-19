@@ -62,30 +62,60 @@ def test_squelette_valide(skel: Path):
 
 
 def test_trop_de_fichiers(skel: Path):
-    for i in range(195):
+    # 200 fichiers dans le pack, dont MANIFEST.md ajouté par le build : 199 dans la source
+    for i in range(194):
         (skel / "references" / f"x{i}.txt").write_text("x", encoding="utf-8")
     assert light.check(skel).errors == []
     (skel / "references" / "x.txt").write_text("x", encoding="utf-8")
-    assert any("201 fichiers" in e for e in light.check(skel).errors)
+    assert any("200 fichiers (max 199" in e for e in light.check(skel).errors)
     assert light.check(skel, max_files=300).errors == []
 
 
-def test_trop_de_mots(skel: Path):
-    (skel / "references" / "reglages.md").write_text("mot " * 1201, encoding="utf-8")
-    assert any("1201 mots (max 1200)" in e for e in light.check(skel).errors)
-    (skel / "references" / "reglages.md").write_text("mot " * 1200, encoding="utf-8")
+def test_budget_de_tokens(skel: Path):
+    p = skel / "references" / "reglages.md"
+    p.write_text("a" * 17_500, encoding="utf-8")  # 17 500 / 3,5 = 5 000
     assert light.check(skel).errors == []
+    p.write_text("a" * 17_501, encoding="utf-8")
+    assert any("~5001 tokens (max 5000)" in e for e in light.check(skel).errors)
 
 
-def test_plafond_des_descriptifs_de_cours(skel: Path):
+def test_budget_unique_sans_exception(skel: Path):
     front = SAVOIR.split("\n---\n")[0] + "\n---\n"
     p = skel / "savoirs" / "formation-cours-base.md"
-    p.write_text(front + "mot " * (2500 - len(front.split())), encoding="utf-8")
+    p.write_text(front + "a" * 18_000, encoding="utf-8")
+    assert any("formation-cours-base.md" in e and "(max 5000)" in e for e in light.check(skel).errors)
+
+
+def test_skill_md_trop_long(skel: Path):
+    (skel / "SKILL.md").write_text(SKILL + "ligne\n" * 500, encoding="utf-8")
+    assert any("lignes (max 500)" in e for e in light.check(skel).errors)
+
+
+def test_taille_des_fichiers(skel: Path, monkeypatch: pytest.MonkeyPatch):
+    monkeypatch.setattr(light, "MAX_FILE_BYTES", 100)
+    monkeypatch.setattr(light, "MAX_TOTAL_BYTES", 150)
+    (skel / "references" / "gros.txt").write_text("x" * 101, encoding="utf-8")
+    errors = "\n".join(light.check(skel).errors)
+    assert "gros.txt" in errors and "au total" in errors
+
+
+@pytest.mark.parametrize("ext", [".docx", ".doc", ".xlsx", ".XLS"])
+def test_format_binaire_refuse(skel: Path, ext: str):
+    (skel / "references" / f"modele{ext}").write_bytes(b"PK")
+    assert any("refusé par Gemini" in e for e in light.check(skel).errors)
+
+
+def test_un_seul_skill_md(skel: Path):
+    (skel / "references" / "skill.md").write_text(SKILL, encoding="utf-8")
+    assert any("un seul admis" in e for e in light.check(skel).errors)
+
+
+def test_script_reseau(skel: Path):
+    (skel / "scripts").mkdir()
+    (skel / "scripts" / "ok.py").write_text("print(1)\n", encoding="utf-8")
     assert light.check(skel).errors == []
-    p.write_text(front + "mot " * (2501 - len(front.split())), encoding="utf-8")
-    assert any("2501 mots (max 2500)" in e for e in light.check(skel).errors)
-    (skel / "savoirs" / "formation.md").write_text(front + "mot " * 1300, encoding="utf-8")
-    assert any("formation.md" in e and "(max 1200)" in e for e in light.check(skel).errors)
+    (skel / "scripts" / "web.py").write_text("import requests\n", encoding="utf-8")
+    assert any("appel réseau" in e for e in light.check(skel).errors)
 
 
 @pytest.mark.parametrize("bad", ["`msds-x#03-abc`", "voir corpus/x", "voir p.12"])
@@ -115,9 +145,14 @@ def test_slug_et_frontmatter(skel: Path):
     assert "slug" in errors and "frontmatter" in errors and "doit valoir" in errors
 
 
-def test_description_trop_longue(skel: Path):
+def test_description(skel: Path):
     (skel / "SKILL.md").write_text(f"---\nname: scouts\ndescription: {'a' * 1025}\n---\n", encoding="utf-8")
     assert any("1025 caractères" in e for e in light.check(skel).errors)
+    (skel / "SKILL.md").write_text(f"---\nname: scouts\ndescription: {'a' * 1024}\n---\n", encoding="utf-8")
+    rep = light.check(skel)
+    assert rep.errors == [] and any("claude.ai" in w for w in rep.warnings)
+    (skel / "SKILL.md").write_text(f"---\nname: scouts\ndescription: {'a' * 200}\n---\n", encoding="utf-8")
+    assert light.check(skel).warnings == []
 
 
 def test_referentiel_a_plat(skel: Path):
@@ -129,7 +164,7 @@ def test_referentiel_a_plat(skel: Path):
 
 def test_cli(skel: Path):
     r = CliRunner().invoke(light.app, ["check", "--root", str(skel), "--table"])
-    assert r.exit_code == 0 and "✓ scouts : 5 fichiers" in r.output
+    assert r.exit_code == 0 and "✓ scouts : 5 fichiers" in r.output and "tokens" in r.output
     (skel / "SKILL.md").unlink()
     assert CliRunner().invoke(light.app, ["check", "--root", str(skel)]).exit_code == 1
 
