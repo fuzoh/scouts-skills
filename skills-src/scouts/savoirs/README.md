@@ -56,6 +56,13 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | fichier | sert à |
 |---|---|
 | `pedagogie-sport.md` | Répondre aux questions de pédagogie de terrain : principes du sport des enfants J+S, conduite d'un jeu, courbe d'intensité, échauffement, retour au calme, feedback, climat d'apprentissage, inclusion, éthique, règles de comportement, camp équitable. |
+| `sport-activites-de-qualite.md` | Préparer ou évaluer une activité avec les quatre domaines J+S de qualité : climat, objectifs et structure, encadrement et sécurité, tâches et feedback ; compétences psychosociales ; développement personnel du moniteur ; relation aux parents, au club, à l'éthique. |
+| `sport-apprentissage-moteur.md` | Comment enfants et jeunes apprennent un mouvement (acquérir, appliquer, créer), consignes, démonstration, variation, global ou analytique, facteurs de développement et âge, planifier une progression sur plusieurs séances, bases techniques exigées du moniteur SdC/T. |
+| `sport-jeux-et-tournois.md` | Choisir une forme de tournoi (nombre d'équipes, temps, équité) et la dérouler ; monter une fête des jeux ; concevoir un module ludique et sportif pour les 5-10 ans ; trouver des jeux par forme de mouvement, par milieu (forêt, eau, neige) ou pour calmer. |
+| `sport-perturbations.md` | Que faire quand une activité déraille : comprendre la cause d'une perturbation, la prévenir, choisir une réaction proportionnée (ignorer, intervenir, interrompre), poser des règles et des conséquences, réagir à la violence, à la météo, à l'accident, aux enfants difficiles. |
+| `sport-physis-et-blessures.md` | Quels exercices et jeux simples pour l'endurance, la force, la mobilité et la coordination d'enfants et de jeunes ; comment doser ; comment prévenir les blessures sportives ; que faire pour une plaie, une entorse, une fracture ; qui annoncer. |
+| `sport-psyche.md` | Que faire concrètement pour la motivation, la confiance en soi, la concentration, les émotions, la peur de l'échec, la pression d'un jeu ou d'une épreuve, la communication et l'esprit de groupe ; techniques simples (monologue, respiration, visualisation) et exercices. |
+| `sport-velo.md` | Enseigner ou revoir la technique VTT utile à un camp ou un trekking (positions, freinage, virages, pentes, passage à pied, réglages) ; organiser des exercices et jeux à vélo ; estimer le temps d'une sortie. Ce que la source ne couvre pas (circulation, matériel, conduite de groupe). |
 
 ## Formation : cours, UA, qualification
 

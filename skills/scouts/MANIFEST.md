@@ -2,8 +2,8 @@
 
 - version : 0.4.0 <!-- x-release-please-version -->
 - source : https://github.com/fuzoh/scouts-skills
-- fichiers : 62
-- mots : 79904
+- fichiers : 69
+- mots : 92990
 
 ## Référentiels
 
