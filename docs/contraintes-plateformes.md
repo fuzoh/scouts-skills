@@ -14,7 +14,7 @@ Légende : [P] source primaire (doc éditeur), [T] tierce (blog, forum), [NV] no
 | ChatGPT custom GPT | Non (aucune preuve) | 8000 car. [T] | 20 fichiers, 512 Mo, 2 M tokens/fichier texte [T] | RAG [NV détail] | Sans objet | help.openai.com inaccessible (403) |
 | ChatGPT skills / Codex | Oui (appli desktop ; web/mobile via plugins) | liste des skills : 2 % du contexte ou 8000 car. ; frontmatter selon agentskills | API : zip 50 Mo, 500 fichiers, 25 Mo par fichier décompressé, un seul SKILL.md, un dossier racine [P] | Lecture fichiers | `@skill` (utilisateur) ; non documenté entre skills | `.agents/skills` ; `agents/openai.yaml` optionnel |
 | Gemini Gems | Remplacés par des skills dès nov. 2026 (comptes perso) | non trouvé [NV] | 10 fichiers, 100 Mo [T] | non trouvé [NV] | Sans objet | Migration automatique Gem vers skill |
-| Gemini app (skills) | Oui, SKILL.md / zip / dossier | non chiffré | 100 skills actifs ; 100 Mo au total ; texte, PDF, images ; .docx, .doc, .xlsx refusés ; scripts sans réseau [P] | Lecture fichiers [NV] | Non documenté | Upload : web et Mac seulement |
+| Gemini app (skills) | Oui, SKILL.md / zip / dossier | non chiffré | 100 skills actifs ; 100 Mo au total ; import en échec entre 100 et 150 fichiers (essais) ; texte, PDF, images ; .docx, .doc, .xlsx refusés ; scripts sans réseau [P] | Lecture fichiers [NV] | Non documenté | Upload : web et Mac seulement |
 | Cursor / Copilot / OpenCode / Gemini CLI | Oui, dossiers | description 1024 (OpenCode) | libre | Lecture fichiers | OpenCode : outil `skill` ; Gemini CLI : `activate_skill` | Tous lisent `.agents/skills/` |
 
 ## 1. Spécification agentskills.io
@@ -90,7 +90,7 @@ Légende : [P] source primaire (doc éditeur), [T] tierce (blog, forum), [NV] no
 
 | Règle | Valeur | Origine |
 |---|---|---|
-| Fichiers dans le pack | 200 (199 dans la source, le build ajoute MANIFEST.md) | claude.ai échoue au-delà (essai du mainteneur) ; OpenAI API 500 [P] |
+| Fichiers dans le pack | 100 (99 dans la source, le build ajoute MANIFEST.md) | Gemini : 100 passe, 150 et 200 échouent (skill de test, essais du mainteneur 2026-10-19) ; claude.ai échoue au-delà de 200 ; OpenAI API 500 [P] |
 | Taille totale | 50 Mo | OpenAI API, zip [P] ; Gemini 100 Mo [P] |
 | Taille par fichier | 25 Mo | OpenAI API, décompressé [P] ; claude.ai 30 Mo en exécution de code [T] |
 | Formats | pas de .docx, .doc, .xlsx, .xls | Gemini [P] |
