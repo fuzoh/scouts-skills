@@ -8,6 +8,19 @@ Cette page s'adresse aux personnes qui utilisent un agent en ligne de commande :
 
 Les deux skills se trouvent dans le dossier `skills/` du dépôt [fuzoh/scouts-skills](https://github.com/fuzoh/scouts-skills) : `skills/scouts` et `skills/scouts-ressources`. Pour choisir, voir l'[accueil](index.md#deux-skills-lequel-choisir).
 
+## Le plus simple : demander à l'agent
+
+Ouvrez votre agent dans le projet voulu et collez :
+
+> Installe-moi les skills scouts dans le projet actuel, suis : https://github.com/fuzoh/scouts-skills
+
+Le [README du dépôt](https://github.com/fuzoh/scouts-skills#instructions-pour-un-agent-qui-installe) contient les instructions destinées à l'agent : il lance `npx skills add` pour lui-même, installe `scouts` dans le projet courant, puis vous dit comment l'appeler. Variantes :
+
+- « … pour tous mes projets » : installation pour votre compte (`-g`).
+- « … avec la version avec corpus » : `scouts-ressources` au lieu de `scouts`, ou les deux.
+
+L'agent demande en général votre accord avant de lancer la commande. Les commandes ci-dessous font la même chose à la main.
+
 ## Méthode universelle : `npx skills`
 
 L'outil [`skills`](https://github.com/vercel-labs/skills) installe un skill pour un ou plusieurs agents. Il demande Node.js (commande `npx`).
