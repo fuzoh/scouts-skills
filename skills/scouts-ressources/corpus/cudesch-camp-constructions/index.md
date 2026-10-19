@@ -8,7 +8,7 @@ title: Indications pour les constructions de camp (aide-mémoire)
 issuer: cudesch
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/27/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/27/indications-pour-les-constructions-de-camp/
 file_url: https://pfadi.swiss/media/files/41/07_lager_hinweise_lagerbau_fr_web.pdf
 ---
 

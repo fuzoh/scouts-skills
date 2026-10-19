@@ -1,6 +1,6 @@
 # Inventaire des sources
 
-Généré par `just inventory` le 2026-10-18. Ne pas éditer : le registre est dans `sources/*/source.yaml`.
+Généré par `just inventory` le 2026-10-19. Ne pas éditer : le registre est dans `sources/*/source.yaml`.
 
 **186 sources.**
 

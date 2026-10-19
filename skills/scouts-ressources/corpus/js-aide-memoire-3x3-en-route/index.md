@@ -9,7 +9,7 @@ issuer: js
 ref: 30.401.531 f
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/374/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/374/aide-memoire-js-trekking/
 file_url: https://pfadi.swiss/media/files/04/2014mb3x3unterwegsseinf.pdf
 ---
 

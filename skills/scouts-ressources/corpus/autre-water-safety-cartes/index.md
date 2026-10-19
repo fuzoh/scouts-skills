@@ -9,7 +9,7 @@ issuer: autre
 ref: '4.078'
 fidelity: partial
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/874/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/874/set-de-cartes-water-safety/
 file_url: https://pfadi.swiss/media/files/03/bfu_407801_f_water-safety-kartenset.pdf
 ---
 

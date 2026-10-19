@@ -8,7 +8,7 @@ title: cudesch – glossaire des dénominations scoutes
 issuer: cudesch
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/442/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/442/glossaire-cudesch/
 file_url: https://pfadi.swiss/media/files/c1/00e_glossar_fr_web.pdf
 ---
 

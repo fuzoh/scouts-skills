@@ -9,7 +9,7 @@ issuer: js
 nature: prescription
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/882/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/882/aide-memoire-securite-eau-pour-les-moniteurices-de-sport-de-camptrekking/
 file_url: https://pfadi.swiss/media/files/e1/merkblatt_wassersicherheit_leitende_fr.pdf
 ---
 

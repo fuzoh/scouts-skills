@@ -9,7 +9,7 @@ issuer: js
 nature: exemple
 fidelity: partial
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/31/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/31/modele-du-programme-general-sct-sport-des-jeunes/
 file_url: https://pfadi.swiss/media/files/5e/grobprogramm_lager_jugendsport_f.pdf
 ---
 

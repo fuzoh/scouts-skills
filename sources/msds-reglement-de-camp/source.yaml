@@ -8,7 +8,7 @@ issuer_detail: ''                       # obligatoire si issuer = autre
 ref: 208505fr                           # numéro officiel, "" si absent
 lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
 type: pdf                               # pdf | docx | xlsx | pptx | web | image
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/7/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/7/reglement-de-camp-msds/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
 file_url: https://pfadi.swiss/media/files/ee/208505fr-reglement_concernant_la_preparation_et_la_realisation_de_camps-20201107-coenc_neues_cd.pdf # lien direct au fichier, "" pour web
 web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
 

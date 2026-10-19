@@ -8,7 +8,7 @@ title: Facteur humain – activités de plein air en sécurité (dépliant J+S)
 issuer: js
 fidelity: partial
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/453/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/453/depliant-js-securite-facteur-humain/
 file_url: https://pfadi.swiss/media/files/10/jes_faktor_mensch_leporello_f_web.pdf
 ---
 

@@ -8,7 +8,7 @@ title: Demande d'autorisation d'organiser un camp – canton de Vaud (formulaire
 issuer: autre
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/23/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/23/autorisation-dun-camp-au-canton-de-vaud/
 file_url: https://pfadi.swiss/media/files/42/f_-_36_-_demande_autorisation_camps_2024.pdf
 ---
 

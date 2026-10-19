@@ -8,7 +8,7 @@ title: Rapport de reconnaissance pour un camp sous toit (formulaire)
 issuer: cudesch
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/12/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/12/rapport-de-reconnaissance-pour-un-camp-sous-toit/
 file_url: https://pfadi.swiss/media/files/28/07_lager_reko-haus_fr_web_form.pdf
 ---
 

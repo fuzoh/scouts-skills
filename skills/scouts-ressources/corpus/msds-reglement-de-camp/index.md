@@ -11,7 +11,7 @@ nature: prescription
 applies_from: '2021-01-01'
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/7/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/7/reglement-de-camp-msds/
 file_url: https://pfadi.swiss/media/files/ee/208505fr-reglement_concernant_la_preparation_et_la_realisation_de_camps-20201107-coenc_neues_cd.pdf
 ---
 

@@ -8,7 +8,7 @@ title: cudesch – index des brochures, thèmes et références officielles (201
 issuer: cudesch
 fidelity: partial
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/441/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/441/contenu-du-cudesch/
 file_url: https://pfadi.swiss/media/files/63/00c_inhaltsverz_fr_web.pdf
 ---
 

@@ -11,7 +11,7 @@ nature: prescription
 applies_until: '2026-12-31'
 fidelity: partial
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/9/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/9/autorisation-de-camp-msds/
 file_url: https://pfadi.swiss/media/files/56/208409fr-autorisation_de_camp-20260119-papillon.pdf
 ---
 

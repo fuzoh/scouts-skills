@@ -8,7 +8,7 @@ title: Calcul de temps de marche (modèle Excel du cudesch)
 issuer: cudesch
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/447/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/447/calcul-de-temps-de-marche-cudesch/
 file_url: https://pfadi.swiss/media/files/cd/10_trekking_mzb_fr_web.xlsx
 ---
 

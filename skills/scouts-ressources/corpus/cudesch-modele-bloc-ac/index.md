@@ -9,7 +9,7 @@ issuer: cudesch
 nature: exemple
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/467/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/467/modele-de-bloc-ac/
 file_url: https://pfadi.swiss/media/files/0d/fr-modele-de-bloc_ac_vide-20181129_appendix.docx
 ---
 

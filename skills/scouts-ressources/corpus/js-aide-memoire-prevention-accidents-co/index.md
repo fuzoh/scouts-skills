@@ -8,7 +8,7 @@ title: Prévention des accidents en course d'orientation (aide-mémoire J+S)
 issuer: js
 fidelity: partial
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/872/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/872/aide-memoire-js-prevention-des-accidents-en-course-dorientation/
 file_url: https://pfadi.swiss/media/files/5e/mb_f_orientierungslauf.pdf
 ---
 

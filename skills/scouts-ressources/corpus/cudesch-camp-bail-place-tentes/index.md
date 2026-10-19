@@ -8,7 +8,7 @@ title: Bail à loyer pour une place de camp sous tentes (modèle)
 issuer: cudesch
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/11/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/11/bail-a-loyer-pour-une-place-de-camp-sous-tentes/
 file_url: https://pfadi.swiss/media/files/fe/07_lager_mietvertrag_fr_web_form.pdf
 ---
 

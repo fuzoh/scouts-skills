@@ -8,7 +8,7 @@ title: Relations publiques dans le scoutisme
 issuer: cudesch
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/786/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/786/relations-publiques-dans-le-scoutisme/
 file_url: https://pfadi.swiss/media/files/92/cudesch_oeffentlichtkeitsarbeit_2022_f.pdf
 ---
 

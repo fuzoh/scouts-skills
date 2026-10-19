@@ -9,7 +9,7 @@ issuer: msds
 ref: 215302fr
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/789/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/789/twitterbox_document-explicatif/
 file_url: https://pfadi.swiss/media/files/1d/215302_fr_document_explicatif_twitterbox.pdf
 ---
 

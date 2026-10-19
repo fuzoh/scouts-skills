@@ -8,7 +8,7 @@ title: Formulaire « Budget de camp » (modèle Excel du cudesch)
 issuer: cudesch
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/19/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/19/formulaire-budget-de-camp/
 file_url: https://pfadi.swiss/media/files/1a/07_lager_budget_fr_web.xlsx
 ---
 

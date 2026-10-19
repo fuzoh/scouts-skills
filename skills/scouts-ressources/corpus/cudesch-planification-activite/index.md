@@ -9,7 +9,7 @@ issuer: cudesch
 nature: exemple
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/463/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/463/planification-detaillee-dune-activite/
 file_url: https://pfadi.swiss/media/files/be/fr-planification_detaillee_activite_modele_vide-v20181217-appendix.pdf
 ---
 

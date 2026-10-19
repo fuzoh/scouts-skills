@@ -11,7 +11,7 @@ nature: prescription
 applies_from: '2021-09-19'
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/148/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/148/concept-de-protection-prevention-des-abus-sexuels/
 file_url: https://pfadi.swiss/media/files/78/107301fr_concept_de_protection_prevention_des_abus_sexuels_anderungen_ssi.pdf
 ---
 

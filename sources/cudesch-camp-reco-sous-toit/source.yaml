@@ -8,7 +8,7 @@ issuer_detail: ''                       # obligatoire si issuer = autre
 ref: ''                                 # numéro officiel, "" si absent
 lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
 type: pdf                               # pdf | docx | xlsx | pptx | web | image
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/12/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/12/rapport-de-reconnaissance-pour-un-camp-sous-toit/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
 file_url: https://pfadi.swiss/media/files/28/07_lager_reko-haus_fr_web_form.pdf # lien direct au fichier, "" pour web
 web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
 

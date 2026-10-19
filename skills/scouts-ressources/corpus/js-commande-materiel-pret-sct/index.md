@@ -8,7 +8,7 @@ title: 'Commande de matériel de prêt J+S : Sport de camp/Trekking (formulaire)
 issuer: js
 fidelity: partial
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/38/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/38/commande-de-materiel-de-pret-js/
 file_url: https://pfadi.swiss/media/files/ad/bestellformular_lagersport_trekking_f.pdf
 ---
 

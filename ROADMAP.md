@@ -118,7 +118,7 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 Bêta en cours. Les retours des testeurs se traitent au fil de l'eau, sans grille à rejouer.
 
 ### Hygiène
-- [ ] Corriger dans le registre les 40 `url` `pfadi.swiss/.../downloads/detail/N/` en 404 (prendre l'URL avec slug ; les fichiers sont bons)
+- [ ] Corriger les URL `pfadi.swiss/.../downloads/detail/N/` en 404 : **31/40 remplacées par les liens avec slug du catalogue**, correspondance par identifiant numérique ; 9 restantes (voir Prochaine action). Vérification HTTP individuelle encore à faire : site devenu inaccessible pendant la collecte (connexions refusées, puis délai dépassé). Les `file_url` et contenus restent inchangés
 - [ ] Réingérer `msds-illustrations-profil` : le zip distant a changé (original local requis)
 - [ ] `scripts/check_urls.py` : détection `stale` (aujourd'hui posé à la main après lecture de l'issue de veille)
 - [ ] Routine de mise à jour documentée : issue de veille → `ingest --new-version` → reconvertir, réindexer, `split` → `just skills`
@@ -134,7 +134,9 @@ Bêta en cours. Les retours des testeurs se traitent au fil de l'eau, sans grill
 - Packs aplatis `camp` / `formation` et migration des anciens prompts : seulement si un retour bêta le demande
 
 ## Prochaine action
-Hygiène du registre : corriger les 40 URL `pfadi.swiss` en 404, puis réingérer `msds-illustrations-profil`.
+Reprendre le catalogue pfadi.swiss à la page 56 (pages 1–55 collectées, 550 entrées) quand le site répondra. Retrouver les 9 liens restants : `cudesch-camp-liste-delais` (6), `js-aide-memoire-meteorologie` (454), `js-aide-memoire-orientation` (455), `js-conception-js` (34), `js-kids-fete-des-jeux` (457), `js-kids-modules-ludiques-sportifs` (458), `js-kids-randonnee-avec-enfants` (459), `js-sdct-bases` (39), `msds-encadrement-scoutisme` (257). Vérifier ensuite les 40 liens par HTTP, puis réingérer `msds-illustrations-profil`.
+
+Traces locales : `build/pfadi-url-catalogue.json` (catalogue partiel), `build/pfadi-url-repairs.json` (table des 40 anciennes/nouvelles URL, 9 sans correspondance), `build/resolve-pfadi.py` (collecte navigateur, reprise à 56). Inventaire et packs régénérés ; `just check` et 147 tests réussis.
 
 ## Points à arbitrer (remontés par les agents de Phase 3 ; tranchés le 2026-10-17 → Phase 3b, sauf mention)
 - ✅ (caviardage sections + notes) **Identifiants en clair dans deux sources** : `js-intro-manuel-experts-diapos` (diapo 20) et `msds-essentiel-msds-js-2027` (p.4) contiennent un identifiant et un mot de passe d'accès à l'espace J+S, présents dans l'original, `raw.md` et la section. À ne jamais reprendre dans un skill ; décider s'il faut caviarder les sections (le `raw.md` n'est jamais édité à la main).
@@ -176,4 +178,4 @@ Hygiène du registre : corriger les 40 URL `pfadi.swiss` en 404, puis réingére
 - 2026-10-17 : Phase 0 et Phase 1 livrées (10 commits). Benchmark PageIndex → `index --pageindex`. Première source `cofor-checklist-cours-base` à `indexed`.
 
 ## Blocages
-Aucun.
+- pfadi.swiss inaccessible pendant la collecte des URL (connexions refusées depuis navigateur et client HTTP, puis délai dépassé) : empêche les pages 56–78 et la validation HTTP des liens complets. Ne pas confondre cet échec réseau avec une disparition des 9 documents.

@@ -8,7 +8,7 @@ title: Guide pour la réalisation d'offres J+S Sport de camp/Trekking
 issuer: js
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/42/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/42/guide-pour-la-realisation-doffres-js-sct/
 file_url: https://pfadi.swiss/media/files/bd/53f79526-91ed-4699-b52a-36c1933cb1e6.pdf
 ---
 

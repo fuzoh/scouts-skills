@@ -8,7 +8,7 @@ title: Guide concernant les prestations spéciales pour les offres de sport J+S 
 issuer: js
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/36/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/36/guide-concernant-les-prestations-speciales-pour-les-offres-de-sport-js-et-la-formation-des-cadres-js/
 file_url: https://pfadi.swiss/media/files/71/leitfaden_spezielle_leistungen_js_f.pdf
 ---
 

@@ -10,7 +10,7 @@ ref: 2025-0374
 nature: prescription
 fidelity: partial
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/40/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/40/aide-memoire-js-et-bpa-prevention-des-accidents-et-exigences-en-matiere-de-securite-en-sct/
 file_url: https://pfadi.swiss/media/files/97/2025-0374_mb-unfallpraevention-lst-berg-winter-wasser_fr.pdf
 ---
 

@@ -8,7 +8,7 @@ title: Liste d'équipement des participants (formulaire)
 issuer: cudesch
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/13/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/13/liste-dequipement-des-participants/
 file_url: https://pfadi.swiss/media/files/6c/07_lager_ausrustung_fr_web_form.pdf
 ---
 
