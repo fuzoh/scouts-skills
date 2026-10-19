@@ -64,6 +64,15 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | `sport-psyche.md` | Que faire concrètement pour la motivation, la confiance en soi, la concentration, les émotions, la peur de l'échec, la pression d'un jeu ou d'une épreuve, la communication et l'esprit de groupe ; techniques simples (monologue, respiration, visualisation) et exercices. |
 | `sport-velo.md` | Enseigner ou revoir la technique VTT utile à un camp ou un trekking (positions, freinage, virages, pentes, passage à pied, réglages) ; organiser des exercices et jeux à vélo ; estimer le temps d'une sortie. Ce que la source ne couvre pas (circulation, matériel, conduite de groupe). |
 
+## Prévention et inclusion
+
+| fichier | sert à |
+|---|---|
+| `inclusion-diversite.md` | Rendre une unité ou un cours plus inclusif : notions (inclusion, discrimination), obstacles, accueil, finances, langage inclusif, genre, enfants trans ou inter, racisme, migration et asile, religion, parents, check-list, guide en 11 étapes, animer le thème en cours. |
+| `inclusion-handicap.md` | Accueillir un enfant ou un jeune en situation de handicap dans une unité ordinaire ou une activité sportive : séparation, intégration, inclusion, adapter jeux et consignes, particularités par type de handicap, sécurité, parents, encadrement, réseau d'aide. |
+| `prevention-abus.md` | Prévenir les abus sexuels et violations de limites dans l'unité et en camp : situations à risque (massages, tiques, réconfort, WC, langage, dortoir, douches, photos), règles de proximité, 7 points de prévention, jeux avec les enfants, signaux, qui informer. |
+| `prevention-violence-et-sante.md` | Reconnaître et prévenir la violence et l'exclusion entre jeunes, réagir à une agression ou une insulte raciste, mettre en place la Twitterbox en camp, porter les valeurs et l'obligation de signaler dans l'équipe, charte d'équipe et règles de comportement. |
+
 ## Formation : cours, UA, qualification
 
 | fichier | sert à |
