@@ -3,7 +3,7 @@ name: scouts
 description: "Assistant du scoutisme suisse (responsables, formateurs, coachs et experts J+S), fondé sur les ressources officielles MSdS, cofor, J+S et cudesch. Répondre à une question de règle, de délai ou de chiffre ; expliquer une notion (PATExE, 3x3, formes caractéristiques, activité J+S 2027, qualification) ; corriger ou concevoir un document scout (activité J+S, unité d'apprentissage, programme de camp ou picasso, concept de sécurité) ; guider qui débute (thèmes, lectures, exemples de demandes). Utiliser dès qu'un prompt parle de scouts, de J+S, de camp, de cours scout, de responsables, de coachs, d'experts ou de CàF, ou cite le MSdS, la Sardine ou le cudesch."
 license: "CC-BY-SA-4.0"
 metadata:
-  version: "0.3.1" # x-release-please-version
+  version: "0.4.0" # x-release-please-version
   source: "https://github.com/fuzoh/scouts-skills"
 ---
 
