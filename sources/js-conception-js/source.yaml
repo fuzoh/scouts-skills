@@ -8,7 +8,7 @@ issuer_detail: ''                       # obligatoire si issuer = autre
 ref: ''                                 # numéro officiel, "" si absent
 lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
 type: pdf                               # pdf | docx | xlsx | pptx | web | image
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/34/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/34/conception-jeunesse-sport-version-abregee/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
 file_url: https://pfadi.swiss/media/files/6a/js_leitbild_fr.pdf # lien direct au fichier, "" pour web
 web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
 
@@ -36,5 +36,5 @@ concepts: [js, ofspo, ethique, coach-js, expert-js, securite]
 supersedes: []                          # ids remplacés par cette source
 history: []                             # versions précédentes : {version, published, sha256, retired}
 
-notes: 'Brochure de 20 p. à forte part visuelle, sans pagination imprimée (page_offset 0) ni signets : index écrit à la main. Couverture p.1 et impressum p.20 exclus. Le texte est complet mais éclaté en blocs : titres de volets coupés (« Nous offrons / Une qualité et… » p.8, 10, 12, 14, 16, 18, à lire avec p.5-6), chiffres clés en grand (80 000 experts, 50 %, 100 millions, 3500, 34 recommandations, 85 sports) séparés de leur légende, citations de témoins sans mise en forme. Photos et illustrations perdues. Contenu essentiellement de principes (valeurs, vision), peu opérationnel.'
+notes: 'Brochure de 20 p. à forte part visuelle, sans pagination imprimée (page_offset 0) ni signets : index écrit à la main. Couverture p.1 et impressum p.20 exclus. Le texte est complet mais éclaté en blocs : titres de volets coupés (« Nous offrons / Une qualité et… » p.8, 10, 12, 14, 16, 18, à lire avec p.5-6), chiffres clés en grand (80 000 experts, 50 %, 100 millions, 3500, 34 recommandations, 85 sports) séparés de leur légende, citations de témoins sans mise en forme. Photos et illustrations perdues. Contenu essentiellement de principes (valeurs, vision), peu opérationnel. Entrée retirée du catalogue Downloads de pfadi.swiss (2026-10-19) ; la page de détail redirige toujours vers le fichier, slug reconstitué depuis le titre (le site ignore le slug, seul le numéro compte).'
 redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

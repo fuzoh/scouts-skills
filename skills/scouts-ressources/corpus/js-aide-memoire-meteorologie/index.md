@@ -8,7 +8,7 @@ title: Aide-mémoire J+S « Météorologie »
 issuer: js
 fidelity: partial
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/454/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/454/aide-memoire-js-meteorologie/
 file_url: https://pfadi.swiss/media/files/2f/2010mbmeteof.pdf
 ---
 

@@ -8,7 +8,7 @@ title: Aide-mémoire J+S-Kids « Modules ludiques et sportifs variés »
 issuer: js
 fidelity: partial
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/458/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/458/aide-memoire-js-kids-modules-ludiques-et-sportifs-varies/
 file_url: https://pfadi.swiss/media/files/58/j-s-kids_aide_memoire_des_modules_ludiques_et_sportifs_varies_f.pdf
 ---
 

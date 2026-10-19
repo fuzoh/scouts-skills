@@ -8,7 +8,7 @@ title: Aide-mémoire J+S-Kids « La fête des jeux »
 issuer: js
 fidelity: partial
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/457/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/457/aide-memoire-js-kids-la-fete-des-jeux/
 file_url: https://pfadi.swiss/media/files/97/j-s-kids_aide_memoire_la_fete_des_jeux_f.pdf
 ---
 

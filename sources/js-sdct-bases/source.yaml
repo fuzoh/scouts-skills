@@ -8,7 +8,7 @@ issuer_detail: ''                       # obligatoire si issuer = autre
 ref: 30.401.500 f                       # numéro officiel, "" si absent
 lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
 type: pdf                               # pdf | docx | xlsx | pptx | web | image
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/39/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/39/brochure-js-sct-bases/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
 file_url: https://pfadi.swiss/media/files/0c/2014brolstgrundlagenf2.pdf # lien direct au fichier, "" pour web
 web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
 
@@ -36,5 +36,5 @@ concepts: [sport-de-camp, activite-de-camp, js, methode-3x3, securite, planifica
 supersedes: []                          # ids remplacés par cette source
 history: []                             # versions précédentes : {version, published, sha256, retired}
 
-notes: 'Signets pauvres (3, dont couverture, sommaire) : index réécrit à la main d''après le sommaire imprimé. page_offset +2 (page imprimée = physique − 2), vérifié p.5 (imprimée 3) et p.34 (imprimée 32). Couverture p.1-2, sommaire p.3, pages blanches p.35 et impressum p.36 exclus. Texte à deux colonnes et encadrés latéraux souvent dans l''ordre des blocs ; pictogrammes et illustrations perdus. Chapitres 05, 10 et 14 sans texte propre (renvoi vers leurs sous-sections). Brochure du cudesch, ancrée sur le SC/T J+S 2014.'
+notes: 'Signets pauvres (3, dont couverture, sommaire) : index réécrit à la main d''après le sommaire imprimé. page_offset +2 (page imprimée = physique − 2), vérifié p.5 (imprimée 3) et p.34 (imprimée 32). Couverture p.1-2, sommaire p.3, pages blanches p.35 et impressum p.36 exclus. Texte à deux colonnes et encadrés latéraux souvent dans l''ordre des blocs ; pictogrammes et illustrations perdus. Chapitres 05, 10 et 14 sans texte propre (renvoi vers leurs sous-sections). Brochure du cudesch, ancrée sur le SC/T J+S 2014. Entrée retirée du catalogue Downloads de pfadi.swiss (2026-10-19) ; la page de détail redirige toujours vers le fichier, slug d''origine retrouvé dans la Wayback Machine (2024).'
 redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

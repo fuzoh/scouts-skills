@@ -9,7 +9,7 @@ issuer: msds
 ref: 310701fr
 fidelity: partial
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/257/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/257/lencadrement-au-sein-du-scoutisme/
 file_url: https://pfadi.swiss/media/files/26/310701fr_lencadrement_en_sein_du_scoutisme.pdf
 ---
 

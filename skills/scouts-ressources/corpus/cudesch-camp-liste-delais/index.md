@@ -8,7 +8,7 @@ title: Liste des délais pour l'annonce de camp (formulaire interactif)
 issuer: cudesch
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/6/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/6/liste-des-delais-annonce-de-camp-interactif/
 file_url: https://pfadi.swiss/media/files/28/07_lager_terminliste_fr_web_form.pdf
 ---
 

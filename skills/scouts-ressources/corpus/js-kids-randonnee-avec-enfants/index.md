@@ -8,7 +8,7 @@ title: Aide-mémoire J+S-Kids « Randonnée avec des enfants »
 issuer: js
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/459/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/459/aide-memoire-js-sport-des-enfants-randonnee-avec-des-enfants/
 file_url: https://pfadi.swiss/media/files/9e/j-s-kids_aide_memoire_randonnee__avec_des_enfants_f.pdf
 ---
 

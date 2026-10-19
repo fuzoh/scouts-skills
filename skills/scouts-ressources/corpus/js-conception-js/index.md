@@ -8,7 +8,7 @@ title: Conception Jeunesse+Sport (version abrégée)
 issuer: js
 fidelity: complete
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/34/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/34/conception-jeunesse-sport-version-abregee/
 file_url: https://pfadi.swiss/media/files/6a/js_leitbild_fr.pdf
 ---
 

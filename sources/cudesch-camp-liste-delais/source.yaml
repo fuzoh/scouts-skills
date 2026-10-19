@@ -8,7 +8,7 @@ issuer_detail: ''                       # obligatoire si issuer = autre
 ref: ''                                 # numéro officiel, "" si absent
 lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
 type: pdf                               # pdf | docx | xlsx | pptx | web | image
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/6/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/6/liste-des-delais-annonce-de-camp-interactif/ # page d'origine canonique (pas le lien direct au fichier si une page existe)
 file_url: https://pfadi.swiss/media/files/28/07_lager_terminliste_fr_web_form.pdf # lien direct au fichier, "" pour web
 web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
 
@@ -35,5 +35,5 @@ concepts: [camp, administration-de-cours, planification, autorisation-de-camp, s
 supersedes: []                          # ids remplacés par cette source
 history: []                             # versions précédentes : {version, published, sha256, retired}
 
-notes: 'Formulaire interactif (délais d''annonce) : tableaux p.1 bien rendus ; p.2 check-list de camp (Date, Quand, Quoi, Qui, Fait) dont les colonnes de saisie sont vides. Les champs à remplir (coach, Voilà) sont dans un tableau final p.1 à cellules fusionnées. Un astérisque indique les prestations indisponibles pour un camp non annoncé J+S. Réf. MSdS.3044.04.fr. Orthographe d''origine (« offce », « défnir »).'
+notes: 'Formulaire interactif (délais d''annonce) : tableaux p.1 bien rendus ; p.2 check-list de camp (Date, Quand, Quoi, Qui, Fait) dont les colonnes de saisie sont vides. Les champs à remplir (coach, Voilà) sont dans un tableau final p.1 à cellules fusionnées. Un astérisque indique les prestations indisponibles pour un camp non annoncé J+S. Réf. MSdS.3044.04.fr. Orthographe d''origine (« offce », « défnir »). Entrée retirée du catalogue Downloads de pfadi.swiss (2026-10-19) ; la page de détail redirige toujours vers le fichier, slug d''origine retrouvé dans la Wayback Machine (2024).'
 redactions: []                          # caviardage appliqué par split : {section: NN-slug, pattern: regex, replace}

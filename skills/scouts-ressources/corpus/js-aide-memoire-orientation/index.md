@@ -8,7 +8,7 @@ title: Aide-mémoire J+S « Orientation » – lecture de carte, temps de marche
 issuer: js
 fidelity: partial
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/455/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/455/aide-memoire-js-orientation/
 file_url: https://pfadi.swiss/media/files/93/2010mborientierungf.pdf
 ---
 

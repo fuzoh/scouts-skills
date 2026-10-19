@@ -118,7 +118,7 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 Bêta en cours. Les retours des testeurs se traitent au fil de l'eau, sans grille à rejouer.
 
 ### Hygiène
-- [ ] Corriger les URL `pfadi.swiss/.../downloads/detail/N/` en 404 : **31/40 remplacées par les liens avec slug du catalogue**, correspondance par identifiant numérique ; 9 restantes (voir Prochaine action). Vérification HTTP individuelle encore à faire : site devenu inaccessible pendant la collecte (connexions refusées, puis délai dépassé). Les `file_url` et contenus restent inchangés
+- [x] Corriger les URL `pfadi.swiss/.../downloads/detail/N/` en 404 : 40/40 remplacées par les liens avec slug (catalogue pour 37, Wayback Machine pour `cudesch-camp-liste-delais` et `js-sdct-bases`, slug reconstitué pour `js-conception-js` ; ces trois entrées ne sont plus listées dans le catalogue mais leurs pages redirigent toujours vers le fichier, noté dans `notes`). Les 93 liens `detail/` du registre vérifiés par HTTP le 2026-10-19 : 200, cible de redirection = `file_url` pour chacun. `file_url` et contenus inchangés
 - [ ] Réingérer `msds-illustrations-profil` : le zip distant a changé (original local requis)
 - [ ] `scripts/check_urls.py` : détection `stale` (aujourd'hui posé à la main après lecture de l'issue de veille)
 - [ ] Routine de mise à jour documentée : issue de veille → `ingest --new-version` → reconvertir, réindexer, `split` → `just skills`
@@ -134,9 +134,9 @@ Bêta en cours. Les retours des testeurs se traitent au fil de l'eau, sans grill
 - Packs aplatis `camp` / `formation` et migration des anciens prompts : seulement si un retour bêta le demande
 
 ## Prochaine action
-Reprendre le catalogue pfadi.swiss à la page 56 (pages 1–55 collectées, 550 entrées) quand le site répondra. Retrouver les 9 liens restants : `cudesch-camp-liste-delais` (6), `js-aide-memoire-meteorologie` (454), `js-aide-memoire-orientation` (455), `js-conception-js` (34), `js-kids-fete-des-jeux` (457), `js-kids-modules-ludiques-sportifs` (458), `js-kids-randonnee-avec-enfants` (459), `js-sdct-bases` (39), `msds-encadrement-scoutisme` (257). Vérifier ensuite les 40 liens par HTTP, puis réingérer `msds-illustrations-profil`.
+Réingérer `msds-illustrations-profil` (original local requis), puis `scripts/check_urls.py`.
 
-Traces locales : `build/pfadi-url-catalogue.json` (catalogue partiel), `build/pfadi-url-repairs.json` (table des 40 anciennes/nouvelles URL, 9 sans correspondance), `build/resolve-pfadi.py` (collecte navigateur, reprise à 56). Inventaire et packs régénérés ; `just check` et 147 tests réussis.
+Traces locales : `build/pfadi-catalogue-entries.yaml` (catalogue complet, 775 entrées, 78 pages), `build/detail-check.txt` (vérification HTTP des 93 liens).
 
 ## Points à arbitrer (remontés par les agents de Phase 3 ; tranchés le 2026-10-17 → Phase 3b, sauf mention)
 - ✅ (caviardage sections + notes) **Identifiants en clair dans deux sources** : `js-intro-manuel-experts-diapos` (diapo 20) et `msds-essentiel-msds-js-2027` (p.4) contiennent un identifiant et un mot de passe d'accès à l'espace J+S, présents dans l'original, `raw.md` et la section. À ne jamais reprendre dans un skill ; décider s'il faut caviarder les sections (le `raw.md` n'est jamais édité à la main).
@@ -155,6 +155,7 @@ Traces locales : `build/pfadi-url-catalogue.json` (catalogue partiel), `build/pf
 - 2026-10-19 (formation) : buts et objectifs des cours ajoutés à `scouts` en trois savoirs rédigés par sous-agents sonnet ; fusions pour garder 42 fichiers ; plafond `light` 1 200 / 2 500 mots.
 - 2026-10-19 (suite) : `DECISIONS.md` replié sur l'état courant (plus d'historique ni de date de journal). `AGENTS.md` et `METHODE.md` : une décision changée se réécrit sur place.
 - 2026-10-19 (après push) : dépôt publié, release `v0.2.0` ; installation `npx skills` et site testés ; style du site (1280 px, violet MSdS, angles carrés, version et date en en-tête) ; nouvelle version par release-please.
+- 2026-10-19 (URL) : les 9 derniers liens pfadi.swiss retrouvés (catalogue complet rejoué, Wayback pour deux entrées retirées du catalogue, slug reconstitué pour une) ; 93 liens `detail/` vérifiés par HTTP ; packs régénérés, `just check` et tests verts.
 - 2026-10-19 (avant push) : tour de relecture ; e-mail personnel d'un contact caviardé (`msds-assurance-tiers-conducteurs`) ; chemins locaux retirés ; page « Mettre à jour » et page « Nouveautés » générée depuis `CHANGELOG.md` ; version 0.2.0 ; historique à réécrire en un commit (laissé indexé pour le mainteneur).
 - 2026-10-19 (reprise) : lien de `pilote/tests-manuels.md` corrigé ; choix faits sans le mainteneur validés ; licences au nom de `fuzoh` ; sigle de l'association cantonale retiré des fichiers versionnés ; résultats des tests web reportés sur le site (`scouts-ressources` : ChatGPT seulement). Rien de poussé.
 - 2026-10-19 (publication) : dépôt public neuf préparé (assainissement, `skills-src/` → `skills/`, build déterministe, CI, release-please, Pages, veille, site, licences, formulaires) ; trois sous-agents en worktrees (workflows, veille, site) ; questions ouvertes tranchées (DECISIONS) ; check §3.7 vert sur clone neuf. Rien de poussé.
@@ -178,4 +179,4 @@ Traces locales : `build/pfadi-url-catalogue.json` (catalogue partiel), `build/pf
 - 2026-10-17 : Phase 0 et Phase 1 livrées (10 commits). Benchmark PageIndex → `index --pageindex`. Première source `cofor-checklist-cours-base` à `indexed`.
 
 ## Blocages
-- pfadi.swiss inaccessible pendant la collecte des URL (connexions refusées depuis navigateur et client HTTP, puis délai dépassé) : empêche les pages 56–78 et la validation HTTP des liens complets. Ne pas confondre cet échec réseau avec une disparition des 9 documents.
+Aucun.

@@ -9,7 +9,7 @@ issuer: js
 ref: 30.401.500 f
 fidelity: partial
 extraction: text
-url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/39/
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/39/brochure-js-sct-bases/
 file_url: https://pfadi.swiss/media/files/0c/2014brolstgrundlagenf2.pdf
 ---
 
