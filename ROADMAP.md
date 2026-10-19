@@ -92,7 +92,7 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] (2026-10-19) Mainteneur : les trois `formation-cours-*.md` passés `valide`
 - [x] (2026-10-19) Plafond de travail porté à 85 fichiers : 41 savoirs ajoutés (`brouillon`), rédigés par douze sous-agents sonnet puis relus en trois passes croisées contre les sources : vie de camp (lieu, matériel, cuisine, budget, étranger, modèles), sécurité pratique (facteur humain, eau, corde et constructions, orientation et météo), identité, programme et une fiche par branche, jeux et pédagogie sportive, prévention et inclusion, groupe, maîtrise et coach J+S, méthodes et administration de formation. Index des savoirs groupé par `theme`, `sert_a` ≤ 160 car. (README ~3 100 tokens) ; `documents.md`, `guide.md`, glossaire étendus. 83 fichiers dans la source
 - [x] (2026-10-19) Mainteneur : 41 nouveaux savoirs passés `valide`. Arbitrages (`DECISIONS.md`) : piscine selon l'aide-mémoire eau 2024 (Base Pool / Plus Pool) ; jours d'arrivée et de départ comptés ensemble, leur total respecte les exigences d'une journée ; cartes 5 semaines, Pilote 3 semaines, 8 règles de comportement ; seuil de 16 ans, « comité » / « conseil » de parents et module de perfectionnement validés tels quels
-- [ ] SAPC et 2 h sportives 2027 : les check-lists SAPC (12/2025) les comptent dans les 4 h ; aucune source ne dit si elles comptent dans les 2 h sportives
+- [x] (2026-10-19) SAPC : comptent dans les 4 h et dans les 2 h sportives de 2027 (mainteneur)
 - [ ] Mainteneur : tester `scouts.zip` à 84 fichiers sur claude.ai et Gemini
 - [ ] Routine : re-dériver un dossier de `scouts/referentiels/` quand `relu_le` de son référentiel `referentiels/` change
 

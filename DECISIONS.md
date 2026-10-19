@@ -61,6 +61,7 @@ Ces choix tiennent même s'ils sont plus prudents, ou moins stricts, qu'une sour
 - Piscine : l'aide-mémoire J+S Sécurité Eau 2024 fait foi. Baignade en piscine surveillée : module J+S Eau SdC/T ou brevet Base Pool ; piscine non surveillée : module J+S Eau ou brevet Plus Pool.
 - Jours d'arrivée et de départ : comptent ensemble pour une journée de camp, en 2026 comme en 2027. C'est leur total qui respecte les exigences d'une journée (2027 : 4 h d'activités J+S dont 2 h sportives).
 - Délais retenus quand les sources divergent : commande de cartes 5 semaines avant (3, 4 ou 5 selon la source), clôture d'un cours dans le Pilote 3 semaines (30 jours ailleurs). Règles de comportement J+S : 8.
+- SAPC : comptent dans les 4 h d'activités J+S et, dès 2027, dans les 2 h sportives (mainteneur).
 - Trois concepts de sécurité : global, activité à caractère dangereux, randonnée. Toute randonnée en a un, succinct hors domaine de sécurité.
 - Constructions : un concept global suffit en règle générale. Une petite construction (lavabo) n'en exige pas. Montage, usage et tempête vont dans ce concept global.
 - La matrice des risques est un outil. Un concept global sans matrice est conforme s'il nomme des risques concrets (lieu, saison, groupe), une mesure chacun, et une réaction d'urgence que tout responsable peut appliquer. 3x3 recommandé en randonnée, matrice pour la tyrolienne et l'eau. Corde : personne expérimentée, pas un expert J+S exigé. Gravité : vocabulaire libre, cohérence interne exigée.

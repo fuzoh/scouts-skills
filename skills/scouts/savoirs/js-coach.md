@@ -85,7 +85,7 @@ Matériel de prêt : voir le guide du matériel de prêt. Le guide date de 2022 
 
 ## SAPC : séquences d'activité physique complémentaires
 
-Définition (check-lists SAPC, 12/2025) : activités sportives d'un camp qui n'appartiennent pas aux activités J+S usuelles du Sport de camp/Trekking. Elles sont facultatives, comptent comme activités de camp J+S et peuvent entrer dans le décompte des 4 heures. Pour le temps sportif de 2027, voir (js-2026-2027) : les check-lists datent de 12/2025 et parlent du décompte des 4 heures ; elles ne disent pas si une SAPC compte dans les 2 heures sportives de 2027, à confirmer avec le service cantonal. Le document d'octobre 2026 sur J+S 2027 présente la fiche de sécurité du SdC/T révisée, qui intègre les SAPC.
+Définition (check-lists SAPC, 12/2025) : activités sportives d'un camp qui n'appartiennent pas aux activités J+S usuelles du Sport de camp/Trekking. Elles sont facultatives, comptent comme activités de camp J+S et peuvent entrer dans le décompte des 4 heures. En 2027, une SAPC compte aussi dans les 2 heures sportives, pour son temps d'activité physique (js-2026-2027). Le document d'octobre 2026 sur J+S 2027 présente la fiche de sécurité du SdC/T révisée, qui intègre les SAPC.
 
 | Catégorie | Contenu |
 |---|---|
