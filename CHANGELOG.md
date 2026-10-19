@@ -1,5 +1,36 @@
 # Changelog
 
+## [0.5.0](https://github.com/fuzoh/scouts-skills/compare/v0.4.0...v0.5.0) (2026-10-19)
+
+
+### Nouveautés
+
+* **scripts:** index des savoirs groupé par thème ([b19af8d](https://github.com/fuzoh/scouts-skills/commit/b19af8de44728ab274ffcf988246542ea18be171))
+* **scripts:** light check aligné sur les limites des applis web ([faace92](https://github.com/fuzoh/scouts-skills/commit/faace92be1097ac2e0522545ab1a6ad234bf2327))
+* **skills:** guide, catalogue et glossaire étendus aux nouveaux savoirs ([53aedd8](https://github.com/fuzoh/scouts-skills/commit/53aedd85c8cedc954275fbd59e075490b92528f1))
+* **skills:** index des savoirs resserré ([3440b34](https://github.com/fuzoh/scouts-skills/commit/3440b34f9b12fae1c5f7aeaf5eba4c6f91d7a171))
+* **skills:** savoirs d'identité, de programme et par branche ([159c9e5](https://github.com/fuzoh/scouts-skills/commit/159c9e585ce92f04898395f547f6821f80e3abe7))
+* **skills:** savoirs de jeux et de pédagogie sportive ([3c615cc](https://github.com/fuzoh/scouts-skills/commit/3c615ccf1c2a67194dc4ee4fd0788d08cc714837))
+* **skills:** savoirs de méthodes et d'administration de formation ([05e13a2](https://github.com/fuzoh/scouts-skills/commit/05e13a2aee01a4ed8158a28d686e8edab84c07f2))
+* **skills:** savoirs de prévention et d'inclusion ([92d6563](https://github.com/fuzoh/scouts-skills/commit/92d656372918e62c5909e3da6728155d39b67ce2))
+* **skills:** savoirs de sécurité pratique ([722b0c1](https://github.com/fuzoh/scouts-skills/commit/722b0c1d0dee944d075925bc2e566cf8bc5a97a2))
+* **skills:** savoirs de vie de camp ([eb07b55](https://github.com/fuzoh/scouts-skills/commit/eb07b555aa41a2234e5affb872739e6e335aeaf1))
+* **skills:** savoirs du groupe, de la maîtrise et du coach J+S ([091830c](https://github.com/fuzoh/scouts-skills/commit/091830c89bf1510590c6f4affd3639f774ba5edc))
+
+
+### Corrections
+
+* **contenu:** arbitrages du mainteneur et savoirs passés valide ([204a643](https://github.com/fuzoh/scouts-skills/commit/204a64317a4dbaeb502c8a16964b13db2819d283))
+* **contenu:** SAPC comptées dans les 2 h sportives de 2027 ([d42a8a7](https://github.com/fuzoh/scouts-skills/commit/d42a8a7a29c66e3d4692c98914a2cfadf0ff7ea8))
+* **scripts:** plafond de scouts à 100 fichiers dans le pack ([f0691ae](https://github.com/fuzoh/scouts-skills/commit/f0691ae2a894c4d8da3c46d15368d42bf404fd07))
+
+
+### Documentation
+
+* limite de 100 fichiers pour scouts (essais Gemini) ([5a23e38](https://github.com/fuzoh/scouts-skills/commit/5a23e38ba6e7a425b480388686af02c4b04cfa49))
+* limites des skills web revérifiées, budget de tokens de scouts ([89a3637](https://github.com/fuzoh/scouts-skills/commit/89a363710c576ef176edca2b6a1dc943993944ab))
+* roadmap après l'ajout de 41 savoirs ([9fc73c6](https://github.com/fuzoh/scouts-skills/commit/9fc73c66be7aa591e806da4c653c9ea26b0b8f0e))
+
 ## [0.4.0](https://github.com/fuzoh/scouts-skills/compare/v0.3.1...v0.4.0) (2026-10-19)
 
 

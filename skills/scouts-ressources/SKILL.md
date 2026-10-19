@@ -3,7 +3,7 @@ name: scouts-ressources
 description: "Version avec corpus du skill scouts : les ressources officielles du scoutisme suisse (MSdS, cofor, J+S, cudesch) embarquées et citées section par section. Chercher et citer une règle, un délai ou une méthode avec sa source exacte ; corriger ou concevoir un document scout (activité J+S, unité d'apprentissage, programme de camp ou picasso, concept de sécurité, autre livrable de camp ou de cours) ; expliquer une notion (PATExE, 3x3, formes caractéristiques, activité J+S 2027) en citant le texte officiel. Utiliser quand l'utilisateur veut la source exacte, le texte officiel ou une citation vérifiable, ou dès qu'un prompt parle de scouts, de J+S, de camp, de cours de formation scoute, de responsables, de coachs, d'experts ou de CàF, ou cite le MSdS ou le cudesch."
 license: "CC-BY-SA-4.0 (corpus/ : textes officiels, droits à leurs auteurs)"
 metadata:
-  version: "0.4.0" # x-release-please-version
+  version: "0.5.0" # x-release-please-version
   source: "https://github.com/fuzoh/scouts-skills"
 ---
 
