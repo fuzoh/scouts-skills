@@ -94,7 +94,7 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] Assainissement : identifiants caviardés jusque dans le texte brut (`redact`, `convert`), lieu de camp retiré d'un canevas, originaux et `pilote/cas/` hors git, `check` sans originaux ; `docs/terrain/`, `ancien skills/`, `docs/propositions/`, `idées.md`, `GOALS.md`, `pilote/retours-en-vrac.md` restés dans l'archive locale du mainteneur (seul `docs/lexique-terrain.md` publié)
 - [x] Nouveau dépôt local (historique neuf), sans push ; historique réécrit en un seul commit initial, tag `v0.2.0` (2026-10-19)
 - [x] `skills/` généré et commité depuis `skills-src/`, build déterministe, version injectée (`metadata.version`, MANIFEST)
-- [x] Workflows : `ci.yml`, `release-please.yml` (+ upload des zips), `pages.yml`, `veille.yml` (`check-urls`) ; jactionlint propre (permissions par job, timeouts, `persist-credentials: false`, pas de cache uv pour les zips publiés)
+- [x] Workflows : `ci.yml`, `release-please.yml` (+ upload des zips), `pages.yml` (sur tag `v*` seulement), `veille.yml` (`check-urls`) ; jactionlint propre (permissions par job, timeouts, `persist-credentials: false`, pas de cache uv pour les zips publiés)
 - [x] Site (`uv run site`, 14 pages, sources générées depuis le registre, versions depuis `CHANGELOG.md`, page « Mettre à jour »)
 - [x] README, LICENSE (MIT), LICENSE-CONTENT (CC BY-SA 4.0), CONTRIBUTING, formulaires d'issue, modèle de PR
 - [x] Check de publication (briefing §3.7) sur un clone neuf sans originaux ; réglages post-push dans `docs/publication-reglages.md`

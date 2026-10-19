@@ -33,7 +33,7 @@ Source : le README de `googleapis/release-please-action` n'énumère pas les per
 
 ## 4. GitHub Pages
 
-Settings > Pages > Build and deployment > Source : **GitHub Actions**. Le workflow `pages.yml` publie ensuite `build/site/` à chaque push sur `main` touchant `site/**`, `scripts/site.py`, `sources/*/source.yaml` ou `pyproject.toml`. Premier déploiement : Actions > Site > Run workflow. Adresse : `https://fuzoh.github.io/scouts-skills/`.
+Settings > Pages > Build and deployment > Source : **GitHub Actions**. Le workflow `pages.yml` publie ensuite `build/site/` à chaque nouveau tag `v*`, donc à chaque release (le site affiche toujours une version publiée). Environments > github-pages > Deployment branches and tags : ajouter la règle de tag `v*` à côté de `main` (fait le 2026-10-19), sinon le déploiement depuis un tag est refusé. Déploiement manuel : Actions > Site > Run workflow, en choisissant le tag. Adresse : `https://fuzoh.github.io/scouts-skills/`.
 
 ## 5. Étiquettes
 

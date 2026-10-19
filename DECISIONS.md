@@ -2,6 +2,9 @@
 
 Journal des décisions structurantes, une entrée par décision, la plus récente en haut. Format : date, décision, raison, alternative écartée.
 
+## 2026-10-19 — Site et zips publiés seulement à chaque version
+Le site GitHub Pages se déploie sur un tag `v*` (poussé par release-please avec le PAT), et non plus à chaque push de `main` ; les zips étaient déjà joints seulement à la création d'une release. Le site affiche donc toujours la version publiée, avec sa date et son CHANGELOG. Une correction du site attend la release suivante : la commiter en `fix(site)` pour en déclencher une, ou lancer le workflow à la main sur le dernier tag. L'environnement `github-pages` accepte `main` et les tags `v*`. La CI continue de construire les packs à chaque push (contrôle de `skills/`, artefacts de 7 jours). Écarté : déploiement à chaque push de `main` (site en avance sur la version publiée), job `pages` dans `release-please.yml` via `workflow_call` (le tag suffit).
+
 ## 2026-10-19 — Avant push : historique en un commit, v0.2.0, corpus vu comme un moteur de recherche
 (1) **Historique** : l'historique local est remplacé par un seul commit initial (les anciens commits portaient le nom civil dans `LICENSE` et le sigle cantonal), tag `v0.2.0` (première version publique ; `v0.1.1` n'est jamais publié). Remplace « tag `v0.1.1` sur `chore: dépôt public initial` ». (2) **Textes officiels** : `scouts-ressources` n'est pas une copie mais la redistribution de documents publics, à voir comme un moteur de recherche qui retrouve, cite par `id` et renvoie à l'original ; formulé sur la page des sources. (3) **E-mails personnels** de contacts dans les sources : caviardés par `redactions` (premier cas : `msds-assurance-tiers-conducteurs`) ; les adresses institutionnelles restent. (4) **Versions sur le site** : page « Nouveautés » générée depuis `CHANGELOG.md` (release-please), page « Mettre à jour ». Écarté : publier l'historique tel quel ; retirer les manuels J+S.
 

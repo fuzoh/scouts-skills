@@ -1,16 +1,12 @@
 name: Site
 
+# Publié seulement à chaque nouvelle version : release-please pousse le tag `v*` avec le PAT,
+# ce qui déclenche ce workflow sur le commit de la release. À la main : Actions > Site >
+# Run workflow, en choisissant le tag (l'environnement github-pages accepte `main` et `v*`).
 on:
   push:
-    branches:
-      - main
-    paths:
-      - "site/**"
-      - "CHANGELOG.md"
-      - "scripts/site.py"
-      - "sources/*/source.yaml"
-      - "pyproject.toml"
-      - ".github/workflows/pages.yml"
+    tags:
+      - "v*"
   workflow_dispatch:
 
 permissions: {}
