@@ -1,6 +1,7 @@
 ---
 titre: Modèle de formation du MSdS, cours et rôles
-sert_a: Répondre aux questions sur le modèle de formation (buts et objectifs, journée de formation, cours combinés), l'échelle des cours scouts (durée, âge minimal, préalables, liaison J+S) et les rôles de la direction de cours, de la maîtrise, du formateur, du CàF et de l'expert J+S ; renvoie aux descriptifs de chaque cours.
+theme: formation
+sert_a: Modèle de formation (buts et objectifs, journée de formation, cours combinés), échelle des cours scouts (durée, âge minimal, préalables, liaison J+S) et les rôles de la direction de cours, de la maîtrise, du formateur, du CàF et de l'expert J+S ; renvoie aux descriptifs de chaque cours.
 derive_de: [msds-modele-de-formation (version 2027), cofor-concept-caf, msds-ancre, js-modele-de-formation-macolin, concepts modele-de-formation, caf, chef-de-cours, cours-de-base, cours-ru, cours-panorama, cours-rg, expert-js]
 statut: valide
 ---

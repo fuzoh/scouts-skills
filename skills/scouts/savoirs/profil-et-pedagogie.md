@@ -1,5 +1,6 @@
 ---
 titre: Profil du scoutisme, relations, méthodes et programme
+theme: programme
 sert_a: Répondre aux questions sur les fondements pédagogiques du MSdS (but, cinq relations, huit méthodes scoutes) et sur la planification d'un programme trimestriel, d'une activité et d'une séance.
 derive_de: [msds-profil-du-scoutisme (2025), msds-factsheet-profil, cudesch-cudeschin, concepts profil-du-scoutisme, relations, methodes-scoutes, planification]
 statut: valide

@@ -1,5 +1,6 @@
 ---
 titre: Sécurité, principes, activités dangereuses et concepts de sécurité
+theme: securite
 sert_a: Quelles activités exigent un concept de sécurité (CdS), quand il n'est pas nécessaire, quels sont les trois types de CdS et leur contenu, comment fonctionne le 3x3.
 derive_de: [cudesch-securite, js-aide-memoire-3x3-en-route, js-aide-memoire-prevention-accidents-sct, "concepts: securite, methode-3x3"]
 statut: valide

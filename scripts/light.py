@@ -49,7 +49,19 @@ NETWORK_RE = re.compile(r"\b(requests|urllib|httpx|aiohttp|socket|fetch\(|axios|
 SKILL_NAME = "scouts"
 SECTIONS = ("Non-négociables", "Selon la date", "Critères de qualité", "Pièges", "Trame de conception")
 REF_KEYS = ("slug", "derive_de", "statut")
-SAVOIR_KEYS = ("titre", "sert_a", "derive_de", "statut")
+SAVOIR_KEYS = ("titre", "theme", "sert_a", "derive_de", "statut")
+# `theme` d'un savoir → rubrique de savoirs/README.md, dans cet ordre
+THEMES = {
+    "camp": "Camp : démarches, lieu, matériel, cuisine, budget",
+    "js": "J+S : règles 2026 et 2027, formes, rôles, coach",
+    "securite": "Sécurité, urgence et protection",
+    "programme": "Profil, programme et branches",
+    "sport": "Jeux, sport et pédagogie de terrain",
+    "prevention": "Prévention et inclusion",
+    "groupe": "Groupe, maîtrise et encadrement",
+    "formation": "Formation : cours, UA, qualification",
+}
+MAX_SERT_A = 300           # caractères : une ligne de l'index par savoir
 CITATION_PATTERNS = (
     (re.compile(r"`[a-z0-9-]+#[0-9]{2}-"), "citation `id#NN-slug`"),
     (re.compile(r"corpus/"), "chemin `corpus/`"),
@@ -220,7 +232,12 @@ def check(root: Path, max_files: int = MAX_FILES) -> Report:
             continue
         rel = f.relative_to(root).as_posix()
         front, _ = parse_front(f.read_text(encoding="utf-8"))
-        _check_keys(rel, front, SAVOIR_KEYS, rep.errors)
+        if not _check_keys(rel, front, SAVOIR_KEYS, rep.errors):
+            continue
+        if front.get("theme") and front["theme"] not in THEMES:
+            rep.errors.append(f"{rel} : `theme` `{front['theme']}` inconnu ({', '.join(THEMES)})")
+        if len(str(front.get("sert_a", ""))) > MAX_SERT_A:
+            rep.warnings.append(f"{rel} : `sert_a` de {len(str(front['sert_a']))} car. (index : {MAX_SERT_A} conseillés)")
     return rep
 
 
@@ -252,18 +269,23 @@ def check_cmd(
 
 
 def build_index(root: Path) -> str:
-    """`savoirs/README.md` : un tableau fichier → `sert_a` tiré des frontmatters."""
-    rows = []
+    """`savoirs/README.md` : une rubrique par `theme` (ordre de THEMES), une ligne fichier → `sert_a`."""
+    groups: dict[str, list[str]] = {}
     for f in sorted((root / "savoirs").glob("*.md")):
         if f.name == "README.md":
             continue
         front, _ = parse_front(f.read_text(encoding="utf-8"))
         front = front or {}
-        rows.append(f"| `{f.name}` | {front.get('titre', '')} | {front.get('sert_a', '')} |")
-    head = ("# Index des savoirs\n\nGénéré par `light index`, ne pas éditer. Lire le fichier dont la colonne "
-            "« sert à » répond à la question ; plusieurs fichiers d'un même thème se complètent.\n\n"
-            "| fichier | titre | sert à |\n|---|---|---|\n")
-    return head + "\n".join(rows) + "\n"
+        groups.setdefault(front.get("theme", ""), []).append(f"| `{f.name}` | {front.get('sert_a', '')} |")
+    out = ["# Index des savoirs\n\nGénéré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le "
+           "ou les fichiers dont la colonne « sert à » répond à la question ; les fichiers d'une rubrique "
+           "se complètent.\n"]
+    for key in [*THEMES, *sorted(k for k in groups if k not in THEMES)]:
+        if key not in groups:
+            continue
+        out.append(f"## {THEMES.get(key, key or 'Sans thème')}\n\n| fichier | sert à |\n|---|---|\n"
+                   + "\n".join(groups[key]) + "\n")
+    return "\n".join(out)
 
 
 @app.command("index")

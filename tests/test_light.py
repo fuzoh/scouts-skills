@@ -33,7 +33,7 @@ Q1. Un.
 ## Trame de conception
 - Rubrique.
 """
-SAVOIR = "---\ntitre: T\nsert_a: Répondre\nderive_de: [x]\nstatut: brouillon\n---\n## Titre\ntexte\n"
+SAVOIR = "---\ntitre: T\ntheme: formation\nsert_a: Répondre\nderive_de: [x]\nstatut: brouillon\n---\n## Titre\ntexte\n"
 SKILL = "---\nname: scouts\ndescription: Un skill.\n---\n# scouts\n"
 
 
@@ -195,6 +195,30 @@ def test_index(skel: Path):
     r = CliRunner().invoke(light.app, ["index", "--root", str(skel)])
     assert r.exit_code == 0
     readme = skel / "savoirs" / "README.md"
-    assert readme.exists() and "| fichier | titre | sert à |" in readme.read_text(encoding="utf-8")
+    assert readme.exists() and "## Formation" in readme.read_text(encoding="utf-8")
     # le README généré n'a pas de frontmatter et ne doit pas faire échouer le check
     assert light.check(skel).errors == []
+
+
+def test_theme_inconnu(skel: Path):
+    p = skel / "savoirs" / "formation.md"
+    p.write_text(SAVOIR.replace("theme: formation", "theme: cuisine"), encoding="utf-8")
+    assert any("`theme` `cuisine` inconnu" in e for e in light.check(skel).errors)
+
+
+def test_theme_manquant(skel: Path):
+    p = skel / "savoirs" / "formation.md"
+    p.write_text(SAVOIR.replace("theme: formation\n", ""), encoding="utf-8")
+    assert any("clé `theme` manquante" in e for e in light.check(skel).errors)
+
+
+def test_theme_inconnu(skel: Path):
+    p = skel / "savoirs" / "formation.md"
+    p.write_text(SAVOIR.replace("theme: formation", "theme: cuisine"), encoding="utf-8")
+    assert any("`theme` `cuisine` inconnu" in e for e in light.check(skel).errors)
+
+
+def test_theme_manquant(skel: Path):
+    p = skel / "savoirs" / "formation.md"
+    p.write_text(SAVOIR.replace("theme: formation\n", ""), encoding="utf-8")
+    assert any("clé `theme` manquante" in e for e in light.check(skel).errors)

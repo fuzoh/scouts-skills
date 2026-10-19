@@ -1,5 +1,6 @@
 ---
 titre: "Cours de cadres et de formateurs : Panorama, Gilwell, RG, préparatoire, coach, Top, CàF, perfectionnements"
+theme: formation
 sert_a: Conditions, buts, objectifs numérotés et niveaux des cours Panorama, Gilwell, RG, préparatoire, coach, Top, CàF et de leurs perfectionnements.
 derive_de: [msds-modele-de-formation (version 2027), "concepts: modele-de-formation, niveau-d-approfondissement, objectifs-d-apprentissage, cours-panorama, cours-rg, coach-js, caf, expert-js"]
 statut: brouillon

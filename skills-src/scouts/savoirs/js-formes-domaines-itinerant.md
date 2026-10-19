@@ -1,5 +1,6 @@
 ---
 titre: Domaines d'AC et types de SC (2026), formes caractéristiques et d'activité (2027), activités itinérantes
+theme: js
 sert_a: Répondre aux six domaines d'AC, aux types de SC, aux six formes caractéristiques, aux formes d'activité, à ce que sont les activités itinérantes et leur exigence, et à la correspondance entre jeu 2026 et jeu 2027.
 derive_de: [cudesch-cudeschin, js-sdct-camp, js-manuel-sport-de-camp-trekking, msds-exigences-js-2027-camps, referentiel activite-js, concepts sport-de-camp, activite-de-camp]
 statut: valide

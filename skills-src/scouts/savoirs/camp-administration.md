@@ -1,5 +1,6 @@
 ---
 titre: Camp scout, démarches, participants, clôture et calendrier des délais
+theme: camp
 sert_a: Répondre aux démarches d'un camp (qui fait quoi, annonce, programme général, dossier, autorisation, camp non J+S), aux participants (MiData, BDNS), à la clôture (cartes 3 jours, MiData 10 jours, offre J+S 30 jours) et au calendrier Sardine.
 derive_de: [js-aide-memoire-prevention-accidents-sct, msds-hering-camps, msds-reglement-de-camp, msds-autorisation-de-camp, js-sdct-camp, concepts camp autorisation-de-camp et coach-js, referentiel programme-camp]
 statut: valide

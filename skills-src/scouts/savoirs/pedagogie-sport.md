@@ -1,5 +1,6 @@
 ---
 titre: Sport des enfants J+S, jeu, intensité, feedback, climat, inclusion, éthique et camp équitable
+theme: sport
 sert_a: "Répondre aux questions de pédagogie de terrain : principes du sport des enfants J+S, conduite d'un jeu, courbe d'intensité, échauffement, retour au calme, feedback, climat d'apprentissage, inclusion, éthique, règles de comportement, camp équitable."
 derive_de: [js-sport-des-enfants-bases, js-sport-des-enfants-jouer, js-physis-bases-theoriques, js-climat-d-apprentissage, js-guide-boussole-ethique, js-poster-regles-de-comportement, cudesch-cudeschin, msds-profil-du-scoutisme, msds-alpha-aide-memoire-rg, msds-ancre, msds-le-cours, concepts sport-des-enfants, jeu, echauffement, retour, climat-d-apprentissage, inclusion, ethique, regles-de-comportement]
 statut: valide

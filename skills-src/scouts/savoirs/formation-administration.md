@@ -1,5 +1,6 @@
 ---
 titre: Administration d'un cours MSdS, délais, autorisation, qualification et charte
+theme: formation
 sert_a: Répondre aux questions sur les délais d'un cours (annonce, sommaire des UA, programme détaillé, autorisation, évaluation), sur ce que reçoit le CàF et quand, sur MiData, la BDNS et la saisie des qualifications.
 derive_de: [msds-ancre (version 23), cofor-administration-cours-federaux, cofor-checklist-caf, cofor-autorisation-du-cours, cofor-evaluation-du-cours, msds-retour-qualifier-accompagner, msds-modele-de-formation, js-modele-charte-cours, js-poster-regles-de-comportement, concepts administration-de-cours, qualification, charte-de-cours]
 statut: valide

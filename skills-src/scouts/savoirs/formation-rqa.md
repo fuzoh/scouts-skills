@@ -1,5 +1,6 @@
 ---
 titre: Retour, qualification et accompagnement (RQA) dans un cours
+theme: formation
 sert_a: Expliquer à quoi sert une qualification et comment la conduire comme un outil pédagogique (observations, retours, entretiens, accompagnement), puis comment fixer les exigences minimales et prendre la décision réussi / non réussi, en séquencé ou en continu.
 derive_de: [msds-retour-qualifier-accompagner, msds-modele-de-formation, cofor-pano-retour-qualifier, concepts qualification, exigences-minimales, accompagnement, feedback]
 statut: valide
