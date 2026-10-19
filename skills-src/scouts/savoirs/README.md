@@ -7,6 +7,12 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | fichier | sert à |
 |---|---|
 | `camp-administration.md` | Répondre aux démarches d'un camp (qui fait quoi, annonce, programme général, dossier, autorisation, camp non J+S), aux participants (MiData, BDNS), à la clôture (cartes 3 jours, MiData 10 jours, offre J+S 30 jours) et au calendrier Sardine. |
+| `camp-budget-et-droits.md` | Établir un budget de camp (postes, prix par personne, recettes, imprévus, comptes), savoir comment fonctionnent les subsides J+S, qui a droit au congé jeunesse et comment le demander, couvrir les conducteurs de voitures privées, intégrer le camp équitable aux achats. |
+| `camp-cuisine.md` | Planifier les menus et les achats d'un camp, calculer les quantités par personne, respecter hygiène, températures et conservation, organiser l'équipe cuisine (y compris avec des enfants), prévenir intoxications et allergies, ranger les restes, trucs de cuisine. |
+| `camp-etranger.md` | Préparer un camp à l'étranger ; quand commencer, documents de voyage et DFAE, MiData, J+S et matériel de prêt, assurances (maladie, Rega, annulation), budget et aides, transport, santé et urgence, contacts avec les scouts du pays, check-list par échéance. |
+| `camp-lieu-et-reconnaissance.md` | Trouver et réserver une place de camp ou une maison, quand chercher, que vérifier à la reconnaissance (sous tentes, sous toit), que mettre dans le contrat ou le bail, qui contacter (propriétaire, commune, forestier, canton) et ce que demandent le Tessin, Vaud, Lucerne, Saint-Gall, Thurgovie. |
+| `camp-materiel-et-tentes.md` | Qui peut commander du matériel de prêt J+S, comment, avec quels délais, frais, livraison et retour ; monter, entretenir, sécher et rendre les toiles de tente ; quoi mettre dans la liste d'équipement des participants. |
+| `camp-modeles-et-exemples.md` | Ce que montrent les modèles de programme général J+S et les exemples d'activités (CO photos, estafette, grande fête, tournoi, randonnée avec nuitée), structure, répartition d'une journée, fiche d'activité, modèles de bloc ; comment lire un modèle 2026 (AC/SC) en 2027. |
 
 ## J+S : règles 2026 et 2027, formes, rôles, coach
 
