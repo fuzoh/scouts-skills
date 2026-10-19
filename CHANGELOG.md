@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.4.0](https://github.com/fuzoh/scouts-skills/compare/v0.3.1...v0.4.0) (2026-10-19)
+
+
+### Nouveautés
+
+* **skills:** buts et objectifs des cours du modèle de formation dans scouts ([618467a](https://github.com/fuzoh/scouts-skills/commit/618467a7f53eff8bf00b3688485cabe1353d6e28))
+
+
+### Corrections
+
+* **site:** centrer le texte des liens du menu ([bf2e598](https://github.com/fuzoh/scouts-skills/commit/bf2e5986c489bba32c26ca58951251dd58ca5778))
+
+
+### Documentation
+
+* refondre DECISIONS.md en état courant ([0f911c6](https://github.com/fuzoh/scouts-skills/commit/0f911c6f59b5b73367c3492f2e93e73635f4bbb9))
+* retirer les renvois aux anciennes entrées datées de DECISIONS.md ([2ff04b7](https://github.com/fuzoh/scouts-skills/commit/2ff04b7bfd0ff40f977719281fa8888c8e189c1d))
+* **site:** update web platform installation and compatibility guides ([3ab0f0f](https://github.com/fuzoh/scouts-skills/commit/3ab0f0ffed152d9248f9432a34196562480169ab))
+
 ## [0.3.1](https://github.com/fuzoh/scouts-skills/compare/v0.3.0...v0.3.1) (2026-10-19)
 
 
