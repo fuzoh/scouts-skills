@@ -1,11 +1,11 @@
 ---
-title: Installer sur une plateforme web
+title: Installer sur une IA web
 order: 2
-menu: Installer sur le web
+menu: Installer sur une IA web
 description: "Ajouter le skill scouts à claude.ai, ChatGPT ou Gemini, à partir d'un fichier zip."
 ---
 
-Sur une plateforme web, vous ajoutez un skill en téléversant un fichier zip. Aucune installation sur votre ordinateur n'est nécessaire.
+Sur une plateforme web (App Gemini, Claude.ai, ChatGPT), vous ajoutez un skill en téléversant un fichier zip. Aucune installation sur votre ordinateur n'est nécessaire.
 
 ## Télécharger le zip
 
@@ -36,16 +36,15 @@ Source : [aide de Claude, « Use skills in Claude »](https://support.claude.com
 
 ## ChatGPT
 
-ChatGPT propose des skills sur certains plans d'organisation (Business, Enterprise, Edu, d'après l'aide d'OpenAI). Un·e administrateur·ice doit souvent les autoriser. Le chemin dans l'interface et les limites de taille n'ont pas pu être vérifiés.
+ChatGPT propose des skills sur certains plans d'organisation (Business, Enterprise, Education).
 
-- `scouts` : devrait fonctionner. Non testé.
-- `scouts-ressources` : testé et fonctionnel.
+Le skills `scouts` et `scouts-ressources` fonctionne. Utiliser le menu "Plugins" puis "Skills" pui "Add" pour uploader le skill.
 
 Source : [aide d'OpenAI, « Skills in ChatGPT »](https://help.openai.com/en/articles/20001066-skills-in-chatgpt).
 
 ## Gemini
 
-L'application Gemini propose des skills, appelés « compétences » en français, depuis octobre 2026. Le déploiement est progressif : l'option peut ne pas encore apparaître sur votre compte.
+L'application Gemini propose des skills, appelés « compétences » en français.
 
 Conditions : avoir au moins 18 ans, être connecté·e, activer **Conserver l'activité**. L'import d'un zip se fait seulement dans l'application web, sur gemini.google.com.
 
@@ -56,15 +55,13 @@ Conditions : avoir au moins 18 ans, être connecté·e, activer **Conserver l'ac
 
 Le total des fichiers importés ne doit pas dépasser 100 Mo.
 
-État des essais : `scouts` testé et fonctionnel. `scouts-ressources` : trop lourd, ne fonctionne pas.
-
-Si les compétences ne sont pas encore disponibles pour vous : un zip joint à une conversation est limité à 10 fichiers, alors que `scouts` en compte une quarantaine. Cette voie ne convient donc pas. Les Gems, eux, sont remplacés par les compétences (comptes personnels dès novembre 2026).
+État des essais : `scouts` est fonctionnel. `scouts-ressources` : trop lourd, ne fonctionne pas.
 
 Sources : [aide de Gemini, compétences](https://support.google.com/gemini?p=b_ws_skills&hl=fr), [limites des fichiers](https://support.google.com/gemini/answer/14903178?hl=fr), [Gems](https://support.google.com/gemini/answer/15146780?hl=fr).
 
 ## Mistral Le Chat, Microsoft Copilot
 
-Pas pris en charge pour l'instant.
+N'a pas été testé. A vous de voir si l'utilisation est possible.
 
 ## Vérifier la version
 

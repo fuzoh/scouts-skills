@@ -30,11 +30,11 @@ Des exemples concrets se trouvent dans [Utiliser les skills](utiliser.md).
 | | `scouts` | `scouts-ressources` |
 |---|---|---|
 | Pour qui | Tout le monde, usage courant | Formateur·ices, approfondissement |
-| Contenu | Savoirs résumés, critères de relecture, guide | Les mêmes critères et tout le corpus officiel, section par section |
+| Contenu | Savoirs résumés, critères de relecture, guides | Les mêmes critères et le contenu des brochures officielles, section par section |
 | Réponses | Courtes, sans références de page | Chaque règle citée avec sa source exacte |
 | Taille | Environ 40 fichiers, 0,2 Mo | Environ 2 000 fichiers, 8,7 Mo |
 | Agents en ligne de commande | Tous ceux qui prennent en charge les skills (Claude Code, Codex, Pi…) | Tous ceux qui prennent en charge les skills (Claude Code, Codex, Pi…) |
-| Plateformes web | claude.ai, Gemini (testés) | ChatGPT seulement (testé) ; trop lourd pour claude.ai et Gemini |
+| Plateformes web | claude.ai, Gemini, GPT, Grok | ChatGPT seulement, trop lourd pour les autres |
 
 Prenez `scouts` par défaut. Prenez `scouts-ressources` quand vous avez besoin du texte officiel exact : préparer un cours, trancher un désaccord, citer une règle dans un document. Voir [Citer les sources](citer-les-sources.md).
 
