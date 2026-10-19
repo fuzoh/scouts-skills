@@ -47,7 +47,7 @@ Prenez `scouts` par défaut. Prenez `scouts-ressources` quand vous avez besoin d
 
 ## Commencer
 
-1. Installez un skill : [avec un agent](installer-agent.md) (Claude Code, Codex, Pi…) ou [sur une plateforme web](installer-web.md) (claude.ai, ChatGPT, Gemini).
+1. Installez un skill : [sur une plateforme web](installer-web.md) (claude.ai, ChatGPT, Gemini) ou [avec un agent](installer-agent.md) (Claude Code, Codex, Pi…).
 2. Lisez [Utiliser les skills](utiliser.md) pour des exemples de demandes.
 3. Une réponse fausse ? [Signalez-la](signaler.md).
 4. Les documents utilisés et leurs auteurs : [Sources et auteurs](sources.md).

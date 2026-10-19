@@ -1,6 +1,6 @@
 ---
 title: Installer sur une plateforme web
-order: 3
+order: 2
 menu: Installer sur le web
 description: "Ajouter le skill scouts à claude.ai, ChatGPT ou Gemini, à partir d'un fichier zip."
 ---

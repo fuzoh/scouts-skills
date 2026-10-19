@@ -82,6 +82,8 @@ header nav ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wra
 header nav a { display: block; padding: .3rem .7rem; border-radius: var(--rayon); color: var(--texte); text-decoration: none; font-size: .95rem; }
 header nav a:hover { background: var(--accent-fond); color: var(--accent); }
 header nav a[aria-current="page"] { background: var(--accent); color: var(--carte); font-weight: 600; }
+/* largeur réservée pour le libellé en gras : pas de décalage quand la page courante change */
+header nav a::after { content: attr(data-label); display: block; height: 0; overflow: hidden; visibility: hidden; font-weight: 600; }
 main { max-width: calc(1280px - 3rem); background: var(--carte); margin: 1.5rem auto; padding: 2rem 2.5rem 2.5rem; border: 1px solid var(--bord); border-radius: var(--rayon); box-shadow: var(--ombre); }
 .page-index main > h1 { font-size: 2.4rem; }
 .page-index main > h1 + p { font-size: 1.2rem; color: var(--doux); }
@@ -245,7 +247,8 @@ def render_menu(pages: list[Page], current: str) -> str:
         if p.menu is None:
             continue
         cur = ' aria-current="page"' if p.name == current else ""
-        items.append(f'<li><a href="{p.name}.html"{cur}>{html.escape(p.menu)}</a></li>')
+        label = html.escape(p.menu)
+        items.append(f'<li><a href="{p.name}.html"{cur} data-label="{label}">{label}</a></li>')
     return "\n".join(items)
 
 

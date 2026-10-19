@@ -1,6 +1,6 @@
 ---
 title: Installer avec un agent
-order: 2
+order: 3
 description: "Installer les skills scouts et scouts-ressources dans Claude Code, Codex, Pi ou un autre agent, avec npx skills ou à la main."
 ---
 

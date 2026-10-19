@@ -57,7 +57,7 @@ def test_pages_et_gabarit(toy: Path, tmp_path: Path):
     assert "<title>Accueil · " in index and "<h1>Accueil</h1>" in index
     assert "Version 1.2.3" in index                       # pyproject.toml du dépôt jouet
     assert "MIT" in index and "CC BY-SA 4.0" in index
-    assert '<a href="index.html" aria-current="page">' in index
+    assert '<a href="index.html" aria-current="page" data-label="Accueil">Accueil</a>' in index
     assert 'href="aide.html">' not in index.split("</nav>")[0]   # menu: false
     assert "<table>" in index                             # tables activées
     assert 'href="sources.html#droits"' in index and 'href="aide.html"' in index
