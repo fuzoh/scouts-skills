@@ -19,6 +19,7 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | fichier | sert à |
 |---|---|
 | `js-2026-2027.md` | Répondre à ce qu'est J+S en camp scout, à ce qui change entre les camps jusqu'au 31.12.2026 et dès le 01.01.2027 (AC/SC, activité J+S, temps par jour, blocs) et aux exigences communes (effectif minimal, encadrement, durée). |
+| `js-coach.md` | Que fait concrètement un coach J+S au fil de l'année : offre et BDNS, données de base, contrôle des activités, présences, clôture et subventions, cartes et prestations spéciales, séquences d'activité physique complémentaires (SAPC) pour le coach et le responsable de camp, check-lists. |
 | `js-formes-domaines-itinerant.md` | Répondre aux six domaines d'AC, aux types de SC, aux six formes caractéristiques, aux formes d'activité, à ce que sont les activités itinérantes et leur exigence, et à la correspondance entre jeu 2026 et jeu 2027. |
 | `js-roles.md` | Répondre à qui fait quoi côté J+S : moniteur SdC/T, responsable de camp, coach J+S, expert J+S, modules de sécurité, et qui lit ou autorise quoi. |
 
@@ -72,6 +73,14 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | `inclusion-handicap.md` | Accueillir un enfant ou un jeune en situation de handicap dans une unité ordinaire ou une activité sportive : séparation, intégration, inclusion, adapter jeux et consignes, particularités par type de handicap, sécurité, parents, encadrement, réseau d'aide. |
 | `prevention-abus.md` | Prévenir les abus sexuels et violations de limites dans l'unité et en camp : situations à risque (massages, tiques, réconfort, WC, langage, dortoir, douches, photos), règles de proximité, 7 points de prévention, jeux avec les enfants, signaux, qui informer. |
 | `prevention-violence-et-sante.md` | Reconnaître et prévenir la violence et l'exclusion entre jeunes, réagir à une agression ou une insulte raciste, mettre en place la Twitterbox en camp, porter les valeurs et l'obligation de signaler dans l'équipe, charte d'équipe et règles de comportement. |
+
+## Groupe, maîtrise et encadrement
+
+| fichier | sert à |
+|---|---|
+| `groupe-encadrement.md` | Qui épaule un groupe (RG, coach, comité des parents (ComPar), anciens, aumônier, région, association cantonale), qui fait quoi, ce que le coach peut contrôler ou refuser, comment convenir de l'encadrement, quand et comment intervenir, que faire en cas de crise, à la reprise d'un groupe. |
+| `groupe-maitrise.md` | Recruter et préparer la relève de responsables, accueillir les nouveaux, répartir et déléguer les tâches, motiver et remercier, mener une séance d'équipe ou de conflit, gérer les départs, faire évoluer le groupe pas à pas et encourager les moniteurs sur la base de valeurs. |
+| `groupe-relations-publiques.md` | Soigner l'image du groupe, communiquer avec parents et commune, tenir site, e-mails et réseaux sociaux, écrire à la presse locale, organiser une activité de découverte pour recruter des membres, demander l'accord pour les photos, protéger les données personnelles. |
 
 ## Formation : cours, UA, qualification
 
