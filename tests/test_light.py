@@ -62,12 +62,12 @@ def test_squelette_valide(skel: Path):
 
 
 def test_trop_de_fichiers(skel: Path):
-    # 200 fichiers dans le pack, dont MANIFEST.md ajouté par le build : 199 dans la source
-    for i in range(194):
+    # 100 fichiers dans le pack, dont MANIFEST.md ajouté par le build : 99 dans la source
+    for i in range(94):
         (skel / "references" / f"x{i}.txt").write_text("x", encoding="utf-8")
     assert light.check(skel).errors == []
     (skel / "references" / "x.txt").write_text("x", encoding="utf-8")
-    assert any("200 fichiers (max 199" in e for e in light.check(skel).errors)
+    assert any("100 fichiers (max 99" in e for e in light.check(skel).errors)
     assert light.check(skel, max_files=300).errors == []
 
 

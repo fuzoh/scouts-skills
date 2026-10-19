@@ -4,8 +4,8 @@
   light index [--root DIR]        # régénère savoirs/README.md
 
 `scouts` doit s'installer par zip sur les applis web (claude.ai, ChatGPT, Gemini). Limites dures,
-la plus basse des plateformes (`docs/contraintes-plateformes.md`) : 200 fichiers dans le pack
-(claude.ai échoue au-delà ; le build ajoute MANIFEST.md, d'où 199 dans la source), 50 Mo au total
+la plus basse des plateformes (`docs/contraintes-plateformes.md`) : 100 fichiers dans le pack
+(Gemini échoue à 150 ; le build ajoute MANIFEST.md, d'où 99 dans la source), 50 Mo au total
 et 25 Mo par fichier (OpenAI), aucun format binaire bureautique (.docx, .doc, .xlsx, .xls : refusés
 par Gemini), un seul SKILL.md, `name` au format agentskills (minuscules, tirets, ≤ 64 car., = nom
 du dossier), `description` ≤ 1 024 car. (avertissement au-delà des 200 annoncés par l'aide
@@ -33,7 +33,7 @@ from scripts import registry as reg
 
 app = typer.Typer(add_completion=False, help=__doc__)
 
-MAX_FILES = 200            # pack installé sur claude.ai (échec au-delà, constaté)
+MAX_FILES = 100            # pack : Gemini passe à 100, échoue à 150 et 200 (essais du mainteneur)
 PACK_EXTRA_FILES = 1       # MANIFEST.md ajouté par le build
 MAX_FILE_BYTES = 25 * 1024 * 1024   # OpenAI : fichier décompressé
 MAX_TOTAL_BYTES = 50 * 1024 * 1024  # OpenAI : zip ; Gemini : 100 Mo
