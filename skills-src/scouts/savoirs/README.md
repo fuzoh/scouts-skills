@@ -39,8 +39,17 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 
 | fichier | sert à |
 |---|---|
+| `branche-castors.md` | Concevoir et conduire une unité Castors : besoins des 4-7 ans, Mauna et Sori, mascotte, déroulé type d'un samedi, loi sans promesse, relations et méthodes, taux d'encadrement, nuitée, passage, communication avec les parents, pièges. |
+| `branche-eclais.md` | Conduire une troupe : besoins des 11-15 ans, patrouille et responsable de patrouille, Steps et spécialités, premier engagement, promesse, totémisation, méthode du projet, moments, activités et nuits de patrouille, constructions de camp, camp, pièges. |
+| `branche-louveteaux.md` | Conduire une meute : besoins des 7-11 ans, symbolique du Livre de la jungle et rôles de la maîtrise, sizaines et sizeniers, trois étapes et spécialités, loi, promesse, rocher du conseil, noms de jungle, aventure, camp de meute, pièges. |
+| `branche-picos.md` | Répondre à ce que vivent les Picos (15-17 ans) et à comment les mener, en couvrant besoins de l'âge, équipe et pacte, rôle de la maîtrise, méthode du Triangle, entreprises, 15 heures Picos, camp, relations et méthodes, pièges (double fonction, alcool, motivation). |
+| `branche-route.md` | Répondre à ce qu'est la branche Route (dès 17 ans, sans limite d'âge), avec trois rôles (participant, responsable, ressource), clan et clan de projet, activités (projet, expédition, veillée Route, service), encadrement, formation, relations et méthodes, pièges. |
+| `branche-smt.md` | Répondre à ce que sont les SMT et à comment les mener, avec modèles (séparatif, intégratif, inclusif), création d'un groupe, responsables et formation, programme (modèle 6+1), camps, médicaments, hygiène et soins, proximité et sexualité, déficiences fréquentes. |
 | `branches.md` | Répondre aux questions sur les cinq branches (tranches d'âge, classes HarmoS, devise, forme de groupe, rythme, forme d'activité), sur la branche SMT et sur le changement de branche. |
 | `profil-et-pedagogie.md` | Répondre aux questions sur les fondements pédagogiques du MSdS (but, cinq relations, huit méthodes scoutes) et sur la planification d'un programme trimestriel, d'une activité et d'une séance. |
+| `programme-essence.md` | Choisir un thème, bâtir un fil rouge et une courbe de suspense, contrôler l'équilibre d'un programme, préparer un week-end, une séance pour nouveaux, la promesse, la totémisation, un moment calme, évaluer avec la maîtrise (quand, quoi, comment). |
+| `programme-identite.md` | Expliquer d'où vient le scoutisme (Baden-Powell, mouvement mondial), la loi et la promesse, les devises, symboles, chemise et foulard, totem, camps et centres internationaux, puis qui fait quoi au MSdS (groupe, association cantonale, niveau fédéral) et le vocabulaire courant. |
+| `programme-patrouille.md` | Comprendre la patrouille Éclais et le rôle du RP et du RP adjoint, choisir et encadrer un RP, répartir les responsabilités, organiser moments, activités, balades et nuits en patrouille (sécurité, limites), planifier une activité de patrouille, animer la vie et le conseil de patrouille. |
 
 ## Jeux, sport et pédagogie de terrain
 
