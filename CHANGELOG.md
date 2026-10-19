@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.3.0](https://github.com/fuzoh/scouts-skills/compare/v0.2.0...v0.3.0) (2026-10-19)
+
+
+### Nouveautés
+
+* **site:** mise en page jusqu'à 1280 px, violet MSdS, angles carrés, version et date en en-tête ([dd643b4](https://github.com/fuzoh/scouts-skills/commit/dd643b4148b061531425c3d37cdb59ecdd9f4c30))
+
+
+### Corrections
+
+* **site:** code inline sans débordement sur mobile, essais d'installation depuis GitHub ([c0c00c8](https://github.com/fuzoh/scouts-skills/commit/c0c00c8bf02096c7a9fddefdf87a8aa1aa55597b))
+
+
+### Documentation
+
+* **roadmap:** publication faite, prochaine action ([e3f9f52](https://github.com/fuzoh/scouts-skills/commit/e3f9f52df1b83993a1137e3c9f7b145a5dcae2f7))
+
 ## 0.2.0 (2026-10-19)
 
 Première version publique.
