@@ -111,6 +111,7 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] Tests web du mainteneur : `scouts` ok sur claude.ai et Gemini (Customize > Skills, import du zip) ; `scouts-ressources` trop lourd pour claude.ai et Gemini, ok sur ChatGPT ; site mis à jour
 - [x] Site testé en ligne (agent-browser : 14 pages, mobile, mode sombre) ; débordement mobile corrigé ; mise en page 1280 px, violet MSdS, version et date dans l'en-tête
 - [x] `npx skills add fuzoh/scouts-skills` (projet, `-g`, zips de release) et `npx skills update` testés depuis GitHub
+- [x] (2026-10-19) Installation par prompt (« Installe-moi les skills scouts dans le projet actuel, suis : https://github.com/fuzoh/scouts-skills ») : instructions pour l'agent dans le README (`npx skills add … --skill scouts -a <agent> -y`, projet courant, `scouts-ressources` sur demande), prompt proposé sur la page « Installer avec un agent » ; commande non interactive testée (`skills` 1.7.2, `-a claude-code -y`), le prompt lui-même non testé dans un agent
 - [ ] Tests « non testé » du site : `pi install git:…`, `scouts` sur ChatGPT, une vraie mise à jour d'une version à la suivante ; limite de 200 caractères de `description` annoncée par l'aide claude.ai (660 acceptés jusqu'ici ; `light check` avertit)
 - [ ] Veille, premier passage complet (2026-10-19) : 40 `url` `pfadi.swiss/.../downloads/detail/N/` en 404 (l'URL avec slug fonctionne, fichiers ok) à corriger dans le registre ; `msds-illustrations-profil` : zip distant changé, à réingérer en local
 - [ ] Plus tard (`DECISIONS.md`, section Plus tard) : marketplace de plugins Claude Code ; sources web plutôt que PDF
@@ -120,7 +121,7 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [ ] Routine de mise à jour documentée
 
 ## Prochaine action
-Relire les 41 savoirs ajoutés le 2026-10-19 (Phase 4b) et trancher leurs points ouverts, puis les passer `valide` ; retester `scouts.zip` (83 fichiers + MANIFEST) sur Gemini et claude.ai. Ensuite : relire `formation-cours-*.md` ; corriger dans le registre les 40 `url` `pfadi.swiss/.../downloads/detail/N/` en 404 et réingérer `msds-illustrations-profil` ; tester `pi install git:github.com/fuzoh/scouts-skills` ; tests manuels 8.1–8.12.
+Relire les 41 savoirs ajoutés le 2026-10-19 (Phase 4b) et trancher leurs points ouverts, puis les passer `valide` ; retester `scouts.zip` (83 fichiers + MANIFEST) sur Gemini et claude.ai. Ensuite : relire `formation-cours-*.md` ; corriger dans le registre les 40 `url` `pfadi.swiss/.../downloads/detail/N/` en 404 et réingérer `msds-illustrations-profil` ; tester `pi install git:github.com/fuzoh/scouts-skills` ; essayer le prompt d'installation du README dans Claude Code et Codex ; tests manuels 8.1–8.12.
 
 Ancien état (2026-10-19, avant l'ajout de savoirs) : Relire `skills-src/scouts/savoirs/formation-cours-*.md` (numéros d'objectifs, verbes, niveaux) puis les passer `valide`. Ensuite : corriger dans le registre les 40 `url` `pfadi.swiss/.../downloads/detail/N/` en 404 (prendre l'URL avec slug) et réingérer `msds-illustrations-profil` ; tester `pi install git:github.com/fuzoh/scouts-skills` ; tests manuels 8.1–8.12.
 
@@ -160,6 +161,7 @@ Ancien état : Grill Phase 4 : tours 1 à 3 répondus et consignés (`docs/brief
 - `msds-le-cours` et la trilogie sont des versions de travail (renvois « LIEN » non résolus, marques Word) : surveiller une version finale sur pfadi.swiss.
 
 ## Journal
+- 2026-10-19 (installation par prompt) : README et page « Installer avec un agent » permettent de faire installer les skills par l'agent à partir de l'URL du dépôt.
 - 2026-10-19 (savoirs) : 41 savoirs ajoutés à `scouts` sur les sources encore inexploitées (douze sous-agents rédacteurs, trois relecteurs, un pour l'index) ; `light` groupe l'index par `theme` ; neuf commits par thème.
 - 2026-10-19 (limites) : limites des skills web revérifiées en source primaire (Claude, Gemini, OpenAI API) à partir d'un rapport tiers ; `light check` réécrit (plateformes + budget de tokens) ; plafond de fichiers ramené à 100 après essais d'un skill de test (Gemini : 100 passe, 150 et 200 échouent).
 - 2026-10-19 (formation) : buts et objectifs des cours ajoutés à `scouts` en trois savoirs rédigés par sous-agents sonnet ; fusions pour garder 42 fichiers ; plafond `light` 1 200 / 2 500 mots.
