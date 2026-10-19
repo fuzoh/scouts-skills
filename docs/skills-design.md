@@ -1,6 +1,6 @@
 # Design des skills
 
-Référence de conception issue du grill Phase 4 (tours 1 à 4, `docs/briefing-phase4-grill.md` ; décisions dans `DECISIONS.md`, entrées « Organisation des skills » du 2026-10-17 et « Tour 4 » du 2026-10-18). Ce document fait foi pour le format des référentiels, le contenu de `reglages.md`, les règles de `check` et le protocole du pilote. METHODE § Skills en donne le résumé.
+Référence de conception issue du grill Phase 4 (`docs/briefing-phase4-grill.md` ; choix encore en vigueur dans `DECISIONS.md`). Ce document fait foi pour le format des référentiels, le contenu de `reglages.md`, les règles de `check` et le protocole du pilote. METHODE § Skills en donne le résumé.
 
 ## 1. Organisation
 
@@ -57,7 +57,7 @@ Pas de `## Retour au rédacteur` : la méthode de retour est commune (`reference
 
 ### 2.4 Traçabilité
 
-Trois marques courtes, sans date ni récit : `(mainteneur)`, `(revue XX-nn)`, `(terrain)`. L'historique (qui a tranché quoi, quand) reste dans `DECISIONS.md`. Une nuance du mainteneur insérée dans un critère officiel est sa lecture du critère : le skill l'énonce avec le critère, sans étiquette particulière en sortie. Seuls les critères de la section « Critères non officiels » et les rubriques `*` de la trame portent `[non officiel]` en sortie.
+Trois marques courtes, sans date ni récit : `(mainteneur)`, `(revue XX-nn)`, `(terrain)`. La règle encore en vigueur est dans `DECISIONS.md`. Une nuance du mainteneur insérée dans un critère officiel est sa lecture du critère : le skill l'énonce avec le critère, sans étiquette particulière en sortie. Seuls les critères de la section « Critères non officiels » et les rubriques `*` de la trame portent `[non officiel]` en sortie.
 
 ### 2.5 Citations
 
@@ -101,7 +101,7 @@ Nom `scouts-ressources`, description ≤ 1024 caractères (proposition C), corps
 - **Avis** (≤ 8 lignes) : verdict, non-négociables en échec, deux leviers. Sur mot-clé.
 - **Revue** (défaut, ≤ 40 lignes) : tableau N1..Nk ✓ / ✗ / ?, 3 à 5 priorités classées *exigence non satisfaite* / *information manquante* / *amélioration*, chaque priorité en constat → règle citée → correction.
 - **Détaillé** sur demande.
-- Un non-négociable en échec est visible à tous les niveaux. **Cadrage silencieux** (DECISIONS 2026-10-18 « Retours du premier test ») : le skill détecte référentiels, verbes, paramètres et jeu de date sans l'afficher ; la réponse commence par le contenu, précédée au plus d'une phrase d'hypothèse (« Je pars sur un camp 2027. ») ; une question seulement si le jugement serait faux sans la réponse. Jeu 2027 par défaut. Ton factuel, sans flatterie, sans mention du skill ; une seule valeur par réponse (la plus prudente) ; « Pour aller plus loin » en une ligne.
+- Un non-négociable en échec est visible à tous les niveaux. **Cadrage silencieux** (`DECISIONS.md`) : le skill détecte référentiels, verbes, paramètres et jeu de date sans l'afficher ; la réponse commence par le contenu, précédée au plus d'une phrase d'hypothèse (« Je pars sur un camp 2027. ») ; une question seulement si le jugement serait faux sans la réponse. Jeu 2027 par défaut. Ton factuel, sans flatterie, sans mention du skill ; une seule valeur par réponse (la plus prudente) ; « Pour aller plus loin » en une ligne.
 - Hors corpus : prescription datée > recommandation > exemple > `[web]` > « non vérifié » ; bloc séparé ; vérification obligatoire de toute théorie pédagogique absente du corpus.
 
 ## 6. `check` sur les référentiels
@@ -129,5 +129,5 @@ Nom `scouts-ressources`, description ≤ 1024 caractères (proposition C), corps
 
 ## 10. `scouts` (ex `scout-light`)
 
-Skill principal, même méthode que `scouts-ressources` sans corpus (DECISIONS 2026-10-18, briefing `docs/briefing-scout-light.md`). Arborescence : `SKILL.md` ; `references/` (glossaire en deux fichiers, réglages, corriger, concevoir, `guide.md` pour le verbe guider : parcours par rôle, thèmes, lectures, exemples de demandes ; `documents.md` : catalogue des documents officiels avec titre, usage et accès, pour « Pour aller plus loin ») ; `referentiels/<slug>/01-regles.md, 02-qualite.md, …` (frontmatter sur le premier fichier : `slug`, `titre`, `signaux`, `parametres`, `inclut`, `derive_de: {slug, relu_le}`, `statut`) ; `savoirs/<theme>.md` (frontmatter `titre`, `sert_a`, `derive_de`, `statut`) avec `savoirs/README.md` en index. Règles : aucune citation `id#NN-slug`, `corpus/` ni `p.N` ; provenance en clair ; 200 fichiers et 1 200 mots (`wc -w`) par fichier, 2 500 pour `savoirs/formation-cours-*.md` ; ordre des sections et suite N1..Nk vérifiés sur la concaténation du dossier (`scripts/light.py`). Cycle de vie : `brouillon` → `relu` (mainteneur) ; un référentiel de `scouts` ne passe jamais `valide` avant son référentiel de `referentiels/`, et se re-dérive quand `relu_le` de celui-ci change.
+Skill principal, même méthode que `scouts-ressources` sans corpus (`DECISIONS.md`, briefing `docs/briefing-scout-light.md`). Arborescence : `SKILL.md` ; `references/` (glossaire en deux fichiers, réglages, corriger, concevoir, `guide.md` pour le verbe guider : parcours par rôle, thèmes, lectures, exemples de demandes ; `documents.md` : catalogue des documents officiels avec titre, usage et accès, pour « Pour aller plus loin ») ; `referentiels/<slug>/01-regles.md, 02-qualite.md, …` (frontmatter sur le premier fichier : `slug`, `titre`, `signaux`, `parametres`, `inclut`, `derive_de: {slug, relu_le}`, `statut`) ; `savoirs/<theme>.md` (frontmatter `titre`, `sert_a`, `derive_de`, `statut`) avec `savoirs/README.md` en index. Règles : aucune citation `id#NN-slug`, `corpus/` ni `p.N` ; provenance en clair ; 200 fichiers et 1 200 mots (`wc -w`) par fichier, 2 500 pour `savoirs/formation-cours-*.md` ; ordre des sections et suite N1..Nk vérifiés sur la concaténation du dossier (`scripts/light.py`). Cycle de vie : les fichiers de `scouts` sont `valide` (`savoirs/formation-cours-*.md` restent `brouillon` jusqu'à relecture) ; les `referentiels/*.md` racine restent `relu` tant que les numéros ne sont pas figés. Un dossier de `scouts` se re-dérive quand `relu_le` du référentiel racine change.
 

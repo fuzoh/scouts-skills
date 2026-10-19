@@ -159,7 +159,7 @@ Le glossaire pointe vers `docs/concepts/` quand un terme y a une fiche. Le gloss
 
 ## Skills
 
-Deux skills, même méthode (DECISIONS 2026-10-17 « Organisation des skills », 2026-10-18 « Tour 4 », « Second skill », « Retours du premier test » ; spécification dans `docs/skills-design.md`) :
+Deux skills, même méthode (`DECISIONS.md` ; spécification dans `docs/skills-design.md`) :
 - **`scouts`** (`skills-src/scouts/`), le skill principal : sans corpus, règles et savoirs encodés en fichiers courts, provenance en clair ; décrit plus bas.
 - **`scouts-ressources`** (`skills-src/scouts-ressources/`) : même méthode avec le corpus embarqué et les citations `id#NN-slug` ; pour qui veut le texte officiel.
 - Quatre verbes (chercher, expliquer, corriger, concevoir ; `scouts` ajoute guider), sans point d'entrée par public : le livrable nommé ou joint commande le routage.
@@ -167,11 +167,11 @@ Deux skills, même méthode (DECISIONS 2026-10-17 « Organisation des skills »,
 - **Réglages** `skills-src/<nom>/references/reglages.md` : ce que le mainteneur change sans toucher à la méthode (niveau, longueurs, ton, posture, jeu de date par défaut, univocité, hors corpus, critères globaux). Priorité : conversation > réglages > `SKILL.md`.
 - Un skill dédié n'apparaît qu'après échec de l'échelle référentiel → référentiel avec procédure → non-négociables dans `SKILL.md` → dédié.
 
-- **Posture commune** (DECISIONS 2026-10-18 « Retours du premier test ») : assistant qui discute, pas de ligne de plan ni de compte rendu de lecture, cadrage silencieux ; jeu de date 2027 par défaut (2026 seulement si le camp ou le cours est explicitement antérieur au 01.01.2027) ; une seule valeur par réponse (la plus prudente) ; pas de provenance entre parenthèses dans la prose ; jamais de mention du skill ; « Pour aller plus loin » en fin de réponse.
+- **Posture commune** (`DECISIONS.md`) : assistant qui discute, pas de ligne de plan ni de compte rendu de lecture, cadrage silencieux ; jeu de date 2027 par défaut (2026 seulement si le camp ou le cours est explicitement antérieur au 01.01.2027) ; une seule valeur par réponse (la plus prudente) ; pas de provenance entre parenthèses dans la prose ; jamais de mention du skill ; « Pour aller plus loin » en fin de réponse.
 - **`SKILL.md` de `scouts-ressources`** (≤ 150 lignes) : quatre verbes, chargement en quatre pas (glossaire → référentiel entier → sections citées → réglages), catalogue des référentiels, cadrage silencieux, niveaux, citation, hors corpus, situations sans livrable. Squelettes par verbe dans `references/corriger.md`, `concevoir.md`, `chercher.md`.
 - **Pack `scouts-ressources`** (`just build claude-code --skill scouts-ressources`, `just install-ressources`) : `scouts-ressources/{SKILL.md, references/, referentiels/, corpus/<id>/}` ; dans le pack, une citation `id#NN-slug` se lit dans `corpus/<id>/NN-slug.md` ; `corpus/<id>/index.md` porte le titre, `nature`, `applies_*`, `fidelity` de la source.
 
-- **`scouts`** (`skills-src/scouts/`, DECISIONS 2026-10-18 « Second skill ») : même méthode sans corpus ni citation `id#section` ; référentiels en dossiers `referentiels/<slug>/NN-*.md` dérivés de `referentiels/<slug>.md` (`derive_de`), savoirs par thème dans `savoirs/` (index généré par `light index`), `references/guide.md` (parcours pour qui débute), `references/documents.md` (catalogue des documents officiels à recommander). Plafonds 200 fichiers et 1 200 mots par fichier (2 500 pour les descriptifs de cours `savoirs/formation-cours-*.md`, DECISIONS 2026-10-19 « Buts et objectifs des cours ») : `just light-check` (dans `just check`), `just build claude-code --skill scouts --zip`, `just install`. Produit dérivé : reporter dans le dossier de `scouts` toute modification d'un référentiel de `referentiels/`.
+- **`scouts`** (`skills-src/scouts/`, `DECISIONS.md`) : même méthode sans corpus ni citation `id#section` ; référentiels en dossiers `referentiels/<slug>/NN-*.md` dérivés de `referentiels/<slug>.md` (`derive_de`), savoirs par thème dans `savoirs/` (index généré par `light index`), `references/guide.md` (parcours pour qui débute), `references/documents.md` (catalogue des documents officiels à recommander). Plafonds 200 fichiers et 1 200 mots par fichier (2 500 pour les descriptifs de cours `savoirs/formation-cours-*.md`) : `just light-check` (dans `just check`), `just build claude-code --skill scouts --zip`, `just install`. Produit dérivé : reporter dans le dossier de `scouts` toute modification d'un référentiel de `referentiels/`.
 
 Règle : un skill n'embarque jamais une copie d'une section de source. Il référence `sources/<id>/NN-slug.md` et le build copie ce qu'il faut dans le pack de distribution.
 
@@ -182,7 +182,7 @@ Règle : un skill n'embarque jamais une copie d'une section de source. Il réfé
 | `sources/*/source.yaml` | statut et métadonnées de chaque source | script (création, hash, `collected` → `converted`) puis humain/agent (tri, concepts, `indexed`, `verified`) |
 | `INVENTORY.md` | vue d'ensemble : comptage par statut, tables par public et thème | **généré** par `scripts/inventory` |
 | `ROADMAP.md` | phases du projet, prochaine action, blocages | humain, en fin de session |
-| `DECISIONS.md` | journal des décisions structurantes (ADR courts) | humain, quand une décision est prise |
+| `DECISIONS.md` | décisions structurantes en vigueur | réécrire la ligne quand la décision change |
 | `GLOSSARY.md` | termes partagés | agent propose, humain valide |
 | `docs/taxonomie.md` | vocabulaire contrôlé `themes` et `audience` | humain |
 
