@@ -1,7 +1,7 @@
 ---
 titre: Facteur humain en plein air, pièges de décision, renoncer, et responsabilités de sécurité dans J+S
 theme: securite
-sert_a: "Pourquoi des maîtrises expérimentées se trompent, pièges de la perception, pression du groupe ou du programme, comment décider et renoncer, communication, retours, erreurs ; devoir de protection et de diligence, responsabilité du moniteur, du coach et de l'expert J+S."
+sert_a: "Erreurs de maîtrises expérimentées, perception, pression du groupe, décider et renoncer, devoir de protection et de diligence, responsabilité"
 derive_de: [js-depliant-facteur-humain, js-securite-l-essentiel, cudesch-securite, "concepts: securite, methode-3x3, responsabilite-du-moniteur"]
 statut: brouillon
 ---

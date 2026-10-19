@@ -1,7 +1,7 @@
 ---
 titre: "Perturbations dans l'enseignement : causes, prévention, réactions graduées, règles, enfants difficiles"
 theme: sport
-sert_a: "Que faire quand une activité déraille : comprendre la cause d'une perturbation, la prévenir, choisir une réaction proportionnée (ignorer, intervenir, interrompre), poser des règles et des conséquences, réagir à la violence, à la météo, à l'accident, aux enfants difficiles."
+sert_a: "Activité qui déraille, cause d'une perturbation, prévenir, réaction proportionnée, règles et conséquences, violence, météo, accident, enfants difficiles"
 derive_de: [js-sport-des-enfants-perturbations, "concepts: climat-d-apprentissage, regles-de-comportement"]
 statut: brouillon
 ---

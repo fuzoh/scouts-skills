@@ -1,7 +1,7 @@
 ---
 titre: "Valoriser l'expérience scoute dans le monde du travail (VAE) : compétences par fonction, CV, entretien, exercice"
 theme: formation
-sert_a: "Aider un responsable à valoriser ses acquis scouts hors scoutisme : quand et comment utiliser les tableaux VAE, quelles compétences viennent des fonctions de RU, RG et formateur, comment les décrire en entretien ou en lettre, rôle des attestations, exemple d'exercice."
+sert_a: "VAE, valoriser ses acquis scouts hors scoutisme, tableaux, compétences RU, RG, formateur, entretien, lettre, attestations"
 derive_de: [cofor-vae-tableaux, cofor-vae-exercice, "concepts: valorisation-des-acquis, benevolat"]
 statut: brouillon
 ---

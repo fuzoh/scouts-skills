@@ -61,7 +61,7 @@ THEMES = {
     "groupe": "Groupe, maîtrise et encadrement",
     "formation": "Formation : cours, UA, qualification",
 }
-MAX_SERT_A = 300           # caractères : une ligne de l'index par savoir
+MAX_SERT_A = 160           # caractères : une ligne de l'index par savoir, index lu à chaque question
 CITATION_PATTERNS = (
     (re.compile(r"`[a-z0-9-]+#[0-9]{2}-"), "citation `id#NN-slug`"),
     (re.compile(r"corpus/"), "chemin `corpus/`"),

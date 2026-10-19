@@ -1,7 +1,7 @@
 ---
 titre: "Des activités J+S de qualité : idées clés des jeux de cartes Transmettre, Encourager, Innover et Se soucier de l'entourage"
 theme: sport
-sert_a: "Préparer ou évaluer une activité avec les quatre domaines J+S de qualité : climat, objectifs et structure, encadrement et sécurité, tâches et feedback ; compétences psychosociales ; développement personnel du moniteur ; relation aux parents, au club, à l'éthique."
+sert_a: "Quatre domaines J+S de qualité : climat, objectifs et structure, encadrement et sécurité, tâches et feedback ; compétences psychosociales, parents, éthique"
 derive_de: [js-activites-de-qualite-transmettre, js-activites-de-qualite-encourager, js-activites-de-qualite-innover, "concepts: climat-d-apprentissage, feedback, ethique"]
 statut: brouillon
 ---

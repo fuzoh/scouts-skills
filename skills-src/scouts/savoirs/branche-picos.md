@@ -1,7 +1,7 @@
 ---
 titre: Branche Picos, besoins, équipe, entreprises et camps
 theme: programme
-sert_a: Répondre à ce que vivent les Picos (15-17 ans) et à comment les mener, en couvrant besoins de l'âge, équipe et pacte, rôle de la maîtrise, méthode du Triangle, entreprises, 15 heures Picos, camp, relations et méthodes, pièges (double fonction, alcool, motivation).
+sert_a: "Picos 15-17 ans, équipe et pacte, rôle de la maîtrise, méthode du Triangle, entreprises, 15 heures Picos, camp, pièges (double fonction, alcool)"
 derive_de: [cudesch-branche-picos, msds-profil-du-scoutisme, msds-profil-tableaux-relations, "concepts: profil-du-scoutisme, relations, methodes-scoutes"]
 statut: brouillon
 ---

@@ -1,7 +1,7 @@
 ---
 titre: Branches du MSdS, âges et mots-clés
 theme: programme
-sert_a: Répondre aux questions sur les cinq branches (tranches d'âge, classes HarmoS, devise, forme de groupe, rythme, forme d'activité), sur la branche SMT et sur le changement de branche.
+sert_a: "Cinq branches, tranches d'âge, classes HarmoS, devise, forme de groupe, rythme, forme d'activité, SMT, changement de branche"
 derive_de: [msds-profil-du-scoutisme (2025, aperçu des branches et tableaux par relation), msds-factsheet-profil, cudesch-branche-castors, cudesch-branche-louveteaux, cudesch-branche-eclais, cudesch-branche-picos, cudesch-branche-route, concept branches]
 statut: valide
 ---

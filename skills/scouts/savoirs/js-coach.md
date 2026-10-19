@@ -1,7 +1,7 @@
 ---
 titre: "Travail du coach J+S : année type, offre et BDNS, données de base, présences, décompte, prestations, SAPC"
 theme: js
-sert_a: "Que fait concrètement un coach J+S au fil de l'année : offre et BDNS, données de base, contrôle des activités, présences, clôture et subventions, cartes et prestations spéciales, séquences d'activité physique complémentaires (SAPC) pour le coach et le responsable de camp, check-lists."
+sert_a: "Coach J+S, offre, BDNS, données de base, contrôle des activités, présences, clôture, subventions, cartes, prestations spéciales, SAPC, check-lists"
 derive_de: [js-manuel-coach, js-checklist-coach, js-checklist-sapc-coach, js-checklist-sapc-responsable-camp, js-aide-memoire-donnees-de-base, js-guide-prestations-speciales, msds-essentiel-msds-js-2027, "concepts: coach-js, sapc"]
 statut: brouillon
 ---

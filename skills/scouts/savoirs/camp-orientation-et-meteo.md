@@ -1,7 +1,7 @@
 ---
 titre: Orientation, lecture de carte, météo en camp, course d'orientation et randonnée avec des enfants
 theme: securite
-sert_a: Lire une carte nationale, s'orienter (boussole, GPS, altimètre), estimer un temps de marche, interpréter la météo et l'orage en camp, enseigner la méthode NORDA, prévenir les accidents en course d'orientation, planifier une randonnée avec des enfants.
+sert_a: "Carte nationale, boussole, GPS, altimètre, temps de marche, météo, orage, méthode NORDA, course d'orientation, randonnée avec enfants"
 derive_de: [js-aide-memoire-orientation, js-aide-memoire-meteorologie, js-aide-memoire-prevention-accidents-co, js-course-d-orientation-norda, js-kids-randonnee-avec-enfants, "concepts: orientation, trekking"]
 statut: brouillon
 ---

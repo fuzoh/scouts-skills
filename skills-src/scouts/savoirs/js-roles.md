@@ -1,7 +1,7 @@
 ---
 titre: Rôles J+S en camp scout (moniteur, responsable de camp, coach, expert)
 theme: js
-sert_a: "Répondre à qui fait quoi côté J+S : moniteur SdC/T, responsable de camp, coach J+S, expert J+S, modules de sécurité, et qui lit ou autorise quoi."
+sert_a: "Qui fait quoi côté J+S : moniteur SdC/T, responsable de camp, coach J+S, expert J+S, modules de sécurité, qui lit ou autorise"
 derive_de: [js-guide-offres-sct, js-aide-memoire-prevention-accidents-sct, msds-hering-camps, js-manuel-sport-de-camp-trekking, js-sdct-camp, msds-reglement-de-camp, msds-autorisation-de-camp, msds-essentiel-msds-js-2027, js-structure-formation-sdct, concepts coach-js et expert-js]
 statut: valide
 ---

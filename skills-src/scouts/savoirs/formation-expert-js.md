@@ -1,7 +1,7 @@
 ---
 titre: Expert J+S dans un cours scout et en camp, posture, accompagnement, entretiens, perfectionnement
 theme: formation
-sert_a: Quelle posture adopter comme expert J+S dans un cours ou un camp, comment accompagner et conseiller un moniteur lors d'une activité J+S (préparation, trois recommandations, entretien en cinq temps), comment qualifier, quels modules MPE en 2027, ce qu'est un expert coach.
+sert_a: "Expert J+S, posture, conseiller un moniteur, trois recommandations, entretien en cinq temps, qualifier, modules MPE 2027, expert coach"
 derive_de: [js-manuel-experts, js-manuel-experts-coachs, js-accompagner-et-conseiller, msds-offre-mpe-2027, js-intro-manuel-experts-diapos, "concepts: expert-js, accompagnement, feedback"]
 statut: brouillon
 ---

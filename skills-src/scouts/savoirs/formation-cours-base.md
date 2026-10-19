@@ -1,7 +1,7 @@
 ---
 titre: "Cours de la filière de base : RP, Picos, Futura, connaissances SdC/T, cours de base, RU"
 theme: formation
-sert_a: Répondre aux questions sur conditions, buts, objectifs numérotés et niveaux d'approfondissement du cours de responsable de patrouille, du cours Picos, du cours Futura, des connaissances techniques de base SdC/T, du cours de base et du cours de RU.
+sert_a: "Cours RP, Picos, Futura, SdC/T, cours de base, cours RU : conditions, buts, objectifs numérotés, niveaux d'approfondissement"
 derive_de: [msds-modele-de-formation (version 2027), "concepts: modele-de-formation, niveau-d-approfondissement, objectifs-d-apprentissage, cours-de-base, cours-ru, caf, expert-js"]
 statut: brouillon
 ---

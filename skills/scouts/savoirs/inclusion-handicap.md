@@ -1,7 +1,7 @@
 ---
 titre: "Accueillir un enfant ou un jeune en situation de handicap, adapter une activité sportive"
 theme: prevention
-sert_a: "Accueillir un enfant ou un jeune en situation de handicap dans une unité ordinaire ou une activité sportive : séparation, intégration, inclusion, adapter jeux et consignes, particularités par type de handicap, sécurité, parents, encadrement, réseau d'aide."
+sert_a: "Handicap, séparation, intégration, inclusion, adapter jeux et consignes, types de handicap, sécurité, parents, encadrement, réseau d'aide"
 derive_de: [js-sport-et-handicap, "concepts: inclusion, handicap"]
 statut: brouillon
 ---

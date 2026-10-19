@@ -1,7 +1,7 @@
 ---
 titre: "Communication du formateur et du responsable : modèles, écoute, messages je, feed-back, conflit, parole en public, non verbal"
 theme: formation
-sert_a: "Comprendre un malentendu (quatre becs et quatre oreilles, axiomes), donner un message clair ou une consigne, écouter, faire des messages je, animer une séance et gérer les perturbations, résoudre un conflit, parler en public, lire le non verbal, annoncer une mauvaise nouvelle."
+sert_a: "Quatre becs et quatre oreilles, axiomes, consigne, écoute, message je, animer une séance, perturbations, conflit, parler en public, non verbal"
 derive_de: [js-communication, "concepts: communication, feedback, gestion-des-conflits"]
 statut: brouillon
 ---

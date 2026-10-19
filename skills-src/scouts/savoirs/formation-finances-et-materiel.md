@@ -1,7 +1,7 @@
 ---
 titre: Finances et matériel d'un cours, budget, décompte, hajk, Ticket, Pilote et formations eau
 theme: formation
-sert_a: Budget, acompte et décompte d'un cours fédéral (tarifs maximaux), caisse de cours, commande hajk, inscription d'un participant (Ticket), administration dans MiData et la BDNS (Pilote, numéro de cours, admission, clôture), formations eau avec la SSS.
+sert_a: "Budget, acompte, décompte de cours fédéral, tarifs maximaux, caisse de cours, hajk, inscription Ticket, MiData, BDNS, Pilote, numéro de cours, SSS"
 derive_de: [cofor-budget-decompte-cours, cofor-financement-cours-federaux, msds-caisse-de-cours, msds-commande-hajk, msds-ticket, msds-pilote, cofor-guide-admin-formations-eau, "concepts: administration-de-cours"]
 statut: brouillon
 ---

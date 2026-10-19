@@ -1,7 +1,7 @@
 ---
 titre: Unité d'apprentissage, objectifs, PATExE, GAG et méthodes d'enseignement
 theme: formation
-sert_a: Expliquer ce qu'est une UA (ex-point de cours), comment formuler un objectif d'apprentissage, ce que signifie chaque lettre de PATExE, ce qu'est GAG, et comment choisir formes d'enseignement, formes sociales et dispositifs.
+sert_a: "UA (ex-point de cours), objectif d'apprentissage, PATExE (chaque lettre), GAG, formes d'enseignement, formes sociales, dispositifs"
 derive_de: [msds-unite-d-apprentissage, msds-le-cours, msds-modele-de-formation (niveaux d'approfondissement), js-sdct-bases, cudesch-glossaire, concepts patexe, objectifs-d-apprentissage, methodes-d-enseignement, referentiel ua]
 statut: valide
 ---

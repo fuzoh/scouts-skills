@@ -1,7 +1,7 @@
 ---
 titre: "Volet psychique du sport : motivation, confiance, concentration, émotions, pression, communication et groupe"
 theme: sport
-sert_a: Que faire concrètement pour la motivation, la confiance en soi, la concentration, les émotions, la peur de l'échec, la pression d'un jeu ou d'une épreuve, la communication et l'esprit de groupe ; techniques simples (monologue, respiration, visualisation) et exercices.
+sert_a: "Motivation, confiance en soi, concentration, émotions, peur de l'échec, pression, esprit de groupe, monologue, respiration, visualisation"
 derive_de: [js-psyche, js-manuel-cle, js-manuel-bases, "concepts: psyche, motivation, retour, climat-d-apprentissage"]
 statut: brouillon
 ---

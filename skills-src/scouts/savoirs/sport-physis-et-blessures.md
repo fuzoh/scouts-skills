@@ -1,7 +1,7 @@
 ---
 titre: Condition physique en camp (endurance, force, mobilité, coordination), prévention et conduite face aux blessures sportives
 theme: sport
-sert_a: Quels exercices et jeux simples pour l'endurance, la force, la mobilité et la coordination d'enfants et de jeunes ; comment doser ; comment prévenir les blessures sportives ; que faire pour une plaie, une entorse, une fracture ; qui annoncer.
+sert_a: "Endurance, force, mobilité, coordination, doser, prévenir les blessures, plaie, entorse, fracture, qui annoncer"
 derive_de: [js-physis-exemples-pratiques, js-prevention-blessures, js-manuel-bases, js-facteurs-de-developpement, "concepts: physis, condition-physique, coordination, premiers-secours, sport-des-enfants"]
 statut: brouillon
 ---

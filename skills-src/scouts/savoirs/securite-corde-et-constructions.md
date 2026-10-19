@@ -1,7 +1,7 @@
 ---
 titre: Technique de corde et constructions de camp, matériel, nœuds, tyrolienne, rappel, sarasine, contrôles
 theme: securite
-sert_a: "Quelle corde et quel matériel, comment la contrôler et la remplacer, quels nœuds, comment monter et contrôler tyrolienne, pont de singe et rappel ; préparer, monter, contrôler et protéger tempête les constructions de camp (sarasine, mât, tour, cuisine, latrines, tentes)."
+sert_a: "Corde, contrôle, nœuds, tyrolienne, pont de singe, rappel ; constructions de camp (sarasine, mât, tour, cuisine, latrines, tentes), tempête"
 derive_de: [js-technique-de-corde, cudesch-camp-constructions, cudesch-securite, msds-thilo, "concepts: technique-de-corde, securite"]
 statut: brouillon
 ---

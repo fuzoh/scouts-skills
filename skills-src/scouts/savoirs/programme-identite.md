@@ -1,7 +1,7 @@
 ---
 titre: "Identité du scoutisme et organisation du MSdS : histoire, loi et promesse, symboles, niveaux et organes"
 theme: programme
-sert_a: "Expliquer d'où vient le scoutisme (Baden-Powell, mouvement mondial), la loi et la promesse, les devises, symboles, chemise et foulard, totem, camps et centres internationaux, puis qui fait quoi au MSdS (groupe, association cantonale, niveau fédéral) et le vocabulaire courant."
+sert_a: "Baden-Powell, mouvement mondial, loi, promesse, devises, symboles, chemise, foulard, totem, centres internationaux, niveaux du MSdS, vocabulaire"
 derive_de: [cudesch-scoutisme-identite, msds-organigramme, cudesch-glossaire, msds-thilo, msds-profil-du-scoutisme]
 statut: brouillon
 ---

@@ -1,7 +1,7 @@
 ---
 titre: Check-lists cofor des cours de base, RU et approfondissements de branche, listes de buts personnels
 theme: formation
-sert_a: Ce que les check-lists cofor exigent de couvrir (cours de base, cours RU, approfondissements Castors, Louveteaux, Éclais), durées minimales J+S, niveaux, qui coche quoi, et comment utiliser la liste de buts personnels après un cours de base ou RU.
+sert_a: "Check-lists cofor, cours de base, cours RU, approfondissements Castors, Louveteaux, Éclais, durées minimales J+S, buts personnels"
 derive_de: [cofor-checklist-cours-base, cofor-checklist-cours-ru, cofor-approfondissement-castors, cofor-approfondissement-louveteaux, cofor-approfondissement-eclais, cofor-liste-buts-cours-base, cofor-liste-buts-cours-ru, "concepts: cours-de-base, cours-ru, niveau-d-approfondissement"]
 statut: brouillon
 ---

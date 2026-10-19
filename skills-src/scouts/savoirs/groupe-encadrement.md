@@ -1,7 +1,7 @@
 ---
 titre: "Encadrement d'un groupe scout, réseau d'encadrement, rôles du coach et du RG"
 theme: groupe
-sert_a: "Qui épaule un groupe (RG, coach, comité des parents (ComPar), anciens, aumônier, région, association cantonale), qui fait quoi, ce que le coach peut contrôler ou refuser, comment convenir de l'encadrement, quand et comment intervenir, que faire en cas de crise, à la reprise d'un groupe."
+sert_a: "Épauler un groupe, RG, coach, ComPar, comité des parents, anciens, aumônier, région, association cantonale, contrôle du coach, crise, reprise d'un groupe"
 derive_de: [msds-encadrement-scoutisme, msds-alpha-aide-memoire-rg, "concepts: coach-js"]
 statut: brouillon
 ---

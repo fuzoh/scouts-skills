@@ -1,7 +1,7 @@
 ---
 titre: "Branche Louveteaux, enfants de 7 à 11 ans, meute et sizaines, Livre de la jungle, progression et aventure"
 theme: programme
-sert_a: "Conduire une meute : besoins des 7-11 ans, symbolique du Livre de la jungle et rôles de la maîtrise, sizaines et sizeniers, trois étapes et spécialités, loi, promesse, rocher du conseil, noms de jungle, aventure, camp de meute, pièges."
+sert_a: "Louveteaux 7-11 ans, meute, Livre de la jungle, sizaines, sizeniers, étapes, spécialités, loi, promesse, rocher du conseil, noms de jungle, camp"
 derive_de: [cudesch-branche-louveteaux, msds-profil-tableaux-relations, msds-profil-du-scoutisme, "concepts: branches, relations, methodes-scoutes"]
 statut: brouillon
 ---

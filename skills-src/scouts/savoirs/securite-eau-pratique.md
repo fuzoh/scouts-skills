@@ -1,7 +1,7 @@
 ---
 titre: Sécurité à l'eau sur le terrain, consignes, surveillance, jeux d'eau, et formations eau du MSdS
 theme: securite
-sert_a: "Conduire une activité à l'eau avec des enfants, surveillance, consignes, test CSA, signes de noyade, jeux, matériel, urgence ; parcours de formation eau (module J+S Eau, module de sécurité, SSS, BLS-AED), équivalences, coûts, inscription."
+sert_a: "Activité à l'eau avec enfants, surveillance, test CSA, noyade, jeux, urgence, module J+S Eau, module de sécurité, SSS, BLS-AED, équivalences, coûts"
 derive_de: [autre-water-safety-cartes, js-aide-memoire-securite-eau, cofor-guide-admin-formations-eau, js-sdct-eau, "concepts: eau, securite"]
 statut: brouillon
 ---

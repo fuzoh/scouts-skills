@@ -1,7 +1,7 @@
 ---
 titre: "Relations publiques d'un groupe scout : image, parents, commune, médias, réseaux sociaux, recrutement, droit à l'image"
 theme: groupe
-sert_a: "Soigner l'image du groupe, communiquer avec parents et commune, tenir site, e-mails et réseaux sociaux, écrire à la presse locale, organiser une activité de découverte pour recruter des membres, demander l'accord pour les photos, protéger les données personnelles."
+sert_a: "Image du groupe, parents, commune, site, e-mails, réseaux sociaux, presse locale, activité de découverte, recruter, accord photos, données personnelles"
 derive_de: [cudesch-relations-publiques, msds-alpha-aide-memoire-rg]
 statut: brouillon
 ---

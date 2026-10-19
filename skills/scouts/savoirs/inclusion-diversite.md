@@ -1,7 +1,7 @@
 ---
 titre: "Diversité et inclusion dans l'unité et en cours, obstacles, accueil, langage, genre, origine, religion, mesures"
 theme: prevention
-sert_a: "Rendre une unité ou un cours plus inclusif : notions (inclusion, discrimination), obstacles, accueil, finances, langage inclusif, genre, enfants trans ou inter, racisme, migration et asile, religion, parents, check-list, guide en 11 étapes, animer le thème en cours."
+sert_a: "Inclusion, discrimination, obstacles, accueil, finances, langage inclusif, genre, trans, inter, racisme, migration, asile, religion, check-list, guide 11 étapes"
 derive_de: [msds-ouvert-a-tous-diversite-inclusion, msds-inclusion-diversite-associations, msds-ouvert-a-tous-equipe-de-cours, "concepts: inclusion, diversite"]
 statut: brouillon
 ---

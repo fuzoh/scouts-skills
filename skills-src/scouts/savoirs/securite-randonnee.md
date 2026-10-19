@@ -1,7 +1,7 @@
 ---
 titre: Sécurité en randonnée, temps de marche et points clés
 theme: securite
-sert_a: Planifier une randonnée sûre, calculer le temps de marche (kme/h), définir sorties, demi-tour, non-retour et passages clés, répartir les rôles de marche.
+sert_a: "Randonnée sûre, temps de marche (kme/h), sorties, demi-tour, non-retour, passages clés, rôles de marche"
 derive_de: [cudesch-securite, cudesch-calcul-temps-de-marche, js-aide-memoire-3x3-en-route, js-sdct-montagne, js-aide-memoire-prevention-accidents-sct, "concepts: montagne, securite"]
 statut: valide
 ---

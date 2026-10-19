@@ -1,7 +1,7 @@
 ---
 titre: Cuisine de camp, menus, quantités, hygiène, conservation, équipe cuisine et allergies
 theme: camp
-sert_a: Planifier les menus et les achats d'un camp, calculer les quantités par personne, respecter hygiène, températures et conservation, organiser l'équipe cuisine (y compris avec des enfants), prévenir intoxications et allergies, ranger les restes, trucs de cuisine.
+sert_a: "Menus, achats, quantités par personne, hygiène, températures, conservation, équipe cuisine, enfants, intoxications, allergies, restes"
 derive_de: [js-faire-la-cuisine-au-camp, js-sdct-camp, msds-hering-camps, msds-thilo, autre-camp-equitable-documents, "concepts: cuisine, hygiene"]
 statut: brouillon
 ---

@@ -1,7 +1,7 @@
 ---
 titre: Budget de camp, subsides J+S, congé jeunesse, assurance des tiers conducteurs et camp équitable
 theme: camp
-sert_a: Établir un budget de camp (postes, prix par personne, recettes, imprévus, comptes), savoir comment fonctionnent les subsides J+S, qui a droit au congé jeunesse et comment le demander, couvrir les conducteurs de voitures privées, intégrer le camp équitable aux achats.
+sert_a: "Budget de camp, prix par personne, recettes, subsides J+S, congé jeunesse, voitures privées, assurance conducteurs, camp équitable"
 derive_de: [cudesch-camp-budget, js-sdct-camp, msds-hering-camps, js-guide-prestations-speciales, js-guide-offres-sct, msds-essentiel-msds-js-2027, autre-csaj-conge-jeunesse-fiche, autre-csaj-conge-jeunesse-formulaire, msds-assurance-tiers-conducteurs, autre-camp-equitable-documents, "concepts: camp, financement"]
 statut: brouillon
 ---

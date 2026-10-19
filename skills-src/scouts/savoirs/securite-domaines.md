@@ -1,7 +1,7 @@
 ---
 titre: Domaines de sécurité J+S, eau, corde, constructions et baignade
 theme: securite
-sert_a: Seuils des domaines montagne / hiver / eau, modules SSS et J+S exigés, exigences communes aux domaines, règles de la corde, des grandes constructions et de la baignade.
+sert_a: "Seuils montagne, hiver, eau, modules SSS et J+S exigés, exigences communes, règles de corde, grandes constructions, baignade"
 derive_de: [cudesch-securite, js-aide-memoire-prevention-accidents-sct, js-sdct-montagne, js-sdct-hiver, js-sdct-eau, "concepts: montagne, eau, hiver, securite"]
 statut: valide
 ---

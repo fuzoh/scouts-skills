@@ -1,7 +1,7 @@
 ---
 titre: "Vélo et VTT en camp : technique de base, progression d'apprentissage, jeux et temps de route"
 theme: sport
-sert_a: "Enseigner ou revoir la technique VTT utile à un camp ou un trekking (positions, freinage, virages, pentes, passage à pied, réglages) ; organiser des exercices et jeux à vélo ; estimer le temps d'une sortie. Ce que la source ne couvre pas (circulation, matériel, conduite de groupe)."
+sert_a: "VTT, positions, freinage, virages, pentes, passage à pied, réglages, jeux à vélo, temps de sortie ; hors source : circulation, matériel, conduite de groupe"
 derive_de: [js-cyclisme-vtt, cudesch-calcul-temps-de-marche, "concepts: sport-de-camp"]
 statut: brouillon
 ---

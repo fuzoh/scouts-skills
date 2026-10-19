@@ -1,7 +1,7 @@
 ---
 titre: "Concevoir le programme d'une unité : thème, fil rouge, évaluation, week-end et cérémonies"
 theme: programme
-sert_a: "Choisir un thème, bâtir un fil rouge et une courbe de suspense, contrôler l'équilibre d'un programme, préparer un week-end, une séance pour nouveaux, la promesse, la totémisation, un moment calme, évaluer avec la maîtrise (quand, quoi, comment)."
+sert_a: "Thème, fil rouge, courbe de suspense, équilibre du programme, week-end, séance pour nouveaux, promesse, totémisation, moment calme, évaluation"
 derive_de: [cudesch-programme, cudesch-branche-eclais]
 statut: brouillon
 ---

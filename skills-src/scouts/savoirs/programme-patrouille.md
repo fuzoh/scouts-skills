@@ -1,7 +1,7 @@
 ---
 titre: "Système de patrouille et responsable de patrouille (RP) : rôle, encadrement, activités de patrouille"
 theme: programme
-sert_a: "Comprendre la patrouille Éclais et le rôle du RP et du RP adjoint, choisir et encadrer un RP, répartir les responsabilités, organiser moments, activités, balades et nuits en patrouille (sécurité, limites), planifier une activité de patrouille, animer la vie et le conseil de patrouille."
+sert_a: "Patrouille Éclais, RP, RP adjoint, choisir et encadrer un RP, moments, activités, balades, nuits en patrouille, conseil de patrouille"
 derive_de: [msds-memento-responsable-patrouille, cudesch-branche-eclais, cudesch-glossaire]
 statut: brouillon
 ---

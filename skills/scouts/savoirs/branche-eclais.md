@@ -1,7 +1,7 @@
 ---
 titre: "Branche Éclais, jeunes de 11 à 15 ans, patrouille et troupe, Steps, totémisation, projet et activités de patrouille"
 theme: programme
-sert_a: "Conduire une troupe : besoins des 11-15 ans, patrouille et responsable de patrouille, Steps et spécialités, premier engagement, promesse, totémisation, méthode du projet, moments, activités et nuits de patrouille, constructions de camp, camp, pièges."
+sert_a: "Éclais 11-15 ans, troupe, patrouille, RP, Steps, spécialités, promesse, totémisation, méthode du projet, nuits de patrouille, constructions, camp"
 derive_de: [cudesch-branche-eclais, msds-profil-tableaux-relations, msds-profil-du-scoutisme, "concepts: branches, relations, methodes-scoutes"]
 statut: brouillon
 ---

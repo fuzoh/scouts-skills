@@ -1,7 +1,7 @@
 ---
 titre: Cours Panorama et cours RG, projet au Pano, combinaison avec un module J+S, QUALA
 theme: formation
-sert_a: Organiser un cours Panorama (projet, rôles et processus de groupe, outils, combinaison avec un module J+S, numéros de cours) et un cours RG (planification, équipe, contenus, distinction avec RU, Pano, coach, Spectre, Gilwell, cours à choix).
+sert_a: "Cours Panorama (projet, processus de groupe, numéros de cours), cours RG (planification, équipe, contenus), distinction RU, Pano, coach, Spectre, Gilwell"
 derive_de: [cofor-pano-le-projet, cofor-pano-outils-litterature, cofor-pano-combinaison-module-js, cofor-quala-cours-rg, "concepts: cours-panorama, cours-rg"]
 statut: brouillon
 ---

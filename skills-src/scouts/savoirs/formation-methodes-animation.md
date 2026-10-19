@@ -1,7 +1,7 @@
 ---
 titre: "Boîte à outils du formateur : apprentissage en mouvement, images, séquences numériques et outils d'animation"
 theme: formation
-sert_a: "Dynamiser une UA ou une séance de théorie : méthodes en mouvement par phase (FRTE), images fixes ou vidéo et feed-back par l'image, séquences d'apprentissage numériques, et choix commenté d'outils d'animation Communagir et Liberating Structures [non officiel]."
+sert_a: "Méthodes en mouvement, FRTE, images fixes, vidéo, feed-back par l'image, séquences numériques, Communagir, Liberating Structures (non officiel)"
 derive_de: [js-apprentissage-en-mouvement, js-emploi-images-apprentissage, js-sequences-apprentissage-numeriques, autre-communagir-outils-animation, autre-liberating-structures, "concepts: methodes-d-enseignement, apprentissage-en-mouvement"]
 statut: brouillon
 ---

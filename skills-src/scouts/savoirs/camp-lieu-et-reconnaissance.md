@@ -1,7 +1,7 @@
 ---
 titre: Lieu de camp, recherche, reconnaissance, contrat de location et autorisations locales
 theme: camp
-sert_a: Trouver et réserver une place de camp ou une maison, quand chercher, que vérifier à la reconnaissance (sous tentes, sous toit), que mettre dans le contrat ou le bail, qui contacter (propriétaire, commune, forestier, canton) et ce que demandent le Tessin, Vaud, Lucerne, Saint-Gall, Thurgovie.
+sert_a: "Place de camp, maison, réservation, reconnaissance, contrat, bail, propriétaire, commune, forestier, canton, Tessin, Vaud, Lucerne, Saint-Gall, Thurgovie"
 derive_de: [js-sdct-camp, cudesch-camp-reco-sous-tentes, cudesch-camp-reco-sous-toit, cudesch-camp-bail-place-tentes, autre-autorisation-camp-vaud, msds-hering-camps, "concepts: camp"]
 statut: brouillon
 ---

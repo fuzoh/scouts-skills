@@ -1,7 +1,7 @@
 ---
 titre: Urgence, crise, protection et premiers secours
 theme: securite
-sert_a: Que faire en cas d'accident (schéma ORA, annonce, numéros officiels, aide-mémoire J+S), de crise, de doute ou de soupçon d'abus ; Helpline, cellule de crise, concept de protection PSA, médias, pharmacie et médicaments.
+sert_a: "Accident, schéma ORA, annonce, numéros officiels, aide-mémoire J+S, crise, soupçon d'abus, Helpline, cellule de crise, PSA, médias, pharmacie"
 derive_de: [msds-concept-protection-psa, cudesch-etre-responsable, cudesch-securite, cudesch-cudeschin, msds-thilo, js-sdct-hiver, "concepts: psa, premiers-secours, securite"]
 statut: valide
 ---

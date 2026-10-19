@@ -1,7 +1,7 @@
 ---
 titre: "Violence entre jeunes, harcèlement, santé psychique en camp (Twitterbox), valeurs et éthique de l'équipe"
 theme: prevention
-sert_a: "Reconnaître et prévenir la violence et l'exclusion entre jeunes, réagir à une agression ou une insulte raciste, mettre en place la Twitterbox en camp, porter les valeurs et l'obligation de signaler dans l'équipe, charte d'équipe et règles de comportement."
+sert_a: "Violence, exclusion, agression, insulte raciste, Twitterbox, obligation de signaler, valeurs, charte d'équipe, règles de comportement"
 derive_de: [js-violence-dans-le-sport, msds-twitterbox, js-ethique-diapositives, js-ethique-formation-de-base, js-ethique-module-chef-de-camp, "concepts: psa, ethique, regles-de-comportement"]
 statut: brouillon
 ---

@@ -1,7 +1,7 @@
 ---
 titre: "Prévenir les abus au quotidien, outil PSA, situations à risque, proximité, jeux de prévention"
 theme: prevention
-sert_a: "Prévenir les abus sexuels et violations de limites dans l'unité et en camp : situations à risque (massages, tiques, réconfort, WC, langage, dortoir, douches, photos), règles de proximité, 7 points de prévention, jeux avec les enfants, signaux, qui informer."
+sert_a: "Abus sexuels, limites, situations à risque (massages, tiques, WC, dortoir, douches, photos), proximité, 7 points de prévention, signaux, qui informer"
 derive_de: [msds-outil-prevention-psa, msds-jeux-de-prevention, js-ethique-proximite-soutien, js-regles-comportement-exemple, "concepts: psa, regles-de-comportement, ethique"]
 statut: brouillon
 ---

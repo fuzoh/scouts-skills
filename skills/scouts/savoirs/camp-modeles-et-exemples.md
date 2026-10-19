@@ -1,7 +1,7 @@
 ---
 titre: Modèles et exemples officiels de programme général, d'activités et de dossier de randonnée
 theme: camp
-sert_a: Ce que montrent les modèles de programme général J+S et les exemples d'activités (CO photos, estafette, grande fête, tournoi, randonnée avec nuitée), structure, répartition d'une journée, fiche d'activité, modèles de bloc ; comment lire un modèle 2026 (AC/SC) en 2027.
+sert_a: "Modèles de programme général J+S, exemples d'activités (CO photos, estafette, grande fête, tournoi, randonnée), fiche d'activité, modèle 2026 AC/SC en 2027"
 derive_de: [js-modele-prog-general-enfants-jeunes, js-modele-prog-general-sport-enfants, js-modele-prog-general-sport-jeunes, js-exemple-programme-camp-ete, js-exemple-course-orientation-photos, js-exemple-estafette-fromage, js-exemple-grande-fete, js-exemple-tournoi-de-jeux, js-exemple-randonnee-nuitee, cudesch-modele-bloc-ac, cudesch-modele-bloc-sc, cudesch-planification-activite, "concepts: sport-de-camp, activite-de-camp, fiche-d-activite, tournoi"]
 statut: brouillon
 ---

@@ -1,7 +1,7 @@
 ---
 titre: "Formation continue et cours particuliers : approfondissements de branche, modules, module de sécurité, Spectre, conseils de parents, aumônier"
 theme: formation
-sert_a: Conditions, buts, objectifs numérotés des approfondissements de branche (Castors à SMT), modules, module de sécurité, formation liée à une fonction, Spectre, conseils de parents, aumônier.
+sert_a: "Approfondissements de branche (Castors à SMT), modules, module de sécurité, formation liée à une fonction, Spectre, conseils de parents, aumônier"
 derive_de: [msds-modele-de-formation (version 2027), "concepts: modele-de-formation, niveau-d-approfondissement, objectifs-d-apprentissage, cours-de-base, cours-ru, cours-panorama, caf, expert-js"]
 statut: brouillon
 ---

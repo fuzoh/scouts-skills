@@ -1,7 +1,7 @@
 ---
 titre: "Faire vivre une maîtrise : relève, accueil, tâches, motivation, conflits, départs, développement"
 theme: groupe
-sert_a: "Recruter et préparer la relève de responsables, accueillir les nouveaux, répartir et déléguer les tâches, motiver et remercier, mener une séance d'équipe ou de conflit, gérer les départs, faire évoluer le groupe pas à pas et encourager les moniteurs sur la base de valeurs."
+sert_a: "Recruter, relève, accueillir les nouveaux, déléguer, motiver, remercier, séance d'équipe, conflit, départs, évolution du groupe, valeurs"
 derive_de: [js-coach-preserver-l-equipe, js-coach-preparer-l-avenir, js-developpement-equipe-moniteurs, msds-alpha-aide-memoire-rg, "concepts: coach-js"]
 statut: brouillon
 ---
