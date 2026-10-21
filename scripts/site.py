@@ -85,6 +85,7 @@ header .cadre { display: flex; flex-wrap: wrap; align-items: center; justify-con
 .marque .version { margin-left: .5rem; padding: .05rem .45rem; border: 1px solid var(--bord); border-radius: var(--rayon); background: var(--accent-fond); color: var(--accent); font-size: .8rem; font-weight: 600; white-space: nowrap; vertical-align: .1em; }
 .marque .sous-titre { display: block; font-weight: 400; font-size: .85rem; color: var(--doux); }
 header nav { min-width: 0; }
+header nav li { margin: 0; }
 header nav ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .2rem; }
 header nav a { display: block; text-align: center; padding: .3rem .7rem; border-radius: var(--rayon); color: var(--texte); text-decoration: none; font-size: .95rem; }
 header nav a:hover { background: var(--accent-fond); color: var(--accent); }
