@@ -298,7 +298,7 @@ def ajouter(source: Path, dossier: str, perso: Path, titre: str | None = None) -
     new = add_index_row(readme.read_text(encoding="utf-8"), f"| {dossier}/{unique}/ | À COMPLÉTER |")
     write(readme, new)
     if len(new) > README_MAX:
-        print(f"avertissement : README.md fait {len(new)} caractères (plus de 7 000) : "
+        print(f"avertissement : README.md fait {len(new)} caractères (plus de {README_MAX}) : "
               "raccourcir les « sert à » (personnaliser.md § 5)", file=sys.stderr)
     return created
 

@@ -297,7 +297,7 @@ def test_index_ne_casse_pas_ce_qui_suit(perso, work):
 def test_readme_trop_long_avertit(perso, work, capsys):
     (perso / "README.md").write_text(GABARIT + "\n" + "x" * 7000 + "\n", encoding="utf-8")
     assert run(doc_md(work), "--dossier", "ac", "--perso", perso) == 0
-    assert "7 000" in capsys.readouterr().err
+    assert "plus de 7000" in capsys.readouterr().err
 
 
 # --- refus et usage ----------------------------------------------------------
