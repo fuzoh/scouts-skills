@@ -6,6 +6,7 @@ Tous les messages de l'équipe de cours aux apprenant·e·s (à chaud ou planifi
 
 Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour choisir la section.
 
+- `autre-conception-qualification-top@2026` — Système de qualification : conception en huit étapes (support du cours Top) (1 section, [index](../../corpus/autre-conception-qualification-top/index.md))
 - `cofor-autorisation-du-cours` — Autorisation du cours (formulaire CàF) (1 section, [index](../../corpus/cofor-autorisation-du-cours/index.md))
 - `cofor-evaluation-du-cours@2019` — Évaluation du cours (formulaire chef·fe de cours et CàF) (1 section, [index](../../corpus/cofor-evaluation-du-cours/index.md))
 - `cofor-pano-retour-qualifier` — Faire un retour, qualifier et encourager – fiche d'information pour les cours Panorama (1 section, [index](../../corpus/cofor-pano-retour-qualifier/index.md))
@@ -25,4 +26,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[methodes-d-enseignement](methodes-d-enseignement.md), [accompagnement](accompagnement.md), [evaluation](evaluation.md), [qualification](qualification.md), [coach-js](coach-js.md), [psyche](psyche.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [expert-js](expert-js.md)
+[methodes-d-enseignement](methodes-d-enseignement.md), [evaluation](evaluation.md), [accompagnement](accompagnement.md), [qualification](qualification.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [coach-js](coach-js.md), [psyche](psyche.md), [expert-js](expert-js.md)

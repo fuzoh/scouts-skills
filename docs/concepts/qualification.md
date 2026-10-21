@@ -6,6 +6,7 @@ Processus d'observation, de retours et d'entretiens qui fait progresser l'appren
 
 Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour choisir la section.
 
+- `autre-conception-qualification-top@2026` — Système de qualification : conception en huit étapes (support du cours Top) (1 section, [index](../../sources/autre-conception-qualification-top/index.md))
 - `cofor-administration-cours-federaux` — Administration des cours fédéraux (10 sections, [index](../../sources/cofor-administration-cours-federaux/index.md))
 - `cofor-autorisation-du-cours` — Autorisation du cours (formulaire CàF) (1 section, [index](../../sources/cofor-autorisation-du-cours/index.md))
 - `cofor-checklist-caf` — Check-list pour CàF – délais d'encadrement d'un cours (avec J+S) (1 section, [index](../../sources/cofor-checklist-caf/index.md))
@@ -20,4 +21,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[chef-de-cours](chef-de-cours.md), [administration-de-cours](administration-de-cours.md), [caf](caf.md), [modele-de-formation](modele-de-formation.md), [retour](retour.md), [evaluation](evaluation.md), [accompagnement](accompagnement.md), [financement](financement.md)
+[chef-de-cours](chef-de-cours.md), [retour](retour.md), [evaluation](evaluation.md), [administration-de-cours](administration-de-cours.md), [caf](caf.md), [modele-de-formation](modele-de-formation.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [accompagnement](accompagnement.md)

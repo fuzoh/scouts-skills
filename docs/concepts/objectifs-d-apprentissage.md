@@ -8,6 +8,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 - `autre-canevas-point-de-cours-js@2025` — Canevas vierge de point de cours J+S (cours J+S cantonal, PATExE) (1 section, [index](../../sources/autre-canevas-point-de-cours-js/index.md))
 - `autre-canevas-ua-top@2026` — Canevas vierge d'unité d'apprentissage (cours Top, PATExE) (1 section, [index](../../sources/autre-canevas-ua-top/index.md))
+- `autre-conception-qualification-top@2026` — Système de qualification : conception en huit étapes (support du cours Top) (1 section, [index](../../sources/autre-conception-qualification-top/index.md))
 - `cofor-liste-buts-cours-base` — Tes buts personnels après ce cours de base (1 section, [index](../../sources/cofor-liste-buts-cours-base/index.md))
 - `cofor-liste-buts-cours-ru` — Tes buts personnels après ce cours de RU (1 section, [index](../../sources/cofor-liste-buts-cours-ru/index.md))
 - `cudesch-programme@2026-10-17` — Programme – l'essence du scoutisme (14 sections, [index](../../sources/cudesch-programme/index.md))
@@ -23,4 +24,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[planification](planification.md), [methodes-d-enseignement](methodes-d-enseignement.md), [evaluation](evaluation.md), [modele-de-formation](modele-de-formation.md), [unite-d-apprentissage](unite-d-apprentissage.md), [retour](retour.md), [coach-js](coach-js.md), [expert-js](expert-js.md)
+[planification](planification.md), [methodes-d-enseignement](methodes-d-enseignement.md), [evaluation](evaluation.md), [retour](retour.md), [modele-de-formation](modele-de-formation.md), [unite-d-apprentissage](unite-d-apprentissage.md), [qualification](qualification.md), [coach-js](coach-js.md)

@@ -1,6 +1,6 @@
 ---
 name: scouts
-description: "Assistant du scoutisme suisse (responsables, formateurs, coachs et experts J+S), fondé sur les ressources officielles MSdS, cofor, J+S et cudesch. Répondre à une question de règle, de délai ou de chiffre ; expliquer une notion (PATExE, 3x3, formes caractéristiques, activité J+S 2027, qualification) ; corriger ou concevoir un document scout (activité J+S, unité d'apprentissage, programme de camp ou picasso, concept de sécurité) ; guider qui débute (thèmes, lectures, exemples de demandes) ; personnaliser avec les réglages, règles, contacts et documents de son groupe, de son association cantonale ou de son cours. Utiliser dès qu'un prompt parle de scouts, de J+S, de camp, de cours scout, de responsables, de coachs, d'experts ou de CàF, ou cite le MSdS, la Sardine ou le cudesch."
+description: "Assistant du scoutisme suisse (responsables, formateurs, coachs et experts J+S), fondé sur les ressources officielles MSdS, cofor, J+S et cudesch. Répondre à une question de règle, de délai ou de chiffre ; expliquer une notion (PATExE, 3x3, formes caractéristiques, activité J+S 2027, qualification) ; corriger ou concevoir un document scout (activité J+S, unité d'apprentissage, programme de camp ou picasso, concept de sécurité, système ou grille de qualification) ; guider qui débute (thèmes, lectures, exemples de demandes) ; personnaliser avec les réglages, règles, contacts et documents de son groupe, de son association cantonale ou de son cours. Utiliser dès qu'un prompt parle de scouts, de J+S, de camp, de cours scout, de responsables, de coachs, d'experts ou de CàF, ou cite le MSdS, la Sardine ou le cudesch."
 license: "CC-BY-SA-4.0"
 metadata:
   version: "0.7.1" # x-release-please-version
@@ -43,8 +43,9 @@ Puis la méthode du verbe ; `references/documents.md` pour « Pour aller plus lo
 | `ua` | UA, point de cours, PATExE, GAG, objectif d'apprentissage, sommaire des UA | type de cours, branche, date du cours | aucun |
 | `programme-camp` | picasso, programme général ou détaillé, dossier de camp | date du camp | `activite-js`, `concept-de-securite` |
 | `concept-de-securite` | CdS, matrice des risques, 3x3, activité à caractère dangereux, baignade | type (global, activité, randonnée), date du camp | aucun |
+| `qualification` | système de qualification, grille, exigences minimales, indicateurs, sphères, barème, critères éliminatoires, concept RQA | type de cours, date du cours, formelle ou d'office | aucun |
 
-Savoirs : index `savoirs/README.md`, par rubrique (camp, J+S, sécurité, Profil et branches, jeux et sport, prévention et inclusion, groupe et maîtrise, formation) ; lire la rubrique, puis seulement le ou les fichiers dont la colonne « sert à » répond. Une branche : `branches.md` et `branche-<nom>.md`. UA, programme de cours ou question sur un cours : charger aussi le descriptif du cours visé (`savoirs/formation-cours-*.md` : buts, objectifs numérotés, niveaux d'approfondissement).
+Savoirs : index `savoirs/README.md`, par rubrique (camp, J+S, sécurité, Profil et branches, jeux et sport, prévention et inclusion, groupe et maîtrise, formation) ; lire la rubrique, puis seulement le ou les fichiers dont la colonne « sert à » répond. Une branche : `branches.md` et `branche-<nom>.md`. UA, programme de cours, système de qualification ou question sur un cours : charger aussi le descriptif du cours visé (`savoirs/formation-cours-*.md` : buts, objectifs numérotés, niveaux d'approfondissement).
 
 Deux référentiels possibles sans livrable qui tranche : demander lequel. `inclut:` : charger le référentiel inclus seulement si la pièce est jointe ou demandée, sinon nommer l'exigence sans la juger. Livrable sans référentiel : le dire, répondre depuis `savoirs/`, aucun tableau N inventé.
 

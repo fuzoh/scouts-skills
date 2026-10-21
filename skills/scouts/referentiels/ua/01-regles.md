@@ -15,7 +15,7 @@ Lire tous les fichiers du dossier dans l'ordre.
 
 Périmètre : une UA d'un cours de formation scout (descriptif écrit), et le commentaire qu'on en fait. Le terme courant est **UA** ; « point de cours » (PdC) est l'ancien nom et se reconnaît comme synonyme. La base du référentiel est constituée des brochures MSdS (brochure verte « Unité d'apprentissage », bleue « Le cours », orange « Retour, qualifier, accompagner ») ; le chapitre « Écrire une unité d'apprentissage » de la brochure verte fournit la check-list du descriptif. Les canevas Top et J+S cantonal sont des formats acceptés, pas la norme.
 
-**Hors périmètre** (futur référentiel `qualification`) : présence minimale de 80 % (ligne directrice MSdS ; condition de validation de l'absence pour J+S, cofor), critères éliminatoires, grille et entretien de qualification. Ici on ne vérifie que la place que l'UA laisse à l'observation.
+**Hors périmètre** (référentiel `qualification`) : présence minimale de 80 % (ligne directrice MSdS ; condition de validation de l'absence pour J+S, cofor), critères éliminatoires, grille et entretien de qualification. Ici on ne vérifie que la place que l'UA laisse à l'observation.
 
 ## Non-négociables
 Les brochures décrivent des pratiques recommandées (« généralement », « il est recommandé », check-list « non exhaustive ») : en cas de doute, c'est un critère de qualité. Seules les exigences d'administration de cours sont retenues. Portée : `[tous]` = valable quelle que soit la date du cours.

@@ -2,12 +2,13 @@
 
 - version : 0.7.1 <!-- x-release-please-version -->
 - source : https://github.com/fuzoh/scouts-skills
-- fichiers : 85
-- mots : 131919
+- fichiers : 88
+- mots : 137454
 
 ## Référentiels
 
 - `activite-js` : derive_de `{'slug': 'activite-js', 'relu_le': datetime.date(2026, 10, 21)}`
 - `concept-de-securite` : derive_de `{'slug': 'concept-de-securite', 'relu_le': datetime.date(2026, 10, 21)}`
 - `programme-camp` : derive_de `{'slug': 'programme-camp', 'relu_le': datetime.date(2026, 10, 21)}`
+- `qualification` : derive_de `{'slug': 'qualification', 'relu_le': datetime.date(2026, 10, 21)}`
 - `ua` : derive_de `{'slug': 'ua', 'relu_le': datetime.date(2026, 10, 21)}`

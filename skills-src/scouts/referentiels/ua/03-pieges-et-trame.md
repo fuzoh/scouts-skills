@@ -25,12 +25,12 @@
 - Une numérotation 0 à 3 n'est plus une taxonomie maison : c'est celle de la brochure « Le cours » révisée (0 Vivre, 1 Mémoriser / Comprendre, 2 Appliquer / Analyser, 3 Évaluer / Créer), alignée sur le modèle de formation 2027. Une autre échelle (Bloom à six niveaux, échelle d'équipe) se traduit vers ces quatre niveaux ; Bloom explique, il n'est pas exigé.
 - Terminologie révisée en français : participant·e → apprenant·e, point de cours → unité d'apprentissage, ensemble de points de cours → module, encourager (« fördern ») → accompagner, cours de formation → cours (conférence formation MSdS 2026, non ingérée). Les deux vocabulaires se lisent ; ne pas corriger l'un par l'autre.
 - Forme d'enseignement : catégorisation des méthodes d'animation, étape facultative de la planification d'une UA dans la brochure verte révisée. La proposer, jamais la réclamer.
-- Qualification en continu ou séquencée : la brochure orange révisée distingue les deux et met l'accent sur la qualification en continu ; pour l'UA, seule compte la place laissée à l'observation (Q21), le reste relève du futur référentiel qualification.
+- Qualification en continu ou séquencée : la brochure orange révisée distingue les deux et met l'accent sur la qualification en continu ; pour l'UA, seule compte la place laissée à l'observation (Q21), le reste relève du référentiel `qualification`.
 - EvalJS (questionnaire J+S en ligne du dernier jour, 10 minutes, trois questions libres au plus, évaluation immédiate discutée en fin de cours) évalue le cours ou le module J+S, pas l'UA ; il ne remplace pas l'évaluation de l'UA, Q24 (module J+S « Mise en œuvre de l'évaluation »).
 - Les équipes citent rarement les brochures MSdS et réinventent leurs critères ; renvoyer aux brochures sans reproche.
 - Ne pas confondre le niveau d'approfondissement du contenu (modèle de formation) et le niveau de l'objectif de l'UA : l'objectif détaille le contenu, il ne le change pas.
 - Une UA de niveau « Vivre » n'exige pas forcément un descriptif formel avec objectifs Bloom (brochure « Le cours »).
-- Qualification, 80 % de présence et critères éliminatoires : renvoyer au futur référentiel `qualification`. La fiche cofor du cours Panorama montre que la qualification peut y être acquise d'office, mais que des exigences minimales communiquées au début restent de rigueur.
+- Qualification, 80 % de présence et critères éliminatoires : renvoyer au référentiel `qualification`. La fiche cofor du cours Panorama montre que la qualification peut y être acquise d'office, mais que des exigences minimales communiquées au début restent de rigueur.
 - Pas de nom de participant ni d'exemple réel dans un commentaire.
 - Rubriques de façade vides : un mot au plus, sans les ériger en défaut.
 - Hiérarchie des remarques : exigence manquante (N1-N4, d'abord l'écart objectifs ↔ déroulement), information à demander (sommaire), amélioration.

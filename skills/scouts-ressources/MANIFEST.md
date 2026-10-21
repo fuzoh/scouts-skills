@@ -3,9 +3,9 @@
 - version : 0.7.1 <!-- x-release-please-version -->
 - source : https://github.com/fuzoh/scouts-skills
 - scope : complet
-- sources : 189
-- sections : 1688
-- référentiels : 4
+- sources : 190
+- sections : 1689
+- référentiels : 5
 
 ## Sources embarquées
 
@@ -17,6 +17,7 @@
 - `autre-canevas-sc-vierge`
 - `autre-canevas-ua-top@2026`
 - `autre-communagir-outils-animation@2026-10-17`
+- `autre-conception-qualification-top@2026`
 - `autre-csaj-conge-jeunesse-fiche`
 - `autre-csaj-conge-jeunesse-formulaire`
 - `autre-liberating-structures@2026-10-17`

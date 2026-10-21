@@ -7,6 +7,7 @@ _Définition à écrire dans `GLOSSARY.md` (colonne slug)._
 Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour choisir la section.
 
 - `autre-canevas-point-de-cours-js@2025` — Canevas vierge de point de cours J+S (cours J+S cantonal, PATExE) (1 section, [index](../../corpus/autre-canevas-point-de-cours-js/index.md))
+- `autre-conception-qualification-top@2026` — Système de qualification : conception en huit étapes (support du cours Top) (1 section, [index](../../corpus/autre-conception-qualification-top/index.md))
 - `cofor-evaluation-du-cours@2019` — Évaluation du cours (formulaire chef·fe de cours et CàF) (1 section, [index](../../corpus/cofor-evaluation-du-cours/index.md))
 - `cofor-pano-le-projet` — Le projet au Pano – fiche d'information pour les cours Panorama (1 section, [index](../../corpus/cofor-pano-le-projet/index.md))
 - `cofor-pano-retour-qualifier` — Faire un retour, qualifier et encourager – fiche d'information pour les cours Panorama (1 section, [index](../../corpus/cofor-pano-retour-qualifier/index.md))
@@ -31,4 +32,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[planification](planification.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [methodes-d-enseignement](methodes-d-enseignement.md), [retour](retour.md), [coach-js](coach-js.md), [chef-de-cours](chef-de-cours.md), [qualification](qualification.md), [accompagnement](accompagnement.md)
+[planification](planification.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [retour](retour.md), [methodes-d-enseignement](methodes-d-enseignement.md), [coach-js](coach-js.md), [qualification](qualification.md), [chef-de-cours](chef-de-cours.md), [accompagnement](accompagnement.md)

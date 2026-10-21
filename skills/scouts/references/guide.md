@@ -36,9 +36,9 @@ Chaque parcours : thèmes à explorer, lectures (titres de `documents.md`), puis
 - Demandes : « Ce programme de camp respecte-t-il les exigences J+S 2027 ? » ; « Combien de moniteurs pour 45 participants ? » ; « Qu'est-ce qui change pour moi au 01.01.2027 ? »
 
 **Expert J+S, CàF**
-- Thèmes : qualifier des adultes (exigences minimales, indicateurs observables, entretiens), encadrer une maîtrise, autoriser un cours, la structure de formation J+S 2027.
+- Thèmes : qualifier des adultes (exigences minimales, indicateurs observables, entretiens), construire le système de qualification (sphères, barème, seuils, grille dans un tableur), encadrer une maîtrise, autoriser un cours, la structure de formation J+S 2027.
 - Lectures : Faire un retour, qualifier et accompagner ; Concept CàF ; Check-list pour CàF ; Structure de la formation J+S SdC/T ; Cadres de référence J+S 2027 ; newsletter de la formation d'octobre 2026.
-- Demandes : « Prépare une grille d'exigences minimales pour un cours de base » ; « Que vérifie le CàF à l'annonce d'un cours ? »
+- Demandes : « Prépare une grille d'exigences minimales pour un cours de base » ; « Relis le système de qualification de notre cours RU » ; « Que vérifie le CàF à l'annonce d'un cours ? »
 
 ## 3. Thèmes transversaux à proposer quand rien ne ressort
 
