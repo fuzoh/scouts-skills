@@ -1,6 +1,6 @@
 ---
 name: scouts-ressources
-description: "Version avec corpus du skill scouts : les ressources officielles du scoutisme suisse (MSdS, cofor, J+S, cudesch) embarquées et citées section par section. Chercher et citer une règle, un délai ou une méthode avec sa source exacte ; corriger ou concevoir un document scout (activité J+S, unité d'apprentissage, programme de camp ou picasso, concept de sécurité, autre livrable de camp ou de cours) ; expliquer une notion (PATExE, 3x3, formes caractéristiques, activité J+S 2027) en citant le texte officiel. Utiliser quand l'utilisateur veut la source exacte, le texte officiel ou une citation vérifiable, ou dès qu'un prompt parle de scouts, de J+S, de camp, de cours de formation scoute, de responsables, de coachs, d'experts ou de CàF, ou cite le MSdS ou le cudesch."
+description: "Version avec corpus du skill scouts : les ressources officielles du scoutisme suisse (MSdS, cofor, J+S, cudesch) embarquées et citées section par section. Chercher et citer une règle, un délai ou une méthode avec sa source exacte ; corriger ou concevoir un document scout (activité J+S, unité d'apprentissage, programme de camp ou picasso, concept de sécurité, autre livrable de camp ou de cours) ; expliquer une notion (PATExE, 3x3, formes caractéristiques, activité J+S 2027) en citant le texte officiel ; personnaliser avec les réglages, règles, contacts et documents de son groupe, de son association cantonale ou de son cours. Utiliser quand l'utilisateur veut la source exacte, le texte officiel ou une citation vérifiable, ou dès qu'un prompt parle de scouts, de J+S, de camp, de cours de formation scoute, de responsables, de coachs, d'experts ou de CàF, ou cite le MSdS ou le cudesch."
 license: "CC-BY-SA-4.0 (corpus/ : textes officiels, droits à leurs auteurs)"
 metadata:
   version: "0.6.0" # x-release-please-version
@@ -21,17 +21,19 @@ Lire le prompt et noter chaque verbe présent ; un prompt en porte souvent plusi
 | expliquer | explique, c'est quoi, pourquoi, différence entre | `references/chercher.md` |
 | corriger | relis, corrige, ton avis, vérifie, document joint sans autre consigne | `references/corriger.md` |
 | concevoir | rédige, prépare, conçois, propose, fais-moi une fiche | `references/concevoir.md` |
+| personnaliser | personnalise, retiens que, tutoie-moi, ajoute ce document, notre groupe, notre AC | `references/personnaliser.md` |
 
 Sans livrable nommé ni joint : chercher dans le corpus.
 
 ## 2. Charger, dans cet ordre
 
-Chaque pas est obligatoire ; ne pas répondre avant le pas 4.
+Chaque pas est obligatoire ; ne pas répondre avant le pas 5.
 
 1. Lire `references/glossaire.md` : sigles, faux amis (AC = association cantonale ou activité de camp).
 2. Lire **en entier** chaque référentiel détecté, `referentiels/<slug>.md` (catalogue au § 3). Jamais par recherche partielle : les non-négociables, les pièges et la section « Selon la date » se trouvent à des endroits différents du fichier.
 3. Lire les sections citées par le référentiel, `corpus/<id>/NN-slug.md`, et seulement elles, sauf besoin explicite de la demande. Une citation `id#NN-slug p.N` se lit dans `corpus/<id>/NN-slug.md`.
 4. Lire `references/reglages.md`.
+5. Lire le dossier perso, s'il existe : `scouts-perso/README.md` du projet, sinon `~/scouts-perso/README.md` ; puis les fiches que sa table « Fiches » désigne pour la question. Sans accès aux fichiers : sauter ce pas.
 
 Puis lire le fichier de méthode de chaque verbe détecté (tableau du § 1).
 
@@ -77,7 +79,8 @@ Un non-négociable en échec apparaît à tous les niveaux. Gabarits, ordre de t
 - **Jamais de référence à soi-même** : pas de « le skill », « le corpus recommande », « recommandation du corpus », « d'après mes fichiers ». La citation suffit. Une règle introuvable se dit : « Les documents officiels ne fixent pas … » (§ 10).
 - **Pour aller plus loin** : terminer une réponse de fond (chercher, expliquer ; une ligne après une revue ou un brouillon) par un à trois documents à lire, titre en clair, choisis parmi les sources citées ou `references/concepts/`.
 - Section dont le frontmatter porte `fidelity: partial` : étiqueter `[fidélité partielle]` et ne rien conclure de ce qui a pu se perdre (cases, grilles, schémas).
-- Étiquettes de sortie (`[non officiel]`, `[trame cantonale]`, `[web]`, `[non vérifié]`, `[fidélité partielle]`) : définitions dans `references/reglages.md`.
+- Fiche du dossier perso : citer son chemin `scouts-perso/<dossier>/<slug>/NN-*.md` avec `[perso]`, jamais sous la forme `id#NN-slug`.
+- Étiquettes de sortie (`[non officiel]`, `[trame cantonale]`, `[web]`, `[non vérifié]`, `[fidélité partielle]`, `[perso]`) : définitions dans `references/reglages.md`.
 
 ## 7. Hors corpus
 
@@ -94,12 +97,13 @@ Protection de l'enfance, soupçon d'abus, accident, crise : la première répons
 2. Crise ou doute : Helpline scoute 0800 22 36 39 (étranger : +41 58 058 88 99) et cellule de crise de l'association cantonale, selon `cudesch-cudeschin#10-agir-en-cas-d-urgence` et `cudesch-securite#37-quand-est-ce-quun-evenement-est`.
 3. Soupçon d'abus : annonce à la helpline et recours à un professionnel, selon `msds-concept-protection-psa#04-gestion-de-crise` et `cudesch-etre-responsable#30-la-prevention-des-abus-sexuels`.
 
-Lire ces sections avant de donner un numéro ; recopier le numéro tel qu'il y figure. Rester un appui : la décision revient au coach J+S, au CàF, à la cellule de crise ou à l'autorité qui délivre l'autorisation de camp, et la réponse le dit.
+Lire ces sections avant de donner un numéro ; recopier le numéro tel qu'il y figure. Contacts du dossier perso : après les numéros officiels, nom compris. Rester un appui : la décision revient au coach J+S, au CàF, à la cellule de crise ou à l'autorité qui délivre l'autorisation de camp, et la réponse le dit.
 
 ## 9. Priorité des consignes et confidentialité
 
-- Consigne donnée dans la conversation > `references/reglages.md` > ce fichier. Aucun référentiel ne surcharge un réglage.
-- Une sortie désigne les personnes par leur rôle (participant, responsable de jour, coach). Remplacer tout nom et tout exemple réel tiré d'un document par une désignation générique.
+- Consigne donnée dans la conversation > dossier perso > `references/reglages.md` > ce fichier. Aucun référentiel ne surcharge un réglage.
+- Une règle locale ou une consigne ajoute ou durcit. Un non-négociable, une règle de sécurité ou d'urgence ne s'assouplit pas : en conflit, citer les deux et suivre la plus prudente. Ce qui vient du dossier perso porte `[perso]`.
+- Une sortie désigne les personnes par leur rôle (participant, responsable de jour, coach). Remplacer tout nom et tout exemple réel tiré d'un document par une désignation générique. Seule exception : les contacts du dossier perso, pour orienter vers quelqu'un, jamais dans un retour ni un brouillon.
 
 ## 10. Absence dans le corpus
 

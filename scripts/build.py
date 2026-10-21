@@ -57,6 +57,7 @@ LICENSES = {
     PACK_NAME: "CC-BY-SA-4.0 (corpus/ : textes officiels, droits à leurs auteurs)",
 }
 ZIP_DATE = (1980, 1, 1, 0, 0, 0)
+SHARED_REFERENCE = "personnaliser.md"  # une seule source, dans skills-src/scouts/references/
 VERSION_MARK = "x-release-please-version"
 
 
@@ -241,6 +242,9 @@ def build_claude_code(scope: str = "complet", out: Path | None = None, make_zip:
     stamp_skill(root / "SKILL.md", PACK_NAME)
     if (skill_dir / "references").is_dir():
         _copy_tree(skill_dir / "references", root / "references")
+    shared = reg.SKILLS / LIGHT_NAME / "references" / SHARED_REFERENCE
+    if shared.is_file():
+        shutil.copy2(shared, root / "references" / SHARED_REFERENCE)
     if reg.GLOSSARY.is_file():
         shutil.copy2(reg.GLOSSARY, root / "references" / "glossaire.md")
     if reg.CONCEPTS.is_dir():

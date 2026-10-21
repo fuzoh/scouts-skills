@@ -187,3 +187,12 @@ def test_build_refuse_metadata_dans_la_source(full: Path):
     src.write_text("---\nname: scouts-ressources\ndescription: x\nmetadata:\n  version: '9'\n---\n", encoding="utf-8")
     with pytest.raises(build.BuildError, match="injecté par `build`"):
         build.build_claude_code(skill=RES)
+
+
+def test_personnaliser_partage(full: Path):
+    """`personnaliser.md` a une seule source, `skills-src/scouts/references/`, copiée dans le pack."""
+    src = full / "skills-src" / "scouts" / "references"
+    src.mkdir(parents=True)
+    (src / "personnaliser.md").write_text("# Personnaliser\n", encoding="utf-8")
+    root = build.build_claude_code(skill=RES)["root"]
+    assert (root / "references" / "personnaliser.md").read_text(encoding="utf-8") == "# Personnaliser\n"

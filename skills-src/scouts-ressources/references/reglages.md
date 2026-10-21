@@ -1,6 +1,6 @@
 # Réglages du skill `scouts-ressources`
 
-Ce que le mainteneur change sans toucher à la méthode. Une ligne par réglage : **clé** : valeur — effet. Lu à chaque invocation. Priorité : consigne donnée dans la conversation > ce fichier > défauts de `SKILL.md`. Aucun référentiel ne surcharge un réglage. Design : `docs/skills-design.md` § 3.
+Ce que le mainteneur change sans toucher à la méthode. Une ligne par réglage : **clé** : valeur — effet. Lu à chaque invocation. Priorité : consigne donnée dans la conversation > `scouts-perso/README.md` (rubrique « Réglages ») > ce fichier > défauts de `SKILL.md`. Aucun référentiel ne surcharge un réglage. Design : `docs/skills-design.md` § 3.
 
 ## Niveau et longueur
 - **niveau_par_defaut** : revue — sans mot-clé, le skill rend une revue ; « avis » ou « rapide » déclenche l'avis ; « détaillé » le niveau détaillé.
@@ -42,6 +42,7 @@ Valables pour tout livrable, jamais non-négociables, toujours étiquetés en so
 - **[non officiel]** : critère de la section « Critères non officiels », rubrique `*` d'une trame, critère global ci-dessus.
 - **[trame cantonale]** : rubrique ou règle déduite des canevas cantonaux non ingérés ; implique [non officiel].
 - **[web]** : information trouvée hors corpus, avec titre, url, date de consultation.
+- **[perso]** : règle locale, contact ou fiche du dossier `scouts-perso/` ; jamais un non-négociable.
 - **[non vérifié]** : connaissance du modèle sans source ni web.
 - **[fidélité partielle]** : la section citée vient d'une source `fidelity: partial` (cases, grilles, schémas perdus) : ne jamais conclure qu'une case n'est pas cochée.
 
