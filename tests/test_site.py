@@ -163,3 +163,76 @@ def test_version_et_date_dans_l_en_tete(toy: Path, tmp_path: Path):
     assert "v1.2.3 · 02.11.2026" in index and "publiée le 02.11.2026" in index
     assert site.release_date(toy / "CHANGELOG.md", "1.2.2") == "01.10.2026"
     assert site.release_date(toy / "CHANGELOG.md", "9.9.9") == ""
+
+
+def _parcours_pages(repo: Path) -> None:
+    _page(repo, "web-a", "title: Installer web\norder: 10\nparcours: web", "Web A")
+    _page(repo, "web-b", "title: Utiliser web\norder: 11\nparcours: web", "Web B")
+    _page(repo, "web-cachee", "title: Cachée web\norder: 12\nparcours: web\nmenu: false", "Web cachée")
+    _page(repo, "agent-a", "title: Installer agent\norder: 20\nparcours: agent", "Agent A")
+    _page(repo, "agent-b", "title: Utiliser agent\norder: 21\nparcours: agent", "Agent B")
+
+
+def _nav(page: str, label: str) -> str:
+    m = re.search(rf'<nav aria-label="{label}[^"]*"[^>]*>.*?</nav>', page, re.DOTALL)
+    assert m, label
+    return m.group(0)
+
+
+def test_parcours_inconnu(toy: Path, tmp_path: Path):
+    _page(toy, "aide", "title: Aide\norder: 2\nparcours: mobile", "x")
+    with pytest.raises(site.SiteError, match="parcours.*mobile"):
+        site.build_site(tmp_path / "out")
+
+
+def test_menu_de_premier_niveau(toy: Path, tmp_path: Path):
+    _parcours_pages(toy)
+    out = tmp_path / "out"
+    site.build_site(out)
+    main = _nav(_html(out, "index"), "Menu principal")
+    labels = re.findall(r'data-label="([^"]*)"', main)
+    assert labels == ["Accueil", "Dans le navigateur", "Avec un agent", "Sources et auteurs"]
+    assert 'href="web-a.html"' in main and 'href="agent-a.html"' in main
+    assert "web-b.html" not in main and "web-cachee" not in main and "aide.html" not in main
+
+
+def test_sous_menu_du_parcours(toy: Path, tmp_path: Path):
+    _parcours_pages(toy)
+    out = tmp_path / "out"
+    site.build_site(out)
+    page = _html(out, "web-b")
+    main = _nav(page, "Menu principal")
+    assert 'href="web-a.html" aria-current="true"' in main      # parcours courant, pas la page d'arrivée
+    assert 'href="agent-a.html" aria-current' not in main
+    sub = _nav(page, "Dans le navigateur")
+    assert re.findall(r'data-label="([^"]*)"', sub) == ["Installer web", "Utiliser web"]
+    assert 'href="web-b.html" aria-current="page"' in sub
+    assert "agent-a" not in sub and "web-cachee" not in sub
+    # première page du parcours : la page est courante dans les deux menus
+    first = _html(out, "web-a")
+    assert 'href="web-a.html" aria-current="page"' in _nav(first, "Menu principal")
+    # page hors menu d'un parcours : sous-menu présent, aucune entrée courante
+    cachee = _html(out, "web-cachee")
+    assert "aria-current" not in _nav(cachee, "Dans le navigateur")
+    assert 'href="web-a.html" aria-current="true"' in _nav(cachee, "Menu principal")
+    assert re.findall(r'data-label="([^"]*)"', _nav(_html(out, "agent-b"), "Avec un agent")) == [
+        "Installer agent", "Utiliser agent"]
+
+
+def test_pas_de_sous_menu_hors_parcours(toy: Path, tmp_path: Path):
+    _parcours_pages(toy)
+    out = tmp_path / "out"
+    site.build_site(out)
+    for name in ("index", "sources", "aide"):
+        assert page_navs(_html(out, name)) == 1, name
+    assert 'href="sources.html" aria-current="page"' in _html(out, "sources")
+
+
+def page_navs(page: str) -> int:
+    return page.count("<nav ")
+
+
+def test_parcours_sans_page_absent_du_menu(toy: Path, tmp_path: Path):
+    out = tmp_path / "out"
+    site.build_site(out)
+    assert "Dans le navigateur" not in _html(out, "index")
