@@ -47,8 +47,10 @@
 - La référence d'un cours suit la date du cours. Le modèle de formation 2027 est en vigueur le 01.01.2027.
 - AC et SC jusqu'au 31.12.2026. Dès le 01.01.2027 : activité J+S, part de sport, formes caractéristiques. « Sans subside » (jour sans J+S) ne s'étend pas à 2027.
 - 2026 : 30 min d'AC dans deux parties de journée. Au plus un jour sans J+S, sans subside, dans un camp de plus de 4 jours.
+- 2027, jour sans activités J+S : au plus un dans un camp de plus de 4 jours (Sardine). Le module J+S « Directives SdC/T » l'admet dès que le minimum de journées J+S est tenu : un deuxième jour est un écart à la Sardine, à dire comme tel.
+- 2027, temps sportif : activité purement sportive comptée en entier (pauses courtes, explications, transitions, échauffement, retour au calme) ; activité mixte, parties sportives seulement, rien sous 30 min (module Directives).
 - Âges J+S 5–20 inchangés. Groupes cibles et reconnaissances distincts en 2026, une seule reconnaissance SdC/T en 2027.
-- Conduite du camp : « chef de camp » jusqu'au 31.12.2026, « Responsable de camp » dès le 01.01.2027. « Chef de cours » est une ancienne terminologie, sans date de fin inventée.
+- Conduite du camp : « chef de camp » jusqu'au 31.12.2026, « Responsable de camp » dès le 01.01.2027 ; la newsletter formation d'octobre 2026 écrit encore « chef·fe de camp » pour 2027 : même complément, on dit « Responsable de camp ». « Chef de cours » est une ancienne terminologie, sans date de fin inventée.
 - Annonce dès trois jours. La clause du règlement et la Sardine disent « plus de trois jours ». Le formulaire et le champ général incluent trois jours.
 - Clôture confirmée : cartes sous 3 jours, MiData sous 10 jours, offre sous 30 jours après le dernier camp. Pas de délai chiffré pour la clôture du camp dans la BDNS ni pour les comptes : le calendrier Sardine en ligne tranche, avec le coach.
 - Préparation : renvoyer au calendrier Sardine en ligne. Repères : programme général à 7 semaines, annonce du coach à 6 semaines, dossier à 4 semaines.
@@ -68,7 +70,7 @@ Ces choix tiennent même s'ils sont plus prudents, ou moins stricts, qu'une sour
 - La matrice des risques est un outil. Un concept global sans matrice est conforme s'il nomme des risques concrets (lieu, saison, groupe), une mesure chacun, et une réaction d'urgence que tout responsable peut appliquer. 3x3 recommandé en randonnée, matrice pour la tyrolienne et l'eau. Corde : personne expérimentée, pas un expert J+S exigé. Gravité : vocabulaire libre, cohérence interne exigée.
 - Le concept nomme le seuil « la maîtrise est dépassée » et la Helpline. La consigne médias n'est pas un non-négociable.
 - Check-list C de l'autorisation de camp 2026 : non-négociable, y compris les points que le formulaire appelle un pense-bête. Le formulaire 2027 n'est pas ingéré : ne pas l'inventer.
-- 2026 : indiquer l'élément J+S visé sur la fiche est une qualité, pas une exigence. 2027 : la forme caractéristique reste exigée.
+- 2026 : indiquer l'élément J+S visé sur la fiche est une qualité, pas une exigence. 2027 : la forme caractéristique reste exigée (fiche MSdS, module Directives) ; le PV de la conférence formation 2026 dit « pas nécessaire » si relation et méthode sont indiquées : nuance en piège, pas en N.
 - Reconnaissance et 3x3 d'une randonnée : exigés.
 - « Camp mixte » a trois sens : filles et garçons, ancienne catégorie J+S, règlement. AS est un type d'AA. PF = point fixe. AA = AdA = VC : dans le périmètre, sans critères AC/SC.
 - CDF hors périmètre. Le terme générique est AS. Le reste du contenu confessionnel est une option de groupe.
@@ -76,7 +78,7 @@ Ces choix tiennent même s'ils sont plus prudents, ou moins stricts, qu'une sour
 - GAG (Global – Analytique – Global) est une méthode J+S. IFV est abandonné.
 - Formation : le modèle 2027 prime sur l'Ancre pour la réduction de 0,5 jour des cours combinés. L'équilibre de genre est recommandé, pas un quota. Les chapitres de l'Ancre priment sur son tableau : hajk 4 semaines avant le cours, prêt J+S 5 semaines avant la livraison. Top : (Responsable de camp ou module de sécurité) et un module supplémentaire. Castors : profil 2025, 4–7 ans. La brochure 5–7 est une divergence à dire, comme pour les Picos.
 - Expert de sécurité : la formule Sardine est l'ancienne terminologie, à côté du complément « Experts du domaine » (aide-mémoire 10/2025).
-- Quota 36 participants / +1 moniteur par 12 : guide 2023, pas contredit. Le confirmer dans le guide des offres 2027 avant de l'affirmer pour 2027.
+- Quota 36 participants / +1 moniteur par 12 : guide 2023, pas contredit. Le « 1:16 inchangé » du PV de la conférence formation 2026 est la taille de groupe subventionnée, pas ce quota. Le confirmer dans le guide des offres 2027 avant de l'affirmer pour 2027.
 - Critères cantonaux : les G et les O entrent dans les référentiels, les R nulle part. Exception : le QR code (RG-17) reste une suggestion `[non officiel]`.
 - Canevas cantonaux, picasso, annexes du concept global, K12, PPT : pas ingérés. On en tire une trame cantonale `[non officiel]`. ORA, crise, pharmacie, Helpline, feuille d'urgence : sujets à couvrir, pas documents à exiger.
 - Objectifs d'apprentissage : taxonomie du modèle de formation MSdS. La table Bloom explique, elle n'est pas exigée. Si le canevas d'UA ne porte pas les conditions cadres, demander le sommaire avant de les signaler manquantes.
@@ -97,7 +99,10 @@ Choix non rouverts. Les commandes sont dans `METHODE.md`.
 - Pas de crawler qui crée des sources. Rendu web en `fr-CH`. Manifeste cudeschin écrit à la main. Catalogue pfadi paginé : script dédié, pas une commande `just`.
 - `msds` couvre les brochures MSdS, y compris l'Ancre, le Pilote, le Ticket, la commande hajk et le mémento Étincelle. `cofor` = documents numérotés `30xxxx`–`31xxxx`.
 - `extraction: vision` après lecture du texte. Pas d'OCR. Un catalogue n'a qu'un `index.md`. liberatingstructures : titres du sitemap, sans téléchargement.
-- `liens-utiles.pdf` et orgcheck baspo : pas ingérés.
+- `liens-utiles.pdf` et orgcheck baspo : pas ingérés. Les newsletters et mails reçus ne sont pas des sources : leurs documents liés le sont ; le deck « L'essentiel du MSdS et de J+S » l'est parce qu'il est publié sur pfadi.swiss.
+- Modules numériques J+S (`tool.jeunesseetsport.ch`) : sources web rendues par playwright, une page = une section ; cartes, quiz et accordéons perdus par trafilatura → `fidelity: partial`, valeurs relevées dans `notes`, jamais citées comme contenu de section.
+- Une check-list sans version française (Route, 314801de) entre en `lang: de`, section en allemand, résumé d'index en français ; la traduction vit dans les savoirs.
+- Un PV ou des diapositives d'une conférence officielle gardent les noms et totems (texte officiel) ; un mot de passe d'accès (Wi-Fi, extranet) est caviardé par `redactions`.
 - Glossaire court pour tous les skills. Fiches de concepts à la demande.
 - `SKILL.md` (agentskills.io) est le format maître. Les packs sont générés.
 - Scripts pour l'extraction, agent pour le sens. `applies_*` et `nature` sur les sources prescriptives seulement. `verified` = relecture des tableaux, cases et prescriptions.
@@ -106,6 +111,6 @@ Choix non rouverts. Les commandes sont dans `METHODE.md`.
 
 - Marketplace de plugins Claude Code.
 - Sources web à la place des PDF, cudesch numérique inclus.
-- Fiches `tool.jeunesseetsport.ch`.
+- Autres fiches `tool.jeunesseetsport.ch` que les modules SdC/T 2027 et EvalJS.
 - OCR.
 - Pack aplati pour Claude Project et custom GPT, seulement si un retour bêta le demande.

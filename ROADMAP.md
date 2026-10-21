@@ -163,6 +163,9 @@ Bêta en cours. Les retours des testeurs se traitent au fil de l'eau, sans grill
 
 ### Quand les documents existeront
 - [ ] Autorisation de camp 2027 et guide des offres OFSPO 2027 ; puis revérifier les critères fondés sur les check-lists 2026 et le quota 36 / +1 par 12
+- [ ] Documents derrière login signalés par les newsletters d'octobre 2026, à déposer par le mainteneur dans `documents/` : extranet J+S (exemple de picasso global 2027, sélection de programmes détaillés, PDF du manuel SdC/T imprimé à comparer au sha256 de `js-manuel-sport-de-camp-trekking`), cadres de référence J+S 2027 (ILIAS), brochures MSdS révisées « Le cours », « L'unité d'apprentissage », « Faire un retour » quand elles sortent de consultation
+- [ ] Concept CàF : la newsletter annonce l'intégration de membres de la CoEnc dans les maîtrises et l'harmonisation des modules J+S sécurité, absentes du 308305fr du 21.07.2026 ingéré : surveiller une version ultérieure
+- [ ] `js-evaluation-programme` : questionnaire standard et FAQ perdus (accordéons) ; convertisseur à améliorer ou page à ré-ingérer autrement
 - [ ] Référentiel des cours (Cours introduction, Responsable de camp, modules 2027) à partir de `js-structure-formation-sdct` : fusionner d'abord, plafond de 85 fichiers dans `scouts`
 
 ### Plus tard
@@ -185,6 +188,7 @@ Traces locales : `build/pfadi-catalogue-entries.yaml` (catalogue complet, 775 en
 - `msds-le-cours` et la trilogie sont des versions de travail (renvois « LIEN » non résolus, marques Word) : surveiller une version finale sur pfadi.swiss.
 
 ## Journal
+- 2026-10-21 (newsletters d'octobre) : quatre mails officiels dépouillés ; documents liés comparés au registre (modèle de formation, Ancre, Pilote, concept CàF, exigences 2027, factsheet profil, deck « L'essentiel », Sardine : inchangés) ; 14 sources ingérées et indexées (7 modules numériques J+S SdC/T 2027 et EvalJS, page EvalJS, PV et diapos de la conférence formation 2026, check-lists Picos et Route, factsheet profil responsables, aide-mémoire racisme) en deux sous-agents sonnet ; savoirs et référentiels mis à jour en deux sous-agents opus (temps sportif, offre 2027, fusion des groupes cibles, cours uniques 2027, Foundation, connaissances techniques de base, EvalJS, taxonomie 0-3, profil, racisme) ; `skills/` régénéré, 83 fichiers, tests verts.
 - 2026-10-19 (bêta) : skills publiés et testés sur les IA cibles ; pilote scripté et phases de test retirés. Quatre référentiels passés `valide`, numéros gelés. À faire = hygiène du registre, puis documents 2027 quand ils existeront. Retours bêta au fil de l'eau.
 - 2026-10-19 (installation par prompt) : README et page « Installer avec un agent » permettent de faire installer les skills par l'agent à partir de l'URL du dépôt.
 - 2026-10-19 (savoirs) : 41 savoirs ajoutés à `scouts` sur les sources encore inexploitées (douze sous-agents rédacteurs, trois relecteurs, un pour l'index) ; `light` groupe l'index par `theme` ; neuf commits par thème.
