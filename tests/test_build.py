@@ -246,3 +246,140 @@ def test_install_suffixe(full: Path, tmp_path: Path):
     assert build.install_link(skills_dir=sd, skill=RES, suffixe="monac") == "créé"
     assert (sd / "scouts-ressources-monac").resolve() == (full / "skills" / "scouts-ressources-monac").resolve()
     assert not (sd / "scouts-ressources").exists()
+
+
+# --- --perso -----------------------------------------------------------------------------------
+
+README = """# scouts-perso
+
+Personnalisation des skills scouts. Rester court.
+
+## Profil
+- **rôle** : responsable
+- **branche** : éclaireurs
+
+## Réglages
+Clés de `references/reglages.md` du skill ; la valeur remplace celle du skill.
+- **adresse** : tutoiement
+- **longueur_avis** : 5 lignes
+
+## Règles locales
+Une ligne : règle — origine.
+- Départ du camp avant 8 h — décision de la maîtrise
+
+## Contacts
+| rôle | nom | joignable | pour |
+|---|---|---|---|
+| coach | Prénom Nom | 000 | questions |
+
+## Fiches
+| dossier | sert à |
+|---|---|
+| groupe/statuts/ | Statuts du groupe : cotisations |
+| ac/directives/ | Directives de l'association cantonale |
+"""
+REGLAGES = ("# réglages\n\n## Ton\n- **adresse** : vouvoiement neutre\n- **langue** : français\n\n"
+            "## Longueur\n- **longueur_avis** : 8 lignes — verdict\n")
+
+
+def make_perso(base: Path, readme: str = README) -> Path:
+    d = base / "scouts-perso"
+    (d / "groupe" / "statuts").mkdir(parents=True)
+    (d / "ac" / "directives").mkdir(parents=True)
+    (d / "originaux").mkdir()
+    (d / "README.md").write_text(readme, encoding="utf-8")
+    (d / "groupe" / "statuts" / "01-cotisations.md").write_text("# Cotisations\n\ntexte\n", encoding="utf-8")
+    (d / "ac" / "directives" / "01-a.md").write_text("# A\n", encoding="utf-8")
+    (d / "originaux" / "statuts.pdf").write_bytes(b"%PDF")
+    return d
+
+
+@pytest.fixture
+def perso(full: Path, tmp_path: Path) -> Path:
+    (full / "skills-src" / "scouts-ressources" / "references" / "reglages.md").write_text(REGLAGES, encoding="utf-8")
+    return make_perso(tmp_path)
+
+
+def test_perso_exige_suffixe(full: Path, perso: Path):
+    with pytest.raises(build.BuildError, match="--suffixe"):
+        build.build_claude_code(skill=RES, perso=perso)
+    assert not (full / "skills").exists() and not (full / "build").exists()
+
+
+def test_perso_sortie_par_defaut_build(full: Path, perso: Path):
+    r = build.build_claude_code(skill=RES, perso=perso, suffixe="monac")
+    assert r["root"] == full / "build" / "scouts-ressources-monac"
+    assert not (full / "skills").exists()
+
+
+def test_perso_reglages_remplaces(full: Path, perso: Path):
+    root = build.build_claude_code(skill=RES, perso=perso, suffixe="monac")["root"]
+    text = (root / "references" / "reglages.md").read_text(encoding="utf-8")
+    assert "- **adresse** : tutoiement\n" in text and "vouvoiement" not in text
+    assert "- **longueur_avis** : 5 lignes\n" in text and "8 lignes" not in text
+    assert "- **langue** : français\n" in text
+
+
+def test_perso_cle_inconnue(full: Path, perso: Path):
+    (perso / "README.md").write_text(README.replace("- **adresse**", "- **inconnue**"), encoding="utf-8")
+    with pytest.raises(build.BuildError, match="inconnue"):
+        build.build_claude_code(skill=RES, perso=perso, suffixe="monac")
+
+
+def test_perso_md_sans_reglages_et_chemins_reecrits(full: Path, perso: Path):
+    root = build.build_claude_code(skill=RES, perso=perso, suffixe="monac")["root"]
+    text = (root / "references" / "perso.md").read_text(encoding="utf-8")
+    assert "## Réglages" not in text and "tutoiement" not in text
+    for rubrique in ("## Profil", "## Règles locales", "## Contacts", "## Fiches"):
+        assert rubrique in text
+    assert "| perso/groupe/statuts/ | Statuts du groupe" in text
+    assert "| perso/ac/directives/ |" in text and "| groupe/statuts/" not in text
+    assert text.splitlines()[0] == "# scouts-perso" and "construite" in text.splitlines()[2]
+
+
+def test_perso_fiches_copiees_sans_originaux(full: Path, perso: Path):
+    root = build.build_claude_code(skill=RES, perso=perso, suffixe="monac")["root"]
+    assert (root / "perso" / "groupe" / "statuts" / "01-cotisations.md").read_text(encoding="utf-8") == "# Cotisations\n\ntexte\n"
+    assert (root / "perso" / "ac" / "directives" / "01-a.md").is_file()
+    assert not any(p.name in ("originaux", "statuts.pdf") for p in root.rglob("*"))
+
+
+def test_perso_a_completer_refuse(full: Path, perso: Path):
+    (perso / "README.md").write_text(README.replace("Statuts du groupe : cotisations", "À COMPLÉTER"), encoding="utf-8")
+    with pytest.raises(build.BuildError, match="À COMPLÉTER"):
+        build.build_claude_code(skill=RES, perso=perso, suffixe="monac")
+
+
+def test_perso_dossier_de_fiches_absent(full: Path, perso: Path):
+    import shutil
+    shutil.rmtree(perso / "ac" / "directives")
+    with pytest.raises(build.BuildError, match="ac/directives"):
+        build.build_claude_code(skill=RES, perso=perso, suffixe="monac")
+
+
+def test_perso_sans_readme(full: Path, perso: Path):
+    (perso / "README.md").unlink()
+    with pytest.raises(build.BuildError, match="README.md"):
+        build.build_claude_code(skill=RES, perso=perso, suffixe="monac")
+
+
+def test_perso_trop_long_avertit(full: Path, perso: Path):
+    (perso / "README.md").write_text(README + "- x\n" * 2000, encoding="utf-8")
+    r = build.build_claude_code(skill=RES, perso=perso, suffixe="monac")
+    assert any("perso.md" in w and "7000" in w for w in r["warnings"])
+
+
+def test_perso_zip_suffixe_dans_dist(full: Path, perso: Path):
+    import zipfile
+    r = build.build_claude_code(skill=RES, perso=perso, suffixe="monac", make_zip=True)
+    assert r["zip"] == full / "dist" / "scouts-ressources-monac.zip"
+    names = zipfile.ZipFile(r["zip"]).namelist()
+    assert "scouts-ressources-monac/references/perso.md" in names
+    assert "scouts-ressources-monac/perso/groupe/statuts/01-cotisations.md" in names
+
+
+def test_perso_install_trouve_build(full: Path, perso: Path, tmp_path: Path):
+    build.build_claude_code(skill=RES, perso=perso, suffixe="monac")
+    sd = tmp_path / "home" / "skills"
+    assert build.install_link(skills_dir=sd, skill=RES, suffixe="monac") == "créé"
+    assert (sd / "scouts-ressources-monac").resolve() == (full / "build" / "scouts-ressources-monac").resolve()

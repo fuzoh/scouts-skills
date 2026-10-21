@@ -260,3 +260,52 @@ def test_check_nom_attendu(skel: Path):
     (skel / "SKILL.md").write_text(SKILL.replace("name: scouts", "name: scouts-monac"), encoding="utf-8")
     assert any("doit valoir" in e for e in light.check(skel).errors)
     assert light.check(skel, name="scouts-monac").errors == []
+
+
+def _perso_light(base: Path, n_fiches: int = 1) -> Path:
+    d = base / "scouts-perso"
+    (d / "groupe" / "doc").mkdir(parents=True)
+    (d / "README.md").write_text(
+        "# scouts-perso\n\n## Réglages\n- **adresse** : tutoiement\n\n## Fiches\n| dossier | sert à |\n|---|---|\n"
+        "| groupe/doc/ | Doc |\n", encoding="utf-8")
+    for i in range(n_fiches):
+        (d / "groupe" / "doc" / f"{i:02d}-p.md").write_text(f"# P{i}\n\nvoir p.12\n", encoding="utf-8")
+    return d
+
+
+def _skel_perso(repo: Path) -> None:
+    root = make_skeleton(repo / "skills-src" / "scouts")
+    (root / "references" / "reglages.md").write_text("# r\n- **adresse** : vouvoiement\n", encoding="utf-8")
+
+
+def test_build_light_perso(repo: Path, tmp_path: Path):
+    _skel_perso(repo)
+    r = build.build_claude_code(skill="scouts", perso=_perso_light(tmp_path), suffixe="monac")
+    assert r["root"] == repo / "build" / "scouts-monac"
+    assert (r["root"] / "perso" / "groupe" / "doc" / "00-p.md").is_file()
+    assert "tutoiement" in (r["root"] / "references" / "reglages.md").read_text(encoding="utf-8")
+    assert "- perso : 1 fiche" in (r["root"] / "MANIFEST.md").read_text(encoding="utf-8")
+
+
+def test_build_light_perso_depasse_le_plafond(repo: Path, tmp_path: Path):
+    _skel_perso(repo)
+    d = _perso_light(tmp_path, n_fiches=95)  # 5 fichiers de base + perso.md + 95 + MANIFEST > 100
+    with pytest.raises(build.BuildError, match="fichiers"):
+        build.build_claude_code(skill="scouts", perso=d, suffixe="monac")
+    assert not (repo / "build" / "scouts-monac").exists()
+
+
+def test_build_light_perso_fiche_trop_longue(repo: Path, tmp_path: Path):
+    _skel_perso(repo)
+    d = _perso_light(tmp_path)
+    (d / "groupe" / "doc" / "00-p.md").write_text("a" * 17_501, encoding="utf-8")
+    with pytest.raises(build.BuildError, match="tokens"):
+        build.build_claude_code(skill="scouts", perso=d, suffixe="monac")
+
+
+def test_build_light_perso_ne_copie_que_les_md(repo: Path, tmp_path: Path):
+    _skel_perso(repo)
+    d = _perso_light(tmp_path)
+    (d / "groupe" / "doc" / "x.docx").write_bytes(b"PK")
+    r = build.build_claude_code(skill="scouts", perso=d, suffixe="monac")
+    assert not (r["root"] / "perso" / "groupe" / "doc" / "x.docx").exists()

@@ -225,6 +225,8 @@ def check(root: Path, max_files: int = MAX_FILES, scripts_ok: bool = False,
         rep.per_file[rel] = tokens
         if tokens > MAX_TOKENS:
             rep.errors.append(f"{rel} : ~{tokens} tokens (max {MAX_TOKENS})")
+        if rel.startswith("perso/") or rel == "references/perso.md":
+            continue  # documents du dossier perso : textes de la personne, hors règle des citations
         for rx, label in CITATION_PATTERNS:
             for m in rx.finditer(text):
                 line = text.count("\n", 0, m.start()) + 1
