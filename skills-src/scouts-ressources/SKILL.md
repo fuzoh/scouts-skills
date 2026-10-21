@@ -29,7 +29,7 @@ Chaque pas est obligatoire ; ne pas répondre avant le pas 5.
 2. Lire **en entier** chaque référentiel détecté, `referentiels/<slug>.md` (catalogue au § 3). Jamais par recherche partielle : les non-négociables, les pièges et la section « Selon la date » se trouvent à des endroits différents du fichier.
 3. Lire les sections citées par le référentiel, `corpus/<id>/NN-slug.md`, et seulement elles, sauf besoin explicite de la demande. Une citation `id#NN-slug p.N` se lit dans `corpus/<id>/NN-slug.md`.
 4. Lire `references/reglages.md`.
-5. Lire le dossier perso, s'il existe : `scouts-perso/README.md` du projet, sinon `~/scouts-perso/README.md` ; puis les fiches que sa table « Fiches » désigne pour la question. Sans accès aux fichiers : sauter ce pas.
+5. Lire le dossier perso, s'il existe : `references/perso.md` si le skill en porte un (version construite avec des documents propres), puis `scouts-perso/README.md` du projet, sinon `~/scouts-perso/README.md` ; ensuite les fiches que leurs tables « Fiches » désignent pour la question. Le dossier du projet prime sur `references/perso.md`. Sans accès aux fichiers : `references/perso.md` seul.
 
 Puis lire le fichier de méthode de chaque verbe détecté (tableau du § 1).
 

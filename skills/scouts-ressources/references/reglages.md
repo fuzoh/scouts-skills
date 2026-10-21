@@ -42,7 +42,7 @@ Valables pour tout livrable, jamais non-négociables, toujours étiquetés en so
 - **[non officiel]** : critère de la section « Critères non officiels », rubrique `*` d'une trame, critère global ci-dessus.
 - **[trame cantonale]** : rubrique ou règle déduite des canevas cantonaux non ingérés ; implique [non officiel].
 - **[web]** : information trouvée hors corpus, avec titre, url, date de consultation.
-- **[perso]** : règle locale, contact ou fiche du dossier `scouts-perso/` ; jamais un non-négociable.
+- **[perso]** : règle locale, contact ou fiche du dossier perso (`scouts-perso/` ou `references/perso.md`) ; jamais un non-négociable.
 - **[non vérifié]** : connaissance du modèle sans source ni web.
 - **[fidélité partielle]** : la section citée vient d'une source `fidelity: partial` (cases, grilles, schémas perdus) : ne jamais conclure qu'une case n'est pas cochée.
 

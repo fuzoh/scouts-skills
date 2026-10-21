@@ -27,7 +27,7 @@ Ne pas répondre avant le pas 5.
 2. **Tous les fichiers** du dossier de chaque référentiel détecté, `referentiels/<slug>/`, dans l'ordre et en entier ; jamais par recherche partielle.
 3. Les savoirs que le référentiel nomme ou que la question appelle (§ 3).
 4. `references/reglages.md`.
-5. Le dossier perso, s'il existe : `scouts-perso/README.md` du projet, sinon `~/scouts-perso/README.md` ; puis les fiches que sa table « Fiches » désigne pour la question. Sans accès aux fichiers : sauter ce pas.
+5. Le dossier perso, s'il existe : `references/perso.md` si le skill en porte un (version construite avec des documents propres), puis `scouts-perso/README.md` du projet, sinon `~/scouts-perso/README.md` ; ensuite les fiches que leurs tables « Fiches » désignent pour la question. Le dossier du projet prime sur `references/perso.md`. Sans accès aux fichiers : `references/perso.md` seul.
 
 Puis la méthode du verbe ; `references/documents.md` pour « Pour aller plus loin ».
 

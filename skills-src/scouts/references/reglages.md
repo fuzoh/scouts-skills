@@ -43,7 +43,7 @@ Valables pour tout livrable, jamais non-négociables.
 - **[non officiel]** : critère de la section « Critères non officiels », rubrique `*` d'une trame, critère global ci-dessus.
 - **[trame cantonale]** : rubrique déduite de canevas cantonaux ; implique [non officiel].
 - **[web]** : information trouvée hors des documents connus.
-- **[perso]** : règle locale, contact ou fiche du dossier `scouts-perso/` ; jamais un non-négociable.
+- **[perso]** : règle locale, contact ou fiche du dossier perso (`scouts-perso/` ou `references/perso.md`) ; jamais un non-négociable.
 - **[non vérifié]** : connaissance du modèle sans source ni web.
 
 ## Version et signalement
