@@ -119,7 +119,7 @@ def _check_keys(rel: str, front: dict | None, keys: tuple[str, ...], errors: lis
     return True
 
 
-def _check_skill(root: Path, rep: Report) -> None:
+def _check_skill(root: Path, rep: Report, expected: str = SKILL_NAME) -> None:
     errors = rep.errors
     p = root / "SKILL.md"
     if not p.is_file():
@@ -132,8 +132,8 @@ def _check_skill(root: Path, rep: Report) -> None:
     if not _check_keys("SKILL.md", front, ("name", "description"), errors) or front is None:
         return
     name = str(front.get("name") or "")
-    if name != SKILL_NAME:
-        errors.append(f"SKILL.md : `name` doit valoir `{SKILL_NAME}` (trouvé `{front.get('name')}`)")
+    if name != expected:
+        errors.append(f"SKILL.md : `name` doit valoir `{expected}` (trouvé `{front.get('name')}`)")
     elif len(name) > MAX_NAME or not NAME_RE.match(name):
         errors.append(f"SKILL.md : `name` `{name}` hors format agentskills (minuscules, chiffres, tirets, ≤ {MAX_NAME})")
     desc = str(front.get("description") or "")
@@ -183,12 +183,19 @@ def _check_referentiel(slug: str, files: list[Path], root: Path, errors: list[st
         errors.append(f"{rel} : suite N non contiguë ({', '.join(f'N{n}' for n in nums)})")
 
 
-def check(root: Path, max_files: int = MAX_FILES) -> Report:
-    """`max_files` = plafond du pack ; la source en a `PACK_EXTRA_FILES` de moins."""
+def check(root: Path, max_files: int = MAX_FILES, scripts_ok: bool = False,
+          name: str = SKILL_NAME) -> Report:
+    """`max_files` = plafond du pack ; la source en a `PACK_EXTRA_FILES` de moins.
+
+    `scripts/` est refusé (décision : `scouts` ne porte pas de script) sauf `scripts_ok`.
+    `name` : nom attendu dans le frontmatter (version dérivée : `scouts-<suffixe>`)."""
     rep = Report()
     if not root.is_dir():
         rep.errors.append(f"{root} : dossier absent")
         return rep
+    if (root / "scripts").exists() and not scripts_ok:
+        rep.errors.append("scripts/ : `scouts` ne porte pas de script (réservé à `scouts-ressources`, "
+                          "hors zips ; sans lui, l'agent écrit les fiches lui-même)")
     files = sorted(f for f in root.rglob("*") if f.is_file())
     rep.files = len(files)
     if len(files) + PACK_EXTRA_FILES > max_files:
@@ -218,13 +225,15 @@ def check(root: Path, max_files: int = MAX_FILES) -> Report:
         rep.per_file[rel] = tokens
         if tokens > MAX_TOKENS:
             rep.errors.append(f"{rel} : ~{tokens} tokens (max {MAX_TOKENS})")
+        if rel.startswith("perso/") or rel == "references/perso.md":
+            continue  # documents du dossier perso : textes de la personne, hors règle des citations
         for rx, label in CITATION_PATTERNS:
             for m in rx.finditer(text):
                 line = text.count("\n", 0, m.start()) + 1
                 rep.errors.append(f"{rel}:{line} : {label} interdit(e) (`{m.group(0)}`)")
     if rep.bytes > MAX_TOTAL_BYTES:
         rep.errors.append(f"{rep.bytes / 1e6:.1f} Mo au total (max {MAX_TOTAL_BYTES // 2**20} Mo)")
-    _check_skill(root, rep)
+    _check_skill(root, rep, name)
     for slug, parts in referentiel_parts(root):
         _check_referentiel(slug, parts, root, rep.errors)
     for f in sorted((root / "savoirs").glob("*.md")):
