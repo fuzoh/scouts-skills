@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.8.0](https://github.com/fuzoh/scouts-skills/compare/v0.7.1...v0.8.0) (2026-10-21)
+
+
+### Nouveautés
+
+* **referentiels:** référentiel qualification en brouillon ([d938093](https://github.com/fuzoh/scouts-skills/commit/d93809338b4a7dae64f492d97736313433a81b63))
+* **skills:** référentiel qualification dans scouts et raccords ([e893acd](https://github.com/fuzoh/scouts-skills/commit/e893acd7314cdc92307d0f3821ad8302363880c5))
+* **skills:** savoir sur la construction d'une grille de qualification ([660cb1f](https://github.com/fuzoh/scouts-skills/commit/660cb1f0eecd8bf43d2916dd78b513bb2f16d3d5))
+* **sources:** ingérer le support Top de conception d'un système de qualification ([db7bbd4](https://github.com/fuzoh/scouts-skills/commit/db7bbd44b5386d29ede96d0b743d176b8ecb96b7))
+
+
+### Corrections
+
+* **contenu:** relire et valider le référentiel qualification ([49aaf97](https://github.com/fuzoh/scouts-skills/commit/49aaf970bc34641843d99d44d88751b48372028c))
+* **contenu:** router qualification et ne plus dater chef de cours ([8e335b9](https://github.com/fuzoh/scouts-skills/commit/8e335b91ecd46a938e96038664b5ce9d8c8a332b))
+* **scripts:** refuser un référentiel absent d'un catalogue ([9e95ddb](https://github.com/fuzoh/scouts-skills/commit/9e95ddbfb72771e41487740b505c2d9fe4e2e8f3))
+
+
+### Documentation
+
+* aligner la méthode sur cinq pas et la prochaine action ([3efeab2](https://github.com/fuzoh/scouts-skills/commit/3efeab223361d1bf5bd171d78c155777331c12f8))
+* remettre les grilles Top et RU hors de la liste à voir ([b15bb5e](https://github.com/fuzoh/scouts-skills/commit/b15bb5eb2a1ad13e6f14c1983825b0fd6a488b71))
+* roadmap après l'ajout du référentiel qualification ([3328e61](https://github.com/fuzoh/scouts-skills/commit/3328e615366334e6070005492c10834646b8ce78))
+
 ## [0.7.1](https://github.com/fuzoh/scouts-skills/compare/v0.7.0...v0.7.1) (2026-10-21)
 
 
