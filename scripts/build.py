@@ -169,11 +169,17 @@ def replace_settings(text: str, settings: dict[str, str]) -> str:
 
 
 def check_perso(perso: Perso, skill_dir: Path) -> None:
-    """Valide les clés de réglage contre le `reglages.md` de la source, avant de toucher au pack."""
+    """Valide les clés de réglage et la taille des fiches (budget de `light`), avant de toucher au pack."""
     reglages = skill_dir / "references" / "reglages.md"
     if not reglages.is_file():
         raise BuildError(f"--perso : {reglages} manque")
     replace_settings(reglages.read_text(encoding="utf-8"), perso.settings)
+    for sub in PERSO_FOLDERS:
+        base = perso.dir / sub
+        for f in sorted(base.rglob("*.md")) if base.is_dir() else []:
+            if (n := light.estimate_tokens(f.read_text(encoding="utf-8"))) > light.MAX_TOKENS:
+                raise BuildError(f"--perso : {f.relative_to(perso.dir)} : ~{n} tokens (max {light.MAX_TOKENS}) : "
+                                 "le couper à un sous-titre")
 
 
 def apply_perso(root: Path, perso: Perso) -> list[str]:

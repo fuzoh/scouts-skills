@@ -401,3 +401,11 @@ def test_perso_install_trouve_build(full: Path, perso: Path, tmp_path: Path):
     sd = tmp_path / "home" / "skills"
     assert build.install_link(skills_dir=sd, skill=RES, suffixe="monac") == "créé"
     assert (sd / "scouts-ressources-monac").resolve() == (full / "build" / "scouts-ressources-monac").resolve()
+
+
+def test_perso_fiche_trop_longue_refusee(full: Path, perso: Path):
+    from scripts import light
+    long = "x" * (light.MAX_TOKENS * 4)
+    (perso / "groupe" / "statuts" / "02-long.md").write_text(long, encoding="utf-8")
+    with pytest.raises(build.BuildError, match="02-long.md.*tokens"):
+        build.build_claude_code(skill=RES, perso=perso, suffixe="monac")
