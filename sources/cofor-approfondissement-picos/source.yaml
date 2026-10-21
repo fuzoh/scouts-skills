@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cofor-approfondissement-picos       # <issuer>-<slug>, stable, voir METHODE.md
+title: Check-list approfondissement branche Picos – activités SdC/T
+issuer: cofor                           # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 314701fr                           # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/1090/check-list-approfondissement-branche-picos-activites-sdct/                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/11/314701fr-approfondissement_branche_picos-v1-20260915-cofor.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed  # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep  # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial  # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'cases de niveau (vivre / mémoriser-comprendre / appliquer-analyser / évaluer-créer) et champs de saisie perdus p.1-3'  # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: v1                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2026-09-15                   # date du document, null si inconnue
+retrieved: 2026-10-21                   # (script) date de téléchargement
+sha256: 0bc0326f216af8a18bd11b89392496595c06e5e6dd8b96e01673e056dd46b02d # (script)
+pages: 3                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: 2027-01-01  # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: prescription  # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [formateur, expert-js]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation]                     # vocabulaire dans docs/taxonomie.md
+concepts: [unite-d-apprentissage, caf, niveau-d-approfondissement, modele-de-formation, branches, methodes-scoutes, relations]  # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Formulaire PDF (AcroForm), même structure que cofor-approfondissement-eclais, adaptée à la branche Picos (réf. 3147.01) : la colonne « Niveau » est rendue par des cases cochées, perdues à la conversion, de même que les champs de saisie (CàF, n° d''UA, indications sur le cours) ; les tableaux de raw.md gardent contenu et objectif (MSdS x.y, J+S x.y). Quatre tableaux par domaine (p.2-3 : fondements, maîtrise et responsabilités, soutien d''équipe et programme, organisation de la vie d''équipe) puis « Autres contenus » (p.3) dont la structure de tableau est partielle ; lignes vides  dans les tableaux. p.1 = mode d''emploi : durée minimale J+S 6 heures, durée MSdS 2 à 5 jours, toujours lié à une formation continue Foundation Activités SdC/T ; l''envoi de la check-list sur Orbit fait office de confirmation. applies_from 2027-01-01 : déduit, la check-list dérive du modèle de formation 2027 (msds-modele-de-formation, valable dès le 01.01.2027) ; le document ne porte pas de date d''application propre. url vide : page de détail non relevée.'  # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

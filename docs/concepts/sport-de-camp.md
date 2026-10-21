@@ -32,6 +32,12 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-modele-prog-general-enfants-jeunes@2014` — Modèle du programme général SC/T – sport des enfants et des jeunes (1 section, [index](../../sources/js-modele-prog-general-enfants-jeunes/index.md))
 - `js-modele-prog-general-sport-enfants@2014` — Modèle du programme général SC/T – sport des enfants (1 section, [index](../../sources/js-modele-prog-general-sport-enfants/index.md))
 - `js-modele-prog-general-sport-jeunes@2014` — Modèle du programme général SC/T – sport des jeunes (1 section, [index](../../sources/js-modele-prog-general-sport-jeunes/index.md))
+- `js-module-bases-sdct@2026-10-21` — Bases du sport de camp/trekking (module d'information J+S : formes caractéristiques et formes d'activité) (1 section, [index](../../sources/js-module-bases-sdct/index.md))
+- `js-module-directives-sdct@2026-10-21` — Directives Sport de camp/Trekking (module d'information J+S, dès 2027) (1 section, [index](../../sources/js-module-directives-sdct/index.md))
+- `js-module-planifier-activite-js@2026-10-21` — Planifier une bonne activité J+S (module d'information J+S, exemples 2027) (1 section, [index](../../sources/js-module-planifier-activite-js/index.md))
+- `js-module-planifier-randonnee@2026-10-21` — Planifier une randonnée (module d'apprentissage J+S SdC/T) (1 section, [index](../../sources/js-module-planifier-randonnee/index.md))
+- `js-module-securite-planification@2026-10-21` — Sécurité dans la planification (module d'apprentissage J+S SdC/T) (1 section, [index](../../sources/js-module-securite-planification/index.md))
+- `js-module-securite-realisation@2026-10-21` — Sécurité dans la réalisation (module d'apprentissage J+S SdC/T) (1 section, [index](../../sources/js-module-securite-realisation/index.md))
 - `js-sdct-bases@2014` — Sport de camp/Trekking – Bases (brochure J+S du cudesch) (19 sections, [index](../../sources/js-sdct-bases/index.md))
 - `js-sdct-camp@2014` — Sport de camp/Trekking – Camp (23 sections, [index](../../sources/js-sdct-camp/index.md))
 - `js-sdct-eau@2019, 2e édition actualisée` — Sport de camp/Trekking – Eau (15 sections, [index](../../sources/js-sdct-eau/index.md))
@@ -40,12 +46,14 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-structure-formation-sdct` — Structure de la formation J+S Sport de camp/Trekking (BDNS, versions jusqu'au 31.12.2026 et dès le 1.1.2027) (1 section, [index](../../sources/js-structure-formation-sdct/index.md))
 - `js-technique-de-corde` — Aide-mémoire Technique de corde (1 section, [index](../../sources/js-technique-de-corde/index.md))
 - `msds-autorisation-de-camp@2026` — Autorisation de camp MSdS (formulaire, valable jusqu’au 31.12.2026) (1 section, [index](../../sources/msds-autorisation-de-camp/index.md))
+- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../sources/msds-conffor-2026-diapositives/index.md))
 - `msds-essentiel-msds-js-2026` — Informations du MSdS et de J+S pour les moniteur·rice·s (novembre 2025) (8 sections, [index](../../sources/msds-essentiel-msds-js-2026/index.md))
 - `msds-essentiel-msds-js-2027` — L'essentiel du MSdS et de J+S pour les moniteur·rice·s (octobre 2026) (8 sections, [index](../../sources/msds-essentiel-msds-js-2027/index.md))
 - `msds-exigences-js-2027-camps` — J+S 2027 – exigences pour les camps scouts (1 section, [index](../../sources/msds-exigences-js-2027-camps/index.md))
 - `msds-hering-camps@2026-10-17` — Sardine (hering.scout.ch) – guide des démarches administratives pour les camps scouts (9 sections, [index](../../sources/msds-hering-camps/index.md))
+- `msds-pv-conference-formation-2026` — Procès-verbal de la conférence formation 2026 (12.09.2026, Berne) (11 sections, [index](../../sources/msds-pv-conference-formation-2026/index.md))
 - `msds-reglement-de-camp@2020` — Règlement concernant la préparation et la réalisation de camps (3 sections, [index](../../sources/msds-reglement-de-camp/index.md))
 
 ## Concepts liés
 
-[securite](securite.md), [camp](camp.md), [activite-de-camp](activite-de-camp.md), [planification](planification.md), [trekking](trekking.md), [js](js.md), [coach-js](coach-js.md), [jeu](jeu.md)
+[activite-de-camp](activite-de-camp.md), [securite](securite.md), [camp](camp.md), [planification](planification.md), [js](js.md), [coach-js](coach-js.md), [trekking](trekking.md), [methode-3x3](methode-3x3.md)

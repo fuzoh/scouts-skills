@@ -19,10 +19,11 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-manuel-experts@2024, 2e édition remaniée` — Manuel J+S/esa pour les experts (63 sections, [index](../../sources/js-manuel-experts/index.md))
 - `js-manuel-experts-coachs@2024` — Manuel J+S pour les experts coachs J+S (32 sections, [index](../../sources/js-manuel-experts-coachs/index.md))
 - `js-psyche@2015` — Psyché – bases théoriques et exemples pratiques (32 sections, [index](../../sources/js-psyche/index.md))
+- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../sources/msds-conffor-2026-diapositives/index.md))
 - `msds-encadrement-scoutisme@2012` — L'encadrement au sein du scoutisme – comment épauler un groupe scout (28 sections, [index](../../sources/msds-encadrement-scoutisme/index.md))
 - `msds-retour-qualifier-accompagner@2026` — Faire un retour, qualifier et accompagner dans un cours (27 sections, [index](../../sources/msds-retour-qualifier-accompagner/index.md))
 - `msds-twitterbox@2024` — Twitterbox – document explicatif (participation et santé psychique en camp) (1 section, [index](../../sources/msds-twitterbox/index.md))
 
 ## Concepts liés
 
-[methodes-d-enseignement](methodes-d-enseignement.md), [accompagnement](accompagnement.md), [evaluation](evaluation.md), [qualification](qualification.md), [coach-js](coach-js.md), [psyche](psyche.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [expert-js](expert-js.md)
+[accompagnement](accompagnement.md), [methodes-d-enseignement](methodes-d-enseignement.md), [qualification](qualification.md), [evaluation](evaluation.md), [coach-js](coach-js.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [psyche](psyche.md), [modele-de-formation](modele-de-formation.md)

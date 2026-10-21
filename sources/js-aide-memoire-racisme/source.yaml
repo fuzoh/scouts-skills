@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-aide-memoire-racisme             # <issuer>-<slug>, stable, voir METHODE.md
+title: Comprendre, identifier et combattre le racisme dans le sport (aide-mémoire J+S/esa)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 2026-0581                          # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed  # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep  # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial  # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'encadré graphique des règles de comportement J+S/esa perdu p.2 (« ci-contre »)'  # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2026-08-06                   # date du document, null si inconnue
+retrieved: 2026-10-21                   # (script) date de téléchargement
+sha256: 75340e2c0a9bc59b5818a9187ad3ff7fb116c15a9c3078c2c256166158b18e32 # (script)
+pages: 3                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur, expert-js] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [prevention]                    # vocabulaire dans docs/taxonomie.md
+concepts: [js, ethique, regles-de-comportement, boussole-ethique, inclusion]  # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Aide-mémoire OFSPO, édition 01/2026, à l''intention des moniteur·trice·s J+S/esa (pas spécifique au scoutisme). Texte complet pour les p.1 et 3. p.2 : le schéma des règles de comportement J+S/esa auquel renvoie « ci-contre » (quatre règles concernées : prendre et partager des responsabilités ; être ouvert à la nouveauté, à la différence et aux autres ; respecter tous les participants ; agir et communiquer de manière non violente) est un graphique absent de raw.md (visible dans `pdftotext -layout`) ; l''ordre des encadrés p.2 suit la mise en page. Liens de la p.3 conservés (glossaire network-racism, boussole éthique Swiss Olympic, Swiss Sport Integrity, fiche MSdS « Ouvert à toutes » pp. 20-21, aide-mémoire J+S « Propos discriminatoires »). La vidéo et le guide DSJ cités sont en allemand. Contient des exemples de termes discriminatoires cités comme tels. Sans valeur prescriptive propre, nature null.'  # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

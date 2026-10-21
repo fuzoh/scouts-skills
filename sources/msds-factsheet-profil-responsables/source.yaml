@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-factsheet-profil-responsables  # <issuer>-<slug>, stable, voir METHODE.md
+title: Factsheet Profil du scoutisme pour responsables et participant·e·s aux cours (résumé à plier)
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed  # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep  # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial  # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'dépliant graphique : ordre des encadrés celui de la mise en page, pictogrammes et couleurs perdus p.1-2'  # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2026-10-02                   # date du document, null si inconnue
+retrieved: 2026-10-21                   # (script) date de téléchargement
+sha256: 64dc604f02ea0d23f8b648ab2bff0cd477eb697e42a1dd5b18929fcf83addd95 # (script)
+pages: 2                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, formateur]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [programme]                     # vocabulaire dans docs/taxonomie.md
+concepts: [profil-du-scoutisme, relations, methodes-scoutes, branches, smt]  # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Dépliant graphique de 2 p. (« L''essentiel en bref » pour responsables et participant·e·s de cours), sans numéro officiel ni version : même contenu de fond que msds-factsheet-profil (nouvelle version 2025 du profil) mais variante pour responsables. Texte complet dans raw.md, y compris le paragraphe « Les relations » (p.1, complet ici) et les huit méthodes avec mots-clés (p.2) ; encadrés dans l''ordre de la mise en page, donc mots-clés des relations et des méthodes séparés de leur titre. Pertes mineures : « per mettent », « trans mettre » (césure), « p. 1213 » pour p. 12-13 (renvoi au profil complet), « globa l » ; liste des downloads sans liens ; illustrations des branches absentes. Renvois « p. 12-13 » et « p. 16-25 » = pages du profil du scoutisme, pas de ce dépliant. Sans valeur prescriptive (résumé), nature null.'  # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

@@ -1,0 +1,43 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-module-planifier-randonnee       # <issuer>-<slug>, stable, voir METHODE.md
+title: Planifier une randonnée (module d'apprentissage J+S SdC/T)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://tool.jeunesseetsport.ch/modules/6a2a797ce6a0a3eb3f0dc8a4?lang=fr # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://tool.jeunesseetsport.ch/modules/6a2a797ce6a0a3eb3f0dc8a4?lang=fr
+  title: Planifier une randonnée (module d'apprentissage J+S SdC/T)
+  slug: modules-6a2a797ce6a0a3eb3f0dc8a4
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                       # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Page SPA : les valeurs du facteur de vitesse (quatre cartes à retourner), la liste des points à vérifier lors de la reconnaissance, l''exemple d''itinéraire et le formulaire de calcul du temps de marche (XLSX) sont absents de raw/ ; les valeurs ont été relevées dans le rendu (voir notes).' # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-21'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-21                   # (script) date de téléchargement
+sha256: b393e4cfe0460d6e59e4270f00468615c3629cccab86870bdd22f1f1a50ba564 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: recommandation                  # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, coach-js, formateur] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [securite, camp]                # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, concept-de-securite, methode-3x3] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Module d''apprentissage J+S, première des trois séquences SdC/T (suivent securite-planification et securite-realisation). Pas d''ancres : citer url + titre. Facteur de vitesse, relevé dans le rendu mais absent de raw/ : 2-4 kme/h groupe non entraîné, enfants, grand groupe avec charge ; 3-5 kme/h même groupe sans charge ; 3-5 kme/h groupe entraîné, jeunes, petit groupe avec charge ; 4-6 kme/h même groupe sans charge. Reconnaissance : état des sentiers et routes, couverture réseau, temps de marche effectif (liste partielle). Neuf par rapport aux PDF J+S de 2014 : kilomètre-effort (1 km à plat = 100 m de dénivelé positif = 150 m de dénivelé négatif en terrain raide), facteur de vitesse, points clés (point de non-retour, échappatoire).' # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

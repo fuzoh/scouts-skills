@@ -1,0 +1,43 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-module-securite-planification    # <issuer>-<slug>, stable, voir METHODE.md
+title: Sécurité dans la planification (module d'apprentissage J+S SdC/T)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://tool.jeunesseetsport.ch/modules/695ccc0b8f278a0a1e0b9af2?lang=fr # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://tool.jeunesseetsport.ch/modules/695ccc0b8f278a0a1e0b9af2?lang=fr
+  title: Sécurité dans la planification (module d'apprentissage J+S SdC/T)
+  slug: modules-695ccc0b8f278a0a1e0b9af2
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                       # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Page SPA : le graphique interactif du cycle de réflexion (quatre étapes), la matrice des risques de l''exemple, les mesures proposées par danger (cartes à survoler) et le quiz sont absents de raw/ ; seule la solution de placement des cinq risques a été relevée dans le rendu.' # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-21'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-21                   # (script) date de téléchargement
+sha256: a5ddc9215fe677f2a22a0b277d3ec69be13fb62f4dfde88897ce3eda82be1362 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: recommandation                  # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, coach-js, formateur] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [securite]                      # vocabulaire dans docs/taxonomie.md
+concepts: [concept-de-securite, methode-3x3, matrice-des-risques, sport-de-camp, montagne, hiver, eau] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Module d''apprentissage J+S, deuxième séquence SdC/T (prérequis : planifier-randonnee). Pas d''ancres : citer url + titre. Renvoie à l''aide-mémoire « Prévention des accidents et exigences en matière de sécurité en SdC/T » pour les activités exclues et les domaines Eau, Hiver, Montagne. Neuf par rapport aux PDF J+S de 2014 : cycle identifier / classifier / adapter + urgence, règle des zones de la matrice (vert acceptable, rouge toujours des mesures, jaune réduit si possible), concept de sécurité en deux parties, obligatoire pour les randonnées et les domaines de sécurité. Placement des risques de l''exemple relevé dans le rendu : 1 collision sur la route, 2 avalanche (si neige), 3 chute, 4 hypothermie, 5 épuisement.' # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

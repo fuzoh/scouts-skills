@@ -1,0 +1,43 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-module-bases-sdct                # <issuer>-<slug>, stable, voir METHODE.md
+title: 'Bases du sport de camp/trekking (module d''information J+S : formes caractéristiques et formes d''activité)'
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://tool.jeunesseetsport.ch/modules/6a60d154dc1144de1e0e6303?lang=fr # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://tool.jeunesseetsport.ch/modules/6a60d154dc1144de1e0e6303?lang=fr
+  title: 'Bases du sport de camp/trekking (module d''information J+S : formes caractéristiques et formes d''activité)'
+  slug: modules-6a60d154dc1144de1e0e6303
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                       # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Page SPA : le texte explicatif de chacune des six cartes de formes caractéristiques et les listes d''exemples d''activités associées sont visibles dans le rendu mais absents de raw/ (seuls les six titres restent) ; le schéma interactif de la conception de la formation est perdu.' # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-21'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-21                   # (script) date de téléchargement
+sha256: 0282d92847f1ba5a5ea5072b8b50038458253c8a2d1bf68792fe36dada0c88b0 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: 2027-01-01                # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: recommandation                  # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, coach-js, formateur] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, programme]               # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, formes-caracteristiques, facteurs-de-developpement] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Module d''information numérique J+S, une page = une section. Texte pédagogique, pas de seuil chiffré : recommandation ; applies_from 2027-01-01 car il explicite les formes caractéristiques du manuel SdC/T 2027 (la page ne date rien). Les six formes caractéristiques (titres) sont complètes ; leurs descriptions et exemples d''activités sont à relever dans le rendu ou le manuel SdC/T. Neuf par rapport aux PDF J+S de 2014 : formulation en six formes caractéristiques, schéma forme caractéristique / facteurs de développement / forme d''activité.' # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

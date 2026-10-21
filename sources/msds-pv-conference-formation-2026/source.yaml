@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: msds-pv-conference-formation-2026   # <issuer>-<slug>, stable, voir METHODE.md
+title: Procès-verbal de la conférence formation 2026 (12.09.2026, Berne)
+issuer: msds                            # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed  # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep  # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial  # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'posters en image perdus p.12-18 (pages vides dans raw.md, seul l''en-tête reste) ; diapositives annexées non incluses'  # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2026-10-14                   # date du document, null si inconnue
+retrieved: 2026-10-21                   # (script) date de téléchargement
+sha256: 831b6e9c1dcfb8283b84708b6afeee7218f65011234e6bf773a9f4deb667c6b7 # (script)
+pages: 24                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: null                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [cadre-cantonal, formateur, expert-js] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation]                     # vocabulaire dans docs/taxonomie.md
+concepts: [js, cofor, formes-caracteristiques, sport-de-camp, activite-de-camp, modele-de-formation, cours-de-base, cours-ru, caf, midata, administration-de-cours, profil-du-scoutisme, financement, cudesch]  # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Procès-verbal de la conférence formation (ConfFor) du 12.09.2026 à Berne, publié le 14.10.2026 ; sert de commentaire explicatif des nouveautés J+S 2027 (diapositives correspondantes : msds-conffor-2026-diapositives, les renvois « Diapositives N-M » du PV y mènent). Source de compte rendu, non prescriptive (nature null) : ce qu''elle dit des exigences 2027 doit être recoupé avec le manuel SdC/T, le modèle de formation et les check-lists. Découpe : un fichier par bloc de pages, les points de l''ordre du jour qui partagent une page sont regroupés (§2.1-2.3 p.4-6 ; §2.4-2.6 p.7-8 ; §2.7-2.8 p.9 ; §2.9 et §3 p.10 ; §6 et §7 p.23-24) ; sections à plat, sans parent. p.11-18 : la partie 2 était présentée sous forme de posters (images), raw.md ne garde que l''en-tête de page ; les questions reçues sur les posters sont p.19. Ateliers sans procès-verbal : §3 (structure de la formation et manuel) et §6 (coordination). Nomme des personnes (totems et noms civils, p.1-2, p.3, remerciements p.23-24) : texte officiel, non caviardé. Contrôle : aucun identifiant ni mot de passe dans raw.md. Points de contenu : voir sections §2.1-2.9 ; le texte de la p.5 fixe la nouvelle formulation des exigences J+S dès janvier 2027. Texte « Seite N » en pied de page (allemand) = numérotation du PV, égale à la page physique.'  # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

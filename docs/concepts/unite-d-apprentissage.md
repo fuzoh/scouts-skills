@@ -12,11 +12,14 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cofor-approfondissement-castors@v1` — Check-list approfondissement branche Castors – activités SdC/T (1 section, [index](../../sources/cofor-approfondissement-castors/index.md))
 - `cofor-approfondissement-eclais@v1` — Check-list approfondissement branche Éclais – activités SdC/T (1 section, [index](../../sources/cofor-approfondissement-eclais/index.md))
 - `cofor-approfondissement-louveteaux@v1` — Check-list approfondissement branche Louveteaux – activités SdC/T (1 section, [index](../../sources/cofor-approfondissement-louveteaux/index.md))
+- `cofor-approfondissement-picos@v1` — Check-list approfondissement branche Picos – activités SdC/T (1 section, [index](../../sources/cofor-approfondissement-picos/index.md))
+- `cofor-approfondissement-route@v1` — Check-list approfondissement branche Route – activités SdC/T (Vertiefung Roverstufe, allemand seulement) (1 section, [index](../../sources/cofor-approfondissement-route/index.md))
 - `cofor-checklist-cours-base@v1` — Check-list cours de base – cours de moniteur·rice J+S (1 section, [index](../../sources/cofor-checklist-cours-base/index.md))
 - `cofor-checklist-cours-ru@v1` — Check-list cours de responsable d'unité – responsable de camp et activités SC/T (1 section, [index](../../sources/cofor-checklist-cours-ru/index.md))
+- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../sources/msds-conffor-2026-diapositives/index.md))
 - `msds-le-cours@2026` — Le cours – concevoir, planifier, réaliser, évaluer (34 sections, [index](../../sources/msds-le-cours/index.md))
 - `msds-unite-d-apprentissage@2026` — L'unité d'apprentissage – planifier, animer, évaluer (17 sections, [index](../../sources/msds-unite-d-apprentissage/index.md))
 
 ## Concepts liés
 
-[caf](caf.md), [modele-de-formation](modele-de-formation.md), [niveau-d-approfondissement](niveau-d-approfondissement.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [planification](planification.md), [methodes-d-enseignement](methodes-d-enseignement.md), [evaluation](evaluation.md), [patexe](patexe.md)
+[caf](caf.md), [modele-de-formation](modele-de-formation.md), [niveau-d-approfondissement](niveau-d-approfondissement.md), [branches](branches.md), [methodes-scoutes](methodes-scoutes.md), [relations](relations.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [planification](planification.md)

@@ -1,0 +1,109 @@
+---
+source: js-module-planifier-activite-js
+version: '2026-10-21'
+title: Planifier une bonne activité J+S
+url: https://tool.jeunesseetsport.ch/modules/6a75d5f5c621fe46c50d0073?lang=fr
+sha256: ad0ee52171a87ddcc3d9b0dc37f0c8d569dc9f71f6e1a1f1fb4a2d9eadd70694
+fidelity: partial
+fidelity_notes: 'Page SPA : les cartes à retourner (données clés de l''activité, ajustements
+  possibles, étapes de l''évaluation) et le contenu des trois parties d''une activité
+  sont visibles dans le rendu mais absents de raw/ ; le lien vers l''exemple de descriptif
+  détaillé n''est pas téléchargé.'
+---
+
+# Planifier une bonne activité J+S
+
+**Tu apprendras ici comment planifier une bonne activité J+S, de l’idée de départ à son évaluation. Tu découvriras étape par étape comment, à partir
+                de quelques données clés, élaborer une activité cohérente et adaptée à son public cible, tout en mettant en pratique le cycle de planification J+S.**
+
+Tu trouveras le cycle de planification complet, accompagné de questions de réflexion, dans le chapitre « Planifier des activités J+S
+                de manière ciblée » du [manuel J+S Sport de camp/Trekking](https://manual.baspomedia.ch/manual_lagersport_trekking_d/#). Cette séquence
+                d’information te permet de le découvrir ici à travers un exemple concret·s.
+
+La maîtrise du camp a planifié ensemble le programme général et s’est réparti les différentes activités. Tu es responsable de la course d’orientation photos du lundi après-midi. Ta mission consiste à organiser une activité qui permette aux participant·e·s de bien commencer leur camp.
+
+Avant de te lancer dans la planification à proprement parler, tu te fais une idée générale du groupe qui participe au camp et du cadre général à prendre en compte. En effet, une bonne activité ne naît pas par hasard, mais repose sur une analyse minutieuse.
+
+**Clique pour découvrir les données clés de l’activité :**
+
+**Question de réflexion :** *Quelles informations issues du cadre général sont particulièrement importantes pour ta planification et pourquoi ?*
+
+Les plus jeunes participant·e·s sont nouveaux·elles au camp. Pour elles·eux, l’essentiel est de s’acclimater. Elles·ils veulent découvrir les lieux importants du terrain de camp et pouvoir s’y orienter rapidement.
+
+Les participant·e·s plus âgé·e·s connaissent déjà le camp. Pour elles·eux, il est plus stimulant de découvrir les environs du terrain. Grâce à leur plus grande expérience, elles·ils sont à même de relever des défis plus ambitieux en matière d’orientation.
+
+Les deux tranches d’âge abordent le camp avec motivation et disposent de suffisamment d’énergie pour une activité faisant la part belle au mouvement. Pour autant, leurs besoins diffèrent. Tu tiendras compte de ces différences lors de la suite de la planification.
+
+Après avoir analysé le cadre général, tu connais désormais les principales caractéristiques de ton groupe de participant·e·s. Il s’agit maintenant d’en déduire tes objectifs.
+
+**Question de réflexion :** *Quels éléments l’activité « course d’orientation photos » devrait-elle permettre aux participant·e·s de vivre et de développer ?*
+
+Tes objectifs ne naissent pas par hasard. Tu peux les déduire de trois éléments :
+
+Ton analyse
+
+Les formes caractéristiques
+
+Les objectifs de J+S
+
+L’analyse a montré que les plus jeunes participant·e·s sont nouveaux·elles au camp et cherchent avant tout à s’y orienter. Les plus âgé·e·s connaissent déjà le camp et apportent davantage d’expérience ; pour elles·eux, les environs du terrain sont plus stimulants.
+
+Deux formes caractéristiques du sport de camp / trekking se prêtent particulièrement bien à ces besoins : « Pratiquer des activités itinérantes de manière sûre et prévoyante » et « Pendre conscience de ses propres besoins et idées et les faire valoir consciemment ». Pour les plus jeunes, cela signifie avant tout : pouvoir s’orienter et s’adapter à un nouvel environnement. Pour les plus âgé·e·s, cela implique : pouvoir se déplacer de manière autonome et faire ses propres découvertes.
+
+Cette activité sera axée sur les formes caractéristiques « Prendre conscience de ses propres besoins et idées et les faire valoir consciemment » et « Pratiquer des activités itinérantes de manière sûre et prévoyante ». Tu trouveras plus d’informations sur ces formes caractéristiques dans le manuel J+S Sport de camp/Trekking ou dans la séquence d’information numérique « Bases du sport de camp/trekking ».
+
+Ces objectifs te servent désormais de base pour la suite de la planification. À l’étape suivante, tu réfléchiras à la manière de les atteindre à l’aide de contenus et de méthodes adaptés.
+
+Tu connais désormais les objectifs de ton activité et peux maintenant décider comment les atteindre. Une bonne planification ne consiste pas seulement à intégrer des idées aussi créatives que possible. L’essentiel est que les contenus et les méthodes soient adaptés à tes objectifs et à ton groupe.
+
+Votre camp d’été a pour thème « Astérix et Obélix ». Intègre ce fil rouge dans ta course d’orientation photos : des consignes de départ à la ligne d’arrivée, ces deux personnages accompagneront les participant·e·s tout au long de l’activité.
+
+**Choisir des formes d’activité adaptées**
+
+Réfléchis à des formes d’activité susceptibles de correspondre aux formes caractéristiques choisies, aux objectifs et à tes participant·e·s. Dans notre exemple, la forme d’activité centrale est déjà prédéfinie : il s’agit de la course d’orientation photos.
+
+Pour créer un programme cohérent et atteindre tes objectifs, combine de manière ciblée cette forme d’activité centrale avec d’autres jeux, tâches ou exercices adaptés. Fais également attention à l’intensité : l’activité doit être globalement axée sur l’action et le mouvement et comporter suffisamment de parties consacrées à l’exercice d’une activité sportive.
+
+**Prendre en compte la sécurité**
+
+Toute activité J+S implique également des considérations en matière de sécurité. Selon l’activité, de simples mesures suffisent, tandis que dans d’autres cas, un concept de sécurité détaillé est nécessaire.
+
+**Structurer une activité**
+
+Presque toutes les bonnes activités J+S peuvent être divisées en trois parties : introduction, partie principale et conclusion. Cette structure permet organiser de manière réfléchie le déroulement d’une activité, de la première à la dernière minute :
+
+La durée de chaque partie dépend du temps disponible, de l’âge et de la composition du groupe.
+
+Consigne la planification détaillée de l’activité par écrit conformément aux directives en vigueur et soumets-là à ta·ton coach J+S pour approbation. Tu trouveras ici un exemple de descriptif détaillé pour la course d’orientation photos : [exemple](https://www.extranet.jugendundsport.ch/ilias.php?baseClass=ilrepositorygui&cmdNode=xo:mv&cmdClass=ilObjFileGUI&cmd=sendfile&ref_id=43307).
+
+Lundi après-midi, 16h : le groupe de participant·e·s est au complet, le matériel est prêt, ton descriptif détaillé est imprimé. Tu mets maintenant ton programme en œuvre tout en restant attentif·ive aux signes indiquant qu’un léger ajustement pourrait s’avérer nécessaire. Il est souvent utile, dès la phase de planification, d’envisager quelques situations typiques et de prévoir une solution simple pour y faire face.
+
+Réfléchis aux ajustements que tu pourrais apporter pour répondre aux situations suivantes. Retourne ensuite la carte pour découvrir une idée d’ajustement possible :
+
+Les enfants semblent fatigué·e·s dès le début de l’activité.
+
+Il fait exceptionnellement chaud.
+
+Les groupes mettent plus de temps que prévu.
+
+**Question de réflexion :  Lesquelles de ces situations peux-tu déjà prendre en compte lors de la planification détaillée de l’activité ? Que rajouterais-tu encore à ta planification détaillée ?**
+
+La course d’orientation photos est terminée, tout le monde est rentré sain et sauf. Il est maintenant temps de faire le bilan avec les participant·e·s et la maîtrise : qu’est-ce qui a bien fonctionné, qu’est-ce qui n’a pas fonctionné et quelles leçons en tires-tu pour la prochaine activité ?
+
+Les objectifs que tu as fixés à l’étape 2 constituent le point de départ de ton évaluation : ce n’est qu’une fois que tu sauras s’ils ont été atteints que tu pourras déterminer ce qui s’est bien passé et ce que tu souhaites faire différemment la prochaine fois.
+
+Parcours les différentes étapes de l’évaluation :
+
+Ton évaluation est plus qu’une simple rétrospective sur une activité ponctuelle, c’est aussi le point de départ pour continuer à te développer, toi et tes activités. C’est exactement l’objet du domaine d’action J+S « Innover ». Tu trouveras plus d’informations à ce sujet dans le jeu de cartes ou la séquence d’apprentissage numérique consacrés à cette thématique.
+
+Grâce à ces perspectives, tu clôtures la course d’orientation photos tout en ouvrant la porte à la prochaine activité : ton évaluation sert de base à la prochaine analyse, et le cycle de planification recommence.
+
+Tu as suivi le parcours de l’activité « Course d’orientation photos » à travers l’ensemble du cycle de planification J+S, de la première analyse à l’évaluation. Ces cinq étapes t’aideront à aborder chaque activité J+S, qu’elle dure 30 minutes ou une journée entière :
+
+1. Analyser : tu te fais une idée générale de ton groupe et du cadre général.
+2. Objectifs : tu en déduis des objectifs adaptés, en accord avec les objectifs J+S et les formes caractéristiques.
+3. Planification détaillée : tu décides des contenus et des méthodes qui te permettront d’atteindre ces objectifs, et tu les consignes par écrit.
+4. Réalisation de l’activité : tu mets en œuvre ta planification tout en restant flexible pour pouvoir effectuer des ajustements.
+5. Évaluation : tu vérifies si les objectifs ont été atteints, tu recueilles activement des retours et tu en tires des enseignements pour la prochaine activité.
+
+La boucle est ainsi bouclée : ton évaluation fait partie intégrante de ta prochaine analyse et le cycle de planification recommence.

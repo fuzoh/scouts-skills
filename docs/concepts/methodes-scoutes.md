@@ -9,6 +9,8 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cofor-approfondissement-castors@v1` — Check-list approfondissement branche Castors – activités SdC/T (1 section, [index](../../sources/cofor-approfondissement-castors/index.md))
 - `cofor-approfondissement-eclais@v1` — Check-list approfondissement branche Éclais – activités SdC/T (1 section, [index](../../sources/cofor-approfondissement-eclais/index.md))
 - `cofor-approfondissement-louveteaux@v1` — Check-list approfondissement branche Louveteaux – activités SdC/T (1 section, [index](../../sources/cofor-approfondissement-louveteaux/index.md))
+- `cofor-approfondissement-picos@v1` — Check-list approfondissement branche Picos – activités SdC/T (1 section, [index](../../sources/cofor-approfondissement-picos/index.md))
+- `cofor-approfondissement-route@v1` — Check-list approfondissement branche Route – activités SdC/T (Vertiefung Roverstufe, allemand seulement) (1 section, [index](../../sources/cofor-approfondissement-route/index.md))
 - `cofor-liste-buts-cours-ru` — Tes buts personnels après ce cours de RU (1 section, [index](../../sources/cofor-liste-buts-cours-ru/index.md))
 - `cudesch-branche-castors@2026-10-17` — La branche Castors – Toujours joyeux ! (24 sections, [index](../../sources/cudesch-branche-castors/index.md))
 - `cudesch-branche-eclais@2026-10-17` — La branche Eclais – Toujours prêt (55 sections, [index](../../sources/cudesch-branche-eclais/index.md))
@@ -20,12 +22,14 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cudesch-programme@2026-10-17` — Programme – l'essence du scoutisme (14 sections, [index](../../sources/cudesch-programme/index.md))
 - `cudesch-scoutisme-identite@2026-10-17` — Le Scoutisme – notre identité (25 sections, [index](../../sources/cudesch-scoutisme-identite/index.md))
 - `msds-autorisation-de-camp@2026` — Autorisation de camp MSdS (formulaire, valable jusqu’au 31.12.2026) (1 section, [index](../../sources/msds-autorisation-de-camp/index.md))
+- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../sources/msds-conffor-2026-diapositives/index.md))
 - `msds-exigences-js-2027-camps` — J+S 2027 – exigences pour les camps scouts (1 section, [index](../../sources/msds-exigences-js-2027-camps/index.md))
 - `msds-factsheet-profil` — Factsheet Profil du Scoutisme (nouvelle version 2025) (1 section, [index](../../sources/msds-factsheet-profil/index.md))
+- `msds-factsheet-profil-responsables` — Factsheet Profil du scoutisme pour responsables et participant·e·s aux cours (résumé à plier) (1 section, [index](../../sources/msds-factsheet-profil-responsables/index.md))
 - `msds-memento-responsable-patrouille@2021` — Étincelle – mémento pour les responsables de patrouille (11 sections, [index](../../sources/msds-memento-responsable-patrouille/index.md))
 - `msds-profil-du-scoutisme@2025` — Profil du scoutisme – les fondements pédagogiques du Mouvement Scout de Suisse (19 sections, [index](../../sources/msds-profil-du-scoutisme/index.md))
 - `msds-thilo@2026-10-17` — Thilo – Manuel scout de Suisse (thilo.scouts.ch, branche Éclais) (8 sections, [index](../../sources/msds-thilo/index.md))
 
 ## Concepts liés
 
-[branches](branches.md), [relations](relations.md), [planification](planification.md), [securite](securite.md), [profil-du-scoutisme](profil-du-scoutisme.md), [camp](camp.md), [jeu](jeu.md), [cudesch](cudesch.md)
+[branches](branches.md), [relations](relations.md), [planification](planification.md), [profil-du-scoutisme](profil-du-scoutisme.md), [unite-d-apprentissage](unite-d-apprentissage.md), [caf](caf.md), [niveau-d-approfondissement](niveau-d-approfondissement.md), [modele-de-formation](modele-de-formation.md)

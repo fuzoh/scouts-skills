@@ -1,0 +1,43 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-module-directives-sdct           # <issuer>-<slug>, stable, voir METHODE.md
+title: Directives Sport de camp/Trekking (module d'information J+S, dès 2027)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://tool.jeunesseetsport.ch/modules/6a87f3784b0bb56151069072?lang=fr # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://tool.jeunesseetsport.ch/modules/6a87f3784b0bb56151069072?lang=fr
+  title: Directives Sport de camp/Trekking (module d'information J+S, dès 2027)
+  slug: modules-6a87f3784b0bb56151069072
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                       # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Page SPA : les cartes à retourner de l''exemple « actif et axé sur le mouvement » (six exemples d''activités et leur libellé) sont perdues par la conversion ; leur contenu est visible dans le rendu mais absent de raw/ (les six exemples apparaissent sans leur verdict actif ou non actif). Le texte normatif est complet.' # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-21'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-21                   # (script) date de téléchargement
+sha256: 830e9bc4bc8232c4154784eada330362668e25d46d5a01f2ef248b4f15a7644c # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: 2027-01-01                # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: prescription                    # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, coach-js, formateur] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, administration]          # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, formes-caracteristiques, coach-js] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Module d''information numérique J+S (tool.jeunesseetsport.ch), une page = une section ; pas d''ancres : citer url + titre. Texte normatif des directives 2027 (offre, camp, journée J+S, activité J+S, temps d''activité sportive). Verdicts des cartes, relevés dans le rendu playwright mais absents de raw/ : construire un bivouac en petits groupes = actif ; chanter autour d''un feu = non actif (action partielle, pas de mouvement) ; saynète sur la prévention = actif ; regarder un film = non actif ; apprendre des nœuds assis à table = non actif ; nœuds en ateliers puis sur le terrain = actif. Neuf par rapport aux PDF J+S de 2014 : tout le régime 2027 (disparition de l''activité de camp, temps d''activité sportive, jour sans activité J+S, camp de 3 jours si un camp de 4 jours dans l''offre, formes caractéristiques sur l''offre). Renvoie au guide pour les offres de tous les sports J+S et au manuel SdC/T.' # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

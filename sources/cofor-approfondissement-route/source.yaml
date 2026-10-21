@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: cofor-approfondissement-route       # <issuer>-<slug>, stable, voir METHODE.md
+title: Check-list approfondissement branche Route – activités SdC/T (Vertiefung Roverstufe, allemand seulement)
+issuer: cofor                           # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 314801de                           # numéro officiel, "" si absent
+lang: de  # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/1091/check-list-approfondissement-branche-route-activites-sdct/                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: https://pfadi.swiss/media/files/42/314801de-vertiefung_roverstufe_checkliste-v1-20260915-akom.pdf # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed  # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep  # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial  # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'cases de niveau (Erleben / Erinnern-Verstehen / Anwenden-Analysieren / Bewerten-Erschaffen) et champs de saisie perdus p.1-3 ; tableau « Autres contenus » (p.3) sans structure'  # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: v1                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2026-09-15                   # date du document, null si inconnue
+retrieved: 2026-10-21                   # (script) date de téléchargement
+sha256: 48110ee03c7bd807ccde096f3f6c37ad5cddf84b2c0d55efaa178c4db2f157c1 # (script)
+pages: 3                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: 2027-01-01
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: prescription  # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [formateur, expert-js]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation]                     # vocabulaire dans docs/taxonomie.md
+concepts: [unite-d-apprentissage, caf, niveau-d-approfondissement, modele-de-formation, branches, methodes-scoutes, relations]  # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Texte allemand seulement (aucune version française publiée, réf. 3148.01.de) ; la section reste en allemand : `split` regénère les sections depuis raw.md, la traduction est à faire dans les skills, pas dans la section. Termes : Vertiefung Roverstufe = approfondissement branche Route, LKB = CàF, Hauptkursleitung = direction de cours, Blocknummer = n° des unités d''apprentissage, Grobprogramm = programme général, Stufe = niveau, Ziel = objectif (PBS = MSdS), Rotte = équipe de Route. Formulaire PDF (AcroForm), même structure que cofor-approfondissement-eclais : cases de niveau et champs de saisie perdus ; trois tableaux par domaine (p.2 : fondements, direction et responsabilité, programme) complets ; « Autres contenus » (p.3) perd son tableau (liste de contenus, objectif J+S 1.3 collé à la dernière ligne) ; le titre de la justification finale est présent, le champ vide. Durée minimale J+S 6 heures, durée PBS 2 à 5 jours, toujours lié à une formation continue LS/T. applies_from 2027-01-01 : déduit, la check-list dérive du modèle de formation 2027 ; le document ne porte pas de date d''application propre. url vide : page de détail non relevée.'  # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

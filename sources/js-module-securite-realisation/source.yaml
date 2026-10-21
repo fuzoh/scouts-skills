@@ -1,0 +1,43 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-module-securite-realisation      # <issuer>-<slug>, stable, voir METHODE.md
+title: Sécurité dans la réalisation (module d'apprentissage J+S SdC/T)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://tool.jeunesseetsport.ch/modules/6a2a7995e6a0a3eb3f0dc8a5?lang=fr # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://tool.jeunesseetsport.ch/modules/6a2a7995e6a0a3eb3f0dc8a5?lang=fr
+  title: Sécurité dans la réalisation (module d'apprentissage J+S SdC/T)
+  slug: modules-6a2a7995e6a0a3eb3f0dc8a5
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                       # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Page SPA : le graphique interactif du cycle de trois étapes (étapes surveiller, classifier, adapter) et la carte avec itinéraire sont absents de raw/ ; le quiz aussi.' # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-21'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-21                   # (script) date de téléchargement
+sha256: aa31a858250ad7dd27382277d8241d71588bb4fba365e9c56a67e59bce0410e8 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: recommandation                  # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, coach-js, formateur] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [securite]                      # vocabulaire dans docs/taxonomie.md
+concepts: [concept-de-securite, methode-3x3, matrice-des-risques, sport-de-camp] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Module d''apprentissage J+S, troisième séquence SdC/T (prérequis : planifier-randonnee puis securite-planification). Pas d''ancres : citer url + titre. Neuf par rapport aux PDF J+S de 2014 : identifier = surveiller pendant la réalisation, retour à l''étape 1 en fin de cycle, délégation de rôles (météo, itinéraire, fermeture de la marche). Renvoie au document « Prévention des blessures et blessures sportives ».' # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

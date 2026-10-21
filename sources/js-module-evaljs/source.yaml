@@ -1,0 +1,43 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-module-evaljs                    # <issuer>-<slug>, stable, voir METHODE.md
+title: Mise en œuvre de l'évaluation EvalJS (module d'information J+S pour la direction de cours)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://tool.jeunesseetsport.ch/modules/68483851df445dbbaa0775d2?lang=fr # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://tool.jeunesseetsport.ch/modules/68483851df445dbbaa0775d2?lang=fr
+  title: Mise en œuvre de l'évaluation EvalJS (module d'information J+S pour la direction de cours)
+  slug: modules-68483851df445dbbaa0775d2
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                       # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Page SPA : les captures d''écran de la BDNS et les intertitres des étapes (informations dans le cours, saisie de questions libres, début de l''évaluation, évaluation immédiate, clôture, utilisation des résultats) ne sont pas dans raw/ ; une remarque sur l''export PDF par la fonction d''impression est absente.' # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-21'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-21                   # (script) date de téléchargement
+sha256: 6d38d6f70c9bbfd5a80e8b48484f2c1e4171f42b748a576b990319a4dbc8e7c2 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: recommandation                  # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [formateur, expert-js, cadre-cantonal] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation, administration]     # vocabulaire dans docs/taxonomie.md
+concepts: [bdns, chef-de-cours, qualification] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Module d''information J+S pour la direction de cours (EvalJS). Pas d''ancres : citer url + titre. Le texte ne date aucune règle : applies_from vide. Remarque absente de raw/ : l''évaluation immédiate et l''annotée ne se génèrent en PDF que par la fonction d''impression (modèle PDF standard annoncé). Neuf par rapport aux PDF J+S de 2014 : tout le processus EvalJS (onglet Évaluation 30 jours avant le cours, au plus trois questions libres, courriel de la nuit précédant le dernier jour, 10 minutes, saisie close au déclenchement de l''évaluation immédiate, statut terminée).' # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

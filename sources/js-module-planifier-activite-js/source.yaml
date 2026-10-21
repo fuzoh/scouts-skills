@@ -1,0 +1,43 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-module-planifier-activite-js     # <issuer>-<slug>, stable, voir METHODE.md
+title: Planifier une bonne activité J+S (module d'information J+S, exemples 2027)
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://tool.jeunesseetsport.ch/modules/6a75d5f5c621fe46c50d0073?lang=fr # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://tool.jeunesseetsport.ch/modules/6a75d5f5c621fe46c50d0073?lang=fr
+  title: Planifier une bonne activité J+S (module d'information J+S, exemples 2027)
+  slug: modules-6a75d5f5c621fe46c50d0073
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                       # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Page SPA : les cartes à retourner (données clés de l''activité, ajustements possibles, étapes de l''évaluation) et le contenu des trois parties d''une activité sont visibles dans le rendu mais absents de raw/ ; le lien vers l''exemple de descriptif détaillé n''est pas téléchargé.' # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2026-10-21'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-10-21                   # (script) date de téléchargement
+sha256: 5756f0011bc1db4cd71fef478911a97f0d15f1bdff77888fa519a527ef57a667 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: recommandation                  # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, coach-js, formateur] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [camp, programme]               # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, formes-caracteristiques, coach-js, concept-de-securite] # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Module d''information numérique J+S, exemple de planification (course d''orientation photos, camp d''été de 30 participant·e·s de 7 à 16 ans, 4 responsables). Pas d''ancres : citer url + titre. Pertes : données clés (camp, 5-10 ans et 11-15 ans, horaires), objectifs par tranche d''âge, ajustements (enfants fatigués : raccourcir la partie principale, plus de pauses ; forte chaleur : pauses pour boire, moins de points ; retard : raccourcir la conclusion), trois formes d''évaluation (participants, maîtrise, autoréflexion) ; ces éléments sont dans le rendu, pas dans raw/. Neuf par rapport aux PDF J+S de 2014 : cycle de planification J+S en cinq étapes, renvoi aux directives 2027 pour les exigences d''une activité J+S.' # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}
