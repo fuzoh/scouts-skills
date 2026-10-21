@@ -46,7 +46,7 @@ check:
 referentiels *args:
     uv run referentiels "$@"
 
-# packs de distribution : just build claude-code [--skill scouts|scouts-ressources] [--scope referentiels] [--zip]
+# packs de distribution : just build claude-code [--skill scouts|scouts-ressources] [--scope referentiels] [--zip] [--suffixe S] [--perso DIR]
 build *args:
     uv run build "$@"
 
@@ -57,6 +57,10 @@ skills:
 
 # ancien nom de `just skills`
 zips: skills
+
+# version personnalisée des deux skills : just perso scouts-perso monac -> build/<skill>-monac/ et dist/<skill>-monac.zip
+perso dossier suffixe:
+    uv run build all --perso "{{dossier}}" --suffixe "{{suffixe}}" --zip
 
 # build scouts puis lien ~/.claude/skills/scouts -> skills/scouts
 install:
