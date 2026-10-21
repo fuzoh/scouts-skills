@@ -157,12 +157,12 @@ def _size_mb(root: Path) -> float:
 
 
 def _write_zip(root: Path, dist: Path, name: str) -> Path:
-    """Zip reproductible : ordre trié, date et droits fixes."""
+    """Zip reproductible : ordre trié, date et droits fixes. `scripts/` exclu (inutile sur le web)."""
     dist.mkdir(parents=True, exist_ok=True)
     zip_path = dist / f"{name}.zip"
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
         for f in sorted(root.rglob("*")):
-            if f.is_file():
+            if f.is_file() and f.relative_to(root).parts[0] != "scripts":
                 info = zipfile.ZipInfo((Path(name) / f.relative_to(root)).as_posix(), ZIP_DATE)
                 info.external_attr = 0o644 << 16
                 info.compress_type = zipfile.ZIP_DEFLATED
@@ -241,6 +241,8 @@ def build_claude_code(scope: str = "complet", out: Path | None = None, make_zip:
     stamp_skill(root / "SKILL.md", PACK_NAME)
     if (skill_dir / "references").is_dir():
         _copy_tree(skill_dir / "references", root / "references")
+    if (skill_dir / "scripts").is_dir():
+        shutil.copytree(skill_dir / "scripts", root / "scripts")
     if reg.GLOSSARY.is_file():
         shutil.copy2(reg.GLOSSARY, root / "references" / "glossaire.md")
     if reg.CONCEPTS.is_dir():

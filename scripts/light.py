@@ -183,12 +183,17 @@ def _check_referentiel(slug: str, files: list[Path], root: Path, errors: list[st
         errors.append(f"{rel} : suite N non contiguë ({', '.join(f'N{n}' for n in nums)})")
 
 
-def check(root: Path, max_files: int = MAX_FILES) -> Report:
-    """`max_files` = plafond du pack ; la source en a `PACK_EXTRA_FILES` de moins."""
+def check(root: Path, max_files: int = MAX_FILES, scripts_ok: bool = False) -> Report:
+    """`max_files` = plafond du pack ; la source en a `PACK_EXTRA_FILES` de moins.
+
+    `scripts/` est refusé (décision : `scouts` ne porte pas de script) sauf `scripts_ok`."""
     rep = Report()
     if not root.is_dir():
         rep.errors.append(f"{root} : dossier absent")
         return rep
+    if (root / "scripts").exists() and not scripts_ok:
+        rep.errors.append("scripts/ : `scouts` ne porte pas de script (réservé à `scouts-ressources`, "
+                          "hors zips ; sans lui, l'agent écrit les fiches lui-même)")
     files = sorted(f for f in root.rglob("*") if f.is_file())
     rep.files = len(files)
     if len(files) + PACK_EXTRA_FILES > max_files:

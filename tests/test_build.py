@@ -187,3 +187,29 @@ def test_build_refuse_metadata_dans_la_source(full: Path):
     src.write_text("---\nname: scouts-ressources\ndescription: x\nmetadata:\n  version: '9'\n---\n", encoding="utf-8")
     with pytest.raises(build.BuildError, match="injecté par `build`"):
         build.build_claude_code(skill=RES)
+
+
+def test_scripts_copies_tels_quels_dans_le_pack(full: Path):
+    sc = full / "skills-src" / "scouts-ressources" / "scripts"
+    (sc / "sous").mkdir(parents=True)
+    (sc / "ajouter.py").write_text("print('x')\n", encoding="utf-8")
+    (sc / "sous" / "data.json").write_bytes(b"{}\x00")
+    root = build.build_claude_code(skill=RES)["root"]
+    assert (root / "scripts" / "ajouter.py").read_text(encoding="utf-8") == "print('x')\n"
+    assert (root / "scripts" / "sous" / "data.json").read_bytes() == b"{}\x00"
+
+
+def test_zip_exclut_scripts(full: Path):
+    import zipfile
+    sc = full / "skills-src" / "scouts-ressources" / "scripts"
+    sc.mkdir()
+    (sc / "ajouter.py").write_text("print('x')\n", encoding="utf-8")
+    r = build.build_claude_code(make_zip=True, skill=RES)
+    assert (r["root"] / "scripts" / "ajouter.py").is_file()
+    names = zipfile.ZipFile(r["zip"]).namelist()
+    assert "scouts-ressources/SKILL.md" in names
+    assert not any(n.startswith("scouts-ressources/scripts") for n in names)
+
+
+def test_sans_scripts_pas_de_dossier(full: Path):
+    assert not (build.build_claude_code(skill=RES)["root"] / "scripts").exists()

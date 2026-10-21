@@ -113,9 +113,26 @@ def test_un_seul_skill_md(skel: Path):
 def test_script_reseau(skel: Path):
     (skel / "scripts").mkdir()
     (skel / "scripts" / "ok.py").write_text("print(1)\n", encoding="utf-8")
-    assert light.check(skel).errors == []
+    assert light.check(skel, scripts_ok=True).errors == []
     (skel / "scripts" / "web.py").write_text("import requests\n", encoding="utf-8")
-    assert any("appel réseau" in e for e in light.check(skel).errors)
+    assert any("appel réseau" in e for e in light.check(skel, scripts_ok=True).errors)
+
+
+def test_scripts_refuse_dans_scouts(skel: Path):
+    assert not any("scripts/" in e for e in light.check(skel).errors)
+    (skel / "scripts").mkdir()
+    (skel / "scripts" / "ajouter.py").write_text("print(1)\n", encoding="utf-8")
+    errors = light.check(skel).errors
+    assert any("scripts/" in e and "scouts-ressources" in e for e in errors)
+
+
+
+def test_build_scouts_refuse_scripts(repo: Path, tmp_path: Path):
+    root = make_skeleton(repo / "skills-src" / "scouts")
+    (root / "scripts").mkdir()
+    (root / "scripts" / "ajouter.py").write_text("print(1)\n", encoding="utf-8")
+    with pytest.raises(build.BuildError, match="scripts/"):
+        build.build_claude_code(out=tmp_path / "out", skill="scouts")
 
 
 @pytest.mark.parametrize("bad", ["`msds-x#03-abc`", "voir corpus/x", "voir p.12"])
