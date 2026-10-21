@@ -77,6 +77,7 @@ La **Trame de conception** est la structure de sortie de *concevoir*. Les `canev
 | `ua` | `autre-canevas-ua-top`, `autre-canevas-point-de-cours-js` |
 | `programme-camp` | `js-exemple-programme-camp-ete`, `js-modele-prog-general-sport-jeunes`, `js-modele-prog-general-sport-enfants`, `js-modele-prog-general-enfants-jeunes` |
 | `concept-de-securite` | aucun ; exemples officiels cités en section libre (`cudesch-securite#24` à `#28`, `#30`) |
+| `qualification` | aucun ; les grilles de cours Top et RU vues par le mainteneur ne sont pas ingérées (trop spécifiques, nominatives) ; la méthode vient de `autre-conception-qualification-top` |
 
 ### 2.8 Taille
 
