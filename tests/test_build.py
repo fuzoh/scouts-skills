@@ -213,3 +213,36 @@ def test_zip_exclut_scripts(full: Path):
 
 def test_sans_scripts_pas_de_dossier(full: Path):
     assert not (build.build_claude_code(skill=RES)["root"] / "scripts").exists()
+
+
+def test_suffixe_ressources(full: Path):
+    import zipfile
+    r = build.build_claude_code(make_zip=True, skill=RES, suffixe="monac")
+    root = full / "skills" / "scouts-ressources-monac"
+    assert r["root"] == root and not (full / "skills" / "scouts-ressources").exists()
+    front = yaml.safe_load((root / "SKILL.md").read_text(encoding="utf-8").split("---\n")[1])
+    assert front["name"] == "scouts-ressources-monac" and front["metadata"]["version"] == "1.2.3"
+    assert "- nom : scouts-ressources-monac" in (root / "MANIFEST.md").read_text(encoding="utf-8")
+    assert r["zip"] == full / "dist" / "scouts-ressources-monac.zip"
+    names = zipfile.ZipFile(r["zip"]).namelist()
+    assert "scouts-ressources-monac/SKILL.md" in names
+    assert all(n.startswith("scouts-ressources-monac/") for n in names)
+
+
+def test_sans_suffixe_pas_de_ligne_nom(full: Path):
+    root = build.build_claude_code(skill=RES)["root"]
+    assert "- nom :" not in (root / "MANIFEST.md").read_text(encoding="utf-8")
+
+
+@pytest.mark.parametrize("bad", ["Monac", "mo_nac", "-a", "a-", "a--b", "", "é", "x" * 60])
+def test_suffixe_invalide(full: Path, bad: str):
+    with pytest.raises(build.BuildError, match="suffixe"):
+        build.build_claude_code(skill=RES, suffixe=bad)
+
+
+def test_install_suffixe(full: Path, tmp_path: Path):
+    build.build_claude_code(skill=RES, suffixe="monac")
+    sd = tmp_path / "home" / "skills"
+    assert build.install_link(skills_dir=sd, skill=RES, suffixe="monac") == "créé"
+    assert (sd / "scouts-ressources-monac").resolve() == (full / "skills" / "scouts-ressources-monac").resolve()
+    assert not (sd / "scouts-ressources").exists()

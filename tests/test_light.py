@@ -239,3 +239,24 @@ def test_theme_manquant(skel: Path):
     p = skel / "savoirs" / "formation.md"
     p.write_text(SAVOIR.replace("theme: formation\n", ""), encoding="utf-8")
     assert any("clé `theme` manquante" in e for e in light.check(skel).errors)
+
+
+def test_build_light_suffixe(repo: Path, tmp_path: Path):
+    import zipfile
+    make_skeleton(repo / "skills-src" / "scouts")
+    out = tmp_path / "out"
+    r = build.build_claude_code(out=out, make_zip=True, skill="scouts", suffixe="monac")
+    root = out / "scouts-monac"
+    assert r["root"] == root and not (out / "scouts").exists()
+    text = (root / "SKILL.md").read_text(encoding="utf-8")
+    assert "name: scouts-monac\n" in text and "name: scouts\n" not in text
+    assert "- nom : scouts-monac" in (root / "MANIFEST.md").read_text(encoding="utf-8")
+    assert "scouts-monac/SKILL.md" in zipfile.ZipFile(repo / "dist" / "scouts-monac.zip").namelist()
+    assert build.install_link(out, tmp_path / "sk", "scouts", "monac") == "créé"
+    assert (tmp_path / "sk" / "scouts-monac").resolve() == root.resolve()
+
+
+def test_check_nom_attendu(skel: Path):
+    (skel / "SKILL.md").write_text(SKILL.replace("name: scouts", "name: scouts-monac"), encoding="utf-8")
+    assert any("doit valoir" in e for e in light.check(skel).errors)
+    assert light.check(skel, name="scouts-monac").errors == []

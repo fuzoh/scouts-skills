@@ -64,8 +64,27 @@ def default_out() -> Path:
     return reg.PACKS
 
 
-def stamp_skill(path: Path, skill: str) -> None:
-    """Ajoute `license` et `metadata` (version, source) au frontmatter du SKILL.md copié."""
+def default_perso_out() -> Path:
+    """Sortie par défaut d'un pack personnalisé : `build/`, git-ignoré (jamais `skills/`, commité)."""
+    return reg.ROOT / "build"
+
+
+SUFFIX_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
+
+
+def pack_name(skill: str, suffixe: str | None = None) -> str:
+    """Nom du pack : `<skill>` ou `<skill>-<suffixe>` (version dérivée, valide pour `light`)."""
+    if suffixe is None:
+        return skill
+    name = f"{skill}-{suffixe}"
+    if not SUFFIX_RE.match(suffixe) or len(name) > light.MAX_NAME:
+        raise BuildError(f"--suffixe `{suffixe}` invalide : minuscules, chiffres et tirets, "
+                         f"nom `{name}` d'au plus {light.MAX_NAME} caractères")
+    return name
+
+
+def stamp_skill(path: Path, skill: str, name: str | None = None) -> None:
+    """Ajoute `license` et `metadata` (version, source) au frontmatter du SKILL.md copié ; `name` le renomme."""
     text = path.read_text(encoding="utf-8")
     m = sp.FRONT_RE.match(text)
     if not m:
@@ -74,15 +93,22 @@ def stamp_skill(path: Path, skill: str) -> None:
     taken = [k for k in ("license", "metadata") if k in front]
     if taken:
         raise BuildError(f"{path} : `{'`, `'.join(taken)}` est injecté par `build`, à retirer de skills-src")
+    head = m.group(1)
+    if name and name != skill:
+        head, n = re.subn(r"^name:.*$", f"name: {name}", head, count=1, flags=re.MULTILINE)
+        if not n:
+            raise BuildError(f"{path} : `name` manquant dans le frontmatter")
     added = (f'license: "{LICENSES[skill]}"\n'
              "metadata:\n"
              f'  version: "{reg.project_version()}" # {VERSION_MARK}\n'
              f'  source: "{REPO_URL}"')
-    path.write_text(f"---\n{m.group(1)}\n{added}\n---\n{m.group(2)}", encoding="utf-8")
+    path.write_text(f"---\n{head}\n{added}\n---\n{m.group(2)}", encoding="utf-8")
 
 
-def manifest_head() -> list[str]:
+def manifest_head(name: str | None = None) -> list[str]:
+    """`name` : donné seulement pour une version dérivée (`--suffixe`)."""
     return ["# MANIFEST (généré par `build`, ne pas éditer)", "",
+            *([f"- nom : {name}"] if name else []),
             f"- version : {reg.project_version()} <!-- {VERSION_MARK} -->",
             f"- source : {REPO_URL}"]
 
@@ -170,8 +196,10 @@ def _write_zip(root: Path, dist: Path, name: str) -> Path:
     return zip_path
 
 
-def build_light(out: Path | None = None, make_zip: bool = False, dist: Path | None = None) -> dict[str, Any]:
+def build_light(out: Path | None = None, make_zip: bool = False, dist: Path | None = None,
+               suffixe: str | None = None) -> dict[str, Any]:
     """Pack `scouts` : copie de `skills-src/scouts/` + MANIFEST.md, après `light check`."""
+    name = pack_name(LIGHT_NAME, suffixe)
     out = out or default_out()
     skill_dir = reg.SKILLS / LIGHT_NAME
     if not (skill_dir / "SKILL.md").is_file():
@@ -180,34 +208,36 @@ def build_light(out: Path | None = None, make_zip: bool = False, dist: Path | No
     if rep.errors:
         raise BuildError(f"{LIGHT_NAME} invalide :\n" + "\n".join(f"  - {e}" for e in rep.errors))
 
-    root = out / LIGHT_NAME
+    root = out / name
     if root.exists() or root.is_symlink():
         shutil.rmtree(root) if root.is_dir() and not root.is_symlink() else root.unlink()
     shutil.copytree(skill_dir, root)
-    stamp_skill(root / "SKILL.md", LIGHT_NAME)
+    stamp_skill(root / "SKILL.md", LIGHT_NAME, name)
 
     derives: list[str] = []
     for slug, parts in light.referentiel_parts(skill_dir):
         front, _ = light.parse_front(parts[0].read_text(encoding="utf-8"))
         derives.append(f"- `{slug}` : derive_de `{(front or {}).get('derive_de')}`")
     manifest = [
-        *manifest_head(),
+        *manifest_head(suffixe and name),
         f"- fichiers : {rep.files + 1}",
         f"- mots : {rep.words}", "",
         "## Référentiels", "", *derives, "",
     ]
     (root / "MANIFEST.md").write_text("\n".join(manifest), encoding="utf-8")
-    zip_path = _write_zip(root, dist or reg.DIST, LIGHT_NAME) if make_zip else None
+    zip_path = _write_zip(root, dist or reg.DIST, name) if make_zip else None
     return {"root": root, "zip": zip_path, "files": rep.files + 1, "words": rep.words,
             "mb": _size_mb(root)}
 
 
 def build_claude_code(scope: str = "complet", out: Path | None = None, make_zip: bool = False,
-                      skill: str = LIGHT_NAME, dist: Path | None = None) -> dict[str, Any]:
+                      skill: str = LIGHT_NAME, dist: Path | None = None,
+                      suffixe: str | None = None) -> dict[str, Any]:
     if skill not in SKILLS:
         raise BuildError(f"--skill `{skill}` inconnu ({', '.join(SKILLS)})")
     if skill == LIGHT_NAME:
-        return build_light(out, make_zip, dist)
+        return build_light(out, make_zip, dist, suffixe)
+    name = pack_name(PACK_NAME, suffixe)
     if scope not in SCOPES:
         raise BuildError(f"--scope `{scope}` inconnu ({', '.join(SCOPES)})")
     out = out or default_out()
@@ -230,7 +260,7 @@ def build_claude_code(scope: str = "complet", out: Path | None = None, make_zip:
     if cite_errors:
         raise BuildError("\n".join(cite_errors))
 
-    root = out / PACK_NAME
+    root = out / name
     if root.exists() or root.is_symlink():
         shutil.rmtree(root) if root.is_dir() and not root.is_symlink() else root.unlink()
     (root / "references" / "concepts").mkdir(parents=True)
@@ -238,7 +268,7 @@ def build_claude_code(scope: str = "complet", out: Path | None = None, make_zip:
     (root / "corpus").mkdir()
 
     shutil.copy2(skill_dir / "SKILL.md", root / "SKILL.md")
-    stamp_skill(root / "SKILL.md", PACK_NAME)
+    stamp_skill(root / "SKILL.md", PACK_NAME, name)
     if (skill_dir / "references").is_dir():
         _copy_tree(skill_dir / "references", root / "references")
     if (skill_dir / "scripts").is_dir():
@@ -259,11 +289,11 @@ def build_claude_code(scope: str = "complet", out: Path | None = None, make_zip:
         dst.mkdir()
         idx = (reg.source_dir(sid) / "index.md").read_text(encoding="utf-8")
         (dst / "index.md").write_text(enrich_index(idx, s), encoding="utf-8")
-        for name in pack[sid]:
-            src = reg.source_dir(sid) / name
+        for fname in pack[sid]:
+            src = reg.source_dir(sid) / fname
             if not src.is_file():
-                raise BuildError(f"section `{name}` listée par `sources/{sid}/index.md` mais absente")
-            shutil.copy2(src, dst / name)
+                raise BuildError(f"section `{fname}` listée par `sources/{sid}/index.md` mais absente")
+            shutil.copy2(src, dst / fname)
             n_sections += 1
 
     def label(s: dict[str, Any]) -> str:
@@ -271,7 +301,7 @@ def build_claude_code(scope: str = "complet", out: Path | None = None, make_zip:
         return f"{s['id']}@{v}" if v else str(s["id"])
 
     manifest = [
-        *manifest_head(),
+        *manifest_head(suffixe and name),
         f"- scope : {scope}",
         f"- sources : {len(sources)}",
         f"- sections : {n_sections}",
@@ -283,20 +313,26 @@ def build_claude_code(scope: str = "complet", out: Path | None = None, make_zip:
 
     zip_path = None
     if make_zip:
-        zip_path = _write_zip(root, dist or reg.DIST, PACK_NAME)
+        zip_path = _write_zip(root, dist or reg.DIST, name)
     return {"root": root, "zip": zip_path, "sources": len(sources), "sections": n_sections,
             "referentiels": len(referentiels), "mb": _size_mb(root)}
 
 
-def install_link(out: Path | None = None, skills_dir: Path | None = None, skill: str = LIGHT_NAME) -> str:
-    """Lien `<skills_dir>/<skill>` → pack construit. Retourne « créé » ou « déjà installé »."""
+def install_link(out: Path | None = None, skills_dir: Path | None = None, skill: str = LIGHT_NAME,
+                 suffixe: str | None = None) -> str:
+    """Lien `<skills_dir>/<skill>[-suffixe]` → pack construit. Retourne « créé » ou « déjà installé ».
+
+    Sans `--out`, un pack suffixé se cherche dans `build/` (sortie par défaut de `--perso`), puis `skills/`."""
     if skill not in SKILLS:
         raise BuildError(f"--skill `{skill}` inconnu ({', '.join(SKILLS)})")
-    target = ((out or default_out()) / skill).resolve()
+    name = pack_name(skill, suffixe)
+    if out is None and suffixe and (default_perso_out() / name).is_dir():
+        out = default_perso_out()
+    target = ((out or default_out()) / name).resolve()
     if not target.is_dir():
         raise BuildError(f"{target} absent : lancer `build claude-code` d'abord")
     skills_dir = skills_dir or Path.home() / ".claude" / "skills"
-    link = skills_dir / skill
+    link = skills_dir / name
     if link.is_symlink():
         if link.resolve() == target:
             return "déjà installé"
@@ -308,6 +344,10 @@ def install_link(out: Path | None = None, skills_dir: Path | None = None, skill:
     return "créé"
 
 
+SUFFIXE_HELP = ("Version dérivée : le skill s'appelle <skill>-SUFFIXE (minuscules, chiffres, tirets), "
+                "installable à côté de l'officiel.")
+
+
 @app.command("claude-code")
 def claude_code(
     scope: str = typer.Option("complet", "--scope", help="complet | referentiels"),
@@ -315,10 +355,11 @@ def claude_code(
     zip_: bool = typer.Option(False, "--zip", help="Produit aussi <skill>.zip (claude.ai, Gemini)."),
     skill: str = typer.Option(LIGHT_NAME, "--skill", help="scouts | scouts-ressources"),
     dist: Path = typer.Option(None, "--dist", help="Dossier des zips (défaut dist/)."),
+    suffixe: str = typer.Option(None, "--suffixe", help=SUFFIXE_HELP),
 ) -> None:
     """Construit skills/<skill>/."""
     try:
-        r = build_claude_code(scope, out, zip_, skill, dist)
+        r = build_claude_code(scope, out, zip_, skill, dist, suffixe)
     except BuildError as exc:
         typer.echo(f"Build refusé : {exc}", err=True)
         raise typer.Exit(1)
@@ -330,11 +371,12 @@ def all_(
     out: Path = typer.Option(None, "--out", help="Dossier parent des packs (défaut skills/)."),
     zip_: bool = typer.Option(False, "--zip", help="Produit aussi les zips dans --dist."),
     dist: Path = typer.Option(None, "--dist", help="Dossier des zips (défaut dist/)."),
+    suffixe: str = typer.Option(None, "--suffixe", help=SUFFIXE_HELP),
 ) -> None:
     """Construit les deux packs (ce que la CI compare à skills/ commité)."""
     for skill in SKILLS:
         try:
-            r = build_claude_code("complet", out, zip_, skill, dist)
+            r = build_claude_code("complet", out, zip_, skill, dist, suffixe)
         except BuildError as exc:
             typer.echo(f"Build refusé ({skill}) : {exc}", err=True)
             raise typer.Exit(1)
@@ -358,10 +400,11 @@ def install(
     out: Path = typer.Option(None, "--out", help="Dossier parent du pack (défaut skills/)."),
     skills_dir: Path = typer.Option(None, "--skills-dir", help="Défaut ~/.claude/skills."),
     skill: str = typer.Option(LIGHT_NAME, "--skill", help="scouts | scouts-ressources"),
+    suffixe: str = typer.Option(None, "--suffixe", help=SUFFIXE_HELP),
 ) -> None:
     """Lie ~/.claude/skills/<skill> vers le pack construit."""
     try:
-        res = install_link(out, skills_dir, skill)
+        res = install_link(out, skills_dir, skill, suffixe)
     except BuildError as exc:
         typer.echo(f"Install refusée : {exc}", err=True)
         raise typer.Exit(1)
