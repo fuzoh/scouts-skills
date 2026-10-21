@@ -21,7 +21,6 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `msds-alpha-aide-memoire-rg@2017` — Alpha – Aide-mémoire du responsable de groupe (52 sections, [index](../../sources/msds-alpha-aide-memoire-rg/index.md))
 - `msds-ancre@Version 23` — L'Ancre – fil conducteur pour l'administration des cours MSdS (19 sections, [index](../../sources/msds-ancre/index.md))
 - `msds-hering-camps@2026-10-17` — Sardine (hering.scout.ch) – guide des démarches administratives pour les camps scouts (9 sections, [index](../../sources/msds-hering-camps/index.md))
-- `msds-pv-conference-formation-2026` — Procès-verbal de la conférence formation 2026 (12.09.2026, Berne) (11 sections, [index](../../sources/msds-pv-conference-formation-2026/index.md))
 - `msds-reglement-grandes-manifestations` — Règlement pour les grandes manifestations du Mouvement Scout de Suisse (11 sections, [index](../../sources/msds-reglement-grandes-manifestations/index.md))
 
 ## Concepts liés

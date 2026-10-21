@@ -16,10 +16,9 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-manuel-experts@2024, 2e édition remaniée` — Manuel J+S/esa pour les experts (63 sections, [index](../../sources/js-manuel-experts/index.md))
 - `js-manuel-experts-coachs@2024` — Manuel J+S pour les experts coachs J+S (32 sections, [index](../../sources/js-manuel-experts-coachs/index.md))
 - `msds-alpha-aide-memoire-rg@2017` — Alpha – Aide-mémoire du responsable de groupe (52 sections, [index](../../sources/msds-alpha-aide-memoire-rg/index.md))
-- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../sources/msds-conffor-2026-diapositives/index.md))
 - `msds-encadrement-scoutisme@2012` — L'encadrement au sein du scoutisme – comment épauler un groupe scout (28 sections, [index](../../sources/msds-encadrement-scoutisme/index.md))
 - `msds-retour-qualifier-accompagner@2026` — Faire un retour, qualifier et accompagner dans un cours (27 sections, [index](../../sources/msds-retour-qualifier-accompagner/index.md))
 
 ## Concepts liés
 
-[retour](retour.md), [coach-js](coach-js.md), [modele-de-formation](modele-de-formation.md), [qualification](qualification.md), [benevolat](benevolat.md), [evaluation](evaluation.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [securite](securite.md)
+[retour](retour.md), [coach-js](coach-js.md), [modele-de-formation](modele-de-formation.md), [benevolat](benevolat.md), [qualification](qualification.md), [evaluation](evaluation.md), [securite](securite.md), [expert-js](expert-js.md)

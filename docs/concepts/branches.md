@@ -25,7 +25,6 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cudesch-table-des-matieres` — cudesch – table des matières détaillée, avec correspondance aux contenus des cours de base et RU (1 section, [index](../../sources/cudesch-table-des-matieres/index.md))
 - `msds-caisse-de-cours@2026` — Contenu MSdS caisses de cours 2026 (1 section, [index](../../sources/msds-caisse-de-cours/index.md))
 - `msds-commande-hajk` — Commande hajk – formulaire de commande de matériel pour les cours (1 section, [index](../../sources/msds-commande-hajk/index.md))
-- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../sources/msds-conffor-2026-diapositives/index.md))
 - `msds-factsheet-profil` — Factsheet Profil du Scoutisme (nouvelle version 2025) (1 section, [index](../../sources/msds-factsheet-profil/index.md))
 - `msds-factsheet-profil-responsables` — Factsheet Profil du scoutisme pour responsables et participant·e·s aux cours (résumé à plier) (1 section, [index](../../sources/msds-factsheet-profil-responsables/index.md))
 - `msds-memento-responsable-patrouille@2021` — Étincelle – mémento pour les responsables de patrouille (11 sections, [index](../../sources/msds-memento-responsable-patrouille/index.md))
@@ -37,4 +36,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[methodes-scoutes](methodes-scoutes.md), [relations](relations.md), [profil-du-scoutisme](profil-du-scoutisme.md), [securite](securite.md), [planification](planification.md), [unite-d-apprentissage](unite-d-apprentissage.md), [caf](caf.md), [niveau-d-approfondissement](niveau-d-approfondissement.md)
+[methodes-scoutes](methodes-scoutes.md), [relations](relations.md), [securite](securite.md), [profil-du-scoutisme](profil-du-scoutisme.md), [planification](planification.md), [jeu](jeu.md), [camp](camp.md), [unite-d-apprentissage](unite-d-apprentissage.md)

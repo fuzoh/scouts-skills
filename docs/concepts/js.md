@@ -29,9 +29,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-structure-formation-sdct` — Structure de la formation J+S Sport de camp/Trekking (BDNS, versions jusqu'au 31.12.2026 et dès le 1.1.2027) (1 section, [index](../../sources/js-structure-formation-sdct/index.md))
 - `msds-camps-a-l-etranger@2024` — Camps à l'étranger (brochure MSdS 2140.03) (5 sections, [index](../../sources/msds-camps-a-l-etranger/index.md))
 - `msds-checklist-camps-a-l-etranger@révisée 2024` — Check-list camps à l'étranger (1 section, [index](../../sources/msds-checklist-camps-a-l-etranger/index.md))
-- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../sources/msds-conffor-2026-diapositives/index.md))
-- `msds-pv-conference-formation-2026` — Procès-verbal de la conférence formation 2026 (12.09.2026, Berne) (11 sections, [index](../../sources/msds-pv-conference-formation-2026/index.md))
 
 ## Concepts liés
 
-[sport-de-camp](sport-de-camp.md), [activite-de-camp](activite-de-camp.md), [planification](planification.md), [camp](camp.md), [securite](securite.md), [jeu](jeu.md), [coach-js](coach-js.md), [sport-des-enfants](sport-des-enfants.md)
+[sport-de-camp](sport-de-camp.md), [planification](planification.md), [camp](camp.md), [securite](securite.md), [activite-de-camp](activite-de-camp.md), [jeu](jeu.md), [coach-js](coach-js.md), [sport-des-enfants](sport-des-enfants.md)

@@ -16,7 +16,6 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-manuel-experts@2024, 2e édition remaniée` — Manuel J+S/esa pour les experts (63 sections, [index](../../sources/js-manuel-experts/index.md))
 - `js-manuel-experts-coachs@2024` — Manuel J+S pour les experts coachs J+S (32 sections, [index](../../sources/js-manuel-experts-coachs/index.md))
 - `js-planification-dans-le-sport@2016` — La planification dans le sport (11 sections, [index](../../sources/js-planification-dans-le-sport/index.md))
-- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../sources/msds-conffor-2026-diapositives/index.md))
 - `msds-le-cours@2026` — Le cours – concevoir, planifier, réaliser, évaluer (34 sections, [index](../../sources/msds-le-cours/index.md))
 - `msds-modele-de-formation@Version 2027` — Modèle de formation du Mouvement Scout de Suisse – directives générales, structure de la formation et descriptifs des cours (42 sections, [index](../../sources/msds-modele-de-formation/index.md))
 - `msds-retour-qualifier-accompagner@2026` — Faire un retour, qualifier et accompagner dans un cours (27 sections, [index](../../sources/msds-retour-qualifier-accompagner/index.md))

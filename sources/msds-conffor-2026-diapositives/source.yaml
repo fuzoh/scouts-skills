@@ -12,13 +12,12 @@ url: ''                                 # page d'origine canonique (pas le lien 
 file_url: ''                            # lien direct au fichier, "" pour web
 web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
 
-status: indexed  # collected | triaged | converted | indexed | verified | superseded | rejected
-decision: keep  # keep | rejected, rempli au triage
-rejected_reason: ''
+status: rejected
+decision: rejected
+rejected_reason: 'diapositives nominatives, surtout graphiques, non prescriptives ; le fond est dans les sources officielles ou repris avec la mention « conférence formation MSdS 2026, non ingérée » (décision du mainteneur, 2026-10-21)'
 extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
-fidelity: partial  # complete | partial ; vide = complete non évalué ; obligatoire à verified
-fidelity_notes: 'diapositives surtout graphiques : texte absent ou réduit au titre p.10-11, 15-16, 26, 29, 31, 39, 70-72 (images) ; premières lignes de titres manquantes (p.8-9, 12, 15, 19, 22, 25, 27, 29, 31, 39, 57) ; p.32 : sous-titres de la frise perdus ; p.2 : membre Kobold et « en cours de recrutement » perdus'  # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
-
+fidelity: ''
+fidelity_notes: ''
 version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
 published: 2026-09-12                   # date du document, null si inconnue
 retrieved: 2026-10-21                   # (script) date de téléchargement
@@ -31,13 +30,9 @@ nature: null                            # prescription | recommandation | exempl
 
 audience: [cadre-cantonal, formateur, expert-js] # responsable | formateur | expert-js | coach-js | cadre-cantonal
 themes: [formation, programme]          # vocabulaire dans docs/taxonomie.md
-concepts: [js, cofor, formes-caracteristiques, sport-de-camp, activite-de-camp, modele-de-formation, cours-de-base, cours-ru, caf, midata, administration-de-cours, unite-d-apprentissage, objectifs-d-apprentissage, niveau-d-approfondissement, qualification, retour, accompagnement, profil-du-scoutisme, relations, methodes-scoutes, branches, cudesch]  # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
-
+concepts: []
 supersedes: []                          # ids remplacés par cette source
 history: []                             # versions précédentes : {version, published, sha256, retired}
 
-notes: 'Diapositives de la conférence formation du 12.09.2026 (91 p.), exportées en PDF (pied de page 14.10.2026 sur certaines) ; texte d''accompagnement : msds-pv-conference-formation-2026, dont les renvois « Diapositives N-M » correspondent aux p.N-M ici. Signets « Folie N » inutiles : arbre refait à la main d''après raw.md (parties du PV : p.1-6 ouverture, 7-33 partie 1, 34-36 atelier, 37-39 partie 2, 40-41 déroulement, 42-65 littérature de formation, 66-85 profil, 86-91 clôture). Beaucoup de diapositives sont des graphiques ou des titres seuls : le fond figure dans le PV. p.10 (slide « Einordnung : Warum wurde Jugend+Sport überarbeitet ? », en allemand) et p.11 sans texte dans raw.md. p.24 : schéma de parcours (étiquettes sans flèches), p.23 : durées des modules de la nouvelle structure (cours d''introduction 4 jours, cours de moniteur·rice 6 jours pour personnes avec formation pédagogique, responsable de camp 4 jours, domaines de sécurité, cours d''expert·e 8-9 jours) en texte épars : voir le modèle de formation pour les valeurs faisant foi. p.50 : renvoi au « Methodisches Arrangement » (allemand). p.1 : mot de passe Wi-Fi de la salle en clair dans l''original et raw.md avant caviardage ; règle `redactions` sur la section 01-ouverture, texte brut et section caviardés. Lexique terminologique mentionné p.46 transmis avec la mise en consultation des brochures, non inclus. Non prescriptive (nature null).'  # remarques humaines : qualité, pièges, chapitres à ignorer
-redactions:  # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}
-- section: 01-ouverture
-  pattern: 'Wi-Fi\s*:\s*\S+\s*/\s*Mot\sde\spasse\s*:\s*\S+'
-  replace: '[identifiants retirés]'
+notes: ''
+redactions: []
