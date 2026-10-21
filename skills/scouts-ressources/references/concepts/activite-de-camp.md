@@ -32,10 +32,12 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-sdct-eau@2019, 2e édition actualisée` — Sport de camp/Trekking – Eau (15 sections, [index](../../corpus/js-sdct-eau/index.md))
 - `js-sdct-hiver@2019, 5e édition actualisée` — Sport de camp/Trekking – Hiver (14 sections, [index](../../corpus/js-sdct-hiver/index.md))
 - `js-sdct-montagne@2014` — Sport de camp/Trekking – Montagne (19 sections, [index](../../corpus/js-sdct-montagne/index.md))
+- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../corpus/msds-conffor-2026-diapositives/index.md))
 - `msds-essentiel-msds-js-2027` — L'essentiel du MSdS et de J+S pour les moniteur·rice·s (octobre 2026) (8 sections, [index](../../corpus/msds-essentiel-msds-js-2027/index.md))
 - `msds-exigences-js-2027-camps` — J+S 2027 – exigences pour les camps scouts (1 section, [index](../../corpus/msds-exigences-js-2027-camps/index.md))
 - `msds-flyer-smt` — Scout malgré tout (SMT) – flyer d'information (1 section, [index](../../corpus/msds-flyer-smt/index.md))
+- `msds-pv-conference-formation-2026` — Procès-verbal de la conférence formation 2026 (12.09.2026, Berne) (11 sections, [index](../../corpus/msds-pv-conference-formation-2026/index.md))
 
 ## Concepts liés
 
-[sport-de-camp](sport-de-camp.md), [planification](planification.md), [camp](camp.md), [securite](securite.md), [jeu](jeu.md), [trekking](trekking.md), [js](js.md), [fiche-d-activite](fiche-d-activite.md)
+[sport-de-camp](sport-de-camp.md), [planification](planification.md), [camp](camp.md), [securite](securite.md), [js](js.md), [jeu](jeu.md), [trekking](trekking.md), [fiche-d-activite](fiche-d-activite.md)

@@ -2,7 +2,7 @@
 titre: Rôles J+S en camp scout (moniteur, responsable de camp, coach, expert)
 theme: js
 sert_a: "Qui fait quoi côté J+S : moniteur SdC/T, responsable de camp, coach J+S, expert J+S, modules de sécurité, qui lit ou autorise"
-derive_de: [js-guide-offres-sct, js-aide-memoire-prevention-accidents-sct, msds-hering-camps, js-manuel-sport-de-camp-trekking, js-sdct-camp, msds-reglement-de-camp, msds-autorisation-de-camp, msds-essentiel-msds-js-2027, js-structure-formation-sdct, concepts coach-js et expert-js]
+derive_de: [js-guide-offres-sct, js-aide-memoire-prevention-accidents-sct, msds-hering-camps, js-manuel-sport-de-camp-trekking, js-sdct-camp, msds-reglement-de-camp, msds-autorisation-de-camp, msds-essentiel-msds-js-2027, js-structure-formation-sdct, msds-pv-conference-formation-2026, msds-conffor-2026-diapositives, concepts coach-js et expert-js]
 statut: valide
 ---
 
@@ -17,13 +17,14 @@ statut: valide
 
 ## Moniteur SdC/T
 
-- Jusqu'en 2026, la reconnaissance dépend du groupe cible : enfants, jeunes, ou les deux pour un groupe mixte ; sinon on engage un moniteur supplémentaire avec la reconnaissance manquante (guide des offres 2023). Dès 2027, une seule reconnaissance couvre les 5 à 20 ans (exigences J+S 2027).
+- Jusqu'en 2026, la reconnaissance dépend du groupe cible : enfants, jeunes, ou les deux pour un groupe mixte ; sinon on engage un moniteur supplémentaire avec la reconnaissance manquante (guide des offres 2023). Dès 2027, une seule reconnaissance « moniteur J+S Sport de camp/Trekking » couvre les 5 à 20 ans (exigences J+S 2027) ; les reconnaissances existantes y sont transférées et leur statut de validité ne change pas.
 - Un moniteur dirige chaque sous-groupe d'activité J+S.
 - Le cours de moniteurs porte sur les activités ; la planification générale et la gestion d'un camp relèvent de la formation continue de responsable de camp (manuel Sport de camp / Trekking).
 
 ## Responsable de camp
 
-- Au moins deux moniteurs dirigent le camp, dont un avec le complément « chef de camp » pour 2026 (guide des offres 2023), nommé « Responsable de camp » dès 2027 (newsletter MSdS 2027).
+- Au moins deux moniteurs dirigent le camp, dont un avec le complément « chef de camp » pour 2026 (guide des offres 2023), nommé « Responsable de camp » dès 2027 (newsletter MSdS 2027, modèle de formation). La newsletter formation d'octobre 2026 écrit encore « chef·fe de camp » pour 2027 : même complément.
+- Le complément s'obtient par la formation continue J+S « Responsable de camp » (4 jours chez J+S), qui correspond chez les scouts au cours RU (formation).
 - Dans la Sardine, le responsable de camp est le moniteur qui fait les démarches : annonce MiData, dossier, liste des participants, clôture. Voir le savoir sur les démarches de camp.
 - Dans un camp scout, la responsabilité du programme est partagée avec le RG et le coach.
 
@@ -38,6 +39,7 @@ statut: valide
 - Il décide avec le responsable de camp quand et sous quelle forme le programme est prêt, et si le camp contient un domaine de sécurité.
 - Il signe l'autorisation avec le RG ; pour un domaine de sécurité il consulte l'expert mais signe lui-même.
 - Il représente l'organisation face au service cantonal J+S et à l'OFSPO.
+- Passage à 2027 (MSdS, octobre 2026) : si personne de la maîtrise de camp ne suit de cours de base, de cours RU ou de module J+S en 2027, le coach présente lui-même les nouvelles règles aux responsables de camp dès que possible et les aide à bâtir le programme général. Les cours et modules J+S scouts transmettent ces règles dès 2027, la formation des coachs aussi ; en cas de doute : module de perfectionnement coach de sa région ou responsable cantonal de l'encadrement.
 
 ## Expert J+S
 
@@ -50,7 +52,8 @@ statut: valide
 
 - Trois domaines de sécurité : montagne, hiver, eau. Leurs activités sont soumises à des dispositions de sécurité particulières.
 - Les responsables qui les conduisent ont la reconnaissance complémentaire du module de sécurité correspondant (Sardine).
-- Autres modules de formation continue SdC/T (structure de formation J+S) : Responsable de camp, prévention, activités SdC/T, technique de cordes et constructions, module de perfectionnement pour moniteurs.
+- Formation continue « Foundation » (dès 2027, après le cours de moniteurs) : des offres qui mènent à une reconnaissance supplémentaire (Responsable de camp, domaine de sécurité Hiver, Eau ou Montagne, 4 jours chez J+S) et des modules sans reconnaissance supplémentaire (activités SdC/T, nature et environnement, durabilité, diversité et inclusion, prévention, techniques de cordes et constructions, hiver, eau, montagne). L'ancien module de perfectionnement aux thèmes alternés disparaît. Durées scoutes : le modèle de formation fait foi (formation-cours-continue).
+- Devenir expert : après la formation de base, au moins deux offres de formation continue Foundation, dont au moins une avec reconnaissance supplémentaire, puis le cours Top (formation).
 
 ## Rôles scouts à côté de J+S
 

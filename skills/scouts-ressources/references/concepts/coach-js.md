@@ -28,6 +28,8 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-manuel-coach@2023` — Manuel des coachs J+S (15 sections, [index](../../corpus/js-manuel-coach/index.md))
 - `js-manuel-experts-coachs@2024` — Manuel J+S pour les experts coachs J+S (32 sections, [index](../../corpus/js-manuel-experts-coachs/index.md))
 - `js-manuel-sport-de-camp-trekking@2026` — Manuel Sport de camp / Trekking pour les enfants et les jeunes (45 sections, [index](../../corpus/js-manuel-sport-de-camp-trekking/index.md))
+- `js-module-directives-sdct@2026-10-21` — Directives Sport de camp/Trekking (module d'information J+S, dès 2027) (1 section, [index](../../corpus/js-module-directives-sdct/index.md))
+- `js-module-planifier-activite-js@2026-10-21` — Planifier une bonne activité J+S (module d'information J+S, exemples 2027) (1 section, [index](../../corpus/js-module-planifier-activite-js/index.md))
 - `js-planification-dans-le-sport@2016` — La planification dans le sport (11 sections, [index](../../corpus/js-planification-dans-le-sport/index.md))
 - `js-sdct-camp@2014` — Sport de camp/Trekking – Camp (23 sections, [index](../../corpus/js-sdct-camp/index.md))
 - `js-securite-l-essentiel@2021` — La sécurité dans Jeunesse+Sport – l'essentiel en bref (1 section, [index](../../corpus/js-securite-l-essentiel/index.md))
@@ -42,4 +44,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[securite](securite.md), [camp](camp.md), [sport-de-camp](sport-de-camp.md), [planification](planification.md), [accompagnement](accompagnement.md), [expert-js](expert-js.md), [evaluation](evaluation.md), [relations](relations.md)
+[securite](securite.md), [sport-de-camp](sport-de-camp.md), [camp](camp.md), [planification](planification.md), [accompagnement](accompagnement.md), [expert-js](expert-js.md), [evaluation](evaluation.md), [relations](relations.md)

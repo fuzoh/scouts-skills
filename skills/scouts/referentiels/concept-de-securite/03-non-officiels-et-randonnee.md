@@ -12,8 +12,8 @@ Jamais bloquants ; à formuler comme conseils ou pratiques.
 [non officiel] Avertissement en tête du CdS pour les activités à risque élevé : activité à risque, personnes compétentes seulement, référent nommé et doubleur.
 [non officiel] Activité à risque élevé : essais progressifs, liberté de participer, fatigue des responsables prise en compte.
 [non officiel] Tyrolienne ou activité sur l'eau : CdS d'activité avec matrice des risques recommandé ; randonnée : CdS avec 3x3.
-[non officiel] Matrice en deux temps (initiale, mesures, finale), trois zones, mesures déplaçant le risque en diagonale, risque résiduel ; zones de tolérance selon l'expérience des responsables. Outil recommandé pour les activités à risque, jamais obligatoire.
-[non officiel] Le CdS d'activité n'a pas toujours besoin d'une procédure d'urgence propre si le CdS global suffit.
+[non officiel] Matrice en deux temps (initiale, mesures, finale), mesures déplaçant le risque en diagonale ; zones de tolérance selon l'expérience des responsables. Outil recommandé pour les activités à risque, jamais obligatoire ; la règle des trois zones et le risque résiduel sont officiels (Q30).
+[non officiel] Le CdS d'activité n'a pas toujours besoin d'une procédure d'urgence propre si le CdS global suffit (le module J+S admet que la seconde partie reprenne le CdS du camp, Q31).
 [non officiel] Fiche d'activité : mini-analyse des risques (« risque -> mesure ») sans répéter le CdS global, avec renvoi au CdS séparé si nécessaire (trame cantonale).
 [non officiel] Randonnée : points numérotés sur la carte reportés dans le profil (coordonnées ou lieux-dits univoques) ; points de profil placés pour qu'aucune cuvette ni bosse ne soit gommée.
 [non officiel] Responsabilités nommées dans tout le CdS sauf la réaction d'urgence ; rubriques d'un CdS d'activité à risque : n° et titre, date, responsables, groupe, lieu, type et domaine, mesures, critère d'annulation, alternative, règles, matériel, gestion de crise (trame cantonale).
@@ -23,7 +23,8 @@ Jamais bloquants ; à formuler comme conseils ou pratiques.
 - Carte avec itinéraire, points de danger, de pause, de sortie, de non-retour ; dispositif de marche avec temps calculé et pauses (Sardine ; aide-mémoire J+S, volet montagne).
 - CdS de randonnée : 3x3 (identification), puis mesures et urgence ; le 3x3 identifie, le CdS répond.
 - Le CdS de randonnée règle : rôles dans la maîtrise (pilote, lampe à l'arrière), règles de comportement, points de sortie et critères de demi-tour, équipement, passages clés ; carte actuelle (1:25 000), papier en secours ; personne extérieure informée du trajet et de l'heure de retour (cudesch Sécurité).
-- Le dispositif de marche accompagne le CdS ; il ne le remplace pas et n'est pas évalué ici (voir activite-js).
+- Le dispositif de marche accompagne le CdS ; il ne le remplace pas et n'est pas évalué ici (voir activite-js). Il se calcule en kilomètres-effort (1 kme = 1 km à plat = 100 m de montée = 150 m de descente raide) entre les points clés, qui découpent l'itinéraire en tronçons (module J+S « Planifier une randonnée », 2026).
+- Reconnaissance recommandée pour toute randonnée, indispensable dans les Alpes, les Préalpes, le Jura et à l'étranger (N13) ; un moyen d'orientation non électronique, de préférence une grande carte papier, toujours sur soi (module J+S « Planifier une randonnée », 2026).
 
 ## Exemples officiels
 Exemples du cudesch Sécurité, un par type d'activité ; *concevoir* s'en inspire pour la structure, *expliquer* y renvoie, jamais exigés (le contenu de l'exemple n'est pas un critère).
@@ -33,3 +34,4 @@ Exemples du cudesch Sécurité, un par type d'activité ; *concevoir* s'en inspi
 - Sarasine : montage, utilisation et contrôle quotidien d'une grande construction.
 - Baignade : encadrement formé SSS, orage, alternative en piscine.
 - Randonnée : encadrement par patrouille, annulation, itinéraire de repli.
+- Randonnée de 22 kme dans les Alpes en avril (exemple J+S, module J+S « Sécurité dans la planification », 2026) : 3x3 (neige résiduelle, passages raides, route, groupe peu expérimenté), cinq risques (avalanche, chute, hypothermie, collision sur la route, épuisement), préparation à l'urgence en lieu isolé ; la même randonnée en réalisation (pluie, glissades, retard, demi-tour décidé en maîtrise) (module J+S « Sécurité dans la réalisation », 2026).

@@ -1,8 +1,8 @@
 ---
 titre: Sécurité, principes, activités dangereuses et concepts de sécurité
 theme: securite
-sert_a: "Concept de sécurité (CdS), quand il est requis ou non, trois types de CdS et contenu, 3x3"
-derive_de: [cudesch-securite, js-aide-memoire-3x3-en-route, js-aide-memoire-prevention-accidents-sct, "concepts: securite, methode-3x3"]
+sert_a: "Concept de sécurité (CdS), quand il est requis, trois types et contenu, 3x3, cycle J+S identifier-classifier-adapter, matrice, sécurité pendant l'activité"
+derive_de: [cudesch-securite, js-aide-memoire-3x3-en-route, js-aide-memoire-prevention-accidents-sct, js-module-securite-planification, js-module-securite-realisation, "concepts: securite, methode-3x3"]
 statut: valide
 ---
 
@@ -62,3 +62,20 @@ Pas de forme imposée : document séparé, annexe ou section de la fiche. Il tie
 Trois facteurs : conditions (météo, saison, heure), terrain et environs, groupe (maîtrise comprise). Trois moments : à la maison (hypothèses), sur place avant l'activité (sont-elles confirmées ?), pendant l'activité (comment évoluent les facteurs ?). À chaque ligne : de nouveaux dangers ? Les mesures sont-elles à adapter ?
 
 Le 3x3 sert d'abord aux activités itinérantes (randonnée, raquettes, descente de rivière) mais convient à toute activité dangereuse. Il identifie les dangers, le CdS répond. Lignes « sur place » et « pendant » : questions posées plus tard, légitimes.
+
+## Cycle J+S de gestion des risques (2026)
+
+Les modules d'apprentissage J+S « Sécurité dans la planification » et « Sécurité dans la réalisation » (octobre 2026, avec « Planifier une randonnée », à suivre dans cet ordre) donnent un cycle en trois étapes, plus une quatrième pour l'urgence. Commencer par vérifier dans l'aide-mémoire J+S Prévention des accidents si l'activité est permise et à quelles conditions (activités exclues, domaines de sécurité).
+
+| Étape | En planification | Pendant l'activité |
+|---|---|---|
+| Identifier | dangers venant de l'activité, du lieu et du matériel ; 3x3, déroulement précis, liste de matériel | surveiller : l'activité et les facteurs externes s'écartent-ils du plan ? |
+| Classifier | probabilité et ampleur du dommage ; matrice des risques | nouveau danger : l'évaluer de la même façon, au besoin pendant une pause |
+| Adapter | mesures qui réduisent la probabilité ou le dommage : modifier l'activité, fixer un cadre et des règles, choisir le matériel, poser des critères d'annulation ou d'interruption | adapter ou interrompre, et expliquer la décision au groupe |
+| Urgence | procédure claire et rôles fixés d'avance (le stress réduit la réflexion) | appliquer la procédure prévue |
+
+- Faire le cycle au moins deux fois : à la planification, puis sur place avant de commencer ; lever avant le début les zones d'ombre qui restent. Pendant l'activité, revenir à l'étape 1 après chaque adaptation.
+- Matrice : zone verte, risque acceptable ; jaune, à réduire si possible ; rouge, mesures obligatoires. Le classement reste subjectif ; d'autres moniteurs ou le coach peuvent juger autrement. Question finale : ce risque résiduel, suis-je prêt à l'assumer ?
+- Les mesures qui ne tiennent pas dans le déroulement ou la liste de matériel vont dans le concept de sécurité, exigé pour les domaines de sécurité et les randonnées ; le module le présente comme un document séparé, « souvent utile », sans imposer de forme au-delà. Sa partie urgence peut reprendre ou compléter le concept global du camp.
+- Pendant l'activité : faire le point régulièrement (pendant une pause, ou en déléguant la conduite) ; garder les documents à portée de main et comparer avec ce qu'on voit ; écouter les autres moniteurs et les participants ; expliquer ses décisions, ce qui développe aussi la compétence de risque des jeunes ; déléguer météo, itinéraire, serre-file ou motivation pour rester libre de décider.
+- Lieu isolé : l'aide tarde ; prévoir abris, protection contre le froid, pharmacie complète, assez de moniteurs pour les non-blessés, couverture réseau vérifiée à la reconnaissance.

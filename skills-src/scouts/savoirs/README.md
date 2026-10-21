@@ -18,9 +18,9 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 
 | fichier | sert à |
 |---|---|
-| `js-2026-2027.md` | J+S en camp scout, changements jusqu'au 31.12.2026 et dès le 01.01.2027, AC/SC, activité J+S, temps par jour, blocs, effectif minimal, encadrement, durée |
+| `js-2026-2027.md` | J+S en camp, 2026 contre 2027 : AC/SC, activité J+S, journée J+S, temps sportif et exemples, offre, jour sans J+S, effectif, encadrement, durée |
 | `js-coach.md` | Coach J+S, offre, BDNS, données de base, contrôle des activités, présences, clôture, subventions, cartes, prestations spéciales, SAPC, check-lists |
-| `js-formes-domaines-itinerant.md` | Six domaines d'AC, types de SC, six formes caractéristiques, formes d'activité, activités itinérantes, jeu 2026 et jeu 2027 |
+| `js-formes-domaines-itinerant.md` | Six domaines d'AC, types de SC, six formes caractéristiques, facteurs de développement, formes d'activité, cycle de planification J+S, activités itinérantes |
 | `js-roles.md` | Qui fait quoi côté J+S : moniteur SdC/T, responsable de camp, coach J+S, expert J+S, modules de sécurité, qui lit ou autorise |
 
 ## Sécurité, urgence et protection
@@ -33,7 +33,7 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | `securite-eau-pratique.md` | Activité à l'eau avec enfants, surveillance, test CSA, noyade, jeux, urgence, module J+S Eau, module de sécurité, SSS, BLS-AED, équivalences, coûts |
 | `securite-facteur-humain.md` | Erreurs de maîtrises expérimentées, perception, pression du groupe, décider et renoncer, devoir de protection et de diligence, responsabilité |
 | `securite-randonnee.md` | Randonnée sûre, temps de marche (kme/h), sorties, demi-tour, non-retour, passages clés, rôles de marche |
-| `securite.md` | Concept de sécurité (CdS), quand il est requis ou non, trois types de CdS et contenu, 3x3 |
+| `securite.md` | Concept de sécurité (CdS), quand il est requis, trois types et contenu, 3x3, cycle J+S identifier-classifier-adapter, matrice, sécurité pendant l'activité |
 | `urgence-et-protection.md` | Accident, schéma ORA, annonce, numéros officiels, aide-mémoire J+S, crise, soupçon d'abus, Helpline, cellule de crise, PSA, médias, pharmacie |
 
 ## Profil, programme et branches
@@ -47,7 +47,7 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | `branche-route.md` | Route dès 17 ans, trois rôles, clan, clan de projet, projet, expédition, veillée Route, service, encadrement, formation, pièges |
 | `branche-smt.md` | SMT, modèles séparatif, intégratif, inclusif, créer un groupe, responsables, modèle 6+1, camps, médicaments, hygiène, sexualité, déficiences |
 | `branches.md` | Cinq branches, tranches d'âge, classes HarmoS, devise, forme de groupe, rythme, forme d'activité, SMT, changement de branche |
-| `profil-et-pedagogie.md` | Fondements pédagogiques MSdS, but, cinq relations, huit méthodes scoutes, programme trimestriel, planifier une activité et une séance |
+| `profil-et-pedagogie.md` | Profil du scoutisme 2025 : but, cinq relations (besoins), huit méthodes, branches de besoins, cycle du programme, factsheets, programme trimestriel, activité |
 | `programme-essence.md` | Thème, fil rouge, courbe de suspense, équilibre du programme, week-end, séance pour nouveaux, promesse, totémisation, moment calme, évaluation |
 | `programme-identite.md` | Baden-Powell, mouvement mondial, loi, promesse, devises, symboles, chemise, foulard, totem, centres internationaux, niveaux du MSdS, vocabulaire |
 | `programme-patrouille.md` | Patrouille Éclais, RP, RP adjoint, choisir et encadrer un RP, moments, activités, balades, nuits en patrouille, conseil de patrouille |
@@ -72,7 +72,7 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | `inclusion-diversite.md` | Inclusion, discrimination, obstacles, accueil, finances, langage inclusif, genre, trans, inter, racisme, migration, asile, religion, check-list, guide 11 étapes |
 | `inclusion-handicap.md` | Handicap, séparation, intégration, inclusion, adapter jeux et consignes, types de handicap, sécurité, parents, encadrement, réseau d'aide |
 | `prevention-abus.md` | Abus sexuels, limites, situations à risque (massages, tiques, WC, dortoir, douches, photos), proximité, 7 points de prévention, signaux, qui informer |
-| `prevention-violence-et-sante.md` | Violence, exclusion, agression, insulte raciste, Twitterbox, obligation de signaler, valeurs, charte d'équipe, règles de comportement |
+| `prevention-violence-et-sante.md` | Violence, exclusion, agression, racisme (identifier, réagir, après l'activité), Twitterbox, obligation de signaler, valeurs, charte d'équipe, règles J+S |
 
 ## Groupe, maîtrise et encadrement
 
@@ -86,8 +86,8 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 
 | fichier | sert à |
 |---|---|
-| `formation-administration.md` | Délais de cours, annonce, sommaire des UA, programme détaillé, autorisation, évaluation, dossier du CàF, MiData, BDNS, saisie des qualifications |
-| `formation-checklists-cours.md` | Check-lists cofor, cours de base, cours RU, approfondissements Castors, Louveteaux, Éclais, durées minimales J+S, buts personnels |
+| `formation-administration.md` | Délais de cours, annonce, sommaire des UA, programme détaillé, autorisation, évaluation EvalJS, matériel de prêt, MiData, BDNS, saisie des qualifications |
+| `formation-checklists-cours.md` | Check-lists cofor 2027, cours de base, cours RU, approfondissements Castors, Louveteaux, Éclais, Picos, Route, durées minimales J+S, buts personnels |
 | `formation-communication.md` | Quatre becs et quatre oreilles, axiomes, consigne, écoute, message je, animer une séance, perturbations, conflit, parler en public, non verbal |
 | `formation-cours-base.md` | Cours RP, Picos, Futura, SdC/T, cours de base, cours RU : conditions, buts, objectifs numérotés, niveaux d'approfondissement |
 | `formation-cours-cadres.md` | Cours Panorama, Gilwell, RG, préparatoire, coach, Top, CàF et perfectionnements : conditions, buts, objectifs numérotés, niveaux |
@@ -97,6 +97,6 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | `formation-methodes-animation.md` | Méthodes en mouvement, FRTE, images fixes, vidéo, feed-back par l'image, séquences numériques, Communagir, Liberating Structures (non officiel) |
 | `formation-pano-et-rg.md` | Cours Panorama (projet, processus de groupe, numéros de cours), cours RG (planification, équipe, contenus), distinction RU, Pano, coach, Spectre, Gilwell |
 | `formation-rqa.md` | Qualification, observations, retours, entretiens, accompagnement, exigences minimales, décision réussi / non réussi, séquencé ou continu |
-| `formation-ua.md` | UA (ex-point de cours), objectif d'apprentissage, PATExE (chaque lettre), GAG, formes d'enseignement, formes sociales, dispositifs |
+| `formation-ua.md` | UA (ex-point de cours), objectif d'apprentissage, taxonomie, PATExE, GAG, dispositif pédagogique, forme d'enseignement, formes sociales, termes 2026 |
 | `formation-vae.md` | VAE, valoriser ses acquis scouts hors scoutisme, tableaux, compétences RU, RG, formateur, entretien, lettre, attestations |
 | `formation.md` | Modèle de formation, échelle des cours scouts, durée, âge minimal, préalables, liaison J+S, direction de cours, formateur, CàF, expert J+S |

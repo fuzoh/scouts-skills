@@ -22,7 +22,11 @@
 - GAG est une méthode J+S (Q12), pas un sigle interne ; IFV n'est défini nulle part et n'est plus proposé (voir Critères non officiels). Des combinaisons libres de lettres PATExE (« PA », « TExE ») sont fréquentes ; ne pas les corriger si l'ordre se justifie.
 - **Demander le sommaire des UA** avant de signaler l'absence de conditions cadres, de niveau taxonomique, de dispositif, de durée ou d'objectifs dans une fiche : le sommaire du cours les porte (brochure « Le cours »). Ne signaler un manque que si ni l'UA ni le sommaire ne le portent.
 - Les canevas Top et J+S cantonal ne demandent ni conditions cadres, ni niveau, ni dispositif ; le J+S cantonal ajoute « Observations pour la qualification » et « Évaluation du point de cours ». Ce sont des formats acceptés ; juger le contenu, pas le formulaire.
-- La taxonomie maison à quatre niveaux (0 à 3, équivalents Bloom) ne remplace pas celle du modèle de formation. Traduire en Bloom pour expliquer, sans l'exiger.
+- Une numérotation 0 à 3 n'est plus une taxonomie maison : c'est celle de la brochure « Le cours » révisée (0 Vivre, 1 Mémoriser / Comprendre, 2 Appliquer / Analyser, 3 Évaluer / Créer), alignée sur le modèle de formation 2027. Une autre échelle (Bloom à six niveaux, échelle d'équipe) se traduit vers ces quatre niveaux ; Bloom explique, il n'est pas exigé.
+- Terminologie révisée en français : participant·e → apprenant·e, point de cours → unité d'apprentissage, ensemble de points de cours → module, encourager (« fördern ») → accompagner, cours de formation → cours (diapositives de la conférence formation MSdS 2026). Les deux vocabulaires se lisent ; ne pas corriger l'un par l'autre.
+- Forme d'enseignement : catégorisation des méthodes d'animation, étape facultative de la planification d'une UA dans la brochure verte révisée. La proposer, jamais la réclamer.
+- Qualification en continu ou séquencée : la brochure orange révisée distingue les deux et met l'accent sur la qualification en continu ; pour l'UA, seule compte la place laissée à l'observation (Q21), le reste relève du futur référentiel qualification.
+- EvalJS (questionnaire J+S en ligne du dernier jour, 10 minutes, trois questions libres au plus, évaluation immédiate discutée en fin de cours) évalue le cours ou le module J+S, pas l'UA ; il ne remplace pas l'évaluation de l'UA, Q24 (module J+S « Mise en œuvre de l'évaluation »).
 - Les équipes citent rarement les brochures MSdS et réinventent leurs critères ; renvoyer aux brochures sans reproche.
 - Ne pas confondre le niveau d'approfondissement du contenu (modèle de formation) et le niveau de l'objectif de l'UA : l'objectif détaille le contenu, il ne le change pas.
 - Une UA de niveau « Vivre » n'exige pas forcément un descriptif formel avec objectifs Bloom (brochure « Le cours »).
@@ -35,7 +39,7 @@
 1. Partir du sommaire des UA du cours : contenu, objectif, niveau, durée, dispositif.
 2. Analyser sujet, conditions cadres, formateurs, apprenants.
 3. Écrire 1 à 3 objectifs d'apprentissage : verbe observable du niveau voulu, réalistes pour la durée (N3, Q13-Q15) ; au niveau « Vivre », un objectif de vécu (Q16).
-4. Choisir la structure (PATExE par défaut ; GAG pour une UA technique ou de jeu, Q12), puis une méthode d'animation et une forme sociale par partie ; l'Expérimentation reprend le verbe de l'objectif (Q9).
+4. Choisir la structure (PATExE par défaut ; GAG pour une UA technique ou de jeu, Q12), puis une méthode d'animation et une forme sociale par partie, éventuellement rangée dans une forme d'enseignement (facultatif) ; l'Expérimentation reprend le verbe de l'objectif (Q9).
 5. Remplir le descriptif selon la check-list (Q1-Q3), dans le canevas du cours (Top, J+S cantonal ou autre) ; matériel, supports, responsabilités, références. Relire chaque partie contre les objectifs : chacun est travaillé puis vérifié quelque part (N4).
 6. Prévoir un moment d'observation si une exigence minimale s'y rattache, et une évaluation (Q21, Q24).
 7. Faire relire, traiter les retours, animer, évaluer, archiver (Q23, Q24).

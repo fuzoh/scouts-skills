@@ -1,14 +1,16 @@
 ---
 titre: Check-lists cofor des cours de base, RU et approfondissements de branche, listes de buts personnels
 theme: formation
-sert_a: "Check-lists cofor, cours de base, cours RU, approfondissements Castors, Louveteaux, Éclais, durées minimales J+S, buts personnels"
-derive_de: [cofor-checklist-cours-base, cofor-checklist-cours-ru, cofor-approfondissement-castors, cofor-approfondissement-louveteaux, cofor-approfondissement-eclais, cofor-liste-buts-cours-base, cofor-liste-buts-cours-ru, "concepts: cours-de-base, cours-ru, niveau-d-approfondissement"]
+sert_a: "Check-lists cofor 2027, cours de base, cours RU, approfondissements Castors, Louveteaux, Éclais, Picos, Route, durées minimales J+S, buts personnels"
+derive_de: [cofor-checklist-cours-base, cofor-checklist-cours-ru, cofor-approfondissement-castors, cofor-approfondissement-louveteaux, cofor-approfondissement-eclais, cofor-approfondissement-picos, cofor-approfondissement-route, msds-pv-conference-formation-2026, cofor-liste-buts-cours-base, cofor-liste-buts-cours-ru, "concepts: cours-de-base, cours-ru, niveau-d-approfondissement"]
 statut: valide
 ---
 
 ## Date et statut
 
-Les check-lists (base, RU, approfondissements Castors, Louveteaux, Éclais) datent d'août et septembre 2026 (RU : août ; les autres : septembre) et dérivent du modèle de formation 2027 du MSdS et du cadre de référence J+S correspondant : elles s'appliquent aux cours dès le 01.01.2027 (la check-list de base ne porte pas elle-même de date d'application ; elle suit le modèle 2027). Pour un cours avant cette date, demander au CàF la référence applicable (formation). Leurs objectifs sont cités « MSdS x.y » (objectif du modèle de formation) ou « J+S x.y » ; pour le cours RU, « J+S (A) x.y » désigne le module Activités SdC/T.
+Les check-lists (base, RU, approfondissements Castors, Louveteaux, Éclais, Picos, Route) datent d'août et septembre 2026 (RU : août ; les autres : septembre) et dérivent du modèle de formation 2027 du MSdS et du cadre de référence J+S correspondant : elles s'appliquent aux cours dès le 01.01.2027 (la check-list de base ne porte pas elle-même de date d'application ; elle suit le modèle 2027). Pour un cours avant cette date, demander au CàF la référence applicable (formation). Leurs objectifs sont cités « MSdS x.y » (objectif du modèle de formation) ou « J+S x.y » ; pour le cours RU, « J+S (A) x.y » désigne le module Activités SdC/T.
+
+Elles existent pour tous les cours MSdS liés obligatoirement à un cours J+S. Ce qui change par rapport aux anciennes (conférence formation 2026) : plus de signature, l'envoi par Orbit vaut confirmation ; les contenus J+S sont reliés aux contenus MSdS quand c'est possible, ceux sans équivalent MSdS ressortent en couleur ; l'objectif d'origine de chaque contenu est indiqué ; les renvois aux moyens d'enseignement disparaissent (utiliser le cudesch numérique et la page « cudesch » de pfadi.swiss). La check-list Route n'existe qu'en allemand (« Vertiefung Roverstufe »).
 
 Les deux listes de buts personnels datent de 2020 : usage pédagogique, sans lien avec une règle 2026 ou 2027.
 
@@ -41,7 +43,7 @@ La confirmation atteste que le contenu respecte les dispositions du MSdS et de J
 |---|---|---|---|
 | Cours de base | 36 heures | 7 à 9 jours | cours de moniteur J+S (branche choisie parmi Castors, Louveteaux, Éclais, Picos, Route) |
 | Cours RU | 30 heures | 7 à 9 jours | cours de responsable de camp SdC/T et module Activités SdC/T |
-| Approfondissement Castors, Louveteaux ou Éclais | 6 heures | 2 à 5 jours | formation continue Foundation Activités SdC/T |
+| Approfondissement Castors, Louveteaux, Éclais, Picos ou Route | 6 heures | 2 à 5 jours | formation continue Foundation Activités SdC/T |
 
 Conditions, buts et objectifs numérotés de ces cours : (formation-cours-base) et (formation-cours-continue). Ce savoir n'en reprend que la traduction en contenus.
 
@@ -73,7 +75,7 @@ Plus les « autres contenus » communs au cours de base (rétrospective, listes 
 
 ## Approfondissements Castors, Louveteaux, Éclais
 
-Les trois check-lists ont la même structure : trois blocs plus les autres contenus, tous dérivés d'objectifs MSdS et J+S. Pour les niveaux, voir (formation-cours-continue) : la source de la check-list ne les restitue pas.
+Ces trois check-lists ont la même structure : trois blocs plus les autres contenus, tous dérivés d'objectifs MSdS et J+S. Pour les niveaux, voir (formation-cours-continue) : la source de la check-list ne les restitue pas.
 
 | Bloc | Contenu commun | Spécifique à la branche |
 |---|---|---|
@@ -83,7 +85,14 @@ Les trois check-lists ont la même structure : trois blocs plus les autres conte
 
 Toujours, en plus : faire connaissance, retour sur les acquis, listes d'objectifs, entretien, règles de comportement J+S. Une rubrique finale demande de justifier tout contenu non abordé.
 
-Les approfondissements Picos, Route et SMT n'ont pas de check-list dans les sources lues.
+## Approfondissements Picos et Route
+
+Même tronc commun J+S (nouveautés J+S et de son association, activités adaptées au développement, forme caractéristique « créativité dans des jeux et activités sportives variées », techniques sportives par le jeu, comportement de moniteur J+S, sécurité, dangers, risques et urgences, activités J+S variées et structurées) et mêmes autres contenus. Contenus propres :
+
+- **Picos** (quatre blocs) : distinction avec Éclais et Route ; fonction de responsable Picos ; jeunes à besoins particuliers ; diriger et accompagner des Picos en adaptant son style ; situations de groupe difficiles ; progression personnelle, vie en petit groupe, loi et promesse, moments calmes, animation spirituelle ; entreprise Picos avec une équipe ; organisation de la vie d'équipe : créer et faire durer une branche Picos, phases de vie d'une équipe, importance d'un groupe du même âge, esprit d'équipe, programme à long terme avec les Picos, conseil aux Picos pour leur future fonction de responsable et leurs stages dans d'autres branches.
+- **Route** (allemand seulement) : fonctionnement de la branche et modes d'organisation d'un clan ; groupes où tous participent à la direction ; cohésion du clan ; programme varié et équilibré ; actions de clan et différence avec un projet ; phases et outils d'un projet ; moments calmes et veillée Route ; animation spirituelle.
+
+L'approfondissement SMT n'a pas de check-list dans les sources lues.
 
 ## Croiser avec les descriptifs de cours
 

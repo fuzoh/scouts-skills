@@ -11,6 +11,9 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cudesch-securite@2026-10-17` — La sécurité – assumer des responsabilités (38 sections, [index](../../corpus/cudesch-securite/index.md))
 - `js-aide-memoire-3x3-en-route@2014` — Aide-mémoire J+S Sport de camp/Trekking – 3 × 3 Activités itinérantes (3 sections, [index](../../corpus/js-aide-memoire-3x3-en-route/index.md))
 - `js-depliant-facteur-humain@2019` — Facteur humain – activités de plein air en sécurité (dépliant J+S) (9 sections, [index](../../corpus/js-depliant-facteur-humain/index.md))
+- `js-module-planifier-randonnee@2026-10-21` — Planifier une randonnée (module d'apprentissage J+S SdC/T) (1 section, [index](../../corpus/js-module-planifier-randonnee/index.md))
+- `js-module-securite-planification@2026-10-21` — Sécurité dans la planification (module d'apprentissage J+S SdC/T) (1 section, [index](../../corpus/js-module-securite-planification/index.md))
+- `js-module-securite-realisation@2026-10-21` — Sécurité dans la réalisation (module d'apprentissage J+S SdC/T) (1 section, [index](../../corpus/js-module-securite-realisation/index.md))
 - `js-sdct-bases@2014` — Sport de camp/Trekking – Bases (brochure J+S du cudesch) (19 sections, [index](../../corpus/js-sdct-bases/index.md))
 - `js-sdct-eau@2019, 2e édition actualisée` — Sport de camp/Trekking – Eau (15 sections, [index](../../corpus/js-sdct-eau/index.md))
 - `js-sdct-hiver@2019, 5e édition actualisée` — Sport de camp/Trekking – Hiver (14 sections, [index](../../corpus/js-sdct-hiver/index.md))
@@ -19,4 +22,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[securite](securite.md), [sport-de-camp](sport-de-camp.md), [premiers-secours](premiers-secours.md), [trekking](trekking.md), [activite-de-camp](activite-de-camp.md), [eau](eau.md), [planification](planification.md), [camp](camp.md)
+[securite](securite.md), [sport-de-camp](sport-de-camp.md), [premiers-secours](premiers-secours.md), [trekking](trekking.md), [eau](eau.md), [activite-de-camp](activite-de-camp.md), [planification](planification.md), [camp](camp.md)

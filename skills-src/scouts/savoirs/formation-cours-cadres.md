@@ -93,7 +93,7 @@ Descriptifs du modèle de formation 2027 (en vigueur dès le 01.01.2027). Buts f
 
 ## Cours Top
 
-**Conditions** : fédéral; cours d'expert SdC/T J+S; 8-9 jours (min. 5 en présentiel); direction: expert SdC/T J+S, expérience de direction de cours; conseil CàF; dès 21 ans; préalable: Foundation SdC/T (module responsable de camp, ou module de sécurité plus un module de formation continue) et Panorama ou préparatoire; moniteur SdC/T J+S; expérience: maîtrise d'un cours Futura, base, RU, Panorama ou module J+S de sécurité.
+**Conditions** : fédéral; cours d'expert SdC/T J+S; 8-9 jours (min. 5 en présentiel); direction: expert SdC/T J+S, expérience de direction de cours; conseil CàF; dès 21 ans; préalable: Foundation SdC/T ((responsable de camp ou module de sécurité) et un autre module de formation continue) et Panorama ou préparatoire; moniteur SdC/T J+S; expérience: maîtrise d'un cours Futura, base, RU, Panorama ou module J+S de sécurité.
 
 **Buts** : le cours rend capables (1) de planifier, réaliser, évaluer des cours; (2) idem pour ensembles de points de cours, points de cours; (3) de soutenir les participants, les qualifier; (4) de diriger une maîtrise de cours, soutenir ses membres.
 

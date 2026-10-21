@@ -14,6 +14,8 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cofor-evaluation-du-cours@2019` — Évaluation du cours (formulaire chef·fe de cours et CàF) (1 section, [index](../../corpus/cofor-evaluation-du-cours/index.md))
 - `cofor-financement-cours-federaux` — Directive sur le financement des cours fédéraux du MSdS (1 section, [index](../../corpus/cofor-financement-cours-federaux/index.md))
 - `cofor-quala-cours-rg` — QUALA – petit manuel pour la planification et la réalisation des cours RG (8 sections, [index](../../corpus/cofor-quala-cours-rg/index.md))
+- `js-evaluation-programme@2026-10-21` — Évaluation du programme J+S (EvalJS) – questionnaire standard, instructions et FAQ (1 section, [index](../../corpus/js-evaluation-programme/index.md))
+- `js-module-evaljs@2026-10-21` — Mise en œuvre de l'évaluation EvalJS (module d'information J+S pour la direction de cours) (1 section, [index](../../corpus/js-module-evaljs/index.md))
 - `js-regles-comportement-exemple` — Exemple de mise en œuvre des règles de comportement – charte du cours ou du module et application de mesures (1 section, [index](../../corpus/js-regles-comportement-exemple/index.md))
 - `msds-ancre@Version 23` — L'Ancre – fil conducteur pour l'administration des cours MSdS (19 sections, [index](../../corpus/msds-ancre/index.md))
 - `msds-le-cours@2026` — Le cours – concevoir, planifier, réaliser, évaluer (34 sections, [index](../../corpus/msds-le-cours/index.md))

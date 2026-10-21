@@ -16,6 +16,8 @@ statut: valide
 
 RG et coach répondent ensemble de la conformité du programme aux exigences de la branche et aux fondements du scoutisme, et du caractère approprié, complet et réaliste du concept de sécurité.
 
+Pour 2027, le MSdS a adapté la Sardine, le formulaire d'annonce de camp de MiData et les supports de planification d'eCamp aux nouvelles règles J+S (newsletter formation, octobre 2026) : utiliser leur version actuelle. Règles du programme selon la date : (js-2026-2027).
+
 ## Annonce de camp (MiData)
 
 Tout camp dès trois jours, J+S ou non, est annoncé dans la MiData (choix prudent : certains textes écrivent « plus de 3 jours »). Le RC complète les données, règle les inscriptions, coche les trois cases sur règlements et directives (inaccessibles tant que le coach n'est pas confirmé) et envoie le programme général au RG et au coach. Le coach vérifie puis clique sur « Transmettre » : l'annonce part au MSdS.

@@ -24,7 +24,7 @@ Pour `type = activité` dans un domaine, le CdS est le document que l'expert J+S
 - **Gravité** : vocabulaire libre (faible à catastrophique, mineure à majeure…) ; juger la cohérence interne de l'échelle, pas l'étiquette.
 - **Variante, remplacement, annulation, point de non-retour** : quatre notions distinctes.
 - **Corde** : « personne expérimentée », pas « expert J+S » ; l'expert J+S ne relit que montagne, hiver, eau.
-- **Pas exigé** : la matrice, la signature, les QR codes, les annexes en tant que documents.
+- **Pas exigé** : la matrice, la signature, les QR codes, les annexes en tant que documents. Les modules J+S présentent la matrice comme un outil : un CdS sans matrice reste conforme (mainteneur) ; quand elle existe, juger la cohérence avec Q30.
 - **Constructions** : petite construction (lavabo) = pas de CdS spécifique ; toutes les autres = un CdS global des constructions, pas un CdS par construction (N8). Ne pas exiger un CdS d'activité par tour ou sarasine.
 - **Données personnelles** : ne jamais citer ni recopier numéros ou noms d'un CdS réel.
 - **Base juridique** : le devoir de diligence (planifier soigneusement) fonde l'exigence du CdS ; contexte à rappeler (cudesch Sécurité), pas un critère à vérifier.

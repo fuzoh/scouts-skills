@@ -26,7 +26,7 @@ Q16. Niveau « Vivre » : du vécu seul, sans attente d'apprentissage à vérifi
 Q17. Un objectif complet peut préciser comportement, conditions et critère de performance (Mager) (brochure « Le cours »).
 
 Cohérence avec le cours
-Q18. Le dispositif pédagogique, quand le cours en a défini un (en situation réelle, itinérance, classe inversée…), est respecté ; une UA n'a en principe qu'un dispositif, les méthodes varient à l'intérieur (brochure « Unité d'apprentissage »).
+Q18. Le dispositif pédagogique, quand le cours en a défini un (en situation réelle, itinérance, classe inversée…), est respecté ; une UA n'a en principe qu'un dispositif, les méthodes varient à l'intérieur (brochure « Unité d'apprentissage »). Définition révisée : organisation particulière de l'enseignement pour une UA ou un module, macrostructure qui cadre la manière dont les activités sont organisées et vécues ; voisine du *Methodisches Arrangement* allemand sans lui être identique (diapositives de la conférence formation MSdS 2026).
 Q19. Contenus, objectifs, durée et dispositif viennent de la conception de cours (sommaire des UA) ; l'UA n'a pas à les redire en entier si le sommaire les porte (brochures « Unité d'apprentissage » et « Le cours »).
 Q20. Les conditions cadres et les conditions préalables (sujet, formateurs, apprenants, espace, temps) ont été analysées (brochure « Unité d'apprentissage », planification).
 Q21. L'UA ménage de la place à l'observation pour les exigences minimales du cours (même brochure).

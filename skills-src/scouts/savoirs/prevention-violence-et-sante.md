@@ -1,8 +1,8 @@
 ---
 titre: "Violence entre jeunes, harcèlement, santé psychique en camp (Twitterbox), valeurs et éthique de l'équipe"
 theme: prevention
-sert_a: "Violence, exclusion, agression, insulte raciste, Twitterbox, obligation de signaler, valeurs, charte d'équipe, règles de comportement"
-derive_de: [js-violence-dans-le-sport, msds-twitterbox, js-ethique-diapositives, js-ethique-formation-de-base, js-ethique-module-chef-de-camp, "concepts: psa, ethique, regles-de-comportement"]
+sert_a: "Violence, exclusion, agression, racisme (identifier, réagir, après l'activité), Twitterbox, obligation de signaler, valeurs, charte d'équipe, règles J+S"
+derive_de: [js-violence-dans-le-sport, js-aide-memoire-racisme, msds-twitterbox, js-ethique-diapositives, js-ethique-formation-de-base, js-ethique-module-chef-de-camp, "concepts: psa, ethique, regles-de-comportement"]
 statut: valide
 ---
 
@@ -47,6 +47,19 @@ La brochure J+S « La violence dans le sport » (2008, pour le sport scolaire et
 - *Enfant qui refuse de s'entraîner avec un groupe de sexe donné* : respecter son choix de partenaires sans chercher à savoir pourquoi, parler avec la famille ; le blocage s'est levé progressivement, sur environ un an dans le cas décrit (voir aussi (prevention-abus)).
 - *Groupe isolant et frappant un coéquipier discret* : pas de reprise normale avant d'avoir compris ; entretiens ; sanctions réparatrices ; retrait temporaire du rôle de meneur.
 - *Attaque d'un arbitre* : l'équipe et le club répondent de la sécurité de l'arbitre ; sanctions associatives, parfois pénales.
+
+## Racisme dans le sport : identifier, évaluer, réagir
+
+Aide-mémoire J+S/esa « Comprendre, identifier et combattre le racisme dans le sport » (édition 01/2026, publié en 2026). Un propos ou un comportement raciste enfreint les règles de comportement J+S/esa (respect de tous, ouverture à la différence, non-violence) et peut tomber sous la norme pénale contre la discrimination. Pour l'accueil et la prévention au quotidien scout : (inclusion-diversite).
+
+- **Comprendre** : le racisme classe et hiérarchise des personnes selon des caractéristiques physiques, culturelles, ethniques, nationales ou religieuses, réelles ou supposées ; souvent inconscient, il est aussi ancré dans les structures. La discrimination raciale en est la forme agie ; c'est l'effet sur la personne visée qui compte, et plusieurs motifs peuvent se cumuler (genre et langue, par exemple). Le sport peut l'attiser : performances comparées, sélections, classements.
+- **Identifier** : des mots (surnoms d'animaux, termes dénigrants, tutoiement ou langage simplifié imposé, expressions d'époque coloniale, sous-entendus « elle gagne seulement grâce à sa force ») ; des comportements (insultes et moqueries, aussi sur les réseaux, ignorer ou couper la parole, blagues blessantes devant la personne, symboles racistes, violence) ; des étiquettes (« d'où viens-tu vraiment ? », généralités sur un groupe).
+- **Évaluer** : on parle d'incident quand une situation perturbe une activité jusque-là respectueuse et peut mener à une discrimination raciale, ou en est une. En cas de doute sur la catégorie : boussole éthique de Swiss Olympic ou Swiss Sport Integrity.
+- **Réagir tout de suite** : protéger la personne visée et lui demander ce dont elle a besoin ; calmer et exiger que l'auteur cesse ; demander de l'aide si c'est violent.
+- **Nommer** : rattacher l'incident aux règles de comportement ; dire clairement « c'est raciste » et que ce n'est pas toléré ; expliquer au groupe le sens du propos, inviter chacun à surveiller son langage, donner la parole à l'auteur. S'il continue ou si la situation s'aggrave : l'exclure temporairement de l'activité. Captures d'écran si cela se passe dans un groupe de messagerie.
+- **Après l'activité** : noter qui, quoi (mots exacts), où, quand, quels témoins ; en parler avec un autre responsable (en camp scout : responsable de camp, RG ou coach) ; associer la personne visée et ne prendre aucune mesure sans son accord ; appliquer la mesure (avertissement, formation, exclusion).
+
+L'aide-mémoire admet qu'on ne réagit pas toujours juste du premier coup : l'essentiel est d'agir et de montrer l'exemple. Il nomme le propos raciste devant le groupe, quand la brochure de 2008 conseille d'éviter de mettre l'auteur en difficulté devant tous : nommer le propos sans humilier la personne concilie les deux.
 
 ## Santé psychique et participation : la Twitterbox
 

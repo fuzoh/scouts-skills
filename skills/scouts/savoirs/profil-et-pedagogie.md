@@ -1,8 +1,8 @@
 ---
 titre: Profil du scoutisme, relations, méthodes et programme
 theme: programme
-sert_a: "Fondements pédagogiques MSdS, but, cinq relations, huit méthodes scoutes, programme trimestriel, planifier une activité et une séance"
-derive_de: [msds-profil-du-scoutisme (2025), msds-factsheet-profil, cudesch-cudeschin, concepts profil-du-scoutisme, relations, methodes-scoutes, planification]
+sert_a: "Profil du scoutisme 2025 : but, cinq relations (besoins), huit méthodes, branches de besoins, cycle du programme, factsheets, programme trimestriel, activité"
+derive_de: [msds-profil-du-scoutisme (2025), msds-factsheet-profil, msds-factsheet-profil-responsables, msds-conffor-2026-diapositives, cudesch-cudeschin, concepts profil-du-scoutisme, relations, methodes-scoutes, planification]
 statut: valide
 ---
 
@@ -16,13 +16,13 @@ Le profil actuel a été adopté par l'Assemblée des délégations 2025. Il est
 
 Les cinq domaines de développement, d'importance égale ; le programme vise à les stimuler aussi également que possible :
 
-1. relation à sa personnalité ;
-2. relation à son corps ;
-3. relation au spirituel ;
-4. relations aux autres ;
-5. relation à son environnement.
+1. relation à sa personnalité : être sûr de soi et autocritique ;
+2. relation à son corps : s'accepter et s'exprimer ;
+3. relation au spirituel : être ouvert et réfléchir ;
+4. relations aux autres : rencontrer les autres et les respecter ;
+5. relation à son environnement : être créatif et agir en respectant l'environnement.
 
-Personnalité et corps sont orientés vers l'intérieur (se connaître, forces et limites). Autres et environnement sont orientés vers l'extérieur (compétences sociales, conscience environnementale). Le spirituel est à mi-chemin : explorer ses valeurs et croyances. Les thèmes décrits par branche sont des besoins, pas des objectifs à atteindre.
+Personnalité et corps sont orientés vers l'intérieur (se connaître, forces et limites). Autres et environnement sont orientés vers l'extérieur (compétences sociales, conscience environnementale). Le spirituel est à mi-chemin : explorer ses valeurs et croyances. Les thèmes décrits par branche sont des besoins, pas des objectifs à atteindre : ne pas écrire une relation comme un objectif d'activité, partir des besoins des participants.
 
 ## Les huit méthodes
 
@@ -39,7 +39,16 @@ Les relations sont les directions, les méthodes sont les moyens ; chaque métho
 | Symbolique et rituels | identité commune, appartenance, structurer le quotidien, célébrer les succès |
 | Progression personnelle | auto-apprentissage, encourager la progression, acquérir, utiliser et développer des compétences |
 
+Pas de tableau 5 x 8 qui croiserait toutes les relations avec toutes les méthodes (atelier profil, conférence formation 2026, qui note « 1x méthode et 1x relation »). Les méthodes ont été repensées, pas seulement complétées d'une huitième ; chacune est précisée par trois ou quatre aspects (mots-clés ci-dessus).
+
 La promesse scoute figure dans les statuts du MSdS, plus dans le profil. Les anciennes méthodes « Vie en petit groupe » et « L'apprentissage par le projet » ont été recentrées : la seconde est devenue « Apprendre en agissant ».
+
+## Branches de besoins et cycle du programme
+
+- **Modèle des branches** : le profil met l'accent sur un développement continu à travers toutes les branches (Castors, Louveteaux, Éclais, Picos, Route, SMT) ; ce sont des « branches de besoins », où les besoins communs du groupe sont au centre. Un graphique donne un aperçu des caractéristiques de chaque branche ; les besoins par relation y sont décrits branche par branche.
+- **Cycle du programme** (factsheet pour responsables) : partir des besoins des participants, identifier la ou les relations à développer, choisir consciemment les méthodes qui les servent, chercher le cadre concret où les mettre en œuvre, planifier et préparer le programme, l'évaluer pour voir comment les besoins évoluent, puis recommencer.
+- **Le « chariot à glace »** : image qui relie les fondements pédagogiques au programme (carte et affiche disponibles).
+- **Outils** : brochure imprimée et PDF, cudesch numérique ; factsheet pour coachs et équipes de cours (avec la comparaison ancien-nouveau profil) ; factsheet pour responsables et participants aux cours, résumé à imprimer et plier sans comparaison avec l'ancien profil ; double page des relations en noir et blanc ; illustrations des branches, relations, méthodes et animaux. Téléchargements sur pfadi.swiss.
 
 ## Programme : trois niveaux (cudeschin)
 

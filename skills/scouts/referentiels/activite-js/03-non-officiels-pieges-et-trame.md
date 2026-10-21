@@ -32,6 +32,10 @@ Jamais non-négociables. Origine : revue de critères cantonaux, terrain, trame 
 - Cases à cocher (domaine, « concept de sécurité oui/non », thématiques d'AC) perdues à la conversion docx et pdf : ne jamais conclure qu'une case n'est pas cochée. L'autorisation de camp est elle-même une extraction partielle.
 - Quatre notions distinctes. Variante : même activité adaptée (règles, forme, météo). Remplacement : autre activité interchangeable, du même type, temps de sport équivalent. Critère d'annulation : condition qui déclenche variante ou remplacement (météo, matériel, accident). Échappatoire (point de sortie) : raccourci d'une randonnée, pas une activité de remplacement. Aucune fiche de terrain n'a de rubrique « remplacement » : la variante en tient lieu, sans durée ni matériel.
 - Un remplacement par une activité sans temps de sport peut faire sortir la journée des règles J+S : le signaler, pas le refuser d'office.
+- Les six formes caractéristiques (libellés du module J+S « Bases du sport de camp/trekking », 2026) : utiliser efficacement les techniques de vie en plein air et de construction de camp ; pratiquer des activités itinérantes de manière sûre et prévoyante ; participer avec créativité à la conception de jeux et d'activités sportives variées ; prendre conscience de ses propres besoins et idées et les faire valoir consciemment ; renforcer la cohésion du groupe avec bienveillance ; adopter une attitude respectueuse envers la nature et l'environnement. Le manuel écrit « des techniques » et, pour la sixième, « interagir de manière respectueuse avec son environnement », le PV de la conférence formation 2026 « … avec la nature et l'environnement » : même forme, ne pas corriger un libellé.
+- Forme caractéristique sur la fiche 2027 (N12) : le PV de la conférence formation MSdS 2026 dit qu'il n'est « pas nécessaire d'indiquer la forme caractéristique visée » si le descriptif porte la durée d'activité physique, la relation et la méthode. L'aide-mémoire MSdS 2027 et le module J+S exigent une activité axée sur une forme : la demander quand même (mainteneur), la correction tient en une ligne et la relation et la méthode aident à la choisir.
+- Une activité qui ne peut pas devenir active n'est pas une activité J+S, et ce n'est pas un défaut : la journée a de la place pour des activités non J+S (module J+S « Directives Sport de camp/Trekking », 2026). Ne pas la refuser, la sortir du compte J+S.
+- Comptage du temps sportif (N10), exemples J+S : tournoi de 2 h avec explications, pauses et transitions = 2 h ; jeu de piste de 3 h (6 × 15 min de marche, 6 × 15 min de postes) = 1 h 30 ; 90 min de dynamique de groupe dont 45 min de jeu sportif = 45 min (module J+S « Directives Sport de camp/Trekking », 2026). Exemple MSdS : 4 h de construction d'une tour = activité J+S active, 3 h sportives, l'heure de planification non comptée (mail MSdS aux coachs, octobre 2026).
 - Relation et méthode ne sont pas des domaines J+S. Huit méthodes (Profil), pas sept : l'ancienne liste de sept subsiste dans des modèles. But n'est pas objectif.
 - AA, AdA, VC : activités du camp non déclarées J+S ; AS : activité spirituelle, un type d'AA (CDF est une spécificité locale, à lire comme AS). Les relire sans N6 à N13 ni formes caractéristiques ; ne pas exiger de CdS J+S. PF = point fixe (séance de maîtrise), pas une activité.
 - Une fiche creuse peut avoir un CdS complet en annexe : demander les annexes avant de juger.
@@ -46,13 +50,13 @@ Rubriques d'une fiche complète, dans l'ordre de rédaction. Elles viennent des 
 1. Identification : numéro et titre (type et rang dans le jour ; en 2027, activité J+S numérotée), date, horaires, lieu, camp et unité.
 2. Cadre : date du camp, branche, âge et taille du groupe*, nombre de responsables*, responsable de l'activité.
 3. Orientation : 2026 domaine (AC) ou activités itinérantes / sports / jeux (SC) ; 2027 forme(s) caractéristique(s) et forme(s) d'activité ; relation et méthode*.
-4. Objectifs : « éléments à apprendre et à vivre » (AC) ou buts (SC) ; objectifs atteignables, mesurables*.
+4. Objectifs : « éléments à apprendre et à vivre » (AC) ou buts (SC) ; 2027 : déduits de l'analyse du groupe et des formes caractéristiques (Q18) ; objectifs atteignables, mesurables*.
 5. Fil rouge / lien au thème.
 6. Déroulement : parties avec horaire, durée et responsable ; échauffement décrit ; courbe d'intensité ; 2027 part sportive en tranches de 15 min.
 7. Matériel, avec responsable ; provenance*.
 8. Sécurité : risques simples et mesures dans la fiche ; case « CdS séparé : oui / non » (modèles) ; renvoi au CdS d'activité ou de randonnée.
-9. Variante en cas de mauvais temps, avec critère de décision.
+9. Variante en cas de mauvais temps, avec critère de décision ; ajustements prévus (groupe fatigué, chaleur, retard) (Q18).
 10. Critères d'annulation* et activité de remplacement* (même type, temps de sport équivalent).
 11. Randonnée seulement : carte, profil, temps de marche, CdS de randonnée, programme mauvais temps (N4).
-12. Remarques, auto-évaluation*.
+12. Évaluation à partir des objectifs (Q18) ; remarques, auto-évaluation*.
 Vérifier ensuite la cohérence avec le picasso, relire à la place du rédacteur, retirer les commentaires de relecture.

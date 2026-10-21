@@ -2,7 +2,7 @@
 titre: Sécurité en randonnée, temps de marche et points clés
 theme: securite
 sert_a: "Randonnée sûre, temps de marche (kme/h), sorties, demi-tour, non-retour, passages clés, rôles de marche"
-derive_de: [cudesch-securite, cudesch-calcul-temps-de-marche, js-aide-memoire-3x3-en-route, js-sdct-montagne, js-aide-memoire-prevention-accidents-sct, "concepts: montagne, securite"]
+derive_de: [cudesch-securite, cudesch-calcul-temps-de-marche, js-module-planifier-randonnee, js-module-securite-realisation, js-aide-memoire-3x3-en-route, js-sdct-montagne, js-aide-memoire-prevention-accidents-sct, "concepts: montagne, securite"]
 statut: valide
 ---
 
@@ -53,8 +53,10 @@ Le modèle du cudesch donne les points suivants, qui correspondent aux bornes ha
 ## Dans le CdS de randonnée
 
 - Responsabilités : pilote (guide) et copilote (carte) ; un moniteur ouvre la marche, un autre la ferme ; au moins deux moniteurs ; groupes de niveau possibles.
-- Points de sortie (raccourcir ou terminer plus tôt), heure limite de demi-tour, point de non-retour (plus de retour possible) discuté avec toute la maîtrise ; une notion distincte de la variante ou du remplacement.
+- Points de sortie ou échappatoires (rejoindre un itinéraire plus court ou accessible en voiture), heure limite de demi-tour, point de non-retour discuté avec toute la maîtrise : au-delà, mieux vaut continuer que rebrousser chemin (par exemple quand l'échappatoire suivante est plus proche que la précédente, ou après un passage difficile) ; une notion distincte de la variante ou du remplacement.
 - Passages clés : parties les plus exigeantes, repérées et reconnues, avec règles et mesures (meilleur chemin, aide, délestage, pause avant le passage).
+- Points clés à placer sur la carte (module J+S « Planifier une randonnée », 2026) : passages à risque (route passante, pente raide, éboulis), passages difficiles (longues montées ou descentes), points de non-retour, zones de pause ou de ravitaillement, points remarquables faciles à repérer, transitions entre montée et descente, échappatoires. Ils découpent l'itinéraire en tronçons : à chacun, comparer le temps réel au temps calculé (colonne « temps effectif » de la feuille de temps de marche).
+- Conduite : marcher ensemble ou en petits groupes selon la visibilité, avec point de rendez-vous et moyen de se joindre ; allure de la personne la plus lente, chacun doit pouvoir parler en marchant, départ tranquille, ralentir avant une pause ; pauses plus courtes et plus fréquentes avec des enfants, avant un gros effort, en surveillant l'heure.
 - Abris et cabanes sur le parcours ; itinéraire de repli ; programme de mauvais temps.
 - Règles : rester ensemble, contact visuel, ne pas dépasser le groupe en courant devant, sacs déposés sur le chemin pour les besoins.
 - Équipement : cartes et téléphone répartis ; chaussures, sac réglé, 1,5 litre de boisson au moins, habits de rechange.

@@ -3,8 +3,8 @@
 - version : 0.6.0 <!-- x-release-please-version -->
 - source : https://github.com/fuzoh/scouts-skills
 - scope : complet
-- sources : 177
-- sections : 1676
+- sources : 191
+- sections : 1723
 - référentiels : 4
 
 ## Sources embarquées
@@ -25,6 +25,8 @@
 - `cofor-approfondissement-castors@v1`
 - `cofor-approfondissement-eclais@v1`
 - `cofor-approfondissement-louveteaux@v1`
+- `cofor-approfondissement-picos@v1`
+- `cofor-approfondissement-route@v1`
 - `cofor-autorisation-du-cours`
 - `cofor-budget-decompte-cours`
 - `cofor-checklist-caf`
@@ -80,6 +82,7 @@
 - `js-aide-memoire-orientation@2010`
 - `js-aide-memoire-prevention-accidents-co@2023`
 - `js-aide-memoire-prevention-accidents-sct@2025`
+- `js-aide-memoire-racisme`
 - `js-aide-memoire-securite-eau@2024`
 - `js-apprentissage-dans-le-sport@2012`
 - `js-apprentissage-en-mouvement@2013`
@@ -102,6 +105,7 @@
 - `js-ethique-formation-de-base`
 - `js-ethique-module-chef-de-camp`
 - `js-ethique-proximite-soutien@2026-10-17`
+- `js-evaluation-programme@2026-10-21`
 - `js-exemple-course-orientation-photos`
 - `js-exemple-estafette-fromage`
 - `js-exemple-grande-fete`
@@ -130,6 +134,13 @@
 - `js-modele-prog-general-enfants-jeunes@2014`
 - `js-modele-prog-general-sport-enfants@2014`
 - `js-modele-prog-general-sport-jeunes@2014`
+- `js-module-bases-sdct@2026-10-21`
+- `js-module-directives-sdct@2026-10-21`
+- `js-module-evaljs@2026-10-21`
+- `js-module-planifier-activite-js@2026-10-21`
+- `js-module-planifier-randonnee@2026-10-21`
+- `js-module-securite-planification@2026-10-21`
+- `js-module-securite-realisation@2026-10-21`
 - `js-physis-bases-theoriques@2015, 3e édition remaniée`
 - `js-physis-exemples-pratiques@2015, 3e édition remaniée`
 - `js-planification-dans-le-sport@2016`
@@ -160,11 +171,13 @@
 - `msds-checklist-camps-a-l-etranger@révisée 2024`
 - `msds-commande-hajk`
 - `msds-concept-protection-psa@2021`
+- `msds-conffor-2026-diapositives`
 - `msds-encadrement-scoutisme@2012`
 - `msds-essentiel-msds-js-2026`
 - `msds-essentiel-msds-js-2027`
 - `msds-exigences-js-2027-camps`
 - `msds-factsheet-profil`
+- `msds-factsheet-profil-responsables`
 - `msds-flyer-smt`
 - `msds-hering-camps@2026-10-17`
 - `msds-inclusion-diversite-associations@1ère édition 2021`
@@ -179,6 +192,7 @@
 - `msds-ouvert-a-tous-equipe-de-cours@2022`
 - `msds-pilote@Version 13`
 - `msds-profil-du-scoutisme@2025`
+- `msds-pv-conference-formation-2026`
 - `msds-reglement-de-camp@2020`
 - `msds-reglement-grandes-manifestations`
 - `msds-retour-qualifier-accompagner@2026`

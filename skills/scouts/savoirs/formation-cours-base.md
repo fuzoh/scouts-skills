@@ -51,7 +51,7 @@ Descriptifs du modèle de formation 2027 (dès le 01.01.2027). Buts fixes, tous 
 
 **Conditions** : AC/région ; sans type J+S ; 0,5 à 2,5 jours (en présence, partiellement à distance ; 0,5 jour minimum en présence) ; direction : RU ; conseil : coach, expérience de responsable de cours, CàF valide souhaités ; dès 16 ans ; recommandation : groupe ou AC/région. Fonction future : participant à un cours de base. Modulable, combinable avec Picos/Futura, ou intégré au cours de base lié (prérequis du cours de base alors applicables).
 
-**Contenu** (ni buts ni objectifs numérotés) : directives J+S sur connaissances techniques de base en sport de camp/trekking, requises pour entrer au cours de base. Visée formatrice plutôt que contrôle.
+**Contenu** (ni buts ni objectifs numérotés) : directives J+S sur connaissances techniques de base en sport de camp/trekking, requises pour entrer au cours de base. Visée formatrice plutôt que contrôle. Nouveau nom des « connaissances minimales du sport » ; contenus J+S : introduction aux formes caractéristiques, constructions de camp et technique de corde, premiers secours, lecture de carte et orientation. Le cours de moniteurs J+S vise à ce que les participants sachent encadrer ces connaissances.
 
 ## Cours de base
 

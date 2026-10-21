@@ -27,11 +27,13 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `msds-ancre@Version 23` — L'Ancre – fil conducteur pour l'administration des cours MSdS (19 sections, [index](../../corpus/msds-ancre/index.md))
 - `msds-caisse-de-cours@2026` — Contenu MSdS caisses de cours 2026 (1 section, [index](../../corpus/msds-caisse-de-cours/index.md))
 - `msds-commande-hajk` — Commande hajk – formulaire de commande de matériel pour les cours (1 section, [index](../../corpus/msds-commande-hajk/index.md))
+- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../corpus/msds-conffor-2026-diapositives/index.md))
 - `msds-offre-mpe-2027` — Modules J+S de perfectionnement expert·e (MPE) SdC/T 2027 (1 section, [index](../../corpus/msds-offre-mpe-2027/index.md))
 - `msds-organigramme` — Organigramme – structure d'organisation du Mouvement Scout de Suisse (1 section, [index](../../corpus/msds-organigramme/index.md))
 - `msds-pilote@Version 13` — Pilote – fil conducteur pour l'administration des cours par les responsables formation ou secrétariats (19 sections, [index](../../corpus/msds-pilote/index.md))
+- `msds-pv-conference-formation-2026` — Procès-verbal de la conférence formation 2026 (12.09.2026, Berne) (11 sections, [index](../../corpus/msds-pv-conference-formation-2026/index.md))
 - `msds-ticket` — Ticket – fil conducteur pour l'inscription aux cours (1 section, [index](../../corpus/msds-ticket/index.md))
 
 ## Concepts liés
 
-[caf](caf.md), [financement](financement.md), [modele-de-formation](modele-de-formation.md), [chef-de-cours](chef-de-cours.md), [securite](securite.md), [planification](planification.md), [camp](camp.md), [qualification](qualification.md)
+[caf](caf.md), [modele-de-formation](modele-de-formation.md), [financement](financement.md), [chef-de-cours](chef-de-cours.md), [securite](securite.md), [qualification](qualification.md), [planification](planification.md), [camp](camp.md)

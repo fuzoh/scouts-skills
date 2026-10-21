@@ -1,0 +1,56 @@
+---
+source: js-module-bases-sdct
+version: '2026-10-21'
+title: Bases du sport de camp/trekking
+url: https://tool.jeunesseetsport.ch/modules/6a60d154dc1144de1e0e6303?lang=fr
+sha256: 1443f8e0cbc73c2c6b20c356b08c75936dca81848a805d4fe15e87e887b57d94
+fidelity: partial
+fidelity_notes: 'Page SPA : le texte explicatif de chacune des six cartes de formes
+  caractéristiques et les listes d''exemples d''activités associées sont visibles
+  dans le rendu mais absents de raw/ (seuls les six titres restent) ; le schéma interactif
+  de la conception de la formation est perdu.'
+---
+
+# Bases du sport de camp/trekking
+
+**Tu découvriras ici ce qui caractérise le sport de camp/trekking. Tu apprendras quelles sont les différentes formes caractéristiques de cette discipline sportive et quelles activités y sont associées.**
+
+La conception de la formation ne décrit pas la manière dont les responsables sont formé·e·s, mais la manière dont le sport de camp/trekking est transmis aux enfants et aux jeunes.
+
+La conception de la formation t’aide à comprendre ce qui est essentiel lorsque tu planifies et réalises des activités. Elle établit une structure commune à toutes les disciplines sportives J+S. La conception de la formation aborde les questions suivantes : « COMMENT transmettre le sport de camp/trekking ? » et « QU’EST-CE QUE le sport de camp/trekking ? ». Les symboles représentent différentes informations.
+
+#### Découvre la conception de la formation en déplaçant la flèche sur les différents symboles et en lisant les textes explicatifs accompagnant les graphiques.
+
+Ces formes caractéristiques décrivent ce qui constitue l’essence même du sport de camp/trekking. Elles mettent en évidence les mouvements, les expériences et les comportements typiques que les enfants et les jeunes doivent vivre et développer dans le cadre du sport de camp/trekking. Clique sur les cartes pour obtenir plus d’informations sur chacune de ces formes caractéristiques.
+
+**Utiliser efficacement les techniques de vie en plein air et de construction de camp**
+
+**Pratiquer des activités itinérantes de manière sûre et prévoyante**
+
+**Participer avec créativité à la conception de jeux et d’activités sportives variées**
+
+**Prendre conscience de ses propres besoins et idées et les faire valoir consciemment**
+
+**Renforcer la cohésion du groupe avec bienveillance**
+
+**Adopter une attitude respectueuse envers la nature et l’environnement**
+
+Les **formes caractéristiques** (1) décrivent le résultat visé, c’est-à-dire la manière dont les enfants et les jeunes devraient se comporter durant le camp. Par exemple, évoluer de manière sûre et prévoyante dans la nature ou surmonter ensemble des défis lors d’activités itinérantes. Pour que les enfants et les jeunes puissent s’approcher de ce résultat, elles·ils doivent mettre à profit leurs aptitudes physiques, mentales et sociales, appelées **facteurs de développement**, qui constituent une matière première à valoriser dans le cadre du programme (2). En tant que moniteur·rice, tu crées un programme qui permette aux enfants et aux jeunes d’acquérir et de développer ces aptitudes. Tu utilises pour cela les **formes d’activité**, qui sont les contenus du programme. Tu peux les considérer comme des outils (3) qui transforment et assemblent les matières premières.
+
+**Par exemple :**
+
+La forme caractéristique (1) « pratiquer des activités itinérantes de manière sûre et prévoyante » désigne la compétence finale à atteindre. Pour y parvenir, une participante accumule différentes expériences lors d’un camp :
+
+- grâce à une courses de relais (forme d’activité), elle développe son endurance et son assurance dans ses déplacements (facteurs de développement) ;
+- grâce à des jeux (forme d’activité), elle développe ses capacités de communication et de coopération (facteurs de développement) ;
+- grâce à des exercices d’observation (forme d’activité), elle développe son attention et sa concentration (facteurs de développement).
+
+Une randonnée – en tant que forme d’activité complexe – rassemble ensuite tous ces éléments : planifier un itinéraire, prendre des décisions ensemble, s’orienter sur le terrain. Les compétences développées précédemment (2) s’imbriquent les unes dans les autres et rendent ainsi visible la forme caractéristique qui leur correspond. Pour la planification d’un camp, cela signifie qu’il ne s’agit pas de planifier des activités individuelles, mais plutôt d’axer délibérément le programme sur un objectif. Les formes caractéristiques désignent la direction à suivre, les formes d’activité (3) la concrétisent, et ce sont les facteurs de développement qui rendent le développement des participant·e·s possible.
+
+Pour savoir comment procéder lors de la conception d’une activité, consulte la séquence d’information « Planifier une bonne activité J+S » .
+
+### L'essentiel en bref
+
+- Les six formes caractéristiques définissent l’essence du sport de camp/trekking.
+- Les formes caractéristiques constituent la base d’une planification variée des activités et du camp.
+- Les activités sont axées sur les formes caractéristiques.

@@ -17,7 +17,7 @@ Tous sont des exemples ou des modèles : on s'en inspire, on ne les exige jamais
 | Quatre exemples d'activités et un dossier de randonnée avec nuitée (J+S, 09/2026) | 2027 | Fiches complètes avec forme caractéristique, temps sportif, type d'activité ; concept de sécurité 3x3 |
 | Modèles vides de bloc AC et de bloc SC (cudesch, 2018) ; planification détaillée d'une activité (cudesch, 2018) | 2026 | Canevas de fiche à remplir |
 
-Chacun de ces exemples porte la mention de vérifier la version à jour sur l'extranet J+S. Le dossier de randonnée précise qu'il sert de base de discussion, qu'il n'est « ni un exemple parfait ni un modèle exhaustif ».
+Chacun de ces exemples porte la mention de vérifier la version à jour sur l'extranet J+S, où J+S publie aussi un exemple de picasso global et une sélection de programmes détaillés d'un camp SdC/T, pensés comme bases de discussion en cours (newsletter formation, octobre 2026). Le dossier de randonnée précise qu'il sert de base de discussion, qu'il n'est « ni un exemple parfait ni un modèle exhaustif ».
 
 ## Structure d'un programme général
 

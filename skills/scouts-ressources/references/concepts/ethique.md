@@ -8,6 +8,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 - `js-activites-de-qualite-encourager@2025` — Des activités J+S de qualité – Encourager (jeu de cartes) (8 sections, [index](../../corpus/js-activites-de-qualite-encourager/index.md))
 - `js-activites-de-qualite-innover@2025` — Des activités J+S de qualité – Innover et Se soucier de l'entourage (jeu de cartes) (10 sections, [index](../../corpus/js-activites-de-qualite-innover/index.md))
+- `js-aide-memoire-racisme` — Comprendre, identifier et combattre le racisme dans le sport (aide-mémoire J+S/esa) (1 section, [index](../../corpus/js-aide-memoire-racisme/index.md))
 - `js-conception-js@2022` — Conception Jeunesse+Sport (version abrégée) (8 sections, [index](../../corpus/js-conception-js/index.md))
 - `js-developpement-equipe-moniteurs` — Encourager un développement de l'équipe des moniteurs fondé sur des valeurs (1 section, [index](../../corpus/js-developpement-equipe-moniteurs/index.md))
 - `js-ethique-diapositives` — Des activités J+S respectueuses des valeurs éthiques (diapositives pour les fédérations) (1 section, [index](../../corpus/js-ethique-diapositives/index.md))
@@ -29,4 +30,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[regles-de-comportement](regles-de-comportement.md), [methodes-d-enseignement](methodes-d-enseignement.md), [expert-js](expert-js.md), [coach-js](coach-js.md), [psa](psa.md), [boussole-ethique](boussole-ethique.md), [modele-de-formation](modele-de-formation.md), [inclusion](inclusion.md)
+[regles-de-comportement](regles-de-comportement.md), [methodes-d-enseignement](methodes-d-enseignement.md), [expert-js](expert-js.md), [coach-js](coach-js.md), [boussole-ethique](boussole-ethique.md), [inclusion](inclusion.md), [psa](psa.md), [modele-de-formation](modele-de-formation.md)

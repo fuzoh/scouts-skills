@@ -1,8 +1,8 @@
 ---
 titre: Administration d'un cours MSdS, délais, autorisation, qualification et charte
 theme: formation
-sert_a: "Délais de cours, annonce, sommaire des UA, programme détaillé, autorisation, évaluation, dossier du CàF, MiData, BDNS, saisie des qualifications"
-derive_de: [msds-ancre (version 23), cofor-administration-cours-federaux, cofor-checklist-caf, cofor-autorisation-du-cours, cofor-evaluation-du-cours, msds-retour-qualifier-accompagner, msds-modele-de-formation, js-modele-charte-cours, js-poster-regles-de-comportement, concepts administration-de-cours, qualification, charte-de-cours]
+sert_a: "Délais de cours, annonce, sommaire des UA, programme détaillé, autorisation, évaluation EvalJS, matériel de prêt, MiData, BDNS, saisie des qualifications"
+derive_de: [msds-ancre (version 23), cofor-administration-cours-federaux, cofor-checklist-caf, cofor-autorisation-du-cours, cofor-evaluation-du-cours, msds-retour-qualifier-accompagner, msds-modele-de-formation, js-modele-charte-cours, js-poster-regles-de-comportement, js-evaluation-programme, js-module-evaljs, msds-pv-conference-formation-2026, concepts administration-de-cours, qualification, charte-de-cours]
 statut: valide
 ---
 
@@ -15,15 +15,31 @@ statut: valide
 | 5 semaines avant la livraison souhaitée | DC via BDNS | commande de matériel de prêt J+S |
 | 4 semaines avant le cours | DC vers hajk | commande de documents et caisses de cours hajk |
 | 1 mois avant la livraison souhaitée | DC via BDNS | commande de documents J+S |
-| 3 semaines avant la livraison souhaitée | DC via BDNS | commande de cartes swisstopo |
+| 5 semaines avant la livraison souhaitée | DC via BDNS | commande de cartes swisstopo (l'Ancre dit 3 semaines ; retenir 5, comme le matériel) |
 | 2 semaines avant le début de chaque partie du cours | DC vers CàF | **programme détaillé** ; le CàF l'analyse et retourne son avis |
 | Avant le début de chaque partie | CàF vers DC | **autorisation du cours** (le tableau récapitulatif de l'Ancre la place 1 semaine avant) |
+| Dernier jour | DC, maîtrise, participants | évaluation J+S EvalJS dans la BDNS (cours et modules J+S dès 2027) |
 | 2 semaines après | DC vers CàF | évaluation du cours ; présences et qualifications dans MiData |
 | 3 semaines après | CàF vers MSdS | évaluation du cours via Orbit, et à l'AC séparément |
 
 Pour les commandes, les chapitres 5.1 et 5.4 à 5.6 de l'Ancre précisent les échéances ci-dessus ; ils priment sur son tableau d'ensemble, qui regroupe matériel J+S et hajk à 5 semaines avant le cours.
 
 Si le programme détaillé existe déjà à l'annonce, il peut remplacer le sommaire des UA. Les 2 semaines sont un minimum de la ligne directrice MSdS ; le cours ou l'AC peuvent en fixer d'autres : vérifier avant de crier au retard. Une annonce hors délai coûte une taxe de traitement express de CHF 100.– prélevée sur la contribution OFAS, à chaque retard (enregistrement, clôture). L'assistance du MSdS n'avertit pas avant le cours.
+
+## Matériel de prêt J+S pour un cours
+
+- Deux cours qui se suivent directement au même endroit peuvent commander le matériel chacun, par le premier et par le second : utile si le second, plus grand, a droit à davantage.
+- Matériel supplémentaire demandé dans la case des remarques : toujours avec quantité et numéro d'article, sinon la commande est refusée.
+
+## Évaluation J+S (EvalJS, dès le 01.01.2027)
+
+Tous les cours de formation et modules de formation continue J+S sont évalués par un questionnaire en ligne standardisé de la BDNS, modules d'un jour compris : un pour les participants, un pour le cadre du cours. Les documents lus ne disent pas s'il remplace l'évaluation du cours transmise au CàF : garder les deux.
+
+- **Avant** : l'onglet « Évaluation » s'ouvre dans la BDNS environ 30 jours avant le cours ; jusqu'à trois questions libres, décidées avec l'organisateur et présentées aux participants (elles n'apparaissent que comme « Question libre 1 à 3 »). Prévoir le moment au programme du dernier jour : environ 10 minutes de réponse, plus la discussion ; vérifier l'accès à la BDNS (Wi-Fi, appareil).
+- **Informer les participants** avant la fin : un courriel automatique de la BDNS leur arrive tôt le matin du dernier jour, avec un lien personnel ; réponses anonymes. Pour un module d'un jour, l'annoncer dès l'invitation. Sans accès au courriel : code QR affiché depuis la BDNS.
+- **Le dernier jour** : déclencher l'« évaluation immédiate » ferme la saisie ; la synthèse s'affiche aussitôt et sert à la séance de feed-back de fin de cours ou de module. La direction peut l'annoter puis la terminer (plus de modification ensuite) ; export PDF possible.
+- **Accès** : direction de cours et organisateur ; les responsables de la formation J+S des fédérations voient les résultats synthétisés ; l'OFSPO les analyse dans un rapport annuel.
+- **Sans évaluation**, le cours peut quand même être clôturé : la direction justifie pourquoi elle n'a pas été faite.
 
 ## Annonce et MiData
 

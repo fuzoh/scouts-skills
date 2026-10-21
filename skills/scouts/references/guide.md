@@ -17,8 +17,8 @@ Chaque parcours : thèmes à explorer, lectures (titres de `documents.md`), puis
 
 **Responsable de camp**
 - Thèmes : le calendrier administratif d'un camp (annonce, dossier, autorisation, clôture), le lieu, le matériel de prêt, la cuisine et le budget, le programme général et le dossier de camp, les activités J+S 2027 (part sportive, formes caractéristiques, périodes), le concept de sécurité global et par activité, la randonnée (temps de marche, points clés).
-- Lectures : Sardine ; Règlement de camp ; J+S 2027, exigences pour les camps scouts ; cudesch, La sécurité.
-- Demandes : « Fais-moi le calendrier des démarches pour un camp du 10 au 17 juillet 2027 » ; « Relis ce picasso » ; « Rédige le concept de sécurité de cette randonnée ».
+- Lectures : Sardine ; J+S 2027, exigences pour les camps scouts ; Directives Sport de camp/Trekking (module J+S) ; modules J+S Planifier une randonnée et Sécurité dans la planification.
+- Demandes : « Combien de temps sportif compte ma construction de tour de 4 h ? » ; « Fais-moi le calendrier des démarches pour un camp du 10 au 17 juillet 2027 » ; « Relis ce picasso » ; « Rédige le concept de sécurité de cette randonnée ».
 
 **Responsable de groupe (RG)**
 - Thèmes : son rôle dans l'autorisation de camp avec le coach, ce qu'il reçoit et quand, faire vivre la maîtrise (relève, recrutement, conflits), l'encadrement du groupe et les relations publiques, la cellule de crise et la Helpline.
@@ -27,17 +27,17 @@ Chaque parcours : thèmes à explorer, lectures (titres de `documents.md`), puis
 
 **Formateur, direction de cours**
 - Thèmes : le modèle de formation 2027 (cours, buts, niveaux d'approfondissement), construire une UA (objectifs d'apprentissage, PATExE, GAG, méthodes), le retour, la qualification et l'accompagnement (observation, exigences minimales, entretiens), l'administration d'un cours (Ancre, CàF, délais), la charte de cours.
-- Lectures : L'unité d'apprentissage ; Le cours ; Faire un retour, qualifier et accompagner ; Modèle de formation 2027 ; L'Ancre.
+- Lectures : L'unité d'apprentissage ; Le cours ; Faire un retour, qualifier et accompagner ; Modèle de formation 2027 ; L'Ancre ; check-lists cofor 2027 ; Évaluation du programme J+S (EvalJS).
 - Demandes : « Rédige une UA de 60 minutes sur le 3x3 pour un cours de base » ; « Relis cette UA, cours RU, branche Éclais » ; « Comment organiser la qualification de mon cours, séquencée ou en continu ? »
 
 **Coach J+S**
 - Thèmes : les tâches du coach au fil de l'année (offre, BDNS, présences, SAPC), les exigences 2027 d'un camp (participants, encadrement, activités, offre), lire et évaluer un programme et un concept de sécurité, les domaines de sécurité et l'expert à consulter, la clôture et les présences.
-- Lectures : J+S 2027, exigences pour les camps scouts ; Manuel Sport de camp / Trekking (édition d'octobre 2026, règles 2027) ; Guide pour la réalisation d'offres J+S ; Sardine.
+- Lectures : J+S 2027, exigences pour les camps scouts ; Directives Sport de camp/Trekking (module J+S) ; Manuel Sport de camp / Trekking (édition d'octobre 2026, règles 2027) ; Sardine.
 - Demandes : « Ce programme de camp respecte-t-il les exigences J+S 2027 ? » ; « Combien de moniteurs pour 45 participants ? » ; « Qu'est-ce qui change pour moi au 01.01.2027 ? »
 
 **Expert J+S, CàF**
 - Thèmes : qualifier des adultes (exigences minimales, indicateurs observables, entretiens), encadrer une maîtrise, autoriser un cours, la structure de formation J+S 2027.
-- Lectures : Faire un retour, qualifier et accompagner ; Concept CàF ; Check-list pour CàF ; Structure de la formation J+S SdC/T.
+- Lectures : Faire un retour, qualifier et accompagner ; Concept CàF ; Check-list pour CàF ; Structure de la formation J+S SdC/T ; Cadres de référence J+S 2027 ; procès-verbal de la conférence formation 2026.
 - Demandes : « Prépare une grille d'exigences minimales pour un cours de base » ; « Que vérifie le CàF à l'annonce d'un cours ? »
 
 ## 3. Thèmes transversaux à proposer quand rien ne ressort

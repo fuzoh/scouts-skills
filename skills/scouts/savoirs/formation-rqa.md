@@ -2,7 +2,7 @@
 titre: Retour, qualification et accompagnement (RQA) dans un cours
 theme: formation
 sert_a: "Qualification, observations, retours, entretiens, accompagnement, exigences minimales, décision réussi / non réussi, séquencé ou continu"
-derive_de: [msds-retour-qualifier-accompagner, msds-modele-de-formation, cofor-pano-retour-qualifier, concepts qualification, exigences-minimales, accompagnement, feedback]
+derive_de: [msds-retour-qualifier-accompagner, msds-modele-de-formation, msds-conffor-2026-diapositives, cofor-pano-retour-qualifier, concepts qualification, exigences-minimales, accompagnement, feedback]
 statut: valide
 ---
 
@@ -34,6 +34,7 @@ Principes :
 
 ## Accompagner
 
+- « Accompagner » traduit désormais « fördern » (avant : « encourager »). La brochure révisée (consultation 2026) précise les rôles de l'équipe de cours dans l'accompagnement, l'auto-évaluation avec fixation d'objectifs personnels, les retours entre pairs et les axes de progression.
 - Entretiens d'accompagnement : plus courts et plus participatifs que les entretiens de qualification ; le temps de parole revient à l'apprenant.
 - Auto-évaluation (grille remplie à des moments fixés, journal d'apprentissage réflexif), feedback entre pairs, objectifs personnels (compétences personnelles, sociales, techniques, méthodologiques) définis en entretien.
 - En fin de cours : au plus trois axes de progression, fondés sur des observations concrètes, et des mesures de formation continue ; liste d'objectifs transmise aux responsables de groupe.
@@ -45,6 +46,8 @@ Principes :
 - Les exigences et les modalités (moments, contenu, forme et durée des entretiens) sont annoncées dès le début du cours : droit à l'erreur, phases d'apprentissage distinctes des phases d'évaluation.
 
 ## Décider : séquencé ou en continu
+
+La brochure révisée en 2026 introduit cette distinction, compare les deux approches et insiste sur la qualification en continu, absente de l'ancienne version. Elle renforce aussi les techniques d'entretien, chacune avec un exemple.
 
 | | Qualification séquencée | Qualification en continu |
 |---|---|---|

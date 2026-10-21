@@ -12,6 +12,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-aide-memoire-prevention-accidents-sct@2025` — Prévention des accidents et exigences en matière de sécurité en sport de camp/trekking (aide-mémoire J+S et BPA) (5 sections, [index](../../corpus/js-aide-memoire-prevention-accidents-sct/index.md))
 - `js-aide-memoire-securite-eau@2024` — Aide-mémoire Sécurité Eau pour les moniteur·ice·s de Sport de camp/Trekking (1 section, [index](../../corpus/js-aide-memoire-securite-eau/index.md))
 - `js-guide-offres-sct@2023` — Guide pour la réalisation d'offres J+S Sport de camp/Trekking (1 section, [index](../../corpus/js-guide-offres-sct/index.md))
+- `js-module-securite-planification@2026-10-21` — Sécurité dans la planification (module d'apprentissage J+S SdC/T) (1 section, [index](../../corpus/js-module-securite-planification/index.md))
 - `js-sdct-eau@2019, 2e édition actualisée` — Sport de camp/Trekking – Eau (15 sections, [index](../../corpus/js-sdct-eau/index.md))
 - `js-sport-des-enfants-exemples@2015` — Sport des enfants J+S – exemples pratiques (33 sections, [index](../../corpus/js-sport-des-enfants-exemples/index.md))
 - `js-structure-formation-sdct` — Structure de la formation J+S Sport de camp/Trekking (BDNS, versions jusqu'au 31.12.2026 et dès le 1.1.2027) (1 section, [index](../../corpus/js-structure-formation-sdct/index.md))
@@ -20,4 +21,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[securite](securite.md), [hiver](hiver.md), [montagne](montagne.md), [sport-de-camp](sport-de-camp.md), [premiers-secours](premiers-secours.md), [expert-js](expert-js.md), [js](js.md), [methode-3x3](methode-3x3.md)
+[securite](securite.md), [hiver](hiver.md), [montagne](montagne.md), [sport-de-camp](sport-de-camp.md), [methode-3x3](methode-3x3.md), [premiers-secours](premiers-secours.md), [expert-js](expert-js.md), [js](js.md)

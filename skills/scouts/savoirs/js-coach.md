@@ -121,5 +121,6 @@ Résumé des rubriques :
 
 - Cours de moniteurs ouvert l'année des 17 ans ; reconnaissance à 18 ans, sauf en Sport de camp/Trekking (exception prévue).
 - Une formation continue tous les deux ans est obligatoire pour renouveler. Sans elle, la reconnaissance passe de « valable » à « caduc ».
+- Dès 2027 : une seule reconnaissance moniteur SdC/T (enfants et jeunes fusionnés, transfert automatique, validité inchangée) ; nouvelle qualification MiData « module de formation continue J+S accompli » ; rôle du coach dans le passage aux règles 2027 : (js-roles).
 - Certains cantons proposent 1418coach pour les 14 à 18 ans.
 - L'inscription d'un moniteur à un cours ou module passe par le coach, qui cherche avec lui le cours adapté.

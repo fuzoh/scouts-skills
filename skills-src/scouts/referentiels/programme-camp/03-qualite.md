@@ -20,6 +20,8 @@ Q16. Camp non J+S : les règles de sécurité J+S sont tout de même respectées
 Q17. Du temps libre : pas d'occupation 24 h sur 24, du temps libre avec un interlocuteur (manuel de camp J+S).
 Q18. Encadrement : le règlement fixe l'effectif selon participants, activités et branche, sans ratio ; prévoir plus que le minimum J+S (N14) (règlement de camp MSdS).
 Q19. Le camp est planifié comme un grand événement : buts concrets définis en équipe, thème et fil rouge, rétroplanning par étapes avec secteurs et responsables écrits, contrôle de la qualité du programme (fondements, formes de mouvement) (cudesch Programme).
+Q20. [2027] Le programme est orienté vers un but plutôt qu'une suite d'activités isolées : les formes caractéristiques donnent la direction, les formes d'activité la concrétisent, et une activité complexe (randonnée) rassemble ce que les activités précédentes ont développé (module J+S « Bases du sport de camp/trekking », 2026).
+Q21. [2027] Les longs temps morts sont repérés et transformés pour que tout le monde reste en mouvement (deux parties en parallèle dans un tournoi, poste d'exercices pour les éliminés) (module J+S « Directives Sport de camp/Trekking », 2026, remarque).
 
 ## Selon la branche
 Pour N10 (« exigences de la branche ») : repères des livres de branche du cudesch, des recommandations (Q, jamais N).

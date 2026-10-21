@@ -2,7 +2,7 @@
 titre: Expert J+S dans un cours scout et en camp, posture, accompagnement, entretiens, perfectionnement
 theme: formation
 sert_a: "Expert J+S, posture, conseiller un moniteur, trois recommandations, entretien en cinq temps, qualifier, modules MPE 2027, expert coach"
-derive_de: [js-manuel-experts, js-manuel-experts-coachs, js-accompagner-et-conseiller, msds-offre-mpe-2027, js-intro-manuel-experts-diapos, "concepts: expert-js, accompagnement, feedback"]
+derive_de: [js-manuel-experts, js-manuel-experts-coachs, js-accompagner-et-conseiller, msds-offre-mpe-2027, js-intro-manuel-experts-diapos, msds-pv-conference-formation-2026, "concepts: expert-js, accompagnement, feedback"]
 statut: valide
 ---
 
@@ -100,6 +100,12 @@ Il rappelle aussi que le camp développe six dimensions de la progression positi
 ## Collaborer avec la direction de cours
 
 Les sources lues ne décrivent pas de procédure de collaboration propre. Le cadre vient du modèle de formation (formation) : la direction répond de la planification, de la réalisation et de la qualité ; la qualification se décide en commun, le dernier mot revient à la direction ; il faut un formateur par tranche de 12 participants et, en cours J+S, une personne reconnue expert par tranche de 12. En pratique : fixer avec l'équipe, avant le cours, qui observe quels participants (au moins deux formateurs par participant, voir (formation-rqa)) et qui conduit les entretiens, et s'accorder sur les exigences minimales avant de les annoncer.
+
+## Devenir et rester expert (dès 2027)
+
+- Entrée : avoir accompli les compétences minimales de la formation continue Foundation, soit au moins deux offres de formation continue après la formation de base, dont une au moins avec reconnaissance supplémentaire (Responsable de camp ou domaine de sécurité) ; on peut en suivre davantage. Le SdC/T demande aussi de l'expérience dans la formation de moniteurs. Accès plus direct pour qui se spécialise dans un domaine de sécurité. Transition 2027 et 2028 : un module Responsable de camp achevé avant le 31.12.2026 compte pour l'admission au Top (formation).
+- La formation des experts reste en principe la même ; de nouveaux cadres de référence fondés sur des compétences minimales obligatoires la mettent à jour.
+- Le renouvellement de la reconnaissance par le module FSEA 1 raccourci n'est possible que jusqu'à fin 2026 ; l'OFSPO supprime cette offre, et une solution de remplacement n'était pas connue en octobre 2026.
 
 ## Se perfectionner : modules MPE 2027
 
