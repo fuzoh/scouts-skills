@@ -1,11 +1,12 @@
 ---
 title: Concevoir un document
-order: 44
+order: 15
 menu: false
+parcours: web
 description: "Demander au skill une première version d'activité J+S, d'UA, de programme ou de concept de sécurité."
 ---
 
-[Utiliser les skills](utiliser.md) > Concevoir un document
+[Utiliser le skill](web-utiliser.md) > Concevoir un document
 
 Le skill peut rédiger une première version. Elle suit une trame conforme aux exigences officielles. Vous l'adaptez ensuite à votre groupe.
 
@@ -37,4 +38,4 @@ Sans ces informations, le skill fait une hypothèse, l'annonce et produit quand 
 
 - Relisez tout : le skill ne connaît ni votre terrain, ni votre groupe, ni les règles de votre canton.
 - Faites valider le document par la personne responsable (coach J+S, direction de cours) comme d'habitude.
-- Vous pouvez demander une relecture du résultat : voir [Corriger un document](corriger-un-document.md).
+- Vous pouvez demander une relecture du résultat : voir [Corriger un document](web-corriger-un-document.md).

@@ -2,6 +2,7 @@
 title: Assistants du scoutisme suisse
 order: 1
 menu: Accueil
+parcours: commun
 description: "Deux skills pour assistants IA, fondés sur les ressources officielles du scoutisme suisse (MSdS, cofor, J+S, cudesch)."
 ---
 
@@ -23,20 +24,21 @@ Ces skills s'appuient sur les ressources officielles du scoutisme suisse : Mouve
 - Aider à concevoir un de ces documents.
 - Guider une personne qui débute : thèmes, lectures, exemples de demandes.
 
-Des exemples concrets se trouvent dans [Utiliser les skills](utiliser.md).
+Des exemples concrets se trouvent dans [Utiliser le skill](web-utiliser.md).
 
-## Deux skills : lequel choisir
+## Deux façons de les utiliser
 
-| | `scouts` | `scouts-ressources` |
-|---|---|---|
-| Pour qui | Tout le monde, usage courant | Formateur·ices, approfondissement |
-| Contenu | Savoirs résumés, critères de relecture, guides | Les mêmes critères et le contenu des brochures officielles, section par section |
-| Réponses | Courtes, sans références de page | Chaque règle citée avec sa source exacte |
-| Taille | Environ 40 fichiers, 0,2 Mo | Environ 2 000 fichiers, 8,7 Mo |
-| Agents en ligne de commande | Tous ceux qui prennent en charge les skills (Claude Code, Codex, Pi…) | Tous ceux qui prennent en charge les skills (Claude Code, Codex, Pi…) |
-| Plateformes web | claude.ai, Gemini, GPT, Grok | ChatGPT seulement, trop lourd pour les autres |
+### Dans le navigateur
 
-Prenez `scouts` par défaut. Prenez `scouts-ressources` quand vous avez besoin du texte officiel exact : préparer un cours, trancher un désaccord, citer une règle dans un document. Voir [Citer les sources](citer-les-sources.md).
+Vous utilisez claude.ai, ChatGPT ou Gemini. Vous importez un fichier zip dans les réglages, sans rien installer sur votre ordinateur. Un seul skill : `scouts`, pour un usage courant.
+
+[Commencer dans le navigateur](web-installer.md)
+
+### Avec un agent
+
+Vous utilisez Claude Code, Codex, Antigravity ou un autre agent installé sur votre ordinateur. Vous installez `scouts` (réponses courtes) et `scouts-ressources` (le texte officiel cité section par section), puis vous pouvez personnaliser les skills ou construire votre propre version.
+
+[Commencer avec un agent](agent-installer.md)
 
 ## Limites
 
@@ -45,10 +47,9 @@ Prenez `scouts` par défaut. Prenez `scouts-ressources` quand vous avez besoin d
 - **Règles 2027 par défaut.** Les skills appliquent les règles J+S en vigueur dès le 01.01.2027 (activité J+S ; les AC et SC n'existent plus). Pour un camp ou un cours de 2026, précisez la date dans votre demande.
 - **Pas de données personnelles.** Retirez les noms, adresses et numéros des documents que vous faites relire.
 
-## Commencer
+## Aller plus loin
 
-1. Installez un skill : [sur une plateforme web](installer-web.md) (claude.ai, ChatGPT, Gemini) ou [avec un agent](installer-agent.md) (Claude Code, Codex, Pi…).
-2. Lisez [Utiliser les skills](utiliser.md) pour des exemples de demandes.
-3. Une réponse fausse ? [Signalez-la](signaler.md).
-4. Les documents utilisés et leurs auteurs : [Sources et auteurs](sources.md).
-5. Pour aller plus loin : [Contribuer](contribuer.md).
+- Une réponse fausse ? [Signalez-la](signaler.md).
+- Les documents utilisés et leurs auteurs : [Sources et auteurs](sources.md).
+- Les nouvelles versions : [Nouveautés](nouveautes.md).
+- Pour participer : [Contribuer](contribuer.md).

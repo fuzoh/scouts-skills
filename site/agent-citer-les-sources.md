@@ -1,11 +1,12 @@
 ---
 title: Citer les sources
-order: 45
-menu: false
+order: 22
+menu: Citer les sources
+parcours: agent
 description: "Obtenir le texte officiel exact et sa référence avec le skill scouts-ressources."
 ---
 
-[Utiliser les skills](utiliser.md) > Citer les sources
+[Utiliser les skills](agent-utiliser.md) > Citer les sources
 
 Le skill `scouts` donne des réponses courtes, sans références précises. Il termine par les titres des documents à lire. Quand il vous faut la règle exacte et l'endroit où elle est écrite, prenez `scouts-ressources`.
 
@@ -37,6 +38,6 @@ Une règle sans citation n'est pas une règle : si vous en voyez une, [signalez-
 
 ## Limites
 
-- `scouts-ressources` est gros (environ 2 000 fichiers). Il fonctionne avec les agents en ligne de commande ; sur les plateformes web, il n'a pas encore été testé. Voir [Installer sur une plateforme web](installer-web.md).
+- `scouts-ressources` est gros (environ 2 000 fichiers). Il fonctionne avec les agents en ligne de commande. Sur les plateformes web, seul ChatGPT l'accepte ; il est trop lourd pour claude.ai et Gemini.
 - Certaines sections ont perdu des cases ou des schémas à la conversion. Le skill les marque `[fidélité partielle]` et n'en tire pas de conclusion.
 - La citation ne remplace pas la lecture du document officiel, surtout s'il a changé depuis la dernière version du skill.

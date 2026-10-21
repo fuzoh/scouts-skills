@@ -16,7 +16,7 @@ Un·e auteur·ice ou un éditeur souhaite le retrait ou la correction d'un docum
 
 ## Lire la liste
 
-- Le code entre accents graves est l'**identifiant** du document, utilisé dans les citations de `scouts-ressources` (voir [Citer les sources](citer-les-sources.md)).
+- Le code entre accents graves est l'**identifiant** du document, utilisé dans les citations de `scouts-ressources` (voir [Citer les sources](agent-citer-les-sources.md)).
 - **Lien** : la page d'origine ou le fichier, quand ils sont publics. « Pas de lien public » : document diffusé hors d'un site public (extranet J+S, cours, envoi aux responsables).
 - « Données personnelles ou d'accès retirées (caviardage) » : le document original contenait un nom d'utilisateur et un mot de passe d'accès (par exemple à une plateforme J+S) ou l'adresse e-mail personnelle d'un contact. Ils ont été effacés du texte embarqué.
 

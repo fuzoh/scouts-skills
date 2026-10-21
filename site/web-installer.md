@@ -1,7 +1,8 @@
 ---
 title: Installer sur une IA web
-order: 2
-menu: Installer sur une IA web
+order: 10
+menu: Installer
+parcours: web
 description: "Ajouter le skill scouts à claude.ai, ChatGPT ou Gemini, à partir d'un fichier zip."
 ---
 
@@ -9,10 +10,7 @@ Sur une plateforme web (App Gemini, Claude.ai, ChatGPT), vous ajoutez un skill e
 
 ## Télécharger le zip
 
-- [scouts.zip](https://github.com/fuzoh/scouts-skills/releases/latest/download/scouts.zip) : le skill principal, à prendre par défaut (environ 100 Ko).
-- [scouts-ressources.zip](https://github.com/fuzoh/scouts-skills/releases/latest/download/scouts-ressources.zip) : la version avec tous les textes officiels (environ 4 Mo, près de 2 000 fichiers). Sur le web, seul ChatGPT l'accepte : il est trop lourd pour claude.ai et Gemini.
-
-Ne décompressez pas le zip : la plateforme attend le fichier tel quel. Ces liens donnent toujours la dernière version.
+[scouts.zip](https://github.com/fuzoh/scouts-skills/releases/latest/download/scouts.zip) : le skill `scouts` (environ 100 Ko). Ne le décompressez pas : la plateforme attend le fichier tel quel. Ce lien donne toujours la dernière version.
 
 ## claude.ai
 
@@ -30,7 +28,7 @@ Plans Team et Enterprise : les skills sont activés par défaut sur Team. Sur En
 
 Ensuite, posez simplement votre question : le skill se déclenche seul quand elle parle de scoutisme.
 
-État des essais : `scouts` testé et fonctionnel. `scouts-ressources` : trop lourd, ne fonctionne pas.
+État des essais : testé et fonctionnel.
 
 Source : [aide de Claude, « Use skills in Claude »](https://support.claude.com/en/articles/12512180-use-skills-in-claude).
 
@@ -38,7 +36,7 @@ Source : [aide de Claude, « Use skills in Claude »](https://support.claude.com
 
 ChatGPT propose des skills sur certains plans d'organisation (Business, Enterprise, Education).
 
-Le skills `scouts` et `scouts-ressources` fonctionne. Utiliser le menu "Plugins" puis "Skills" pui "Add" pour uploader le skill.
+Le skill `scouts` fonctionne. Utilisez le menu « Plugins », puis « Skills », puis « Add » pour importer `scouts.zip`.
 
 Source : [aide d'OpenAI, « Skills in ChatGPT »](https://help.openai.com/en/articles/20001066-skills-in-chatgpt).
 
@@ -55,18 +53,18 @@ Conditions : avoir au moins 18 ans, être connecté·e, activer **Conserver l'ac
 
 Le total des fichiers importés ne doit pas dépasser 100 Mo.
 
-État des essais : `scouts` est fonctionnel. `scouts-ressources` : trop lourd, ne fonctionne pas.
+État des essais : fonctionnel.
 
 Sources : [aide de Gemini, compétences](https://support.google.com/gemini?p=b_ws_skills&hl=fr), [limites des fichiers](https://support.google.com/gemini/answer/14903178?hl=fr), [Gems](https://support.google.com/gemini/answer/15146780?hl=fr).
 
 ## Mistral Le Chat, Microsoft Copilot
 
-N'a pas été testé. A vous de voir si l'utilisation est possible.
+Pas testé. À vous de voir si l'import d'un zip est possible.
 
 ## Vérifier la version
 
-Demandez à l'assistant : « Quelle est la version du skill scouts ? ». Indiquez cette version quand vous [signalez une erreur](signaler.md). Pour passer à une nouvelle version, voir [Mettre à jour les skills](mettre-a-jour.md).
+Demandez à l'assistant : « Quelle est la version du skill scouts ? ». Indiquez cette version quand vous [signalez une erreur](signaler.md). Pour passer à une nouvelle version, voir [Mettre à jour les skills](web-mettre-a-jour.md).
 
 ## Et ensuite
 
-Voir [Utiliser les skills](utiliser.md) pour des exemples de demandes.
+Voir [Utiliser le skill](web-utiliser.md) pour des exemples de demandes.
