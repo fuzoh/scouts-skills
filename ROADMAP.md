@@ -120,9 +120,9 @@ Trois chantiers : personnaliser un skill installé (mode agent seulement), déri
 ### Décisions (tranchées, `DECISIONS.md` § Personnalisation)
 - [x] D1 Priorité : un ajout perso ajoute ou durcit une règle, n'assouplit jamais un non-négociable ; en cas de conflit, dire les deux. Étiquette `[perso]`
 - [x] D2 Noms réels : exception au § 9 limitée aux contacts de `scouts-perso/` (coach, CàF, Helpline cantonale) ; jamais dans un retour sur un document
-- [x] D3 Emplacement : `scouts-perso/` à la racine du projet courant ; avec une installation `-g`, aussi `~/scouts-perso/` ; le projet prime
+- [x] D3 Emplacement : `scouts-perso/` à la racine du projet courant ; avec une installation `-g`, aussi `~/scouts-perso/` ; le projet remplace le global, sans fusion
 - [x] D4 Script d'ingestion : dans `scouts-ressources` seulement (`skills-src/scouts-ressources/scripts/`), exclu du zip
-- [x] D5 Libellés des deux parcours (proposition : « Dans le navigateur » / « Avec un agent sur mon ordinateur »)
+- [x] D5 Libellés : « Dans le navigateur » / « Avec un agent » (détail sur l'accueil)
 
 ### A. Personnaliser un skill installé (solutions 1 + 2)
 - [ ] Format de `scouts-perso/README.md` : réglages surchargés (clés de `reglages.md`), règles locales, contacts par rôle, index des fiches (fichier | sert à ≤ 160 car.) ; sous-dossiers `ac/`, `groupe/`, `cours/`, `originaux/` ; gabarit dans le skill
