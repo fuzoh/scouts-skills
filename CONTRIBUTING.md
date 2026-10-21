@@ -13,6 +13,7 @@ Merci de votre intérêt. Pour signaler une erreur ou proposer une idée sans to
 | dossier | rôle | édité à la main |
 |---|---|---|
 | `skills-src/<skill>/` | sources d'écriture des skills (`SKILL.md`, `references/`, savoirs, référentiels dérivés de `scouts`) | oui |
+| `skills-src/scouts-ressources/scripts/` | `ajouter.py`, script facultatif de la personnalisation, lancé chez l'utilisateur par `uv run` (dépendances PEP 723, aucun import du dépôt) ; hors des zips | oui |
 | `skills/<skill>/` | packs générés par `just skills`, installés par `npx skills add` | **non** |
 | `referentiels/` | un référentiel par livrable, citations `id#NN-slug` vérifiées | oui |
 | `sources/<id>/` | registre (`source.yaml`), texte converti, index, sections | registre et index oui, texte converti non |
@@ -27,6 +28,8 @@ Les originaux des sources (`sources/*/original/`) ne sont pas versionnés : `url
 2. `just check` (registre, référentiels, limites de `scouts`) et `just test`.
 3. `just skills` : régénère `skills/` et les zips de `dist/`.
 4. Commiter le changement **et** `skills/` dans le même commit. La CI refuse un `skills/` qui ne correspond pas au build.
+
+`references/personnaliser.md` n'a qu'une source, `skills-src/scouts/references/` : le build la copie dans `scouts-ressources`. Le site a deux parcours (`parcours: web | agent | commun` dans le frontmatter des pages de `site/`) : une page web ne parle ni de `scouts-ressources`, ni de personnalisation, ni de terminal.
 
 ## Commits
 

@@ -174,6 +174,8 @@ Deux skills, même méthode (`DECISIONS.md` ; spécification dans `docs/skills-d
 
 - **`scouts`** (`skills-src/scouts/`, `DECISIONS.md`) : même méthode sans corpus ni citation `id#section` ; référentiels en dossiers `referentiels/<slug>/NN-*.md` dérivés de `referentiels/<slug>.md` (`derive_de`), savoirs par thème dans `savoirs/` (index généré par `light index`), `references/guide.md` (parcours pour qui débute), `references/documents.md` (catalogue des documents officiels à recommander). Limites des applis web (100 fichiers dans le pack, 50 Mo, 25 Mo par fichier, pas de format bureautique binaire, `description` ≤ 1 024 car.) et budget de 5 000 tokens estimés par fichier (`docs/contraintes-plateformes.md`) : `just light-check` (dans `just check`), `just build claude-code --skill scouts --zip`, `just install`. Produit dérivé : reporter dans le dossier de `scouts` toute modification d'un référentiel de `referentiels/`.
 
+- **Personnalisation** (`DECISIONS.md` § Personnalisation, mode agent) : verbe *personnaliser*, procédure et formats dans `skills-src/scouts/references/personnaliser.md` (source unique, copiée dans `scouts-ressources`). Dossier `scouts-perso/` chez l'utilisateur, hors du skill. Script facultatif `skills-src/scouts-ressources/scripts/ajouter.py` (PEP 723, `uv run`), tests dans `tests/test_ajouter.py`. Version dérivée : `build --perso DIR --suffixe S` (`just perso`).
+
 Règle : un skill n'embarque jamais une copie d'une section de source. Il référence `sources/<id>/NN-slug.md` et le build copie ce qu'il faut dans le pack de distribution.
 
 ## Fichiers d'état

@@ -49,7 +49,22 @@
 - Priorité : conversation > `scouts-perso/` > `reglages.md` > `SKILL.md`. Un réglage perso remplace librement celui de `reglages.md`. Une règle locale ajoute ou durcit, jamais n'assouplit un non-négociable ni une règle de sécurité ou d'urgence ; la conversation non plus. Conflit : dire les deux, suivre la plus prudente. Ce qui vient du perso porte `[perso]`.
 - Noms réels : seule exception à la désignation par rôle, les contacts de `scouts-perso/` (coach, CàF, Helpline cantonale, responsable cantonal). Ils servent à orienter (urgence, « à qui demander »), après les numéros officiels. Jamais dans un retour sur un document ni dans un brouillon. Le dossier contient des données personnelles : proposer un `.gitignore`.
 - Script d'ingestion `ajouter.py` dans `scouts-ressources` seulement (`skills-src/scouts-ressources/scripts/`), exclu du zip. Facultatif : sans `uv`, ou avec `scouts`, l'agent lit le document lui-même et écrit la fiche.
-- Site : deux parcours, « Dans le navigateur » et « Avec un agent ». L'accueil les détaille : claude.ai, ChatGPT, Gemini (import d'un zip) ; Claude Code, Codex, Antigravity… (installer, personnaliser, construire sa version).
+- `references/personnaliser.md` : une seule source dans `skills-src/scouts/`, copiée par le build dans `scouts-ressources`.
+
+## Version dérivée
+
+- `build --suffixe S` : skills `scouts-S` et `scouts-ressources-S`, installables à côté des officiels sans collision avec `npx skills update`. Sans suffixe, le build des packs commités est inchangé.
+- `build --perso DIR` : réglages perso fusionnés dans `references/reglages.md` (clé inconnue refusée), règles, contacts et index dans `references/perso.md`, fiches sous `perso/`, jamais `originaux/`. Exige `--suffixe`, écrit dans `build/` (git-ignoré), jamais dans `skills/`. `light check` s'applique au pack `scouts` final : un zip web reste possible pour une AC ou un cours.
+- Lecture : `references/perso.md` d'une version construite, puis le dossier perso du projet ou global, qui prime.
+- Deux chemins documentés : clone + dossier perso (cas courant, rien de publié), fork pour ajouter des sources officielles (workflows désactivés ; un fork public est public, dépôt privé pour des documents internes). Instructions pour un agent dans le README, sur le modèle de l'installation par prompt.
+
+## Site
+
+- Deux parcours, « Dans le navigateur » et « Avec un agent », plus des pages communes (sources, signaler, contribuer, nouveautés). Frontmatter `parcours: web | agent | commun`. Menu de premier niveau, sous-menu du parcours de la page.
+- L'accueil commence par le choix : claude.ai, ChatGPT, Gemini (import d'un zip, `scouts` seul) ; Claude Code, Codex, Antigravity… (installer `scouts` et `scouts-ressources`, personnaliser, construire sa version).
+- Parcours web : `scouts` seul, sans `scouts-ressources`, personnalisation ni terminal. Le zip `scouts-ressources` pour ChatGPT est proposé dans le parcours agent.
+- Pages en `web-*.md` et `agent-*.md`. Les exemples d'usage (débuter, poser, corriger, concevoir) vivent dans le parcours web ; le parcours agent y renvoie.
+- Mac et Windows ne sont pas testés : chaque page agent qui donne des commandes le dit.
 
 ## Dates d'application
 
