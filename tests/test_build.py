@@ -352,7 +352,7 @@ def test_perso_md_sans_reglages_et_chemins_reecrits(full: Path, perso: Path):
         assert rubrique in text
     assert "| perso/groupe/statuts/ | Statuts du groupe" in text
     assert "| perso/ac/directives/ |" in text and "| groupe/statuts/" not in text
-    assert text.splitlines()[0] == "# scouts-perso" and "construite" in text.splitlines()[2]
+    assert text.splitlines()[0] == "# scouts-perso" and text.splitlines()[2] == build.PERSO_INTRO
 
 
 def test_perso_fiches_copiees_sans_originaux(full: Path, perso: Path):

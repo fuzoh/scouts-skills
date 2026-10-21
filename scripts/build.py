@@ -103,8 +103,8 @@ def pack_name(skill: str, suffixe: str | None = None) -> str:
 
 PERSO_FOLDERS = ("ac", "groupe", "cours")
 PERSO_MAX_CHARS = 7_000
-PERSO_INTRO = ("Version construite par `build --perso` : les réglages de ce dossier sont déjà dans "
-               "`references/reglages.md` ; les fiches sont sous `perso/` du skill.")
+PERSO_INTRO = ("Dossier perso intégré à cette version du skill : ses réglages sont déjà dans "
+               "`references/reglages.md`, ses fiches sous `perso/`.")
 SETTING_RE = re.compile(r"^- \*\*(.+?)\*\* :")
 H2_RE = re.compile(r"^## (.+?)\s*$")
 FICHE_RE = re.compile(r"^(?:ac|groupe|cours)/[^/\s]+/?$")
