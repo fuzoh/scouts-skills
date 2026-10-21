@@ -113,6 +113,43 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] Phases de test restantes (site, `pi install`, ChatGPT, mise à jour de version) : retirées. Bêta en cours
 - [x] Correctifs d'URL de la veille : reportés dans À faire (hygiène)
 
+## Phase 7 — Personnalisation et site en deux parcours  (demande du mainteneur, 2026-10-21 ; en attente de confirmation)
+
+Trois chantiers : personnaliser un skill installé (mode agent seulement), dériver sa propre version depuis un fork, séparer le site en parcours web et parcours agent.
+
+### Décisions à trancher d'abord (propositions)
+- [ ] D1 Priorité : un ajout perso ajoute ou durcit une règle, n'assouplit jamais un non-négociable ; en cas de conflit, dire les deux. Étiquette `[perso]`
+- [ ] D2 Noms réels : exception au § 9 limitée aux contacts de `scouts-perso/` (coach, CàF, Helpline cantonale) ; jamais dans un retour sur un document
+- [ ] D3 Emplacement : `scouts-perso/` à la racine du projet courant ; avec une installation `-g`, aussi `~/scouts-perso/` ; le projet prime
+- [ ] D4 Script d'ingestion : dans `skills/scouts/scripts/` (installation agent), exclu des zips web
+- [ ] D5 Libellés des deux parcours (proposition : « Dans le navigateur » / « Avec un agent sur mon ordinateur »)
+
+### A. Personnaliser un skill installé (solutions 1 + 2)
+- [ ] Format de `scouts-perso/README.md` : réglages surchargés (clés de `reglages.md`), règles locales, contacts par rôle, index des fiches (fichier | sert à ≤ 160 car.) ; sous-dossiers `ac/`, `groupe/`, `cours/`, `originaux/` ; gabarit dans le skill
+- [ ] `references/personnaliser.md` (`scouts` et `scouts-ressources`) : vérifier l'accès aux fichiers (sinon expliquer et renvoyer au site), créer le dossier, remplir le profil par dialogue, ajouter un document (script si `uv` est présent, sinon lecture par l'agent → fiche markdown), mettre l'index à jour, proposer un `.gitignore` si le projet est un dépôt git
+- [ ] `SKILL.md` des deux skills : verbe « personnaliser », pas « lire `scouts-perso/README.md` s'il existe » au § 2, priorité conversation > perso > `reglages.md` > `SKILL.md` ; `description` complétée (≤ 1 024 car.) ; étiquette `[perso]` dans `reglages.md`
+- [ ] Budgets : index perso ≤ 2 000 tokens (lu à chaque question), fiche ≤ 5 000 tokens
+- [ ] Script `ajouter.py` dans le skill (fichier unique, dépendances inline PEP 723, `uv run`) : PDF / docx / pptx → markdown découpé par titres → `scouts-perso/<dossier>/<slug>/NN-*.md`, sha256, refus des doublons, ligne d'index ; chemins et UTF-8 compatibles Windows ; tests dans `tests/`
+- [ ] `build` exclut `scripts/` des zips ; `light check` tolère le script dans le pack agent
+- [ ] Essais : Claude Code et Codex sous Linux, avec et sans `uv`. Mac et Windows non testables ici, à noter sur le site
+
+### B. Construire sa propre version (fork ou clone)
+- [ ] `build --perso DIR [--name scouts-<suffixe>]` : intègre un dossier `scouts-perso/` dans le pack (fiches en savoirs, réglages fusionnés), contrôlé par `light check` → zip web possible pour une AC ou un cours ; tests
+- [ ] Procédure (page de site et section du README) : prérequis (`git`, `uv`, `just` facultatif), fork ou clone, ajout de sources (`ingest` → `convert` → `index` → `split`) ou d'un dossier perso, renommer le skill pour ne pas entrer en collision avec `npx skills update`, `just skills`, installer (`just install`, `npx skills add <fork>`, zip), désactiver release / pages / veille dans le fork, suivre l'amont (`git remote add upstream`, merge), prudence si le fork est public
+- [ ] Instructions pour un agent dans le README, sur le modèle de l'installation par prompt (« Fais-moi une version des skills scouts avec mes documents, suis : <url> »)
+
+### C. Site en deux parcours
+- [ ] `scripts/site.py` : frontmatter `parcours: web | agent | commun`, menu de premier niveau (Accueil, parcours web, parcours agent, pages communes) et sous-menu du parcours de la page ; tests ; mobile
+- [ ] Accueil : choix du parcours en deux blocs
+- [ ] Parcours web : `scouts` seul (installer, utiliser, débuter / poser / corriger / concevoir, mettre à jour) ; aucune mention de `scouts-ressources` ni de la personnalisation
+- [ ] Parcours agent : installer (`scouts` et `scouts-ressources`), utiliser, citer les sources, **personnaliser** (nouvelle page), **construire sa version** (nouvelle page), mettre à jour
+- [ ] Scinder les pages qui mélangent les deux parcours (`mettre-a-jour.md`, `utiliser.md`) ; communes : sources, signaler, contribuer, nouveautés
+- [ ] Test agent-browser (bureau, mobile, mode sombre)
+
+### D. Clôture
+- [ ] `DECISIONS.md` (personnalisation, parcours du site, version dérivée), `METHODE.md` si `build` change, README, CONTRIBUTING
+- [ ] `just check`, tests, `just skills` ; commits `feat(skills)`, `feat(build)`, `feat(site)`, `docs`
+
 ## À faire
 
 Bêta en cours. Les retours des testeurs se traitent au fil de l'eau, sans grille à rejouer.
@@ -134,7 +171,7 @@ Bêta en cours. Les retours des testeurs se traitent au fil de l'eau, sans grill
 - Packs aplatis `camp` / `formation` et migration des anciens prompts : seulement si un retour bêta le demande
 
 ## Prochaine action
-Réingérer `msds-illustrations-profil` (original local requis), puis `scripts/check_urls.py`.
+Phase 7 : trancher D1-D5 avec le mainteneur, puis A (personnalisation), C (site), B (version dérivée). Hygiène ensuite : réingérer `msds-illustrations-profil` (original local requis), puis `scripts/check_urls.py`.
 
 Traces locales : `build/pfadi-catalogue-entries.yaml` (catalogue complet, 775 entrées, 78 pages), `build/detail-check.txt` (vérification HTTP des 93 liens).
 
