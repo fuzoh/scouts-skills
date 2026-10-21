@@ -10,7 +10,7 @@ parametres:
   - {nom: objectifs de formation retenus par l'équipe, obligatoire: false}
 inclut: []
 derive_de: {slug: qualification, relu_le: 2026-10-21}
-statut: brouillon
+statut: valide
 ---
 Lire tous les fichiers du dossier dans l'ordre.
 
@@ -21,18 +21,18 @@ Périmètre : le **système de qualification** d'un cours de formation scout, c'
 ## Non-négociables
 Portée : `[tous]` = quelle que soit la date du cours ; `[formel]` = cours qui délivre une qualification ou une reconnaissance (base, RU, Top, modules J+S) ; `[office]` = cours où la qualification est acquise d'office (certains cours Panorama).
 N1. [formel] Les exigences minimales sont fixées par la maîtrise **avant** le cours, clairement, et tout le processus de retour, de qualification et d'accompagnement repose sur elles (modèle de formation MSdS ; brochure orange).
-N2. [tous] Les exigences minimales découlent des objectifs de formation du cours visé, dans la version du modèle de formation applicable à la date du cours ; des exigences reprises d'une édition précédente sont vérifiées contre le modèle actuel (brochure orange ; modèle de formation).
+N2. [tous] Les exigences minimales découlent des objectifs de formation du cours visé, dans la version du modèle applicable à sa date ; des exigences reprises d'une édition précédente sont vérifiées contre cette version ; pour un cours Panorama à qualification d'office, elles peuvent aussi porter sur la participation active et le vivre-ensemble, seuls ou avec les objectifs de formation (N8) (brochure orange ; modèle de formation ; fiche cofor des cours Panorama).
 N3. [tous] Chaque exigence minimale porte des indicateurs observables, compréhensibles par toute l'équipe et pertinents, en général deux à quatre ; une exigence sans indicateur n'est pas évaluable (brochure orange).
-N4. [tous] Chaque exigence minimale est associée à une situation d'observation du cours, et les contenus correspondants sont enseignés avant d'être évalués ; une exigence qu'aucune UA ne permet de démontrer n'est pas conforme (brochure orange).
-N5. [tous] Les exigences minimales, les critères d'évaluation et les modalités du processus (moments, contenu, forme et durée des entretiens, qui est concerné) sont communiqués aux apprenants au début du cours, avec les conséquences possibles (brochure orange ; manuel J+S Communication ; manuel des experts J+S).
+N4. [tous] Chaque exigence minimale est associée à une situation d'observation du cours, et les contenus correspondants sont enseignés avant d'être évalués ; pour les exigences de participation active et de vivre-ensemble d'un Panorama à qualification d'office, l'observation peut relever de la vie du cours plutôt que d'une UA particulière (brochure orange ; fiche cofor des cours Panorama).
+N5. [tous] Les exigences minimales sont mises à disposition par écrit ; elles sont communiquées aux apprenants au début du cours avec leurs indicateurs, les critères d'évaluation, les personnes concernées et les conséquences possibles du processus (brochure orange ; manuel J+S Communication ; manuel des experts J+S).
 N6. [formel] La décision « réussi / non réussi » se prend sur la base des exigences minimales, **chacune satisfaite individuellement** : une faiblesse dans un domaine ne se compense pas par un très bon travail ailleurs ; la maîtrise décide en commun, dernier mot à la direction de cours (brochure orange ; modèle de formation). Conséquence pour l'instrument (mainteneur) : une moyenne, une pondération ou un seuil global ne peut pas rendre « réussi » un apprenant dont une exigence minimale n'est pas remplie ; l'agrégation sert à nuancer, pas à compenser.
-N7. [formel] La présence conditionne la qualification : au moins 80 % de chaque partie du cours, toutes les parties que la direction a définies comme fondamentales, et, pour un cours J+S, la durée minimale J+S respectée malgré l'absence (directives des cours fédéraux, cofor ; Ancre). L'Ancre formule le 80 % comme un conseil, les directives des cours fédéraux comme une condition d'absence autorisée ; on retient une seule valeur, 80 % de chaque partie (mainteneur).
+N7. [formel] Pour les cours fédéraux, une absence autorisée suppose une présence à au moins 80 % de chaque partie et à toutes les parties définies comme fondamentales par la direction ; pour tout cours J+S, la présence effective respecte la durée minimale J+S malgré l'absence (directives des cours fédéraux, cofor ; Ancre).
 N8. [office] Même quand la qualification est acquise d'office, la maîtrise définit des exigences minimales de réussite (objectifs de formation et/ou participation active et vivre-ensemble) et les communique à tous au début du cours ; observations, retours et accompagnement restent dus (fiche cofor des cours Panorama).
 N9. [tous] Les exigences minimales portent sur ce qui peut évoluer pendant le cours (aptitudes, compétences, connaissances), jamais sur des traits stables de personnalité ; un trait ne s'observe qu'à travers des comportements, et l'observation se distingue de l'interprétation (brochure orange).
 
 ## Selon la date
 
-Demander la date du cours. Le modèle de formation 2027 est en vigueur le 01.01.2027 : la numérotation et la formulation des objectifs de formation changent, donc les exigences minimales qui en découlent (N2). La brochure orange est de 2026 et vaut pour les deux jeux.
+Demander la date du cours. Le modèle de formation 2027 est en vigueur le 01.01.2027 : la numérotation et la formulation des objectifs de formation changent, donc les exigences minimales qui en découlent (N2). La brochure orange disponible est une version de travail de 2026 : son applicabilité historique n'est pas certifiée par le registre. Le modèle antérieur à 2027 est absent du corpus ; demander le descriptif applicable pour vérifier un ancien cours.
 
 | | Cours avant le 01.01.2027 | Cours dès le 01.01.2027 |
 |---|---|---|
@@ -52,7 +52,7 @@ Q6. Même quand l'association cantonale impose le système, l'équipe discute ch
 
 Grille et consignation
 Q7. La grille d'évaluation reprend les exigences minimales en points décrits (savoirs, savoir-faire, savoir-être), avec une échelle d'atteinte (par exemple atteint / partiellement atteint / à améliorer), une grille par exigence minimale ; elle rend transparent ce qu'il faut pour réussir (même brochure).
-Q8. Le mode de consignation est choisi avant le cours (fiche de suivi, dossiers, affiche, cahier, tableau numérique, outil en ligne), avec ses limites connues ; chaque observation est neutre, datée ou rattachée à une UA, signée de son auteur ; les apprenants ne voient jamais les notes d'observation (même brochure).
+Q8. Le mode de consignation est choisi avant le cours (fiche de suivi, dossiers, affiche, cahier, tableau numérique, outil en ligne), avec ses limites connues ; chaque observation est neutre, datée ou rattachée à une UA, avec identification de son auteur ; les notes collectives affichées pour l'équipe restent inaccessibles aux apprenants, et les observations pertinentes sont sélectionnées pour le retour (même brochure).
 Q9. Au moins deux formateurs observent chaque apprenant, en combinant observations occasionnelles et systématiques décidées avant le cours ; les intuitions sont signalées comme telles (même brochure).
 Q10. Transparence au sens J+S : objectifs, critères, indicateurs et, quand c'est possible, standards connus d'avance ; en formation de moniteurs, les critères de base sont les compétences personnelle, sociale, méthodologique et professionnelle ; là où un standard est impossible (qualité d'une leçon, empathie), la part de subjectivité est assumée et dite (manuel J+S Communication).
 
@@ -66,5 +66,9 @@ Q16. Le système de qualification fait partie de la conception du cours (derniè
 
 Après le cours
 Q17. Le processus RQA est évalué après le cours (préparation de l'équipe, observation, outils, exigences minimales, discussions, entretiens), avec les apprenants aussi ; les décisions prises ne sont pas rouvertes (brochure orange).
-Q18. La procédure est documentée et conservable : un recours écrit à la CoFor ne porte que sur la procédure, jamais sur la décision ; pour un cours J+S, recours possible auprès de J+S via le secrétariat général ; les qualifications sont conservées au moins quatre mois (directives des cours fédéraux, cofor ; Ancre).
+Q18. La procédure est documentée et conservable : un recours écrit à la CoFor ne porte que sur la procédure, jamais sur la décision ; pour un cours J+S, recours possible auprès de J+S via le secrétariat général ; les données liées aux qualifications sont conservées au moins quatre mois après la fin du cours, mises à disposition de l'instance de recours en cas de recours, puis détruites à la fin de ce délai selon l'Ancre (directives des cours fédéraux, cofor ; Ancre).
 Q19. Les décisions, recommandations et retours sont transmis à l'association cantonale, la qualification saisie dans MiData (cours réussi coché, non réussi laissé vide), la reconnaissance J+S confirmée par la BDNS (brochure orange ; Ancre).
+
+Information et présence
+Q20. Il est utile de présenter dès le début du cours les moments, le contenu, la forme et la durée des entretiens ; ces détails d'organisation complètent la transparence exigée en N5 (brochure orange).
+Q21. L'Ancre conseille une présence à au moins 80 % du cours ; ce conseil général se distingue de l'obligation portant sur chaque partie des cours fédéraux et de la durée minimale J+S (N7) (Ancre).

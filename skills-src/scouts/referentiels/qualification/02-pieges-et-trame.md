@@ -12,24 +12,24 @@ Origine : support de conception du cours Top, grilles de cours Top et RU vues pa
 [non officiel] Le support est compréhensible par une personne externe à la maîtrise (CàF, recours) et facilite la préparation du retour (grille Top).
 [non officiel] Les **critères éliminatoires** (présence, règles du cours et charte J+S, plagiat, délais, attitude passive, mise en danger) sont listés d'avance, connus des apprenants, et leur activation est justifiée par écrit (quand l'avertissement a été donné, quels faits) ; sauf infraction aux règles du cours, une élimination ne vient qu'après avertissement et objectifs d'amélioration fixés ensemble. Seules la présence (N7) et les règles du cours ont une base officielle ; le reste est une pratique de cours (grilles Top et RU, mainteneur).
 [non officiel] Un ajustement discrétionnaire de l'équipe (« joker » d'un demi-point sur une sphère) est au plus unique, écrit et motivé, et ne sert jamais à contourner une exigence minimale non remplie (grille RU, mainteneur).
-[non officiel] Une grille complète contient au moins une sphère entièrement détaillée (objectifs, critères, indicateurs, barème, pondération, seuil) et une page de synthèse qui porte la pondération des sphères et le seuil de réussite du cours (rendu demandé au cours Top).
+[non officiel] Pour l'exercice de conception du cours Top, le rendu demandé comprend une sphère entièrement détaillée (objectifs, critères, indicateurs, barème, pondération, seuil) et une page de synthèse qui porte la pondération des sphères et le seuil de réussite du cours ; un système opérationnel doit permettre d'évaluer toutes ses exigences minimales (cours Top, mainteneur).
 [non officiel] Une grille construite dans un tableur sépare les feuilles de saisie (une par sphère) de la feuille de synthèse, et isole les colonnes techniques hors de la zone d'impression (grilles Top et RU ; détail dans `savoirs/formation-qualification-grille.md`).
 
 ## Questions à poser avant de juger
 1. De quel cours s'agit-il (type, branche, date) ? Le jeu d'objectifs est-il celui du modèle de formation en vigueur à cette date ?
 2. La qualification est-elle formelle ou acquise d'office ? Séquencée ou en continu ?
 3. Quels objectifs de formation l'équipe a-t-elle retenus, et comment les a-t-elle pondérés ?
-4. Quelle UA ou quel exercice pratique crée la situation d'observation de chaque exigence minimale ?
+4. Quelle situation (UA, exercice pratique ou vie du cours pour les exigences de participation et de vivre-ensemble d'un Panorama à qualification d'office) permet d'observer chaque exigence minimale ?
 5. Le concept RQA (qui observe, consignation, moments de discussion, entretiens, remédiations) existe-t-il à côté de la grille ?
 6. Le système est-il imposé par l'association cantonale ou propre à l'équipe ?
 
 ## Pièges
 - **Compensation.** Une moyenne de sphère à 80 % peut masquer une exigence minimale non remplie ; la brochure interdit la compensation entre domaines (N6). Lire la grille exigence par exigence avant de lire les totaux. Une sphère entière peut être l'exigence minimale si l'équipe l'a décidé et écrit ainsi ; sinon chaque exigence listée compte seule.
-- **Objectifs non observables.** « Connaissent », « comprennent », « sont sensibilisés » ne se vérifient pas ; demander ce qu'une personne extérieure verrait (Q5) et reformuler avec un verbe d'action du niveau visé.
+- **Objectifs non observables.** « Connaissent », « comprennent », « sont sensibilisés » ne suffisent pas seuls : vérifier les indicateurs observables (Q5), les préciser ou reformuler si nécessaire. Des indicateurs suffisants permettent de conserver le verbe de l'objectif officiel.
 - **Traits de personnalité.** Une rubrique « posture » ou « attitude » (fidèle, serviable, image d'exemple) qui note la personne plutôt que des comportements datés sort du cadre (N9). La garder comme support d'accompagnement, sans la faire peser sur la décision, ou la réécrire en comportements observables.
 - **Ancien modèle.** Des objectifs numérotés d'un descriptif antérieur sur un cours 2027 : signaler la migration à faire (N2), sans juger la grille inutilisable.
 - **D'office n'est pas sans RQA.** Un cours Panorama sans grille reste tenu aux exigences minimales communiquées et aux retours (N8).
-- **80 %.** L'Ancre « conseille », les directives fédérales exigent ; on retient 80 % de chaque partie, parties fondamentales incluses, durée minimale J+S respectée (N7). Une absence anticipée et convenue avec remédiation n'est pas une absence.
+- **80 %.** L'Ancre conseille 80 % du cours (Q21) ; seules les directives des cours fédéraux imposent 80 % de chaque partie et la présence aux parties fondamentales (N7). Pour tout cours J+S, la durée minimale de présence effective reste exigée. Une absence autorisée reste comptabilisée ; une remédiation ne dispense pas des exigences de présence applicables.
 - **Standards impossibles.** Toute compétence ne se mesure pas (Q10) : la part de subjectivité se dit à l'avance, elle ne se cache pas derrière une note.
 - **Photographie du cours.** La qualification juge le travail fourni pendant le cours, pas la personne ni son parcours ; une rubrique « potentiel » appartient à l'accompagnement.
 - **Vocabulaire.** « Sphère », « barème », « pondération », « critère éliminatoire », « joker » ne sont pas des termes des brochures : les reconnaître sans les exiger. RQE / RQA, participant / apprenant, point de cours / UA : les deux se lisent.
@@ -42,8 +42,8 @@ Origine : support de conception du cours Top, grilles de cours Top et RU vues pa
 1. Cadre : type de cours, date, modèle de formation applicable, qualification formelle ou d'office, séquencée ou en continu (Q11), système cantonal imposé ou non (Q6).
 2. Objectifs retenus : pondération en équipe (Q4), choix d'un nombre raisonnable (Q2), reformulation ou découpage pour les rendre évaluables*, renvoi au numéro d'origine, niveau taxonomique (Q3).
 3. Regroupement en sphères* : thème, but, module ou exercice pratique ; poids relatif des sphères et justification*.
-4. Exigences minimales : une phrase chacune (N1, N2), rattachée à sa situation d'observation et à l'UA qui l'enseigne avant (N4).
-5. Indicateurs : deux à quatre par exigence (N3), passés aux questions de la brochure (Q5) ; critères intermédiaires si le barème le demande*.
+4. Exigences minimales : une phrase chacune (N1, N2), rattachée à sa situation d'observation et, pour les contenus à enseigner, à l'UA qui précède l'évaluation ; participation et vivre-ensemble en Panorama à qualification d'office peuvent s'observer dans la vie du cours (N4).
+5. Indicateurs : généralement deux à quatre par exigence (N3), passés aux questions de la brochure (Q5) ; critères intermédiaires si le barème le demande*.
 6. Grille : échelle d'atteinte dont chaque niveau est défini (Q7) ; barème*, pondération* et seuils* écrits avec leur justification, sans compensation d'une exigence minimale (N6).
 7. Modalités : qui observe qui (Q9), consignation (Q8), moments et rôles des discussions (Q12, Q13), entretiens (moments, forme, durée), remédiations et plages d'enseignement avant (Q12), ce qui est communiqué au début du cours et sous quelle forme (N5).
 8. Présence et critères éliminatoires* : règle de présence (N7), liste annoncée, avertissement et justification écrite*.

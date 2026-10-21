@@ -13,7 +13,7 @@ parametres:
 canevas: []
 sources: [msds-modele-de-formation, msds-retour-qualifier-accompagner, msds-le-cours, msds-ancre, cofor-administration-cours-federaux, cofor-pano-retour-qualifier, js-communication, js-manuel-experts, autre-conception-qualification-top]
 inclut: []
-statut: brouillon
+statut: valide
 relu_le: 2026-10-21
 ---
 
@@ -24,18 +24,18 @@ Périmètre : le **système de qualification** d'un cours de formation scout, c'
 ## Non-négociables
 Portée : `[tous]` = quelle que soit la date du cours ; `[formel]` = cours qui délivre une qualification ou une reconnaissance (base, RU, Top, modules J+S) ; `[office]` = cours où la qualification est acquise d'office (certains cours Panorama).
 N1. [formel] Les exigences minimales sont fixées par la maîtrise **avant** le cours, clairement, et tout le processus de retour, de qualification et d'accompagnement repose sur elles — `msds-modele-de-formation#04-direction-et-encadrement` ; `msds-retour-qualifier-accompagner#06-qualification`.
-N2. [tous] Les exigences minimales découlent des objectifs de formation du cours visé, dans la version du modèle de formation applicable à la date du cours ; des exigences reprises d'une édition précédente sont vérifiées contre le modèle actuel — `msds-retour-qualifier-accompagner#06-qualification` ; `msds-retour-qualifier-accompagner#10-exigences-minimales` ; `msds-modele-de-formation#04-direction-et-encadrement`.
+N2. [tous] Les exigences minimales découlent des objectifs de formation du cours visé, dans la version du modèle applicable à sa date ; des exigences reprises d'une édition précédente sont vérifiées contre cette version ; pour un cours Panorama à qualification d'office, elles peuvent aussi porter sur la participation active et le vivre-ensemble, seuls ou avec les objectifs de formation (N8) — `msds-retour-qualifier-accompagner#06-qualification` ; `msds-retour-qualifier-accompagner#10-exigences-minimales` ; `msds-modele-de-formation#04-direction-et-encadrement` ; `cofor-pano-retour-qualifier#01-contenu`.
 N3. [tous] Chaque exigence minimale porte des indicateurs observables, compréhensibles par toute l'équipe et pertinents, en général deux à quatre ; une exigence sans indicateur n'est pas évaluable — `msds-retour-qualifier-accompagner#06-qualification`.
-N4. [tous] Chaque exigence minimale est associée à une situation d'observation du cours, et les contenus correspondants sont enseignés avant d'être évalués ; une exigence qu'aucune UA ne permet de démontrer n'est pas conforme — `msds-retour-qualifier-accompagner#06-qualification` ; `msds-retour-qualifier-accompagner#12-programme-et-inscription`.
-N5. [tous] Les exigences minimales, les critères d'évaluation et les modalités du processus (moments, contenu, forme et durée des entretiens, qui est concerné) sont communiqués aux apprenants au début du cours, avec les conséquences possibles — `msds-retour-qualifier-accompagner#14-pendant-le-cours` ; `js-communication#37-qualifier` ; `js-manuel-experts#11-evaluer-qualifier`.
+N4. [tous] Chaque exigence minimale est associée à une situation d'observation du cours, et les contenus correspondants sont enseignés avant d'être évalués ; pour les exigences de participation active et de vivre-ensemble d'un Panorama à qualification d'office, l'observation peut relever de la vie du cours plutôt que d'une UA particulière — `msds-retour-qualifier-accompagner#06-qualification` ; `msds-retour-qualifier-accompagner#12-programme-et-inscription` ; `cofor-pano-retour-qualifier#01-contenu`.
+N5. [tous] Les exigences minimales sont mises à disposition par écrit ; elles sont communiquées aux apprenants au début du cours avec leurs indicateurs, les critères d'évaluation, les personnes concernées et les conséquences possibles du processus — `msds-retour-qualifier-accompagner#06-qualification` ; `msds-retour-qualifier-accompagner#14-pendant-le-cours` ; `js-communication#37-qualifier` ; `js-manuel-experts#11-evaluer-qualifier`.
 N6. [formel] La décision « réussi / non réussi » se prend sur la base des exigences minimales, **chacune satisfaite individuellement** : une faiblesse dans un domaine ne se compense pas par un très bon travail ailleurs ; la maîtrise décide en commun, dernier mot à la direction de cours — `msds-retour-qualifier-accompagner#15-discussion-de-qualification` ; `msds-modele-de-formation#04-direction-et-encadrement`. Conséquence pour l'instrument (mainteneur) : une moyenne, une pondération ou un seuil global ne peut pas rendre « réussi » un apprenant dont une exigence minimale n'est pas remplie ; l'agrégation sert à nuancer, pas à compenser.
-N7. [formel] La présence conditionne la qualification : au moins 80 % de chaque partie du cours, toutes les parties que la direction a définies comme fondamentales, et, pour un cours J+S, la durée minimale J+S respectée malgré l'absence — `cofor-administration-cours-federaux#04-confirmation-finances` ; `msds-ancre#16-presences-et-qualifications`. L'Ancre formule le 80 % comme un conseil, les directives des cours fédéraux comme une condition d'absence autorisée ; on retient une seule valeur, 80 % de chaque partie (mainteneur).
+N7. [formel] Pour les cours fédéraux, une absence autorisée suppose une présence à au moins 80 % de chaque partie et à toutes les parties définies comme fondamentales par la direction ; pour tout cours J+S, la présence effective respecte la durée minimale J+S malgré l'absence — `cofor-administration-cours-federaux#04-confirmation-finances` ; `msds-ancre#16-presences-et-qualifications`.
 N8. [office] Même quand la qualification est acquise d'office, la maîtrise définit des exigences minimales de réussite (objectifs de formation et/ou participation active et vivre-ensemble) et les communique à tous au début du cours ; observations, retours et accompagnement restent dus — `cofor-pano-retour-qualifier#01-contenu`.
 N9. [tous] Les exigences minimales portent sur ce qui peut évoluer pendant le cours (aptitudes, compétences, connaissances), jamais sur des traits stables de personnalité ; un trait ne s'observe qu'à travers des comportements, et l'observation se distingue de l'interprétation — `msds-retour-qualifier-accompagner#09-avant-le-cours` ; `msds-retour-qualifier-accompagner#04-observer`.
 
 ## Selon la date
 
-Demander la date du cours. Le modèle de formation 2027 est en vigueur le 01.01.2027 : la numérotation et la formulation des objectifs de formation changent, donc les exigences minimales qui en découlent (N2). La brochure orange est de 2026 et vaut pour les deux jeux.
+Demander la date du cours. Le modèle de formation 2027 est en vigueur le 01.01.2027 : la numérotation et la formulation des objectifs de formation changent, donc les exigences minimales qui en découlent (N2). La brochure orange disponible est une version de travail de 2026 : son applicabilité historique n'est pas certifiée par le registre. Le modèle antérieur à 2027 est absent du corpus ; demander le descriptif applicable pour vérifier un ancien cours.
 
 | | Cours avant le 01.01.2027 | Cours dès le 01.01.2027 |
 |---|---|---|
@@ -55,7 +55,7 @@ Q6. Même quand l'association cantonale impose le système, l'équipe discute ch
 
 Grille et consignation
 Q7. La grille d'évaluation reprend les exigences minimales en points décrits (savoirs, savoir-faire, savoir-être), avec une échelle d'atteinte (par exemple atteint / partiellement atteint / à améliorer), une grille par exigence minimale ; elle rend transparent ce qu'il faut pour réussir — `msds-retour-qualifier-accompagner#10-exigences-minimales`.
-Q8. Le mode de consignation est choisi avant le cours (fiche de suivi, dossiers, affiche, cahier, tableau numérique, outil en ligne), avec ses limites connues ; chaque observation est neutre, datée ou rattachée à une UA, signée de son auteur ; les apprenants ne voient jamais les notes d'observation — `msds-retour-qualifier-accompagner#11-consignation-des-observations`.
+Q8. Le mode de consignation est choisi avant le cours (fiche de suivi, dossiers, affiche, cahier, tableau numérique, outil en ligne), avec ses limites connues ; chaque observation est neutre, datée ou rattachée à une UA, avec identification de son auteur ; les notes collectives affichées pour l'équipe restent inaccessibles aux apprenants, et les observations pertinentes sont sélectionnées pour le retour — `msds-retour-qualifier-accompagner#11-consignation-des-observations`.
 Q9. Au moins deux formateurs observent chaque apprenant, en combinant observations occasionnelles et systématiques décidées avant le cours ; les intuitions sont signalées comme telles — `msds-retour-qualifier-accompagner#03-observations` ; `msds-retour-qualifier-accompagner#04-observer`.
 Q10. Transparence au sens J+S : objectifs, critères, indicateurs et, quand c'est possible, standards connus d'avance ; en formation de moniteurs, les critères de base sont les compétences personnelle, sociale, méthodologique et professionnelle ; là où un standard est impossible (qualité d'une leçon, empathie), la part de subjectivité est assumée et dite — `js-communication#38-processus-de-qualification`.
 
@@ -69,8 +69,12 @@ Q16. Le système de qualification fait partie de la conception du cours (derniè
 
 Après le cours
 Q17. Le processus RQA est évalué après le cours (préparation de l'équipe, observation, outils, exigences minimales, discussions, entretiens), avec les apprenants aussi ; les décisions prises ne sont pas rouvertes — `msds-retour-qualifier-accompagner#26-apres-le-cours`.
-Q18. La procédure est documentée et conservable : un recours écrit à la CoFor ne porte que sur la procédure, jamais sur la décision ; pour un cours J+S, recours possible auprès de J+S via le secrétariat général ; les qualifications sont conservées au moins quatre mois — `cofor-administration-cours-federaux#05-recours-crise-combinaisons` ; `msds-ancre#17-buts-retour-archivage`.
+Q18. La procédure est documentée et conservable : un recours écrit à la CoFor ne porte que sur la procédure, jamais sur la décision ; pour un cours J+S, recours possible auprès de J+S via le secrétariat général ; les données liées aux qualifications sont conservées au moins quatre mois après la fin du cours, mises à disposition de l'instance de recours en cas de recours, puis détruites à la fin de ce délai selon l'Ancre — `cofor-administration-cours-federaux#05-recours-crise-combinaisons` ; `msds-ancre#17-buts-retour-archivage`.
 Q19. Les décisions, recommandations et retours sont transmis à l'association cantonale, la qualification saisie dans MiData (cours réussi coché, non réussi laissé vide), la reconnaissance J+S confirmée par la BDNS — `msds-retour-qualifier-accompagner#26-apres-le-cours` ; `msds-ancre#16-presences-et-qualifications`.
+
+Information et présence
+Q20. Il est utile de présenter dès le début du cours les moments, le contenu, la forme et la durée des entretiens ; ces détails d'organisation complètent la transparence exigée en N5 — `msds-retour-qualifier-accompagner#14-pendant-le-cours`.
+Q21. L'Ancre conseille une présence à au moins 80 % du cours ; ce conseil général se distingue de l'obligation portant sur chaque partie des cours fédéraux et de la durée minimale J+S (N7) — `msds-ancre#16-presences-et-qualifications`.
 
 ## Critères non officiels
 Origine : support du cours Top `autre-conception-qualification-top#01-contenu`, grilles de cours Top et RU vues par le mainteneur (non ingérées), mainteneur.
@@ -84,24 +88,24 @@ Origine : support du cours Top `autre-conception-qualification-top#01-contenu`, 
 [non officiel] Le support est compréhensible par une personne externe à la maîtrise (CàF, recours) et facilite la préparation du retour (grille Top).
 [non officiel] Les **critères éliminatoires** (présence, règles du cours et charte J+S, plagiat, délais, attitude passive, mise en danger) sont listés d'avance, connus des apprenants, et leur activation est justifiée par écrit (quand l'avertissement a été donné, quels faits) ; sauf infraction aux règles du cours, une élimination ne vient qu'après avertissement et objectifs d'amélioration fixés ensemble. Seules la présence (N7) et les règles du cours ont une base officielle ; le reste est une pratique de cours (grilles Top et RU, mainteneur).
 [non officiel] Un ajustement discrétionnaire de l'équipe (« joker » d'un demi-point sur une sphère) est au plus unique, écrit et motivé, et ne sert jamais à contourner une exigence minimale non remplie (grille RU, mainteneur).
-[non officiel] Une grille complète contient au moins une sphère entièrement détaillée (objectifs, critères, indicateurs, barème, pondération, seuil) et une page de synthèse qui porte la pondération des sphères et le seuil de réussite du cours (rendu demandé au cours Top).
+[non officiel] Pour l'exercice de conception du cours Top, le rendu demandé comprend une sphère entièrement détaillée (objectifs, critères, indicateurs, barème, pondération, seuil) et une page de synthèse qui porte la pondération des sphères et le seuil de réussite du cours ; un système opérationnel doit permettre d'évaluer toutes ses exigences minimales (cours Top, mainteneur).
 [non officiel] Une grille construite dans un tableur sépare les feuilles de saisie (une par sphère) de la feuille de synthèse, et isole les colonnes techniques hors de la zone d'impression (grilles Top et RU ; détail dans le savoir sur la construction de la grille).
 
 ## Questions à poser avant de juger
 1. De quel cours s'agit-il (type, branche, date) ? Le jeu d'objectifs est-il celui du modèle de formation en vigueur à cette date ?
 2. La qualification est-elle formelle ou acquise d'office ? Séquencée ou en continu ?
 3. Quels objectifs de formation l'équipe a-t-elle retenus, et comment les a-t-elle pondérés ?
-4. Quelle UA ou quel exercice pratique crée la situation d'observation de chaque exigence minimale ?
+4. Quelle situation (UA, exercice pratique ou vie du cours pour les exigences de participation et de vivre-ensemble d'un Panorama à qualification d'office) permet d'observer chaque exigence minimale ?
 5. Le concept RQA (qui observe, consignation, moments de discussion, entretiens, remédiations) existe-t-il à côté de la grille ?
 6. Le système est-il imposé par l'association cantonale ou propre à l'équipe ?
 
 ## Pièges
 - **Compensation.** Une moyenne de sphère à 80 % peut masquer une exigence minimale non remplie ; la brochure interdit la compensation entre domaines (N6). Lire la grille exigence par exigence avant de lire les totaux. Une sphère entière peut être l'exigence minimale si l'équipe l'a décidé et écrit ainsi ; sinon chaque exigence listée compte seule.
-- **Objectifs non observables.** « Connaissent », « comprennent », « sont sensibilisés » ne se vérifient pas ; demander ce qu'une personne extérieure verrait (Q5) et reformuler avec un verbe d'action du niveau visé.
+- **Objectifs non observables.** « Connaissent », « comprennent », « sont sensibilisés » ne suffisent pas seuls : vérifier les indicateurs observables (Q5), les préciser ou reformuler si nécessaire. Des indicateurs suffisants permettent de conserver le verbe de l'objectif officiel.
 - **Traits de personnalité.** Une rubrique « posture » ou « attitude » (fidèle, serviable, image d'exemple) qui note la personne plutôt que des comportements datés sort du cadre (N9). La garder comme support d'accompagnement, sans la faire peser sur la décision, ou la réécrire en comportements observables.
 - **Ancien modèle.** Des objectifs numérotés d'un descriptif antérieur sur un cours 2027 : signaler la migration à faire (N2), sans juger la grille inutilisable.
 - **D'office n'est pas sans RQA.** Un cours Panorama sans grille reste tenu aux exigences minimales communiquées et aux retours (N8).
-- **80 %.** L'Ancre « conseille », les directives fédérales exigent ; on retient 80 % de chaque partie, parties fondamentales incluses, durée minimale J+S respectée (N7). Une absence anticipée et convenue avec remédiation n'est pas une absence.
+- **80 %.** L'Ancre conseille 80 % du cours (Q21) ; seules les directives des cours fédéraux imposent 80 % de chaque partie et la présence aux parties fondamentales (N7). Pour tout cours J+S, la durée minimale de présence effective reste exigée. Une absence autorisée reste comptabilisée ; une remédiation ne dispense pas des exigences de présence applicables.
 - **Standards impossibles.** Toute compétence ne se mesure pas (Q10) : la part de subjectivité se dit à l'avance, elle ne se cache pas derrière une note.
 - **Photographie du cours.** La qualification juge le travail fourni pendant le cours, pas la personne ni son parcours ; une rubrique « potentiel » appartient à l'accompagnement.
 - **Vocabulaire.** « Sphère », « barème », « pondération », « critère éliminatoire », « joker » ne sont pas des termes des brochures : les reconnaître sans les exiger. RQE / RQA, participant / apprenant, point de cours / UA : les deux se lisent.
@@ -114,8 +118,8 @@ Origine : support du cours Top `autre-conception-qualification-top#01-contenu`, 
 1. Cadre : type de cours, date, modèle de formation applicable, qualification formelle ou d'office, séquencée ou en continu (Q11), système cantonal imposé ou non (Q6).
 2. Objectifs retenus : pondération en équipe (Q4), choix d'un nombre raisonnable (Q2), reformulation ou découpage pour les rendre évaluables*, renvoi au numéro d'origine, niveau taxonomique (Q3).
 3. Regroupement en sphères* : thème, but, module ou exercice pratique ; poids relatif des sphères et justification*.
-4. Exigences minimales : une phrase chacune (N1, N2), rattachée à sa situation d'observation et à l'UA qui l'enseigne avant (N4).
-5. Indicateurs : deux à quatre par exigence (N3), passés aux questions de la brochure (Q5) ; critères intermédiaires si le barème le demande*.
+4. Exigences minimales : une phrase chacune (N1, N2), rattachée à sa situation d'observation et, pour les contenus à enseigner, à l'UA qui précède l'évaluation ; participation et vivre-ensemble en Panorama à qualification d'office peuvent s'observer dans la vie du cours (N4).
+5. Indicateurs : généralement deux à quatre par exigence (N3), passés aux questions de la brochure (Q5) ; critères intermédiaires si le barème le demande*.
 6. Grille : échelle d'atteinte dont chaque niveau est défini (Q7) ; barème*, pondération* et seuils* écrits avec leur justification, sans compensation d'une exigence minimale (N6).
 7. Modalités : qui observe qui (Q9), consignation (Q8), moments et rôles des discussions (Q12, Q13), entretiens (moments, forme, durée), remédiations et plages d'enseignement avant (Q12), ce qui est communiqué au début du cours et sous quelle forme (N5).
 8. Présence et critères éliminatoires* : règle de présence (N7), liste annoncée, avertissement et justification écrite*.
