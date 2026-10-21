@@ -113,42 +113,22 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] Phases de test restantes (site, `pi install`, ChatGPT, mise à jour de version) : retirées. Bêta en cours
 - [x] Correctifs d'URL de la veille : reportés dans À faire (hygiène)
 
-## Phase 7 — Personnalisation et site en deux parcours  (demande du mainteneur, 2026-10-21 ; D1-D5 tranchées le 2026-10-21)
+## Phase 7 — Personnalisation et site en deux parcours  (demande du mainteneur, 2026-10-21 ; livrée le 2026-10-21, rien de poussé)
 
-Trois chantiers : personnaliser un skill installé (mode agent seulement), dériver sa propre version depuis un fork, séparer le site en parcours web et parcours agent.
+Trois chantiers : personnaliser un skill installé (mode agent seulement), dériver sa propre version depuis un clone ou un fork, séparer le site en parcours web et parcours agent. Décisions : `DECISIONS.md` § Personnalisation, Version dérivée, Site.
 
-### Décisions (tranchées, `DECISIONS.md` § Personnalisation)
-- [x] D1 Priorité : un ajout perso ajoute ou durcit une règle, n'assouplit jamais un non-négociable ; en cas de conflit, dire les deux. Étiquette `[perso]`
-- [x] D2 Noms réels : exception au § 9 limitée aux contacts de `scouts-perso/` (coach, CàF, Helpline cantonale) ; jamais dans un retour sur un document
-- [x] D3 Emplacement : `scouts-perso/` à la racine du projet courant ; avec une installation `-g`, aussi `~/scouts-perso/` ; le projet remplace le global, sans fusion
-- [x] D4 Script d'ingestion : dans `scouts-ressources` seulement (`skills-src/scouts-ressources/scripts/`), exclu du zip
-- [x] D5 Libellés : « Dans le navigateur » / « Avec un agent » (détail sur l'accueil)
+- [x] D1-D5 tranchées. D4 changé par le mainteneur : script dans `scouts-ressources` seulement
+- [x] A. Verbe *personnaliser* dans les deux skills ; `references/personnaliser.md` (source unique dans `scouts`, copiée par le build) : accès aux fichiers, emplacement, dialogue, ajout avec ou sans script, index, formats ; pas 5 du § 2 (dossier perso), priorité, `[perso]`, contacts nommés ; `ajouter.py` (PEP 723, PDF / docx / pptx / xlsx / md / txt, 33 tests) ; budgets : index 7 000 car. (avertissement), fiche 5 000 tokens (refus au build)
+- [x] B. `build --suffixe S` (versions `scouts-S`, `scouts-ressources-S`), `build --perso DIR` (réglages fusionnés, `references/perso.md`, fiches sous `perso/`, sortie `build/`), `just perso` ; `scripts/` copié dans le pack, hors zip, refusé dans `scouts` ; page « Construire sa version » (clone + dossier perso, ou fork) ; instructions pour un agent dans le README. Écart : `--suffixe` au lieu de `--name`, fiches sous `perso/` plutôt qu'en savoirs (index lu via `references/perso.md`)
+- [x] C. `site.py` : `parcours: web | agent | commun`, menu à deux niveaux ; pages renommées `web-*` / `agent-*` ; accueil qui commence par le choix ; pages « Personnaliser » et « Construire sa version » ; agent-browser : bureau, mobile 375 px, clair et sombre, sans débordement
+- [x] Essais sous Linux (`claude -p`, `codex exec`) : création du dossier par dialogue, règle qui assouplit la sécurité refusée, réponse en tutoiement avec le délai `[perso]` et le contact nommé ; ajout d'un PDF avec `ajouter.py` et sans `uv` (lecture par l'agent) ; `npx skills add` d'un pack construit en local
+- [x] D. DECISIONS, METHODE, README, CONTRIBUTING ; `just check`, 223 tests, `just skills` ; revue standards + spec, trois correctifs
 
-### A. Personnaliser un skill installé (solutions 1 + 2)
-- [ ] Format de `scouts-perso/README.md` : réglages surchargés (clés de `reglages.md`), règles locales, contacts par rôle, index des fiches (fichier | sert à ≤ 160 car.) ; sous-dossiers `ac/`, `groupe/`, `cours/`, `originaux/` ; gabarit dans le skill
-- [ ] `references/personnaliser.md` (`scouts` et `scouts-ressources`) : vérifier l'accès aux fichiers (sinon expliquer et renvoyer au site), créer le dossier, remplir le profil par dialogue, ajouter un document (script si `uv` est présent, sinon lecture par l'agent → fiche markdown), mettre l'index à jour, proposer un `.gitignore` si le projet est un dépôt git
-- [ ] `SKILL.md` des deux skills : verbe « personnaliser », pas « lire `scouts-perso/README.md` s'il existe » au § 2, priorité conversation > perso > `reglages.md` > `SKILL.md` ; `description` complétée (≤ 1 024 car.) ; étiquette `[perso]` dans `reglages.md`
-- [ ] Budgets : index perso ≤ 2 000 tokens (lu à chaque question), fiche ≤ 5 000 tokens
-- [ ] Script `ajouter.py` dans le skill (fichier unique, dépendances inline PEP 723, `uv run`) : PDF / docx / pptx → markdown découpé par titres → `scouts-perso/<dossier>/<slug>/NN-*.md`, sha256, refus des doublons, ligne d'index ; chemins et UTF-8 compatibles Windows ; tests dans `tests/`
-- [ ] `build` exclut `scripts/` des zips ; `light check` tolère le script dans le pack agent
-- [ ] Essais : Claude Code et Codex sous Linux, avec et sans `uv`. Mac et Windows non testables ici, à noter sur le site
-
-### B. Construire sa propre version (fork ou clone)
-- [ ] `build --perso DIR [--name scouts-<suffixe>]` : intègre un dossier `scouts-perso/` dans le pack (fiches en savoirs, réglages fusionnés), contrôlé par `light check` → zip web possible pour une AC ou un cours ; tests
-- [ ] Procédure (page de site et section du README) : prérequis (`git`, `uv`, `just` facultatif), fork ou clone, ajout de sources (`ingest` → `convert` → `index` → `split`) ou d'un dossier perso, renommer le skill pour ne pas entrer en collision avec `npx skills update`, `just skills`, installer (`just install`, `npx skills add <fork>`, zip), désactiver release / pages / veille dans le fork, suivre l'amont (`git remote add upstream`, merge), prudence si le fork est public
-- [ ] Instructions pour un agent dans le README, sur le modèle de l'installation par prompt (« Fais-moi une version des skills scouts avec mes documents, suis : <url> »)
-
-### C. Site en deux parcours
-- [ ] `scripts/site.py` : frontmatter `parcours: web | agent | commun`, menu de premier niveau (Accueil, parcours web, parcours agent, pages communes) et sous-menu du parcours de la page ; tests ; mobile
-- [ ] Accueil : choix du parcours en deux blocs
-- [ ] Parcours web : `scouts` seul (installer, utiliser, débuter / poser / corriger / concevoir, mettre à jour) ; aucune mention de `scouts-ressources` ni de la personnalisation
-- [ ] Parcours agent : installer (`scouts` et `scouts-ressources`), utiliser, citer les sources, **personnaliser** (nouvelle page), **construire sa version** (nouvelle page), mettre à jour
-- [ ] Scinder les pages qui mélangent les deux parcours (`mettre-a-jour.md`, `utiliser.md`) ; communes : sources, signaler, contribuer, nouveautés
-- [ ] Test agent-browser (bureau, mobile, mode sombre)
-
-### D. Clôture
-- [ ] `DECISIONS.md` (personnalisation, parcours du site, version dérivée), `METHODE.md` si `build` change, README, CONTRIBUTING
-- [ ] `just check`, tests, `just skills` ; commits `feat(skills)`, `feat(build)`, `feat(site)`, `docs`
+Restent ouverts :
+- [ ] Comportement de *personnaliser* sur claude.ai, ChatGPT et Gemini (renvoi au site attendu) : pas testé
+- [ ] Mac et Windows : pas testés (dit sur le site)
+- [ ] Anciennes URL du site (`installer-web.html`, `installer-agent.html`, `utiliser.html`, `mettre-a-jour.html`…) cassées par le renommage : redirections à ajouter si des liens circulent
+- [ ] `build.py` : extraire le dossier perso dans `scripts/perso.py`, regrouper `suffixe` et `perso` (odeurs relevées par la revue, sans urgence)
 
 ## À faire
 
@@ -174,7 +154,7 @@ Bêta en cours. Les retours des testeurs se traitent au fil de l'eau, sans grill
 - Packs aplatis `camp` / `formation` et migration des anciens prompts : seulement si un retour bêta le demande
 
 ## Prochaine action
-Phase 7 : trancher D1-D5 avec le mainteneur, puis A (personnalisation), C (site), B (version dérivée). Hygiène ensuite : réingérer `msds-illustrations-profil` (original local requis), puis `scripts/check_urls.py`.
+Phase 7 livrée en local : relire, pousser `main`, laisser release-please ouvrir la 0.7.0 ; puis décider des redirections d'anciennes URL du site. Hygiène ensuite : réingérer `msds-illustrations-profil` (original local requis), puis `scripts/check_urls.py`.
 
 Traces locales : `build/pfadi-catalogue-entries.yaml` (catalogue complet, 775 entrées, 78 pages), `build/detail-check.txt` (vérification HTTP des 93 liens).
 
@@ -188,6 +168,7 @@ Traces locales : `build/pfadi-catalogue-entries.yaml` (catalogue complet, 775 en
 - `msds-le-cours` et la trilogie sont des versions de travail (renvois « LIEN » non résolus, marques Word) : surveiller une version finale sur pfadi.swiss.
 
 ## Journal
+- 2026-10-21 (Phase 7) : D1-D5 tranchées (D4 : script dans `scouts-ressources` seulement). Contrat de personnalisation écrit par le parent ; trois sous-agents sonnet en worktrees (site en deux parcours, `ajouter.py`, `build --suffixe/--perso`), fusionnés ; pages « Personnaliser » et « Construire sa version », README. Essais réels Claude Code et Codex sous Linux. Piège d'environnement : un ancien `~/.claude/skills/scouts` global masque le skill du projet de même nom ; essais refaits sous `scouts-test` (`--suffixe`). Revue sur deux axes, trois correctifs (fiche perso > 5 000 tokens, cible du menu, seuil en dur).
 - 2026-10-21 (soir, arbitrages) : neuf points tranchés par le mainteneur (DECISIONS) : forme caractéristique non obligatoire sur la fiche 2027 mais suggérée ; jour sans J+S « au plus un » **et** minimum de journées tenu ; encadrement 2027 = 16+16+16, 1:16 minimal, 12 participants ; chef·fe / Responsable de camp même complément ; PV et diapositives de la ConfFor 2026 passés `rejected` (nominatifs, non prescriptifs ; artefacts supprimés, yaml gardé), règles conservées avec la mention « conférence formation MSdS 2026, non ingérée » ; `programme-camp` et `concept-de-securite` condensés sous 4 000 mots (deux sous-agents opus), dérivés alignés ; savoirs et références nettoyés (sous-agent sonnet) ; `docs/concepts/cofor.md` disparu (plus de source porteuse). `exemple de programme.pdf` déposé = doublon, retiré de `documents/`.
 - 2026-10-21 (newsletters d'octobre) : quatre mails officiels dépouillés ; documents liés comparés au registre (modèle de formation, Ancre, Pilote, concept CàF, exigences 2027, factsheet profil, deck « L'essentiel », Sardine : inchangés) ; 14 sources ingérées et indexées (7 modules numériques J+S SdC/T 2027 et EvalJS, page EvalJS, PV et diapos de la conférence formation 2026, check-lists Picos et Route, factsheet profil responsables, aide-mémoire racisme) en deux sous-agents sonnet ; savoirs et référentiels mis à jour en deux sous-agents opus (temps sportif, offre 2027, fusion des groupes cibles, cours uniques 2027, Foundation, connaissances techniques de base, EvalJS, taxonomie 0-3, profil, racisme) ; `skills/` régénéré, 83 fichiers, tests verts.
 - 2026-10-19 (bêta) : skills publiés et testés sur les IA cibles ; pilote scripté et phases de test retirés. Quatre référentiels passés `valide`, numéros gelés. À faire = hygiène du registre, puis documents 2027 quand ils existeront. Retours bêta au fil de l'eau.
