@@ -236,3 +236,12 @@ def test_parcours_sans_page_absent_du_menu(toy: Path, tmp_path: Path):
     out = tmp_path / "out"
     site.build_site(out)
     assert "Dans le navigateur" not in _html(out, "index")
+
+
+def test_parcours_pointe_vers_sa_premiere_page_de_menu(toy: Path, tmp_path: Path):
+    _page(toy, "web-hors-menu", "title: Hors menu\norder: 10\nmenu: false\nparcours: web", "x")
+    _page(toy, "web-installer", "title: Installer\norder: 11\nmenu: Installer\nparcours: web", "x")
+    out = tmp_path / "out"
+    site.build_site(out)
+    main = _nav(_html(out, "index"), "Menu principal")
+    assert 'href="web-installer.html"' in main and "web-hors-menu" not in main

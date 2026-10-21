@@ -279,7 +279,7 @@ def render_menu(pages: list[Page], current: str) -> str:
         if p.menu is not None and p.parcours == COMMUN and p.name == HOME_PAGE:
             items.append(_menu_link(f"{p.name}.html", p.menu, "page" if p.name == current else ""))
     for key, label in PARCOURS_LABELS.items():
-        members = [p for p in pages if p.parcours == key]
+        members = [p for p in pages if p.parcours == key and p.menu is not None]
         if not members:
             continue
         first = members[0]
