@@ -96,6 +96,7 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | `formation-finances-et-materiel.md` | Budget, acompte, décompte de cours fédéral, tarifs maximaux, caisse de cours, hajk, inscription Ticket, MiData, BDNS, Pilote, numéro de cours, SSS |
 | `formation-methodes-animation.md` | Méthodes en mouvement, FRTE, images fixes, vidéo, feed-back par l'image, séquences numériques, Communagir, Liberating Structures (non officiel) |
 | `formation-pano-et-rg.md` | Cours Panorama (projet, processus de groupe, numéros de cours), cours RG (planification, équipe, contenus), distinction RU, Pano, coach, Spectre, Gilwell |
+| `formation-qualification-grille.md` | Construire une grille de qualification : huit étapes, sphères, critères, indicateurs, barème, pondération, seuils, critères éliminatoires, tableur Excel |
 | `formation-rqa.md` | Qualification, observations, retours, entretiens, accompagnement, exigences minimales, décision réussi / non réussi, séquencé ou continu |
 | `formation-ua.md` | UA (ex-point de cours), objectif d'apprentissage, taxonomie, PATExE, GAG, dispositif pédagogique, forme d'enseignement, formes sociales, termes 2026 |
 | `formation-vae.md` | VAE, valoriser ses acquis scouts hors scoutisme, tableaux, compétences RU, RG, formateur, entretien, lettre, attestations |

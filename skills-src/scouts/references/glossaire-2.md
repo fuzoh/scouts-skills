@@ -56,6 +56,9 @@ Suite de `glossaire.md` : termes moins fréquents dans un document de camp ou de
 - **Niveau d'approfondissement** — profondeur de traitement d'un objectif : vivre, mémoriser et comprendre, appliquer et analyser, évaluer et créer.
 - **Retour** — tous les messages de l'équipe de cours aux apprenants, à chaud ou planifiés ; valorisant, orienté solutions et avenir.
 - **Exigences minimales** — conditions déduites des objectifs de formation pour une qualification positive, chacune avec 2 à 4 indicateurs observables.
+- **Critère et indicateur (qualification)** — le critère dit ce que l'équipe attend pour qualifier un objectif ; l'indicateur, ce qu'on observe ou mesure pour conclure que le critère est rempli ; J+S ajoute le standard, l'échelle de référence.
+- **Sphère, barème, pondération, seuil** — vocabulaire de construction d'une grille (cours Top, non officiel) : regroupement des objectifs par thème ; échelle d'atteinte ; poids relatif ; formule de réussite par objectif, sphère ou cours.
+- **Critère éliminatoire** — condition dont le non-respect, après avertissement, peut faire échouer le cours indépendamment de la grille ; seules la présence (80 %) et les règles du cours ont une base officielle.
 - **Accompagnement** — suivi et conseil des apprenants, y compris mesures de formation continue proposées en fin de cours.
 - **Apprentissage en mouvement (FRTE)** — méthodes pour cours théoriques d'adultes en quatre phases : formulation, recherche, traitement, entraînement.
 - **MPE** — module de perfectionnement expert J+S SdC/T, offre annuelle.

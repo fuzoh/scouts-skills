@@ -44,6 +44,7 @@ Principes :
 - Avant le cours, l'équipe déduit des objectifs de formation un nombre raisonnable d'exigences minimales, chacune avec des indicateurs observables (ce qu'une personne extérieure verrait, ce qui distingue rempli de non rempli, ce qui est reproductible et non dû au hasard). Méthodes de pondération : fiches et pastilles, travail préparatoire individuel, petits groupes par thème, retour sur les cours précédents (en vérifiant la conformité au modèle de formation actuel).
 - La grille d'évaluation reprend les exigences minimales en points décrits (savoirs, savoir-faire, savoir-être) et rend transparent ce qu'il faut pour réussir.
 - Les exigences et les modalités (moments, contenu, forme et durée des entretiens) sont annoncées dès le début du cours : droit à l'erreur, phases d'apprentissage distinctes des phases d'évaluation.
+- Construction pas à pas de l'instrument (objectifs, sphères, critères, indicateurs, barème, pondération, seuils, critères éliminatoires, grille dans un tableur) : `formation-qualification-grille.md`.
 
 ## Décider : séquencé ou en continu
 
