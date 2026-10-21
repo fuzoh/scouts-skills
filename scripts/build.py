@@ -409,7 +409,8 @@ def build_claude_code(scope: str = "complet", out: Path | None = None, make_zip:
     if shared.is_file():
         shutil.copy2(shared, root / "references" / SHARED_REFERENCE)
     if (skill_dir / "scripts").is_dir():
-        shutil.copytree(skill_dir / "scripts", root / "scripts")
+        shutil.copytree(skill_dir / "scripts", root / "scripts",
+                        ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
     if reg.GLOSSARY.is_file():
         shutil.copy2(reg.GLOSSARY, root / "references" / "glossaire.md")
     if reg.CONCEPTS.is_dir():

@@ -196,6 +196,17 @@ def test_personnaliser_partage(full: Path):
     (src / "personnaliser.md").write_text("# Personnaliser\n", encoding="utf-8")
     root = build.build_claude_code(skill=RES)["root"]
     assert (root / "references" / "personnaliser.md").read_text(encoding="utf-8") == "# Personnaliser\n"
+
+
+def test_scripts_sans_cache_python(full: Path):
+    sc = full / "skills-src" / "scouts-ressources" / "scripts"
+    (sc / "__pycache__").mkdir(parents=True)
+    (sc / "ajouter.py").write_text("print('x')\n", encoding="utf-8")
+    (sc / "__pycache__" / "ajouter.cpython-313.pyc").write_bytes(b"\x00")
+    root = build.build_claude_code(skill=RES)["root"]
+    assert sorted(p.name for p in (root / "scripts").rglob("*")) == ["ajouter.py"]
+
+
 def test_scripts_copies_tels_quels_dans_le_pack(full: Path):
     sc = full / "skills-src" / "scouts-ressources" / "scripts"
     (sc / "sous").mkdir(parents=True)
