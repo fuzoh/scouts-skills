@@ -26,14 +26,14 @@ Les quatre premiers se font de la même façon dans le navigateur et dans un age
 - Il applique les règles J+S en vigueur dès le 01.01.2027. Pour un camp ou un cours de 2026, dites-le.
 - Quand deux documents donnent deux valeurs, il retient la plus prudente.
 - Il termine par « Pour aller plus loin » : un à trois documents officiels à lire.
-- Ce qui ne vient pas des documents officiels est séparé et étiqueté : `[non officiel]`, `[web]` ou `[non vérifié]`.
+- Ce qui ne vient pas des documents officiels est séparé et étiqueté : `[non officiel]`, `[web]`, `[non vérifié]`, ou `[perso]` pour ce qui vient de votre [dossier personnalisé](agent-personnaliser.md).
 - En cas d'accident, de crise ou de soupçon d'abus, il renvoie d'abord aux personnes et aux numéros officiels (urgences, Helpline scoute, cellule de crise).
 
 ## Ce qu'il ne fait pas
 
 - Il ne remplace ni le coach J+S, ni le CàF, ni l'association cantonale. Les décisions leur reviennent.
 - Il n'invente pas de règle. Si les documents officiels qu'il connaît ne fixent rien, il le dit.
-- Il ne connaît pas les règles propres à votre canton ou à votre groupe, sauf si vous les lui donnez.
+- Il ne connaît pas les règles propres à votre canton ou à votre groupe, sauf si vous les lui donnez, dans la conversation ou une fois pour toutes en le [personnalisant](agent-personnaliser.md).
 - Il ne garantit pas l'exactitude : vérifiez toute règle importante dans le document officiel.
 
 ## Quelques conseils

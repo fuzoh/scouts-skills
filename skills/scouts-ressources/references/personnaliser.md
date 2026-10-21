@@ -4,7 +4,7 @@ Pour qui veut que l'assistant tienne compte de son groupe, de son association ca
 
 ## 1. Vérifier l'accès aux fichiers
 
-La personnalisation demande un dossier **persistant**, lisible et modifiable d'une conversation à l'autre : un agent ouvert sur un projet (Claude Code, Codex, Antigravity…). Application web (claude.ai, ChatGPT, Gemini), bac à sable effacé en fin de conversation ou aucun accès aux fichiers : le dire en deux phrases et renvoyer à https://fuzoh.github.io/scouts-skills/personnaliser.html. La procédure s'arrête là.
+La personnalisation demande un dossier **persistant**, lisible et modifiable d'une conversation à l'autre : un agent ouvert sur un projet (Claude Code, Codex, Antigravity…). Application web (claude.ai, ChatGPT, Gemini), bac à sable effacé en fin de conversation ou aucun accès aux fichiers : le dire en deux phrases et renvoyer à https://fuzoh.github.io/scouts-skills/agent-personnaliser.html. La procédure s'arrête là.
 
 ## 2. Trouver ou créer le dossier
 
