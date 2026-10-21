@@ -146,7 +146,7 @@ Les vues par public ou par thème sont générées dans `INVENTORY.md`.
 
 ## Glossaire et index de concepts : séparés
 
-- `GLOSSARY.md` : court, chargé par tous les skills. Terme, sigle, définition en une ligne, source canonique. Cible : < 150 lignes.
+- `GLOSSARY.md` : court. Terme, sigle, définition en une ligne, source canonique. Cible : < 150 lignes. Copié au build dans `scouts-ressources` seulement. `scouts` charge ses glossaires réécrits (`references/glossaire.md`, `glossaire-2.md`), pas `GLOSSARY.md`.
 - `docs/concepts/<concept>.md` : un fichier par concept, généré par `just concepts` depuis les `concepts:` des yaml. Définition (colonne `slug` du glossaire), sources qui portent le concept (`id@version`, nombre de sections, lien vers leur `index.md`), concepts liés par co-occurrence. C'est l'index inversé et le graphe de navigation ; chargé à la demande seulement. Les concepts sont posés au niveau de la source, pas de la section : l'`index.md` de la source fait le dernier pas.
 
 Le glossaire pointe vers `docs/concepts/` quand un terme y a une fiche. Le glossaire ne contient jamais la liste des sources d'un concept : c'est le rôle de la fiche.
@@ -163,20 +163,22 @@ Le glossaire pointe vers `docs/concepts/` quand un terme y a une fiche. Le gloss
 Deux skills, même méthode (`DECISIONS.md` ; spécification dans `docs/skills-design.md`) :
 - **`scouts`** (`skills-src/scouts/`), le skill principal : sans corpus, règles et savoirs encodés en fichiers courts, provenance en clair ; décrit plus bas.
 - **`scouts-ressources`** (`skills-src/scouts-ressources/`) : même méthode avec le corpus embarqué et les citations `id#NN-slug` ; pour qui veut le texte officiel.
-- Quatre verbes (chercher, expliquer, corriger, concevoir ; `scouts` ajoute guider), sans point d'entrée par public : le livrable nommé ou joint commande le routage.
+- Verbes : chercher, expliquer, corriger, concevoir. `scouts` ajoute guider. Les deux ont personnaliser. Pas de point d'entrée par public : le livrable nommé ou joint commande le routage.
 - **Référentiels** `referentiels/<slug>.md` : un par livrable, non-négociables cités par `id#section`, critères de qualité, critères `[non officiel]`, validés par `check` ; format, cycle de vie (`brouillon` → `relu` → `valide`) et règles de `check` dans `docs/skills-design.md` § 2, 6, 7. Le mot « canevas » désigne les modèles vierges ingérés (sources `nature: exemple`), formats reconnus et jamais exigés ; la trame de conception du référentiel est la structure de sortie de *concevoir*.
-- **Réglages** `skills-src/<nom>/references/reglages.md` : ce que le mainteneur change sans toucher à la méthode (niveau, longueurs, ton, posture, jeu de date par défaut, univocité, hors corpus, critères globaux). Priorité : conversation > réglages > `SKILL.md`.
+- **Réglages** `skills-src/<nom>/references/reglages.md` : ce que le mainteneur change sans toucher à la méthode (niveau, longueurs, ton, posture, jeu de date par défaut, univocité, hors corpus, critères globaux). Les deux fichiers divergent exprès. Priorité : conversation > `scouts-perso/` > `reglages.md` > `SKILL.md`. Une règle locale durcit ; elle n'assouplit pas un non-négociable ni une règle de sécurité.
 - Un skill dédié n'apparaît qu'après échec de l'échelle référentiel → référentiel avec procédure → non-négociables dans `SKILL.md` → dédié.
 
 - **Posture commune** (`DECISIONS.md`) : assistant qui discute, pas de ligne de plan ni de compte rendu de lecture, cadrage silencieux ; jeu de date 2027 par défaut (2026 seulement si le camp ou le cours est explicitement antérieur au 01.01.2027) ; une seule valeur par réponse (la plus prudente) ; pas de provenance entre parenthèses dans la prose ; jamais de mention du skill ; « Pour aller plus loin » en fin de réponse.
-- **`SKILL.md` de `scouts-ressources`** (≤ 150 lignes) : quatre verbes, chargement en quatre pas (glossaire → référentiel entier → sections citées → réglages), catalogue des référentiels, cadrage silencieux, niveaux, citation, hors corpus, situations sans livrable. Squelettes par verbe dans `references/corriger.md`, `concevoir.md`, `chercher.md`.
+- **Chargement** en cinq pas, identique dans les deux skills : glossaire, référentiel entier, sections citées ou savoirs, `reglages.md`, dossier perso (`references/perso.md`, puis `scouts-perso/` du projet, sinon `~/scouts-perso/`). Ne pas répondre avant le pas 5.
+- **Référentiels publiés** : `activite-js`, `concept-de-securite`, `programme-camp`, `qualification`, `ua`. Chaque `referentiels/<slug>.md` est nommé dans les deux catalogues de `SKILL.md`.
+- **`SKILL.md` de `scouts-ressources`** (≤ 150 lignes) : verbes ci-dessus, chargement en cinq pas, catalogue des référentiels, cadrage silencieux, niveaux, citation, hors corpus, situations sans livrable. Squelettes par verbe dans `references/corriger.md`, `concevoir.md`, `chercher.md`.
 - **Pack `scouts-ressources`** (`just build claude-code --skill scouts-ressources`, `just install-ressources`) : `scouts-ressources/{SKILL.md, references/, referentiels/, corpus/<id>/}` ; dans le pack, une citation `id#NN-slug` se lit dans `corpus/<id>/NN-slug.md` ; `corpus/<id>/index.md` porte le titre, `nature`, `applies_*`, `fidelity` de la source.
 
 - **`scouts`** (`skills-src/scouts/`, `DECISIONS.md`) : même méthode sans corpus ni citation `id#section` ; référentiels en dossiers `referentiels/<slug>/NN-*.md` dérivés de `referentiels/<slug>.md` (`derive_de`), savoirs par thème dans `savoirs/` (index généré par `light index`), `references/guide.md` (parcours pour qui débute), `references/documents.md` (catalogue des documents officiels à recommander). Limites des applis web (100 fichiers dans le pack, 50 Mo, 25 Mo par fichier, pas de format bureautique binaire, `description` ≤ 1 024 car.) et budget de 5 000 tokens estimés par fichier (`docs/contraintes-plateformes.md`) : `just light-check` (dans `just check`), `just build claude-code --skill scouts --zip`, `just install`. Produit dérivé : reporter dans le dossier de `scouts` toute modification d'un référentiel de `referentiels/`.
 
 - **Personnalisation** (`DECISIONS.md` § Personnalisation, mode agent) : verbe *personnaliser*, procédure et formats dans `skills-src/scouts/references/personnaliser.md` (source unique, copiée dans `scouts-ressources`). Dossier `scouts-perso/` chez l'utilisateur, hors du skill. Script facultatif `skills-src/scouts-ressources/scripts/ajouter.py` (PEP 723, `uv run`), tests dans `tests/test_ajouter.py`. Version dérivée : `build --perso DIR --suffixe S` (`just perso`).
 
-Règle : un skill n'embarque jamais une copie d'une section de source. Il référence `sources/<id>/NN-slug.md` et le build copie ce qu'il faut dans le pack de distribution.
+Règle : `scouts-ressources` référence `sources/<id>/NN-slug.md` ; le build copie la section dans le pack. `scouts` n'embarque pas le corpus et ne cite pas par id.
 
 ## Fichiers d'état
 

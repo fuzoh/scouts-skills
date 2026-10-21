@@ -113,7 +113,7 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] Phases de test restantes (site, `pi install`, ChatGPT, mise à jour de version) : retirées. Bêta en cours
 - [x] Correctifs d'URL de la veille : reportés dans À faire (hygiène)
 
-## Phase 7 — Personnalisation et site en deux parcours  (demande du mainteneur, 2026-10-21 ; livrée le 2026-10-21, rien de poussé)
+## Phase 7 — Personnalisation et site en deux parcours  (demande du mainteneur, 2026-10-21 ; livrée le 2026-10-21)
 
 Trois chantiers : personnaliser un skill installé (mode agent seulement), dériver sa propre version depuis un clone ou un fork, séparer le site en parcours web et parcours agent. Décisions : `DECISIONS.md` § Personnalisation, Version dérivée, Site.
 
@@ -149,6 +149,15 @@ Bêta en cours. Les retours des testeurs se traitent au fil de l'eau, sans grill
 - [ ] Référentiel des cours (Cours introduction, Responsable de camp, modules 2027) à partir de `js-structure-formation-sdct` : fusionner d'abord, plafond de 90 fichiers dans `scouts` (87 utilisés)
 - [x] Référentiel `qualification` : relecture agent exhaustive des N1–N9 et Q1–Q19 contre les sections citées ; corrections propagées au dérivé et au savoir de construction de grille.
 - [x] Référentiel `qualification` : corrections approuvées par le mainteneur le 2026-10-21, référentiel et dérivé passés `valide`, numéros gelés. Critères éliminatoires et « joker » restent des pratiques non officielles. Applicabilité historique de la brochure de travail non établie ; modèle antérieur à 2027 absent du corpus.
+
+### À voir
+- [ ] Sérialiser `relu_le` en AAAA-MM-JJ dans le manifeste de `scouts` (aujourd'hui un repr Python)
+- [ ] Avertissement `light check` à 90 fichiers dans la source, sans réarbitrer le plafond ni ouvrir le référentiel des cours
+- [ ] Rétablir « exemple » dans la hiérarchie hors corpus de `scouts` (`SKILL.md` § 7)
+- [ ] `programme-camp` N16 : le total arrivée + départ couvre aussi les 2 h sportives en 2027 (le tableau « Selon la date » le dit, la phrase du N non)
+- [ ] Définitions encore « à écrire » dans les fiches `docs/concepts/`
+- [ ] Invariant annoncé dans `docs/skills-design.md` § 7 (source qui change de version → référentiel repassé `relu`) : `ingest --new-version` se contente de lister les citations
+- [ ] Écart de couverture entre Alpha 2017 (`msds-alpha-aide-memoire-rg`) et les savoirs de groupe
 - [ ] Grilles de qualification Top et RU : pas ingérées (trop spécifiques, nominatives), conservées en local dans `pilote/cas/qualification/` ; la grille RU porte les objectifs de l'ancien modèle, attendre une version 2027 avant d'en tirer un canevas
 
 ### Plus tard
@@ -157,9 +166,9 @@ Bêta en cours. Les retours des testeurs se traitent au fil de l'eau, sans grill
 - Packs aplatis `camp` / `formation` et migration des anciens prompts : seulement si un retour bêta le demande
 
 ## Prochaine action
-Pousser `main` après le commit des corrections approuvées du référentiel `qualification` et du savoir `formation-qualification-grille.md` : release-please ouvrira la 0.8.0. Tester une demande « relis le système de qualification de notre cours RU » avec une grille réelle dans `pilote/cas/qualification/`.
+Le mainteneur relit la PR #8 une fois release-please l'a rafraîchie avec les commits poussés sur `main`, puis fait la release 0.8.0. Ne pas merger depuis une session d'agent.
 
-Ancienne action encore ouverte : Phase 7 livrée en local : relire, pousser `main`, laisser release-please ouvrir la 0.7.0 ; puis décider des redirections d'anciennes URL du site. Hygiène ensuite : réingérer `msds-illustrations-profil` (original local requis), puis `scripts/check_urls.py`.
+Phase 7 est livrée et poussée. L'ancienne action « relire, pousser, ouvrir la 0.7.0 » est close. Les cases encore ouvertes de la Phase 7 (tests web de personnaliser, Mac et Windows, redirections d'URL, odeurs de `build.py`) restent dans cette section.
 
 Traces locales : `build/pfadi-catalogue-entries.yaml` (catalogue complet, 775 entrées, 78 pages), `build/detail-check.txt` (vérification HTTP des 93 liens).
 

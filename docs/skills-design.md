@@ -1,11 +1,12 @@
 # Design des skills
 
-Référence de conception issue du grill Phase 4 (`docs/briefing-phase4-grill.md` ; choix encore en vigueur dans `DECISIONS.md`). Ce document fait foi pour le format des référentiels, le contenu de `reglages.md`, les règles de `check` et le protocole du pilote. METHODE § Skills en donne le résumé.
+Référence de conception issue du grill Phase 4 (`docs/briefing-phase4-grill.md` ; choix encore en vigueur dans `DECISIONS.md`). Ce document fait foi pour le format des référentiels, le contenu de `reglages.md` et les règles de `check`. METHODE § Skills en donne le résumé.
 
 ## 1. Organisation
 
-- **Deux skills de même méthode** : `scouts` (principal, sans corpus, § 10) et `scouts-ressources` (corpus embarqué, citations). Quatre verbes : chercher, expliquer, corriger, concevoir (`scouts` ajoute guider). Pas de point d'entrée par public : le livrable nommé ou joint commande le routage ; sans livrable, recherche dans le corpus ou les savoirs. Jusqu'au 2026-10-18 les skills s'appelaient `scout` et `scout-light`.
-- **Référentiels** `referentiels/<slug>.md`, un par livrable, données de premier rang, lus par le skill. Pilote : `activite-js`, `ua`, `programme-camp` ; `concept-de-securite` est composé par `inclut:`.
+- **Deux skills de même méthode** : `scouts` (principal, sans corpus, § 10) et `scouts-ressources` (corpus embarqué, citations). Verbes : chercher, expliquer, corriger, concevoir. `scouts` ajoute guider. Les deux ont personnaliser. Pas de point d'entrée par public : le livrable nommé ou joint commande le routage ; sans livrable, recherche dans le corpus ou les savoirs. Jusqu'au 2026-10-18 les skills s'appelaient `scout` et `scout-light`.
+- **Référentiels** `referentiels/<slug>.md`, un par livrable, données de premier rang, lus par le skill : `activite-js`, `concept-de-securite`, `programme-camp`, `qualification`, `ua`.
+- **Priorité** : conversation > `scouts-perso/` > `reglages.md` > `SKILL.md`. Une règle locale durcit ; elle n'assouplit pas un non-négociable ni une règle de sécurité.
 - **Échelle de bascule** avant tout skill dédié : référentiel → référentiel avec procédure → non-négociables recopiés dans `SKILL.md` → skill dédié. Repli si le pilote échoue : découpage par livrable (proposition A), référentiels conservés.
 - **Canevas** : le mot désigne les modèles vierges ingérés (`nature: exemple`), jamais les référentiels.
 - **Packs** : zip agentskills.io avec corpus pour Claude Code, claude.ai, Gemini, ChatGPT. Pack aplati par domaine `camp` / `formation` pour Claude Project et custom GPT : seulement si un retour bêta le demande. Le build n'embarque jamais `raw.md` ni les originaux.
@@ -91,11 +92,11 @@ Contenu : niveau par défaut et plafonds de longueur ; nombre de priorités et r
 
 Hors `reglages.md` (invariants de `SKILL.md` et `references/corriger.md`) : la structure des trois niveaux, le cadrage silencieux, la hiérarchie des preuves, le format de citation.
 
-Priorité : consigne donnée dans la conversation > `reglages.md` > défauts de `SKILL.md`. Aucun référentiel ne surcharge un réglage.
+Priorité : consigne donnée dans la conversation > `scouts-perso/` > `reglages.md` > défauts de `SKILL.md`. Une règle locale durcit ; elle n'assouplit pas un non-négociable ni une règle de sécurité. Aucun référentiel ne surcharge un réglage. Les deux `reglages.md` divergent exprès.
 
 ## 4. `SKILL.md` de `scouts-ressources` (Q17)
 
-Nom `scouts-ressources`, description ≤ 1024 caractères (proposition C), corps ≤ 150 lignes : quatre verbes ; chargement en quatre pas (glossaire → référentiel détecté → sections citées → `reglages.md`) ; catalogue des référentiels (slug, signaux, paramètres) ; cadrage silencieux (§ 5) ; trois niveaux de retour ; format de citation et posture d'assistant ; hors corpus ; situations sans livrable (protection, accident, crise : renvoi aux humains d'abord). Squelettes `references/corriger.md`, `concevoir.md`, `chercher.md`, `reglages.md`.
+Nom `scouts-ressources`, description ≤ 1024 caractères, corps ≤ 150 lignes. Verbes : chercher, expliquer, corriger, concevoir, personnaliser. Chargement en cinq pas : glossaire → référentiel entier → sections citées → `reglages.md` → dossier perso (`references/perso.md`, puis `scouts-perso/` du projet, sinon `~/scouts-perso/`). Ne pas répondre avant le pas 5. Le catalogue nomme chaque `referentiels/<slug>.md`. Cadrage silencieux (§ 5) ; trois niveaux de retour ; format de citation et posture d'assistant ; hors corpus ; situations sans livrable (protection, accident, crise : renvoi aux humains d'abord). Squelettes `references/corriger.md`, `concevoir.md`, `chercher.md`, `reglages.md`. Le glossaire de `scouts` (`references/glossaire.md`, `glossaire-2.md`) n'est pas `GLOSSARY.md`.
 
 ## 5. Méthode de retour
 
@@ -115,10 +116,13 @@ Nom `scouts-ressources`, description ≤ 1024 caractères (proposition C), corps
 6. Taille : avertissement > 4 000 mots, erreur > 6 000.
 7. À `ingest --new-version`, lister les référentiels qui citent la source.
 8. Avertissement sur numéro manquant dans une suite N/Q ; pas d'autre contrôle sémantique.
+9. Chaque `referentiels/<slug>.md` apparaît dans les deux catalogues (`skills-src/scouts/SKILL.md` et `skills-src/scouts-ressources/SKILL.md`).
+10. `derive_de.relu_le` du dossier `skills-src/scouts/referentiels/<slug>/` égale `relu_le` du référentiel racine.
+11. Avertissement si une source `converted` a déjà `index.md` et des `NN-*.md` : le build ne l'embarque pas.
 
 ## 7. Cycle de vie d'un référentiel
 
-`brouillon` (rédigé) → `relu` (relecture du mainteneur intégrée, format conforme) → `valide` (`check` vert, numéros gelés, publié). Une source citée qui change de version repasse le référentiel en `relu` jusqu'à revérification des critères concernés.
+`brouillon` (rédigé) → `relu` (relecture du mainteneur intégrée, format conforme) → `valide` (`check` vert, numéros gelés, publié). Une source citée qui change de version doit repasser le référentiel en `relu` jusqu'à revérification des critères concernés. `ingest --new-version` ne le fait pas : il liste les citations. L'imposition est à voir.
 
 ## 8. Validation
 

@@ -11,4 +11,6 @@ Lire `METHODE.md` avant de toucher `sources/`, `skills-src/`, `skills/` ou `scri
 - Locaux, jamais versionnés : `sources/*/original/`, `pilote/cas/`, `documents/`. Rien de nominatif (groupe, lieu, année d'un camp réel, personne) dans un fichier versionné.
 - Commits en conventional commits (`feat(skills):`, `fix(contenu):`, `docs:`…) : release-please en tire versions et CHANGELOG.
 - `documents/` est une boîte d'entrée locale : ingérer puis vider, ne jamais y travailler.
-- Un skill ne copie jamais une section de source ; il la référence par `id`.
+- Écrire dans `referentiels/` et `skills-src/`. `skills/` est généré.
+- `scouts-ressources` cite `id#NN-slug`. `scouts` ne cite pas par id : provenance en clair. `light check` refuse `id#NN-slug` dans `scouts`.
+- Verbe `personnaliser` : dossier `scouts-perso/`, procédure dans `references/personnaliser.md`.
