@@ -10,6 +10,20 @@ Ce site présente deux *skills*. Un skill est un petit dossier d'instructions et
 
 Ces skills s'appuient sur les ressources officielles du scoutisme suisse : Mouvement Scout de Suisse (MSdS), commission formation (cofor), Jeunesse+Sport (J+S) et cudesch.
 
+## Deux façons de les utiliser
+
+### Dans le navigateur
+
+Vous utilisez claude.ai, ChatGPT ou Gemini. Vous importez un fichier zip dans les réglages, sans rien installer sur votre ordinateur. Un seul skill : `scouts`, pour un usage courant.
+
+[Commencer dans le navigateur](web-installer.md)
+
+### Avec un agent
+
+Vous utilisez Claude Code, Codex, Antigravity ou un autre agent installé sur votre ordinateur. Vous installez `scouts` (réponses courtes) et `scouts-ressources` (le texte officiel cité section par section), puis vous pouvez personnaliser les skills ou construire votre propre version.
+
+[Commencer avec un agent](agent-installer.md)
+
 ## Pour qui
 
 - Les responsables d'unité, de camp et de groupe.
@@ -24,21 +38,7 @@ Ces skills s'appuient sur les ressources officielles du scoutisme suisse : Mouve
 - Aider à concevoir un de ces documents.
 - Guider une personne qui débute : thèmes, lectures, exemples de demandes.
 
-Des exemples concrets se trouvent dans [Utiliser le skill](web-utiliser.md).
-
-## Deux façons de les utiliser
-
-### Dans le navigateur
-
-Vous utilisez claude.ai, ChatGPT ou Gemini. Vous importez un fichier zip dans les réglages, sans rien installer sur votre ordinateur. Un seul skill : `scouts`, pour un usage courant.
-
-[Commencer dans le navigateur](web-installer.md)
-
-### Avec un agent
-
-Vous utilisez Claude Code, Codex, Antigravity ou un autre agent installé sur votre ordinateur. Vous installez `scouts` (réponses courtes) et `scouts-ressources` (le texte officiel cité section par section), puis vous pouvez personnaliser les skills ou construire votre propre version.
-
-[Commencer avec un agent](agent-installer.md)
+Des exemples concrets se trouvent dans [Utiliser le skill](web-utiliser.md) et [Utiliser les skills](agent-utiliser.md).
 
 ## Limites
 
