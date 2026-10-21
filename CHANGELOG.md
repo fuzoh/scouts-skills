@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.1](https://github.com/fuzoh/scouts-skills/compare/v0.7.0...v0.7.1) (2026-10-21)
+
+
+### Documentation
+
+* **site:** mettre l'installation par prompt en tête de la page agent ([181451c](https://github.com/fuzoh/scouts-skills/commit/181451cff0a14766a3148eed0d69851fed383358))
+
 ## [0.7.0](https://github.com/fuzoh/scouts-skills/compare/v0.6.0...v0.7.0) (2026-10-21)
 
 
