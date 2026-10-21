@@ -8,9 +8,22 @@ description: "Installer les skills scouts et scouts-ressources dans Claude Code,
 
 Cette page s'adresse aux personnes qui utilisent un agent en ligne de commande : Claude Code, Codex, Pi ou un autre outil compatible avec le format [Agent Skills](https://agentskills.io). Pour claude.ai, ChatGPT ou Gemini dans le navigateur, voir [Installer sur une IA web](web-installer.md).
 
-Les deux skills se trouvent dans le dossier `skills/` du dépôt [fuzoh/scouts-skills](https://github.com/fuzoh/scouts-skills) : `skills/scouts` et `skills/scouts-ressources`. Pour choisir, voir le tableau ci-dessous.
+## Le plus simple : demander à l'agent
+
+Ouvrez votre agent dans le projet voulu et collez :
+
+> Installe-moi les skills scouts dans le projet actuel, suis : https://github.com/fuzoh/scouts-skills
+
+Le [README du dépôt](https://github.com/fuzoh/scouts-skills#instructions-pour-un-agent-qui-installe) contient les instructions destinées à l'agent : il lance `npx skills add` pour lui-même, installe `scouts` dans le projet courant, puis vous dit comment l'appeler. Variantes :
+
+- « … pour tous mes projets » : installation pour votre compte (`-g`).
+- « … avec la version avec corpus » : `scouts-ressources` au lieu de `scouts`, ou les deux (voir [lequel choisir](#deux-skills-lequel-choisir)).
+
+L'agent demande en général votre accord avant de lancer la commande. La suite de la page décrit les commandes qu'il lance, pour les faire à la main.
 
 ## Deux skills : lequel choisir
+
+Les deux skills se trouvent dans le dossier `skills/` du dépôt [fuzoh/scouts-skills](https://github.com/fuzoh/scouts-skills) : `skills/scouts` et `skills/scouts-ressources`.
 
 | | `scouts` | `scouts-ressources` |
 |---|---|---|
@@ -24,19 +37,6 @@ Les deux skills se trouvent dans le dossier `skills/` du dépôt [fuzoh/scouts-s
 Avec un agent, installez les deux : `scouts` répond au quotidien, `scouts-ressources` sert quand il vous faut le texte officiel exact (voir [Citer les sources](agent-citer-les-sources.md)).
 
 Les commandes de cette page n'ont été essayées que sous Linux. Mac et Windows ne sont pas testés : si une commande échoue chez vous, [signalez-le](signaler.md).
-
-## Le plus simple : demander à l'agent
-
-Ouvrez votre agent dans le projet voulu et collez :
-
-> Installe-moi les skills scouts dans le projet actuel, suis : https://github.com/fuzoh/scouts-skills
-
-Le [README du dépôt](https://github.com/fuzoh/scouts-skills#instructions-pour-un-agent-qui-installe) contient les instructions destinées à l'agent : il lance `npx skills add` pour lui-même, installe `scouts` dans le projet courant, puis vous dit comment l'appeler. Variantes :
-
-- « … pour tous mes projets » : installation pour votre compte (`-g`).
-- « … avec la version avec corpus » : `scouts-ressources` au lieu de `scouts`, ou les deux.
-
-L'agent demande en général votre accord avant de lancer la commande. Les commandes ci-dessous font la même chose à la main.
 
 ## Méthode universelle : `npx skills`
 
