@@ -1,11 +1,12 @@
 ---
 title: Débuter
-order: 41
+order: 12
 menu: false
+parcours: web
 description: "Demander au skill scouts par où commencer, selon votre rôle."
 ---
 
-[Utiliser les skills](utiliser.md) > Débuter
+[Utiliser le skill](web-utiliser.md) > Débuter
 
 Vous débutez dans un rôle, ou vous ne savez pas quoi demander ? Dites-le simplement. Le skill `scouts` vous propose alors un parcours court : trois thèmes, une à trois lectures et trois exemples de demandes adaptés à votre rôle.
 
@@ -36,4 +37,4 @@ Si le skill ne connaît pas votre rôle, il propose le parcours « responsable d
 - Les humains d'abord : Helpline scoute, cellule de crise, numéros d'urgence.
 - Le vocabulaire : sigles et faux amis (AC, PF, RG…).
 
-Suite : [Poser une question](poser-une-question.md).
+Suite : [Poser une question](web-poser-une-question.md).

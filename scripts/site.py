@@ -3,8 +3,11 @@
   site [--out build/site]
 
 Chaque `site/<nom>.md` (frontmatter `title`, `order`, `menu` facultatif : libellé court
-ou `false` pour ne pas figurer au menu) devient `<out>/<nom>.html` dans un gabarit unique :
-menu, titre, pied de page (licences, dépôt, version de `pyproject.toml`). Les liens
+ou `false` pour ne pas figurer au menu, `parcours` facultatif : `web`, `agent` ou `commun`
+par défaut) devient `<out>/<nom>.html` dans un gabarit unique :
+menu, titre, pied de page (licences, dépôt, version de `pyproject.toml`). Le menu de premier niveau
+liste l'accueil, les deux parcours (lien vers leur première page) et les pages communes ;
+sur une page d'un parcours, un second menu liste les pages de ce parcours. Les liens
 relatifs `x.md` deviennent `x.html`. `site/sources.md` sert d'en-tête à la page des
 sources, complétée par la liste des sources embarquées (`status` indexed ou verified,
 `decision` différente de rejected), groupées par émetteur. `site/nouveautes.md` sert
@@ -36,6 +39,9 @@ app = typer.Typer(add_completion=False, help=__doc__)
 SITE_NAME = "Skills scouts"
 REPO_URL = "https://github.com/fuzoh/scouts-skills"
 EMBEDDED_STATUSES = ("indexed", "verified")
+PARCOURS_LABELS = {"web": "Dans le navigateur", "agent": "Avec un agent"}
+COMMUN = "commun"
+HOME_PAGE = "index"
 SOURCES_PAGE = "sources"
 CHANGELOG_PAGE = "nouveautes"
 CHANGELOG_TITLE_RE = re.compile(r"\A\s*# [^\n]*\n")
@@ -78,10 +84,15 @@ header .cadre { display: flex; flex-wrap: wrap; align-items: center; justify-con
 .marque a { color: var(--texte); text-decoration: none; }
 .marque .version { margin-left: .5rem; padding: .05rem .45rem; border: 1px solid var(--bord); border-radius: var(--rayon); background: var(--accent-fond); color: var(--accent); font-size: .8rem; font-weight: 600; white-space: nowrap; vertical-align: .1em; }
 .marque .sous-titre { display: block; font-weight: 400; font-size: .85rem; color: var(--doux); }
+header nav { min-width: 0; }
+header nav li { margin: 0; }
 header nav ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .2rem; }
 header nav a { display: block; text-align: center; padding: .3rem .7rem; border-radius: var(--rayon); color: var(--texte); text-decoration: none; font-size: .95rem; }
 header nav a:hover { background: var(--accent-fond); color: var(--accent); }
 header nav a[aria-current="page"] { background: var(--accent); color: var(--carte); font-weight: 600; }
+header nav a[aria-current="true"] { background: var(--accent-fond); color: var(--accent); font-weight: 600; box-shadow: inset 0 -3px 0 var(--accent); }
+header nav.sous-menu { flex: 1 0 100%; padding-top: .5rem; border-top: 1px solid var(--bord); }
+header nav.sous-menu a { font-size: .9rem; }
 /* largeur réservée pour le libellé en gras : pas de décalage quand la page courante change */
 header nav a::after { content: attr(data-label); display: block; height: 0; overflow: hidden; visibility: hidden; font-weight: 600; }
 main { max-width: calc(1280px - 3rem); background: var(--carte); margin: 1.5rem auto; padding: 2rem 2.5rem 2.5rem; border: 1px solid var(--bord); border-radius: var(--rayon); box-shadow: var(--ombre); }
@@ -132,11 +143,7 @@ GABARIT = """\
 <header>
 <div class="cadre">
 <p class="marque"><a href="index.html">{site}</a>{version_badge}<span class="sous-titre">Assistants du scoutisme suisse</span></p>
-<nav aria-label="Menu principal">
-<ul>
 {menu}
-</ul>
-</nav>
 </div>
 </header>
 <main id="contenu">
@@ -163,6 +170,7 @@ class Page:
     menu: str | None   # libellé au menu, None si absent du menu
     description: str
     body_md: str
+    parcours: str = COMMUN  # `web`, `agent` ou `commun`
 
 
 # --------------------------------------------------------------------------- #
@@ -221,6 +229,10 @@ def load_page(path: Path) -> Page:
         raise SiteError(f"{path.name} : `title` manquant")
     if not isinstance(front.get("order"), int):
         raise SiteError(f"{path.name} : `order` entier manquant")
+    parcours = str(front.get("parcours", COMMUN))
+    if parcours != COMMUN and parcours not in PARCOURS_LABELS:
+        allowed = ", ".join([*PARCOURS_LABELS, COMMUN])
+        raise SiteError(f"{path.name} : `parcours` {parcours} inconnu (attendu : {allowed})")
     menu = front.get("menu", front["title"])
     return Page(
         name=path.stem,
@@ -229,6 +241,7 @@ def load_page(path: Path) -> Page:
         menu=None if menu is False else str(menu),
         description=str(front.get("description") or front["title"]),
         body_md=m.group(2),
+        parcours=parcours,
     )
 
 
@@ -241,15 +254,46 @@ def load_pages(folder: Path | None = None) -> list[Page]:
     return sorted(pages, key=lambda p: (p.order, p.name))
 
 
+def _menu_link(href: str, label: str, current: str = "") -> str:
+    cur = f' aria-current="{current}"' if current else ""
+    label = html.escape(label)
+    return f'<li><a href="{href}"{cur} data-label="{label}">{label}</a></li>'
+
+
+def _menu_nav(label: str, items: list[str], css: str = "") -> str:
+    cls = f' class="{css}"' if css else ""
+    body = "\n".join(items)
+    return f'<nav aria-label="{html.escape(label, quote=True)}"{cls}>\n<ul>\n{body}\n</ul>\n</nav>'
+
+
 def render_menu(pages: list[Page], current: str) -> str:
+    """Menu de premier niveau (accueil, parcours, pages communes), puis le sous-menu du parcours courant.
+
+    L'entrée d'un parcours mène à sa première page (par `order`) ; elle porte `aria-current="page"`
+    sur cette page, `aria-current="true"` sur les autres pages du parcours.
+    """
+    here = next((p for p in pages if p.name == current), None)
+    track = here.parcours if here else COMMUN
     items = []
     for p in pages:
-        if p.menu is None:
+        if p.menu is not None and p.parcours == COMMUN and p.name == HOME_PAGE:
+            items.append(_menu_link(f"{p.name}.html", p.menu, "page" if p.name == current else ""))
+    for key, label in PARCOURS_LABELS.items():
+        members = [p for p in pages if p.parcours == key]
+        if not members:
             continue
-        cur = ' aria-current="page"' if p.name == current else ""
-        label = html.escape(p.menu)
-        items.append(f'<li><a href="{p.name}.html"{cur} data-label="{label}">{label}</a></li>')
-    return "\n".join(items)
+        first = members[0]
+        state = "" if track != key else ("page" if first.name == current else "true")
+        items.append(_menu_link(f"{first.name}.html", label, state))
+    for p in pages:
+        if p.menu is not None and p.parcours == COMMUN and p.name != HOME_PAGE:
+            items.append(_menu_link(f"{p.name}.html", p.menu, "page" if p.name == current else ""))
+    out = [_menu_nav("Menu principal", items)]
+    if track != COMMUN:
+        sub = [_menu_link(f"{p.name}.html", p.menu, "page" if p.name == current else "")
+               for p in pages if p.parcours == track and p.menu is not None]
+        out.append(_menu_nav(f"{PARCOURS_LABELS[track]}, pages du parcours", sub, "sous-menu"))
+    return "\n".join(out)
 
 
 def render_version_badge(version: str, published: str) -> str:

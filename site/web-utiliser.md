@@ -1,19 +1,19 @@
 ---
-title: Utiliser les skills
-order: 5
+title: Utiliser le skill
+order: 11
 menu: Utiliser
-description: "Comment parler aux skills scouts : poser une question, faire corriger ou concevoir un document, débuter, citer les sources."
+parcours: web
+description: "Comment parler au skill scouts : poser une question, faire corriger ou concevoir un document, débuter."
 ---
 
 Une fois le skill installé, vous n'avez rien de spécial à faire. Posez votre question normalement, en français. Le skill se déclenche quand la demande parle de scouts, de J+S, de camp, de cours, de responsables, de coachs ou d'expert·es, ou cite le MSdS, la Sardine ou le cudesch.
 
-## Cinq usages
+## Quatre usages
 
-1. [Débuter](debuter.md) : vous ne savez pas par où commencer ni quoi demander.
-2. [Poser une question](poser-une-question.md) : une règle, un délai, un chiffre, une notion.
-3. [Corriger un document](corriger-un-document.md) : activité J+S, UA, programme de camp, concept de sécurité.
-4. [Concevoir un document](concevoir-un-document.md) : rédiger une première version.
-5. [Citer les sources](citer-les-sources.md) : obtenir le texte officiel exact, avec `scouts-ressources`.
+1. [Débuter](web-debuter.md) : vous ne savez pas par où commencer ni quoi demander.
+2. [Poser une question](web-poser-une-question.md) : une règle, un délai, un chiffre, une notion.
+3. [Corriger un document](web-corriger-un-document.md) : activité J+S, UA, programme de camp, concept de sécurité.
+4. [Concevoir un document](web-concevoir-un-document.md) : rédiger une première version.
 
 ## Ce que le skill fait
 

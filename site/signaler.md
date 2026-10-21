@@ -49,4 +49,4 @@ Pour simplement dire « moi aussi », ajoutez une réaction « pouce levé » su
 
 ## Et ensuite
 
-Le mainteneur répond dans l'issue. Vous recevez un e-mail à chaque réponse. Une correction est publiée dans une nouvelle version du skill : [mettez à jour](installer-agent.md#methode-universelle-npx-skills) ou téléchargez le nouveau zip.
+Le mainteneur répond dans l'issue. Vous recevez un e-mail à chaque réponse. Une correction est publiée dans une nouvelle version du skill : mettez à jour ([navigateur](web-mettre-a-jour.md), [agent](agent-mettre-a-jour.md)).

@@ -1,11 +1,12 @@
 ---
 title: Corriger un document
-order: 43
+order: 14
 menu: false
+parcours: web
 description: "Faire relire une activité J+S, une unité d'apprentissage, un programme de camp ou un concept de sécurité."
 ---
 
-[Utiliser les skills](utiliser.md) > Corriger un document
+[Utiliser le skill](web-utiliser.md) > Corriger un document
 
 Joignez le document (PDF, Word, Excel ou texte collé) et demandez une relecture. Le skill reconnaît le type de document et applique les critères correspondants.
 
@@ -42,4 +43,4 @@ Une exigence officielle non remplie apparaît toujours, quel que soit le niveau.
 
 Les critères marqués `[non officiel]` sont des conseils de bonne pratique, jamais des exigences.
 
-Suite : [Concevoir un document](concevoir-un-document.md).
+Suite : [Concevoir un document](web-concevoir-un-document.md).

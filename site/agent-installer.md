@@ -1,12 +1,29 @@
 ---
 title: Installer avec un agent
-order: 3
+order: 20
+menu: Installer
+parcours: agent
 description: "Installer les skills scouts et scouts-ressources dans Claude Code, Codex, Pi ou un autre agent, avec npx skills ou à la main."
 ---
 
-Cette page s'adresse aux personnes qui utilisent un agent en ligne de commande : Claude Code, Codex, Pi ou un autre outil compatible avec le format [Agent Skills](https://agentskills.io). Pour claude.ai, ChatGPT ou Gemini dans le navigateur, voir [Installer sur une plateforme web](installer-web.md).
+Cette page s'adresse aux personnes qui utilisent un agent en ligne de commande : Claude Code, Codex, Pi ou un autre outil compatible avec le format [Agent Skills](https://agentskills.io). Pour claude.ai, ChatGPT ou Gemini dans le navigateur, voir [Installer sur une IA web](web-installer.md).
 
-Les deux skills se trouvent dans le dossier `skills/` du dépôt [fuzoh/scouts-skills](https://github.com/fuzoh/scouts-skills) : `skills/scouts` et `skills/scouts-ressources`. Pour choisir, voir l'[accueil](index.md#deux-skills-lequel-choisir).
+Les deux skills se trouvent dans le dossier `skills/` du dépôt [fuzoh/scouts-skills](https://github.com/fuzoh/scouts-skills) : `skills/scouts` et `skills/scouts-ressources`. Pour choisir, voir le tableau ci-dessous.
+
+## Deux skills : lequel choisir
+
+| | `scouts` | `scouts-ressources` |
+|---|---|---|
+| Pour qui | Tout le monde, usage courant | Formateur·ices, approfondissement |
+| Contenu | Savoirs résumés, critères de relecture, guides | Les mêmes critères et le contenu des brochures officielles, section par section |
+| Réponses | Courtes, sans références de page | Chaque règle citée avec sa source exacte |
+| Taille | Environ 40 fichiers, 0,2 Mo | Environ 2 000 fichiers, 8,7 Mo |
+| Agents en ligne de commande | Tous ceux qui prennent en charge les skills (Claude Code, Codex, Pi…) | Tous ceux qui prennent en charge les skills (Claude Code, Codex, Pi…) |
+| Plateformes web | claude.ai, Gemini, GPT, Grok | ChatGPT seulement, trop lourd pour les autres |
+
+Avec un agent, installez les deux : `scouts` répond au quotidien, `scouts-ressources` sert quand il vous faut le texte officiel exact (voir [Citer les sources](agent-citer-les-sources.md)).
+
+Les commandes de cette page n'ont été essayées que sous Linux. Mac et Windows ne sont pas testés : si une commande échoue chez vous, [signalez-le](signaler.md).
 
 ## Le plus simple : demander à l'agent
 
@@ -131,7 +148,7 @@ Cursor, GitHub Copilot (CLI, VS Code), OpenCode, Gemini CLI et d'autres lisent `
 
 ## Vérifier la version installée
 
-Demandez à l'assistant : « Quelle est la version du skill scouts ? ». Ou lisez la ligne `version` dans `SKILL.md` (bloc `metadata` en tête du fichier) ou dans `MANIFEST.md`. Indiquez cette version quand vous [signalez une erreur](signaler.md). Pour passer à une nouvelle version, voir [Mettre à jour les skills](mettre-a-jour.md).
+Demandez à l'assistant : « Quelle est la version du skill scouts ? ». Ou lisez la ligne `version` dans `SKILL.md` (bloc `metadata` en tête du fichier) ou dans `MANIFEST.md`. Indiquez cette version quand vous [signalez une erreur](signaler.md). Pour passer à une nouvelle version, voir [Mettre à jour les skills](agent-mettre-a-jour.md).
 
 ## Ce qui a été testé
 

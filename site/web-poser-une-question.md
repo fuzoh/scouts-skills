@@ -1,11 +1,12 @@
 ---
 title: Poser une question
-order: 42
+order: 13
 menu: false
+parcours: web
 description: "Demander une règle, un délai, un chiffre ou l'explication d'une notion au skill scouts."
 ---
 
-[Utiliser les skills](utiliser.md) > Poser une question
+[Utiliser le skill](web-utiliser.md) > Poser une question
 
 Posez votre question comme à un·e formateur·ice expérimenté·e. Inutile de nommer le skill.
 
@@ -44,4 +45,4 @@ Sans date, le skill part des règles 2027 : il explique que les AC et SC n'exist
 
 Si aucun document officiel ne fixe la règle, le skill le dit (« Les documents officiels que je connais ne fixent pas… ») et vous indique qui peut trancher : coach J+S, CàF, association cantonale. Une piste trouvée ailleurs est placée à part et étiquetée `[web]` ou `[non vérifié]`.
 
-Besoin du texte exact ? Voir [Citer les sources](citer-les-sources.md).
+Pour une règle importante, relisez toujours le document officiel que le skill vous indique sous « Pour aller plus loin ».
