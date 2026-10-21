@@ -2,7 +2,7 @@
 
 Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est dans `sources/*/source.yaml`.
 
-**200 sources.**
+**201 sources.**
 
 ## Par statut
 
@@ -10,7 +10,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 |---|---|
 | `triaged` | 3 |
 | `converted` | 2 |
-| `indexed` | 189 |
+| `indexed` | 190 |
 | `rejected` | 6 |
 
 ## Toutes les sources
@@ -25,6 +25,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`autre-canevas-sc-vierge`](sources/autre-canevas-sc-vierge/source.yaml) | Canevas vierge de sport de camp (SC), modèle de groupe dérivé du modèle J+S | autre | docx | 0 | `indexed` |
 | [`autre-canevas-ua-top`](sources/autre-canevas-ua-top/source.yaml) | Canevas vierge d'unité d'apprentissage (cours Top, PATExE) | autre | docx | 0 | `indexed` |
 | [`autre-communagir-outils-animation`](sources/autre-communagir-outils-animation/source.yaml) | Communagir : outils d'animation | autre | web | 0 | `indexed` |
+| [`autre-conception-qualification-top`](sources/autre-conception-qualification-top/source.yaml) | Système de qualification : conception en huit étapes (support du cours Top) | autre | pptx | 32 | `indexed` |
 | [`autre-csaj-conge-jeunesse-fiche`](sources/autre-csaj-conge-jeunesse-fiche/source.yaml) | Ce qu'il faut savoir sur le congé jeunesse (CSAJ) | autre | pdf | 1 | `indexed` |
 | [`autre-csaj-conge-jeunesse-formulaire`](sources/autre-csaj-conge-jeunesse-formulaire/source.yaml) | Formulaire congé jeunesse (attestation, art. 329e CO) | autre | pdf | 1 | `indexed` |
 | [`autre-liberating-structures`](sources/autre-liberating-structures/source.yaml) | Liberating Structures : catalogue | autre | web | 0 | `indexed` |
@@ -349,13 +350,14 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`msds-ticket`](sources/msds-ticket/source.yaml) | Ticket – fil conducteur pour l'inscription aux cours | msds | pdf | 5 | `indexed` |
 | [`msds-twitterbox`](sources/msds-twitterbox/source.yaml) | Twitterbox – document explicatif (participation et santé psychique en camp) | msds | pdf | 1 | `indexed` |
 
-### `formateur` (93)
+### `formateur` (94)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
 | [`autre-canevas-point-de-cours-js`](sources/autre-canevas-point-de-cours-js/source.yaml) | Canevas vierge de point de cours J+S (cours J+S cantonal, PATExE) | autre | docx | 0 | `indexed` |
 | [`autre-canevas-ua-top`](sources/autre-canevas-ua-top/source.yaml) | Canevas vierge d'unité d'apprentissage (cours Top, PATExE) | autre | docx | 0 | `indexed` |
 | [`autre-communagir-outils-animation`](sources/autre-communagir-outils-animation/source.yaml) | Communagir : outils d'animation | autre | web | 0 | `indexed` |
+| [`autre-conception-qualification-top`](sources/autre-conception-qualification-top/source.yaml) | Système de qualification : conception en huit étapes (support du cours Top) | autre | pptx | 32 | `indexed` |
 | [`autre-liberating-structures`](sources/autre-liberating-structures/source.yaml) | Liberating Structures : catalogue | autre | web | 0 | `indexed` |
 | [`cofor-administration-cours-federaux`](sources/cofor-administration-cours-federaux/source.yaml) | Administration des cours fédéraux | cofor | pdf | 16 | `indexed` |
 | [`cofor-approfondissement-castors`](sources/cofor-approfondissement-castors/source.yaml) | Check-list approfondissement branche Castors – activités SdC/T | cofor | pdf | 3 | `indexed` |
@@ -447,12 +449,13 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`msds-retour-qualifier-accompagner`](sources/msds-retour-qualifier-accompagner/source.yaml) | Faire un retour, qualifier et accompagner dans un cours | msds | pdf | 66 | `indexed` |
 | [`msds-unite-d-apprentissage`](sources/msds-unite-d-apprentissage/source.yaml) | L'unité d'apprentissage – planifier, animer, évaluer | msds | pdf | 57 | `indexed` |
 
-### `expert-js` (55)
+### `expert-js` (56)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
 | [`autre-canevas-point-de-cours-js`](sources/autre-canevas-point-de-cours-js/source.yaml) | Canevas vierge de point de cours J+S (cours J+S cantonal, PATExE) | autre | docx | 0 | `indexed` |
 | [`autre-canevas-ua-top`](sources/autre-canevas-ua-top/source.yaml) | Canevas vierge d'unité d'apprentissage (cours Top, PATExE) | autre | docx | 0 | `indexed` |
+| [`autre-conception-qualification-top`](sources/autre-conception-qualification-top/source.yaml) | Système de qualification : conception en huit étapes (support du cours Top) | autre | pptx | 32 | `indexed` |
 | [`cofor-approfondissement-castors`](sources/cofor-approfondissement-castors/source.yaml) | Check-list approfondissement branche Castors – activités SdC/T | cofor | pdf | 3 | `indexed` |
 | [`cofor-approfondissement-eclais`](sources/cofor-approfondissement-eclais/source.yaml) | Check-list approfondissement branche Éclais – activités SdC/T | cofor | pdf | 3 | `indexed` |
 | [`cofor-approfondissement-louveteaux`](sources/cofor-approfondissement-louveteaux/source.yaml) | Check-list approfondissement branche Louveteaux – activités SdC/T | cofor | pdf | 3 | `indexed` |
@@ -583,13 +586,14 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 
 ## Par thème
 
-### `formation` (60)
+### `formation` (61)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
 | [`autre-canevas-point-de-cours-js`](sources/autre-canevas-point-de-cours-js/source.yaml) | Canevas vierge de point de cours J+S (cours J+S cantonal, PATExE) | autre | docx | 0 | `indexed` |
 | [`autre-canevas-ua-top`](sources/autre-canevas-ua-top/source.yaml) | Canevas vierge d'unité d'apprentissage (cours Top, PATExE) | autre | docx | 0 | `indexed` |
 | [`autre-communagir-outils-animation`](sources/autre-communagir-outils-animation/source.yaml) | Communagir : outils d'animation | autre | web | 0 | `indexed` |
+| [`autre-conception-qualification-top`](sources/autre-conception-qualification-top/source.yaml) | Système de qualification : conception en huit étapes (support du cours Top) | autre | pptx | 32 | `indexed` |
 | [`autre-liberating-structures`](sources/autre-liberating-structures/source.yaml) | Liberating Structures : catalogue | autre | web | 0 | `indexed` |
 | [`cofor-approfondissement-castors`](sources/cofor-approfondissement-castors/source.yaml) | Check-list approfondissement branche Castors – activités SdC/T | cofor | pdf | 3 | `indexed` |
 | [`cofor-approfondissement-eclais`](sources/cofor-approfondissement-eclais/source.yaml) | Check-list approfondissement branche Éclais – activités SdC/T | cofor | pdf | 3 | `indexed` |
