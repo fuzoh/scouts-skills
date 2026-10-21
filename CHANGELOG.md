@@ -1,5 +1,52 @@
 # Changelog
 
+## [0.7.0](https://github.com/fuzoh/scouts-skills/compare/v0.6.0...v0.7.0) (2026-10-21)
+
+
+### Nouveautés
+
+* **build:** copier scripts/ dans le pack scouts-ressources, hors zip, refusé dans scouts ([51b752b](https://github.com/fuzoh/scouts-skills/commit/51b752b5b1c8bd93bd68bd86e72e9d2e66f99ddd))
+* **build:** option --perso pour intégrer un dossier scouts-perso/ dans une version dérivée ([60bb38b](https://github.com/fuzoh/scouts-skills/commit/60bb38b25b4d14bb40280f0a6e66a52e711050d8))
+* **build:** option --suffixe pour installer une version dérivée à côté de l'officielle ([1022328](https://github.com/fuzoh/scouts-skills/commit/1022328d00062696fb94ae6af0178fa7badc6bdb))
+* **site:** menu à deux niveaux par parcours ([fe726a3](https://github.com/fuzoh/scouts-skills/commit/fe726a31c5d8943cc9f89c03a519d835f5f5d723))
+* **skills:** appliquer les arbitrages du mainteneur et condenser deux référentiels ([c898d0f](https://github.com/fuzoh/scouts-skills/commit/c898d0f9bd16edf4447a0a04f7180fea1b397c01))
+* **skills:** embarquer ajouter.py dans scouts-ressources ([b7de516](https://github.com/fuzoh/scouts-skills/commit/b7de51654b0ef0f5fe03003460bdee91262c4a31))
+* **skills:** intégrer les nouveautés MSdS et J+S d'octobre 2026 ([f877ed5](https://github.com/fuzoh/scouts-skills/commit/f877ed570d8bfb84d58c1bb0a03e3d30e6382508))
+* **skills:** lire references/perso.md d'une version construite ([d152a8d](https://github.com/fuzoh/scouts-skills/commit/d152a8d76727836ce827d995752e52126504b5d3))
+* **skills:** personnaliser avec un dossier scouts-perso ([7a514a3](https://github.com/fuzoh/scouts-skills/commit/7a514a31844a6d7b37a019b498960caeb9358376))
+* **skills:** script ajouter.py pour scouts-perso ([abd81fa](https://github.com/fuzoh/scouts-skills/commit/abd81faec8a1dbf28d923bcfed218f654f325353))
+* **skills:** validate referentiels for beta phase ([026ae61](https://github.com/fuzoh/scouts-skills/commit/026ae61db762779fc1ada7264a9e6700ef19fe8f))
+* **sources:** ingérer les documents des newsletters MSdS et J+S d'octobre 2026 ([242f4e9](https://github.com/fuzoh/scouts-skills/commit/242f4e9d9bc93fb48f1e6626c978fce3fb1f91e3))
+* **sources:** rejeter le PV et les diapositives de la conférence formation 2026 ([d913b54](https://github.com/fuzoh/scouts-skills/commit/d913b5414ab1cba715647440fae6c159ac7d027f))
+
+
+### Corrections
+
+* **build:** ne pas copier le cache Python de scripts/ ([5bdf8cf](https://github.com/fuzoh/scouts-skills/commit/5bdf8cfd17a653b4e72348659b40792f39ff8a17))
+* **build:** phrase de tête de references/perso.md écrite pour l'agent ([742828b](https://github.com/fuzoh/scouts-skills/commit/742828bb0eed9f8dd96e4b223f35e3650ede63fa))
+* **build:** refuser une fiche perso au-delà de 5 000 tokens ([f59d9ec](https://github.com/fuzoh/scouts-skills/commit/f59d9ec3a42eb2d14c5d55aaf11a9bda57f7895b))
+* **contenu:** réparer les URL 404 de pfadi.swiss ([32931fd](https://github.com/fuzoh/scouts-skills/commit/32931fd4b77c9a5f5cdce0e4f67ca1cf90a3f95e))
+* **contenu:** retrouver les 9 dernières URL pfadi.swiss ([ac70d0f](https://github.com/fuzoh/scouts-skills/commit/ac70d0f12d14519bb3546009af1c4be39b9da538))
+* **site:** menu plus compact sur mobile ([6484d40](https://github.com/fuzoh/scouts-skills/commit/6484d40a8c53ffdea596e8c752bafe7219221589))
+* **site:** un parcours pointe vers sa première page de menu ([777f327](https://github.com/fuzoh/scouts-skills/commit/777f32710092314de9eb0c5531257f41ded4351d))
+* **skills:** seuil du README perso tiré de la constante dans ajouter.py ([a927698](https://github.com/fuzoh/scouts-skills/commit/a9276986d6f2ebad2a9420230bde9683e3cc3559))
+
+
+### Documentation
+
+* commandes --suffixe, --perso et recette just perso ([bb8e2d7](https://github.com/fuzoh/scouts-skills/commit/bb8e2d7a6bcdecc623d55f5dd2357f52be86da90))
+* construire sa version des skills (site et README) ([859d99b](https://github.com/fuzoh/scouts-skills/commit/859d99b8b30077dbc3d4b74c2f9c199e52dc0ce5))
+* décisions et roadmap après les arbitrages du 21 octobre 2026 ([b51fd5c](https://github.com/fuzoh/scouts-skills/commit/b51fd5cb4b68db17e4dd2deb3b3849e142d9c7a6))
+* décisions et roadmap après les newsletters d'octobre 2026 ([efb1983](https://github.com/fuzoh/scouts-skills/commit/efb1983d605733c013caeb4b4fcff8fd5fdf9047))
+* décisions, méthode et contribution pour la personnalisation, la version dérivée et le site ([32e0fd4](https://github.com/fuzoh/scouts-skills/commit/32e0fd43b2caa3e50e0f7fa6ee8f91a7ad31e04d))
+* roadmap après la phase 7 ([31e6c06](https://github.com/fuzoh/scouts-skills/commit/31e6c0629f64a605296c76e5431f6ad307e7cd9a))
+* roadmap de la phase 7 (personnalisation, version dérivée, site en deux parcours) ([7514a9d](https://github.com/fuzoh/scouts-skills/commit/7514a9dde1fe290d5db249d05ec1870573a38aac))
+* roadmap, libellés D3 et D5 tranchés ([740d10f](https://github.com/fuzoh/scouts-skills/commit/740d10f9a6d70ebee59a09df24c9678132ddf2e1))
+* **site:** choix du parcours en tête de l'accueil ([070204e](https://github.com/fuzoh/scouts-skills/commit/070204eeab6b14663088c9ed883beb2e5c3bec3b))
+* **site:** page Personnaliser du parcours agent ([8ee05db](https://github.com/fuzoh/scouts-skills/commit/8ee05db764d77300331d12550e2611968a4383b6))
+* **site:** répartir les pages en parcours navigateur et agent ([83875f2](https://github.com/fuzoh/scouts-skills/commit/83875f23566ad8405b09d87c92740417bd1a49ff))
+* trancher les décisions de personnalisation (D1-D5) ([955f943](https://github.com/fuzoh/scouts-skills/commit/955f9436a324138ade7b85a42e11f701f6768e21))
+
 ## [0.6.0](https://github.com/fuzoh/scouts-skills/compare/v0.5.0...v0.6.0) (2026-10-19)
 
 

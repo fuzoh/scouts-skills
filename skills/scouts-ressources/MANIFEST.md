@@ -1,6 +1,6 @@
 # MANIFEST (généré par `build`, ne pas éditer)
 
-- version : 0.6.0 <!-- x-release-please-version -->
+- version : 0.7.0 <!-- x-release-please-version -->
 - source : https://github.com/fuzoh/scouts-skills
 - scope : complet
 - sources : 189
