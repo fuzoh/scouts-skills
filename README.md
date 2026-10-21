@@ -38,6 +38,25 @@ npx skills add fuzoh/scouts-skills --skill scouts -a <agent> -y
 - Ensuite, dire à l'utilisateur comment appeler le skill (`/scouts` dans Claude Code, `$scouts` dans Codex, `/skill:scouts` dans Pi ; sinon il se déclenche seul quand on parle de scoutisme) et qu'une nouvelle session peut être nécessaire pour qu'il apparaisse.
 - Mise à jour : `npx skills update scouts -y`.
 
+## Personnaliser, construire sa version
+
+Dans un agent, les skills se personnalisent avec un dossier `scouts-perso/` : réglages, règles locales, contacts et documents du groupe, de l'association cantonale ou du cours ([Personnaliser](https://fuzoh.github.io/scouts-skills/agent-personnaliser.html)). Ce dossier peut aussi servir à construire une version dérivée, sous un autre nom, pour un agent ou en zip pour le navigateur ([Construire sa version](https://fuzoh.github.io/scouts-skills/agent-construire.html)) :
+
+> Fais-moi une version des skills scouts avec mes documents, suis : https://github.com/fuzoh/scouts-skills
+
+### Instructions pour un agent qui construit une version
+
+1. Vérifier `git --version` et `uv --version`. Sans `uv`, donner à l'utilisateur la commande d'installation de https://docs.astral.sh/uv/getting-started/installation/ et attendre. `just` est facultatif : utiliser les commandes `uv run`.
+2. Trouver le dossier perso : `scouts-perso/` du projet courant, sinon `~/scouts-perso/`. Aucun : le créer d'abord avec l'utilisateur en suivant `skills/scouts/references/personnaliser.md` de ce dépôt. Chaque ligne de la table « Fiches » doit avoir son « sert à » (pas de `À COMPLÉTER`).
+3. Demander un suffixe court (`monac`, `cours-base` : minuscules, chiffres, tirets). Les skills s'appelleront `scouts-<suffixe>` et `scouts-ressources-<suffixe>`, à côté des officiels.
+4. Cloner hors du projet de l'utilisateur, sauf s'il indique un autre endroit : `git clone https://github.com/fuzoh/scouts-skills ~/scouts-skills` (déjà cloné : `git -C ~/scouts-skills pull`).
+5. Construire, depuis le clone : `uv run build all --perso <chemin absolu du dossier perso> --suffixe <suffixe> --zip`. Un refus nomme sa cause (réglage inconnu, `À COMPLÉTER`, plus de 100 fichiers, fiche trop longue) : corriger le dossier perso avec l'utilisateur, puis relancer.
+6. Installer dans l'agent courant, dans le projet courant sauf demande contraire (`-g`) : `npx skills add ~/scouts-skills/build/scouts-<suffixe> -a <agent> -y`. `scouts-ressources-<suffixe>` seulement si l'utilisateur veut le corpus.
+7. Donner à l'utilisateur le chemin des zips pour le navigateur (`~/scouts-skills/dist/scouts-<suffixe>.zip` ; `scouts-ressources-<suffixe>.zip` pour ChatGPT seulement) et lui rappeler qu'ils contiennent ses fiches et ses contacts.
+8. Ne jamais commiter ni pousser `scouts-perso/`, `build/` ou `dist/`. Mise à jour : `git -C ~/scouts-skills pull`, puis les pas 5 et 6.
+
+Pour ajouter des sources officielles au corpus (fork), voir la page [Construire sa version](https://fuzoh.github.io/scouts-skills/agent-construire.html) et `CONTRIBUTING.md`.
+
 ## Signaler une erreur, proposer une amélioration
 
 Ouvrez une [issue](https://github.com/fuzoh/scouts-skills/issues/new/choose) : un formulaire guide la démarche. N'y collez jamais de données personnelles.

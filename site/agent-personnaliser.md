@@ -65,3 +65,7 @@ Le dossier vit **à côté** du skill, jamais dedans : une mise à jour du skill
 Le dossier contient des noms et des numéros de téléphone. Si votre projet est un dépôt git, l'agent propose d'ajouter `scouts-perso/` au fichier `.gitignore` pour qu'il ne soit jamais publié. Acceptez, surtout si le dépôt est public.
 
 Le contenu de votre dossier est envoyé à l'assistant IA avec vos questions, comme un document joint : ne mettez rien que vous ne joindriez pas à une conversation.
+
+## Partager avec une équipe
+
+Le dossier perso ne sert qu'à vous, dans votre agent. Pour donner les mêmes règles et documents à toute une équipe, ou les utiliser dans le navigateur, [construisez votre version](agent-construire.md) : un skill sous votre nom, en zip ou pour un agent.
