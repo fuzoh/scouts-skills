@@ -113,16 +113,16 @@ Non testé en réel : `discover --render` et `convert --render` (playwright non 
 - [x] Phases de test restantes (site, `pi install`, ChatGPT, mise à jour de version) : retirées. Bêta en cours
 - [x] Correctifs d'URL de la veille : reportés dans À faire (hygiène)
 
-## Phase 7 — Personnalisation et site en deux parcours  (demande du mainteneur, 2026-10-21 ; en attente de confirmation)
+## Phase 7 — Personnalisation et site en deux parcours  (demande du mainteneur, 2026-10-21 ; D1-D5 tranchées le 2026-10-21)
 
 Trois chantiers : personnaliser un skill installé (mode agent seulement), dériver sa propre version depuis un fork, séparer le site en parcours web et parcours agent.
 
-### Décisions à trancher d'abord (propositions)
-- [ ] D1 Priorité : un ajout perso ajoute ou durcit une règle, n'assouplit jamais un non-négociable ; en cas de conflit, dire les deux. Étiquette `[perso]`
-- [ ] D2 Noms réels : exception au § 9 limitée aux contacts de `scouts-perso/` (coach, CàF, Helpline cantonale) ; jamais dans un retour sur un document
-- [ ] D3 Emplacement : `scouts-perso/` à la racine du projet courant ; avec une installation `-g`, aussi `~/scouts-perso/` ; le projet prime
-- [ ] D4 Script d'ingestion : dans `skills/scouts/scripts/` (installation agent), exclu des zips web
-- [ ] D5 Libellés des deux parcours (proposition : « Dans le navigateur » / « Avec un agent sur mon ordinateur »)
+### Décisions (tranchées, `DECISIONS.md` § Personnalisation)
+- [x] D1 Priorité : un ajout perso ajoute ou durcit une règle, n'assouplit jamais un non-négociable ; en cas de conflit, dire les deux. Étiquette `[perso]`
+- [x] D2 Noms réels : exception au § 9 limitée aux contacts de `scouts-perso/` (coach, CàF, Helpline cantonale) ; jamais dans un retour sur un document
+- [x] D3 Emplacement : `scouts-perso/` à la racine du projet courant ; avec une installation `-g`, aussi `~/scouts-perso/` ; le projet prime
+- [x] D4 Script d'ingestion : dans `scouts-ressources` seulement (`skills-src/scouts-ressources/scripts/`), exclu du zip
+- [x] D5 Libellés des deux parcours (proposition : « Dans le navigateur » / « Avec un agent sur mon ordinateur »)
 
 ### A. Personnaliser un skill installé (solutions 1 + 2)
 - [ ] Format de `scouts-perso/README.md` : réglages surchargés (clés de `reglages.md`), règles locales, contacts par rôle, index des fiches (fichier | sert à ≤ 160 car.) ; sous-dossiers `ac/`, `groupe/`, `cours/`, `originaux/` ; gabarit dans le skill

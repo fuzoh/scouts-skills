@@ -41,6 +41,16 @@
 - `skills-src/scouts/` et `referentiels/*.md` sont `valide`. Numéros gelés : un critère retiré laisse un trou, un nouveau prend le numéro suivant.
 - Pack aplati `camp` / `formation` et migration des anciens prompts : seulement si un retour bêta le demande.
 
+## Personnalisation
+
+- Mode agent seulement (accès aux fichiers). Sur le web, l'agent l'explique et renvoie au site. Rien de perso dans le dossier du skill : `npx skills update` l'écrase.
+- Dossier `scouts-perso/` à la racine du projet courant. Avec une installation globale, aussi `~/scouts-perso/`. Un dossier de projet remplace entièrement le global, sans fusion.
+- `scouts-perso/README.md` porte les réglages surchargés (clés de `reglages.md`), les règles locales, les contacts par rôle et l'index des fiches. Lu à chaque question, ≤ 2 000 tokens ; une fiche ≤ 5 000 tokens.
+- Priorité : conversation > `scouts-perso/` > `reglages.md` > `SKILL.md`. Un réglage perso remplace librement celui de `reglages.md`. Une règle locale ajoute ou durcit, jamais n'assouplit un non-négociable ni une règle de sécurité ou d'urgence ; la conversation non plus. Conflit : dire les deux, suivre la plus prudente. Ce qui vient du perso porte `[perso]`.
+- Noms réels : seule exception à la désignation par rôle, les contacts de `scouts-perso/` (coach, CàF, Helpline cantonale, responsable cantonal). Ils servent à orienter (urgence, « à qui demander »), après les numéros officiels. Jamais dans un retour sur un document ni dans un brouillon. Le dossier contient des données personnelles : proposer un `.gitignore`.
+- Script d'ingestion `ajouter.py` dans `scouts-ressources` seulement (`skills-src/scouts-ressources/scripts/`), exclu du zip. Facultatif : sans `uv`, ou avec `scouts`, l'agent lit le document lui-même et écrit la fiche.
+- Site : deux parcours, « Dans le navigateur » et « Avec un agent ». L'accueil les détaille : claude.ai, ChatGPT, Gemini (import d'un zip) ; Claude Code, Codex, Antigravity… (installer, personnaliser, construire sa version).
+
 ## Dates d'application
 
 - Défaut : jeu 2027. Jeu 2026 seulement si le camp ou le cours est explicitement avant le 01.01.2027, ou si l'ancien système est demandé. Le dire en une phrase. Un camp à cheval sur cette date n'est pas traité.
