@@ -3,7 +3,7 @@ title: Concevoir un document
 order: 15
 menu: false
 parcours: web
-description: "Demander au skill une première version d'activité J+S, d'UA, de programme ou de concept de sécurité."
+description: "Demander au skill une première version d'activité J+S, d'UA, de programme, de concept de sécurité ou de grille de qualification."
 ---
 
 [Utiliser le skill](web-utiliser.md) > Concevoir un document

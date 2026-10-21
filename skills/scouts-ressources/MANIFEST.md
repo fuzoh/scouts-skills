@@ -3,8 +3,8 @@
 - version : 0.7.1 <!-- x-release-please-version -->
 - source : https://github.com/fuzoh/scouts-skills
 - scope : complet
-- sources : 190
-- sections : 1689
+- sources : 191
+- sections : 1741
 - référentiels : 5
 
 ## Sources embarquées
@@ -164,6 +164,7 @@
 - `js-structure-formation-sdct`
 - `js-technique-de-corde`
 - `js-violence-dans-le-sport@2008`
+- `msds-alpha-aide-memoire-rg@2017`
 - `msds-ancre@Version 23`
 - `msds-assurance-tiers-conducteurs@2009`
 - `msds-autorisation-de-camp@2026`

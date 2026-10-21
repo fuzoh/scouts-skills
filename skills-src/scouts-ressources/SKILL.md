@@ -1,6 +1,6 @@
 ---
 name: scouts-ressources
-description: "Version avec corpus du skill scouts : les ressources officielles du scoutisme suisse (MSdS, cofor, J+S, cudesch) embarquées et citées section par section. Chercher et citer une règle, un délai ou une méthode avec sa source exacte ; corriger ou concevoir un document scout (activité J+S, unité d'apprentissage, programme de camp ou picasso, concept de sécurité, autre livrable de camp ou de cours) ; expliquer une notion (PATExE, 3x3, formes caractéristiques, activité J+S 2027) en citant le texte officiel ; personnaliser avec les réglages, règles, contacts et documents de son groupe, de son association cantonale ou de son cours. Utiliser quand l'utilisateur veut la source exacte, le texte officiel ou une citation vérifiable, ou dès qu'un prompt parle de scouts, de J+S, de camp, de cours de formation scoute, de responsables, de coachs, d'experts ou de CàF, ou cite le MSdS ou le cudesch."
+description: "Version avec corpus du skill scouts : les ressources officielles du scoutisme suisse (MSdS, cofor, J+S, cudesch) embarquées et citées section par section. Chercher et citer une règle, un délai ou une méthode avec sa source exacte ; corriger ou concevoir un document scout (activité J+S, unité d'apprentissage, programme de camp ou picasso, concept de sécurité, système ou grille de qualification) ; expliquer une notion (PATExE, 3x3, formes caractéristiques, activité J+S 2027, qualification) en citant le texte officiel ; personnaliser avec les réglages, règles, contacts et documents de son groupe, de son association cantonale ou de son cours. Utiliser quand l'utilisateur veut la source exacte, le texte officiel ou une citation vérifiable, ou dès qu'un prompt parle de scouts, de J+S, de camp, de cours de formation scoute, de responsables, de coachs, d'experts ou de CàF, ou cite le MSdS ou le cudesch."
 ---
 
 # Scouts, ressources
@@ -43,12 +43,13 @@ Question hors référentiel : `references/concepts/<slug>.md` (slug du glossaire
 | `ua` | UA, unité d'apprentissage, point de cours, PdC, PATExE, GAG, objectif d'apprentissage, sommaire des UA, CàF | type de cours et branche ; date du cours | aucun |
 | `programme-camp` | picasso, programme de camp, programme général ou détaillé, grille horaire, dossier de camp, journée type, point fixe | date du camp | `activite-js`, `concept-de-securite` |
 | `concept-de-securite` | concept de sécurité, CdS, analyse ou matrice des risques, 3x3, activité à caractère dangereux, urgence, baignade, tyrolienne | type (global de camp, activité, randonnée) ; date du camp | aucun |
+| `qualification` | système de qualification, grille, exigences minimales, indicateurs, sphères, barème, critères éliminatoires, concept RQA | type de cours, date du cours, formelle ou d'office | aucun |
 
 Les signaux complets sont dans le frontmatter de chaque référentiel. Signaux de deux référentiels sans livrable qui tranche (« randonnée » seule) : demander lequel avant de charger.
 
 Règle d'`inclut:` : charger en entier un référentiel inclus seulement si la pièce correspondante est jointe ou demandée (un CdS joint à un dossier de camp). Sinon le parent nomme l'exigence (« un CdS existe pour cette activité ») sans la juger. Un seul niveau d'inclusion.
 
-Livrable sans référentiel (programme trimestriel, SAPC, concept de qualification…) : le dire, puis travailler par le chemin hors référentiel du § 2 ; aucun tableau N1..Nk inventé.
+Livrable sans référentiel (programme trimestriel, SAPC…) : le dire, puis travailler par le chemin hors référentiel du § 2 ; aucun tableau N1..Nk inventé.
 
 ## 4. Cadrer sans l'afficher
 

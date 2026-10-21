@@ -11,7 +11,7 @@ Sigles et termes d'un document de camp ou de cours. Autres termes : `glossaire-2
 - **AS** — activité spirituelle, un type d'autre activité, hors J+S (terrain).
 - **RU / RG** — responsable d'unité / responsable de groupe ; aussi le nom des cours qui y mènent. Le RG signe l'autorisation de camp avec le coach ; ce n'est pas le responsable de camp.
 - **CdS** — concept de sécurité. Trois types : global de camp, d'activité à caractère dangereux, de randonnée.
-- **DC** — direction de cours (anciennement chef de cours).
+- **DC** — direction de cours, terme à préférer à l'écrit. « Chef de cours » et « chef·fe de cours » désignent le même rôle et restent compris. Pas de date de fin.
 - **Camp mixte** — trois sens : équipes, plusieurs branches ou groupes d'âge (terrain) ; J+S jusqu'en 2026, groupes cibles enfants et jeunes réunis ; règlement MSdS, filles et garçons (écrire « camp avec filles et garçons »).
 - **Variante / remplacement** — la variante adapte la même activité ; l'activité de remplacement est une autre activité du même type.
 
@@ -19,7 +19,6 @@ Sigles et termes d'un document de camp ou de cours. Autres termes : `glossaire-2
 
 - AC et SC disparaissent : on parle d'**activité J+S**.
 - « Camp mixte » (sens J+S) disparaît avec la fusion des groupes cibles.
-- « Chef de cours » devient **direction de cours**.
 - Complément « chef de camp » devient **Responsable de camp** ; moniteur enfants et moniteur jeunes deviennent **moniteur SdC/T**.
 - « Connaissances minimales du sport » devient **connaissances techniques de base SdC/T**.
 - En cours : « point de cours » devient **unité d'apprentissage**, « ensemble de points de cours » **module**, « participant » **apprenant**, « encourager » **accompagner**.
@@ -42,7 +41,7 @@ Sigles et termes d'un document de camp ou de cours. Autres termes : `glossaire-2
 - **Moniteur** — cadre J+S qui conduit des activités ; formé par le cours de base.
 - **Expert J+S** — forme, conseille et qualifie les adultes dans les cours de cadres J+S.
 - **CàF** — conseiller à la formation : appui aux cours, contrôle des directives J+S et MSdS, autorisation du cours.
-- **Direction de cours (DC)** — responsable de la planification, de la réalisation et de l'évaluation d'un cours.
+- **Direction de cours (DC)** — responsable de la planification, de la réalisation et de l'évaluation d'un cours. Au moins une personne ; plusieurs peuvent partager le rôle. « Chef de cours » nomme la même fonction.
 
 ## Camp et activités
 

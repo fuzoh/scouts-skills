@@ -12,7 +12,7 @@ url: ''                                 # page d'origine canonique (pas le lien 
 file_url: ''                            # lien direct au fichier, "" pour web
 web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
 
-status: converted                       # collected | triaged | converted | indexed | verified | superseded | rejected
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
 decision: keep                          # keep | rejected, rempli au triage
 rejected_reason: ''
 extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)

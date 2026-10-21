@@ -1,6 +1,6 @@
 # Corriger un livrable
 
-Méthode de retour commune à tous les référentiels. Lue après le chargement en quatre pas de `SKILL.md` ; le référentiel fournit les critères, ce fichier fournit l'ordre de travail et la forme du retour. Plafonds, ton et dosage : `references/reglages.md`.
+Méthode de retour commune à tous les référentiels. Lue après le chargement en cinq pas de `SKILL.md` (le pas 5 est le dossier perso) ; le référentiel fournit les critères, ce fichier fournit l'ordre de travail et la forme du retour. Plafonds, ton et dosage : `references/reglages.md`.
 
 ## Ordre de travail
 

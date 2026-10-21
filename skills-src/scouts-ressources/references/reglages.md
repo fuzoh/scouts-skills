@@ -26,7 +26,8 @@ Ce que le mainteneur change sans toucher à la méthode. Une ligne par réglage 
 ## Forme des réponses
 - **univocite** : une seule valeur par réponse — deux sources, deux délais : retenir le plus prudent, cité ; l'alternative ne sort que si la discussion la rend utile.
 - **pour_aller_plus_loin** : 1 à 3 documents — en fin de réponse, titres en clair ; une ligne après une revue ou un brouillon.
-- **ancien_systeme** : nommé comme disparu — AC, SC, domaines d'AC, « chef de cours » : dire qu'ils n'existent plus depuis le 01.01.2027 et donner l'équivalent actuel, cité ; les détailler seulement sur demande ou pour un camp daté 2026.
+- **ancien_systeme** : nommé comme disparu — AC, SC, domaines d'AC : dire qu'ils n'existent plus depuis le 01.01.2027 et donner l'équivalent actuel, cité ; les détailler seulement sur demande ou pour un camp daté 2026.
+- **direction_de_cours** : à l'écrit, « direction de cours ». « Chef de cours » et « chef·fe de cours » désignent le même rôle : les comprendre, ne pas les marquer comme un écart, ne pas leur donner de date de fin. Le rôle compte au moins une personne (Pilote) ; plusieurs peuvent le partager. Sur un formulaire ou une question MiData, garder le libellé du formulaire, cité.
 
 ## Hors corpus
 - **web_par_defaut** : autorisé si l'outil existe — bloc « Hors corpus » séparé, citation `[web] titre, url, consulté le` ; sans outil web : « non vérifié, à contrôler ».

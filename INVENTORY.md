@@ -9,9 +9,8 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | statut | sources |
 |---|---|
 | `triaged` | 3 |
-| `converted` | 2 |
-| `indexed` | 190 |
-| `rejected` | 6 |
+| `indexed` | 191 |
+| `rejected` | 7 |
 
 ## Toutes les sources
 
@@ -175,7 +174,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-structure-formation-sdct`](sources/js-structure-formation-sdct/source.yaml) | Structure de la formation J+S Sport de camp/Trekking (BDNS, versions jusqu'au 31.12.2026 et dès le 1.1.2027) | js | pdf | 3 | `indexed` |
 | [`js-technique-de-corde`](sources/js-technique-de-corde/source.yaml) | Aide-mémoire Technique de corde | js | pdf | 3 | `indexed` |
 | [`js-violence-dans-le-sport`](sources/js-violence-dans-le-sport/source.yaml) | La violence dans le sport | js | pdf | 24 | `indexed` |
-| [`msds-alpha-aide-memoire-rg`](sources/msds-alpha-aide-memoire-rg/source.yaml) | Alpha – Aide-mémoire du responsable de groupe | msds | pdf | 80 | `converted` |
+| [`msds-alpha-aide-memoire-rg`](sources/msds-alpha-aide-memoire-rg/source.yaml) | Alpha – Aide-mémoire du responsable de groupe | msds | pdf | 80 | `indexed` |
 | [`msds-ancre`](sources/msds-ancre/source.yaml) | L'Ancre – fil conducteur pour l'administration des cours MSdS | msds | pdf | 34 | `indexed` |
 | [`msds-apercu-cours-de-formation`](sources/msds-apercu-cours-de-formation/source.yaml) | Aperçu des cours de formation (schéma) | msds | pdf | 1 | `triaged` |
 | [`msds-assurance-tiers-conducteurs`](sources/msds-assurance-tiers-conducteurs/source.yaml) | Assurance des tiers conducteurs (MSdS, éd. 2009) | msds | pdf | 2 | `indexed` |
@@ -209,7 +208,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`msds-ouvert-a-tous-equipe-de-cours`](sources/msds-ouvert-a-tous-equipe-de-cours/source.yaml) | Ouvert à tou·te·s – dossier de l'équipe de cours concernant la diversité et l'inclusion | msds | pdf | 9 | `indexed` |
 | [`msds-pilote`](sources/msds-pilote/source.yaml) | Pilote – fil conducteur pour l'administration des cours par les responsables formation ou secrétariats | msds | pdf | 37 | `indexed` |
 | [`msds-profil-du-scoutisme`](sources/msds-profil-du-scoutisme/source.yaml) | Profil du scoutisme – les fondements pédagogiques du Mouvement Scout de Suisse | msds | pdf | 41 | `indexed` |
-| [`msds-profil-tableaux-relations`](sources/msds-profil-tableaux-relations/source.yaml) | Profil du scoutisme v25 – tableaux des relations par branche | msds | pdf | 5 | `converted` |
+| [`msds-profil-tableaux-relations`](sources/msds-profil-tableaux-relations/source.yaml) | Profil du scoutisme v25 – tableaux des relations par branche | msds | pdf | 5 | `rejected` |
 | [`msds-pv-conference-formation-2026`](sources/msds-pv-conference-formation-2026/source.yaml) | Procès-verbal de la conférence formation 2026 (12.09.2026, Berne) | msds | pdf | 24 | `rejected` |
 | [`msds-reglement-de-camp`](sources/msds-reglement-de-camp/source.yaml) | Règlement concernant la préparation et la réalisation de camps | msds | pdf | 5 | `indexed` |
 | [`msds-reglement-grandes-manifestations`](sources/msds-reglement-grandes-manifestations/source.yaml) | Règlement pour les grandes manifestations du Mouvement Scout de Suisse | msds | pdf | 21 | `indexed` |
@@ -221,7 +220,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 
 ## Par public
 
-### `responsable` (124)
+### `responsable` (123)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
@@ -319,7 +318,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-sport-et-handicap`](sources/js-sport-et-handicap/source.yaml) | Sport et handicap – pistes pour une pratique sportive commune | js | pdf | 40 | `indexed` |
 | [`js-technique-de-corde`](sources/js-technique-de-corde/source.yaml) | Aide-mémoire Technique de corde | js | pdf | 3 | `indexed` |
 | [`js-violence-dans-le-sport`](sources/js-violence-dans-le-sport/source.yaml) | La violence dans le sport | js | pdf | 24 | `indexed` |
-| [`msds-alpha-aide-memoire-rg`](sources/msds-alpha-aide-memoire-rg/source.yaml) | Alpha – Aide-mémoire du responsable de groupe | msds | pdf | 80 | `converted` |
+| [`msds-alpha-aide-memoire-rg`](sources/msds-alpha-aide-memoire-rg/source.yaml) | Alpha – Aide-mémoire du responsable de groupe | msds | pdf | 80 | `indexed` |
 | [`msds-apercu-cours-de-formation`](sources/msds-apercu-cours-de-formation/source.yaml) | Aperçu des cours de formation (schéma) | msds | pdf | 1 | `triaged` |
 | [`msds-assurance-tiers-conducteurs`](sources/msds-assurance-tiers-conducteurs/source.yaml) | Assurance des tiers conducteurs (MSdS, éd. 2009) | msds | pdf | 2 | `indexed` |
 | [`msds-autorisation-de-camp`](sources/msds-autorisation-de-camp/source.yaml) | Autorisation de camp MSdS (formulaire, valable jusqu’au 31.12.2026) | msds | pdf | 2 | `indexed` |
@@ -343,14 +342,13 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`msds-outil-prevention-psa`](sources/msds-outil-prevention-psa/source.yaml) | Outil pour la prévention des abus sexuels dans le scoutisme | msds | pdf | 24 | `indexed` |
 | [`msds-ouvert-a-tous-diversite-inclusion`](sources/msds-ouvert-a-tous-diversite-inclusion/source.yaml) | Ouvert à tou·te·s – diversité et inclusion au sein du scoutisme | msds | pdf | 27 | `indexed` |
 | [`msds-profil-du-scoutisme`](sources/msds-profil-du-scoutisme/source.yaml) | Profil du scoutisme – les fondements pédagogiques du Mouvement Scout de Suisse | msds | pdf | 41 | `indexed` |
-| [`msds-profil-tableaux-relations`](sources/msds-profil-tableaux-relations/source.yaml) | Profil du scoutisme v25 – tableaux des relations par branche | msds | pdf | 5 | `converted` |
 | [`msds-reglement-de-camp`](sources/msds-reglement-de-camp/source.yaml) | Règlement concernant la préparation et la réalisation de camps | msds | pdf | 5 | `indexed` |
 | [`msds-reglement-grandes-manifestations`](sources/msds-reglement-grandes-manifestations/source.yaml) | Règlement pour les grandes manifestations du Mouvement Scout de Suisse | msds | pdf | 21 | `indexed` |
 | [`msds-thilo`](sources/msds-thilo/source.yaml) | Thilo – Manuel scout de Suisse (thilo.scouts.ch, branche Éclais) | msds | web | 0 | `indexed` |
 | [`msds-ticket`](sources/msds-ticket/source.yaml) | Ticket – fil conducteur pour l'inscription aux cours | msds | pdf | 5 | `indexed` |
 | [`msds-twitterbox`](sources/msds-twitterbox/source.yaml) | Twitterbox – document explicatif (participation et santé psychique en camp) | msds | pdf | 1 | `indexed` |
 
-### `formateur` (94)
+### `formateur` (93)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
@@ -445,7 +443,6 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`msds-ouvert-a-tous-diversite-inclusion`](sources/msds-ouvert-a-tous-diversite-inclusion/source.yaml) | Ouvert à tou·te·s – diversité et inclusion au sein du scoutisme | msds | pdf | 27 | `indexed` |
 | [`msds-ouvert-a-tous-equipe-de-cours`](sources/msds-ouvert-a-tous-equipe-de-cours/source.yaml) | Ouvert à tou·te·s – dossier de l'équipe de cours concernant la diversité et l'inclusion | msds | pdf | 9 | `indexed` |
 | [`msds-profil-du-scoutisme`](sources/msds-profil-du-scoutisme/source.yaml) | Profil du scoutisme – les fondements pédagogiques du Mouvement Scout de Suisse | msds | pdf | 41 | `indexed` |
-| [`msds-profil-tableaux-relations`](sources/msds-profil-tableaux-relations/source.yaml) | Profil du scoutisme v25 – tableaux des relations par branche | msds | pdf | 5 | `converted` |
 | [`msds-retour-qualifier-accompagner`](sources/msds-retour-qualifier-accompagner/source.yaml) | Faire un retour, qualifier et accompagner dans un cours | msds | pdf | 66 | `indexed` |
 | [`msds-unite-d-apprentissage`](sources/msds-unite-d-apprentissage/source.yaml) | L'unité d'apprentissage – planifier, animer, évaluer | msds | pdf | 57 | `indexed` |
 
@@ -573,7 +570,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-guide-prestations-speciales`](sources/js-guide-prestations-speciales/source.yaml) | Guide concernant les prestations spéciales pour les offres de sport J+S et la formation des cadres J+S | js | pdf | 2 | `indexed` |
 | [`js-module-evaljs`](sources/js-module-evaljs/source.yaml) | Mise en œuvre de l'évaluation EvalJS (module d'information J+S pour la direction de cours) | js | web | 0 | `indexed` |
 | [`js-structure-formation-sdct`](sources/js-structure-formation-sdct/source.yaml) | Structure de la formation J+S Sport de camp/Trekking (BDNS, versions jusqu'au 31.12.2026 et dès le 1.1.2027) | js | pdf | 3 | `indexed` |
-| [`msds-alpha-aide-memoire-rg`](sources/msds-alpha-aide-memoire-rg/source.yaml) | Alpha – Aide-mémoire du responsable de groupe | msds | pdf | 80 | `converted` |
+| [`msds-alpha-aide-memoire-rg`](sources/msds-alpha-aide-memoire-rg/source.yaml) | Alpha – Aide-mémoire du responsable de groupe | msds | pdf | 80 | `indexed` |
 | [`msds-ancre`](sources/msds-ancre/source.yaml) | L'Ancre – fil conducteur pour l'administration des cours MSdS | msds | pdf | 34 | `indexed` |
 | [`msds-concept-protection-psa`](sources/msds-concept-protection-psa/source.yaml) | Concept de protection – prévention des abus sexuels (prise de position du MSdS) | msds | pdf | 13 | `indexed` |
 | [`msds-encadrement-scoutisme`](sources/msds-encadrement-scoutisme/source.yaml) | L'encadrement au sein du scoutisme – comment épauler un groupe scout | msds | pdf | 56 | `indexed` |
@@ -652,7 +649,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`msds-retour-qualifier-accompagner`](sources/msds-retour-qualifier-accompagner/source.yaml) | Faire un retour, qualifier et accompagner dans un cours | msds | pdf | 66 | `indexed` |
 | [`msds-unite-d-apprentissage`](sources/msds-unite-d-apprentissage/source.yaml) | L'unité d'apprentissage – planifier, animer, évaluer | msds | pdf | 57 | `indexed` |
 
-### `programme` (33)
+### `programme` (32)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
@@ -687,7 +684,6 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`msds-jeux-de-prevention`](sources/msds-jeux-de-prevention/source.yaml) | Collection jeux de prévention | msds | pdf | 4 | `indexed` |
 | [`msds-memento-responsable-patrouille`](sources/msds-memento-responsable-patrouille/source.yaml) | Étincelle – mémento pour les responsables de patrouille | msds | pdf | 24 | `indexed` |
 | [`msds-profil-du-scoutisme`](sources/msds-profil-du-scoutisme/source.yaml) | Profil du scoutisme – les fondements pédagogiques du Mouvement Scout de Suisse | msds | pdf | 41 | `indexed` |
-| [`msds-profil-tableaux-relations`](sources/msds-profil-tableaux-relations/source.yaml) | Profil du scoutisme v25 – tableaux des relations par branche | msds | pdf | 5 | `converted` |
 | [`msds-thilo`](sources/msds-thilo/source.yaml) | Thilo – Manuel scout de Suisse (thilo.scouts.ch, branche Éclais) | msds | web | 0 | `indexed` |
 
 ### `camp` (60)
@@ -886,7 +882,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-manuel-coach`](sources/js-manuel-coach/source.yaml) | Manuel des coachs J+S | js | pdf | 26 | `indexed` |
 | [`js-module-directives-sdct`](sources/js-module-directives-sdct/source.yaml) | Directives Sport de camp/Trekking (module d'information J+S, dès 2027) | js | web | 0 | `indexed` |
 | [`js-module-evaljs`](sources/js-module-evaljs/source.yaml) | Mise en œuvre de l'évaluation EvalJS (module d'information J+S pour la direction de cours) | js | web | 0 | `indexed` |
-| [`msds-alpha-aide-memoire-rg`](sources/msds-alpha-aide-memoire-rg/source.yaml) | Alpha – Aide-mémoire du responsable de groupe | msds | pdf | 80 | `converted` |
+| [`msds-alpha-aide-memoire-rg`](sources/msds-alpha-aide-memoire-rg/source.yaml) | Alpha – Aide-mémoire du responsable de groupe | msds | pdf | 80 | `indexed` |
 | [`msds-ancre`](sources/msds-ancre/source.yaml) | L'Ancre – fil conducteur pour l'administration des cours MSdS | msds | pdf | 34 | `indexed` |
 | [`msds-assurance-tiers-conducteurs`](sources/msds-assurance-tiers-conducteurs/source.yaml) | Assurance des tiers conducteurs (MSdS, éd. 2009) | msds | pdf | 2 | `indexed` |
 | [`msds-autorisation-de-camp`](sources/msds-autorisation-de-camp/source.yaml) | Autorisation de camp MSdS (formulaire, valable jusqu’au 31.12.2026) | msds | pdf | 2 | `indexed` |
@@ -914,7 +910,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-developpement-equipe-moniteurs`](sources/js-developpement-equipe-moniteurs/source.yaml) | Encourager un développement de l'équipe des moniteurs fondé sur des valeurs | js | pdf | 1 | `indexed` |
 | [`js-manuel-coach`](sources/js-manuel-coach/source.yaml) | Manuel des coachs J+S | js | pdf | 26 | `indexed` |
 | [`js-manuel-experts-coachs`](sources/js-manuel-experts-coachs/source.yaml) | Manuel J+S pour les experts coachs J+S | js | pdf | 80 | `indexed` |
-| [`msds-alpha-aide-memoire-rg`](sources/msds-alpha-aide-memoire-rg/source.yaml) | Alpha – Aide-mémoire du responsable de groupe | msds | pdf | 80 | `converted` |
+| [`msds-alpha-aide-memoire-rg`](sources/msds-alpha-aide-memoire-rg/source.yaml) | Alpha – Aide-mémoire du responsable de groupe | msds | pdf | 80 | `indexed` |
 | [`msds-encadrement-scoutisme`](sources/msds-encadrement-scoutisme/source.yaml) | L'encadrement au sein du scoutisme – comment épauler un groupe scout | msds | pdf | 56 | `indexed` |
 | [`msds-modele-de-formation`](sources/msds-modele-de-formation/source.yaml) | Modèle de formation du Mouvement Scout de Suisse – directives générales, structure de la formation et descriptifs des cours | msds | pdf | 92 | `indexed` |
 | [`msds-organigramme`](sources/msds-organigramme/source.yaml) | Organigramme – structure d'organisation du Mouvement Scout de Suisse | msds | pdf | 3 | `indexed` |

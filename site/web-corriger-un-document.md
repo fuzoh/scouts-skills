@@ -3,7 +3,7 @@ title: Corriger un document
 order: 14
 menu: false
 parcours: web
-description: "Faire relire une activité J+S, une unité d'apprentissage, un programme de camp ou un concept de sécurité."
+description: "Faire relire une activité J+S, une unité d'apprentissage, un programme de camp, un concept de sécurité ou une grille de qualification."
 ---
 
 [Utiliser le skill](web-utiliser.md) > Corriger un document
@@ -18,8 +18,9 @@ Joignez le document (PDF, Word, Excel ou texte collé) et demandez une relecture
 | Unité d'apprentissage (UA, point de cours) | « Relis cette UA, cours de base, branche Éclais. » |
 | Programme de camp (picasso, programme général ou détaillé, dossier de camp) | « Ce programme de camp respecte-t-il les exigences J+S 2027 ? » |
 | Concept de sécurité (global, activité, randonnée) | « Vérifie le concept de sécurité de cette randonnée. » |
+| Système ou grille de qualification | « Relis le système de qualification de notre cours RU. » |
 
-Pour un autre document (programme trimestriel, concept de qualification…), le skill le dit et donne quand même des conseils, sans grille de critères inventée.
+Pour un autre document (programme trimestriel, SAPC…), le skill le dit et donne quand même des conseils, sans grille de critères inventée.
 
 ## Trois niveaux de retour
 

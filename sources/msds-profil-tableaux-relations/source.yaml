@@ -12,9 +12,9 @@ url: https://pfadi.swiss/fr/publications-telechargements/downloads/detail/1051/p
 file_url: https://pfadi.swiss/media/files/06/profil_du_scoutisme_v25_les_relations.pdf # lien direct au fichier, "" pour web
 web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
 
-status: converted                       # collected | triaged | converted | indexed | verified | superseded | rejected
-decision: keep                          # keep | rejected, rempli au triage
-rejected_reason: ''
+status: rejected                        # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: rejected                      # keep | rejected, rempli au triage
+rejected_reason: 'doublon compact de msds-profil-du-scoutisme : les grilles relation × branche sont déjà fusionnées dans les sections 05 à 09 du profil. Vue non citée, pour ne pas avoir deux sources des mêmes grilles.'
 extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
 fidelity: partial                       # complete | partial ; vide = complete non évalué ; obligatoire à verified
 fidelity_notes: 'Grilles aspect × branche p.1-5 détruites à la conversion (cellules listées sans ordre ligne × colonne). Récupérées par `just recover` (méthode layout) : recovered/p01 à p05, une relation par fichier, 5 branches en colonnes.' # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »

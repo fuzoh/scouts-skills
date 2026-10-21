@@ -1,6 +1,6 @@
 # Concevoir un livrable
 
-Produire un brouillon conforme au référentiel détecté. Lu après le chargement en quatre pas de `SKILL.md`. Ton, étiquettes et critères globaux : `references/reglages.md`.
+Produire un brouillon conforme au référentiel détecté. Lu après le chargement en cinq pas de `SKILL.md` (le pas 5 est le dossier perso). Ton, étiquettes et critères globaux : `references/reglages.md`. À l'écrit, « direction de cours ».
 
 ## 1. Fixer le cadre
 

@@ -34,7 +34,7 @@ Vous utilisez Claude Code, Codex, Antigravity ou un autre agent installé sur vo
 
 - Répondre à une question de règle, de délai ou de chiffre.
 - Expliquer une notion : PATExE, 3x3, formes caractéristiques, activité J+S 2027, qualification…
-- Relire et corriger un document : activité J+S, unité d'apprentissage (UA), programme de camp ou picasso, concept de sécurité.
+- Relire et corriger un document : activité J+S, unité d'apprentissage (UA), programme de camp ou picasso, concept de sécurité, système ou grille de qualification.
 - Aider à concevoir un de ces documents.
 - Guider une personne qui débute : thèmes, lectures, exemples de demandes.
 

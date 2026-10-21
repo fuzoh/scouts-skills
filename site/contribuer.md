@@ -14,7 +14,7 @@ Les règles complètes sont dans [METHODE.md](https://github.com/fuzoh/scouts-sk
 |---|---|
 | `skills-src/` | Sources d'écriture des deux skills : `SKILL.md`, méthodes, réglages, savoirs. C'est ici qu'on modifie un skill. |
 | `skills/` | Packs générés par `just skills` et commités, installés par `npx skills add`. Jamais édités à la main. |
-| `referentiels/` | Un référentiel par type de document (activité J+S, UA, programme de camp, concept de sécurité) : exigences officielles citées, critères de qualité, pièges, trame. |
+| `referentiels/` | Un référentiel par type de document (activité J+S, UA, programme de camp, concept de sécurité, qualification) : exigences officielles citées, critères de qualité, pièges, trame. |
 | `sources/<id>/` | Registre (`source.yaml`), texte converti et sections de chaque document officiel. |
 | `scripts/` | Outils en Python (CLI `typer`, lancés par `uv`) : ingestion, conversion, découpage, contrôles, build, site. |
 | `site/` | Pages de ce site, en markdown. |

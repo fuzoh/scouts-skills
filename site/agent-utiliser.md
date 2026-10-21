@@ -16,7 +16,7 @@ Les quatre premiers se font de la même façon dans le navigateur et dans un age
 
 1. [Débuter](web-debuter.md) : vous ne savez pas par où commencer ni quoi demander.
 2. [Poser une question](web-poser-une-question.md) : une règle, un délai, un chiffre, une notion.
-3. [Corriger un document](web-corriger-un-document.md) : activité J+S, UA, programme de camp, concept de sécurité.
+3. [Corriger un document](web-corriger-un-document.md) : activité J+S, UA, programme de camp, concept de sécurité, qualification.
 4. [Concevoir un document](web-concevoir-un-document.md) : rédiger une première version.
 5. [Citer les sources](agent-citer-les-sources.md) : obtenir le texte officiel exact, avec `scouts-ressources`.
 

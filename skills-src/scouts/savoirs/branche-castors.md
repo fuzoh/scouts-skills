@@ -2,7 +2,7 @@
 titre: "Branche Castors, enfants de 4 à 7 ans, colonie, activité du samedi, parents et sécurité"
 theme: programme
 sert_a: "Castors 4-7 ans, Mauna et Sori, mascotte, déroulé d'un samedi, loi, taux d'encadrement, nuitée, passage, parents, pièges"
-derive_de: [cudesch-branche-castors, msds-profil-tableaux-relations, msds-profil-du-scoutisme, "concepts: branches, relations, methodes-scoutes"]
+derive_de: [cudesch-branche-castors, msds-profil-du-scoutisme, "concepts: branches, relations, methodes-scoutes"]
 statut: valide
 ---
 
