@@ -373,6 +373,75 @@ def validate(ref: Referentiel, known_sources: dict[str, Any]) -> tuple[list[str]
     return errors, warnings
 
 
+CATALOG_ROW = re.compile(r"^\| `([a-z0-9-]+)` \|", re.M)
+
+
+def catalogues() -> tuple[Path, Path]:
+    """Chemins calculés à l'appel : `reg.SKILLS` est redirigé dans les tests."""
+    return (
+        reg.SKILLS / "scouts" / "SKILL.md",
+        reg.SKILLS / "scouts-ressources" / "SKILL.md",
+    )
+
+
+def catalogue_slugs(path: Path) -> set[str] | None:
+    """Slugs de la table catalogue, ou None si le fichier n'existe pas (dépôt jouet)."""
+    if not path.is_file():
+        return None
+    return set(CATALOG_ROW.findall(path.read_text(encoding="utf-8")))
+
+
+def _iso(value: Any) -> str:
+    if hasattr(value, "isoformat"):
+        return value.isoformat()[:10]
+    return str(value or "")
+
+
+def check_routing() -> list[str]:
+    """Chaque référentiel est dans les deux catalogues ; `derive_de.relu_le` égale le racine.
+
+    Sans fichier catalogue, ne dit rien : le dépôt jouet n'a pas de `SKILL.md`.
+    Un catalogue présent est comparé même s'il n'y a aucun référentiel.
+    """
+    refs = all_referentiels()
+    errors: list[str] = []
+    found = [(path, catalogue_slugs(path)) for path in catalogues()]
+    # Les deux catalogues, ou rien : un dépôt jouet n'a souvent qu'un SKILL.md sans table.
+    if all(slugs is not None for _, slugs in found):
+        known = {r.slug for r in refs}
+        for path, slugs in found:
+            label = path.relative_to(reg.ROOT).as_posix()
+            if slugs is None:
+                errors.append(f"catalogue absent : {label}")
+                continue
+            for ref in refs:
+                if ref.slug not in slugs:
+                    errors.append(f"referentiels/{ref.slug}.md absent du catalogue {label}")
+            for slug in sorted(slugs - known):
+                errors.append(f"catalogue {label} : `{slug}` sans referentiels/{slug}.md")
+    derived = reg.SKILLS / "scouts" / "referentiels"
+    if derived.is_dir():
+        for ref in refs:
+            folder = derived / ref.slug
+            if not folder.is_dir():
+                errors.append(f"skills-src/scouts/referentiels/{ref.slug}/ absent")
+                continue
+            parts = sorted(p for p in folder.glob("*.md"))
+            if not parts:
+                errors.append(f"skills-src/scouts/referentiels/{ref.slug}/ : aucun fichier")
+                continue
+            front, _ = sp.read_front(parts[0].read_text(encoding="utf-8"))
+            derive = front.get("derive_de") if isinstance(front, dict) else None
+            got = _iso(derive.get("relu_le") if isinstance(derive, dict) else None)
+            want = _iso(ref.front.get("relu_le") if isinstance(ref.front, dict) else None)
+            if got != want:
+                errors.append(
+                    f"skills-src/scouts/referentiels/{ref.slug}/ : "
+                    f"derive_de.relu_le `{got}` ≠ relu_le `{want}`"
+                )
+    return errors
+
+
 def check_all(known_sources: dict[str, Any]) -> tuple[list[str], list[str]]:
     """Valide tous les référentiels ; messages préfixés par `referentiels/<slug>.md`."""
     errors: list[str] = []
@@ -382,6 +451,7 @@ def check_all(known_sources: dict[str, Any]) -> tuple[list[str], list[str]]:
         tag = f"referentiels/{ref.path.name}"
         errors += [f"{tag}: {m}" for m in e]
         warnings += [f"{tag}: {m}" for m in w]
+    errors += check_routing()
     return errors, warnings
 
 

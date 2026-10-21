@@ -11,7 +11,9 @@ Les sections portent `fidelity: partial` si le yaml le dit, et aucune règle de
 `redactions` ne doit encore trouver de texte dans les sections ni dans le texte brut.
 
 Toute erreur : liste complète sur stderr, code 1, `INVENTORY.md` non écrit.
-`--check` : validation seule.
+`--check` : validation seule. Le routage des référentiels (catalogues, `relu_le`)
+est dans `referentiels.check_routing`, appelé par `check_all`. Une source
+`converted` déjà découpée est un avertissement, pas une erreur.
 """
 
 from __future__ import annotations
@@ -191,6 +193,23 @@ def check_artefacts(data: dict[str, Any]) -> list[str]:
     return errors
 
 
+def converted_split_warnings(sources: list[dict[str, Any]]) -> list[str]:
+    """Une source `converted` déjà découpée n'entre pas dans le build. Avertissement, pas une erreur."""
+    warnings: list[str] = []
+    for data in sources:
+        if data.get("status") != "converted" or not data.get("id"):
+            continue
+        sdir = reg.source_dir(str(data["id"]))
+        if not sdir.is_dir() or not (sdir / "index.md").is_file():
+            continue
+        if any(p.is_file() and sp.SECTION_FILE_RE.match(p.name) for p in sdir.iterdir()):
+            warnings.append(
+                f"{data['id']} [converted]: `index.md` et des sections existent déjà ; "
+                "le build n'embarque que indexed et verified"
+            )
+    return warnings
+
+
 def validate(sources: list[dict[str, Any]]) -> list[str]:
     """Hash et artefacts de sources déjà valides au sens du schéma."""
     errors: list[str] = []
@@ -207,6 +226,7 @@ def run(check_only: bool = False) -> int:
     errors += validate(sources)
     ref_errors, ref_warnings = refs.check_all({str(s.get("id")): s for s in sources})
     errors += ref_errors
+    ref_warnings += converted_split_warnings(sources)
     for w in ref_warnings:
         typer.echo(f"avertissement : {w}", err=True)
     if errors:

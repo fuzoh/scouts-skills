@@ -53,11 +53,42 @@ def _has(msgs: list[str], needle: str) -> bool:
     return any(needle in m for m in msgs)
 
 
+def _catalogues(repo: Path, *slugs: str) -> None:
+    row = "\n".join(f"| `{s}` | signaux | params | aucun |" for s in slugs)
+    table = f"## 3. Catalogue\n\n| slug | signaux | paramètres | inclut |\n|---|---|---|---|\n{row}\n"
+    for name in ("scouts", "scouts-ressources"):
+        path = repo / "skills-src" / name / "SKILL.md"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(table, encoding="utf-8")
+
+
+def _derive(repo: Path, slug: str = "toy", relu_le: str = "2026-10-18") -> None:
+    folder = repo / "skills-src" / "scouts" / "referentiels" / slug
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / "01-regles.md").write_text(
+        f"---\nslug: {slug}\nderive_de: {{slug: {slug}, relu_le: {relu_le}}}\nstatut: brouillon\n---\n\n",
+        encoding="utf-8",
+    )
+
+
 def test_valide(repo: Path):
     _make_source(repo)
     errors, warnings = _check(repo, _write(repo))
     assert errors == [] and warnings == []
     assert refs.run() == 0
+
+
+def test_catalogue_et_relu_le(repo: Path):
+    _make_source(repo)
+    _write(repo)
+    _catalogues(repo, "toy")
+    _derive(repo)
+    assert refs.run() == 0
+    _catalogues(repo, "autre")
+    assert refs.run() == 1
+    _catalogues(repo, "toy")
+    _derive(repo, relu_le="2020-01-01")
+    assert refs.run() == 1
 
 
 def test_citation_cassee(repo: Path):

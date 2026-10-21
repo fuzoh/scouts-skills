@@ -4,7 +4,7 @@ from pathlib import Path
 
 import yaml
 
-from scripts import ingest, inventory, redact, registry as reg
+from scripts import ingest, inventory, redact, referentiels as refs, registry as reg
 
 
 def _ingest(path: Path, sid: str, **kw) -> dict:
@@ -188,3 +188,48 @@ def test_originals_optional_and_raw_redactions(repo: Path, pdf_factory, capsys):
     _edit("cofor-a", redactions=[{"section": "01-contenu", "pattern": "corps page 1", "replace": "[retiré]"}])
     assert inventory.run(check_only=True) == 1
     assert "`raw.md` contient encore le texte de redactions n°1 (lancer `redact cofor-a`)" in capsys.readouterr().err
+
+
+def test_converted_deja_decoupe_avertit(repo: Path, pdf_factory, capsys):
+    from scripts import convert
+
+    _src(pdf_factory)
+    convert.convert("cofor-a")
+    _edit("cofor-a", status="converted")
+    sdir = repo / "sources/cofor-a"
+    (sdir / "index.md").write_text("---\nsource: cofor-a\nversion: '1'\n---\n\n- A p.1 → 01-a.md : a\n", encoding="utf-8")
+    (sdir / "01-a.md").write_text("# A\n", encoding="utf-8")
+    assert inventory.run(check_only=True) == 0
+    assert "[converted]" in capsys.readouterr().err
+
+
+def _catalogues(repo: Path, rows: str) -> None:
+    for path in refs.catalogues():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(rows, encoding="utf-8")
+
+
+def test_catalogue_slug_inconnu(repo: Path):
+    _catalogues(repo, "| `fantome` | x |\n")
+    errors = refs.check_routing()
+    assert any("fantome" in e and "sans referentiels/" in e for e in errors)
+    assert len(errors) >= 2
+
+
+def test_catalogue_referentiel_absent(repo: Path):
+    (repo / "referentiels" / "toy.md").write_text("---\nslug: toy\nrelu_le: 2026-10-21\n---\n\n", encoding="utf-8")
+    _catalogues(repo, "| `autre` | x |\n")
+    errors = refs.check_routing()
+    assert any("referentiels/toy.md absent du catalogue" in e for e in errors)
+
+
+def test_relu_le_divergent(repo: Path):
+    (repo / "referentiels" / "toy.md").write_text("---\nslug: toy\nrelu_le: 2026-10-21\n---\n\n", encoding="utf-8")
+    _catalogues(repo, "| `toy` | x |\n")
+    folder = repo / "skills-src" / "scouts" / "referentiels" / "toy"
+    folder.mkdir(parents=True)
+    (folder / "01-regles.md").write_text(
+        "---\nslug: toy\nderive_de: {slug: toy, relu_le: 2026-01-01}\n---\n\n", encoding="utf-8"
+    )
+    errors = refs.check_routing()
+    assert any("derive_de.relu_le `2026-01-01` ≠ relu_le `2026-10-21`" in e for e in errors)
