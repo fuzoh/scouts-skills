@@ -16,7 +16,6 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cofor-approfondissement-route@v1` — Check-list approfondissement branche Route – activités SdC/T (Vertiefung Roverstufe, allemand seulement) (1 section, [index](../../corpus/cofor-approfondissement-route/index.md))
 - `cofor-checklist-cours-base@v1` — Check-list cours de base – cours de moniteur·rice J+S (1 section, [index](../../corpus/cofor-checklist-cours-base/index.md))
 - `cofor-checklist-cours-ru@v1` — Check-list cours de responsable d'unité – responsable de camp et activités SC/T (1 section, [index](../../corpus/cofor-checklist-cours-ru/index.md))
-- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../corpus/msds-conffor-2026-diapositives/index.md))
 - `msds-le-cours@2026` — Le cours – concevoir, planifier, réaliser, évaluer (34 sections, [index](../../corpus/msds-le-cours/index.md))
 - `msds-unite-d-apprentissage@2026` — L'unité d'apprentissage – planifier, animer, évaluer (17 sections, [index](../../corpus/msds-unite-d-apprentissage/index.md))
 

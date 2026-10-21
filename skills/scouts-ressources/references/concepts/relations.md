@@ -24,7 +24,6 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-activites-de-qualite-innover@2025` — Des activités J+S de qualité – Innover et Se soucier de l'entourage (jeu de cartes) (10 sections, [index](../../corpus/js-activites-de-qualite-innover/index.md))
 - `js-coach-preserver-l-equipe@2013` — Le coach J+S – Préserver l'équipe (14 sections, [index](../../corpus/js-coach-preserver-l-equipe/index.md))
 - `msds-autorisation-de-camp@2026` — Autorisation de camp MSdS (formulaire, valable jusqu’au 31.12.2026) (1 section, [index](../../corpus/msds-autorisation-de-camp/index.md))
-- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../corpus/msds-conffor-2026-diapositives/index.md))
 - `msds-exigences-js-2027-camps` — J+S 2027 – exigences pour les camps scouts (1 section, [index](../../corpus/msds-exigences-js-2027-camps/index.md))
 - `msds-factsheet-profil` — Factsheet Profil du Scoutisme (nouvelle version 2025) (1 section, [index](../../corpus/msds-factsheet-profil/index.md))
 - `msds-factsheet-profil-responsables` — Factsheet Profil du scoutisme pour responsables et participant·e·s aux cours (résumé à plier) (1 section, [index](../../corpus/msds-factsheet-profil-responsables/index.md))

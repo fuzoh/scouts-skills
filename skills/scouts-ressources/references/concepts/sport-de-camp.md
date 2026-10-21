@@ -46,14 +46,12 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-structure-formation-sdct` — Structure de la formation J+S Sport de camp/Trekking (BDNS, versions jusqu'au 31.12.2026 et dès le 1.1.2027) (1 section, [index](../../corpus/js-structure-formation-sdct/index.md))
 - `js-technique-de-corde` — Aide-mémoire Technique de corde (1 section, [index](../../corpus/js-technique-de-corde/index.md))
 - `msds-autorisation-de-camp@2026` — Autorisation de camp MSdS (formulaire, valable jusqu’au 31.12.2026) (1 section, [index](../../corpus/msds-autorisation-de-camp/index.md))
-- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../corpus/msds-conffor-2026-diapositives/index.md))
 - `msds-essentiel-msds-js-2026` — Informations du MSdS et de J+S pour les moniteur·rice·s (novembre 2025) (8 sections, [index](../../corpus/msds-essentiel-msds-js-2026/index.md))
 - `msds-essentiel-msds-js-2027` — L'essentiel du MSdS et de J+S pour les moniteur·rice·s (octobre 2026) (8 sections, [index](../../corpus/msds-essentiel-msds-js-2027/index.md))
 - `msds-exigences-js-2027-camps` — J+S 2027 – exigences pour les camps scouts (1 section, [index](../../corpus/msds-exigences-js-2027-camps/index.md))
 - `msds-hering-camps@2026-10-17` — Sardine (hering.scout.ch) – guide des démarches administratives pour les camps scouts (9 sections, [index](../../corpus/msds-hering-camps/index.md))
-- `msds-pv-conference-formation-2026` — Procès-verbal de la conférence formation 2026 (12.09.2026, Berne) (11 sections, [index](../../corpus/msds-pv-conference-formation-2026/index.md))
 - `msds-reglement-de-camp@2020` — Règlement concernant la préparation et la réalisation de camps (3 sections, [index](../../corpus/msds-reglement-de-camp/index.md))
 
 ## Concepts liés
 
-[activite-de-camp](activite-de-camp.md), [securite](securite.md), [camp](camp.md), [planification](planification.md), [js](js.md), [coach-js](coach-js.md), [trekking](trekking.md), [methode-3x3](methode-3x3.md)
+[securite](securite.md), [camp](camp.md), [activite-de-camp](activite-de-camp.md), [planification](planification.md), [coach-js](coach-js.md), [trekking](trekking.md), [js](js.md), [methode-3x3](methode-3x3.md)

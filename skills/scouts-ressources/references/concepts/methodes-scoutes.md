@@ -22,7 +22,6 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cudesch-programme@2026-10-17` — Programme – l'essence du scoutisme (14 sections, [index](../../corpus/cudesch-programme/index.md))
 - `cudesch-scoutisme-identite@2026-10-17` — Le Scoutisme – notre identité (25 sections, [index](../../corpus/cudesch-scoutisme-identite/index.md))
 - `msds-autorisation-de-camp@2026` — Autorisation de camp MSdS (formulaire, valable jusqu’au 31.12.2026) (1 section, [index](../../corpus/msds-autorisation-de-camp/index.md))
-- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../corpus/msds-conffor-2026-diapositives/index.md))
 - `msds-exigences-js-2027-camps` — J+S 2027 – exigences pour les camps scouts (1 section, [index](../../corpus/msds-exigences-js-2027-camps/index.md))
 - `msds-factsheet-profil` — Factsheet Profil du Scoutisme (nouvelle version 2025) (1 section, [index](../../corpus/msds-factsheet-profil/index.md))
 - `msds-factsheet-profil-responsables` — Factsheet Profil du scoutisme pour responsables et participant·e·s aux cours (résumé à plier) (1 section, [index](../../corpus/msds-factsheet-profil-responsables/index.md))
@@ -32,4 +31,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[branches](branches.md), [relations](relations.md), [planification](planification.md), [profil-du-scoutisme](profil-du-scoutisme.md), [unite-d-apprentissage](unite-d-apprentissage.md), [caf](caf.md), [niveau-d-approfondissement](niveau-d-approfondissement.md), [modele-de-formation](modele-de-formation.md)
+[branches](branches.md), [relations](relations.md), [planification](planification.md), [profil-du-scoutisme](profil-du-scoutisme.md), [securite](securite.md), [unite-d-apprentissage](unite-d-apprentissage.md), [caf](caf.md), [niveau-d-approfondissement](niveau-d-approfondissement.md)

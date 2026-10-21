@@ -12,7 +12,7 @@ inclut: []
 derive_de: {slug: concept-de-securite, relu_le: 2026-10-21}
 statut: valide
 ---
-Un seul référentiel, trois types de livrable choisis par le paramètre `type`. **CdS global** (ou de camp) : un par camp, rendu au coach avant le camp. **CdS d'activité** : un par activité à risque, ou une section de la fiche d'activité. **CdS de randonnée** : proche du CdS d'activité mais traité à part par les équipes, avec 3x3, carte et dispositif de marche ; toute randonnée en a un. La forme n'est pas imposée : document séparé, annexe ou section de la fiche (cudesch Sécurité). Aucun canevas officiel de CdS, seulement des exemples (fichier 3).
+Un seul référentiel, trois types de livrable choisis par le paramètre `type`. **CdS global** (ou de camp) : un par camp, rendu au coach avant le camp. **CdS d'activité** : un par activité à risque, ou une section de la fiche d'activité. **CdS de randonnée** : proche du CdS d'activité mais traité à part par les équipes, avec 3x3, carte et dispositif de marche (N8). La forme n'est pas imposée : document séparé, annexe ou section de la fiche (cudesch Sécurité). Aucun canevas officiel de CdS, seulement des exemples (fichier 3).
 
 Lire les fichiers 01 à 04 dans l'ordre.
 
@@ -33,12 +33,12 @@ N11. [A] Activité sur lac ou rivière : une personne avec module SSS correspond
 N12. [A] Activité dans un domaine de sécurité J+S (montagne, hiver, eau) : planification détaillée avec CdS, lue et autorisée par un expert J+S du domaine, transmise à l'expert par le coach ou par le chef de camp (mainteneur) ; au moins un moniteur avec le complément du domaine ; jeunes de 10 à 20 ans seulement (aide-mémoire J+S, règlement de camp MSdS, Sardine ; module J+S « Sécurité dans la planification », 2026 : concept écrit obligatoire dans un domaine).
 N13. [A] Randonnée dans les Alpes, Préalpes, Jura ou à l'étranger : reconnaissance préalable indispensable, sur le terrain et pas seulement sur carte (mainteneur) ; itinéraire, itinéraires de remplacement et calcul du temps de marche envoyés au coach avec extrait de carte et CdS (aide-mémoire J+S, volet montagne ; repris par le module J+S « Planifier une randonnée », 2026).
 N14. [G] Les personnes autorisées à conduire en camp sont définies à l'avance (règlement de camp MSdS).
-N15. [A] Camp annoncé J+S, marches, trekking ou tours à vélo : itinéraire (extrait de carte), temps de marche, CdS, reconnaissance effectuée, planification selon le 3x3 et programme de mauvais temps sont préparés (autorisation de camp, check-list C, « pense-bête » selon le formulaire ; maintenu en N par le mainteneur ; recoupe N9, N13 et Q2, ajoute programme de mauvais temps et temps de marche).
+N15. [A] Camp annoncé J+S, marches, trekking ou tours à vélo : itinéraire (extrait de carte), temps de marche, CdS, reconnaissance effectuée, planification selon le 3x3 et programme de mauvais temps sont préparés (autorisation de camp, check-list C, « pense-bête » selon le formulaire ; maintenu en N par le mainteneur ; ajoute à N9, N13 et Q2 le programme de mauvais temps et le temps de marche pour toute randonnée).
 N16. [G] Le CdS global nomme le critère d'appel à la cellule de crise, « la maîtrise est dépassée par la situation », et le numéro de la Helpline scoute ; appel obligatoire dès que police ou secours sont intervenus (cudesch Sécurité ; mainteneur).
 
 ## Selon la date
 - Camp dès le 01.01.2027 : les exigences J+S 2027 ne disent rien du CdS ; les exigences ci-dessus restent celles du règlement de camp MSdS, du cudesch Sécurité et de l'aide-mémoire J+S (édition 10/2025). Le formulaire d'autorisation de camp cité est valable jusqu'au 31.12.2026 ; sa version 2027 n'est pas ingérée : ne pas citer ses items pour 2027 sans l'avoir lue.
-- La brochure J+S camp (2014) n'est citée que pour la remise au coach et la liste des activités ; sa partie programme (AC/SC) ne s'applique pas ici.
+- La brochure J+S camp (2014) n'est citée que pour la remise au coach et la liste des activités ; sa partie AC/SC ne s'applique pas ici.
 - Le CdS n'est pas lié au type AC/SC ni à l'activité J+S 2027 : même contrôle quelle que soit la date (aucun changement 2027 connu, mainteneur).
-- Les modules d'apprentissage J+S « Planifier une randonnée », « Sécurité dans la planification » et « Sécurité dans la réalisation » (octobre 2026, sans date d'application) sont des recommandations valables dès maintenant : ils fondent Q28 à Q33 et confirment N8, N12 et N13 ; ils ne créent pas de N.
+- Les trois modules d'apprentissage J+S d'octobre 2026 (sans date d'application) sont des recommandations valables dès maintenant : ils fondent Q28 à Q33 et confirment N8, N12 et N13 ; ils ne créent pas de N.
 - Q7 à Q10 reprennent les rubriques du formulaire d'autorisation 2026 ; les garder pour 2027 et les revérifier quand le formulaire 2027 sera ingéré (mainteneur).

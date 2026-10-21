@@ -2,7 +2,7 @@
 titre: Administration d'un cours MSdS, délais, autorisation, qualification et charte
 theme: formation
 sert_a: "Délais de cours, annonce, sommaire des UA, programme détaillé, autorisation, évaluation EvalJS, matériel de prêt, MiData, BDNS, saisie des qualifications"
-derive_de: [msds-ancre (version 23), cofor-administration-cours-federaux, cofor-checklist-caf, cofor-autorisation-du-cours, cofor-evaluation-du-cours, msds-retour-qualifier-accompagner, msds-modele-de-formation, js-modele-charte-cours, js-poster-regles-de-comportement, js-evaluation-programme, js-module-evaljs, msds-pv-conference-formation-2026, concepts administration-de-cours, qualification, charte-de-cours]
+derive_de: [msds-ancre (version 23), cofor-administration-cours-federaux, cofor-checklist-caf, cofor-autorisation-du-cours, cofor-evaluation-du-cours, msds-retour-qualifier-accompagner, msds-modele-de-formation, js-modele-charte-cours, js-poster-regles-de-comportement, js-evaluation-programme, js-module-evaljs, concepts administration-de-cours, qualification, charte-de-cours]
 statut: valide
 ---
 

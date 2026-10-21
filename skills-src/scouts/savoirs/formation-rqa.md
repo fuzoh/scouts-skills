@@ -2,7 +2,7 @@
 titre: Retour, qualification et accompagnement (RQA) dans un cours
 theme: formation
 sert_a: "Qualification, observations, retours, entretiens, accompagnement, exigences minimales, décision réussi / non réussi, séquencé ou continu"
-derive_de: [msds-retour-qualifier-accompagner, msds-modele-de-formation, msds-conffor-2026-diapositives, cofor-pano-retour-qualifier, concepts qualification, exigences-minimales, accompagnement, feedback]
+derive_de: [msds-retour-qualifier-accompagner, msds-modele-de-formation, cofor-pano-retour-qualifier, concepts qualification, exigences-minimales, accompagnement, feedback]
 statut: valide
 ---
 

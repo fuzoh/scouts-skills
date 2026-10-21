@@ -2,7 +2,7 @@
 titre: Modèle de formation du MSdS, cours et rôles
 theme: formation
 sert_a: "Modèle de formation, échelle des cours scouts, durée, âge minimal, préalables, liaison J+S, direction de cours, formateur, CàF, expert J+S"
-derive_de: [msds-modele-de-formation (version 2027), cofor-concept-caf, msds-pv-conference-formation-2026, msds-conffor-2026-diapositives, msds-ancre, js-modele-de-formation-macolin, concepts modele-de-formation, caf, chef-de-cours, cours-de-base, cours-ru, cours-panorama, cours-rg, expert-js]
+derive_de: [msds-modele-de-formation (version 2027), cofor-concept-caf, msds-ancre, js-modele-de-formation-macolin, concepts modele-de-formation, caf, chef-de-cours, cours-de-base, cours-ru, cours-panorama, cours-rg, expert-js]
 statut: valide
 ---
 
@@ -43,7 +43,7 @@ Autres cours : conseils de parents (0,5 à 1), aumônier·ère (1 à 3). Les per
 
 Liaisons J+S obligatoires (check-lists faisant foi) : base avec moniteur SdC/T ; RU avec Foundation Responsable de camp et Activités SdC/T ; approfondissement avec Foundation Activités SdC/T ; coach avec coach J+S ; Top avec expert J+S.
 
-## Ce qui change au 01.01.2027 (newsletter formation et conférence formation 2026)
+## Ce qui change au 01.01.2027 (newsletter formation ; conférence formation MSdS 2026, non ingérée)
 
 - **Un seul cours de base et un seul cours RU** : la fusion des groupes cibles J+S supprime les types par branche. Chaque participant approfondit toujours une branche, tous reçoivent la même attestation ; le nom du cours indique la branche approfondie. Les types MiData « cours de base Louveteaux » et « cours de base Éclais » sont archivés fin 2027 ; un cours 2027 déjà saisi sous l'ancien type est passé au nouveau dès qu'il existe.
 - **Cours RU** : chez J+S, c'est la formation continue « Responsable de camp », ramenée à 4 jours, avec un module « Activités SdC/T » intégré, sans administration séparée (remarque BDNS : formation-finances-et-materiel). La qualification RU ne change pas.

@@ -37,7 +37,7 @@ Chaque parcours : thèmes à explorer, lectures (titres de `documents.md`), puis
 
 **Expert J+S, CàF**
 - Thèmes : qualifier des adultes (exigences minimales, indicateurs observables, entretiens), encadrer une maîtrise, autoriser un cours, la structure de formation J+S 2027.
-- Lectures : Faire un retour, qualifier et accompagner ; Concept CàF ; Check-list pour CàF ; Structure de la formation J+S SdC/T ; Cadres de référence J+S 2027 ; procès-verbal de la conférence formation 2026.
+- Lectures : Faire un retour, qualifier et accompagner ; Concept CàF ; Check-list pour CàF ; Structure de la formation J+S SdC/T ; Cadres de référence J+S 2027 ; newsletter de la formation d'octobre 2026.
 - Demandes : « Prépare une grille d'exigences minimales pour un cours de base » ; « Que vérifie le CàF à l'annonce d'un cours ? »
 
 ## 3. Thèmes transversaux à proposer quand rien ne ressort

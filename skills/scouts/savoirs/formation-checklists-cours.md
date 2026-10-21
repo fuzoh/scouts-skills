@@ -2,7 +2,7 @@
 titre: Check-lists cofor des cours de base, RU et approfondissements de branche, listes de buts personnels
 theme: formation
 sert_a: "Check-lists cofor 2027, cours de base, cours RU, approfondissements Castors, Louveteaux, Éclais, Picos, Route, durées minimales J+S, buts personnels"
-derive_de: [cofor-checklist-cours-base, cofor-checklist-cours-ru, cofor-approfondissement-castors, cofor-approfondissement-louveteaux, cofor-approfondissement-eclais, cofor-approfondissement-picos, cofor-approfondissement-route, msds-pv-conference-formation-2026, cofor-liste-buts-cours-base, cofor-liste-buts-cours-ru, "concepts: cours-de-base, cours-ru, niveau-d-approfondissement"]
+derive_de: [cofor-checklist-cours-base, cofor-checklist-cours-ru, cofor-approfondissement-castors, cofor-approfondissement-louveteaux, cofor-approfondissement-eclais, cofor-approfondissement-picos, cofor-approfondissement-route, cofor-liste-buts-cours-base, cofor-liste-buts-cours-ru, "concepts: cours-de-base, cours-ru, niveau-d-approfondissement"]
 statut: valide
 ---
 
@@ -10,7 +10,7 @@ statut: valide
 
 Les check-lists (base, RU, approfondissements Castors, Louveteaux, Éclais, Picos, Route) datent d'août et septembre 2026 (RU : août ; les autres : septembre) et dérivent du modèle de formation 2027 du MSdS et du cadre de référence J+S correspondant : elles s'appliquent aux cours dès le 01.01.2027 (la check-list de base ne porte pas elle-même de date d'application ; elle suit le modèle 2027). Pour un cours avant cette date, demander au CàF la référence applicable (formation). Leurs objectifs sont cités « MSdS x.y » (objectif du modèle de formation) ou « J+S x.y » ; pour le cours RU, « J+S (A) x.y » désigne le module Activités SdC/T.
 
-Elles existent pour tous les cours MSdS liés obligatoirement à un cours J+S. Ce qui change par rapport aux anciennes (conférence formation 2026) : plus de signature, l'envoi par Orbit vaut confirmation ; les contenus J+S sont reliés aux contenus MSdS quand c'est possible, ceux sans équivalent MSdS ressortent en couleur ; l'objectif d'origine de chaque contenu est indiqué ; les renvois aux moyens d'enseignement disparaissent (utiliser le cudesch numérique et la page « cudesch » de pfadi.swiss). La check-list Route n'existe qu'en allemand (« Vertiefung Roverstufe »).
+Elles existent pour tous les cours MSdS liés obligatoirement à un cours J+S. Ce qui change par rapport aux anciennes (conférence formation MSdS 2026, non ingérée) : plus de signature, l'envoi par Orbit vaut confirmation ; les contenus J+S sont reliés aux contenus MSdS quand c'est possible, ceux sans équivalent MSdS ressortent en couleur ; l'objectif d'origine de chaque contenu est indiqué ; les renvois aux moyens d'enseignement disparaissent (utiliser le cudesch numérique et la page « cudesch » de pfadi.swiss). La check-list Route n'existe qu'en allemand (« Vertiefung Roverstufe »).
 
 Les deux listes de buts personnels datent de 2020 : usage pédagogique, sans lien avec une règle 2026 ou 2027.
 

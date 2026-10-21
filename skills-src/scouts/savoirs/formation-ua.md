@@ -2,7 +2,7 @@
 titre: Unité d'apprentissage, objectifs, PATExE, GAG et méthodes d'enseignement
 theme: formation
 sert_a: "UA (ex-point de cours), objectif d'apprentissage, taxonomie, PATExE, GAG, dispositif pédagogique, forme d'enseignement, formes sociales, termes 2026"
-derive_de: [msds-unite-d-apprentissage, msds-le-cours, msds-conffor-2026-diapositives, msds-pv-conference-formation-2026, msds-modele-de-formation (niveaux d'approfondissement), js-sdct-bases, cudesch-glossaire, concepts patexe, objectifs-d-apprentissage, methodes-d-enseignement, referentiel ua]
+derive_de: [msds-unite-d-apprentissage, msds-le-cours, msds-modele-de-formation (niveaux d'approfondissement), js-sdct-bases, cudesch-glossaire, concepts patexe, objectifs-d-apprentissage, methodes-d-enseignement, referentiel ua]
 statut: valide
 ---
 
@@ -60,7 +60,7 @@ L'ordre est libre (commencer par l'Activation, alterner T et Ex) ; ne pas le sig
 - **Formes d'enseignement**, de la moins à la plus impliquante : exposé magistral, questionnement, discussion, travail en autonomie (le schéma de la brochure distingue travail de groupe et individuel). Une UA en emploie plusieurs. Classer ses méthodes d'animation par forme d'enseignement est une étape **facultative** de la planification : elle aide à voir le rapport entre la méthode, le sujet et les apprenants ; ne pas la réclamer dans une fiche.
 - **Formes sociales** : binôme, petits groupes, individuel ; aucune n'est meilleure, alterner.
 
-## Brochures révisées et vocabulaire (conférence formation 2026)
+## Brochures révisées et vocabulaire (conférence formation MSdS 2026, non ingérée)
 
 Les brochures « Le cours » et « L'unité d'apprentissage » ont été réécrites en français, avec l'apprenant au centre. « Le cours » suit désormais la chronologie : concevoir (ingénierie de formation, du modèle de formation au programme détaillé) puis planifier (opérationnalisation) ; elle renforce les objectifs d'apprentissage et le climat d'apprentissage (l'erreur comme appui, motivation). « L'unité d'apprentissage » suit les étapes réelles de planification et met à jour la boîte à outils des méthodes d'animation. Les versions en consultation servent aux cours Top ; les équipes de cours de base et RU n'ont pas à les appliquer, et nul n'est tenu de connaître toutes les modifications.
 

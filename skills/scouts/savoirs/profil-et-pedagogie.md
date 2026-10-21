@@ -2,7 +2,7 @@
 titre: Profil du scoutisme, relations, méthodes et programme
 theme: programme
 sert_a: "Profil du scoutisme 2025 : but, cinq relations (besoins), huit méthodes, branches de besoins, cycle du programme, factsheets, programme trimestriel, activité"
-derive_de: [msds-profil-du-scoutisme (2025), msds-factsheet-profil, msds-factsheet-profil-responsables, msds-conffor-2026-diapositives, cudesch-cudeschin, concepts profil-du-scoutisme, relations, methodes-scoutes, planification]
+derive_de: [msds-profil-du-scoutisme (2025), msds-factsheet-profil, msds-factsheet-profil-responsables, cudesch-cudeschin, concepts profil-du-scoutisme, relations, methodes-scoutes, planification]
 statut: valide
 ---
 
@@ -39,7 +39,7 @@ Les relations sont les directions, les méthodes sont les moyens ; chaque métho
 | Symbolique et rituels | identité commune, appartenance, structurer le quotidien, célébrer les succès |
 | Progression personnelle | auto-apprentissage, encourager la progression, acquérir, utiliser et développer des compétences |
 
-Pas de tableau 5 x 8 qui croiserait toutes les relations avec toutes les méthodes (atelier profil, conférence formation 2026, qui note « 1x méthode et 1x relation »). Les méthodes ont été repensées, pas seulement complétées d'une huitième ; chacune est précisée par trois ou quatre aspects (mots-clés ci-dessus).
+Pas de tableau 5 x 8 qui croiserait toutes les relations avec toutes les méthodes (atelier profil de la conférence formation MSdS 2026, non ingérée, qui note « 1x méthode et 1x relation »). Les méthodes ont été repensées, pas seulement complétées d'une huitième ; chacune est précisée par trois ou quatre aspects (mots-clés ci-dessus).
 
 La promesse scoute figure dans les statuts du MSdS, plus dans le profil. Les anciennes méthodes « Vie en petit groupe » et « L'apprentissage par le projet » ont été recentrées : la seconde est devenue « Apprendre en agissant ».
 

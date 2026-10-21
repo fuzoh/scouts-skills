@@ -2,7 +2,7 @@
 titre: Expert J+S dans un cours scout et en camp, posture, accompagnement, entretiens, perfectionnement
 theme: formation
 sert_a: "Expert J+S, posture, conseiller un moniteur, trois recommandations, entretien en cinq temps, qualifier, modules MPE 2027, expert coach"
-derive_de: [js-manuel-experts, js-manuel-experts-coachs, js-accompagner-et-conseiller, msds-offre-mpe-2027, js-intro-manuel-experts-diapos, msds-pv-conference-formation-2026, "concepts: expert-js, accompagnement, feedback"]
+derive_de: [js-manuel-experts, js-manuel-experts-coachs, js-accompagner-et-conseiller, msds-offre-mpe-2027, js-intro-manuel-experts-diapos, "concepts: expert-js, accompagnement, feedback"]
 statut: valide
 ---
 

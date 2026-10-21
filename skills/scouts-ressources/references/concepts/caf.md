@@ -24,11 +24,9 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cofor-guide-admin-formations-eau` — Eau – formations spécifiques. Guide d'administration pour les responsables de cours et les secrétariats cantonaux (1 section, [index](../../corpus/cofor-guide-admin-formations-eau/index.md))
 - `cofor-pano-combinaison-module-js` — Mémento pour la combinaison d'un cours Panorama avec un module de formation continue J+S (1 section, [index](../../corpus/cofor-pano-combinaison-module-js/index.md))
 - `msds-ancre@Version 23` — L'Ancre – fil conducteur pour l'administration des cours MSdS (19 sections, [index](../../corpus/msds-ancre/index.md))
-- `msds-conffor-2026-diapositives` — Conférence formation 2026 – diapositives de présentation (J+S 2027, littérature de formation, profil du scoutisme) (24 sections, [index](../../corpus/msds-conffor-2026-diapositives/index.md))
 - `msds-le-cours@2026` — Le cours – concevoir, planifier, réaliser, évaluer (34 sections, [index](../../corpus/msds-le-cours/index.md))
 - `msds-modele-de-formation@Version 2027` — Modèle de formation du Mouvement Scout de Suisse – directives générales, structure de la formation et descriptifs des cours (42 sections, [index](../../corpus/msds-modele-de-formation/index.md))
-- `msds-pv-conference-formation-2026` — Procès-verbal de la conférence formation 2026 (12.09.2026, Berne) (11 sections, [index](../../corpus/msds-pv-conference-formation-2026/index.md))
 
 ## Concepts liés
 
-[modele-de-formation](modele-de-formation.md), [administration-de-cours](administration-de-cours.md), [unite-d-apprentissage](unite-d-apprentissage.md), [niveau-d-approfondissement](niveau-d-approfondissement.md), [chef-de-cours](chef-de-cours.md), [financement](financement.md), [qualification](qualification.md), [branches](branches.md)
+[modele-de-formation](modele-de-formation.md), [administration-de-cours](administration-de-cours.md), [chef-de-cours](chef-de-cours.md), [unite-d-apprentissage](unite-d-apprentissage.md), [niveau-d-approfondissement](niveau-d-approfondissement.md), [financement](financement.md), [qualification](qualification.md), [branches](branches.md)

@@ -3,8 +3,8 @@
 - version : 0.6.0 <!-- x-release-please-version -->
 - source : https://github.com/fuzoh/scouts-skills
 - scope : complet
-- sources : 191
-- sections : 1723
+- sources : 189
+- sections : 1688
 - référentiels : 4
 
 ## Sources embarquées
@@ -171,7 +171,6 @@
 - `msds-checklist-camps-a-l-etranger@révisée 2024`
 - `msds-commande-hajk`
 - `msds-concept-protection-psa@2021`
-- `msds-conffor-2026-diapositives`
 - `msds-encadrement-scoutisme@2012`
 - `msds-essentiel-msds-js-2026`
 - `msds-essentiel-msds-js-2027`
@@ -192,7 +191,6 @@
 - `msds-ouvert-a-tous-equipe-de-cours@2022`
 - `msds-pilote@Version 13`
 - `msds-profil-du-scoutisme@2025`
-- `msds-pv-conference-formation-2026`
 - `msds-reglement-de-camp@2020`
 - `msds-reglement-grandes-manifestations`
 - `msds-retour-qualifier-accompagner@2026`

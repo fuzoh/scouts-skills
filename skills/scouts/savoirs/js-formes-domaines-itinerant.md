@@ -2,7 +2,7 @@
 titre: Domaines d'AC et types de SC (2026), formes caractéristiques et d'activité (2027), activités itinérantes
 theme: js
 sert_a: "Six domaines d'AC, types de SC, six formes caractéristiques, facteurs de développement, formes d'activité, cycle de planification J+S, activités itinérantes"
-derive_de: [cudesch-cudeschin, js-sdct-camp, js-manuel-sport-de-camp-trekking, msds-exigences-js-2027-camps, js-module-bases-sdct, js-module-planifier-activite-js, js-module-directives-sdct, msds-pv-conference-formation-2026, referentiel activite-js, concepts sport-de-camp, activite-de-camp]
+derive_de: [cudesch-cudeschin, js-sdct-camp, js-manuel-sport-de-camp-trekking, msds-exigences-js-2027-camps, js-module-bases-sdct, js-module-planifier-activite-js, js-module-directives-sdct, referentiel activite-js, concepts sport-de-camp, activite-de-camp]
 statut: valide
 ---
 
@@ -40,9 +40,9 @@ Une forme caractéristique est la forme idéale des mouvements et comportements 
 
 La sixième change d'intitulé selon le document (« adopter une attitude respectueuse envers la nature et l'environnement », « interagir de manière respectueuse avec la nature et l'environnement ») : c'est la même forme.
 
-Chaque activité J+S est axée sur une ou plusieurs formes caractéristiques et comprend une ou plusieurs formes d'activité. Sur toute l'offre, toutes les formes caractéristiques doivent être traitées.
+Chaque activité J+S est axée sur une ou plusieurs formes caractéristiques et comprend une ou plusieurs formes d'activité. Sur toute l'offre, toutes les formes caractéristiques doivent être traitées. Sur la fiche d'activité 2027, nommer la forme visée n'est pas obligatoire : la relation et la méthode scoutes l'encodent (conférence formation MSdS 2026, non ingérée). Ne pas la réclamer ; la suggérer comme bénéfique, et attendre des responsables qu'ils connaissent les six formes et leurs nuances.
 
-Lien avec le scoutisme (conférence formation MSdS 2026) : une activité conforme au Profil du scoutisme se rattache toujours à l'une ou l'autre forme caractéristique, et un programme de camp qui couvre les cinq relations et met en œuvre les huit méthodes les couvre toutes. Une activité qui s'appuie sur une méthode scoute pour travailler une relation comprend une forme d'activité.
+Lien avec le scoutisme (conférence formation MSdS 2026, non ingérée) : une activité conforme au Profil du scoutisme se rattache toujours à l'une ou l'autre forme caractéristique, et un programme de camp qui couvre les cinq relations et met en œuvre les huit méthodes les couvre toutes. Une activité qui s'appuie sur une méthode scoute pour travailler une relation comprend une forme d'activité.
 
 ## Conception de la formation J+S (2027)
 
