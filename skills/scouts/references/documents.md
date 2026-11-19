@@ -43,8 +43,8 @@ Catalogue pour « Pour aller plus loin » et `guide.md` : titre, usage, accès. 
 |---|---|---|
 | cudesch, La sécurité : assumer des responsabilités | Activités dangereuses, concept de sécurité, 3x3, urgence, crise | cudesch.scout.ch/fr |
 | cudesch, Être responsable : agir consciemment | Rôle de responsable, prévention des abus, santé, règles | cudesch.scout.ch/fr |
-| Prévention des accidents et exigences de sécurité en SdC/T (aide-mémoire J+S, 10/2025) | Sécurité générale, circulation routière, exigences par domaine (montagne, hiver, eau), sports à dispositions particulières et prestataires commerciaux, activités à l'étranger | pfadi.swiss, téléchargements |
-| La sécurité dans le Sport de camp/Trekking (page web J+S, aide à la décision) | Choisir des activités adéquates en quatre questions et vérifier les exigences de sécurité ; même contenu que l'aide-mémoire | jugendundsport.ch |
+| Prévention des accidents et exigences de sécurité en SdC/T (aide-mémoire J+S et BPA, 10/2025) | Sécurité générale, circulation routière, exigences par domaine (montagne, hiver, eau), sports à dispositions particulières et prestataires commerciaux, activités à l'étranger | pfadi.swiss, téléchargements |
+| La sécurité dans le Sport de camp/Trekking (page web J+S, aide à la décision) | Choisir des activités adéquates en quatre questions et vérifier les exigences de sécurité ; reprend l'aide-mémoire et ajoute l'aide à la décision | jugendundsport.ch |
 | Sport de camp/Trekking, Montagne, Eau, Hiver (brochures J+S) | Domaines de sécurité : seuils, modules, planification ; PDF seulement, révision prévue | Extranet J+S |
 | Aide-mémoire 3 × 3 activités itinérantes (J+S) | Appliquer le 3x3 à une randonnée | pfadi.swiss, téléchargements |
 | Planifier une randonnée ; Sécurité dans la planification ; Sécurité dans la réalisation (modules d'apprentissage numériques J+S, publiés en 2026, ils servent la formation dès 2027) | Kilomètres-effort, points clés, cycle identifier-classifier-adapter, matrice, décider en route ; à suivre dans cet ordre | tool.jeunesseetsport.ch |

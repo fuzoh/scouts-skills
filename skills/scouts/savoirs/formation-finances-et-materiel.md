@@ -64,7 +64,7 @@ Fil conducteur de l'inscription dans MiData, pour les participants et les RG, va
 4. **Enregistrement** : l'organisateur inscrit le participant et confirme hors MiData.
 5. **Désinscription** : prévenir sans délai l'organisateur ; délais et motifs sans frais varient selon lui.
 
-**Obtenir ou prolonger une reconnaissance** : tableau du Ticket ; moniteur SdC/T par le cours de base, complément responsable de camp par le cours RU, complément de domaine de sécurité par le module de sécurité, expert SdC/T par le Top, coach par le cours de coach. Prolongation par les cours et modules de niveau égal ou supérieur (détail dans le Ticket).
+**Obtenir ou prolonger une reconnaissance** : tableau du Ticket ; moniteur SdC/T par le cours de base, complément responsable de camp par le cours RU, complément de domaine de sécurité par le module de sécurité, expert SdC/T par le Top, coach par le cours de coach. Prolongation par les cours et modules de niveau égal ou supérieur (détail dans le Ticket). Reconnaissances supplémentaires Montagne, Eau, Hiver : validité limitée à quatre ans depuis le 01.01.2026, renouvelées par une formation continue dans le domaine de la sécurité (js-roles).
 
 ## Pilote : administrer un cours dans MiData et la BDNS
 
