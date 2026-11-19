@@ -26,7 +26,7 @@ sha256: 0305bc4016411007e9f66b0a3f458995496c7d4ac5c2a8aee138436bfd74f192 # (scri
 pages: 2                                # (script) pages PDF, diapos pptx, 0 sinon
 stale: false                            # (script) true si le distant a changé
 applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
-applies_until: 2026-12-31                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
 nature: prescription                            # prescription | recommandation | exemple, sources prescriptives seulement
 
 audience: [expert-js, formateur]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
@@ -36,5 +36,5 @@ concepts: [sport-de-camp, hiver, securite, qualification, evaluation, methode-3x
 supersedes: []                          # ids remplacés par cette source
 history: []                             # versions précédentes : {version, published, sha256, retired}
 
-notes: 'Document OFSPO du 2014-06-10 (Sport des jeunes et des adultes) sur l''ancien module Domaine de sécurité Hiver : conditions d''admission, bilan de compétences (carte, boussole, équipement, planification, bivouac sans tente, déclivité), contrôle de la matière apprise par thème, qualification et reconnaissance supplémentaire « Hiver ». applies_until déduit : remplacé par le cadre de référence 105-107 dès 2027 (non écrit dans le document). Vocabulaire ancien : SC/T, MP, statut « caduc », « module de formation continue » compté comme MP. Texte complet et bien ordonné ; ni url ni file_url (origine non retrouvée).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+notes: 'Document OFSPO du 2014-06-10 (Sport des jeunes et des adultes) sur l''ancien module Domaine de sécurité Hiver : conditions d''admission, bilan de compétences (carte, boussole, équipement, planification, bivouac sans tente, déclivité), contrôle de la matière apprise par thème, qualification et reconnaissance supplémentaire « Hiver ». applies_until laissé vide : remplacé par le cadre de référence 105-107 dès 2027, mais le document ne date pas sa fin et son état en 2026 n''est pas documenté. Vocabulaire ancien : SC/T, MP, statut « caduc », « module de formation continue » compté comme MP. Texte complet et bien ordonné ; ni url ni file_url (origine non retrouvée).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
 redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

@@ -7,7 +7,6 @@ toc_source: agent
 title: Documents du module « Domaine de sécurité Montagne » – Sport de camp/Trekking (2014)
 issuer: js
 nature: prescription
-applies_until: '2026-12-31'
 fidelity: complete
 extraction: text
 ---

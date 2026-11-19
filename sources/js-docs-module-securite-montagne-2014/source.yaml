@@ -26,7 +26,7 @@ sha256: 5330557f6408569a1ffb0e13f6e5f9e45bdaade5bcfad8bb274b4ba628b0f2f3 # (scri
 pages: 2                                # (script) pages PDF, diapos pptx, 0 sinon
 stale: false                            # (script) true si le distant a changé
 applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
-applies_until: 2026-12-31                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
 nature: prescription                            # prescription | recommandation | exemple, sources prescriptives seulement
 
 audience: [expert-js, formateur]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
@@ -36,5 +36,5 @@ concepts: [sport-de-camp, montagne, securite, qualification, evaluation, methode
 supersedes: []                          # ids remplacés par cette source
 history: []                             # versions précédentes : {version, published, sha256, retired}
 
-notes: 'Document OFSPO du 2014-06-10 (Sport des jeunes et des adultes) sur l''ancien module Domaine de sécurité Montagne : conditions d''admission, bilan de compétences (carte, boussole, équipement, planification, bivouac), contrôle de la matière apprise par thème, qualification et reconnaissance supplémentaire « Montagne ». applies_until déduit : remplacé par le cadre de référence 105-107 dès 2027 (non écrit dans le document). Vocabulaire ancien : SC/T, MP, statut « caduc », « module de formation continue » compté comme MP. Texte complet et bien ordonné ; ni url ni file_url (origine non retrouvée).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+notes: 'Document OFSPO du 2014-06-10 (Sport des jeunes et des adultes) sur l''ancien module Domaine de sécurité Montagne : conditions d''admission, bilan de compétences (carte, boussole, équipement, planification, bivouac), contrôle de la matière apprise par thème, qualification et reconnaissance supplémentaire « Montagne ». applies_until laissé vide : remplacé par le cadre de référence 105-107 dès 2027, mais le document ne date pas sa fin et son état en 2026 n''est pas documenté. Vocabulaire ancien : SC/T, MP, statut « caduc », « module de formation continue » compté comme MP. Texte complet et bien ordonné ; ni url ni file_url (origine non retrouvée).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
 redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}
