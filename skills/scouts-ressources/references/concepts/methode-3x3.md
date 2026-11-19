@@ -18,8 +18,9 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-sdct-eau@2019, 2e édition actualisée` — Sport de camp/Trekking – Eau (15 sections, [index](../../corpus/js-sdct-eau/index.md))
 - `js-sdct-hiver@2019, 5e édition actualisée` — Sport de camp/Trekking – Hiver (14 sections, [index](../../corpus/js-sdct-hiver/index.md))
 - `js-sdct-montagne@2014` — Sport de camp/Trekking – Montagne (19 sections, [index](../../corpus/js-sdct-montagne/index.md))
+- `js-securite-sport-de-camp-trekking@2026-11-19` — La sécurité dans le Sport de camp/Trekking (1 section, [index](../../corpus/js-securite-sport-de-camp-trekking/index.md))
 - `msds-autorisation-de-camp@2026` — Autorisation de camp MSdS (formulaire, valable jusqu’au 31.12.2026) (1 section, [index](../../corpus/msds-autorisation-de-camp/index.md))
 
 ## Concepts liés
 
-[securite](securite.md), [sport-de-camp](sport-de-camp.md), [premiers-secours](premiers-secours.md), [trekking](trekking.md), [eau](eau.md), [activite-de-camp](activite-de-camp.md), [planification](planification.md), [camp](camp.md)
+[sport-de-camp](sport-de-camp.md), [securite](securite.md), [eau](eau.md), [premiers-secours](premiers-secours.md), [trekking](trekking.md), [montagne](montagne.md), [hiver](hiver.md), [concept-de-securite](concept-de-securite.md)

@@ -70,9 +70,15 @@
 
 - Défaut : jeu 2027. Jeu 2026 seulement si le camp ou le cours est explicitement avant le 01.01.2027, ou si l'ancien système est demandé. Le dire en une phrase. Un camp à cheval sur cette date n'est pas traité.
 - La référence d'un cours suit la date du cours. Le modèle de formation 2027 est en vigueur le 01.01.2027.
-- AC et SC jusqu'au 31.12.2026. Dès le 01.01.2027 : activité J+S, part de sport, formes caractéristiques. « Sans subside » (jour sans J+S) ne s'étend pas à 2027.
-- 2026 : 30 min d'AC dans deux parties de journée. Au plus un jour sans J+S, sans subside, dans un camp de plus de 4 jours.
-- 2027, jour sans activités J+S : au plus un dans un camp de plus de 4 jours (Sardine) **et** le minimum de journées J+S reste tenu (module J+S « Directives SdC/T ») ; les deux conditions se cumulent. Un deuxième jour est un écart, à dire comme tel.
+- AC et SC jusqu'au 31.12.2026. Dès le 01.01.2027 : activité J+S, part de sport, formes caractéristiques. Un jour sans activité J+S n'est pas subventionné, en 2026 comme en 2027 (guide J+S des offres en ligne, état du 28.07.2026).
+- 2026 : 30 min d'AC dans deux parties de journée.
+- Jour sans activité J+S, 2026 et 2027 : on en planifie au plus un dans un camp de plus de 4 jours (Sardine, check-list MSdS de l'autorisation de camp). Le guide J+S des offres en ligne en admet davantage selon la durée (camp de 5 jours : 1 ; 6-7 jours : 2 ; 8-9 jours : 3 ; un de plus tous les deux jours) : un deuxième jour n'est pas un écart, il se valide avec le coach.
+- 2027, jour sans activité J+S : en plus, le minimum de journées J+S reste tenu (4, ou 3 pour le camp court d'une offre ; module J+S « Directives SdC/T »).
+- Jour de camp J+S (guide en ligne) : au moins deux unités séparées par 30 min de temps social, échauffement avant chacune. Premier et dernier jour : chacun compte s'il a ses 4 h ; sinon leur total vaut un jour à partir de 4 h, aucun en dessous.
+- Camp J+S : au moins 12 participants de 5 à 20 ans, domiciliés en Suisse ou au Liechtenstein ou ressortissants de l'un des deux ; un jour sous ce minimum n'est pas subventionné. Les moniteurs comptés ont une reconnaissance « valable ».
+- Reconnaissances des domaines de sécurité Montagne, Eau, Hiver : valables quatre ans depuis le 01.01.2026, renouvelées par une formation continue du domaine (infolettre J+S aux experts SdC/T du 17.11.2026, non ingérée : nominative et porteuse d'identifiants). Le point de départ pour une reconnaissance antérieure à 2026 n'est pas précisé : renvoyer au coach.
+- La brochure J+S « Sport de camp/Trekking, Bases » est remplacée par le manuel SdC/T d'octobre 2026 et ses trois séquences numériques : on ne la recommande plus. Brochures Camp, Hiver, Eau, Montagne : PDF seulement, révision prévue.
+- On écrit EvalJS (page et module J+S) ; « EvalJES » de l'infolettre de novembre 2026 est noté au glossaire. MP-Exp et FC-Exp : sigles J+S qu'aucune source ne développe, définis comme tels.
 - 2027, temps sportif : activité purement sportive comptée en entier (pauses courtes, explications, transitions, échauffement, retour au calme) ; activité mixte, parties sportives seulement, rien sous 30 min (module Directives).
 - Âges J+S 5–20 inchangés. Groupes cibles et reconnaissances distincts en 2026, une seule reconnaissance SdC/T en 2027.
 - Conduite du camp : « chef de camp » jusqu'au 31.12.2026, « Responsable de camp » dès le 01.01.2027 ; « chef·fe de camp » circule encore pour 2027 (newsletter formation d'octobre 2026, jargon) : même complément, on écrit « Responsable de camp » et on comprend les deux.
@@ -87,7 +93,7 @@ Ces choix tiennent même s'ils sont plus prudents, ou moins stricts, qu'une sour
 
 - Marche : fourchettes avec et sans charge du manuel montagne 2014. Planifier depuis le bas de la fourchette adaptée, puis ajuster au groupe et au terrain. Pauses et marge en plus. `[non officiel]`, pas une vitesse réglementaire.
 - Eau : équipement de l'aide-mémoire J+S 10/2025, distinct pour le lac, le lac au-delà de 300 m et les embarcations en rivière. Un gilet à bord ne remplace pas le port prescrit. L'exception CPR/BLS vaut pour la baignade en lac sous maître-nageur. Module SSS par tranche de 12, y compris en rivière.
-- Piscine : l'aide-mémoire J+S Sécurité Eau 2024 fait foi. Baignade en piscine surveillée : module J+S Eau SdC/T ou brevet Base Pool ; piscine non surveillée : module J+S Eau ou brevet Plus Pool.
+- Piscine : l'aide-mémoire J+S Sécurité Eau 2024 fait foi ; l'aide-mémoire Prévention des accidents 10/2025 le reprend et l'élargit (module « Surveillant·e Eau », reconnaissances J+S de sports nautiques, rivière et lac surveillés). Baignade en piscine surveillée : module J+S Eau SdC/T ou brevet Base Pool ; piscine non surveillée : module J+S Eau ou brevet Plus Pool.
 - Jours d'arrivée et de départ : comptent ensemble pour une journée de camp, en 2026 comme en 2027. C'est leur total qui respecte les exigences d'une journée (2027 : 4 h d'activités J+S dont 2 h sportives).
 - Délais retenus quand les sources divergent : commande de cartes 5 semaines avant (3, 4 ou 5 selon la source), clôture d'un cours dans le Pilote 3 semaines (30 jours ailleurs). Règles de comportement J+S : 8.
 - SAPC : comptent dans les 4 h d'activités J+S et, dès 2027, dans les 2 h sportives (mainteneur).
@@ -104,7 +110,7 @@ Ces choix tiennent même s'ils sont plus prudents, ou moins stricts, qu'une sour
 - GAG (Global – Analytique – Global) est une méthode J+S. IFV est abandonné.
 - Formation : le modèle 2027 prime sur l'Ancre pour la réduction de 0,5 jour des cours combinés. L'équilibre de genre est recommandé, pas un quota. Les chapitres de l'Ancre priment sur son tableau : hajk 4 semaines avant le cours, prêt J+S 5 semaines avant la livraison. Top : (Responsable de camp ou module de sécurité) et un module supplémentaire. Castors : profil 2025, 4–7 ans. La brochure 5–7 est une divergence à dire, comme pour les Picos.
 - Expert de sécurité : la formule Sardine est l'ancienne terminologie, à côté du complément « Experts du domaine » (aide-mémoire 10/2025).
-- Encadrement : jusqu'à fin 2026, quota 36 participants / +1 moniteur par 12 (guide 2023). Dès 2027, taille de groupe 16+16+16 et taux d'encadrement minimal d'un moniteur pour 16 participants, inchangé ; 12 participants au minimum pour annoncer et obtenir un camp. Guide des offres 2027 non ingéré.
+- Encadrement : jusqu'à fin 2026, quota 36 participants / +1 moniteur par 12 (guide 2023). Dès 2027, taille de groupe 16+16+16 et taux d'encadrement minimal d'un moniteur pour 16 participants, inchangé ; 12 participants au minimum pour annoncer et obtenir un camp. Le guide des offres en ligne est ingéré dans son état du 28.07.2026, encore rédigé pour 2026 ; sa version 2027 reste à surveiller.
 - Critères cantonaux : les G et les O entrent dans les référentiels, les R nulle part. Exception : le QR code (RG-17) reste une suggestion `[non officiel]`.
 - Canevas cantonaux, picasso, annexes du concept global, K12, PPT : pas ingérés. On en tire une trame cantonale `[non officiel]`. ORA, crise, pharmacie, Helpline, feuille d'urgence : sujets à couvrir, pas documents à exiger.
 - Objectifs d'apprentissage : taxonomie du modèle de formation MSdS. La table Bloom explique, elle n'est pas exigée. Si le canevas d'UA ne porte pas les conditions cadres, demander le sommaire avant de les signaler manquantes.
@@ -138,6 +144,6 @@ Choix non rouverts. Les commandes sont dans `METHODE.md`.
 
 - Marketplace de plugins Claude Code.
 - Sources web à la place des PDF, cudesch numérique inclus.
-- Autres fiches `tool.jeunesseetsport.ch` que les modules SdC/T 2027 et EvalJS.
+- Autres fiches `tool.jeunesseetsport.ch` que les modules SdC/T 2027, EvalJS et « La conception de la formation J+S ».
 - OCR.
 - Pack aplati pour Claude Project et custom GPT, seulement si un retour bêta le demande.

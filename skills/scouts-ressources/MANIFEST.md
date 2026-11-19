@@ -3,8 +3,8 @@
 - version : 0.8.0 <!-- x-release-please-version -->
 - source : https://github.com/fuzoh/scouts-skills
 - scope : complet
-- sources : 191
-- sections : 1741
+- sources : 194
+- sections : 1744
 - référentiels : 5
 
 ## Sources embarquées
@@ -119,6 +119,7 @@
 - `js-guide-boussole-ethique@01/2025`
 - `js-guide-materiel-de-pret@05.2025`
 - `js-guide-offres-sct@2023`
+- `js-guide-offres-tous-sports@2026-11-19`
 - `js-guide-prestations-speciales@2022`
 - `js-intro-manuel-experts-diapos`
 - `js-kids-fete-des-jeux@2010`
@@ -136,6 +137,7 @@
 - `js-modele-prog-general-sport-enfants@2014`
 - `js-modele-prog-general-sport-jeunes@2014`
 - `js-module-bases-sdct@2026-10-21`
+- `js-module-conception-formation@2026-11-19`
 - `js-module-directives-sdct@2026-10-21`
 - `js-module-evaljs@2026-10-21`
 - `js-module-planifier-activite-js@2026-10-21`
@@ -155,6 +157,7 @@
 - `js-sdct-hiver@2019, 5e édition actualisée`
 - `js-sdct-montagne@2014`
 - `js-securite-l-essentiel@2021`
+- `js-securite-sport-de-camp-trekking@2026-11-19`
 - `js-sequences-apprentissage-numeriques`
 - `js-sport-des-enfants-bases@2015, 3e éd. modifiée`
 - `js-sport-des-enfants-exemples@2015`

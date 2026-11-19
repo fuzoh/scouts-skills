@@ -21,6 +21,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-exemple-randonnee-nuitee` — Randonnée avec nuitée – exemple de dossier pour la formation (1 section, [index](../../corpus/js-exemple-randonnee-nuitee/index.md))
 - `js-exemple-tournoi-de-jeux` — 5.1a Tournoi de jeux / Fête des jeux (exemple d'activité SC/T) (1 section, [index](../../corpus/js-exemple-tournoi-de-jeux/index.md))
 - `js-guide-offres-sct@2023` — Guide pour la réalisation d'offres J+S Sport de camp/Trekking (1 section, [index](../../corpus/js-guide-offres-sct/index.md))
+- `js-guide-offres-tous-sports@2026-11-19` — Guide pour les offres de tous les sports J+S et de tous les organisateurs (1 section, [index](../../corpus/js-guide-offres-tous-sports/index.md))
 - `js-kids-fete-des-jeux@2010` — Aide-mémoire J+S-Kids « La fête des jeux » (1 section, [index](../../corpus/js-kids-fete-des-jeux/index.md))
 - `js-kids-modules-ludiques-sportifs@2010` — Aide-mémoire J+S-Kids « Modules ludiques et sportifs variés » (2 sections, [index](../../corpus/js-kids-modules-ludiques-sportifs/index.md))
 - `js-manuel-sport-de-camp-trekking@2026` — Manuel Sport de camp / Trekking pour les enfants et les jeunes (45 sections, [index](../../corpus/js-manuel-sport-de-camp-trekking/index.md))
@@ -38,4 +39,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[sport-de-camp](sport-de-camp.md), [planification](planification.md), [camp](camp.md), [securite](securite.md), [jeu](jeu.md), [trekking](trekking.md), [js](js.md), [fiche-d-activite](fiche-d-activite.md)
+[sport-de-camp](sport-de-camp.md), [planification](planification.md), [camp](camp.md), [securite](securite.md), [jeu](jeu.md), [js](js.md), [trekking](trekking.md), [fiche-d-activite](fiche-d-activite.md)

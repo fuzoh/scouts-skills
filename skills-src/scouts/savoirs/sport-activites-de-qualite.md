@@ -2,7 +2,7 @@
 titre: "Des activités J+S de qualité : idées clés des jeux de cartes Transmettre, Encourager, Innover et Se soucier de l'entourage"
 theme: sport
 sert_a: "Quatre domaines J+S de qualité : climat, objectifs et structure, encadrement et sécurité, tâches et feedback ; compétences psychosociales, parents, éthique"
-derive_de: [js-activites-de-qualite-transmettre, js-activites-de-qualite-encourager, js-activites-de-qualite-innover, "concepts: climat-d-apprentissage, feedback, ethique"]
+derive_de: [js-activites-de-qualite-transmettre, js-activites-de-qualite-encourager, js-activites-de-qualite-innover, js-module-conception-formation, "concepts: climat-d-apprentissage, feedback, ethique"]
 statut: valide
 ---
 
@@ -16,6 +16,8 @@ La conception de la formation J+S décrit une « activité J+S de qualité » pa
 | Encourager | comment contribuer au développement de la personne | 2021/2022 |
 | Innover | comment le moniteur progresse | 2023/2024 |
 | Se soucier de l'entourage | comment s'impliquer dans le club et avec les parents | 2023/2024 |
+
+Les quatre domaines se partagent dix champs d'action, tous aussi importants (séquence d'apprentissage J+S « La conception de la formation J+S ») : Transmettre en compte quatre, Encourager deux (développement personnel, relations et équipe), Innover deux (se développer soi-même, développer ses activités), Se soucier de l'entourage deux (s'impliquer dans le club, impliquer les personnes et organisations clés).
 
 Transmettre et Encourager se recoupent : qui transmet encourage, et inversement. Chaque carte donne un principe et des pistes d'action (« Forme de jeu », conseils pour le moniteur). Les cartes servent à planifier, à réaliser et à évaluer une activité ; un questionnaire d'auto-évaluation permet d'établir un profil de points forts et de points faibles. Les moniteurs peuvent s'en servir pour des visites réciproques et pour l'accompagnement par le coach.
 

@@ -1,8 +1,8 @@
 ---
 titre: Camp à l'étranger, démarches, documents, assurances, J+S et check-list
 theme: camp
-sert_a: "Camp à l'étranger, documents de voyage, DFAE, MiData, matériel de prêt, assurances, Rega, annulation, transport, urgence, check-list par échéance"
-derive_de: [msds-camps-a-l-etranger, msds-checklist-camps-a-l-etranger, "concepts: camp, financement"]
+sert_a: "Camp à l'étranger, documents de voyage, DFAE, MiData, prêt, assurances, Rega, transport, urgence, sécurité J+S et mer, check-list par échéance"
+derive_de: [msds-camps-a-l-etranger, msds-checklist-camps-a-l-etranger, js-aide-memoire-prevention-accidents-sct, js-securite-sport-de-camp-trekking, "concepts: camp, financement"]
 statut: valide
 ---
 
@@ -50,6 +50,13 @@ Les échéances de la check-liste (3 mois pour l'annonce au RG, 2 mois pour le d
 - Un camp J+S peut se dérouler en tout ou en partie à l'étranger, sans restriction géographique, aux mêmes exigences qu'en Suisse (équipe, effectif, durée, quota d'encadrement). Les règles dépendent de la date du camp : jeu 2026 (AC/SC) jusqu'au 31.12.2026, activité J+S dès le 01.01.2027 ((js-2026-2027)).
 - Le matériel de prêt J+S n'est livré qu'en Suisse, jusqu'à la frontière : prévoir son transport, la réception sur place, son contrôle, l'annonce immédiate des erreurs, puis le nettoyage et l'emballage pour la reddition. Avoir la confirmation de livraison deux semaines avant.
 - Les cartes nationales (swisstopo) sont commandées par le coach, deux mois avant, à temps pour la reconnaissance, et renvoyées après le camp.
+
+## Sécurité des activités, mer
+
+Aide-mémoire J+S Prévention des accidents (10/2025) et page web J+S « La sécurité dans le Sport de camp/Trekking » :
+- Les activités J+S à l'étranger suivent les mêmes principes et modalités de planification qu'en Suisse ((securite), (securite-domaines)). S'informer suffisamment tôt de la réglementation et des particularités locales, pour repérer exigences et risques accrus et prendre les mesures appropriées. Une randonnée à l'étranger exige une reconnaissance préalable.
+- Au bord de la mer ou dans la mer : tenir compte des courants et des marées, à la planification comme pendant l'activité ; choisir si possible des plages surveillées ; observer la signalétique internationale de baignade.
+- On ne peut pas se former au sauvetage en mer en Suisse : une formation complémentaire du domaine de sécurité Eau, adaptée aux circonstances, est l'exigence minimale. Si une formation complémentaire pour les activités aquatiques en groupe est exigée sur place, la suivre (page web seulement).
 
 ## Assurances
 

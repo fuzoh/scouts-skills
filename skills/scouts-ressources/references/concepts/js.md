@@ -18,6 +18,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-evaluation-programme@2026-10-21` — Évaluation du programme J+S (EvalJS) – questionnaire standard, instructions et FAQ (1 section, [index](../../corpus/js-evaluation-programme/index.md))
 - `js-guide-materiel-de-pret@05.2025` — Guide concernant le matériel de prêt J+S (OFSPO, mai 2025) (1 section, [index](../../corpus/js-guide-materiel-de-pret/index.md))
 - `js-guide-offres-sct@2023` — Guide pour la réalisation d'offres J+S Sport de camp/Trekking (1 section, [index](../../corpus/js-guide-offres-sct/index.md))
+- `js-guide-offres-tous-sports@2026-11-19` — Guide pour les offres de tous les sports J+S et de tous les organisateurs (1 section, [index](../../corpus/js-guide-offres-tous-sports/index.md))
 - `js-guide-prestations-speciales@2022` — Guide concernant les prestations spéciales pour les offres de sport J+S et la formation des cadres J+S (1 section, [index](../../corpus/js-guide-prestations-speciales/index.md))
 - `js-kids-fete-des-jeux@2010` — Aide-mémoire J+S-Kids « La fête des jeux » (1 section, [index](../../corpus/js-kids-fete-des-jeux/index.md))
 - `js-kids-modules-ludiques-sportifs@2010` — Aide-mémoire J+S-Kids « Modules ludiques et sportifs variés » (2 sections, [index](../../corpus/js-kids-modules-ludiques-sportifs/index.md))
@@ -25,6 +26,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-modele-prog-general-enfants-jeunes@2014` — Modèle du programme général SC/T – sport des enfants et des jeunes (1 section, [index](../../corpus/js-modele-prog-general-enfants-jeunes/index.md))
 - `js-modele-prog-general-sport-enfants@2014` — Modèle du programme général SC/T – sport des enfants (1 section, [index](../../corpus/js-modele-prog-general-sport-enfants/index.md))
 - `js-modele-prog-general-sport-jeunes@2014` — Modèle du programme général SC/T – sport des jeunes (1 section, [index](../../corpus/js-modele-prog-general-sport-jeunes/index.md))
+- `js-module-conception-formation@2026-11-19` — La conception de la formation J+S (1 section, [index](../../corpus/js-module-conception-formation/index.md))
 - `js-sdct-bases@2014` — Sport de camp/Trekking – Bases (brochure J+S du cudesch) (19 sections, [index](../../corpus/js-sdct-bases/index.md))
 - `js-structure-formation-sdct` — Structure de la formation J+S Sport de camp/Trekking (BDNS, versions jusqu'au 31.12.2026 et dès le 1.1.2027) (1 section, [index](../../corpus/js-structure-formation-sdct/index.md))
 - `msds-camps-a-l-etranger@2024` — Camps à l'étranger (brochure MSdS 2140.03) (5 sections, [index](../../corpus/msds-camps-a-l-etranger/index.md))
@@ -32,4 +34,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[sport-de-camp](sport-de-camp.md), [planification](planification.md), [camp](camp.md), [securite](securite.md), [activite-de-camp](activite-de-camp.md), [jeu](jeu.md), [coach-js](coach-js.md), [sport-des-enfants](sport-des-enfants.md)
+[sport-de-camp](sport-de-camp.md), [planification](planification.md), [activite-de-camp](activite-de-camp.md), [camp](camp.md), [securite](securite.md), [coach-js](coach-js.md), [jeu](jeu.md), [sport-des-enfants](sport-des-enfants.md)

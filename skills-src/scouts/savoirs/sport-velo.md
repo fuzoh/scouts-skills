@@ -1,14 +1,14 @@
 ---
 titre: "Vélo et VTT en camp : technique de base, progression d'apprentissage, jeux et temps de route"
 theme: sport
-sert_a: "VTT, positions, freinage, virages, pentes, passage à pied, réglages, jeux à vélo, temps de sortie ; hors source : circulation, matériel, conduite de groupe"
+sert_a: "VTT, positions, freinage, virages, pentes, passage à pied, réglages, jeux à vélo, temps de sortie ; casque et circulation : voir securite"
 derive_de: [js-cyclisme-vtt, cudesch-calcul-temps-de-marche, "concepts: sport-de-camp"]
 statut: valide
 ---
 
 ## Ce que ce savoir couvre, et ce qu'il ne couvre pas
 
-La brochure J+S « Cyclisme – VTT » (2017) est un manuel de **technique de pilotage** : 33 éléments techniques, chacun avec points clés, conseils, progression et formes de jeu. Elle ne traite ni du matériel (hors réglages), ni de la circulation routière, ni de la conduite d'un groupe en sortie, ni de la prévention des accidents à vélo. Ces thèmes manquent donc ici ; ne pas en tirer de règle.
+La brochure J+S « Cyclisme – VTT » (2017) est un manuel de **technique de pilotage** : 33 éléments techniques, chacun avec points clés, conseils, progression et formes de jeu. Elle ne traite ni du matériel (hors réglages), ni de la circulation routière, ni de la conduite d'un groupe en sortie, ni de la prévention des accidents à vélo. Pour ces thèmes, les règles J+S de circulation routière et de sécurité à vélo (casque, état des engins, freinage, visibilité, responsables en tête et en queue) sont dans (securite), d'après l'aide-mémoire J+S Prévention des accidents 10/2025.
 
 - **Règles J+S d'une activité itinérante** (concept de sécurité, 3x3, reconnaissance, encadrement) : (js-formes-domaines-itinerant) et (securite). Un déplacement à vélo long, durable et à la force du groupe appelle un concept de sécurité ; un trajet court n'en exige pas (securite).
 - **Temps de route** : voir plus bas et (securite-randonnee).
@@ -91,4 +91,4 @@ Le modèle de temps du cudesch (kilomètres-efforts) vaut aussi pour le vélo, m
 ## Vérifier et garder à l'esprit
 
 - La brochure est un document J+S de 2017 pour le VTT sportif ; sa valeur pour un camp est surtout pédagogique (progression, jeux, gestes sûrs). Elle ne remplace pas une reconnaissance de l'itinéraire ni un concept de sécurité.
-- Casque, entretien du vélo, règles de la route, convoi de groupe : aucun contenu dans la source. À traiter avec le coach et les règles locales, sans en inventer ici.
+- Casque, entretien du vélo, règles de la route, convoi de groupe : aucun contenu dans la brochure. Les règles J+S sont dans (securite), section « Circulation routière » ; ne pas en inventer d'autres.

@@ -25,6 +25,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-exemple-tournoi-de-jeux` — 5.1a Tournoi de jeux / Fête des jeux (exemple d'activité SC/T) (1 section, [index](../../corpus/js-exemple-tournoi-de-jeux/index.md))
 - `js-faire-la-cuisine-au-camp@édition 2014` — Sport de camp/Trekking – Faire la cuisine au camp (aide-mémoire) (1 section, [index](../../corpus/js-faire-la-cuisine-au-camp/index.md))
 - `js-guide-offres-sct@2023` — Guide pour la réalisation d'offres J+S Sport de camp/Trekking (1 section, [index](../../corpus/js-guide-offres-sct/index.md))
+- `js-guide-offres-tous-sports@2026-11-19` — Guide pour les offres de tous les sports J+S et de tous les organisateurs (1 section, [index](../../corpus/js-guide-offres-tous-sports/index.md))
 - `js-guide-prestations-speciales@2022` — Guide concernant les prestations spéciales pour les offres de sport J+S et la formation des cadres J+S (1 section, [index](../../corpus/js-guide-prestations-speciales/index.md))
 - `js-kids-fete-des-jeux@2010` — Aide-mémoire J+S-Kids « La fête des jeux » (1 section, [index](../../corpus/js-kids-fete-des-jeux/index.md))
 - `js-kids-modules-ludiques-sportifs@2010` — Aide-mémoire J+S-Kids « Modules ludiques et sportifs variés » (2 sections, [index](../../corpus/js-kids-modules-ludiques-sportifs/index.md))
@@ -43,6 +44,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-sdct-eau@2019, 2e édition actualisée` — Sport de camp/Trekking – Eau (15 sections, [index](../../corpus/js-sdct-eau/index.md))
 - `js-sdct-hiver@2019, 5e édition actualisée` — Sport de camp/Trekking – Hiver (14 sections, [index](../../corpus/js-sdct-hiver/index.md))
 - `js-sdct-montagne@2014` — Sport de camp/Trekking – Montagne (19 sections, [index](../../corpus/js-sdct-montagne/index.md))
+- `js-securite-sport-de-camp-trekking@2026-11-19` — La sécurité dans le Sport de camp/Trekking (1 section, [index](../../corpus/js-securite-sport-de-camp-trekking/index.md))
 - `js-structure-formation-sdct` — Structure de la formation J+S Sport de camp/Trekking (BDNS, versions jusqu'au 31.12.2026 et dès le 1.1.2027) (1 section, [index](../../corpus/js-structure-formation-sdct/index.md))
 - `js-technique-de-corde` — Aide-mémoire Technique de corde (1 section, [index](../../corpus/js-technique-de-corde/index.md))
 - `msds-autorisation-de-camp@2026` — Autorisation de camp MSdS (formulaire, valable jusqu’au 31.12.2026) (1 section, [index](../../corpus/msds-autorisation-de-camp/index.md))
@@ -54,4 +56,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[securite](securite.md), [camp](camp.md), [activite-de-camp](activite-de-camp.md), [planification](planification.md), [coach-js](coach-js.md), [trekking](trekking.md), [js](js.md), [methode-3x3](methode-3x3.md)
+[securite](securite.md), [camp](camp.md), [activite-de-camp](activite-de-camp.md), [planification](planification.md), [coach-js](coach-js.md), [js](js.md), [trekking](trekking.md), [methode-3x3](methode-3x3.md)

@@ -9,7 +9,7 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | `camp-administration.md` | Démarches de camp, annonce, dossier, autorisation, camp non J+S, MiData, BDNS, cartes 3 jours, MiData 10 jours, offre 30 jours, calendrier Sardine |
 | `camp-budget-et-droits.md` | Budget de camp, prix par personne, recettes, subsides J+S, congé jeunesse, voitures privées, assurance conducteurs, camp équitable |
 | `camp-cuisine.md` | Menus, achats, quantités par personne, hygiène, températures, conservation, équipe cuisine, enfants, intoxications, allergies, restes |
-| `camp-etranger.md` | Camp à l'étranger, documents de voyage, DFAE, MiData, matériel de prêt, assurances, Rega, annulation, transport, urgence, check-list par échéance |
+| `camp-etranger.md` | Camp à l'étranger, documents de voyage, DFAE, MiData, prêt, assurances, Rega, transport, urgence, sécurité J+S et mer, check-list par échéance |
 | `camp-lieu-et-reconnaissance.md` | Place de camp, maison, réservation, reconnaissance, contrat, bail, propriétaire, commune, forestier, canton, Tessin, Vaud, Lucerne, Saint-Gall, Thurgovie |
 | `camp-materiel-et-tentes.md` | Matériel de prêt J+S, commande, délais, frais, livraison, retour, toiles de tente (monter, sécher, rendre), liste d'équipement des participants |
 | `camp-modeles-et-exemples.md` | Modèles de programme général J+S, exemples d'activités (CO photos, estafette, grande fête, tournoi, randonnée), fiche d'activité, modèle 2026 AC/SC en 2027 |
@@ -18,10 +18,10 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 
 | fichier | sert à |
 |---|---|
-| `js-2026-2027.md` | J+S en camp, 2026 contre 2027 : AC/SC, activité J+S, journée J+S, temps sportif et exemples, offre, jour sans J+S, effectif, encadrement, durée |
+| `js-2026-2027.md` | J+S en camp, 2026 contre 2027 : AC/SC, activité J+S, journée J+S, temps sportif, premier et dernier jour, jour sans J+S, effectif, encadrement, validité |
 | `js-coach.md` | Coach J+S, offre, BDNS, données de base, contrôle des activités, présences, clôture, subventions, cartes, prestations spéciales, SAPC, check-lists |
 | `js-formes-domaines-itinerant.md` | Six domaines d'AC, types de SC, six formes caractéristiques, facteurs de développement, formes d'activité, cycle de planification J+S, activités itinérantes |
-| `js-roles.md` | Qui fait quoi côté J+S : moniteur SdC/T, responsable de camp, coach J+S, expert J+S, modules de sécurité, qui lit ou autorise |
+| `js-roles.md` | Qui fait quoi côté J+S : moniteur SdC/T, responsable de camp, coach J+S, expert J+S, modules de sécurité et leur validité, qui lit ou autorise |
 
 ## Sécurité, urgence et protection
 
@@ -29,11 +29,11 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 |---|---|
 | `camp-orientation-et-meteo.md` | Carte nationale, boussole, GPS, altimètre, temps de marche, météo, orage, méthode NORDA, course d'orientation, randonnée avec enfants |
 | `securite-corde-et-constructions.md` | Corde, contrôle, nœuds, tyrolienne, pont de singe, rappel ; constructions de camp (sarasine, mât, tour, cuisine, latrines, tentes), tempête |
-| `securite-domaines.md` | Seuils montagne, hiver, eau, modules SSS et J+S exigés, exigences communes, règles de corde, grandes constructions, baignade |
+| `securite-domaines.md` | Seuils et définitions montagne, hiver, eau, formation exigée par lieu, validité des compléments, exigences communes, corde, constructions, baignade |
 | `securite-eau-pratique.md` | Activité à l'eau avec enfants, surveillance, test CSA, noyade, jeux, urgence, module J+S Eau, module de sécurité, SSS, BLS-AED, équivalences, coûts |
 | `securite-facteur-humain.md` | Erreurs de maîtrises expérimentées, perception, pression du groupe, décider et renoncer, devoir de protection et de diligence, responsabilité |
 | `securite-randonnee.md` | Randonnée sûre, temps de marche (kme/h), sorties, demi-tour, non-retour, passages clés, rôles de marche |
-| `securite.md` | Concept de sécurité (CdS), quand il est requis, trois types et contenu, 3x3, cycle J+S identifier-classifier-adapter, matrice, sécurité pendant l'activité |
+| `securite.md` | CdS : quand il est requis, trois types, contenu ; 3x3, cycle J+S identifier-classifier-adapter, matrice ; aide à la décision J+S ; circulation routière et vélo |
 | `urgence-et-protection.md` | Accident, schéma ORA, annonce, numéros officiels, aide-mémoire J+S, crise, soupçon d'abus, Helpline, cellule de crise, PSA, médias, pharmacie |
 
 ## Profil, programme et branches
@@ -63,7 +63,7 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | `sport-perturbations.md` | Activité qui déraille, cause d'une perturbation, prévenir, réaction proportionnée, règles et conséquences, violence, météo, accident, enfants difficiles |
 | `sport-physis-et-blessures.md` | Endurance, force, mobilité, coordination, doser, prévenir les blessures, plaie, entorse, fracture, qui annoncer |
 | `sport-psyche.md` | Motivation, confiance en soi, concentration, émotions, peur de l'échec, pression, esprit de groupe, monologue, respiration, visualisation |
-| `sport-velo.md` | VTT, positions, freinage, virages, pentes, passage à pied, réglages, jeux à vélo, temps de sortie ; hors source : circulation, matériel, conduite de groupe |
+| `sport-velo.md` | VTT, positions, freinage, virages, pentes, passage à pied, réglages, jeux à vélo, temps de sortie ; casque et circulation : voir securite |
 
 ## Prévention et inclusion
 

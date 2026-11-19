@@ -62,6 +62,9 @@ Suite de `glossaire.md` : termes moins fréquents dans un document de camp ou de
 - **Accompagnement** — suivi et conseil des apprenants, y compris mesures de formation continue proposées en fin de cours.
 - **Apprentissage en mouvement (FRTE)** — méthodes pour cours théoriques d'adultes en quatre phases : formulation, recherche, traitement, entraînement.
 - **MPE** — module de perfectionnement expert J+S SdC/T, offre annuelle.
+- **MP-Exp** — sigle des infolettres J+S pour les modules de perfectionnement des experts ; correspond vraisemblablement au MPE du MSdS.
+- **FC-Exp** — formation continue des experts J+S ; sigle J+S non développé dans les sources.
+- **ILIAS (extranet J+S)** — plateforme de l'extranet J+S : manuel, cadres de référence, documents des cours et des experts.
 - **QUALA** — petit manuel cofor pour planifier et réaliser un cours RG.
 - **Séquences d'apprentissage numériques (SA)** — séquences numériques J+S utilisables avant, pendant et après le cours.
 
