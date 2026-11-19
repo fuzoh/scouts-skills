@@ -1,5 +1,35 @@
 # Changelog
 
+## [0.9.0](https://github.com/fuzoh/scouts-skills/compare/v0.8.0...v0.9.0) (2026-11-19)
+
+
+### Nouveautés
+
+* **skills:** décrire les cadres de référence J+S 2027 et les modules de sécurité ([aae7543](https://github.com/fuzoh/scouts-skills/commit/aae7543fc6009d212f4cf1efcb4f482257c9e88f))
+* **sources:** ingérer la page sécurité SdC/T, le guide des offres et la conception de la formation ([478963f](https://github.com/fuzoh/scouts-skills/commit/478963f7c8719c2dcc51464c208d2529815956d4))
+* **sources:** ingérer les cadres de référence J+S 2027 et les documents des modules de sécurité ([f5e4ad8](https://github.com/fuzoh/scouts-skills/commit/f5e4ad825e3adff31a7556a2bf895e90c3f919ab))
+
+
+### Corrections
+
+* **contenu:** aligner les deux skills sur l'infolettre J+S de novembre 2026 ([fbea8e8](https://github.com/fuzoh/scouts-skills/commit/fbea8e8c3e76d53839259159584f76abacad9822))
+* **contenu:** aligner les skills sur l'infolettre J+S de novembre 2026 ([6cb90f7](https://github.com/fuzoh/scouts-skills/commit/6cb90f7d1a3d9f054d42b1c6b82f061d48f9ff61))
+* **contenu:** appliquer la relecture des règles J+S mises à jour ([ea96382](https://github.com/fuzoh/scouts-skills/commit/ea9638272064eca8515b133e5aa2d3382f173e85))
+* **contenu:** appliquer les arbitrages du mainteneur sur les règles J+S ([4cacbfc](https://github.com/fuzoh/scouts-skills/commit/4cacbfcc3a7b98d1da332917fd6d033e8462401f))
+* **contenu:** trancher le renouvellement des compléments et l'admission au cours introduction ([7cb55ed](https://github.com/fuzoh/scouts-skills/commit/7cb55ed263dca11e8f578f3742a1ec4928fcfcf4))
+* **scripts:** garder le contenu des accordéons à la conversion web ([b0afaf4](https://github.com/fuzoh/scouts-skills/commit/b0afaf4d02fc5c6b36f62f1b972f45766e5a7b09))
+* **sources:** récupérer le questionnaire et la FAQ de la page EvalJS ([712259d](https://github.com/fuzoh/scouts-skills/commit/712259d4ed970660f9266279bd7a208c0ea8de56))
+* **sources:** retirer la fin d'application déduite des documents 2014 des modules de sécurité ([12f01e4](https://github.com/fuzoh/scouts-skills/commit/12f01e4e9f5e48c8ddf25b0aae9c0babf7b668ff))
+
+
+### Documentation
+
+* consigner dans les décisions les arbitrages sur les modules Eau et les dates d'application ([c816953](https://github.com/fuzoh/scouts-skills/commit/c81695361af856dae94264715ce44095528e53c1))
+* consigner le dépouillement de l'infolettre J+S dans la roadmap ([4affe9b](https://github.com/fuzoh/scouts-skills/commit/4affe9b6e6d052793adf60231ebb94c84ae994f9))
+* consigner les arbitrages du 19.11.2026 dans la roadmap ([d174a17](https://github.com/fuzoh/scouts-skills/commit/d174a179d266dc7a8bbfdf46ede0e7657b915ac1))
+* ne garder ouvert dans la roadmap que le rôle du MSdS dans les cours 102 et 103 ([0c4b77d](https://github.com/fuzoh/scouts-skills/commit/0c4b77d8545c2db0b0264f383dbe2428a17372a1))
+* retirer de la roadmap les points des cadres déjà tranchés ([b110153](https://github.com/fuzoh/scouts-skills/commit/b110153e5b174d58872a5f3cc9787da2685cd0a3))
+
 ## [0.8.0](https://github.com/fuzoh/scouts-skills/compare/v0.7.1...v0.8.0) (2026-10-21)
 
 
