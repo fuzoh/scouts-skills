@@ -49,11 +49,11 @@ Contenus proposés (indicatifs, rattachement à un objectif précis non garanti)
 
 ## Valider le module
 
-Pas de « cadre d'examen » classique : formats choisis selon le niveau d'approfondissement (détail : (formation-cadres-reference-js)). Validé si le participant a suivi tout le module, a fourni les preuves des compétences requises (cas d'une nouvelle reconnaissance, donc ici) et a respecté les règles de comportement J+S. Le cas du « non réussi » n'est pas réglé par les cadres : ne pas supposer qu'il prolonge la reconnaissance ; demander au coach ou au CàF.
+Pas de « cadre d'examen » classique : formats choisis selon le niveau d'approfondissement (détail : (formation-cadres-reference-js)). Validé si le participant a suivi tout le module, a fourni les preuves des compétences requises (cas d'une nouvelle reconnaissance, donc ici) et a respecté les règles de comportement J+S. Module non réussi : ni complément ni prolongation, la prolongation n'est acquise que si le module est réussi (mainteneur ; la fiche écrit « la réussite du module […] prolonge »).
 
 ## Module de sécurité ou module thématique d'un jour
 
-Les cadres 2027 distinguent les modules thématiques « Hiver » (109.01.fr), « Eau » (110.01.fr) et « Montagne » (111.01.fr) : 1 jour, 6 h de formation (Eau : 2 jours, exigence de la SSS ; J+S ne demande que 6 h de formation sur l'ensemble du cours (mainteneur)), admission par la reconnaissance de moniteur SdC/T et l'expérience d'un camp J+S (le cadre n'y exige pas le cours de sauveteur). Ils prolongent les reconnaissances de moniteur mais **ne donnent aucun complément** : ils ne suffisent pas pour conduire une activité d'un domaine de sécurité. Leurs contenus proposés comprennent la « délimitation d'avec le domaine de sécurité ». Exception utile : après le module thématique Eau réussi, on peut demander à la SSS le brevet Base Pool et le module Lac, ce qui ouvre l'admission au module de sécurité Eau. Fiches détaillées : (formation-cadres-reference-js).
+Les cadres 2027 distinguent les modules thématiques « Hiver » (109.01.fr), « Eau » (110.01.fr) et « Montagne » (111.01.fr) : 1 jour, 6 h de formation (Eau : 2 jours, exigence de la SSS ; J+S ne demande que 6 h de formation sur l'ensemble du cours (mainteneur)), admission par la reconnaissance de moniteur SdC/T et l'expérience d'un camp J+S (le cadre n'y exige pas le cours de sauveteur). Ils prolongent les reconnaissances de moniteur mais **ne donnent aucun complément et n'en renouvellent aucun** (mainteneur : pour renouveler un complément, il faut suivre à nouveau un module Domaine de sécurité) : ils ne suffisent pas pour conduire une activité d'un domaine de sécurité. Leurs contenus proposés comprennent la « délimitation d'avec le domaine de sécurité ». Exception utile : après le module thématique Eau réussi, on peut demander à la SSS le brevet Base Pool et le module Lac, ce qui ouvre l'admission au module de sécurité Eau. Fiches détaillées : (formation-cadres-reference-js).
 
 ## Autoriser un module de sécurité (procédure OFSPO)
 
@@ -80,4 +80,4 @@ Remplacé dès 2027 par les cadres de référence. Les documents ne datent pas l
 - Plus de bilan d'entrée ni de contrôle final imposé : évaluation des compétences sur tout le module, sans examen.
 - Admission : recommandation du coach ; un camp comme moniteur J+S au lieu de « (co)dirigé » ; Montagne perd « excursions (co)dirigées » ; Eau : Plus Pool seul n'est plus cité par le cadre J+S (le modèle de formation MSdS 2027 l'admet encore).
 - Durée fixée à 4 jours (24 h) ; objectifs numérotés et contraignants, dont l'autorisation administrative (1.9) et l'adaptation aux jeunes (1.8).
-- Réussite : complément du domaine et prolongation des trois compléments. « Non réussi » : réglé en 2014, muet en 2027.
+- Réussite : complément du domaine et prolongation des trois compléments. « Non réussi » : prolongeait la reconnaissance de moniteur en 2014, ne prolonge plus rien en 2027.
