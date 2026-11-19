@@ -1,15 +1,15 @@
 # Inventaire des sources
 
-Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est dans `sources/*/source.yaml`.
+Généré par `just inventory` le 2026-11-19. Ne pas éditer : le registre est dans `sources/*/source.yaml`.
 
-**201 sources.**
+**204 sources.**
 
 ## Par statut
 
 | statut | sources |
 |---|---|
 | `triaged` | 3 |
-| `indexed` | 191 |
+| `indexed` | 194 |
 | `rejected` | 7 |
 
 ## Toutes les sources
@@ -127,6 +127,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-guide-boussole-ethique`](sources/js-guide-boussole-ethique/source.yaml) | Éthique dans le sport – guide méthodique de développement des compétences éthiques avec la boussole éthique de Swiss Olympic | js | pdf | 8 | `indexed` |
 | [`js-guide-materiel-de-pret`](sources/js-guide-materiel-de-pret/source.yaml) | Guide concernant le matériel de prêt J+S (OFSPO, mai 2025) | js | pdf | 4 | `indexed` |
 | [`js-guide-offres-sct`](sources/js-guide-offres-sct/source.yaml) | Guide pour la réalisation d'offres J+S Sport de camp/Trekking | js | pdf | 2 | `indexed` |
+| [`js-guide-offres-tous-sports`](sources/js-guide-offres-tous-sports/source.yaml) | Guide pour les offres de tous les sports J+S et de tous les organisateurs | js | web | 0 | `indexed` |
 | [`js-guide-prestations-speciales`](sources/js-guide-prestations-speciales/source.yaml) | Guide concernant les prestations spéciales pour les offres de sport J+S et la formation des cadres J+S | js | pdf | 2 | `indexed` |
 | [`js-intro-manuel-experts-diapos`](sources/js-intro-manuel-experts-diapos/source.yaml) | Présentation de l'introduction du manuel d'experts (diapositives avec notes) | js | pptx | 20 | `indexed` |
 | [`js-kids-fete-des-jeux`](sources/js-kids-fete-des-jeux/source.yaml) | Aide-mémoire J+S-Kids « La fête des jeux » | js | pdf | 3 | `indexed` |
@@ -145,6 +146,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-modele-prog-general-sport-enfants`](sources/js-modele-prog-general-sport-enfants/source.yaml) | Modèle du programme général SC/T – sport des enfants | js | pdf | 1 | `indexed` |
 | [`js-modele-prog-general-sport-jeunes`](sources/js-modele-prog-general-sport-jeunes/source.yaml) | Modèle du programme général SC/T – sport des jeunes | js | pdf | 1 | `indexed` |
 | [`js-module-bases-sdct`](sources/js-module-bases-sdct/source.yaml) | Bases du sport de camp/trekking (module d'information J+S : formes caractéristiques et formes d'activité) | js | web | 0 | `indexed` |
+| [`js-module-conception-formation`](sources/js-module-conception-formation/source.yaml) | La conception de la formation J+S | js | web | 0 | `indexed` |
 | [`js-module-directives-sdct`](sources/js-module-directives-sdct/source.yaml) | Directives Sport de camp/Trekking (module d'information J+S, dès 2027) | js | web | 0 | `indexed` |
 | [`js-module-evaljs`](sources/js-module-evaljs/source.yaml) | Mise en œuvre de l'évaluation EvalJS (module d'information J+S pour la direction de cours) | js | web | 0 | `indexed` |
 | [`js-module-planifier-activite-js`](sources/js-module-planifier-activite-js/source.yaml) | Planifier une bonne activité J+S (module d'information J+S, exemples 2027) | js | web | 0 | `indexed` |
@@ -164,6 +166,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-sdct-hiver`](sources/js-sdct-hiver/source.yaml) | Sport de camp/Trekking – Hiver | js | pdf | 32 | `indexed` |
 | [`js-sdct-montagne`](sources/js-sdct-montagne/source.yaml) | Sport de camp/Trekking – Montagne | js | pdf | 56 | `indexed` |
 | [`js-securite-l-essentiel`](sources/js-securite-l-essentiel/source.yaml) | La sécurité dans Jeunesse+Sport – l'essentiel en bref | js | pdf | 8 | `indexed` |
+| [`js-securite-sport-de-camp-trekking`](sources/js-securite-sport-de-camp-trekking/source.yaml) | La sécurité dans le Sport de camp/Trekking | js | web | 0 | `indexed` |
 | [`js-sequences-apprentissage-numeriques`](sources/js-sequences-apprentissage-numeriques/source.yaml) | Utilisation des séquences d'apprentissage numériques (SA) dans le cycle d'enseignement / d'apprentissage | js | pdf | 2 | `indexed` |
 | [`js-soluzione-gioco-immagini`](sources/js-soluzione-gioco-immagini/source.yaml) | Soluzione del gioco di immagini a pagina 6 (manuel experts, italien) | js | pdf | 1 | `rejected` |
 | [`js-sport-des-enfants-bases`](sources/js-sport-des-enfants-bases/source.yaml) | Sport des enfants J+S – bases théoriques | js | pdf | 56 | `indexed` |
@@ -220,7 +223,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 
 ## Par public
 
-### `responsable` (123)
+### `responsable` (126)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
@@ -288,6 +291,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-formes-de-tournois`](sources/js-formes-de-tournois/source.yaml) | Formes de tournois | js | pdf | 24 | `indexed` |
 | [`js-guide-materiel-de-pret`](sources/js-guide-materiel-de-pret/source.yaml) | Guide concernant le matériel de prêt J+S (OFSPO, mai 2025) | js | pdf | 4 | `indexed` |
 | [`js-guide-offres-sct`](sources/js-guide-offres-sct/source.yaml) | Guide pour la réalisation d'offres J+S Sport de camp/Trekking | js | pdf | 2 | `indexed` |
+| [`js-guide-offres-tous-sports`](sources/js-guide-offres-tous-sports/source.yaml) | Guide pour les offres de tous les sports J+S et de tous les organisateurs | js | web | 0 | `indexed` |
 | [`js-kids-fete-des-jeux`](sources/js-kids-fete-des-jeux/source.yaml) | Aide-mémoire J+S-Kids « La fête des jeux » | js | pdf | 3 | `indexed` |
 | [`js-kids-modules-ludiques-sportifs`](sources/js-kids-modules-ludiques-sportifs/source.yaml) | Aide-mémoire J+S-Kids « Modules ludiques et sportifs variés » | js | pdf | 4 | `indexed` |
 | [`js-kids-randonnee-avec-enfants`](sources/js-kids-randonnee-avec-enfants/source.yaml) | Aide-mémoire J+S-Kids « Randonnée avec des enfants » | js | pdf | 4 | `indexed` |
@@ -297,6 +301,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-modele-prog-general-sport-enfants`](sources/js-modele-prog-general-sport-enfants/source.yaml) | Modèle du programme général SC/T – sport des enfants | js | pdf | 1 | `indexed` |
 | [`js-modele-prog-general-sport-jeunes`](sources/js-modele-prog-general-sport-jeunes/source.yaml) | Modèle du programme général SC/T – sport des jeunes | js | pdf | 1 | `indexed` |
 | [`js-module-bases-sdct`](sources/js-module-bases-sdct/source.yaml) | Bases du sport de camp/trekking (module d'information J+S : formes caractéristiques et formes d'activité) | js | web | 0 | `indexed` |
+| [`js-module-conception-formation`](sources/js-module-conception-formation/source.yaml) | La conception de la formation J+S | js | web | 0 | `indexed` |
 | [`js-module-directives-sdct`](sources/js-module-directives-sdct/source.yaml) | Directives Sport de camp/Trekking (module d'information J+S, dès 2027) | js | web | 0 | `indexed` |
 | [`js-module-planifier-activite-js`](sources/js-module-planifier-activite-js/source.yaml) | Planifier une bonne activité J+S (module d'information J+S, exemples 2027) | js | web | 0 | `indexed` |
 | [`js-module-planifier-randonnee`](sources/js-module-planifier-randonnee/source.yaml) | Planifier une randonnée (module d'apprentissage J+S SdC/T) | js | web | 0 | `indexed` |
@@ -311,6 +316,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-sdct-hiver`](sources/js-sdct-hiver/source.yaml) | Sport de camp/Trekking – Hiver | js | pdf | 32 | `indexed` |
 | [`js-sdct-montagne`](sources/js-sdct-montagne/source.yaml) | Sport de camp/Trekking – Montagne | js | pdf | 56 | `indexed` |
 | [`js-securite-l-essentiel`](sources/js-securite-l-essentiel/source.yaml) | La sécurité dans Jeunesse+Sport – l'essentiel en bref | js | pdf | 8 | `indexed` |
+| [`js-securite-sport-de-camp-trekking`](sources/js-securite-sport-de-camp-trekking/source.yaml) | La sécurité dans le Sport de camp/Trekking | js | web | 0 | `indexed` |
 | [`js-sport-des-enfants-bases`](sources/js-sport-des-enfants-bases/source.yaml) | Sport des enfants J+S – bases théoriques | js | pdf | 56 | `indexed` |
 | [`js-sport-des-enfants-exemples`](sources/js-sport-des-enfants-exemples/source.yaml) | Sport des enfants J+S – exemples pratiques | js | pdf | 72 | `indexed` |
 | [`js-sport-des-enfants-jouer`](sources/js-sport-des-enfants-jouer/source.yaml) | Sport des enfants J+S – Jouer | js | pdf | 60 | `indexed` |
@@ -348,7 +354,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`msds-ticket`](sources/msds-ticket/source.yaml) | Ticket – fil conducteur pour l'inscription aux cours | msds | pdf | 5 | `indexed` |
 | [`msds-twitterbox`](sources/msds-twitterbox/source.yaml) | Twitterbox – document explicatif (participation et santé psychique en camp) | msds | pdf | 1 | `indexed` |
 
-### `formateur` (93)
+### `formateur` (94)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
@@ -408,6 +414,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-manuel-cle`](sources/js-manuel-cle/source.yaml) | Manuel clé Jeunesse+Sport | js | pdf | 44 | `indexed` |
 | [`js-modele-de-formation-macolin`](sources/js-modele-de-formation-macolin/source.yaml) | Le modèle de formation de Macolin | js | pdf | 16 | `indexed` |
 | [`js-module-bases-sdct`](sources/js-module-bases-sdct/source.yaml) | Bases du sport de camp/trekking (module d'information J+S : formes caractéristiques et formes d'activité) | js | web | 0 | `indexed` |
+| [`js-module-conception-formation`](sources/js-module-conception-formation/source.yaml) | La conception de la formation J+S | js | web | 0 | `indexed` |
 | [`js-module-directives-sdct`](sources/js-module-directives-sdct/source.yaml) | Directives Sport de camp/Trekking (module d'information J+S, dès 2027) | js | web | 0 | `indexed` |
 | [`js-module-evaljs`](sources/js-module-evaljs/source.yaml) | Mise en œuvre de l'évaluation EvalJS (module d'information J+S pour la direction de cours) | js | web | 0 | `indexed` |
 | [`js-module-planifier-activite-js`](sources/js-module-planifier-activite-js/source.yaml) | Planifier une bonne activité J+S (module d'information J+S, exemples 2027) | js | web | 0 | `indexed` |
@@ -446,7 +453,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`msds-retour-qualifier-accompagner`](sources/msds-retour-qualifier-accompagner/source.yaml) | Faire un retour, qualifier et accompagner dans un cours | msds | pdf | 66 | `indexed` |
 | [`msds-unite-d-apprentissage`](sources/msds-unite-d-apprentissage/source.yaml) | L'unité d'apprentissage – planifier, animer, évaluer | msds | pdf | 57 | `indexed` |
 
-### `expert-js` (56)
+### `expert-js` (57)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
@@ -499,6 +506,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-sdct-hiver`](sources/js-sdct-hiver/source.yaml) | Sport de camp/Trekking – Hiver | js | pdf | 32 | `indexed` |
 | [`js-sdct-montagne`](sources/js-sdct-montagne/source.yaml) | Sport de camp/Trekking – Montagne | js | pdf | 56 | `indexed` |
 | [`js-securite-l-essentiel`](sources/js-securite-l-essentiel/source.yaml) | La sécurité dans Jeunesse+Sport – l'essentiel en bref | js | pdf | 8 | `indexed` |
+| [`js-securite-sport-de-camp-trekking`](sources/js-securite-sport-de-camp-trekking/source.yaml) | La sécurité dans le Sport de camp/Trekking | js | web | 0 | `indexed` |
 | [`js-sequences-apprentissage-numeriques`](sources/js-sequences-apprentissage-numeriques/source.yaml) | Utilisation des séquences d'apprentissage numériques (SA) dans le cycle d'enseignement / d'apprentissage | js | pdf | 2 | `indexed` |
 | [`js-structure-formation-sdct`](sources/js-structure-formation-sdct/source.yaml) | Structure de la formation J+S Sport de camp/Trekking (BDNS, versions jusqu'au 31.12.2026 et dès le 1.1.2027) | js | pdf | 3 | `indexed` |
 | [`msds-le-cours`](sources/msds-le-cours/source.yaml) | Le cours – concevoir, planifier, réaliser, évaluer | msds | pdf | 67 | `indexed` |
@@ -507,7 +515,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`msds-retour-qualifier-accompagner`](sources/msds-retour-qualifier-accompagner/source.yaml) | Faire un retour, qualifier et accompagner dans un cours | msds | pdf | 66 | `indexed` |
 | [`msds-unite-d-apprentissage`](sources/msds-unite-d-apprentissage/source.yaml) | L'unité d'apprentissage – planifier, animer, évaluer | msds | pdf | 57 | `indexed` |
 
-### `coach-js` (41)
+### `coach-js` (43)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
@@ -529,6 +537,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-developpement-equipe-moniteurs`](sources/js-developpement-equipe-moniteurs/source.yaml) | Encourager un développement de l'équipe des moniteurs fondé sur des valeurs | js | pdf | 1 | `indexed` |
 | [`js-exemple-programme-camp-ete`](sources/js-exemple-programme-camp-ete/source.yaml) | Exemple de programme général pour camp d'été J+S | js | pdf | 1 | `indexed` |
 | [`js-guide-offres-sct`](sources/js-guide-offres-sct/source.yaml) | Guide pour la réalisation d'offres J+S Sport de camp/Trekking | js | pdf | 2 | `indexed` |
+| [`js-guide-offres-tous-sports`](sources/js-guide-offres-tous-sports/source.yaml) | Guide pour les offres de tous les sports J+S et de tous les organisateurs | js | web | 0 | `indexed` |
 | [`js-guide-prestations-speciales`](sources/js-guide-prestations-speciales/source.yaml) | Guide concernant les prestations spéciales pour les offres de sport J+S et la formation des cadres J+S | js | pdf | 2 | `indexed` |
 | [`js-manuel-bases`](sources/js-manuel-bases/source.yaml) | Manuel J+S – Bases | js | pdf | 76 | `indexed` |
 | [`js-manuel-coach`](sources/js-manuel-coach/source.yaml) | Manuel des coachs J+S | js | pdf | 26 | `indexed` |
@@ -544,6 +553,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-module-securite-planification`](sources/js-module-securite-planification/source.yaml) | Sécurité dans la planification (module d'apprentissage J+S SdC/T) | js | web | 0 | `indexed` |
 | [`js-module-securite-realisation`](sources/js-module-securite-realisation/source.yaml) | Sécurité dans la réalisation (module d'apprentissage J+S SdC/T) | js | web | 0 | `indexed` |
 | [`js-securite-l-essentiel`](sources/js-securite-l-essentiel/source.yaml) | La sécurité dans Jeunesse+Sport – l'essentiel en bref | js | pdf | 8 | `indexed` |
+| [`js-securite-sport-de-camp-trekking`](sources/js-securite-sport-de-camp-trekking/source.yaml) | La sécurité dans le Sport de camp/Trekking | js | web | 0 | `indexed` |
 | [`js-structure-formation-sdct`](sources/js-structure-formation-sdct/source.yaml) | Structure de la formation J+S Sport de camp/Trekking (BDNS, versions jusqu'au 31.12.2026 et dès le 1.1.2027) | js | pdf | 3 | `indexed` |
 | [`msds-autorisation-de-camp`](sources/msds-autorisation-de-camp/source.yaml) | Autorisation de camp MSdS (formulaire, valable jusqu’au 31.12.2026) | msds | pdf | 2 | `indexed` |
 | [`msds-encadrement-scoutisme`](sources/msds-encadrement-scoutisme/source.yaml) | L'encadrement au sein du scoutisme – comment épauler un groupe scout | msds | pdf | 56 | `indexed` |
@@ -553,7 +563,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`msds-hering-camps`](sources/msds-hering-camps/source.yaml) | Sardine (hering.scout.ch) – guide des démarches administratives pour les camps scouts | msds | web | 0 | `indexed` |
 | [`msds-reglement-de-camp`](sources/msds-reglement-de-camp/source.yaml) | Règlement concernant la préparation et la réalisation de camps | msds | pdf | 5 | `indexed` |
 
-### `cadre-cantonal` (23)
+### `cadre-cantonal` (24)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
@@ -567,6 +577,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`cofor-quala-cours-rg`](sources/cofor-quala-cours-rg/source.yaml) | QUALA – petit manuel pour la planification et la réalisation des cours RG | cofor | pdf | 16 | `indexed` |
 | [`cudesch-relations-publiques`](sources/cudesch-relations-publiques/source.yaml) | Relations publiques dans le scoutisme | cudesch | pdf | 28 | `indexed` |
 | [`js-evaluation-programme`](sources/js-evaluation-programme/source.yaml) | Évaluation du programme J+S (EvalJS) – questionnaire standard, instructions et FAQ | js | web | 0 | `indexed` |
+| [`js-guide-offres-tous-sports`](sources/js-guide-offres-tous-sports/source.yaml) | Guide pour les offres de tous les sports J+S et de tous les organisateurs | js | web | 0 | `indexed` |
 | [`js-guide-prestations-speciales`](sources/js-guide-prestations-speciales/source.yaml) | Guide concernant les prestations spéciales pour les offres de sport J+S et la formation des cadres J+S | js | pdf | 2 | `indexed` |
 | [`js-module-evaljs`](sources/js-module-evaljs/source.yaml) | Mise en œuvre de l'évaluation EvalJS (module d'information J+S pour la direction de cours) | js | web | 0 | `indexed` |
 | [`js-structure-formation-sdct`](sources/js-structure-formation-sdct/source.yaml) | Structure de la formation J+S Sport de camp/Trekking (BDNS, versions jusqu'au 31.12.2026 et dès le 1.1.2027) | js | pdf | 3 | `indexed` |
@@ -583,7 +594,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 
 ## Par thème
 
-### `formation` (61)
+### `formation` (62)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
@@ -632,6 +643,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-manuel-experts-coachs`](sources/js-manuel-experts-coachs/source.yaml) | Manuel J+S pour les experts coachs J+S | js | pdf | 80 | `indexed` |
 | [`js-modele-charte-cours`](sources/js-modele-charte-cours/source.yaml) | Charte du cours ou du module (modèle) | js | pdf | 1 | `indexed` |
 | [`js-modele-de-formation-macolin`](sources/js-modele-de-formation-macolin/source.yaml) | Le modèle de formation de Macolin | js | pdf | 16 | `indexed` |
+| [`js-module-conception-formation`](sources/js-module-conception-formation/source.yaml) | La conception de la formation J+S | js | web | 0 | `indexed` |
 | [`js-module-evaljs`](sources/js-module-evaljs/source.yaml) | Mise en œuvre de l'évaluation EvalJS (module d'information J+S pour la direction de cours) | js | web | 0 | `indexed` |
 | [`js-regles-comportement-exemple`](sources/js-regles-comportement-exemple/source.yaml) | Exemple de mise en œuvre des règles de comportement – charte du cours ou du module et application de mesures | js | pdf | 2 | `indexed` |
 | [`js-sequences-apprentissage-numeriques`](sources/js-sequences-apprentissage-numeriques/source.yaml) | Utilisation des séquences d'apprentissage numériques (SA) dans le cycle d'enseignement / d'apprentissage | js | pdf | 2 | `indexed` |
@@ -686,7 +698,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`msds-profil-du-scoutisme`](sources/msds-profil-du-scoutisme/source.yaml) | Profil du scoutisme – les fondements pédagogiques du Mouvement Scout de Suisse | msds | pdf | 41 | `indexed` |
 | [`msds-thilo`](sources/msds-thilo/source.yaml) | Thilo – Manuel scout de Suisse (thilo.scouts.ch, branche Éclais) | msds | web | 0 | `indexed` |
 
-### `camp` (60)
+### `camp` (62)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
@@ -725,6 +737,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-faire-la-cuisine-au-camp`](sources/js-faire-la-cuisine-au-camp/source.yaml) | Sport de camp/Trekking – Faire la cuisine au camp (aide-mémoire) | js | pdf | 6 | `indexed` |
 | [`js-guide-materiel-de-pret`](sources/js-guide-materiel-de-pret/source.yaml) | Guide concernant le matériel de prêt J+S (OFSPO, mai 2025) | js | pdf | 4 | `indexed` |
 | [`js-guide-offres-sct`](sources/js-guide-offres-sct/source.yaml) | Guide pour la réalisation d'offres J+S Sport de camp/Trekking | js | pdf | 2 | `indexed` |
+| [`js-guide-offres-tous-sports`](sources/js-guide-offres-tous-sports/source.yaml) | Guide pour les offres de tous les sports J+S et de tous les organisateurs | js | web | 0 | `indexed` |
 | [`js-kids-randonnee-avec-enfants`](sources/js-kids-randonnee-avec-enfants/source.yaml) | Aide-mémoire J+S-Kids « Randonnée avec des enfants » | js | pdf | 4 | `indexed` |
 | [`js-manuel-sport-de-camp-trekking`](sources/js-manuel-sport-de-camp-trekking/source.yaml) | Manuel Sport de camp / Trekking pour les enfants et les jeunes | js | pdf | 80 | `indexed` |
 | [`js-modele-prog-general-enfants-jeunes`](sources/js-modele-prog-general-enfants-jeunes/source.yaml) | Modèle du programme général SC/T – sport des enfants et des jeunes | js | pdf | 1 | `indexed` |
@@ -739,6 +752,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-sdct-eau`](sources/js-sdct-eau/source.yaml) | Sport de camp/Trekking – Eau | js | pdf | 44 | `indexed` |
 | [`js-sdct-hiver`](sources/js-sdct-hiver/source.yaml) | Sport de camp/Trekking – Hiver | js | pdf | 32 | `indexed` |
 | [`js-sdct-montagne`](sources/js-sdct-montagne/source.yaml) | Sport de camp/Trekking – Montagne | js | pdf | 56 | `indexed` |
+| [`js-securite-sport-de-camp-trekking`](sources/js-securite-sport-de-camp-trekking/source.yaml) | La sécurité dans le Sport de camp/Trekking | js | web | 0 | `indexed` |
 | [`js-technique-de-corde`](sources/js-technique-de-corde/source.yaml) | Aide-mémoire Technique de corde | js | pdf | 3 | `indexed` |
 | [`msds-autorisation-de-camp`](sources/msds-autorisation-de-camp/source.yaml) | Autorisation de camp MSdS (formulaire, valable jusqu’au 31.12.2026) | msds | pdf | 2 | `indexed` |
 | [`msds-camps-a-l-etranger`](sources/msds-camps-a-l-etranger/source.yaml) | Camps à l'étranger (brochure MSdS 2140.03) | msds | pdf | 8 | `indexed` |
@@ -751,7 +765,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`msds-thilo`](sources/msds-thilo/source.yaml) | Thilo – Manuel scout de Suisse (thilo.scouts.ch, branche Éclais) | msds | web | 0 | `indexed` |
 | [`msds-twitterbox`](sources/msds-twitterbox/source.yaml) | Twitterbox – document explicatif (participation et santé psychique en camp) | msds | pdf | 1 | `indexed` |
 
-### `securite` (28)
+### `securite` (29)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
@@ -777,6 +791,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-sdct-hiver`](sources/js-sdct-hiver/source.yaml) | Sport de camp/Trekking – Hiver | js | pdf | 32 | `indexed` |
 | [`js-sdct-montagne`](sources/js-sdct-montagne/source.yaml) | Sport de camp/Trekking – Montagne | js | pdf | 56 | `indexed` |
 | [`js-securite-l-essentiel`](sources/js-securite-l-essentiel/source.yaml) | La sécurité dans Jeunesse+Sport – l'essentiel en bref | js | pdf | 8 | `indexed` |
+| [`js-securite-sport-de-camp-trekking`](sources/js-securite-sport-de-camp-trekking/source.yaml) | La sécurité dans le Sport de camp/Trekking | js | web | 0 | `indexed` |
 | [`js-technique-de-corde`](sources/js-technique-de-corde/source.yaml) | Aide-mémoire Technique de corde | js | pdf | 3 | `indexed` |
 | [`msds-assurance-tiers-conducteurs`](sources/msds-assurance-tiers-conducteurs/source.yaml) | Assurance des tiers conducteurs (MSdS, éd. 2009) | msds | pdf | 2 | `indexed` |
 | [`msds-essentiel-msds-js-2026`](sources/msds-essentiel-msds-js-2026/source.yaml) | Informations du MSdS et de J+S pour les moniteur·rice·s (novembre 2025) | msds | pdf | 13 | `indexed` |
@@ -852,7 +867,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-sport-des-enfants-perturbations`](sources/js-sport-des-enfants-perturbations/source.yaml) | Sport des enfants J+S – les perturbations dans l'enseignement | js | pdf | 24 | `indexed` |
 | [`js-sport-et-handicap`](sources/js-sport-et-handicap/source.yaml) | Sport et handicap – pistes pour une pratique sportive commune | js | pdf | 40 | `indexed` |
 
-### `administration` (39)
+### `administration` (40)
 
 | id | titre | émetteur | type | pages | statut |
 |---|---|---|---|---|---|
@@ -878,6 +893,7 @@ Généré par `just inventory` le 2026-10-21. Ne pas éditer : le registre est d
 | [`js-evaluation-programme`](sources/js-evaluation-programme/source.yaml) | Évaluation du programme J+S (EvalJS) – questionnaire standard, instructions et FAQ | js | web | 0 | `indexed` |
 | [`js-guide-materiel-de-pret`](sources/js-guide-materiel-de-pret/source.yaml) | Guide concernant le matériel de prêt J+S (OFSPO, mai 2025) | js | pdf | 4 | `indexed` |
 | [`js-guide-offres-sct`](sources/js-guide-offres-sct/source.yaml) | Guide pour la réalisation d'offres J+S Sport de camp/Trekking | js | pdf | 2 | `indexed` |
+| [`js-guide-offres-tous-sports`](sources/js-guide-offres-tous-sports/source.yaml) | Guide pour les offres de tous les sports J+S et de tous les organisateurs | js | web | 0 | `indexed` |
 | [`js-guide-prestations-speciales`](sources/js-guide-prestations-speciales/source.yaml) | Guide concernant les prestations spéciales pour les offres de sport J+S et la formation des cadres J+S | js | pdf | 2 | `indexed` |
 | [`js-manuel-coach`](sources/js-manuel-coach/source.yaml) | Manuel des coachs J+S | js | pdf | 26 | `indexed` |
 | [`js-module-directives-sdct`](sources/js-module-directives-sdct/source.yaml) | Directives Sport de camp/Trekking (module d'information J+S, dès 2027) | js | web | 0 | `indexed` |

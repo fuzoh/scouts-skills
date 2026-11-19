@@ -1,0 +1,43 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-guide-offres-tous-sports         # <issuer>-<slug>, stable, voir METHODE.md
+title: Guide pour les offres de tous les sports J+S et de tous les organisateurs
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://www.jugendundsport.ch/fr/guide-sports # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://www.jugendundsport.ch/fr/guide-sports
+  title: Guide pour les offres de tous les sports J+S et de tous les organisateurs
+  slug: fr-guide-sports
+
+status: indexed
+decision: keep
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial
+fidelity_notes: 'Les accordéons sont conservés grâce à la correction de convert (phrases témoins du contrôle retrouvées). Perdus ou volontairement ignorés : la liste des sports par groupe d''utilisateurs en fin de page (aïkido, etc.), bruit de navigation, et le chapitre « Taille des groupes, engagement de moniteurs et éventuelles prescriptions de sécurité par sport », propre à chaque sport et chargé hors de la page. Quelques liens externes (aide-mémoire, annexes OPESp) sont réduits à leur texte.'
+
+version: '2026-11-19'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2026-07-28
+retrieved: 2026-11-19                   # (script) date de téléchargement
+sha256: ad130d90fc616910a107bc9ea43e9a3054c97a2d50a793349b1cf24aee47eb19 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: prescription
+
+audience: [responsable, coach-js, cadre-cantonal]
+themes: [camp, administration]
+concepts: [js, sport-de-camp, activite-de-camp, coach-js]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Page jugendundsport.ch « Guide pour les offres de tous les sports J+S et de tous les organisateurs », publiée le 2026-07-28 et mise à jour en continu : texte contraignant. Au 2026-11-19 elle est encore rédigée dans le vocabulaire 2026 (« groupe cible », complément « chef de camp ») : applies_from est donc laissé à null, relire la page à chaque veille. Source distincte du PDF js-guide-offres-sct (2023), qui n''est pas remplacé. Une page = une section : le pipeline web ne découpe pas une page en chapitres, citer l''url et l''ancre (#Camps-J+S, #Définition-d''un-camp, #Direction-du-camp, #Durée-du-camp, #Durée-des-activités, #Nuitées, #Premier-et-dernier-jour, #Journées-sans-entrainement). Utile au scoutisme : offre, lieu, camps J+S du groupe d''utilisateurs 3 (Sport de camp/Trekking : camp de trois jours si un autre camp de la même offre dure au moins quatre jours, journées sans entraînement selon la durée). Chapitre par sport (tailles de groupes) absent.'
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

@@ -1,0 +1,43 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-module-conception-formation      # <issuer>-<slug>, stable, voir METHODE.md
+title: La conception de la formation J+S
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://tool.jeunesseetsport.ch/modules/61236c4d3e736b055610ea98?lang=fr # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://tool.jeunesseetsport.ch/modules/61236c4d3e736b055610ea98?lang=fr
+  title: La conception de la formation J+S
+  slug: modules-61236c4d3e736b055610ea98
+
+status: indexed
+decision: keep
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial
+fidelity_notes: 'Page SPA rendue avec --render. Perdus : l''illustration interactive (survol des quatre domaines d''action), donc la liste nominative des dix champs d''action ; le quiz ; les intitulés des sept étapes (Introduction, Bases, Principes, Bonnes pratiques, Réflexion, Quiz, Transfert). Le texte courant des étapes, comparé au rendu navigateur, est complet.'
+
+version: '2026-11-19'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null
+retrieved: 2026-11-19                   # (script) date de téléchargement
+sha256: 591c34efd801f87fa0d4ed10410040330b85024893a48250acaada465ac18294 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: recommandation
+
+audience: [responsable, formateur]
+themes: [formation]
+concepts: [js, ethique]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Module d''apprentissage numérique J+S (tool.jeunesseetsport.ch), une page = une section ; pas d''ancres : citer url et titre. Présente la conception de la formation J+S : quatre domaines d''action (Transmettre, Encourager, Innover, Se soucier de l''entourage), dix champs d''action, recommandations par domaine (liens vers des séquences d''apprentissage dédiées sur articulate et tool.jeunesseetsport.ch, non ingérées), questions de réflexion et de transfert. Document de cadrage, pas une prescription.'
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

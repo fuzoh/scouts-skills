@@ -14,6 +14,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-guide-offres-sct@2023` — Guide pour la réalisation d'offres J+S Sport de camp/Trekking (1 section, [index](../../sources/js-guide-offres-sct/index.md))
 - `js-module-securite-planification@2026-10-21` — Sécurité dans la planification (module d'apprentissage J+S SdC/T) (1 section, [index](../../sources/js-module-securite-planification/index.md))
 - `js-sdct-eau@2019, 2e édition actualisée` — Sport de camp/Trekking – Eau (15 sections, [index](../../sources/js-sdct-eau/index.md))
+- `js-securite-sport-de-camp-trekking@2026-11-19` — La sécurité dans le Sport de camp/Trekking (1 section, [index](../../sources/js-securite-sport-de-camp-trekking/index.md))
 - `js-sport-des-enfants-exemples@2015` — Sport des enfants J+S – exemples pratiques (33 sections, [index](../../sources/js-sport-des-enfants-exemples/index.md))
 - `js-structure-formation-sdct` — Structure de la formation J+S Sport de camp/Trekking (BDNS, versions jusqu'au 31.12.2026 et dès le 1.1.2027) (1 section, [index](../../sources/js-structure-formation-sdct/index.md))
 - `msds-offre-mpe-2027` — Modules J+S de perfectionnement expert·e (MPE) SdC/T 2027 (1 section, [index](../../sources/msds-offre-mpe-2027/index.md))
@@ -21,4 +22,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[securite](securite.md), [hiver](hiver.md), [montagne](montagne.md), [sport-de-camp](sport-de-camp.md), [methode-3x3](methode-3x3.md), [premiers-secours](premiers-secours.md), [expert-js](expert-js.md), [js](js.md)
+[securite](securite.md), [hiver](hiver.md), [montagne](montagne.md), [sport-de-camp](sport-de-camp.md), [methode-3x3](methode-3x3.md), [expert-js](expert-js.md), [premiers-secours](premiers-secours.md), [js](js.md)

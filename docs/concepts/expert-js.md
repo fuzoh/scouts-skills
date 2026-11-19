@@ -24,6 +24,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-poster-regles-de-comportement` — Règles de comportement dans la formation de base et continue (poster) (1 section, [index](../../sources/js-poster-regles-de-comportement/index.md))
 - `js-regles-comportement-exemple` — Exemple de mise en œuvre des règles de comportement – charte du cours ou du module et application de mesures (1 section, [index](../../sources/js-regles-comportement-exemple/index.md))
 - `js-securite-l-essentiel@2021` — La sécurité dans Jeunesse+Sport – l'essentiel en bref (1 section, [index](../../sources/js-securite-l-essentiel/index.md))
+- `js-securite-sport-de-camp-trekking@2026-11-19` — La sécurité dans le Sport de camp/Trekking (1 section, [index](../../sources/js-securite-sport-de-camp-trekking/index.md))
 - `js-sequences-apprentissage-numeriques` — Utilisation des séquences d'apprentissage numériques (SA) dans le cycle d'enseignement / d'apprentissage (1 section, [index](../../sources/js-sequences-apprentissage-numeriques/index.md))
 - `msds-offre-mpe-2027` — Modules J+S de perfectionnement expert·e (MPE) SdC/T 2027 (1 section, [index](../../sources/msds-offre-mpe-2027/index.md))
 - `msds-ticket` — Ticket – fil conducteur pour l'inscription aux cours (1 section, [index](../../sources/msds-ticket/index.md))

@@ -21,6 +21,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-manuel-experts-coachs@2024` — Manuel J+S pour les experts coachs J+S (32 sections, [index](../../sources/js-manuel-experts-coachs/index.md))
 - `js-modele-charte-cours` — Charte du cours ou du module (modèle) (1 section, [index](../../sources/js-modele-charte-cours/index.md))
 - `js-modele-de-formation-macolin@2019` — Le modèle de formation de Macolin (9 sections, [index](../../sources/js-modele-de-formation-macolin/index.md))
+- `js-module-conception-formation@2026-11-19` — La conception de la formation J+S (1 section, [index](../../sources/js-module-conception-formation/index.md))
 - `js-poster-regles-de-comportement` — Règles de comportement dans la formation de base et continue (poster) (1 section, [index](../../sources/js-poster-regles-de-comportement/index.md))
 - `js-regles-comportement-exemple` — Exemple de mise en œuvre des règles de comportement – charte du cours ou du module et application de mesures (1 section, [index](../../sources/js-regles-comportement-exemple/index.md))
 - `js-violence-dans-le-sport@2008` — La violence dans le sport (13 sections, [index](../../sources/js-violence-dans-le-sport/index.md))

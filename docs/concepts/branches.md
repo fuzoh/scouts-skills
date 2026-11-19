@@ -30,10 +30,9 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `msds-memento-responsable-patrouille@2021` — Étincelle – mémento pour les responsables de patrouille (11 sections, [index](../../sources/msds-memento-responsable-patrouille/index.md))
 - `msds-outil-prevention-psa@2023` — Outil pour la prévention des abus sexuels dans le scoutisme (14 sections, [index](../../sources/msds-outil-prevention-psa/index.md))
 - `msds-profil-du-scoutisme@2025` — Profil du scoutisme – les fondements pédagogiques du Mouvement Scout de Suisse (19 sections, [index](../../sources/msds-profil-du-scoutisme/index.md))
-- `msds-profil-tableaux-relations@2025` — Profil du scoutisme v25 – tableaux des relations par branche (5 sections, [index](../../sources/msds-profil-tableaux-relations/index.md))
 - `msds-reglement-de-camp@2020` — Règlement concernant la préparation et la réalisation de camps (3 sections, [index](../../sources/msds-reglement-de-camp/index.md))
 - `msds-thilo@2026-10-17` — Thilo – Manuel scout de Suisse (thilo.scouts.ch, branche Éclais) (8 sections, [index](../../sources/msds-thilo/index.md))
 
 ## Concepts liés
 
-[methodes-scoutes](methodes-scoutes.md), [relations](relations.md), [securite](securite.md), [profil-du-scoutisme](profil-du-scoutisme.md), [planification](planification.md), [jeu](jeu.md), [camp](camp.md), [unite-d-apprentissage](unite-d-apprentissage.md)
+[methodes-scoutes](methodes-scoutes.md), [relations](relations.md), [securite](securite.md), [planification](planification.md), [profil-du-scoutisme](profil-du-scoutisme.md), [jeu](jeu.md), [camp](camp.md), [unite-d-apprentissage](unite-d-apprentissage.md)
