@@ -71,3 +71,17 @@ def test_render_keeps_original(repo: Path, monkeypatch: pytest.MonkeyPatch):
     after = reg.load_source("cudesch-spa")
     assert after["sha256"] == reg.sha256_bytes(shell) and str(after["retrieved"]) == "2026-10-17"
     assert reg.original_sha256(after) == after["sha256"]
+
+
+def test_accordion_hidden_content_kept():
+    html = (
+        "<html><body><main><h1>Page</h1><p>" + "Introduction de la page. " * 10 + "</p>"
+        '<ul class="accordion"><li class="accordion__item">'
+        '<button class="accordion__button"><h3 class="accordion__title">Question</h3></button>'
+        '<div class="accordion__drawer" role="region" style="">'
+        '<div class="accordion__content" style="visibility:hidden;"><p>Réponse cachée dans le tiroir.</p></div>'
+        "</div></li></ul></main></body></html>"
+    )
+    md = convert.html_to_markdown(html, "https://example.org/x")
+    assert "Réponse cachée dans le tiroir." in md
+    assert "Question" in md
