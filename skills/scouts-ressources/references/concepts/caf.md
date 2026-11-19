@@ -23,6 +23,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cofor-financement-cours-federaux` — Directive sur le financement des cours fédéraux du MSdS (1 section, [index](../../corpus/cofor-financement-cours-federaux/index.md))
 - `cofor-guide-admin-formations-eau` — Eau – formations spécifiques. Guide d'administration pour les responsables de cours et les secrétariats cantonaux (1 section, [index](../../corpus/cofor-guide-admin-formations-eau/index.md))
 - `cofor-pano-combinaison-module-js` — Mémento pour la combinaison d'un cours Panorama avec un module de formation continue J+S (1 section, [index](../../corpus/cofor-pano-combinaison-module-js/index.md))
+- `js-autorisation-modules-securite` — Autorisation des modules J+S Sport de camp/Trekking Domaines de sécurité montagne, hiver et eau (1 section, [index](../../corpus/js-autorisation-modules-securite/index.md))
 - `msds-ancre@Version 23` — L'Ancre – fil conducteur pour l'administration des cours MSdS (19 sections, [index](../../corpus/msds-ancre/index.md))
 - `msds-le-cours@2026` — Le cours – concevoir, planifier, réaliser, évaluer (34 sections, [index](../../corpus/msds-le-cours/index.md))
 - `msds-modele-de-formation@Version 2027` — Modèle de formation du Mouvement Scout de Suisse – directives générales, structure de la formation et descriptifs des cours (42 sections, [index](../../corpus/msds-modele-de-formation/index.md))

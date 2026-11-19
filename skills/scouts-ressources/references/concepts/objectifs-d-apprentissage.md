@@ -13,6 +13,22 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cofor-liste-buts-cours-ru` — Tes buts personnels après ce cours de RU (1 section, [index](../../corpus/cofor-liste-buts-cours-ru/index.md))
 - `cudesch-programme@2026-10-17` — Programme – l'essence du scoutisme (14 sections, [index](../../corpus/cudesch-programme/index.md))
 - `js-activites-de-qualite-transmettre` — Des activités J+S de qualité – Transmettre (jeu de cartes) (7 sections, [index](../../corpus/js-activites-de-qualite-transmettre/index.md))
+- `js-cadre-ref-cours-introduction@1.0` — Cadre de référence – Cours introduction J+S Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-cours-introduction/index.md))
+- `js-cadre-ref-cours-moniteurs@1.0` — Cadre de référence – Cours de moniteur·rice·s J+S Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-cours-moniteurs/index.md))
+- `js-cadre-ref-cours-moniteurs-ped@1.0` — Cadre de référence – Cours de moniteur·rice·s J+S pour personnes avec formation péd. Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-cours-moniteurs-ped/index.md))
+- `js-cadre-ref-module-activites-sdct@1.0` — Cadre de référence – Module J+S « Activités SdC/T » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-activites-sdct/index.md))
+- `js-cadre-ref-module-cordes-constructions@1.0` — Cadre de référence – Module J+S « Technique de cordes et constructions » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-cordes-constructions/index.md))
+- `js-cadre-ref-module-diversite-inclusion@1.0` — Cadre de référence – Module J+S « Diversité et inclusion » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-diversite-inclusion/index.md))
+- `js-cadre-ref-module-durabilite@1.0` — Cadre de référence – Module J+S « Durabilité » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-durabilite/index.md))
+- `js-cadre-ref-module-eau@1.0` — Cadre de référence – Module J+S « Eau » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-eau/index.md))
+- `js-cadre-ref-module-hiver@1.0` — Cadre de référence – Module J+S « Hiver » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-hiver/index.md))
+- `js-cadre-ref-module-montagne@1.0` — Cadre de référence – Module J+S « Montagne » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-montagne/index.md))
+- `js-cadre-ref-module-nature-environnement@1.0` — Cadre de référence – Module J+S « Nature et environnement » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-nature-environnement/index.md))
+- `js-cadre-ref-module-prevention@1.0` — Cadre de référence – Module J+S « Prévention » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-prevention/index.md))
+- `js-cadre-ref-module-responsable-camp@1.0` — Cadre de référence – Module J+S « Responsable de camp » Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-module-responsable-camp/index.md))
+- `js-cadre-ref-module-securite-eau@1.0` — Cadre de référence – Module J+S Domaine de sécurité Eau Sport de camp/Trekking (6 sections, [index](../../corpus/js-cadre-ref-module-securite-eau/index.md))
+- `js-cadre-ref-module-securite-hiver@1.0` — Cadre de référence – Module J+S Domaine de sécurité Hiver Sport de camp/Trekking (6 sections, [index](../../corpus/js-cadre-ref-module-securite-hiver/index.md))
+- `js-cadre-ref-module-securite-montagne@1.0` — Cadre de référence – Module J+S Domaine de sécurité Montagne Sport de camp/Trekking (6 sections, [index](../../corpus/js-cadre-ref-module-securite-montagne/index.md))
 - `js-intro-manuel-experts-diapos` — Présentation de l'introduction du manuel d'experts (diapositives avec notes) (4 sections, [index](../../corpus/js-intro-manuel-experts-diapos/index.md))
 - `js-manuel-experts@2024, 2e édition remaniée` — Manuel J+S/esa pour les experts (63 sections, [index](../../corpus/js-manuel-experts/index.md))
 - `js-manuel-experts-coachs@2024` — Manuel J+S pour les experts coachs J+S (32 sections, [index](../../corpus/js-manuel-experts-coachs/index.md))
@@ -24,4 +40,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[planification](planification.md), [methodes-d-enseignement](methodes-d-enseignement.md), [evaluation](evaluation.md), [retour](retour.md), [modele-de-formation](modele-de-formation.md), [unite-d-apprentissage](unite-d-apprentissage.md), [qualification](qualification.md), [coach-js](coach-js.md)
+[qualification](qualification.md), [niveau-d-approfondissement](niveau-d-approfondissement.md), [securite](securite.md), [sport-de-camp](sport-de-camp.md), [planification](planification.md), [expert-js](expert-js.md), [methodes-d-enseignement](methodes-d-enseignement.md), [evaluation](evaluation.md)

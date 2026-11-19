@@ -29,7 +29,6 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `msds-factsheet-profil-responsables` — Factsheet Profil du scoutisme pour responsables et participant·e·s aux cours (résumé à plier) (1 section, [index](../../sources/msds-factsheet-profil-responsables/index.md))
 - `msds-jeux-de-prevention` — Collection jeux de prévention (1 section, [index](../../sources/msds-jeux-de-prevention/index.md))
 - `msds-profil-du-scoutisme@2025` — Profil du scoutisme – les fondements pédagogiques du Mouvement Scout de Suisse (19 sections, [index](../../sources/msds-profil-du-scoutisme/index.md))
-- `msds-profil-tableaux-relations@2025` — Profil du scoutisme v25 – tableaux des relations par branche (5 sections, [index](../../sources/msds-profil-tableaux-relations/index.md))
 
 ## Concepts liés
 

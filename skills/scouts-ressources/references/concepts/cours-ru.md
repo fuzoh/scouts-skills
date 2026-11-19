@@ -11,6 +11,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cofor-liste-buts-cours-ru` — Tes buts personnels après ce cours de RU (1 section, [index](../../corpus/cofor-liste-buts-cours-ru/index.md))
 - `cudesch-glossaire@2018` — cudesch – glossaire des dénominations scoutes (2 sections, [index](../../corpus/cudesch-glossaire/index.md))
 - `cudesch-table-des-matieres` — cudesch – table des matières détaillée, avec correspondance aux contenus des cours de base et RU (1 section, [index](../../corpus/cudesch-table-des-matieres/index.md))
+- `js-cadre-ref-module-responsable-camp@1.0` — Cadre de référence – Module J+S « Responsable de camp » Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-module-responsable-camp/index.md))
 - `msds-caisse-de-cours@2026` — Contenu MSdS caisses de cours 2026 (1 section, [index](../../corpus/msds-caisse-de-cours/index.md))
 - `msds-commande-hajk` — Commande hajk – formulaire de commande de matériel pour les cours (1 section, [index](../../corpus/msds-commande-hajk/index.md))
 - `msds-modele-de-formation@Version 2027` — Modèle de formation du Mouvement Scout de Suisse – directives générales, structure de la formation et descriptifs des cours (42 sections, [index](../../corpus/msds-modele-de-formation/index.md))
@@ -19,4 +20,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[cours-de-base](cours-de-base.md), [modele-de-formation](modele-de-formation.md), [branches](branches.md), [administration-de-cours](administration-de-cours.md), [caf](caf.md), [niveau-d-approfondissement](niveau-d-approfondissement.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [camp](camp.md)
+[cours-de-base](cours-de-base.md), [modele-de-formation](modele-de-formation.md), [branches](branches.md), [administration-de-cours](administration-de-cours.md), [niveau-d-approfondissement](niveau-d-approfondissement.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [camp](camp.md), [caf](caf.md)

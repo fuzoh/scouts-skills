@@ -2,7 +2,7 @@
 titre: "Travail du coach J+S : année type, offre et BDNS, données de base, présences, décompte, prestations, SAPC"
 theme: js
 sert_a: "Coach J+S, offre, BDNS, données de base, contrôle des activités, présences, clôture, subventions, cartes, prestations spéciales, SAPC, check-lists"
-derive_de: [js-manuel-coach, js-checklist-coach, js-checklist-sapc-coach, js-checklist-sapc-responsable-camp, js-aide-memoire-donnees-de-base, js-guide-prestations-speciales, msds-essentiel-msds-js-2027, "concepts: coach-js, sapc"]
+derive_de: [js-manuel-coach, js-checklist-coach, js-checklist-sapc-coach, js-checklist-sapc-responsable-camp, js-aide-memoire-prevention-accidents-sct, js-securite-sport-de-camp-trekking, js-aide-memoire-donnees-de-base, js-guide-prestations-speciales, msds-essentiel-msds-js-2027, "concepts: coach-js, sapc", infolettre J+S aux experts SdC/T du 17.11.2026 (non ingérée)]
 statut: valide
 ---
 
@@ -85,16 +85,16 @@ Matériel de prêt : voir le guide du matériel de prêt. Le guide date de 2022 
 
 ## SAPC : séquences d'activité physique complémentaires
 
-Définition (check-lists SAPC, 12/2025) : activités sportives d'un camp qui n'appartiennent pas aux activités J+S usuelles du Sport de camp/Trekking. Elles sont facultatives, comptent comme activités de camp J+S et peuvent entrer dans le décompte des 4 heures. En 2027, une SAPC compte aussi dans les 2 heures sportives, pour son temps d'activité physique (js-2026-2027). Le document d'octobre 2026 sur J+S 2027 présente la fiche de sécurité du SdC/T révisée, qui intègre les SAPC.
+Définition (check-lists SAPC, 12/2025) : activités sportives d'un camp qui n'appartiennent pas aux activités J+S usuelles du Sport de camp/Trekking. Elles sont facultatives, comptent comme activités de camp J+S et peuvent entrer dans le décompte des 4 heures. En 2027, une SAPC compte aussi dans les 2 heures sportives, pour son temps d'activité physique (js-2026-2027). Le document d'octobre 2026 sur J+S 2027 présente la fiche de sécurité du SdC/T révisée, qui intègre les SAPC. Un camp avec SAPC reste centré sur son propre sport, le Sport de camp/Trekking (infolettre J+S aux experts SdC/T du 17.11.2026).
 
 | Catégorie | Contenu |
 |---|---|
-| SAPC A | Disciplines J+S soumises à des dispositions de sécurité particulières : sports de neige (biathlon, ski, snowboard, saut à ski), de montagne (escalade sportive, alpinisme, ski de randonnée), natation et sports nautiques (canoë, aviron, voile, sauvetage, plongeon et autres), équitation et voltige, tir sportif (arbalète, tir à l'arc, carabine, pistolet) |
-| SAPC B | Activités d'un prestataire externe : parcs accrobranches, pistes de luge d'été, descente en trottinette, rafting, autres |
+| SAPC A | Disciplines J+S soumises à des dispositions de sécurité particulières (aide-mémoire J+S Prévention des accidents 10/2025) : sports de neige (biathlon, ski, snowboard, saut à skis), de montagne (escalade sportive, alpinisme, excursions à skis), sports aquatiques et nautiques (natation artistique, canoë-kayak, natation de sauvetage, aviron, natation, voile, triathlon, waterpolo, plongeon, course nautique, planche à voile), sports équestres (équitation, voltige), tir sportif (arbalète, tir à l'arc, carabine, pistolet). L'aide-mémoire range aussi le Sport de camp/Trekking dans cette liste |
+| SAPC B | Activités d'un prestataire commercial : accrobranche, luge d'été, trottinette, rafting en rivière, SUP, autres |
 
 Tri des activités :
 
-- dans la liste des activités usuelles de la brochure « Bases » : activité J+S normale, pas de SAPC ;
+- dans la liste des activités usuelles de la brochure « Bases » (règle des check-lists SAPC) : activité J+S normale, pas de SAPC. Cette brochure est remplacée par le manuel J+S Sport de camp/Trekking d'octobre 2026 (infolettre J+S du 17.11.2026), le manuel ne reprend pas cette liste à notre connaissance : en cas de doute, demander à un expert SdC/T ;
 - discipline J+S à règles de sécurité : SAPC A ;
 - prestataire externe : SAPC B ;
 - exclue de J+S (art. 6, al. 2, OESp) : sports motorisés et aéronautiques, sports visant à mettre l'adversaire K.O., canyoning, rafting et descente en eaux vives dès le degré de difficulté III (exceptions à l'art. 3, al. 3, OPESp), saut à l'élastique. Activité non autorisée, jamais réalisable.
@@ -106,6 +106,8 @@ Principes communs : la maîtrise de camp et le coach se parlent des SAPC prévue
 | SAPC A | Informe la maîtrise que les prescriptions de la discipline s'appliquent (guide, manuel, aide-mémoires, contrôle par un coach ou un expert de la discipline). Précise que lui-même, coach SdC/T, ne peut pas contrôler l'activité. Rappelle l'encadrement par des moniteurs reconnus dans la discipline et l'obligation de documenter les considérations de sécurité | Nomme dans le programme la SAPC et le sport J+S (par exemple « SAPC Ski J+S »). Assure l'encadrement par un nombre suffisant de moniteurs reconnus dans la discipline ou formés. Respecte guide, manuel et aide-mémoires. Organise l'intervention d'un coach ou expert supplémentaire d'une autre discipline si nécessaire. Documente la sécurité |
 | SAPC B | Rappelle que les considérations de l'aide-mémoire de prévention des accidents SdC/T sont documentées : adéquation au groupe, consignes, encadrement par des moniteurs J+S, mesures pour le bien-être et le respect des règles. Contrôle et documente sérieux, qualifications et normes de sécurité du prestataire | Nomme dans le programme la SAPC et le prestataire (par exemple « SAPC Parc Aventure XY »). Les moniteurs J+S gardent la responsabilité globale du bien-être des participants, les encadrent pendant l'activité et veillent aux consignes. Prestataire choisi avec soin, qualifié, normes de sécurité conformes |
 | Si non respecté | L'activité n'est pas autorisée | En cas de doute, l'activité n'est pas réalisée |
+
+Face à un prestataire commercial (aide-mémoire J+S Prévention des accidents 10/2025, page J+S « La sécurité dans le Sport de camp/Trekking ») : les moniteurs J+S gardent la surveillance et la responsabilité générale du bien-être pendant toute l'activité. Ils peuvent confier à un prestataire compétent la réalisation d'une activité à dispositions particulières, mais restent responsables du choix, de l'instruction et de la surveillance de ce prestataire. Ils vérifient ses qualifications (reconnaissance J+S valable dans le sport, ou formation adaptée dispensée par une organisation professionnelle d'expérience avérée, aux normes de sécurité établies) et que l'activité convient aux capacités du groupe. Ils font donner avant le début des consignes de sécurité détaillées et adaptées à l'âge, et veillent à ce que les instructions du prestataire soient comprises et respectées. En cas d'incertitude ou d'information manquante, rencontrer le prestataire sur place ; si le doute persiste (prestataire inadéquat, activité inadaptée au groupe), renoncer.
 
 ## Check-list du coach (Macolin, 09/2023)
 
@@ -121,6 +123,7 @@ Résumé des rubriques :
 
 - Cours de moniteurs ouvert l'année des 17 ans ; reconnaissance à 18 ans, sauf en Sport de camp/Trekking (exception prévue).
 - Une formation continue tous les deux ans est obligatoire pour renouveler. Sans elle, la reconnaissance passe de « valable » à « caduc ».
-- Dès 2027 : une seule reconnaissance moniteur SdC/T (enfants et jeunes fusionnés, transfert automatique, validité inchangée) ; nouvelle qualification MiData « module de formation continue J+S accompli » ; rôle du coach dans le passage aux règles 2027 : (js-roles).
+- Dès 2027 : une seule reconnaissance moniteur SdC/T (enfants et jeunes fusionnés, transfert automatique, validité de la reconnaissance de moniteur inchangée), engageable pour tous les âges de 5 à 20 ans ; nouvelle qualification MiData « module de formation continue J+S accompli » ; rôle du coach dans le passage aux règles 2027 : (js-roles).
+- Reconnaissances supplémentaires Montagne, Eau, Hiver : depuis le 01.01.2026, la validité des reconnaissances supplémentaires Montagne, Eau, Hiver est limitée à quatre ans, renouvellement par une formation continue dans le domaine de la sécurité, par exemple en suivant ou en co-dirigeant un module J+S Domaine de sécurité (Montagne, Eau ou Hiver ; un module thématique d'un jour ne renouvelle pas le complément, mainteneur) (infolettre J+S du 17.11.2026). Point de départ pour une reconnaissance antérieure à 2026 : non précisé (js-roles).
 - Certains cantons proposent 1418coach pour les 14 à 18 ans.
 - L'inscription d'un moniteur à un cours ou module passe par le coach, qui cherche avec lui le cours adapté.

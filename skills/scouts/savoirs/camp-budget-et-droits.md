@@ -2,7 +2,7 @@
 titre: Budget de camp, subsides J+S, congé jeunesse, assurance des tiers conducteurs et camp équitable
 theme: camp
 sert_a: "Budget de camp, prix par personne, recettes, subsides J+S, congé jeunesse, voitures privées, assurance conducteurs, camp équitable"
-derive_de: [cudesch-camp-budget, js-sdct-camp, msds-hering-camps, js-guide-prestations-speciales, js-guide-offres-sct, msds-essentiel-msds-js-2027, autre-csaj-conge-jeunesse-fiche, autre-csaj-conge-jeunesse-formulaire, msds-assurance-tiers-conducteurs, autre-camp-equitable-documents, "concepts: camp, financement"]
+derive_de: [cudesch-camp-budget, js-sdct-camp, msds-hering-camps, js-guide-prestations-speciales, js-guide-offres-sct, js-guide-offres-tous-sports, msds-essentiel-msds-js-2027, autre-csaj-conge-jeunesse-fiche, autre-csaj-conge-jeunesse-formulaire, msds-assurance-tiers-conducteurs, autre-camp-equitable-documents, "concepts: camp, financement"]
 statut: valide
 ---
 
@@ -60,8 +60,9 @@ Un camp reconnu J+S reçoit un montant forfaitaire. Chaque personne en âge J+S 
 Ce qui détermine le subside :
 
 - l'offre J+S : le coach annonce et décompte les camps de l'année dans la BDNS ; conditions du camp respectées (durée, encadrement, activités) ;
-- la taille de groupe pour les subsides : 16+16+16, inchangée pour 2027 ; au moins 12 participants de 5 à 20 ans ;
-- les jours comptés : jusqu'au 31.12.2026, un jour sans J+S (camp de plus de 4 jours) ne reçoit aucun subside. Pour 2027 : (js-2026-2027) ;
+- la taille de groupe pour les subsides : 16+16+16, inchangée pour 2027 ; au moins 12 participants de 5 à 20 ans, domiciliés en Suisse ou au Liechtenstein ou ayant la nationalité de l'un des deux ; un jour de camp sous ce minimum ne donne droit à aucune subvention (guide J+S des offres en ligne, 28.07.2026) ;
+- la direction : au moins deux moniteurs J+S dont la reconnaissance a le statut « valable », avec les reconnaissances supplémentaires nécessaires (même guide) ;
+- les jours comptés : un jour sans activité J+S (au plus un planifié, camp de plus de 4 jours) ne reçoit aucun subside, en 2026 comme en 2027 (Sardine, guide J+S en ligne). Premier et dernier jour, barème des journées sans entraînement : (js-2026-2027) ;
 - la clôture dans les délais : le coach clôture l'offre à la fin de l'année, au plus tard 30 jours après le dernier camp ; en cas de décompte tardif, J+S Macolin peut refuser la subvention ;
 - le versement : sur un compte bancaire ou postal suisse d'une association (IBAN valable indiqué à l'ouverture de l'offre), environ deux mois après le dernier camp, via l'office cantonal des sports.
 

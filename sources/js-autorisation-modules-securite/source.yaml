@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-autorisation-modules-securite    # <issuer>-<slug>, stable, voir METHODE.md
+title: Autorisation des modules J+S Sport de camp/Trekking Domaines de sécurité montagne, hiver et eau
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                            # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: complete                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: ''                             # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2022-10-03                   # date du document, null si inconnue
+retrieved: 2026-11-19                   # (script) date de téléchargement
+sha256: 70ddd7f4e42924ebd85288f7bf14662045242f8329afc4a5fd4dcdb4d066b35b # (script)
+pages: 1                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: prescription                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [expert-js, formateur, cadre-cantonal] # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation, securite, administration] # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, securite, caf, autorisation-de-camp, administration-de-cours, montagne, hiver, eau]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Aide de l''OFSPO du 2022-10-03 : procédure d''autorisation des modules J+S SdC/T des domaines de sécurité montagne, hiver et eau (contrôle de contenu par le CàF, évaluation par les responsables de domaine de sécurité R DoSe, délais). Pas d''applies_until : pas de remplaçant connu, mais elle cite encore le « plan cadre de formation » (remplacé par les cadres de référence 105-107 dès 2027) et la durée minimale de 6 h par jour. Texte complet ; ni url ni file_url (origine non retrouvée).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

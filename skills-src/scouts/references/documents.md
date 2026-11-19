@@ -11,7 +11,8 @@ Catalogue pour « Pour aller plus loin » et `guide.md` : titre, usage, accès. 
 | Autorisation de camp MSdS (formulaire, valable jusqu'au 31.12.2026) | Check-lists A, B, C que le RG et le coach passent en revue ; le formulaire 2027 n'est pas encore connu | pfadi.swiss, téléchargements |
 | J+S 2027, exigences pour les camps scouts (aperçu MSdS) (2027) | Ce qui change au 01.01.2027 : activité J+S, part sportive, périodes, offre | pfadi.swiss, téléchargements |
 | L'essentiel du MSdS et de J+S pour les moniteurs (newsletter octobre 2026) (2027) | Rappel annuel : participants, subventions, sécurité, nouveautés 2027 | pfadi.swiss, téléchargements |
-| Guide pour la réalisation d'offres J+S Sport de camp/Trekking (2023) | Offre J+S, encadrement, décompte ; chiffres à confirmer pour 2027 | pfadi.swiss, téléchargements |
+| Guide pour la réalisation d'offres J+S Sport de camp/Trekking (2023) | Offre J+S, encadrement, décompte ; chiffres à confirmer pour 2027 ; le guide en ligne ci-dessous le recoupe et prime pour les règles communes | pfadi.swiss, téléchargements |
+| Guide pour les offres de tous les sports J+S et de tous les organisateurs (texte contraignant en ligne, état du 28.07.2026) | Jour de camp, unités d'entraînement, premier et dernier jour, journées sans entraînement, participants, direction ; encore rédigé en vocabulaire 2026 (« groupe cible », « chef de camp »), pas réécrit pour 2027 | jugendundsport.ch/fr/guide-sports |
 | Alpha, aide-mémoire du responsable de groupe | Rôle du RG : groupe, maîtrise, camps, autorisation | pfadi.swiss, téléchargements |
 | Rapports de reconnaissance sous tentes et sous toit, bail pour place de camp, liste d'équipement (cudesch) | Choisir et réserver un lieu de camp, équiper les participants | pfadi.swiss, téléchargements |
 | Guide concernant le matériel de prêt J+S (OFSPO, 2025) | Commande dans la BDNS, délais, livraison et retour du matériel | pfadi.swiss, téléchargements |
@@ -26,8 +27,8 @@ Catalogue pour « Pour aller plus loin » et `guide.md` : titre, usage, accès. 
 | Manuel Sport de camp / Trekking pour les enfants et les jeunes (édition d'octobre 2026) (2027) | Référence des activités J+S : formes caractéristiques, formes d'activité, activités itinérantes, sécurité, rôle du coach | E-book et PDF dans l'espace login J+S ; imprimé par la BDNS (cours de base et Top) ou sur basposhop.ch |
 | Directives Sport de camp/Trekking (module d'information J+S) (2027) | Offre, camp, journée J+S, activité « active et axée sur le mouvement », temps sportif, exemples chiffrés | tool.jeunesseetsport.ch |
 | Bases du sport de camp/trekking ; Planifier une bonne activité J+S (modules d'information J+S) (2027) | Formes caractéristiques, facteurs de développement, formes d'activité ; cycle de planification d'une activité en cinq étapes | tool.jeunesseetsport.ch |
-| Sport de camp/Trekking, Bases (brochure J+S) | Pédagogie du sport de camp : planification, apprentissage, GAG, sécurité | pfadi.swiss, téléchargements |
-| Sport de camp/Trekking, Camp (brochure J+S, 2014) (2026) | Ancien système AC / SC, programme de camp J+S jusqu'à fin 2026 | Extranet J+S |
+| Sport de camp/Trekking, Bases (brochure J+S) : remplacée, ne plus la recommander | Remplacée par le manuel J+S d'octobre 2026 et ses trois séquences numériques (voir la ligne du manuel et celle de la section Sécurité) | pfadi.swiss, téléchargements |
+| Sport de camp/Trekking, Camp (brochure J+S, 2014) (2026) | Ancien système AC / SC, programme de camp J+S jusqu'à fin 2026 ; PDF seulement, révision prévue | Extranet J+S |
 | cudeschin (manuel numérique abrégé) | Planifier, réaliser, évaluer une activité, une séance, un programme ; repères J+S | cudeschin.pbs.ch |
 | Sport des enfants J+S, bases théoriques et Jouer | Conduite d'un jeu, intensité, échauffement, feedback, climat d'apprentissage | Extranet J+S |
 | Sport de camp/Trekking, exemples d'activités et de programme général de camp d'été (J+S, 09/2026) (2027) | Fiches d'activité complètes, dossier de randonnée avec nuitée, grille de programme | Extranet J+S |
@@ -42,10 +43,11 @@ Catalogue pour « Pour aller plus loin » et `guide.md` : titre, usage, accès. 
 |---|---|---|
 | cudesch, La sécurité : assumer des responsabilités | Activités dangereuses, concept de sécurité, 3x3, urgence, crise | cudesch.scout.ch/fr |
 | cudesch, Être responsable : agir consciemment | Rôle de responsable, prévention des abus, santé, règles | cudesch.scout.ch/fr |
-| Prévention des accidents et exigences de sécurité en SdC/T (aide-mémoire J+S et BPA, 2025) | Exigences par domaine : montagne, hiver, eau, cordes, constructions | pfadi.swiss, téléchargements |
-| Sport de camp/Trekking, Montagne, Eau, Hiver (brochures J+S) | Domaines de sécurité : seuils, modules, planification | Extranet J+S |
+| Prévention des accidents et exigences de sécurité en SdC/T (aide-mémoire J+S et BPA, 10/2025) | Sécurité générale, circulation routière, exigences par domaine (montagne, hiver, eau), sports à dispositions particulières et prestataires commerciaux, activités à l'étranger | pfadi.swiss, téléchargements |
+| La sécurité dans le Sport de camp/Trekking (page web J+S, aide à la décision) | Choisir des activités adéquates en quatre questions et vérifier les exigences de sécurité ; reprend l'aide-mémoire et ajoute l'aide à la décision | jugendundsport.ch |
+| Sport de camp/Trekking, Montagne, Eau, Hiver (brochures J+S) | Domaines de sécurité : seuils, modules, planification ; PDF seulement, révision prévue | Extranet J+S |
 | Aide-mémoire 3 × 3 activités itinérantes (J+S) | Appliquer le 3x3 à une randonnée | pfadi.swiss, téléchargements |
-| Planifier une randonnée ; Sécurité dans la planification ; Sécurité dans la réalisation (modules d'apprentissage numériques J+S, 2026) | Kilomètres-effort, points clés, cycle identifier-classifier-adapter, matrice, décider en route ; à suivre dans cet ordre | tool.jeunesseetsport.ch |
+| Planifier une randonnée ; Sécurité dans la planification ; Sécurité dans la réalisation (modules d'apprentissage numériques J+S, publiés en 2026, ils servent la formation dès 2027) | Kilomètres-effort, points clés, cycle identifier-classifier-adapter, matrice, décider en route ; à suivre dans cet ordre | tool.jeunesseetsport.ch |
 | Calcul de temps de marche (modèle Excel du cudesch) | Temps de marche en kilomètres-effort | pfadi.swiss, téléchargements |
 | Concept de protection, prévention des abus sexuels (MSdS, 2021) | Dispositif PSA, Helpline, conduite en cas de soupçon | pfadi.swiss, téléchargements |
 | Outil pour la prévention des abus sexuels dans le scoutisme et collection jeux de prévention (MSdS) | Situations à risque au quotidien, sept points de prévention, jeux pour apprendre à dire non | pfadi.swiss, téléchargements |
@@ -53,6 +55,7 @@ Catalogue pour « Pour aller plus loin » et `guide.md` : titre, usage, accès. 
 | Comprendre, identifier et combattre le racisme dans le sport (aide-mémoire J+S/esa, 2026) | Reconnaître un propos ou un comportement raciste, réagir sur le moment et après l'activité | jeunesseetsport.ch |
 | Facteur humain, activités de plein air en sécurité (dépliant J+S) | Pièges de décision, renoncer, dynamique de groupe | pfadi.swiss, téléchargements |
 | Aide-mémoire Sécurité Eau (J+S) et cartes Water Safety (BPA) | Surveillance et conduite d'une activité au bord de l'eau | pfadi.swiss, téléchargements |
+| Erkundung und Befahren von Flüssen – Flusskarten (Armée suisse, Dok 57.108 d, état 01.04.2011, en allemand, Rhône en français) | Préparer la reconnaissance d'un parcours en radeau ou en bateau sur huit rivières : ouvrages, sorties, interdictions ; daté, non exhaustif, ne remplace pas la reconnaissance sur place | origine non relevée |
 | Aide-mémoire Technique de corde (J+S) et indications pour les constructions de camp (cudesch) | Tyrolienne, pont de singe, contrôles ; constructions de camp | pfadi.swiss, téléchargements |
 | Aide-mémoire J+S Orientation et Météorologie ; Course d'orientation NORDA | Lecture de carte, boussole, météo et orage, CO avec des enfants | pfadi.swiss, téléchargements |
 
@@ -74,7 +77,10 @@ Catalogue pour « Pour aller plus loin » et `guide.md` : titre, usage, accès. 
 | Apprentissage en mouvement ; L'emploi d'images dans l'apprentissage (J+S) | Animer la théorie d'une UA | Extranet J+S |
 | Check-lists cofor 2027 : cours de base, cours de RU, approfondissements Castors, Louveteaux, Éclais, Picos, Route (Route en allemand) | Contenus à couvrir, durées minimales, envoi par Orbit | pfadi.swiss, téléchargements |
 | Évaluation du programme J+S (EvalJS) et guide « Mise en œuvre de l'évaluation » (J+S) | Évaluation des cours et modules J+S dès 2027 : préparation, courriel du dernier jour, évaluation immédiate, FAQ | jeunesseetsport.ch ; tool.jeunesseetsport.ch |
-| Cadres de référence J+S Sport de camp/Trekking 2027 | Objectifs de compétences de chaque cours et module J+S, pour responsables de formation et experts | ILIAS (extranet J+S) |
+| Cadres de référence J+S Sport de camp/Trekking (OFSPO, version 1.0, 101.01.fr à 116.01.fr : cours 101-104, modules Domaine de sécurité Hiver, Eau, Montagne 105-107, modules thématiques 108-116) (2027) | Ils remplacent les anciens plans cadres de formation ; fiche de chaque cours ou module (durée, admission, reconnaissance), objectifs sur trois domaines de compétences, seuls contraignants, contenus et ressources indicatifs ; évaluer les compétences ; pour responsables de formation et experts | ILIAS (extranet J+S), espace des experts |
+| Autorisation des modules J+S Sport de camp/Trekking Domaines de sécurité montagne, hiver et eau (OFSPO, 03.10.2022) | Faire autoriser un module de sécurité : documents à envoyer au CàF et au responsable du domaine (R DoSe), tâches de chacun, délais 1.12 et 1.4 ; cite encore le plan cadre de formation | origine non relevée ; l'infolettre J+S du 17.11.2026 signale un document d'autorisation sur ILIAS, non consulté |
+| Vue d'ensemble de l'offre de modules FC-Exp (infolettre J+S du 17.11.2026, non consultée) | Offre de formation continue des experts | ILIAS (extranet J+S), espace des experts |
+| La conception de la formation J+S (séquence d'apprentissage J+S) | Base commune à tous les sports : quatre domaines d'action, dix champs d'action, recommandations | tool.jeunesseetsport.ch |
 | Newsletter de la formation d'octobre 2026 (MSdS) | Pour cadres cantonaux et formateurs Top : J+S 2027, nouvelle structure de formation, administration des cours, littérature de formation, profil | Envoyés aux responsables cantonaux de la formation ; formation@msds.ch |
 | Pilote ; Ticket ; directive sur le financement des cours fédéraux ; budget et décompte de cours | Administration et finances d'un cours, inscription | pfadi.swiss, téléchargements |
 | Le projet au Pano, mémento de combinaison avec un module J+S ; QUALA (cours RG) | Spécificités des cours Panorama et RG | pfadi.swiss, téléchargements |

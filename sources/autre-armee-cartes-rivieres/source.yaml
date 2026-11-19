@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: autre-armee-cartes-rivieres         # <issuer>-<slug>, stable, voir METHODE.md
+title: Erkundung und Befahren von Flüssen – Flusskarten (reconnaissance et navigation des rivières, cartes fluviales)
+issuer: autre                           # msds | cofor | js | cudesch | autre
+issuer_detail: "Armée suisse, Lehrverband Genie/Rettung (Dok 57.108 d)" # obligatoire si issuer = autre
+ref: 57.108 d                           # numéro officiel, "" si absent
+lang: de                                # document en allemand, résumés de l'index en français (Rhône : cartes en français)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: catalogue                   # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: null                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: ''                     # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '2011-04-01'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2011-04-01                   # date du document, null si inconnue
+retrieved: 2026-11-19                   # (script) date de téléchargement
+sha256: 9edba98d4bd1bf71192f2db83a1e7f2fd14d0f409e8b4604267bd0faa95d620b # (script)
+pages: 146                              # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: recommandation                  # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [responsable, expert-js]      # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [securite]                      # vocabulaire dans docs/taxonomie.md
+concepts: [eau, securite]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Atlas graphique de cartes fluviales : 33 pages sur l''Aare, 4 sur la Broye/Zihl, 8 sur la Limmat, 4 sur la Linth, 13 sur la Reuss, 40 sur le Rhin, 12 sur la Thur, 21 sur le Rhône, au 1:25 000 : seul index.md existe (extraction: catalogue, pas de raw.md, original à consulter). Document en allemand, sans équivalent français connu ; seules les cartes du Rhône (feuilles 178-195 et généralités genevoises p.142) sont en français. Daté : état 2010-2011 (instantané au 31.07.2010, sans prétention d''exhaustivité), ouvrages, dangers, numéros de téléphone et adresses de l''annexe 1 ont pu changer ; ne remplace jamais la reconnaissance sur place (règlement 57.004) ni les prescriptions J+S du domaine de sécurité Eau. Les lacs ne sont pas couverts, pas plus que le Doubs, la Sarine, le Tessin ou l''Inn. Lacunes : Aare km 78-87,9 (lac de Bienne), Rhin km 81,2-124 (lac de Constance), Rhône km 83-153 (lac Léman). Glossaire allemand-français : Wehr / Stauwehr = barrage ; Schwelle = seuil ; Kraftwerk = centrale hydroélectrique ; Landestelle / Auswasserung = point d''accostage / de sortie de l''eau ; Einwasserung = mise à l''eau ; unbefahrbar / unpassierbar = non navigable / infranchissable ; Fahrverbot = interdiction de naviguer ; Talfahrt = descente (vers l''aval) ; bergwärts / talwärts = vers l''amont / vers l''aval ; Blatt = feuille de carte ; Flussbeginn / Flussende = début / fin du tracé ; Stromschnelle = rapide ; Untiefe = haut-fond ; Felsbrocken = bloc rocheux ; Fähre = bac ; Schleuse = écluse ; Pontonier-Fahrverein = société de pontonniers ; Naturschutzgebiet = réserve naturelle ; Hochwasser / Niederwasser = hautes / basses eaux ; rekognoszieren = reconnaître ; Anmeldung = annonce préalable.'                              # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

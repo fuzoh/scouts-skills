@@ -23,7 +23,7 @@ Avant le départ, informer une personne qui ne participe pas de l'itinéraire et
 | T3 randonnée en montagne exigeante | passages exposés, appui des mains possible | jeunes |
 | T4 à T6 | alpin | hors sport de camp / trekking |
 
-Chemins : jaune T1, blanc-rouge-blanc T2 à T3, blanc-bleu-blanc T4 à T5. La cotation suppose du beau temps et un terrain sec. T3 avec nuitée au-dessus de la forêt : module J+S montagne (securite-domaines). Pour T3, une reconnaissance supplémentaire est recommandée.
+Chemins : jaune T1, blanc-rouge-blanc T2 à T3, blanc-bleu-blanc T4 à T5. La cotation suppose du beau temps et un terrain sec. Domaine Montagne (module J+S) : T3 avec nuitée au-dessus de la forêt (cudesch), randonnée de plusieurs jours jusqu'à T3 avec bivouac au-dessus de la limite forestière, ou T3 difficile à passages clés nombreux ou longs (J+S) ; détail : (securite-domaines). Pour T3, une reconnaissance supplémentaire est recommandée.
 
 ## Temps de marche
 

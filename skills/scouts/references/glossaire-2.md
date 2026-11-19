@@ -62,6 +62,11 @@ Suite de `glossaire.md` : termes moins fréquents dans un document de camp ou de
 - **Accompagnement** — suivi et conseil des apprenants, y compris mesures de formation continue proposées en fin de cours.
 - **Apprentissage en mouvement (FRTE)** — méthodes pour cours théoriques d'adultes en quatre phases : formulation, recherche, traitement, entraînement.
 - **MPE** — module de perfectionnement expert J+S SdC/T, offre annuelle.
+- **MP-Exp** — sigle J+S non développé dans les sources ; désigne des offres où les experts peuvent renouveler leurs reconnaissances de domaine de sécurité (infolettre J+S du 17.11.2026). Voir MPE.
+- **FC-Exp** — sigle J+S non développé dans les sources ; l'infolettre J+S du 17.11.2026 annonce une vue d'ensemble de l'offre de modules FC-Exp sur l'extranet.
+- **ILIAS (extranet J+S)** — plateforme de l'extranet J+S : manuel, cadres de référence, documents des cours et des experts.
+- **Cadre de référence J+S** — document OFSPO par cours ou module J+S (dès 2027, SdC/T 101.01.fr à 116.01.fr) : fiche du cours, objectifs contraignants, contenus et ressources indicatifs ; remplace le plan cadre de formation.
+- **R DoSe** — responsable d'un domaine de sécurité SdC/T (montagne, hiver, eau) : valide itinéraire et concept de sécurité d'un module de sécurité et l'autorise avec le CàF.
 - **QUALA** — petit manuel cofor pour planifier et réaliser un cours RG.
 - **Séquences d'apprentissage numériques (SA)** — séquences numériques J+S utilisables avant, pendant et après le cours.
 

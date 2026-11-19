@@ -1,8 +1,8 @@
 ---
 titre: Sécurité à l'eau sur le terrain, consignes, surveillance, jeux d'eau, et formations eau du MSdS
 theme: securite
-sert_a: "Activité à l'eau avec enfants, surveillance, test CSA, noyade, jeux, urgence, module J+S Eau, module de sécurité, SSS, BLS-AED, équivalences, coûts"
-derive_de: [autre-water-safety-cartes, js-aide-memoire-securite-eau, cofor-guide-admin-formations-eau, js-sdct-eau, "concepts: eau, securite"]
+sert_a: "Activité à l'eau avec enfants, surveillance, test CSA, noyade, jeux, atlas des rivières, urgence, module J+S Eau, module de sécurité, SSS, BLS-AED, coûts"
+derive_de: [autre-water-safety-cartes, autre-armee-cartes-rivieres, js-cadre-ref-module-securite-eau, js-aide-memoire-securite-eau, js-aide-memoire-prevention-accidents-sct, cofor-guide-admin-formations-eau, js-sdct-eau, "concepts: eau, securite"]
 statut: valide
 ---
 
@@ -65,6 +65,8 @@ Les cartes proposent le 3x3 avec colonnes conditions, environnement, facteur hum
 
 **Eaux libres** : reconnaissance obligatoire en pratique, de préférence peu avant le jour J, en entrant soi-même dans l'eau pour le point rivière (brochure J+S Eau). Dangers : intempéries, eau très fraîche, différence de température entre surface et profondeur, houle, courants, tourbillons, niveau changeant, navigation, nature du fond, état de la rive, bois flottant, rive en pente. À repérer : entrées, sorties (y compris de secours), lieux sûrs (radeau, ponton avec échelle), ombre, matériel de sauvetage, défibrillateur, accès des secours, réseau mobile, signaux d'avis de tempête. Se renseigner auprès de la police du lac, de clubs ou d'écoles de canoë.
 
+**Atlas des rivières de l'Armée** (« Erkundung und Befahren von Flüssen – Flusskarten », Armée suisse, Dok 57.108 d, état 01.04.2011) : cartes au 1:25 000 de l'Aar, des canaux de la Broye et de la Thielle, de la Limmat, du canal de la Linth, de la Reuss, du Rhin, de la Thur et du Rhône, avec kilométrage, barrages et centrales (souvent infranchissables, à contourner ou à annoncer), seuils, rapides, câbles, pieux immergés, mises à l'eau, sorties, réserves naturelles et interdictions de naviguer. Il sert à préparer la reconnaissance d'un parcours en radeau ou en bateau : repérer ouvrages, sorties et tronçons interdits avant d'aller voir. Limites : document militaire en allemand (Rhône seul en français) ; instantané de 2010-2011, non exhaustif, ouvrages et règles ont pu changer, coordonnées de l'annexe à ne pas utiliser ; aucun degré de difficulté, rien sur l'adaptation à des jeunes ; ni lacs (lacunes aux lacs de Bienne, de Constance et Léman), ni Doubs, Sarine, Tessin ou Inn. Il ne remplace ni la reconnaissance sur place, que le document exige lui-même, ni les prescriptions J+S du domaine Eau (securite-domaines).
+
 **Critères d'abandon chiffrés.** Écrire un seuil précis, pas « eau trop froide » : par exemple eau sous 18 °C sans combinaison, frissons ; orage annoncé dans la demi-heure. Le tableau de risques associe chaque risque à une mesure (fatigue : gilet de natation ou distance réduite ; blessure au pied : chaussures ; hypothermie : combinaison, temps dans l'eau réduit ; foudre : abandon). Un risque qui reste dans la zone rouge de la matrice est inacceptable : mesure supplémentaire ou renoncer (la matrice est un outil : (securite-domaines)).
 
 ## Activités et jeux
@@ -99,14 +101,14 @@ Les seuils et exigences par activité sont dans (securite-domaines) ; ici le par
 |---|---|
 | Module J+S Eau SdC/T | moniteurs SdC/T ; équivaut au brevet SSS Base Pool et au module Lac ; permet de surveiller baignade et jeux d'eau |
 | Module interdisciplinaire « Surveillant Eau » | mêmes contenus, proposé par J+S avec la SSS, ouvert aux moniteurs J+S de toutes disciplines ; ne comprend jamais le brevet Plus Pool |
-| Module J+S du domaine de sécurité Eau | donne le complément SdC/T « domaine de sécurité Eau » et comprend le module Rivière SSS ; suppose le module J+S Eau (ou Base Pool avec module Lac, ou Plus Pool) ; seul ce module, pas le seul module Rivière SSS, autorise la conduite de bateaux ou radeaux en eaux vives |
+| Module J+S Domaine de sécurité Eau (4 jours) | donne le complément « Eau » et comprend le module Rivière SSS ; admission 2027 : module Eau SdC/T, ou Base Pool avec module Lac SSS ; cours de sauveteur (Plus Pool seul : à faire confirmer par la direction du module) ; seul ce module, pas le seul module Rivière SSS, autorise la conduite de bateaux ou radeaux en eaux vives ; détail : (formation-modules-securite) |
 | Brevet Plus Pool SSS | option intégrable au module Eau (3 h supplémentaires) ; suppose BLS-AED ; inutile pour les activités J+S et scoutes |
 | Module BLS-AED | réanimation et défibrillateur ; recommandé pour toute activité en eaux non surveillées ; non combinable directement avec un module J+S, mais rattachable ou à faire la veille |
 | Cours SSS seuls (Base Pool, Plus Pool, Lac, Rivière et rappels) | alternative aux modules J+S ; ne renouvelle pas la reconnaissance J+S |
 
-Piscine : l'aide-mémoire J+S « Sécurité Eau » (2024) fait foi : module J+S Eau SdC/T ou brevet Base Pool pour surveiller une baignade en piscine surveillée, module J+S Eau ou brevet Plus Pool pour une piscine non surveillée (securite-domaines).
+Formation exigée selon le lieu (bassin, rivière ou lac surveillés ou non, nage en rivière) : tableau de l'aide-mémoire J+S Prévention des accidents 10/2025, qui reprend et élargit celui de l'aide-mémoire « Sécurité Eau » 2024 (securite-domaines). Mer et étranger : (camp-etranger).
 
-La désignation du cours dit quels modules SSS sont inclus (ex. « module Eau (y compris brevet base pool, module Lac) »). L'obligation de formation continue de la SSS ne vaut pas pour J+S ni pour les associations de jeunesse, mais il est recommandé de se perfectionner : le moniteur adapte l'activité à ses compétences avec le 3x3 et tient ses connaissances à jour.
+La désignation du cours dit quels modules SSS sont inclus (ex. « module Eau (y compris brevet base pool, module Lac) »). L'obligation de formation continue de la SSS ne vaut pas pour J+S ni pour les associations de jeunesse, mais il est recommandé de se perfectionner : le moniteur adapte l'activité à ses compétences avec le 3x3 et tient ses connaissances à jour. Le complément J+S « Eau » vaut quatre ans depuis 2026, renouvellement : (securite-domaines) ; ne pas le confondre avec le module Lac SSS (huit ans, suspendu après quatre).
 
 **Équivalence SSS** : après le module Eau, demande facultative auprès de la SSS (formulaire, CHF 50) pour obtenir Base Pool et Lac ; possible sans restriction pour Base Pool ; le module Lac est valable huit ans (suspendu après quatre ans, rappel nécessaire). Qui n'obtient que le Base Pool sans le Lac a un module Eau « non réussi » : en parler au secrétariat de formation du MSdS. Coûts SSS : modules CHF 45, rappel Lac CHF 30, rappel BLS-AED CHF 35, Plus Pool CHF 45.
 

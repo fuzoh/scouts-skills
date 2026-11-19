@@ -11,7 +11,8 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-module-planifier-randonnee@2026-10-21` — Planifier une randonnée (module d'apprentissage J+S SdC/T) (1 section, [index](../../corpus/js-module-planifier-randonnee/index.md))
 - `js-module-securite-planification@2026-10-21` — Sécurité dans la planification (module d'apprentissage J+S SdC/T) (1 section, [index](../../corpus/js-module-securite-planification/index.md))
 - `js-module-securite-realisation@2026-10-21` — Sécurité dans la réalisation (module d'apprentissage J+S SdC/T) (1 section, [index](../../corpus/js-module-securite-realisation/index.md))
+- `js-securite-sport-de-camp-trekking@2026-11-19` — La sécurité dans le Sport de camp/Trekking (1 section, [index](../../corpus/js-securite-sport-de-camp-trekking/index.md))
 
 ## Concepts liés
 
-[sport-de-camp](sport-de-camp.md), [methode-3x3](methode-3x3.md), [matrice-des-risques](matrice-des-risques.md), [formes-caracteristiques](formes-caracteristiques.md), [coach-js](coach-js.md), [montagne](montagne.md), [hiver](hiver.md), [eau](eau.md)
+[sport-de-camp](sport-de-camp.md), [methode-3x3](methode-3x3.md), [matrice-des-risques](matrice-des-risques.md), [montagne](montagne.md), [hiver](hiver.md), [eau](eau.md), [formes-caracteristiques](formes-caracteristiques.md), [coach-js](coach-js.md)

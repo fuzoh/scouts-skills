@@ -11,12 +11,17 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-aide-memoire-meteorologie@2010` — Aide-mémoire J+S « Météorologie » (1 section, [index](../../corpus/js-aide-memoire-meteorologie/index.md))
 - `js-aide-memoire-orientation@2010` — Aide-mémoire J+S « Orientation » – lecture de carte, temps de marche, profil (1 section, [index](../../corpus/js-aide-memoire-orientation/index.md))
 - `js-aide-memoire-prevention-accidents-sct@2025` — Prévention des accidents et exigences en matière de sécurité en sport de camp/trekking (aide-mémoire J+S et BPA) (5 sections, [index](../../corpus/js-aide-memoire-prevention-accidents-sct/index.md))
+- `js-autorisation-modules-securite` — Autorisation des modules J+S Sport de camp/Trekking Domaines de sécurité montagne, hiver et eau (1 section, [index](../../corpus/js-autorisation-modules-securite/index.md))
+- `js-cadre-ref-module-montagne@1.0` — Cadre de référence – Module J+S « Montagne » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-montagne/index.md))
+- `js-cadre-ref-module-securite-montagne@1.0` — Cadre de référence – Module J+S Domaine de sécurité Montagne Sport de camp/Trekking (6 sections, [index](../../corpus/js-cadre-ref-module-securite-montagne/index.md))
+- `js-docs-module-securite-montagne-2014` — Documents du module « Domaine de sécurité Montagne » – Sport de camp/Trekking (2014) (1 section, [index](../../corpus/js-docs-module-securite-montagne-2014/index.md))
 - `js-guide-offres-sct@2023` — Guide pour la réalisation d'offres J+S Sport de camp/Trekking (1 section, [index](../../corpus/js-guide-offres-sct/index.md))
 - `js-module-securite-planification@2026-10-21` — Sécurité dans la planification (module d'apprentissage J+S SdC/T) (1 section, [index](../../corpus/js-module-securite-planification/index.md))
 - `js-sdct-montagne@2014` — Sport de camp/Trekking – Montagne (19 sections, [index](../../corpus/js-sdct-montagne/index.md))
+- `js-securite-sport-de-camp-trekking@2026-11-19` — La sécurité dans le Sport de camp/Trekking (1 section, [index](../../corpus/js-securite-sport-de-camp-trekking/index.md))
 - `js-structure-formation-sdct` — Structure de la formation J+S Sport de camp/Trekking (BDNS, versions jusqu'au 31.12.2026 et dès le 1.1.2027) (1 section, [index](../../corpus/js-structure-formation-sdct/index.md))
 - `msds-offre-mpe-2027` — Modules J+S de perfectionnement expert·e (MPE) SdC/T 2027 (1 section, [index](../../corpus/msds-offre-mpe-2027/index.md))
 
 ## Concepts liés
 
-[securite](securite.md), [hiver](hiver.md), [eau](eau.md), [sport-de-camp](sport-de-camp.md), [orientation](orientation.md), [methode-3x3](methode-3x3.md), [coach-js](coach-js.md), [js](js.md)
+[securite](securite.md), [hiver](hiver.md), [sport-de-camp](sport-de-camp.md), [eau](eau.md), [methode-3x3](methode-3x3.md), [expert-js](expert-js.md), [orientation](orientation.md), [coach-js](coach-js.md)

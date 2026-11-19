@@ -2,7 +2,7 @@
 titre: Facteur humain en plein air, pièges de décision, renoncer, et responsabilités de sécurité dans J+S
 theme: securite
 sert_a: "Erreurs de maîtrises expérimentées, perception, pression du groupe, décider et renoncer, devoir de protection et de diligence, responsabilité"
-derive_de: [js-depliant-facteur-humain, js-securite-l-essentiel, cudesch-securite, "concepts: securite, methode-3x3, responsabilite-du-moniteur"]
+derive_de: [js-depliant-facteur-humain, js-securite-l-essentiel, cudesch-securite, js-aide-memoire-prevention-accidents-sct, "concepts: securite, methode-3x3, responsabilite-du-moniteur"]
 statut: valide
 ---
 
@@ -97,7 +97,7 @@ Document J+S 2021 destiné aux moniteurs et experts.
 
 **Droit.** Un accident ne conduit pas automatiquement à une condamnation. La police et le ministère public cherchent si les principes de prudence élémentaires ont été ignorés. Sanctions possibles : pénales (amende), civiles (dommages-intérêts) et, pour J+S, avertissement, suspension ou retrait de la reconnaissance. Le moniteur qui respecte les exigences minimales de l'aide-mémoire du sport concerné, les directives de sécurité de son organisation (concept de sécurité), adapte l'activité aux aptitudes du groupe et prend les mesures raisonnables ne devrait en règle générale pas être poursuivi. Personne ne devrait renoncer à encadrer des jeunes par peur de la responsabilité ; le risque zéro n'existe pas, le rôle du moniteur est de le diminuer.
 
-**Prescriptions générales J+S.** Règles claires, communiquées et imposées ; communication explicite ; plan d'urgence avec numéros ; montrer l'exemple. Sont exclus de J+S : sports motorisés et aéronautiques, canyoning, rafting et descentes en eaux vives (sauf exception réglementaire ; pour les eaux vives en camp scout, (securite-domaines) et (securite-eau-pratique) font foi), saut à l'élastique, sports de combat visant le K.-O. Le sport de camp / trekking est un sport à prescriptions de sécurité accrues (reconnaissance J+S spécifique).
+**Prescriptions générales J+S.** Règles claires, communiquées et imposées ; communication explicite ; plan d'urgence avec numéros ; montrer l'exemple. Sont exclus de J+S : sports motorisés et aéronautiques, canyoning, rafting et descentes en eaux vives dès le degré de difficulté III (exception prévue par l'ordonnance ; jusqu'au degré II, domaine de sécurité Eau : (securite-domaines), (securite-eau-pratique) ; aide-mémoire J+S Prévention des accidents 10/2025), saut à l'élastique, sports de combat visant le K.-O. Le sport de camp / trekking est un sport à prescriptions de sécurité accrues (reconnaissance J+S spécifique).
 
 **Rôles autour du moniteur.**
 

@@ -117,3 +117,5 @@ Quand quelque chose inquiète ou qu'un enfant se confie (ligne de conduite de l'
 Dans un cours ou module J+S, la direction fait clarifier les règles de comportement par les cadres, adapte le modèle de charte, la présente au début, aborde les règles propres aux mineurs, discute des conséquences et fait signer (par exemple sur une affiche). Les règles sont reprises pendant le cours, les comportements positifs valorisés.
 
 En cas de violation possible : la direction consulte une autre personne, signale le fait à la personne et l'invite à s'expliquer. Aucune violation avérée : cas clos. Mesure acceptée par écrit sur place (par exemple exclusion) : cas clos. Sinon, un procès-verbal (entretien mené par un tiers) puis un rapport avec date, noms et signatures sont remis à l'organisateur ; si l'OFSPO est concerné, aussi à l'OFSPO ; les représentants légaux d'un mineur peuvent être informés (exemple J+S 02/2026).
+
+Pour se former : dès 2027, module J+S de formation continue « Prévention » (1 jour, cadre de référence 116.01.fr) : (formation-cadres-reference-js).

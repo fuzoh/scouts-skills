@@ -20,6 +20,9 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cofor-pano-outils-litterature` — Outils et littérature – fiche d'information pour les cours Panorama (1 section, [index](../../corpus/cofor-pano-outils-litterature/index.md))
 - `cofor-pano-retour-qualifier` — Faire un retour, qualifier et encourager – fiche d'information pour les cours Panorama (1 section, [index](../../corpus/cofor-pano-retour-qualifier/index.md))
 - `cofor-quala-cours-rg` — QUALA – petit manuel pour la planification et la réalisation des cours RG (8 sections, [index](../../corpus/cofor-quala-cours-rg/index.md))
+- `js-cadre-ref-module-diversite-inclusion@1.0` — Cadre de référence – Module J+S « Diversité et inclusion » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-diversite-inclusion/index.md))
+- `js-cadre-ref-module-durabilite@1.0` — Cadre de référence – Module J+S « Durabilité » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-durabilite/index.md))
+- `js-cadre-ref-module-nature-environnement@1.0` — Cadre de référence – Module J+S « Nature et environnement » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-nature-environnement/index.md))
 - `js-intro-manuel-experts-diapos` — Présentation de l'introduction du manuel d'experts (diapositives avec notes) (4 sections, [index](../../corpus/js-intro-manuel-experts-diapos/index.md))
 - `js-manuel-bases@2024, 3e édition remaniée` — Manuel J+S – Bases (37 sections, [index](../../corpus/js-manuel-bases/index.md))
 - `js-manuel-coach@2023` — Manuel des coachs J+S (15 sections, [index](../../corpus/js-manuel-coach/index.md))
@@ -34,4 +37,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[caf](caf.md), [administration-de-cours](administration-de-cours.md), [niveau-d-approfondissement](niveau-d-approfondissement.md), [unite-d-apprentissage](unite-d-apprentissage.md), [expert-js](expert-js.md), [methodes-d-enseignement](methodes-d-enseignement.md), [qualification](qualification.md), [cours-panorama](cours-panorama.md)
+[caf](caf.md), [niveau-d-approfondissement](niveau-d-approfondissement.md), [administration-de-cours](administration-de-cours.md), [qualification](qualification.md), [unite-d-apprentissage](unite-d-apprentissage.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [expert-js](expert-js.md), [methodes-d-enseignement](methodes-d-enseignement.md)

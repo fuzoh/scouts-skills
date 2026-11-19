@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-cadre-ref-module-prevention      # <issuer>-<slug>, stable, voir METHODE.md
+title: Cadre de référence – Module J+S « Prévention » Sport de camp/Trekking
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 116.01.fr                          # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial
+fidelity_notes: 'Texte complet et dans l’ordre, numéros d’objectifs conservés, mais les tableaux d’objectifs (chap. 5, p.8-12) sont rendus comme du texte : les colonnes Thème, Objectifs, Propositions de contenus et Ressources disponibles sont séparées en blocs, les thèmes sont détachés de leurs objectifs et les puces de contenus et de ressources d’un même objectif ne sont pas distinguées (contenus et ressources d’un objectif parfois placés avant son numéro, sur la page précédente). Liens hypertexte conservés dans le texte. Le tableau de la fiche p.3 est correct ; p.10 (objectifs 2.2-2.4) est rendu en vrai tableau markdown, avec thèmes, objectifs, contenus et ressources alignés. Verbes d’objectif (niveau d’approfondissement) intacts.'
+
+version: '1.0'                          # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-11-19                   # (script) date de téléchargement
+sha256: d650f1519d51bd86e754380d1ff74d82d57bf816c1acc280fc51f30910e7e8aa # (script)
+pages: 12                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: 2027-01-01
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: prescription
+
+audience: [expert-js, formateur]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation, prevention]         # vocabulaire dans docs/taxonomie.md
+concepts: [psa, ethique, regles-de-comportement, sport-de-camp, objectifs-d-apprentissage, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Cadre de référence J+S Sport de camp/Trekking 2027 du module de formation continue « Prévention » (1 jour, 6 h) : fiche du module, chapitres généraux communs, objectifs 1.1 à 3.3 avec contenus, obligation de signaler et services spécialisés. Contraignant pour les expert·e·s : remplace les anciens plans cadres de formation ; seuls les objectifs du module sont obligatoires, contenus et ressources sont indicatifs. Date d’application déduite : cadres de référence 2027 (le document ne la donne pas, ni date de publication ; Version 1.0). Extranet J+S ILIAS derrière login : pas d’url ni de file_url publique. Texte extrait proprement, couverture et table des matières sans objet.'
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

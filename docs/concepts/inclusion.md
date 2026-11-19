@@ -12,6 +12,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cudesch-smt@2026-10-17` — SMT – Scout·e·s Malgré Tout (35 sections, [index](../../sources/cudesch-smt/index.md))
 - `js-activites-de-qualite-encourager@2025` — Des activités J+S de qualité – Encourager (jeu de cartes) (8 sections, [index](../../sources/js-activites-de-qualite-encourager/index.md))
 - `js-aide-memoire-racisme` — Comprendre, identifier et combattre le racisme dans le sport (aide-mémoire J+S/esa) (1 section, [index](../../sources/js-aide-memoire-racisme/index.md))
+- `js-cadre-ref-module-diversite-inclusion@1.0` — Cadre de référence – Module J+S « Diversité et inclusion » Sport de camp/Trekking (2 sections, [index](../../sources/js-cadre-ref-module-diversite-inclusion/index.md))
 - `js-sport-et-handicap@2014` — Sport et handicap – pistes pour une pratique sportive commune (29 sections, [index](../../sources/js-sport-et-handicap/index.md))
 - `msds-caisse-de-cours@2026` — Contenu MSdS caisses de cours 2026 (1 section, [index](../../sources/msds-caisse-de-cours/index.md))
 - `msds-flyer-smt` — Scout malgré tout (SMT) – flyer d'information (1 section, [index](../../sources/msds-flyer-smt/index.md))
@@ -22,4 +23,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[smt](smt.md), [psa](psa.md), [ethique](ethique.md), [regles-de-comportement](regles-de-comportement.md), [branches](branches.md), [securite](securite.md), [premiers-secours](premiers-secours.md), [methodes-d-enseignement](methodes-d-enseignement.md)
+[smt](smt.md), [psa](psa.md), [ethique](ethique.md), [modele-de-formation](modele-de-formation.md), [regles-de-comportement](regles-de-comportement.md), [branches](branches.md), [securite](securite.md), [premiers-secours](premiers-secours.md)

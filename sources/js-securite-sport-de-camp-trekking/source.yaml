@@ -1,0 +1,43 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-securite-sport-de-camp-trekking  # <issuer>-<slug>, stable, voir METHODE.md
+title: La sécurité dans le Sport de camp/Trekking
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: ''                                 # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: web                               # pdf | docx | xlsx | pptx | web | image
+url: https://www.jugendundsport.ch/fr/securite-dans-le-sport-de-camp-trekking # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages:  # (script) web seulement : {url, title, slug}, une entrée par page
+- url: https://www.jugendundsport.ch/fr/securite-dans-le-sport-de-camp-trekking
+  title: La sécurité dans le Sport de camp/Trekking
+  slug: fr-securite-dans-le-sport-de-camp-trekking
+
+status: indexed
+decision: keep
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial
+fidelity_notes: 'Les accordéons de la page sont conservés grâce à la correction de convert (phrases témoins retrouvées ; contrôle de couverture contre une extraction complète : seuls manquent des libellés de liens). Perdus : la table des matières, les libellés des liens « Davantage d''informations » (dépliants Facteur humain, sécurité sur, dans et au bord de l''eau, Sécurité et responsabilité), les titres des séquences d''apprentissage liées en bas de page, le lien vers les échelles de difficulté CAS et les maximes SSS (sous-liens des maximes de baignade). Le texte normatif est complet.'
+
+version: '2026-11-19'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: 2025-11-04
+retrieved: 2026-11-19                   # (script) date de téléchargement
+sha256: af67744df50bc813a0dc17787c41633b0d27c1eeabfb16f4583a9896fffd7b26 # (script)
+pages: 0                                # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: null                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: prescription
+
+audience: [responsable, coach-js, expert-js]
+themes: [securite, camp]
+concepts: [sport-de-camp, concept-de-securite, methode-3x3, montagne, hiver, eau, sapc, expert-js]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Page jugendundsport.ch publiée le 2025-11-04, une page = une section (ancres <!-- #… --> conservées pour citer l''url et l''ancre). Contenu : aide à la décision en quatre questions, règles de sécurité générales et routières, domaines de sécurité Montagne, Hiver (pentes 30°, degré d''avalanche 1-2, sous 1800 m) et Eau (compétences de surveillance), sports soumis à dispositions particulières, sports exclus (canyoning, saut à l''élastique, eaux vives III et plus), SAPC par prestataires commerciaux (la direction assume la responsabilité générale), activités à l''étranger. Les titres des items d''accordéon sont restitués en gras par convert. Vérifier le vocabulaire (groupe cible, chef de camp) à la date d''application 2027 : applies_from non posé, la page ne l''indique pas.'
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

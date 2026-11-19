@@ -1,8 +1,8 @@
 ---
 titre: Sécurité, principes, activités dangereuses et concepts de sécurité
 theme: securite
-sert_a: "Concept de sécurité (CdS), quand il est requis, trois types et contenu, 3x3, cycle J+S identifier-classifier-adapter, matrice, sécurité pendant l'activité"
-derive_de: [cudesch-securite, js-aide-memoire-3x3-en-route, js-aide-memoire-prevention-accidents-sct, js-module-securite-planification, js-module-securite-realisation, "concepts: securite, methode-3x3"]
+sert_a: "CdS : quand il est requis, trois types, contenu ; 3x3, cycle J+S identifier-classifier-adapter, matrice ; aide à la décision J+S ; circulation routière et vélo"
+derive_de: [cudesch-securite, js-aide-memoire-3x3-en-route, js-aide-memoire-prevention-accidents-sct, js-securite-sport-de-camp-trekking, js-module-securite-planification, js-module-securite-realisation, "concepts: securite, methode-3x3"]
 statut: valide
 ---
 
@@ -25,10 +25,18 @@ Chacune exige un CdS, en camp ou non (samedi après-midi, week-end), avec ou san
 | Activités aquatiques (piscine, lac, rivière, radeau) | modules SSS et J+S (securite-domaines) |
 | Corde exigeante (tyrolienne, rappel, pont de corde en hauteur) | une personne de grande expérience de l'activité ; pas de CdS spécifique pour un pont de corde juste au-dessus du sol |
 | Grandes constructions (tour de camp, sarasine) | un CdS global pour toutes les constructions suffit en règle générale, pas un CdS par construction ; pas de CdS spécifique pour une petite construction (lavabo) |
-| Déplacements sur roues (vélo, roller) | longues distances, longue durée, à la force du groupe ; pas de CdS spécifique pour un trajet court (local - forêt) |
+| Déplacements sur roues (vélo, roller) | longues distances, longue durée, à la force du groupe ; pas de CdS spécifique pour un trajet court (local - forêt) ; règles J+S plus bas (circulation routière) |
 | Jeux et activités sportives exigeants (grands jeux, courses d'orientation) | terrain non dégagé sans surveillance permanente ; pas de CdS spécifique pour un jeu de balle au pâturage |
 
 La limite entre « normal » et « dangereux » est floue (ex. hauteur d'un pont de corde) : faire preuve de bon sens ; en cas d'incertitude, en parler au RG ou au coach. Pour la corde, la personne est « expérimentée », pas un expert J+S.
+
+## Circulation routière (aide-mémoire J+S Prévention des accidents 10/2025)
+
+Règles J+S pour tout camp sport de camp / trekking, qu'un CdS soit exigé ou non. Les moniteurs :
+- organisent si possible les déplacements en transports publics ; connaissent et respectent les règles de la circulation ;
+- en voiture ou minibus : conducteurs avec les permis requis (p. ex. selon le nombre de places assises) et les compétences pour rouler en sécurité ; participants attachés ; bagages placés sans danger ; enfants de moins de 12 ans ou de moins de 150 cm (selon l'enfant) dans un dispositif de retenue approprié, au siège passager comme sur la banquette arrière ;
+- adoptent des formes d'organisation claires : des responsables désignés en tête et en queue du groupe ;
+- à vélo, VTT, trottinette ou en patins en ligne : casque porté et correctement ajusté, engins en bon état ; technique de pédalage et de freinage enseignée avant ; vitesse adaptée, seulement les voies et chemins autorisés à l'engin ; bien visibles (bandes réfléchissantes) ; patins avec frein et protections (poignets, coudes, genoux), pour les moniteurs comme pour les participants ; technique de chute apprise dans un cadre approprié avant d'aller dans la circulation.
 
 ## Trois types de CdS
 
@@ -63,9 +71,22 @@ Trois facteurs : conditions (météo, saison, heure), terrain et environs, group
 
 Le 3x3 sert d'abord aux activités itinérantes (randonnée, raquettes, descente de rivière) mais convient à toute activité dangereuse. Il identifie les dangers, le CdS répond. Lignes « sur place » et « pendant » : questions posées plus tard, légitimes.
 
+## Aide à la décision J+S
+
+La page web J+S « La sécurité dans le Sport de camp/Trekking » (publiée le 04.11.2025) pose quatre questions avant une activité soumise à des dispositions de sécurité particulières. La responsabilité principale de toutes les activités du camp reste à la direction du camp.
+
+| Question | Oui | Non |
+|---|---|---|
+| 1. Activité exclue de J+S (sports exclus) ? | non réalisable | question 2 |
+| 2. Exigences de formation des moniteurs (sports à dispositions particulières, domaines de sécurité) ? | remplies : question 3 ; non remplies : non réalisable | question 3 |
+| 3. Le 3x3 détaillé révèle des risques importants ? | réductibles par des mesures préventives : question 4 ; sinon non réalisable | question 4 |
+| 4. Des participants mal à l'aise avec l'activité ? | l'adapter pour que tous soient à l'aise ; sinon, activités de remplacement à choix, elles aussi passées à l'aide à la décision | suite de la planification |
+
+Pour la suite (planification, réalisation, évaluation) : 3x3 recommandé en continu ; les incertitudes se discutent dans l'équipe ou avec le coach J+S.
+
 ## Cycle J+S de gestion des risques (2026)
 
-Les modules d'apprentissage J+S « Sécurité dans la planification » et « Sécurité dans la réalisation » (octobre 2026, avec « Planifier une randonnée », à suivre dans cet ordre) donnent un cycle en trois étapes, plus une quatrième pour l'urgence. Commencer par vérifier dans l'aide-mémoire J+S Prévention des accidents si l'activité est permise et à quelles conditions (activités exclues, domaines de sécurité).
+Les modules d'apprentissage J+S « Sécurité dans la planification » et « Sécurité dans la réalisation » (octobre 2026, avec « Planifier une randonnée », à suivre dans cet ordre) donnent un cycle en trois étapes, plus une quatrième pour l'urgence. Commencer par vérifier dans l'aide-mémoire J+S Prévention des accidents si l'activité est permise et à quelles conditions (activités exclues, domaines de sécurité) : c'est l'objet des questions 1 et 2 de l'aide à la décision.
 
 | Étape | En planification | Pendant l'activité |
 |---|---|---|

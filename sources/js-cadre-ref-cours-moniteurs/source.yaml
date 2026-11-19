@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-cadre-ref-cours-moniteurs        # <issuer>-<slug>, stable, voir METHODE.md
+title: Cadre de référence – Cours de moniteur·rice·s J+S Sport de camp/Trekking
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 101.01.fr                          # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                            # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Tableaux d’objectifs (§5, p.8 et suivantes) : les objectifs numérotés (N° + texte) sont complets et dans l’ordre, mais les colonnes « Propositions de contenus » et « Ressources disponibles » sont rendues en blocs séparés des objectifs, dans un ordre de lecture mélangé : l’association d’un contenu ou d’une ressource à un objectif précis (une ligne du PDF) est perdue, comme parfois celle du thème (cellule fusionnée). Pour les rattachements, se reporter au PDF.'                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '1.0'                          # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-11-19                   # (script) date de téléchargement
+sha256: e2bb3d7ce04b6ae3d749fe0708e4e5afa5ba795d30a0468c0e9ac98c310334b8 # (script)
+pages: 16                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: 2027-01-01                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: prescription                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [expert-js, formateur]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation, camp]               # vocabulaire dans docs/taxonomie.md
+concepts: [cours-de-base, objectifs-d-apprentissage, niveau-d-approfondissement, qualification, camp, sport-de-camp, securite]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Cadre de référence J+S pour expert·e·s SdC/T, Version 1.0 (OFSPO), diffusé sur l’extranet J+S ILIAS derrière login : url et file_url vides, pas de date de publication. applies_from 2027-01-01 déduit : cadres de référence 2027. Texte correct (ordre de lecture propre pour le texte courant) ; fidélité partielle, voir fidelity_notes. Aucun nom ni identifiant dans les sections. Contenu : Cours de moniteur·rice·s (6 jours, 36 h). Prescription : durée minimale, admission dès 17 ans, reconnaissance de moniteur·rice J+S SdC/T, 3 domaines, 10+4+9 objectifs (1.1-1.10, 2.1-2.4, 3.1-3.9).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

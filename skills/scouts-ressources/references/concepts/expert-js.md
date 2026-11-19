@@ -10,6 +10,11 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cofor-pano-combinaison-module-js` — Mémento pour la combinaison d'un cours Panorama avec un module de formation continue J+S (1 section, [index](../../corpus/cofor-pano-combinaison-module-js/index.md))
 - `js-activites-de-qualite-transmettre` — Des activités J+S de qualité – Transmettre (jeu de cartes) (7 sections, [index](../../corpus/js-activites-de-qualite-transmettre/index.md))
 - `js-aide-memoire-prevention-accidents-sct@2025` — Prévention des accidents et exigences en matière de sécurité en sport de camp/trekking (aide-mémoire J+S et BPA) (5 sections, [index](../../corpus/js-aide-memoire-prevention-accidents-sct/index.md))
+- `js-cadre-ref-module-activites-sdct@1.0` — Cadre de référence – Module J+S « Activités SdC/T » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-activites-sdct/index.md))
+- `js-cadre-ref-module-cordes-constructions@1.0` — Cadre de référence – Module J+S « Technique de cordes et constructions » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-cordes-constructions/index.md))
+- `js-cadre-ref-module-eau@1.0` — Cadre de référence – Module J+S « Eau » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-eau/index.md))
+- `js-cadre-ref-module-hiver@1.0` — Cadre de référence – Module J+S « Hiver » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-hiver/index.md))
+- `js-cadre-ref-module-montagne@1.0` — Cadre de référence – Module J+S « Montagne » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-montagne/index.md))
 - `js-communication@2012` — Communication – modèles et applications (45 sections, [index](../../corpus/js-communication/index.md))
 - `js-conception-js@2022` — Conception Jeunesse+Sport (version abrégée) (8 sections, [index](../../corpus/js-conception-js/index.md))
 - `js-ethique-diapositives` — Des activités J+S respectueuses des valeurs éthiques (diapositives pour les fédérations) (1 section, [index](../../corpus/js-ethique-diapositives/index.md))
@@ -24,10 +29,11 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-poster-regles-de-comportement` — Règles de comportement dans la formation de base et continue (poster) (1 section, [index](../../corpus/js-poster-regles-de-comportement/index.md))
 - `js-regles-comportement-exemple` — Exemple de mise en œuvre des règles de comportement – charte du cours ou du module et application de mesures (1 section, [index](../../corpus/js-regles-comportement-exemple/index.md))
 - `js-securite-l-essentiel@2021` — La sécurité dans Jeunesse+Sport – l'essentiel en bref (1 section, [index](../../corpus/js-securite-l-essentiel/index.md))
+- `js-securite-sport-de-camp-trekking@2026-11-19` — La sécurité dans le Sport de camp/Trekking (1 section, [index](../../corpus/js-securite-sport-de-camp-trekking/index.md))
 - `js-sequences-apprentissage-numeriques` — Utilisation des séquences d'apprentissage numériques (SA) dans le cycle d'enseignement / d'apprentissage (1 section, [index](../../corpus/js-sequences-apprentissage-numeriques/index.md))
 - `msds-offre-mpe-2027` — Modules J+S de perfectionnement expert·e (MPE) SdC/T 2027 (1 section, [index](../../corpus/msds-offre-mpe-2027/index.md))
 - `msds-ticket` — Ticket – fil conducteur pour l'inscription aux cours (1 section, [index](../../corpus/msds-ticket/index.md))
 
 ## Concepts liés
 
-[ethique](ethique.md), [securite](securite.md), [modele-de-formation](modele-de-formation.md), [methodes-d-enseignement](methodes-d-enseignement.md), [coach-js](coach-js.md), [regles-de-comportement](regles-de-comportement.md), [eau](eau.md), [administration-de-cours](administration-de-cours.md)
+[securite](securite.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [ethique](ethique.md), [modele-de-formation](modele-de-formation.md), [methodes-d-enseignement](methodes-d-enseignement.md), [coach-js](coach-js.md), [qualification](qualification.md), [eau](eau.md)

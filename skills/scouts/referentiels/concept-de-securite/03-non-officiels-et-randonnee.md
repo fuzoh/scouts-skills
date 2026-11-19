@@ -7,7 +7,7 @@ Jamais bloquants ; à formuler comme conseils ou pratiques.
 [non officiel] Les risques sont classés en catégories (terrain, météo, groupe, atypiques) : exemple inspiré du 3x3, classement libre ; ce qui compte est la couverture des risques plausibles, sans lister l'inapplicable ni l'improbable.
 [non officiel] Règle « risque récurrent au CdS global, risque spécifique au CdS d'activité » : approche générale, très pratiquée.
 [non officiel] Fiches plastifiées ORA, 4H, ABCDE distribuées aux responsables : conseillé, selon l'expérience de l'équipe.
-[non officiel] Annexes typiques et utiles, non exigées : ORA, protocole du patient, pharmacie, Helpline, aide à la décision, « Crise : que faire ? », feuille d'urgence. Concepts à couvrir quelque part dans le dossier, pas documents à exiger.
+[non officiel] Annexes typiques et utiles, non exigées : ORA, protocole du patient, pharmacie, Helpline, « Crise : que faire ? », feuille d'urgence. Concepts à couvrir quelque part dans le dossier, pas documents à exiger.
 [non officiel] Signature du CdS par chaque responsable : pratiquée par certains groupes, pas obligatoire ; l'essentiel est que toute l'équipe l'ait vu (copie en voiture et sous la tente).
 [non officiel] Avertissement en tête du CdS pour les activités à risque élevé : activité à risque, personnes compétentes seulement, référent nommé et doubleur.
 [non officiel] Activité à risque élevé : essais progressifs, liberté de participer, fatigue des responsables prise en compte.

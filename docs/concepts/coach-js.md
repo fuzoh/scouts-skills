@@ -24,6 +24,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-conception-js@2022` — Conception Jeunesse+Sport (version abrégée) (8 sections, [index](../../sources/js-conception-js/index.md))
 - `js-developpement-equipe-moniteurs` — Encourager un développement de l'équipe des moniteurs fondé sur des valeurs (1 section, [index](../../sources/js-developpement-equipe-moniteurs/index.md))
 - `js-guide-offres-sct@2023` — Guide pour la réalisation d'offres J+S Sport de camp/Trekking (1 section, [index](../../sources/js-guide-offres-sct/index.md))
+- `js-guide-offres-tous-sports@2026-11-19` — Guide pour les offres de tous les sports J+S et de tous les organisateurs (1 section, [index](../../sources/js-guide-offres-tous-sports/index.md))
 - `js-guide-prestations-speciales@2022` — Guide concernant les prestations spéciales pour les offres de sport J+S et la formation des cadres J+S (1 section, [index](../../sources/js-guide-prestations-speciales/index.md))
 - `js-manuel-coach@2023` — Manuel des coachs J+S (15 sections, [index](../../sources/js-manuel-coach/index.md))
 - `js-manuel-experts-coachs@2024` — Manuel J+S pour les experts coachs J+S (32 sections, [index](../../sources/js-manuel-experts-coachs/index.md))
@@ -44,4 +45,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[securite](securite.md), [sport-de-camp](sport-de-camp.md), [camp](camp.md), [planification](planification.md), [accompagnement](accompagnement.md), [expert-js](expert-js.md), [evaluation](evaluation.md), [relations](relations.md)
+[securite](securite.md), [sport-de-camp](sport-de-camp.md), [camp](camp.md), [planification](planification.md), [accompagnement](accompagnement.md), [expert-js](expert-js.md), [evaluation](evaluation.md), [js](js.md)

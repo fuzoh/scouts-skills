@@ -10,7 +10,7 @@ parametres:
   - {nom: effectifs, obligatoire: false}
   - {nom: durée, obligatoire: false}
 inclut: [activite-js, concept-de-securite]
-derive_de: {slug: programme-camp, relu_le: 2026-10-21}
+derive_de: {slug: programme-camp, relu_le: 2026-11-19}
 statut: valide
 ---
 Lire tous les fichiers du dossier dans l'ordre.

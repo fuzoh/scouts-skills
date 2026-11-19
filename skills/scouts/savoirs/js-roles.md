@@ -1,8 +1,8 @@
 ---
 titre: Rôles J+S en camp scout (moniteur, responsable de camp, coach, expert)
 theme: js
-sert_a: "Qui fait quoi côté J+S : moniteur SdC/T, responsable de camp, coach J+S, expert J+S, modules de sécurité, qui lit ou autorise"
-derive_de: [js-guide-offres-sct, js-aide-memoire-prevention-accidents-sct, msds-hering-camps, js-manuel-sport-de-camp-trekking, js-sdct-camp, msds-reglement-de-camp, msds-autorisation-de-camp, msds-essentiel-msds-js-2027, js-structure-formation-sdct, concepts coach-js et expert-js]
+sert_a: "Qui fait quoi côté J+S : moniteur SdC/T, responsable de camp, coach J+S, expert J+S, modules de sécurité et leur validité, qui lit ou autorise"
+derive_de: [js-guide-offres-sct, js-guide-offres-tous-sports, js-aide-memoire-prevention-accidents-sct, msds-hering-camps, js-manuel-sport-de-camp-trekking, js-sdct-camp, msds-reglement-de-camp, msds-autorisation-de-camp, msds-essentiel-msds-js-2027, js-structure-formation-sdct, cofor-guide-admin-formations-eau, concepts coach-js et expert-js, infolettre J+S aux experts SdC/T du 17.11.2026 (non ingérée)]
 statut: valide
 ---
 
@@ -17,7 +17,8 @@ statut: valide
 
 ## Moniteur SdC/T
 
-- Jusqu'en 2026, la reconnaissance dépend du groupe cible : enfants, jeunes, ou les deux pour un groupe mixte ; sinon on engage un moniteur supplémentaire avec la reconnaissance manquante (guide des offres 2023). Dès 2027, une seule reconnaissance « moniteur J+S Sport de camp/Trekking » couvre les 5 à 20 ans (exigences J+S 2027) ; les reconnaissances existantes y sont transférées et leur statut de validité ne change pas.
+- Jusqu'en 2026, la reconnaissance dépend du groupe cible : enfants, jeunes, ou les deux pour un groupe mixte ; sinon on engage un moniteur supplémentaire avec la reconnaissance manquante (guide des offres 2023). Dès 2027, une seule reconnaissance « moniteur J+S Sport de camp/Trekking » couvre les 5 à 20 ans (exigences J+S 2027) : tout moniteur reconnu peut être engagé pour tous les âges de 5 à 20 ans (newsletter MSdS 2027). Les reconnaissances existantes y sont transférées et leur statut de validité ne change pas (les reconnaissances supplémentaires de domaine de sécurité ont leur propre durée, voir plus bas). La conception des offres tient toujours compte de l'âge et du degré de développement des participants ; les cours de moniteurs peuvent garder des accents par groupe cible (infolettre J+S aux experts SdC/T du 17.11.2026).
+- Pour diriger un camp, la reconnaissance doit avoir le statut « valable », avec les reconnaissances supplémentaires nécessaires (guide J+S des offres en ligne, 28.07.2026).
 - Un moniteur dirige chaque sous-groupe d'activité J+S.
 - Le cours de moniteurs porte sur les activités ; la planification générale et la gestion d'un camp relèvent de la formation continue de responsable de camp (manuel Sport de camp / Trekking).
 
@@ -52,6 +53,7 @@ statut: valide
 
 - Trois domaines de sécurité : montagne, hiver, eau. Leurs activités sont soumises à des dispositions de sécurité particulières.
 - Les responsables qui les conduisent ont la reconnaissance complémentaire du module de sécurité correspondant (Sardine).
+- Depuis le 01.01.2026, la validité des reconnaissances supplémentaires Montagne, Eau, Hiver est limitée à quatre ans. Renouvellement par une formation continue dans le domaine de la sécurité, par exemple en suivant ou en co-dirigeant un module J+S Domaine de sécurité (Montagne, Eau ou Hiver ; un module thématique d'un jour ne renouvelle pas le complément, mainteneur) ; les experts ont d'autres possibilités dans leurs modules de perfectionnement (MP-Exp) (infolettre J+S aux experts SdC/T du 17.11.2026). Pour une reconnaissance obtenue avant 2026, le point de départ des quatre ans n'est pas précisé : voir avec le coach. Ne pas confondre avec le module Lac de la SSS, qui a sa propre règle (suspendu après quatre ans, non valable après huit, guide administratif cofor des formations Eau).
 - Formation continue « Foundation » (dès 2027, après le cours de moniteurs) : des offres qui mènent à une reconnaissance supplémentaire (Responsable de camp, domaine de sécurité Hiver, Eau ou Montagne, 4 jours chez J+S) et des modules sans reconnaissance supplémentaire (activités SdC/T, nature et environnement, durabilité, diversité et inclusion, prévention, techniques de cordes et constructions, hiver, eau, montagne). L'ancien module de perfectionnement aux thèmes alternés disparaît. Durées scoutes : le modèle de formation fait foi (formation-cours-continue).
 - Devenir expert : après la formation de base, au moins deux offres de formation continue Foundation, dont au moins une avec reconnaissance supplémentaire, puis le cours Top (formation).
 

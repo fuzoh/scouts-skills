@@ -145,11 +145,49 @@ def _mark_anchors(html: str) -> str:
     return lh.tostring(tree, encoding="unicode")
 
 
+_HIDDEN_STYLE_RE = re.compile(r"(?:visibility\s*:\s*hidden|display\s*:\s*none)\s*;?", re.I)
+
+
+def _reveal_accordions(html: str) -> str:
+    """Rend visible le contenu des accordéons (jugendundsport.ch : `visibility:hidden` en ligne
+    sur `.accordion__content`) : trafilatura écarte sinon un texte pourtant présent dans le HTML."""
+    from lxml import html as lh
+
+    try:
+        tree = lh.fromstring(html)
+    except Exception:
+        return html
+    # Le titre d'un item est un <h3> dans un <button> : trafilatura le perd. Il devient un
+    # paragraphe en gras, et le bouton une simple boîte.
+    for el in tree.xpath('//*[contains(@class, "accordion__title")]'):
+        text = el.text_content().strip()
+        for child in list(el):
+            el.remove(child)
+        el.tag = "p"
+        el.attrib.clear()  # trafilatura écarte les blocs dont la classe évoque un bouton ou un titre
+        el.text = None
+        strong = lh.Element("strong")
+        strong.text = text
+        el.append(strong)
+    for el in tree.xpath('//button[contains(@class, "accordion")]'):
+        el.tag = "div"
+        el.attrib.clear()
+    for el in tree.xpath('//*[contains(@class, "accordion") and @style]'):
+        style = el.get("style") or ""
+        cleaned = _HIDDEN_STYLE_RE.sub("", style).strip()
+        if cleaned != style.strip():
+            if cleaned:
+                el.set("style", cleaned)
+            else:
+                del el.attrib["style"]
+    return lh.tostring(tree, encoding="unicode")
+
+
 def html_to_markdown(html: str, url: str) -> str:
     import trafilatura
 
     md = trafilatura.extract(
-        _mark_anchors(html), url=url, output_format="markdown",
+        _mark_anchors(_reveal_accordions(html)), url=url, output_format="markdown",
         include_tables=True, include_links=True, include_images=False, favor_recall=True,
     )
     if not md:

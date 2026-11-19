@@ -29,6 +29,11 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cudesch-smt@2026-10-17` — SMT – Scout·e·s Malgré Tout (35 sections, [index](../../corpus/cudesch-smt/index.md))
 - `cudesch-table-des-matieres` — cudesch – table des matières détaillée, avec correspondance aux contenus des cours de base et RU (1 section, [index](../../corpus/cudesch-table-des-matieres/index.md))
 - `js-bases-technique-sportive-sdct` — Bases de la technique sportive SdC/T – pour les moniteurs·trices Sport de camp / Trekking (1 section, [index](../../corpus/js-bases-technique-sportive-sdct/index.md))
+- `js-cadre-ref-cours-introduction@1.0` — Cadre de référence – Cours introduction J+S Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-cours-introduction/index.md))
+- `js-cadre-ref-cours-moniteurs@1.0` — Cadre de référence – Cours de moniteur·rice·s J+S Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-cours-moniteurs/index.md))
+- `js-cadre-ref-cours-moniteurs-ped@1.0` — Cadre de référence – Cours de moniteur·rice·s J+S pour personnes avec formation péd. Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-cours-moniteurs-ped/index.md))
+- `js-cadre-ref-module-nature-environnement@1.0` — Cadre de référence – Module J+S « Nature et environnement » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-nature-environnement/index.md))
+- `js-cadre-ref-module-responsable-camp@1.0` — Cadre de référence – Module J+S « Responsable de camp » Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-module-responsable-camp/index.md))
 - `js-checklist-sapc-responsable-camp` — Check-list responsable de camp – séquences d'activité physique complémentaires (SAPC) (1 section, [index](../../corpus/js-checklist-sapc-responsable-camp/index.md))
 - `js-commande-materiel-pret-sct@2021` — Commande de matériel de prêt J+S : Sport de camp/Trekking (formulaire) (1 section, [index](../../corpus/js-commande-materiel-pret-sct/index.md))
 - `js-ethique-module-chef-de-camp` — Bloc de cours Valeurs et éthique – module Chef·fe de camp (pour expert·e·s) (1 section, [index](../../corpus/js-ethique-module-chef-de-camp/index.md))
@@ -56,4 +61,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[securite](securite.md), [planification](planification.md), [sport-de-camp](sport-de-camp.md), [activite-de-camp](activite-de-camp.md), [coach-js](coach-js.md), [trekking](trekking.md), [autorisation-de-camp](autorisation-de-camp.md), [js](js.md)
+[securite](securite.md), [sport-de-camp](sport-de-camp.md), [planification](planification.md), [activite-de-camp](activite-de-camp.md), [coach-js](coach-js.md), [trekking](trekking.md), [autorisation-de-camp](autorisation-de-camp.md), [js](js.md)

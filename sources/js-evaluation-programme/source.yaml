@@ -20,7 +20,7 @@ decision: keep                          # keep | rejected, rempli au triage
 rejected_reason: ''
 extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
 fidelity: partial                       # complete | partial ; vide = complete non évalué ; obligatoire à verified
-fidelity_notes: 'Les accordéons de la page (questions standard du questionnaire, instructions, FAQ : évaluations, collaboration et rôles, questions libres supplémentaires, modules courts d''un jour, liste des sports) et les tutoriels vidéo sont perdus par trafilatura même avec --render ; seuls leurs titres figurent dans raw/.' # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+fidelity_notes: 'Les tutoriels vidéo ne sont pas transcrits. Les accordéons (questionnaire standard, instructions, FAQ) sont conservés depuis la reconversion du 2026-11-19.' # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
 
 version: '2026-10-21'                   # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
 published: null                         # date du document, null si inconnue
@@ -39,5 +39,5 @@ concepts: [js, ofspo, bdns, chef-de-cours] # termes du GLOSSARY.md, ex. [cours-d
 supersedes: []                          # ids remplacés par cette source
 history: []                             # versions précédentes : {version, published, sha256, retired}
 
-notes: 'Page jugendundsport.ch, une page = une section ; ancres présentes (<!-- #… -->) pour les titres. Le questionnaire standard et la FAQ sont sur la page mais absents de raw/ ; les titres de la FAQ (Évaluations, Collaboration et rôles, Questions libres supplémentaires dans l''évaluation, Évaluation des modules courts d''un jour) n''ont plus de réponses. Contenu complémentaire : js-module-evaljs (mise en œuvre pas à pas). Neuf par rapport aux PDF J+S de 2014 : évaluation systématique en ligne de tous les cours et modules, rapport annuel de l''OFSPO.' # remarques humaines : qualité, pièges, chapitres à ignorer
+notes: 'Page jugendundsport.ch, une page = une section ; ancres présentes (<!-- #… -->) pour les titres. Le questionnaire standard et la FAQ (Évaluations, Collaboration et rôles, Questions libres supplémentaires, Modules courts d''un jour) sont dans raw/ depuis la reconversion du 2026-11-19 (accordéons conservés par convert). Contenu complémentaire : js-module-evaljs (mise en œuvre pas à pas). Neuf par rapport aux PDF J+S de 2014 : évaluation systématique en ligne de tous les cours et modules, rapport annuel de l''OFSPO.' # remarques humaines : qualité, pièges, chapitres à ignorer
 redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-cadre-ref-module-montagne        # <issuer>-<slug>, stable, voir METHODE.md
+title: Cadre de référence – Module J+S « Montagne » Sport de camp/Trekking
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 111.01.fr                          # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                         # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                          # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                       # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Les tableaux d''objectifs (chap. 5) sont en colonnes Thème / N° / Objectifs / Propositions de contenus / Ressources disponibles qui courent sur plusieurs pages : l''extraction sépare les colonnes et les ressources disponibles apparaissent en listes détachées, souvent avant la ligne à laquelle elles appartiennent, et à cheval sur les sauts de page. Le texte de chaque objectif et de chaque liste de contenus est complet ; l''attribution ressources -> objectif et, par endroits, contenus -> objectif (thème, numéro, objectif et contenus sont dans l''ordre des blocs) n''est pas fiable. Les liens des ressources ne sont pas conservés comme cibles utiles.'                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '1.0'                          # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-11-19                   # (script) date de téléchargement
+sha256: 725798cdacdcb3e35ad43d5230d0e0a583aec4fae8370fdeab59f94996c38f5b # (script)
+pages: 12                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: 2027-01-01             # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: prescription                # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [expert-js, formateur]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation, securite]           # vocabulaire dans docs/taxonomie.md
+concepts: [objectifs-d-apprentissage, niveau-d-approfondissement, qualification, expert-js, montagne, securite]   # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Cadre de référence J+S SdC/T 2027 pour expert·e·s (OFSPO, extranet ILIAS), contraignant seulement pour les objectifs. Module thématique « Montagne » (formation continue, 1 jour de 6 h, prolonge les reconnaissances), distinct du module « Domaine de sécurité Montagne » : le chap. 5 cite parmi les contenus « Délimitation d''avec le domaine de sécurité ». Coquille de la source : « p. 42-29 » (lire 42-49). Extranet J+S ILIAS derrière login : url et file_url vides. applies_from déduit : cadres de référence 2027 (aucune date dans le document ; « Version 1.0 »).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

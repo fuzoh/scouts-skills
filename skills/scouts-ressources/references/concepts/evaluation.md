@@ -21,6 +21,9 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-activites-de-qualite-transmettre` — Des activités J+S de qualité – Transmettre (jeu de cartes) (7 sections, [index](../../corpus/js-activites-de-qualite-transmettre/index.md))
 - `js-coach-preparer-l-avenir@2013` — Coach J+S – Préparer l'avenir (15 sections, [index](../../corpus/js-coach-preparer-l-avenir/index.md))
 - `js-coach-preserver-l-equipe@2013` — Le coach J+S – Préserver l'équipe (14 sections, [index](../../corpus/js-coach-preserver-l-equipe/index.md))
+- `js-docs-module-securite-eau-2014` — Documents du module « Domaine de sécurité Eau » – Sport de camp/Trekking (2014) (1 section, [index](../../corpus/js-docs-module-securite-eau-2014/index.md))
+- `js-docs-module-securite-hiver-2014` — Documents du module « Domaine de sécurité Hiver » – Sport de camp/Trekking (2014) (1 section, [index](../../corpus/js-docs-module-securite-hiver-2014/index.md))
+- `js-docs-module-securite-montagne-2014` — Documents du module « Domaine de sécurité Montagne » – Sport de camp/Trekking (2014) (1 section, [index](../../corpus/js-docs-module-securite-montagne-2014/index.md))
 - `js-emploi-images-apprentissage@2014` — L'emploi d'images dans l'apprentissage – module de perfectionnement (9 sections, [index](../../corpus/js-emploi-images-apprentissage/index.md))
 - `js-planification-dans-le-sport@2016` — La planification dans le sport (11 sections, [index](../../corpus/js-planification-dans-le-sport/index.md))
 - `msds-ancre@Version 23` — L'Ancre – fil conducteur pour l'administration des cours MSdS (19 sections, [index](../../corpus/msds-ancre/index.md))
@@ -32,4 +35,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[planification](planification.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [retour](retour.md), [methodes-d-enseignement](methodes-d-enseignement.md), [coach-js](coach-js.md), [qualification](qualification.md), [chef-de-cours](chef-de-cours.md), [accompagnement](accompagnement.md)
+[planification](planification.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [qualification](qualification.md), [retour](retour.md), [methodes-d-enseignement](methodes-d-enseignement.md), [securite](securite.md), [coach-js](coach-js.md), [chef-de-cours](chef-de-cours.md)

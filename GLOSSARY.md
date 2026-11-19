@@ -21,6 +21,7 @@ Termes partagés par tous les skills. Une ligne par terme : `slug` (identique à
 | coach-js | Coach J+S | — | Gère l'offre J+S de son organisation : administration, conditions cadres, présences, inscription des moniteur·trice·s aux cours. | js-manuel-coach |
 | expert-js | Expert·e J+S | — | Forme, conseille, accompagne et qualifie les adultes dans les cours de cadres J+S ; modèle et facilitateur d'apprentissage. | js-manuel-experts |
 | modele-de-formation | Modèle de formation MSdS | — | Document cadre : vue d'ensemble des cours, dispositions générales et descriptions de cours (conditions, buts, objectifs). | msds-modele-de-formation |
+| cadre-de-reference | Cadre de référence J+S | — | Document OFSPO par cours ou module J+S (dès 2027, SdC/T 101.01.fr à 116.01.fr) : fiche du cours (durée, admission, reconnaissance), objectifs seuls contraignants, contenus et ressources indicatifs ; remplace le plan cadre de formation. | js-cadre-ref-cours-moniteurs |
 | cours-de-base | Cours de base | — | Cours de moniteur·trice SdC/T (7 à 9 jours, dès 17 ans) menant à la maîtrise d'une unité. | msds-modele-de-formation |
 | cours-ru | Cours RU | RU | Cours de responsable d'unité (7 à 9 jours, dès 18 ans, après cours de base) ; mène à RU, responsable de branche ou de camp. | msds-modele-de-formation |
 | cours-rg | Cours RG | RG | Cours de responsable de groupe (2 à 6 jours, dès 18 ans, organisé par l'AC). | msds-modele-de-formation |

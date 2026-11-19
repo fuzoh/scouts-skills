@@ -3,13 +3,14 @@
 - version : 0.8.0 <!-- x-release-please-version -->
 - source : https://github.com/fuzoh/scouts-skills
 - scope : complet
-- sources : 191
-- sections : 1741
+- sources : 215
+- sections : 1820
 - référentiels : 5
 
 ## Sources embarquées
 
 - `autre-aide-memoire-toile-de-tente`
+- `autre-armee-cartes-rivieres@2011-04-01`
 - `autre-autorisation-camp-vaud@2024`
 - `autre-camp-equitable-documents`
 - `autre-canevas-ac-vierge`
@@ -87,7 +88,24 @@
 - `js-aide-memoire-securite-eau@2024`
 - `js-apprentissage-dans-le-sport@2012`
 - `js-apprentissage-en-mouvement@2013`
+- `js-autorisation-modules-securite`
 - `js-bases-technique-sportive-sdct`
+- `js-cadre-ref-cours-introduction@1.0`
+- `js-cadre-ref-cours-moniteurs@1.0`
+- `js-cadre-ref-cours-moniteurs-ped@1.0`
+- `js-cadre-ref-module-activites-sdct@1.0`
+- `js-cadre-ref-module-cordes-constructions@1.0`
+- `js-cadre-ref-module-diversite-inclusion@1.0`
+- `js-cadre-ref-module-durabilite@1.0`
+- `js-cadre-ref-module-eau@1.0`
+- `js-cadre-ref-module-hiver@1.0`
+- `js-cadre-ref-module-montagne@1.0`
+- `js-cadre-ref-module-nature-environnement@1.0`
+- `js-cadre-ref-module-prevention@1.0`
+- `js-cadre-ref-module-responsable-camp@1.0`
+- `js-cadre-ref-module-securite-eau@1.0`
+- `js-cadre-ref-module-securite-hiver@1.0`
+- `js-cadre-ref-module-securite-montagne@1.0`
 - `js-checklist-coach`
 - `js-checklist-sapc-coach`
 - `js-checklist-sapc-responsable-camp`
@@ -101,6 +119,9 @@
 - `js-cyclisme-vtt@2017`
 - `js-depliant-facteur-humain@2019`
 - `js-developpement-equipe-moniteurs`
+- `js-docs-module-securite-eau-2014`
+- `js-docs-module-securite-hiver-2014`
+- `js-docs-module-securite-montagne-2014`
 - `js-emploi-images-apprentissage@2014`
 - `js-ethique-diapositives`
 - `js-ethique-formation-de-base`
@@ -119,6 +140,7 @@
 - `js-guide-boussole-ethique@01/2025`
 - `js-guide-materiel-de-pret@05.2025`
 - `js-guide-offres-sct@2023`
+- `js-guide-offres-tous-sports@2026-11-19`
 - `js-guide-prestations-speciales@2022`
 - `js-intro-manuel-experts-diapos`
 - `js-kids-fete-des-jeux@2010`
@@ -136,6 +158,7 @@
 - `js-modele-prog-general-sport-enfants@2014`
 - `js-modele-prog-general-sport-jeunes@2014`
 - `js-module-bases-sdct@2026-10-21`
+- `js-module-conception-formation@2026-11-19`
 - `js-module-directives-sdct@2026-10-21`
 - `js-module-evaljs@2026-10-21`
 - `js-module-planifier-activite-js@2026-10-21`
@@ -155,6 +178,7 @@
 - `js-sdct-hiver@2019, 5e édition actualisée`
 - `js-sdct-montagne@2014`
 - `js-securite-l-essentiel@2021`
+- `js-securite-sport-de-camp-trekking@2026-11-19`
 - `js-sequences-apprentissage-numeriques`
 - `js-sport-des-enfants-bases@2015, 3e éd. modifiée`
 - `js-sport-des-enfants-exemples@2015`
