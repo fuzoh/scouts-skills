@@ -101,7 +101,7 @@ Les seuils et exigences par activité sont dans (securite-domaines) ; ici le par
 |---|---|
 | Module J+S Eau SdC/T | moniteurs SdC/T ; équivaut au brevet SSS Base Pool et au module Lac ; permet de surveiller baignade et jeux d'eau |
 | Module interdisciplinaire « Surveillant Eau » | mêmes contenus, proposé par J+S avec la SSS, ouvert aux moniteurs J+S de toutes disciplines ; ne comprend jamais le brevet Plus Pool |
-| Module J+S Domaine de sécurité Eau (4 jours) | donne le complément « Eau » et comprend le module Rivière SSS ; admission 2027 : module Eau SdC/T ou Base Pool, avec module Lac SSS, et cours de sauveteur (Plus Pool seul n'est plus cité) ; seul ce module, pas le seul module Rivière SSS, autorise la conduite de bateaux ou radeaux en eaux vives ; détail : (formation-modules-securite) |
+| Module J+S Domaine de sécurité Eau (4 jours) | donne le complément « Eau » et comprend le module Rivière SSS ; admission 2027 : module Eau SdC/T, ou Base Pool avec module Lac SSS ; cours de sauveteur (Plus Pool seul : à faire confirmer par la direction du module) ; seul ce module, pas le seul module Rivière SSS, autorise la conduite de bateaux ou radeaux en eaux vives ; détail : (formation-modules-securite) |
 | Brevet Plus Pool SSS | option intégrable au module Eau (3 h supplémentaires) ; suppose BLS-AED ; inutile pour les activités J+S et scoutes |
 | Module BLS-AED | réanimation et défibrillateur ; recommandé pour toute activité en eaux non surveillées ; non combinable directement avec un module J+S, mais rattachable ou à faire la veille |
 | Cours SSS seuls (Base Pool, Plus Pool, Lac, Rivière et rappels) | alternative aux modules J+S ; ne renouvelle pas la reconnaissance J+S |

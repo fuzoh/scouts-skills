@@ -8,15 +8,15 @@ statut: valide
 
 ## Trois domaines de sécurité J+S
 
-Ils relèvent du sport de camp / trekking. Les exigences valent pour les activités annoncées J+S comme pour les activités purement scoutes (cudesch Sécurité). Deux définitions coexistent : celle du cudesch Sécurité et celle de l'aide-mémoire J+S Prévention des accidents (10/2025, reprise par la page web J+S « La sécurité dans le Sport de camp/Trekking »). Par prudence, le domaine s'applique dès que l'une des deux est remplie.
+Ils relèvent du sport de camp / trekking. Les exigences valent pour les activités annoncées J+S comme pour les activités purement scoutes (cudesch Sécurité). La définition qui fait foi est celle de l'aide-mémoire J+S Prévention des accidents (10/2025, reprise par la page web J+S « La sécurité dans le Sport de camp/Trekking »). Le cudesch Sécurité va plus loin sur quelques points : ce sont des recommandations du MSdS, à signaler, pas des cas de domaine.
 
-| Domaine | Seuil du cudesch : module J+S requis | Définition J+S (aide-mémoire 10/2025) |
+| Domaine | Cudesch Sécurité (recommandation MSdS là où il va plus loin) | Définition J+S, qui fait foi (aide-mémoire 10/2025) |
 |---|---|---|
 | Montagne | randonnée en montagne exigeante (T3, échelle CAS) avec nuitée au-dessus de la limite de la forêt, en bivouac ou en cabane | randonnée de plusieurs jours jusqu'à T3 avec bivouac au-dessus de la limite forestière supérieure ; randonnée T3 difficile avec nombreux ou longs passages clés |
 | Hiver | camp d'hiver à un emplacement retiré sans accès garanti l'hiver ; nuitée en bivouac dans la neige (tente, igloo) sans maison de camp ; grande randonnée exigeante en raquettes | camp en région isolée sans garantie d'accès l'hiver ; nuitées sous tente ou igloo sans refuge rapide dans un bâtiment à accès garanti ; raquettes difficiles ou de plusieurs jours |
 | Eau | bateaux ouverts ou radeaux sur cours d'eau ; activités exigeantes : natation en rivière, trekking en rivière, surf en rivière (en plus des exigences rivière) | eaux vives avec bateaux insubmersibles (sit on top, canots gonflables ouverts) ou radeaux ; activités particulièrement difficiles : trekking difficile en rivière ou en ruisseau, natation difficile en rivière, surf en rivière |
 
-La cabane ne figure que dans le cudesch : une nuitée en cabane au-dessus de la limite de la forêt sur un T3 relève donc du domaine.
+Le cudesch dépasse la définition J+S sur trois points : nuitée en cabane au-dessus de la limite de la forêt sur un T3 ; bateaux ouverts ou radeaux sur un cours d'eau hors eaux vives ; natation ou trekking en rivière sans difficulté particulière. Ces cas ne relèvent pas du domaine : ni complément ni autorisation d'expert exigés par J+S. Les signaler comme recommandation du MSdS (module du domaine conseillé) et en parler au coach.
 
 **Exigences communes** (aide-mémoire J+S 10/2025)
 - Planification détaillée avec CdS, évaluée et autorisée par un expert J+S du domaine (transmise par le coach ou le chef de camp).
@@ -39,7 +39,7 @@ La cabane ne figure que dans le cudesch : une nuitée en cabane au-dessus de la 
 | Lac non surveillé | module Eau SC/T, « Surveillant·e Eau » ou module Lac SSS |
 | Nage en rivière | un module du domaine de sécurité Eau ou module Rivière SSS |
 
-Pour les scouts, le cudesch s'ajoute : en lac ou en rivière, la personne comptée par tranche de 12 participants a le module SSS correspondant (Lac, Rivière), et la natation, le trekking ou le surf en rivière demandent en plus le module J+S du domaine Eau.
+Pour les scouts, le cudesch s'ajoute : en lac ou en rivière, la personne comptée par tranche de 12 participants a le module SSS correspondant (Lac, Rivière). Le module J+S du domaine Eau n'est exigé que dans le domaine défini par J+S (eaux vives en bateau ou en radeau, natation ou trekking difficiles en rivière, surf en rivière) ; le cudesch le recommande dès la natation ou le trekking en rivière et pour tout radeau sur un cours d'eau.
 
 Une reconnaissance J+S Canoë-kayak, Aviron, Voile, Triathlon ou Planche à voile vaut pour les trois premiers lieux, pas pour la nage en rivière. Lac et rivière : le nombre de personnes formées suit le cudesch (une par tranche de 12, plus bas). Embarcations insubmersibles ou radeaux pour toute activité sur l'eau ; prescriptions légales (équipement, immatriculation, zones de protection des rives) ; compétences de sauvetage tenues à jour. Eaux vives : jusqu'au degré II inclus, rafting compris. Non autorisé : degré III et plus ; canyoning (exclu de J+S) ; trekking en rivière qui demande la technique alpine ; bateaux fermés (kayak à jupe) ; autres activités aquatiques difficiles à mesures particulières (plongée avec bouteilles). Risque = probabilité × dommage potentiel ; une matrice des risques aide. Mer et étranger : (camp-etranger).
 

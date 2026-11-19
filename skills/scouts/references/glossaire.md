@@ -49,7 +49,7 @@ Sigles et termes d'un document de camp ou de cours. Autres termes : `glossaire-2
 - **Activité J+S** — dès 2027, seule catégorie J+S : au moins 30 min, active et axée sur le mouvement, pour tous, axée sur une ou plusieurs formes caractéristiques.
 - **Journée J+S** — dès 2027, jour de camp avec au moins 4 h d'activités J+S, dont 2 h de temps sportif, sur au moins deux périodes.
 - **Unité d'entraînement** — plage d'activités J+S d'un jour de camp (matin, après-midi, soir) d'au moins 30 min ; deux unités au moins par jour de camp, séparées par un temps social d'au moins 30 min (guide J+S en ligne, état du 28.07.2026).
-- **Journée sans entraînement** — terme du guide J+S : jour de camp de moins de 4 h d'activités J+S, encadré par des moniteurs J+S et non subventionné. Le guide en donne un barème selon la durée du camp ; la Sardine et la check-list MSdS disent au plus un jour sans activités J+S.
+- **Journée sans entraînement** — terme du guide J+S : jour de camp de moins de 4 h d'activités J+S, encadré par des moniteurs J+S et non subventionné. Le guide en donne un barème selon la durée du camp ; la Sardine et la check-list MSdS disent au plus un jour sans activités J+S, limite qui vise le jour sans aucune activité J+S.
 - **Temps d'activité sportive (TS)** — temps d'une activité J+S passé en activité physique d'intensité moyenne à très élevée ; indiqué par activité, dès 30 min, par tranches de 15 min.
 - **Autre activité** — activité du programme non déclarée J+S (veillée, bivouac).
 - **Forme caractéristique** — forme idéale des mouvements et comportements du SdC/T ; repère de planification.
