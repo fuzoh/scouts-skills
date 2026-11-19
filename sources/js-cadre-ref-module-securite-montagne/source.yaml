@@ -1,0 +1,40 @@
+# Registre d'une source. Copier dans sources/<id>/source.yaml.
+# Les champs marqués (script) sont remplis par scripts/ingest ; ne pas éditer à la main.
+
+id: js-cadre-ref-module-securite-montagne # <issuer>-<slug>, stable, voir METHODE.md
+title: Cadre de référence – Module J+S Domaine de sécurité Montagne Sport de camp/Trekking
+issuer: js                              # msds | cofor | js | cudesch | autre
+issuer_detail: ''                       # obligatoire si issuer = autre
+ref: 107.01.fr                          # numéro officiel, "" si absent
+lang: fr                                # fr | de | en (autre que fr seulement sans équivalent fr)
+type: pdf                               # pdf | docx | xlsx | pptx | web | image
+url: ''                                 # page d'origine canonique (pas le lien direct au fichier si une page existe)
+file_url: ''                            # lien direct au fichier, "" pour web
+web_pages: []                           # (script) web seulement : {url, title, slug}, une entrée par page
+
+status: indexed                       # collected | triaged | converted | indexed | verified | superseded | rejected
+decision: keep                            # keep | rejected, rempli au triage
+rejected_reason: ''
+extraction: text                        # text | vision | catalogue | none, posé au triage (voir METHODE.md)
+fidelity: partial                          # complete | partial ; vide = complete non évalué ; obligatoire à verified
+fidelity_notes: 'Chapitre §5 (p.8-14, objectifs du module) : les tableaux à cinq colonnes (thème, n°, objectifs, propositions de contenus, ressources disponibles) sont rendus en blocs séparés. Le texte des objectifs numérotés (1.1 à 3.x) est complet et dans l''ordre, mais l''alignement ligne par ligne entre objectif, propositions de contenus et ressources est perdu ; les thèmes sont des étiquettes isolées ; les liens des ressources sont éclatés ; le contenu d''une ligne peut passer à la page suivante. Ne pas déduire quelle proposition de contenu correspond à quel objectif. Chapitres 1 à 4 : complets.'                      # motif obligatoire si partial, ex. « cases de niveau perdues p.2-4 »
+
+version: '1.0'                          # telle qu'écrite par l'éditeur, "" si inconnue ; web : date retrieved
+published: null                         # date du document, null si inconnue
+retrieved: 2026-11-19                   # (script) date de téléchargement
+sha256: 3bf0e12f0319d492c3c2dc48f89d42f18e6c00c9d6c4489b203aa428994bc652 # (script)
+pages: 14                               # (script) pages PDF, diapos pptx, 0 sinon
+stale: false                            # (script) true si le distant a changé
+applies_from: 2027-01-01                      # AAAA-MM-JJ, sources prescriptives seulement : début d'application
+applies_until: null                     # AAAA-MM-JJ, sources prescriptives seulement : fin d'application
+nature: prescription                            # prescription | recommandation | exemple, sources prescriptives seulement
+
+audience: [expert-js, formateur]        # responsable | formateur | expert-js | coach-js | cadre-cantonal
+themes: [formation, securite]           # vocabulaire dans docs/taxonomie.md
+concepts: [sport-de-camp, montagne, securite, qualification, objectifs-d-apprentissage, niveau-d-approfondissement, methode-3x3]                            # termes du GLOSSARY.md, ex. [cours-de-base, qualification]
+
+supersedes: []                          # ids remplacés par cette source
+history: []                             # versions précédentes : {version, published, sha256, retired}
+
+notes: 'Cadre de référence J+S Sport de camp/Trekking pour expert·e·s (OFSPO, 105-107.01.fr, version 1.0), contraignant : seuls les objectifs du module le sont, contenus et ressources sont indicatifs. Cadre de 2027, application dès le 2027-01-01 déduite : cadres de référence 2027, le document ne donne pas de date. Document extranet J+S ILIAS derrière login : url et file_url laissés vides. Le texte est bon (chapitres 1 à 4) ; p.1 couverture et p.2 table des matières (dans la section 01, ignorer). Contenu : fiche du module Domaine de sécurité Montagne (durée 4 jours / 24 h, admission, qualification, reconnaissance), principes d''encouragement et d''évaluation, objectifs du module par domaine de compétences. Objectifs 1.1-1.9, 2.1-2.5, 3.1-3.5 (randonnées de plusieurs jours, échelle CAS, nuitée au-dessus de la limite des arbres).'                               # remarques humaines : qualité, pièges, chapitres à ignorer
+redactions: []                          # caviardage appliqué par convert, redact et split : {section: NN-slug, pattern: regex, replace}

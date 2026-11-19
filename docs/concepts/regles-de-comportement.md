@@ -10,6 +10,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-activites-de-qualite-encourager@2025` — Des activités J+S de qualité – Encourager (jeu de cartes) (8 sections, [index](../../sources/js-activites-de-qualite-encourager/index.md))
 - `js-activites-de-qualite-innover@2025` — Des activités J+S de qualité – Innover et Se soucier de l'entourage (jeu de cartes) (10 sections, [index](../../sources/js-activites-de-qualite-innover/index.md))
 - `js-aide-memoire-racisme` — Comprendre, identifier et combattre le racisme dans le sport (aide-mémoire J+S/esa) (1 section, [index](../../sources/js-aide-memoire-racisme/index.md))
+- `js-cadre-ref-module-prevention@1.0` — Cadre de référence – Module J+S « Prévention » Sport de camp/Trekking (2 sections, [index](../../sources/js-cadre-ref-module-prevention/index.md))
 - `js-ethique-diapositives` — Des activités J+S respectueuses des valeurs éthiques (diapositives pour les fédérations) (1 section, [index](../../sources/js-ethique-diapositives/index.md))
 - `js-ethique-formation-de-base` — Bloc de cours Valeurs et éthique – formation de moniteur·rice J+S (pour expert·e·s) (1 section, [index](../../sources/js-ethique-formation-de-base/index.md))
 - `js-ethique-module-chef-de-camp` — Bloc de cours Valeurs et éthique – module Chef·fe de camp (pour expert·e·s) (1 section, [index](../../sources/js-ethique-module-chef-de-camp/index.md))
@@ -26,4 +27,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[ethique](ethique.md), [methodes-d-enseignement](methodes-d-enseignement.md), [psa](psa.md), [expert-js](expert-js.md), [boussole-ethique](boussole-ethique.md), [violence](violence.md), [inclusion](inclusion.md), [coach-js](coach-js.md)
+[ethique](ethique.md), [psa](psa.md), [methodes-d-enseignement](methodes-d-enseignement.md), [expert-js](expert-js.md), [boussole-ethique](boussole-ethique.md), [violence](violence.md), [inclusion](inclusion.md), [coach-js](coach-js.md)

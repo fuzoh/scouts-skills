@@ -12,6 +12,7 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cudesch-camp-infos-urgence@2018` — Feuille d'informations en cas d'urgence pour les participants (formulaire) (1 section, [index](../../sources/cudesch-camp-infos-urgence/index.md))
 - `cudesch-etre-responsable@2026-10-17` — Être responsable – agir consciemment (35 sections, [index](../../sources/cudesch-etre-responsable/index.md))
 - `cudesch-smt@2026-10-17` — SMT – Scout·e·s Malgré Tout (35 sections, [index](../../sources/cudesch-smt/index.md))
+- `js-cadre-ref-module-prevention@1.0` — Cadre de référence – Module J+S « Prévention » Sport de camp/Trekking (2 sections, [index](../../sources/js-cadre-ref-module-prevention/index.md))
 - `js-ethique-diapositives` — Des activités J+S respectueuses des valeurs éthiques (diapositives pour les fédérations) (1 section, [index](../../sources/js-ethique-diapositives/index.md))
 - `js-ethique-proximite-soutien@2026-10-17` — Un sport respectueux des valeurs éthiques : proximité et soutien dans la pratique sportive (1 section, [index](../../sources/js-ethique-proximite-soutien/index.md))
 - `js-violence-dans-le-sport@2008` — La violence dans le sport (13 sections, [index](../../sources/js-violence-dans-le-sport/index.md))
@@ -23,4 +24,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[regles-de-comportement](regles-de-comportement.md), [branches](branches.md), [securite](securite.md), [administration-de-cours](administration-de-cours.md), [inclusion](inclusion.md), [ethique](ethique.md), [smt](smt.md), [communication](communication.md)
+[regles-de-comportement](regles-de-comportement.md), [branches](branches.md), [securite](securite.md), [ethique](ethique.md), [administration-de-cours](administration-de-cours.md), [inclusion](inclusion.md), [smt](smt.md), [communication](communication.md)
