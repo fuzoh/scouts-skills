@@ -10,6 +10,9 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cofor-liste-buts-cours-base` — Tes buts personnels après ce cours de base (1 section, [index](../../corpus/cofor-liste-buts-cours-base/index.md))
 - `cudesch-glossaire@2018` — cudesch – glossaire des dénominations scoutes (2 sections, [index](../../corpus/cudesch-glossaire/index.md))
 - `cudesch-table-des-matieres` — cudesch – table des matières détaillée, avec correspondance aux contenus des cours de base et RU (1 section, [index](../../corpus/cudesch-table-des-matieres/index.md))
+- `js-cadre-ref-cours-introduction@1.0` — Cadre de référence – Cours introduction J+S Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-cours-introduction/index.md))
+- `js-cadre-ref-cours-moniteurs@1.0` — Cadre de référence – Cours de moniteur·rice·s J+S Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-cours-moniteurs/index.md))
+- `js-cadre-ref-cours-moniteurs-ped@1.0` — Cadre de référence – Cours de moniteur·rice·s J+S pour personnes avec formation péd. Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-cours-moniteurs-ped/index.md))
 - `msds-caisse-de-cours@2026` — Contenu MSdS caisses de cours 2026 (1 section, [index](../../corpus/msds-caisse-de-cours/index.md))
 - `msds-commande-hajk` — Commande hajk – formulaire de commande de matériel pour les cours (1 section, [index](../../corpus/msds-commande-hajk/index.md))
 - `msds-modele-de-formation@Version 2027` — Modèle de formation du Mouvement Scout de Suisse – directives générales, structure de la formation et descriptifs des cours (42 sections, [index](../../corpus/msds-modele-de-formation/index.md))
@@ -18,4 +21,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[cours-ru](cours-ru.md), [modele-de-formation](modele-de-formation.md), [branches](branches.md), [administration-de-cours](administration-de-cours.md), [caf](caf.md), [niveau-d-approfondissement](niveau-d-approfondissement.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [inclusion](inclusion.md)
+[cours-ru](cours-ru.md), [niveau-d-approfondissement](niveau-d-approfondissement.md), [objectifs-d-apprentissage](objectifs-d-apprentissage.md), [modele-de-formation](modele-de-formation.md), [branches](branches.md), [camp](camp.md), [securite](securite.md), [qualification](qualification.md)

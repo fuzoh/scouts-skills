@@ -30,7 +30,7 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | `camp-orientation-et-meteo.md` | Carte nationale, boussole, GPS, altimètre, temps de marche, météo, orage, méthode NORDA, course d'orientation, randonnée avec enfants |
 | `securite-corde-et-constructions.md` | Corde, contrôle, nœuds, tyrolienne, pont de singe, rappel ; constructions de camp (sarasine, mât, tour, cuisine, latrines, tentes), tempête |
 | `securite-domaines.md` | Seuils et définitions montagne, hiver, eau, formation exigée par lieu, validité des compléments, exigences communes, corde, constructions, baignade |
-| `securite-eau-pratique.md` | Activité à l'eau avec enfants, surveillance, test CSA, noyade, jeux, urgence, module J+S Eau, module de sécurité, SSS, BLS-AED, équivalences, coûts |
+| `securite-eau-pratique.md` | Activité à l'eau avec enfants, surveillance, test CSA, noyade, jeux, atlas des rivières, urgence, module J+S Eau, module de sécurité, SSS, BLS-AED, coûts |
 | `securite-facteur-humain.md` | Erreurs de maîtrises expérimentées, perception, pression du groupe, décider et renoncer, devoir de protection et de diligence, responsabilité |
 | `securite-randonnee.md` | Randonnée sûre, temps de marche (kme/h), sorties, demi-tour, non-retour, passages clés, rôles de marche |
 | `securite.md` | CdS : quand il est requis, trois types, contenu ; 3x3, cycle J+S identifier-classifier-adapter, matrice ; aide à la décision J+S ; circulation routière et vélo |
@@ -87,6 +87,7 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | fichier | sert à |
 |---|---|
 | `formation-administration.md` | Délais de cours, annonce, sommaire des UA, programme détaillé, autorisation, évaluation EvalJS, matériel de prêt, MiData, BDNS, saisie des qualifications |
+| `formation-cadres-reference-js.md` | Cadres de référence J+S 2027 : cours de moniteurs, introduction, Responsable de camp, modules thématiques ; durée, admission, reconnaissance, objectifs |
 | `formation-checklists-cours.md` | Check-lists cofor 2027, cours de base, cours RU, approfondissements Castors, Louveteaux, Éclais, Picos, Route, durées minimales J+S, buts personnels |
 | `formation-communication.md` | Quatre becs et quatre oreilles, axiomes, consigne, écoute, message je, animer une séance, perturbations, conflit, parler en public, non verbal |
 | `formation-cours-base.md` | Cours RP, Picos, Futura, SdC/T, cours de base, cours RU : conditions, buts, objectifs numérotés, niveaux d'approfondissement |
@@ -95,6 +96,7 @@ Généré par `light index`, ne pas éditer. Repérer la rubrique, puis lire le 
 | `formation-expert-js.md` | Expert J+S, posture, conseiller un moniteur, trois recommandations, entretien en cinq temps, qualifier, modules MPE 2027, expert coach |
 | `formation-finances-et-materiel.md` | Budget, acompte, décompte de cours fédéral, tarifs maximaux, caisse de cours, hajk, inscription Ticket, MiData, BDNS, Pilote, numéro de cours, SSS |
 | `formation-methodes-animation.md` | Méthodes en mouvement, FRTE, images fixes, vidéo, feed-back par l'image, séquences numériques, Communagir, Liberating Structures (non officiel) |
+| `formation-modules-securite.md` | Modules de sécurité Hiver, Eau, Montagne : admission, complément, objectifs, validation, différence avec le module d'un jour, autorisation, avant 2027 |
 | `formation-pano-et-rg.md` | Cours Panorama (projet, processus de groupe, numéros de cours), cours RG (planification, équipe, contenus), distinction RU, Pano, coach, Spectre, Gilwell |
 | `formation-qualification-grille.md` | Construire une grille de qualification : huit étapes, sphères, critères, indicateurs, barème, pondération, seuils, critères éliminatoires, tableur Excel |
 | `formation-rqa.md` | Qualification, observations, retours, entretiens, accompagnement, exigences minimales, décision réussi / non réussi, séquencé ou continu |

@@ -23,6 +23,8 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `cudesch-camp-liste-delais@2018` — Liste des délais pour l'annonce de camp (formulaire interactif) (1 section, [index](../../corpus/cudesch-camp-liste-delais/index.md))
 - `cudesch-camp-reco-sous-tentes@2018` — Rapport de reconnaissance pour un camp sous tentes (formulaire) (1 section, [index](../../corpus/cudesch-camp-reco-sous-tentes/index.md))
 - `cudesch-camp-reco-sous-toit@2018` — Rapport de reconnaissance pour un camp sous toit (formulaire) (1 section, [index](../../corpus/cudesch-camp-reco-sous-toit/index.md))
+- `js-autorisation-modules-securite` — Autorisation des modules J+S Sport de camp/Trekking Domaines de sécurité montagne, hiver et eau (1 section, [index](../../corpus/js-autorisation-modules-securite/index.md))
+- `js-cadre-ref-module-responsable-camp@1.0` — Cadre de référence – Module J+S « Responsable de camp » Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-module-responsable-camp/index.md))
 - `js-manuel-coach@2023` — Manuel des coachs J+S (15 sections, [index](../../corpus/js-manuel-coach/index.md))
 - `msds-ancre@Version 23` — L'Ancre – fil conducteur pour l'administration des cours MSdS (19 sections, [index](../../corpus/msds-ancre/index.md))
 - `msds-caisse-de-cours@2026` — Contenu MSdS caisses de cours 2026 (1 section, [index](../../corpus/msds-caisse-de-cours/index.md))
@@ -34,4 +36,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[caf](caf.md), [financement](financement.md), [modele-de-formation](modele-de-formation.md), [chef-de-cours](chef-de-cours.md), [securite](securite.md), [planification](planification.md), [camp](camp.md), [qualification](qualification.md)
+[caf](caf.md), [financement](financement.md), [modele-de-formation](modele-de-formation.md), [securite](securite.md), [chef-de-cours](chef-de-cours.md), [camp](camp.md), [qualification](qualification.md), [planification](planification.md)

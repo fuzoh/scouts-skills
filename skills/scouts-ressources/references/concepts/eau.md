@@ -6,11 +6,16 @@ Activités aquatiques à risque élevé, planifiées avec la méthode 3x3 et un 
 
 Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour choisir la section.
 
+- `autre-armee-cartes-rivieres@2011-04-01` — Erkundung und Befahren von Flüssen – Flusskarten (reconnaissance et navigation des rivières, cartes fluviales) (0 sections, [index](../../corpus/autre-armee-cartes-rivieres/index.md))
 - `autre-water-safety-cartes@2020` — Set de cartes Water Safety (BPA) (10 sections, [index](../../corpus/autre-water-safety-cartes/index.md))
 - `cofor-guide-admin-formations-eau` — Eau – formations spécifiques. Guide d'administration pour les responsables de cours et les secrétariats cantonaux (1 section, [index](../../corpus/cofor-guide-admin-formations-eau/index.md))
 - `cudesch-securite@2026-10-17` — La sécurité – assumer des responsabilités (38 sections, [index](../../corpus/cudesch-securite/index.md))
 - `js-aide-memoire-prevention-accidents-sct@2025` — Prévention des accidents et exigences en matière de sécurité en sport de camp/trekking (aide-mémoire J+S et BPA) (5 sections, [index](../../corpus/js-aide-memoire-prevention-accidents-sct/index.md))
 - `js-aide-memoire-securite-eau@2024` — Aide-mémoire Sécurité Eau pour les moniteur·ice·s de Sport de camp/Trekking (1 section, [index](../../corpus/js-aide-memoire-securite-eau/index.md))
+- `js-autorisation-modules-securite` — Autorisation des modules J+S Sport de camp/Trekking Domaines de sécurité montagne, hiver et eau (1 section, [index](../../corpus/js-autorisation-modules-securite/index.md))
+- `js-cadre-ref-module-eau@1.0` — Cadre de référence – Module J+S « Eau » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-eau/index.md))
+- `js-cadre-ref-module-securite-eau@1.0` — Cadre de référence – Module J+S Domaine de sécurité Eau Sport de camp/Trekking (6 sections, [index](../../corpus/js-cadre-ref-module-securite-eau/index.md))
+- `js-docs-module-securite-eau-2014` — Documents du module « Domaine de sécurité Eau » – Sport de camp/Trekking (2014) (1 section, [index](../../corpus/js-docs-module-securite-eau-2014/index.md))
 - `js-guide-offres-sct@2023` — Guide pour la réalisation d'offres J+S Sport de camp/Trekking (1 section, [index](../../corpus/js-guide-offres-sct/index.md))
 - `js-module-securite-planification@2026-10-21` — Sécurité dans la planification (module d'apprentissage J+S SdC/T) (1 section, [index](../../corpus/js-module-securite-planification/index.md))
 - `js-sdct-eau@2019, 2e édition actualisée` — Sport de camp/Trekking – Eau (15 sections, [index](../../corpus/js-sdct-eau/index.md))
@@ -22,4 +27,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[securite](securite.md), [hiver](hiver.md), [montagne](montagne.md), [sport-de-camp](sport-de-camp.md), [methode-3x3](methode-3x3.md), [expert-js](expert-js.md), [premiers-secours](premiers-secours.md), [js](js.md)
+[securite](securite.md), [sport-de-camp](sport-de-camp.md), [hiver](hiver.md), [montagne](montagne.md), [methode-3x3](methode-3x3.md), [expert-js](expert-js.md), [premiers-secours](premiers-secours.md), [js](js.md)

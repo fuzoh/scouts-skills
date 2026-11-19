@@ -3,13 +3,14 @@
 - version : 0.8.0 <!-- x-release-please-version -->
 - source : https://github.com/fuzoh/scouts-skills
 - scope : complet
-- sources : 194
-- sections : 1744
+- sources : 215
+- sections : 1820
 - référentiels : 5
 
 ## Sources embarquées
 
 - `autre-aide-memoire-toile-de-tente`
+- `autre-armee-cartes-rivieres@2011-04-01`
 - `autre-autorisation-camp-vaud@2024`
 - `autre-camp-equitable-documents`
 - `autre-canevas-ac-vierge`
@@ -87,7 +88,24 @@
 - `js-aide-memoire-securite-eau@2024`
 - `js-apprentissage-dans-le-sport@2012`
 - `js-apprentissage-en-mouvement@2013`
+- `js-autorisation-modules-securite`
 - `js-bases-technique-sportive-sdct`
+- `js-cadre-ref-cours-introduction@1.0`
+- `js-cadre-ref-cours-moniteurs@1.0`
+- `js-cadre-ref-cours-moniteurs-ped@1.0`
+- `js-cadre-ref-module-activites-sdct@1.0`
+- `js-cadre-ref-module-cordes-constructions@1.0`
+- `js-cadre-ref-module-diversite-inclusion@1.0`
+- `js-cadre-ref-module-durabilite@1.0`
+- `js-cadre-ref-module-eau@1.0`
+- `js-cadre-ref-module-hiver@1.0`
+- `js-cadre-ref-module-montagne@1.0`
+- `js-cadre-ref-module-nature-environnement@1.0`
+- `js-cadre-ref-module-prevention@1.0`
+- `js-cadre-ref-module-responsable-camp@1.0`
+- `js-cadre-ref-module-securite-eau@1.0`
+- `js-cadre-ref-module-securite-hiver@1.0`
+- `js-cadre-ref-module-securite-montagne@1.0`
 - `js-checklist-coach`
 - `js-checklist-sapc-coach`
 - `js-checklist-sapc-responsable-camp`
@@ -101,6 +119,9 @@
 - `js-cyclisme-vtt@2017`
 - `js-depliant-facteur-humain@2019`
 - `js-developpement-equipe-moniteurs`
+- `js-docs-module-securite-eau-2014`
+- `js-docs-module-securite-hiver-2014`
+- `js-docs-module-securite-montagne-2014`
 - `js-emploi-images-apprentissage@2014`
 - `js-ethique-diapositives`
 - `js-ethique-formation-de-base`

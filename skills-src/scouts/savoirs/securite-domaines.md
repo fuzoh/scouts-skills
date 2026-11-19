@@ -2,7 +2,7 @@
 titre: Domaines de sécurité J+S, eau, corde, constructions et baignade
 theme: securite
 sert_a: "Seuils et définitions montagne, hiver, eau, formation exigée par lieu, validité des compléments, exigences communes, corde, constructions, baignade"
-derive_de: [cudesch-securite, js-aide-memoire-prevention-accidents-sct, js-securite-sport-de-camp-trekking, js-sdct-montagne, js-sdct-hiver, js-sdct-eau, js-aide-memoire-securite-eau, "concepts: montagne, eau, hiver, securite"]
+derive_de: [cudesch-securite, js-aide-memoire-prevention-accidents-sct, js-securite-sport-de-camp-trekking, js-sdct-montagne, js-sdct-hiver, js-sdct-eau, js-aide-memoire-securite-eau, js-cadre-ref-module-securite-hiver, js-cadre-ref-module-securite-eau, js-cadre-ref-module-securite-montagne, "concepts: montagne, eau, hiver, securite"]
 statut: valide
 ---
 
@@ -24,7 +24,7 @@ La cabane ne figure que dans le cudesch : une nuitée en cabane au-dessus de la 
 - Jeunes de 10 à 20 ans seulement, jamais des enfants de moins de 10 ans.
 - Il est toujours plus sûr de faire ce dont on se sent capable que ce qui est autorisé.
 
-**Validité du complément** (infolettre J+S aux experts SdC/T du 17.11.2026) : depuis le 01.01.2026, la validité des reconnaissances supplémentaires Montagne, Eau, Hiver est limitée à quatre ans. Renouvellement par une formation continue dans le domaine de la sécurité, par exemple en suivant ou en co-dirigeant un module J+S pertinent (Montagne, Eau ou Hiver) ; les experts ont des possibilités supplémentaires dans les MP-Exp. Le point de départ des quatre ans pour un complément obtenu avant 2026 n'est pas précisé : demander au coach.
+**Obtenir et garder le complément** : le module J+S Domaine de sécurité du domaine (4 jours, cours de sauveteur exigé) donne le complément ; sa réussite prolonge aussi les compléments des deux autres domaines (cadres de référence J+S 2027). Un module thématique d'un jour (Hiver, Eau, Montagne) ne donne aucun complément. Détail, admission et autorisation d'un module : (formation-modules-securite). Validité (infolettre J+S aux experts SdC/T du 17.11.2026, pas les cadres) : depuis le 01.01.2026, quatre ans ; renouvellement par une formation continue dans le domaine de la sécurité, par exemple en suivant ou en co-dirigeant un module J+S pertinent (Montagne, Eau ou Hiver) ; les experts ont des possibilités supplémentaires dans les MP-Exp. Le point de départ des quatre ans pour un complément obtenu avant 2026 n'est pas précisé : demander au coach.
 
 **Montagne** : T1 à T3 admis avec l'expérience et les connaissances nécessaires. Pour la T3, il est recommandé d'avoir le complément Montagne ou une expérience de la randonnée en montagne avec des groupes. Non autorisé avec une reconnaissance sport de camp / trekking : randonnées alpines dès T4 et alpinisme ; randonnées qui demandent la technique alpine (escalade avec corde, rappel) pour franchir des obstacles ; glaciers ; via ferrata.
 

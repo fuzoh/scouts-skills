@@ -7,6 +7,7 @@ _Définition à écrire dans `GLOSSARY.md` (colonne slug)._
 Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour choisir la section.
 
 - `autre-aide-memoire-toile-de-tente` — Aide-mémoire pour l'utilisation des toiles de tente 64 et J+S (1 section, [index](../../corpus/autre-aide-memoire-toile-de-tente/index.md))
+- `autre-armee-cartes-rivieres@2011-04-01` — Erkundung und Befahren von Flüssen – Flusskarten (reconnaissance et navigation des rivières, cartes fluviales) (0 sections, [index](../../corpus/autre-armee-cartes-rivieres/index.md))
 - `autre-canevas-ac-vierge` — Canevas vierge d'activité de camp (AC), modèle de groupe dérivé du modèle J+S (1 section, [index](../../corpus/autre-canevas-ac-vierge/index.md))
 - `autre-canevas-sc-vierge` — Canevas vierge de sport de camp (SC), modèle de groupe dérivé du modèle J+S (1 section, [index](../../corpus/autre-canevas-sc-vierge/index.md))
 - `autre-water-safety-cartes@2020` — Set de cartes Water Safety (BPA) (10 sections, [index](../../corpus/autre-water-safety-cartes/index.md))
@@ -35,11 +36,26 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 - `js-aide-memoire-prevention-accidents-co@2023` — Prévention des accidents en course d'orientation (aide-mémoire J+S) (1 section, [index](../../corpus/js-aide-memoire-prevention-accidents-co/index.md))
 - `js-aide-memoire-prevention-accidents-sct@2025` — Prévention des accidents et exigences en matière de sécurité en sport de camp/trekking (aide-mémoire J+S et BPA) (5 sections, [index](../../corpus/js-aide-memoire-prevention-accidents-sct/index.md))
 - `js-aide-memoire-securite-eau@2024` — Aide-mémoire Sécurité Eau pour les moniteur·ice·s de Sport de camp/Trekking (1 section, [index](../../corpus/js-aide-memoire-securite-eau/index.md))
+- `js-autorisation-modules-securite` — Autorisation des modules J+S Sport de camp/Trekking Domaines de sécurité montagne, hiver et eau (1 section, [index](../../corpus/js-autorisation-modules-securite/index.md))
+- `js-cadre-ref-cours-introduction@1.0` — Cadre de référence – Cours introduction J+S Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-cours-introduction/index.md))
+- `js-cadre-ref-cours-moniteurs@1.0` — Cadre de référence – Cours de moniteur·rice·s J+S Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-cours-moniteurs/index.md))
+- `js-cadre-ref-module-activites-sdct@1.0` — Cadre de référence – Module J+S « Activités SdC/T » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-activites-sdct/index.md))
+- `js-cadre-ref-module-cordes-constructions@1.0` — Cadre de référence – Module J+S « Technique de cordes et constructions » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-cordes-constructions/index.md))
+- `js-cadre-ref-module-eau@1.0` — Cadre de référence – Module J+S « Eau » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-eau/index.md))
+- `js-cadre-ref-module-hiver@1.0` — Cadre de référence – Module J+S « Hiver » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-hiver/index.md))
+- `js-cadre-ref-module-montagne@1.0` — Cadre de référence – Module J+S « Montagne » Sport de camp/Trekking (2 sections, [index](../../corpus/js-cadre-ref-module-montagne/index.md))
+- `js-cadre-ref-module-responsable-camp@1.0` — Cadre de référence – Module J+S « Responsable de camp » Sport de camp/Trekking (9 sections, [index](../../corpus/js-cadre-ref-module-responsable-camp/index.md))
+- `js-cadre-ref-module-securite-eau@1.0` — Cadre de référence – Module J+S Domaine de sécurité Eau Sport de camp/Trekking (6 sections, [index](../../corpus/js-cadre-ref-module-securite-eau/index.md))
+- `js-cadre-ref-module-securite-hiver@1.0` — Cadre de référence – Module J+S Domaine de sécurité Hiver Sport de camp/Trekking (6 sections, [index](../../corpus/js-cadre-ref-module-securite-hiver/index.md))
+- `js-cadre-ref-module-securite-montagne@1.0` — Cadre de référence – Module J+S Domaine de sécurité Montagne Sport de camp/Trekking (6 sections, [index](../../corpus/js-cadre-ref-module-securite-montagne/index.md))
 - `js-checklist-sapc-coach` — Check-list coach – séquences d'activité physique complémentaires (SAPC) (1 section, [index](../../corpus/js-checklist-sapc-coach/index.md))
 - `js-checklist-sapc-responsable-camp` — Check-list responsable de camp – séquences d'activité physique complémentaires (SAPC) (1 section, [index](../../corpus/js-checklist-sapc-responsable-camp/index.md))
 - `js-conception-js@2022` — Conception Jeunesse+Sport (version abrégée) (8 sections, [index](../../corpus/js-conception-js/index.md))
 - `js-cyclisme-vtt@2017` — Cyclisme – VTT (38 sections, [index](../../corpus/js-cyclisme-vtt/index.md))
 - `js-depliant-facteur-humain@2019` — Facteur humain – activités de plein air en sécurité (dépliant J+S) (9 sections, [index](../../corpus/js-depliant-facteur-humain/index.md))
+- `js-docs-module-securite-eau-2014` — Documents du module « Domaine de sécurité Eau » – Sport de camp/Trekking (2014) (1 section, [index](../../corpus/js-docs-module-securite-eau-2014/index.md))
+- `js-docs-module-securite-hiver-2014` — Documents du module « Domaine de sécurité Hiver » – Sport de camp/Trekking (2014) (1 section, [index](../../corpus/js-docs-module-securite-hiver-2014/index.md))
+- `js-docs-module-securite-montagne-2014` — Documents du module « Domaine de sécurité Montagne » – Sport de camp/Trekking (2014) (1 section, [index](../../corpus/js-docs-module-securite-montagne-2014/index.md))
 - `js-exemple-course-orientation-photos` — 3.3 Course d'orientation photos (exemple d'activité SC/T) (1 section, [index](../../corpus/js-exemple-course-orientation-photos/index.md))
 - `js-exemple-randonnee-nuitee` — Randonnée avec nuitée – exemple de dossier pour la formation (1 section, [index](../../corpus/js-exemple-randonnee-nuitee/index.md))
 - `js-kids-randonnee-avec-enfants@2010` — Aide-mémoire J+S-Kids « Randonnée avec des enfants » (2 sections, [index](../../corpus/js-kids-randonnee-avec-enfants/index.md))
@@ -73,4 +89,4 @@ Chaque source porte le concept dans son `source.yaml` ; ouvrir `index.md` pour c
 
 ## Concepts liés
 
-[planification](planification.md), [camp](camp.md), [sport-de-camp](sport-de-camp.md), [trekking](trekking.md), [activite-de-camp](activite-de-camp.md), [premiers-secours](premiers-secours.md), [coach-js](coach-js.md), [jeu](jeu.md)
+[sport-de-camp](sport-de-camp.md), [planification](planification.md), [camp](camp.md), [qualification](qualification.md), [methode-3x3](methode-3x3.md), [trekking](trekking.md), [activite-de-camp](activite-de-camp.md), [eau](eau.md)

@@ -15,4 +15,4 @@ toc_source: agent
 - §5 Objectifs du cours p.8-15 → 06-objectifs.md : renvoi aux trois tableaux d’objectifs du cours par domaine de compétences (thème, numéro, objectif, propositions de contenus, ressources)
   - S’engager comme moniteur·rice J+S p.8-9 → 07-domaine-s-engager.md : tableau d’objectifs 1.1 à 1.8 : conception J+S, formation continue, éthique, planification et administration de camp avec le coach
   - Comprendre le Sport de camp/Trekking p.10 → 08-domaine-comprendre.md : tableau d’objectifs 2.1 à 2.5 : formes caractéristiques et d’activité, formes fondamentales, techniques de base
-  - Enseigner le Sport de camp/Trekking p.11-15 → 09-domaine-enseigner.md : tableau d’objectifs 3.1 à 3.9 : programme, excursions, planification de camp avec la maîtrise, temps forts, direction de camp, sécurité, encadrement
+  - Enseigner le Sport de camp/Trekking p.11-15 → 09-domaine-enseigner.md : tableau d’objectifs 3.1 à 3.8 : programme, excursions, planification de camp avec la maîtrise, temps forts, direction de camp, sécurité, encadrement

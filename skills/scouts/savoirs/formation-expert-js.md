@@ -8,7 +8,7 @@ statut: valide
 
 ## Ce que ce savoir couvre
 
-Le manuel J+S pour les experts (édition 2024) décrit le métier d'expert dans toute la formation de cadres J+S, pas seulement chez les scouts. Ce savoir en retient ce qui sert dans un cours scout lié à J+S (cours de base, cours Top, modules) et lors de la visite d'une activité de camp. Qui est expert, combien il en faut par tranche de 12 participants et qui lit les domaines de sécurité : (formation) et (js-roles). Méthode de qualification, exigences minimales, séquencé ou continu : (formation-rqa). Ici : la posture, l'accompagnement, les entretiens et le perfectionnement.
+Le manuel J+S pour les experts (édition 2024) décrit le métier d'expert dans toute la formation de cadres J+S, pas seulement chez les scouts. Ce savoir en retient ce qui sert dans un cours scout lié à J+S (cours de base, cours Top, modules) et lors de la visite d'une activité de camp. Qui est expert, combien il en faut par tranche de 12 participants et qui lit les domaines de sécurité : (formation) et (js-roles). Méthode de qualification, exigences minimales, séquencé ou continu : (formation-rqa). Ici : la posture, l'accompagnement, les entretiens et le perfectionnement. Objectifs contraignants des cours et modules qu'il dirige : (formation-cadres-reference-js).
 
 ## Changement de perspective
 
